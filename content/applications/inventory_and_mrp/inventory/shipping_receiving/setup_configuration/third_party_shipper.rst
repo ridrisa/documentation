@@ -30,14 +30,14 @@ The following is a list of available shipping connectors in Odoo:
      - Region availability
    * - :doc:`FedEx <fedex>`
      - All
-   * - :doc:`DHL Express* <dhl_credentials>`
+   * - :doc:`DHL Express <dhl_credentials>`
      - All
    * - :doc:`UPS <ups_credentials>`
      - All
    * - US Postal Service
      - United States of America
    * - :doc:`Sendcloud <sendcloud_shipping>`
-     - :ref:`EU** <inventory/shipping_receiving/sendcloud-eu>`
+     - Some European countries (see details below)
    * - :doc:`Bpost <bpost>`
      - Belgium
    * - Easypost
@@ -45,15 +45,12 @@ The following is a list of available shipping connectors in Odoo:
    * - Shiprocket
      - India
    * - :doc:`Starshipit <starshipit_shipping>`
-     - Australasia
-
-.. _inventory/shipping_receiving/sendcloud-eu:
+     - Australia and New Zealand
 
 .. important::
+   Other services from DHL are **not** supported.
 
-   \* Other services from DHL are **not** supported.
-
-   ** Sendcloud currently supports shipping **from** Austria, Belgium, France, Germany, Italy, the
+   Sendcloud currently supports shipping **from** Austria, Belgium, France, Germany, Italy, the
    Netherlands, Spain, and the United Kingdom, and **to** any European country.
 
 Configuration
@@ -111,6 +108,8 @@ delivery method.
    publish a delivery method on the website, click the desired delivery method, then click the
    :guilabel:`Unpublished` smart button. Doing so changes that smart button to read:
    :guilabel:`Published`.
+
+.. _inventory/shipping_receiving/shipping-methods-details:
 
 The :guilabel:`Shipping Method` page contains details about the provider, including:
 
@@ -215,6 +214,8 @@ the :guilabel:`Logistics` section.
 .. image:: third_party_shipper/product-weight.png
    :align: center
    :alt: Display the "Weight" field in the Inventory tab of the product form.
+
+.. _inventory/shipping_receiving/apply-third-party-carrier:
 
 Apply third-party shipping carrier
 ==================================

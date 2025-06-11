@@ -6,17 +6,18 @@
 # Translators:
 # Karol Rybak <karolrybak85@gmail.com>, 2024
 # Tadeusz Karpiński <tadeuszkarpinski@gmail.com>, 2024
-# Marta Waclawek, 2024
 # Wil Odoo, 2024
+# Andrzej Gerasimuk, 2024
+# Marta Wacławek, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-24 10:43+0000\n"
+"POT-Creation-Date: 2024-12-02 12:38+0000\n"
 "PO-Revision-Date: 2024-03-30 23:40+0000\n"
-"Last-Translator: Wil Odoo, 2024\n"
+"Last-Translator: Marta Wacławek, 2025\n"
 "Language-Team: Polish (https://app.transifex.com/odoo/teams/41243/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -369,6 +370,10 @@ msgstr ""
 msgid ":doc:`appraisals/appraisal_analysis`"
 msgstr ""
 
+#: ../../content/applications/hr/appraisals.rst:177
+msgid ":doc:`appraisals/skills_evolution`"
+msgstr ""
+
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:3
 msgid "Appraisal analysis"
 msgstr ""
@@ -444,7 +449,7 @@ msgstr ""
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:24
 msgid "Gray"
-msgstr ""
+msgstr "Szary"
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:24
 msgid ":guilabel:`To Start`"
@@ -599,10 +604,12 @@ msgid ""
 msgstr ""
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:114
+#: ../../content/applications/hr/appraisals/skills_evolution.rst:102
 msgid ":doc:`Odoo essentials reporting <../../essentials/reporting>`"
 msgstr ""
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:115
+#: ../../content/applications/hr/appraisals/skills_evolution.rst:103
 msgid ":doc:`../../essentials/search`"
 msgstr ""
 
@@ -826,32 +833,32 @@ msgid ""
 "multi-company database."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:29
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:28
 msgid ""
 "**Date**: the date the appraisal was requested, or is scheduled for in the "
 "future."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:30
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:29
 msgid ""
 "**Activities**: any :doc:`activities <../../essentials/activities>` that are"
 " scheduled for the appraisal, such as *Meetings* or *Phone Calls*."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:32
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:31
 msgid ""
 "**Manager**: the employee's manager, indicated by the profile icon in the "
 "bottom-right corner of an appraisal card."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:34
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:33
 msgid ""
 "**Status banner**: the status of the appraisal. A banner appears if an "
 "appraisal is marked as either *Canceled* or *Done*. If no banner is present,"
 " that means the appraisal has not happened, or has not been scheduled yet."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:38
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:37
 msgid ""
 "To view the details of any appraisal, click on the card to open the "
 "appraisal form."
@@ -861,11 +868,11 @@ msgstr ""
 msgid "The Appraisals dashboard with each appraisal in its own box."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:45
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:44
 msgid "Create an appraisal"
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:47
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:46
 msgid ""
 "To create a new appraisal, click the :guilabel:`New` button in the upper-"
 "left corner of the :guilabel:`Appraisals` dashboard. Doing so reveals a "
@@ -873,7 +880,7 @@ msgid ""
 "proceed to enter the following information on the form:"
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:51
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:50
 msgid ""
 ":guilabel:`Manager`: select the employee's manager from the drop-down menu. "
 "The manager is responsible for completing the *Manager's Feedback* section "
@@ -881,7 +888,7 @@ msgid ""
 "if they have a manager set on their employee profile."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:55
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:54
 msgid ""
 ":guilabel:`Appraisal Date`: the current date is automatically entered in "
 "this field. This field is automatically updated once the appraisal is "
@@ -889,39 +896,39 @@ msgid ""
 "cancellation."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:58
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:57
 msgid ""
 ":guilabel:`Department`: select the employee's department from the drop-down "
 "menu. This field auto-populates after the employee is selected, if they have"
 " a department set on their employee profile."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:61
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:60
 msgid ""
 ":guilabel:`Company`: select the employee's company from the drop-down menu. "
 "This field auto-populates after the employee is selected, if they have a "
 "company set on their employee profile."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:66
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:65
 msgid ""
 "The only required fields for the appraisal form are the employee's name, the"
 " :guilabel:`Manager`, and the :guilabel:`Company`."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:69
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:68
 msgid ""
 "Once the form is complete, click the :guilabel:`Confirm` button to confirm "
 "the appraisal request."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:71
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:70
 msgid ""
 "Once confirmed, the employee receives an email stating that an appraisal was"
 " requested, and is then prompted to schedule an appraisal date."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:74
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:73
 msgid ""
 "The status changes to :guilabel:`Confirmed`, and the :guilabel:`Employee's "
 "Feedback` section of the :guilabel:`Appraisal` tab is grayed out. The "
@@ -930,18 +937,18 @@ msgid ""
 "once the appraisal request is confirmed."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:79
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:78
 msgid ""
 "If there are any existing appraisals for the employee, an "
 ":guilabel:`Appraisal` smart button appears at the top of the page, listing "
 "the total number of appraisals there are for the employee."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:83
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:82
 msgid "Ask for feedback"
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:85
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:84
 msgid ""
 "As part of the appraisal process, the manager can request feedback on an "
 "employee from anyone in the company. Feedback is usually requested from co-"
@@ -950,43 +957,43 @@ msgid ""
 "manager's overall assessment."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:90
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:89
 msgid ""
 "To request feedback, the appraisal **must** be confirmed. Once confirmed, an"
 " :guilabel:`Ask Feedback` button appears at the top of the form."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:93
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:92
 msgid ""
 "When the :guilabel:`Ask Feedback` button is clicked, an :guilabel:`Ask "
 "Feedback` email pop-up form appears, using the :guilabel:`Appraisal: Ask "
 "Feedback` email template, which sends the :guilabel:`360 Feedback` survey."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:97
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:96
 msgid ""
 "Enter the employees being asked to complete the survey in the "
 ":guilabel:`Recipients` field. Multiple employees may be selected."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:100
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:99
 msgid ""
 "The email template has dynamic placeholders to personalize the message. Add "
 "any additional text to the email, if desired."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:103
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:102
 msgid "If required, an :guilabel:`Answer Deadline` can be added, as well."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:105
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:104
 msgid ""
 "If any attachments are needed, click the :icon:`fa-paperclip` "
 ":guilabel:`Attachments` button, and a file explorer window appears. Navigate"
 " to the file(s), select them, then click :guilabel:`Open`."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:108
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:107
 msgid "When the email is ready to send, click :guilabel:`Send.`"
 msgstr ""
 
@@ -994,21 +1001,21 @@ msgstr ""
 msgid "The email pop-up when requesting feedback from other employees."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:115
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:114
 msgid "Appraisal form"
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:117
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:116
 msgid ""
 "Once an appraisal is confirmed, the next steps require the employee to fill "
 "out the self-assessment, after which the manager completes their assessment."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:123
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:122
 msgid "Employee's feedback"
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:125
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:124
 msgid ""
 "To complete their portion of feedback, employees should navigate to the main"
 " :menuselection:`Appraisals application` dashboard, where the only entries "
@@ -1016,14 +1023,14 @@ msgid ""
 "manage and have to provide manager feedback for."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:129
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:128
 msgid ""
 "Click on the appraisal to open the appraisal form. Enter responses in the "
 ":guilabel:`Employee's Feedback` section, under the :guilabel:`Appraisal` "
 "tab."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:132
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:131
 msgid ""
 "When completed, click the :guilabel:`Not Visible to Manager` toggle (the "
 "default setting once an appraisal is confirmed). When clicked, the toggle "
@@ -1035,24 +1042,24 @@ msgid ""
 "The feedback section for the employee with the toggle button highlighted."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:142
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:141
 msgid "Manager's feedback"
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:144
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:143
 msgid ""
 "After the employee has completed the :guilabel:`Employee's Feedback` "
 "section, under the :guilabel:`Appraisal` tab, it is time for the manager to "
 "fill out the :guilabel:`Manager's Feedback` section."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:148
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:147
 msgid ""
 "The manager enters their responses in the fields in the :ref:`same manner as"
 " the employee <appraisals/employee-feedback>`."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:151
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:150
 msgid ""
 "When the feedback section is completed, click the :guilabel:`Not Visible to "
 "Employee` toggle (the default setting once an appraisal is confirmed). When "
@@ -1065,12 +1072,12 @@ msgid ""
 " highlighted."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:160
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:159
 #: ../../content/applications/hr/recruitment/add-new-applicants.rst:167
 msgid "Skills tab"
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:162
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:161
 msgid ""
 "Part of an appraisal is evaluating an employee's skills, and tracking their "
 "progress over time. The :guilabel:`Skills` tab of the appraisal form auto-"
@@ -1078,32 +1085,32 @@ msgid ""
 "once an appraisal is confirmed."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:166
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:165
 msgid ""
 "Each skill is grouped with like skills, and the :guilabel:`Skill Level`, "
 ":guilabel:`Progress`, and :guilabel:`Justification` are displayed for each "
 "skill."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:169
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:168
 msgid ""
 "Update any skills, or add any new skills to the :guilabel:`Skills` tab."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:171
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:170
 msgid ""
 "If a skill level has increased, a reason for the improved rating can be "
 "entered into the :guilabel:`Justification` field, such as `took a fluency "
 "language test` or `received Javascript certification`."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:176
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:175
 msgid ""
 "Refer to the :ref:`Create a new employee <employees/skills>` document for "
 "detailed instructions on adding or updating a skill."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:179
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:178
 msgid ""
 "After an appraisal is completed, and the skills have been updated, the next "
 "time an appraisal is confirmed, the updated skills populate the "
@@ -1114,41 +1121,41 @@ msgstr ""
 msgid "The skills tab of an appraisal form, all filled out."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:187
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:186
 msgid ""
 "The :guilabel:`Skills` tab can be modified **after** the employee and their "
 "manager have met and discussed the employee's appraisal."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:190
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:189
 msgid ""
 "This is a common situation as the manager may not have all the necessary "
 "information to properly assess and update the employee's skills before "
 "meeting."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:194
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:193
 msgid "Private Note tab"
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:196
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:195
 msgid ""
 "If managers want to leave notes that are only visible to other managers, "
 "they can be entered in the :guilabel:`Private Note` tab. This can be done "
 "before or after meeting with the employee to discuss the appraisal."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:200
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:199
 msgid ""
 "The employee being evaluated does **not** have access to this tab, and the "
 "tab does **not** appear on their appraisal."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:204
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:203
 msgid "Schedule a meeting"
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:206
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:205
 msgid ""
 "Once both portions of an appraisal are completed (the :ref:`employee "
 "<appraisals/employee-feedback>` and :ref:`manager <appraisals/manager-"
@@ -1156,19 +1163,19 @@ msgid ""
 "meet and discuss the appraisal."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:210
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:209
 msgid ""
 "A meeting can be scheduled in one of two ways: either from the *Appraisals* "
 "application dashboard, or from an individual appraisal card."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:213
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:212
 msgid ""
 "To schedule an appraisal from the dashboard of the *Appraisals* application,"
 " first navigate to :menuselection:`Appraisals app --> Appraisals`."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:216
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:215
 msgid ""
 "Click the :icon:`fa-clock-o` :guilabel:`(clock)` icon, beneath the appraisal"
 " date on the desired appraisal card, and a pop-up window appears. Then, "
@@ -1176,53 +1183,53 @@ msgid ""
 " from a :guilabel:`Schedule Activity` pop-up form that appears."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:220
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:219
 msgid ""
 "Select :guilabel:`Meeting` for the :guilabel:`Activity Type` from the drop-"
 "down menu. Doing so causes the form to change, so only the "
 ":guilabel:`Activity Type` and :guilabel:`Summary` fields appear."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:224
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:223
 msgid ""
 "Enter a brief description in the :guilabel:`Summary` field of the "
 ":guilabel:`Schedule Activity` pop-up form, such as `Annual Appraisal for "
 "(Employee)`."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:227
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:226
 msgid ""
 "Next, click the :guilabel:`Open Calendar` button. From the calendar page "
 "that appears, navigate to, and double-click on, the desired date and time "
 "for the meeting."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:230
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:229
 msgid ""
 "Doing so opens a :guilabel:`New Event` pop-up form. From this pop-up form, "
 "make any desired modifications, such as designating a :guilabel:`Start` "
 "time, or modifying the default :guilabel:`Title` to the meeting."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:234
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:233
 msgid ""
 "Add the appraisee in the :guilabel:`Attendees` section, and include anyone "
 "else who should also be in the meeting, if necessary."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:237
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:236
 msgid ""
 "To make the meeting a video call, instead of an in-person meeting, click "
 ":icon:`fa-plus` :guilabel:`Odoo meeting`, and a :guilabel:`Videocall URL` "
 "link appears in the field."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:240
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:239
 msgid ""
 "Once all the desired changes are complete, click :guilabel:`Save & Close`."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:242
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:241
 msgid ""
 "The meeting now appears on the calendar, and the invited parties are "
 "informed, via email."
@@ -1234,36 +1241,36 @@ msgid ""
 "appraisal."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:248
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:247
 msgid ""
 "The other way to schedule a meeting is from the individual appraisal form. "
 "To do this, navigate to the :menuselection:`Appraisal app` dashboard, then "
 "click on an appraisal card."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:251
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:250
 msgid ""
 "Next, click on the :icon:`fa-calendar` :guilabel:`Meeting` smart button, and"
 " the calendar loads. Follow the same directions above to create the meeting."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:254
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:253
 msgid ""
 "For more detailed information on how to schedule activities, refer to the "
 ":doc:`activities <../../essentials/activities>` documentation."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:258
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:257
 msgid ""
 "If no meetings are scheduled, the :guilabel:`Meeting` smart button reads "
 ":guilabel:`No Meeting`."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:261
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:260
 msgid "Complete an appraisal"
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:263
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:262
 msgid ""
 "After the appraisal is complete, and both the manager and employee have met "
 "to discuss the appraisal, the appraisal can be marked as *Done*. When "
@@ -1271,36 +1278,234 @@ msgid ""
 "located in the top-left corner."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:267
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:266
 msgid ""
 "Once the appraisal is marked as *Done*, the :guilabel:`Mark as Done` button "
 "disappears, and a :guilabel:`Reopen` button appears."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:271
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:270
 msgid ""
 "Modifications are **not** possible once the appraisal is marked as done."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:273
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:272
 msgid ""
 "To make any changes to an appraisal that is marked as *Done*, click the "
 ":guilabel:`Reopen` button."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:276
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:275
 msgid ""
 "Then, click the :guilabel:`Confirm` button that appears, and make any "
-"modifications needed. Once all modifications are complete, click the the "
+"modifications needed. Once all modifications are complete, click the "
 ":guilabel:`Mark as Done` button again."
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:280
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:279
 msgid ":doc:`../appraisals/goals`"
 msgstr ""
 
-#: ../../content/applications/hr/appraisals/new_appraisals.rst:281
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:280
 msgid ":doc:`../appraisals/appraisal_analysis`"
+msgstr ""
+
+#: ../../content/applications/hr/appraisals/new_appraisals.rst:281
+msgid ":doc:`../appraisals/skills_evolution`"
+msgstr ""
+
+#: ../../content/applications/hr/appraisals/skills_evolution.rst:3
+msgid "Skills evolution"
+msgstr ""
+
+#: ../../content/applications/hr/appraisals/skills_evolution.rst:5
+msgid ""
+"In Odoo's **Appraisals** app, it is possible to view employee's skills as "
+"they progress over time in the :ref:`Skills Evolution <appraisals/identify-"
+"skills-evolution>` report, also known as the *Appraisal Skills Report*."
+msgstr ""
+
+#: ../../content/applications/hr/appraisals/skills_evolution.rst:9
+msgid ""
+"Managers can use this to see who is achieving their various skill goals set "
+"on their appraisals, who is meeting their skill deadlines, who has the "
+"highest performance in terms of skill development, and more."
+msgstr ""
+
+#: ../../content/applications/hr/appraisals/skills_evolution.rst:13
+msgid ""
+"The *Skills Evolution* report also provides the ability to :ref:`search for "
+"employees with specific skills <appraisals/identify-skills>` at certain "
+"levels, which can be helpful for scenarios where specific skills are "
+"required."
+msgstr ""
+
+#: ../../content/applications/hr/appraisals/skills_evolution.rst:20
+msgid "Skills evolution report"
+msgstr ""
+
+#: ../../content/applications/hr/appraisals/skills_evolution.rst:22
+msgid ""
+"To access this *Skills Evolution* report, navigate to "
+":menuselection:`Appraisals app --> Reporting --> Skills Evolution`."
+msgstr ""
+
+#: ../../content/applications/hr/appraisals/skills_evolution.rst:25
+msgid ""
+"Doing so reveals the :guilabel:`Appraisal Skills Report` page, which "
+"displays a report of all skills, grouped by employee, in alphabetical order,"
+" by default."
+msgstr ""
+
+#: ../../content/applications/hr/appraisals/skills_evolution.rst:29
+msgid ""
+"Skill levels are **only** updated after an appraisal is marked as done. Any "
+"skill level changes from ongoing appraisals that have **not** been finalized"
+" are **not** included in this report."
+msgstr ""
+
+#: ../../content/applications/hr/appraisals/skills_evolution.rst:32
+msgid ""
+"All the :guilabel:`Employee` lines are expanded, with all the various skill "
+"types nested below. Each individual skill type is collapsed, by default. To "
+"view the individual skills contained within a skill type, click anywhere on "
+"the skill type line to expand the data."
+msgstr ""
+
+#: ../../content/applications/hr/appraisals/skills_evolution.rst:36
+msgid "Each skill has the following information listed:"
+msgstr ""
+
+#: ../../content/applications/hr/appraisals/skills_evolution.rst:38
+#: ../../content/applications/hr/attendances.rst:218
+msgid ":guilabel:`Employee`: the name of the employee."
+msgstr ""
+
+#: ../../content/applications/hr/appraisals/skills_evolution.rst:39
+msgid ":guilabel:`Skill Type`: the category the skill falls under."
+msgstr ""
+
+#: ../../content/applications/hr/appraisals/skills_evolution.rst:40
+msgid ":guilabel:`Skill`: the specific, individual skill."
+msgstr ""
+
+#: ../../content/applications/hr/appraisals/skills_evolution.rst:41
+msgid ""
+":guilabel:`Previous Skill Level`: the level the employee had previously "
+"achieved for the skill."
+msgstr ""
+
+#: ../../content/applications/hr/appraisals/skills_evolution.rst:42
+msgid ""
+":guilabel:`Previous Skill Progress`: the previous percentage of competency "
+"achieved for the skill (based on the :guilabel:`Skill Level`)."
+msgstr ""
+
+#: ../../content/applications/hr/appraisals/skills_evolution.rst:44
+msgid ""
+":guilabel:`Current Skill Level`: the current level the employee has achieved"
+" for the skill."
+msgstr ""
+
+#: ../../content/applications/hr/appraisals/skills_evolution.rst:45
+msgid ""
+":guilabel:`Current Skill Progress`: the current percentage of competency "
+"achieved for the skill."
+msgstr ""
+
+#: ../../content/applications/hr/appraisals/skills_evolution.rst:46
+msgid ""
+":guilabel:`Justification`: any notes entered on the skill, explaining the "
+"progress."
+msgstr ""
+
+#: ../../content/applications/hr/appraisals/skills_evolution.rst:48
+msgid ""
+"The color of the skill text indicates any changes from the previous "
+"appraisal. Skill levels that have increased since the last appraisal appear "
+"in green, as an *Improvement*. Skill levels that have **not** changed appear"
+" in black, as *No Change*. Skills that have regressed appear in red, as "
+"*Regression*."
+msgstr ""
+
+#: ../../content/applications/hr/appraisals/skills_evolution.rst:53
+msgid ""
+"This report can be modified to find specific information by adjusting the "
+":ref:`filters <search/filters>` and :ref:`groupings <search/group>` set in "
+"the search bar at the top."
+msgstr ""
+
+#: ../../content/applications/hr/appraisals/skills_evolution.rst-1
+msgid "A report showing all the skills grouped by employee."
+msgstr ""
+
+#: ../../content/applications/hr/appraisals/skills_evolution.rst:63
+msgid "Use case: Identify employees with specific skills"
+msgstr ""
+
+#: ../../content/applications/hr/appraisals/skills_evolution.rst:65
+msgid ""
+"Since the :guilabel:`Appraisal Skills Report` organizes all skills by "
+"employee, it can be difficult to find employees with a specific skill at a "
+"specific level. To find these employees, a custom filter must be used."
+msgstr ""
+
+#: ../../content/applications/hr/appraisals/skills_evolution.rst:69
+msgid ""
+"In this example, the report is modified to show employees with an expert "
+"level of Javascript knowledge. To view only those employees, first remove "
+"all active filters in the search bar."
+msgstr ""
+
+#: ../../content/applications/hr/appraisals/skills_evolution.rst:72
+msgid ""
+"Next, click the :icon:`fa-caret-down` :guilabel:`(down arrow)` icon in the "
+"search bar, then click :guilabel:`Add Custom Filter` beneath the :icon:`fa-"
+"filters` :guilabel:`Filters` column to load an :guilabel:`Add Custom Filter`"
+" pop-up window."
+msgstr ""
+
+#: ../../content/applications/hr/appraisals/skills_evolution.rst:76
+msgid ""
+"Using the drop-down menu in the first field, select :guilabel:`Skill`. Then,"
+" keep the second field as-is, and select :guilabel:`Javascript` from the "
+"third drop-down menu in the third field."
+msgstr ""
+
+#: ../../content/applications/hr/appraisals/skills_evolution.rst:79
+msgid ""
+"Next, click :guilabel:`New Rule`, and another line appears. In this second "
+"line, select :guilabel:`Current Skill Level` for the first drop-down field, "
+"leave the second field as-is, then select :guilabel:`Expert` for the third "
+"drop-down field."
+msgstr ""
+
+#: ../../content/applications/hr/appraisals/skills_evolution.rst:83
+msgid ""
+"After the :guilabel:`New Rule` button is clicked, the word "
+":guilabel:`\"any\"` in the sentence :guilabel:`Match any of the following "
+"rules:`, changes from plain text into a drop-down menu. Click the :icon:`fa-"
+"caret-down` :guilabel:`(down arrow)` icon after the word :guilabel:`any`, "
+"and select :guilabel:`all`."
+msgstr ""
+
+#: ../../content/applications/hr/appraisals/skills_evolution.rst:88
+msgid "Finally, click the :guilabel:`Add` button."
+msgstr ""
+
+#: ../../content/applications/hr/appraisals/skills_evolution.rst-1
+msgid "The Custom Filter pop-up with the parameters set."
+msgstr ""
+
+#: ../../content/applications/hr/appraisals/skills_evolution.rst:94
+msgid ""
+"Now, only employees that have an :guilabel:`Expert` level for the skill "
+":guilabel:`Javascript` appear. In this example, only :guilabel:`Marc Demo` "
+"meets these criteria."
+msgstr ""
+
+#: ../../content/applications/hr/appraisals/skills_evolution.rst-1
+msgid "The employees with expert Javascript skills."
 msgstr ""
 
 #: ../../content/applications/hr/attendances.rst:5
@@ -1400,7 +1605,7 @@ msgstr ""
 
 #: ../../content/applications/hr/attendances.rst:67
 msgid "Modes"
-msgstr ""
+msgstr "TRyby"
 
 #: ../../content/applications/hr/attendances.rst:69
 msgid ""
@@ -1411,7 +1616,7 @@ msgstr ""
 
 #: ../../content/applications/hr/attendances.rst:74
 msgid "Extra hours"
-msgstr ""
+msgstr "Nadgodziny"
 
 #: ../../content/applications/hr/attendances.rst:76
 msgid ""
@@ -1566,7 +1771,7 @@ msgid ""
 msgstr ""
 
 #: ../../content/applications/hr/attendances.rst:166
-#: ../../content/applications/hr/payroll/reporting.rst:276
+#: ../../content/applications/hr/payroll/reporting.rst:190
 msgid "Filters"
 msgstr "Filtry"
 
@@ -1689,10 +1894,6 @@ msgstr ""
 msgid "Main details"
 msgstr ""
 
-#: ../../content/applications/hr/attendances.rst:218
-msgid ":guilabel:`Employee`: the name of the employee."
-msgstr ""
-
 #: ../../content/applications/hr/attendances.rst:219
 msgid ":guilabel:`Check In`: the date and time the employee checked in."
 msgstr ""
@@ -1768,7 +1969,7 @@ msgstr ""
 #: ../../content/applications/hr/attendances.rst:251
 #: ../../content/applications/hr/lunch/orders.rst:84
 msgid "Errors"
-msgstr ""
+msgstr "Błędy"
 
 #: ../../content/applications/hr/attendances.rst:253
 msgid ""
@@ -2022,7 +2223,7 @@ msgstr ""
 
 #: ../../content/applications/hr/attendances/hardware.rst:3
 msgid "Hardware"
-msgstr ""
+msgstr "Hardware"
 
 #: ../../content/applications/hr/attendances/hardware.rst:5
 msgid ""
@@ -2557,6 +2758,247 @@ msgid ""
 "departments."
 msgstr ""
 
+#: ../../content/applications/hr/employees/certifications.rst:3
+msgid "Certifications"
+msgstr "Certyfikacje"
+
+#: ../../content/applications/hr/employees/certifications.rst:5
+msgid ""
+"When jobs require specific knowledge, it is necessary to track employee "
+"certifications to ensure the necessary knowledge and certifications are in "
+"place."
+msgstr ""
+
+#: ../../content/applications/hr/employees/certifications.rst:8
+msgid ""
+"Certifications include classes, tests, professional seminars, and more. "
+"There are no restrictions in terms of what type of certification records can"
+" be added in Odoo."
+msgstr ""
+
+#: ../../content/applications/hr/employees/certifications.rst:12
+msgid ""
+"To access the *Employee Certifications* report, the **Surveys** app **must**"
+" be installed."
+msgstr ""
+
+#: ../../content/applications/hr/employees/certifications.rst:15
+msgid "View certifications"
+msgstr ""
+
+#: ../../content/applications/hr/employees/certifications.rst:17
+msgid ""
+"To view a full list of all employee certifications, navigate to "
+":menuselection:`Employees app --> Reporting --> Certifications`."
+msgstr ""
+
+#: ../../content/applications/hr/employees/certifications.rst:20
+msgid ""
+"All certifications appear in a list view, grouped by employee. Each "
+"certification entry displays the following:"
+msgstr ""
+
+#: ../../content/applications/hr/employees/certifications.rst:23
+msgid ""
+":guilabel:`Employee`: the employee's name, along with their avatar image."
+msgstr ""
+
+#: ../../content/applications/hr/employees/certifications.rst:24
+msgid ":guilabel:`Name`: the title of the certification."
+msgstr ""
+
+#: ../../content/applications/hr/employees/certifications.rst:25
+msgid ""
+":guilabel:`Validity Start`: when the employee received the certification."
+msgstr ""
+
+#: ../../content/applications/hr/employees/certifications.rst:26
+msgid ":guilabel:`Validity End`: when the certification expires."
+msgstr ""
+
+#: ../../content/applications/hr/employees/certifications.rst:27
+msgid ""
+":guilabel:`Certification`: the corresponding course in the **Surveys** app "
+"that was completed by the employee, if applicable."
+msgstr ""
+
+#: ../../content/applications/hr/employees/certifications.rst:30
+msgid ""
+"The entries are also color-coded. Current certifications that are still "
+"valid appear in black, expired certifications appear in red, and "
+"certifications that are going to expire within the next 90 days appear in "
+"orange."
+msgstr ""
+
+#: ../../content/applications/hr/employees/certifications.rst-1
+msgid "The list of employee certifications."
+msgstr ""
+
+#: ../../content/applications/hr/employees/certifications.rst:39
+msgid ""
+"**Only** certification records with the *Display Type* set to "
+"*Certification* on their :ref:`certification form <employees/certifications-"
+"form>` appear on the :guilabel:`Employee Certifications` report. All other "
+"certifications appear in the resume section of the :doc:`employee form "
+"<new_employee>`."
+msgstr ""
+
+#: ../../content/applications/hr/employees/certifications.rst:45
+msgid "View certifications by expiration status"
+msgstr ""
+
+#: ../../content/applications/hr/employees/certifications.rst:47
+msgid ""
+"When managing a large number of employees with a variety of certifications, "
+"it can be difficult to determine which employees need to keep necessary "
+"certifications current in the default list view. In this scenario, it is "
+"beneficial to view the certifications by expiration status."
+msgstr ""
+
+#: ../../content/applications/hr/employees/certifications.rst:51
+msgid ""
+"To do so, navigate to :menuselection:`Employees app --> Reporting --> "
+"Certifications`. Next, click the :icon:`fa-caret-down` :guilabel:`(down "
+"arrow)` in the search bar, then click :guilabel:`Add Custom Group`, "
+"revealing a drop-down menu. Click :guilabel:`Expiration Status`, then click "
+"away from the drop-down menu to close it."
+msgstr ""
+
+#: ../../content/applications/hr/employees/certifications.rst:56
+msgid ""
+"After doing so, all the certifications are organized by status, starting "
+"with :guilabel:`Expired` certifications, then certifications that are "
+":guilabel:`Expiring` soon (within the next 90 days), and lastly, "
+"certifications that are still :guilabel:`Valid`."
+msgstr ""
+
+#: ../../content/applications/hr/employees/certifications.rst:60
+msgid ""
+"This view provides an easy way to see which employees have certifications "
+"that are going to expire soon, to determine which employees need to take "
+"action to keep their certifications current."
+msgstr ""
+
+#: ../../content/applications/hr/employees/certifications.rst-1
+msgid "The list of employee certifications, grouped by status."
+msgstr ""
+
+#: ../../content/applications/hr/employees/certifications.rst:70
+msgid "Log a certification"
+msgstr ""
+
+#: ../../content/applications/hr/employees/certifications.rst:72
+msgid ""
+"To log a certification for an employee, navigate to "
+":menuselection:`Employees app --> Reporting --> Certifications`. Click "
+":guilabel:`New`, and a blank certification form loads. Enter the following "
+"information on the form:"
+msgstr ""
+
+#: ../../content/applications/hr/employees/certifications.rst:76
+msgid ""
+":guilabel:`Title`: Enter a short description for the certification in this "
+"field."
+msgstr ""
+
+#: ../../content/applications/hr/employees/certifications.rst:77
+msgid ""
+":guilabel:`Employee`: Using the drop-down menu, select the employee who "
+"received the certification."
+msgstr ""
+
+#: ../../content/applications/hr/employees/certifications.rst:79
+msgid ""
+":guilabel:`Type`: Using the drop-down menu, select the type of certification"
+" received. This field determines where on the employee's resume the "
+"certification appears. To create a new :guilabel:`Type`, enter the type in "
+"the field, then click :guilabel:`Create \"type\"`."
+msgstr ""
+
+#: ../../content/applications/hr/employees/certifications.rst:83
+msgid "The default options are:"
+msgstr ""
+
+#: ../../content/applications/hr/employees/certifications.rst:85
+msgid ""
+":guilabel:`Experience`: Select this option to have the certification appear "
+"in the *Experience* section of the *Resume* tab on the :doc:`employee form "
+"<new_employee>`."
+msgstr ""
+
+#: ../../content/applications/hr/employees/certifications.rst:87
+msgid ""
+":guilabel:`Education`: Select this option to have the certification appear "
+"in the *Education* section of the *Resume* tab on the :doc:`employee form "
+"<new_employee>`."
+msgstr ""
+
+#: ../../content/applications/hr/employees/certifications.rst:89
+msgid ""
+":guilabel:`Internal Certification`: Select this option to have the "
+"certification appear in the *Internal Certification* section of the *Resume*"
+" tab on the :doc:`employee form <new_employee>`."
+msgstr ""
+
+#: ../../content/applications/hr/employees/certifications.rst:91
+msgid ""
+":guilabel:`Completed Internal Training`: Select this option to have the "
+"certification appear in *Completed Internal Training* section of the "
+"*Resume* tab on the :doc:`employee form <new_employee>`."
+msgstr ""
+
+#: ../../content/applications/hr/employees/certifications.rst:95
+msgid ""
+":guilabel:`Display Type`: Select the visibility of the certification in this"
+" field. The default options are:"
+msgstr ""
+
+#: ../../content/applications/hr/employees/certifications.rst:98
+msgid ""
+":guilabel:`Classic`: Select this option to have the certification appear in "
+"the *Resume* section of the employee form, and **not** appear on the "
+"*Employee Certifications* report."
+msgstr ""
+
+#: ../../content/applications/hr/employees/certifications.rst:100
+msgid ""
+":guilabel:`Course`: Select this option to have the certification appear in "
+"the *Resume* section of the employee form, and **not** appear on the "
+"*Employee Certifications* report. Once this option is selected, a "
+":guilabel:`Course` field appears beneath the :guilabel:`Display Type` field."
+" Using the drop-down menu, select the course the employee took. The course "
+"is created in the **Surveys** app."
+msgstr ""
+
+#: ../../content/applications/hr/employees/certifications.rst:105
+msgid ""
+":guilabel:`Certification`: Select this option to have the certification "
+"appear in the *Resume* section of the employee form, **and** appear on the "
+"*Employee Certifications* report. Once this is selected, a "
+":guilabel:`Certification` field appears beneath the :guilabel:`Display Type`"
+" field. Using the drop-down menu, select the certification the employee "
+"took."
+msgstr ""
+
+#: ../../content/applications/hr/employees/certifications.rst:110
+msgid ""
+":guilabel:`Description`: Enter a description for the certification in this "
+"field."
+msgstr ""
+
+#: ../../content/applications/hr/employees/certifications.rst:111
+msgid ""
+":guilabel:`Duration`: Click into the first field, and a calendar pop-over "
+"window appears. Click on the start and end dates for the certification "
+"validity period. When the correct dates are selected, click :icon:`fa-check`"
+" :guilabel:`Apply`, and both fields are populated."
+msgstr ""
+
+#: ../../content/applications/hr/employees/certifications.rst-1
+msgid ""
+"A certification form filled out for an OSHA certificate for construction."
+msgstr ""
+
 #: ../../content/applications/hr/employees/departments.rst:3
 msgid "Departments"
 msgstr "Działy"
@@ -3052,7 +3494,7 @@ msgid "Resumé tab"
 msgstr ""
 
 #: ../../content/applications/hr/employees/new_employee.rst:110
-#: ../../content/applications/hr/payroll.rst:874
+#: ../../content/applications/hr/payroll.rst:855
 #: ../../content/applications/hr/recruitment/recruitment-flow.rst:38
 msgid "Resumé"
 msgstr "Życiorys"
@@ -3862,7 +4304,7 @@ msgstr ""
 
 #: ../../content/applications/hr/employees/offboarding.rst:3
 msgid "Offboarding"
-msgstr ""
+msgstr "Offboarding"
 
 #: ../../content/applications/hr/employees/offboarding.rst:5
 msgid ""
@@ -4080,6 +4522,186 @@ msgid ""
 "gear` :guilabel:`(gear)` icon in the top-left corner, then click "
 ":guilabel:`Send HR Documents Access Link` from the resulting drop-down menu."
 " The chatter logs that the link was sent."
+msgstr ""
+
+#: ../../content/applications/hr/employees/retention_report.rst:3
+msgid "Employee retention report"
+msgstr ""
+
+#: ../../content/applications/hr/employees/retention_report.rst:5
+msgid ""
+"It is possible to determine the retention rate for a company by modifying an"
+" existing report."
+msgstr ""
+
+#: ../../content/applications/hr/employees/retention_report.rst:7
+msgid ""
+"First, navigate to :menuselection:`Employees app --> Reporting --> "
+"Contracts` to open the :guilabel:`Employee Analysis` report. This report "
+"shows the number of all employees for the :guilabel:`Last 365 Days`, in a "
+"default :icon:`fa-line-chart` :guilabel:`Line Chart`."
+msgstr ""
+
+#: ../../content/applications/hr/employees/retention_report.rst-1
+msgid "The default Employees Analysis report."
+msgstr ""
+
+#: ../../content/applications/hr/employees/retention_report.rst:15
+msgid ""
+"Next, click the :guilabel:`Measures` :icon:`fa-caret-down` button in the "
+"upper-left corner, revealing a drop-down menu. Click :guilabel:`# Departure "
+"Employee` in the list, then click away from the drop-down menu to close it. "
+"Now, the report shows all the employees who were archived for the "
+":guilabel:`Last 365 Days`."
+msgstr ""
+
+#: ../../content/applications/hr/employees/retention_report.rst:20
+msgid ""
+"To view this information in an easier format, click the :icon:`oi-view-"
+"pivot` :guilabel:`(Pivot)` icon in the upper-right corner, and the data is "
+"presented in a pivot table."
+msgstr ""
+
+#: ../../content/applications/hr/employees/retention_report.rst:23
+msgid ""
+"The various employees, organized by department, populate the rows. The "
+"columns display the following totals: the monthly :guilabel:`Wage`, the "
+":guilabel:`Fuel Card` budget, total :guilabel:`Annual Employee Budget` (also"
+" referred to as the *annual salary*), the number of :guilabel:`New "
+"Employees`, as well as the number of :guilabel:`Departure Employees` "
+"(employees who left)."
+msgstr ""
+
+#: ../../content/applications/hr/employees/retention_report.rst-1
+msgid ""
+"The Employees Analysis report, modified to show departed employees only."
+msgstr ""
+
+#: ../../content/applications/hr/employees/retention_report.rst:33
+msgid "Employee retention rate comparison report"
+msgstr ""
+
+#: ../../content/applications/hr/employees/retention_report.rst:35
+msgid ""
+"It is possible to compare data only for employees who left, compared to the "
+"total current employees, between two separate time periods. This is commonly"
+" referred to as the *employee retention rate*."
+msgstr ""
+
+#: ../../content/applications/hr/employees/retention_report.rst:38
+msgid ""
+"To view these metrics, first open the :guilabel:`Employee Analysis` report "
+"by navigating to :menuselection:`Employees app --> Reporting --> Contracts`."
+" Click the :icon:`oi-view-pivot` :guilabel:`(Pivot)` icon in the upper-right"
+" corner to view the information in a pivot table."
+msgstr ""
+
+#: ../../content/applications/hr/employees/retention_report.rst:42
+msgid ""
+"Next, click the :guilabel:`Measures` :icon:`fa-caret-down` button in the "
+"upper-left corner, revealing a drop-down menu. Click :guilabel:`# New "
+"Employees`, :guilabel:`Annual Employee Budget`, :guilabel:`Fuel Card`, and "
+":guilabel:`Wage` in the list, to deselect these metrics and hide them in the"
+" table. Then, click :guilabel:`Count` at the bottom of the list to enable "
+"that metric."
+msgstr ""
+
+#: ../../content/applications/hr/employees/retention_report.rst:47
+msgid ""
+"Click away from the drop-down menu to close it. Now, the report shows all "
+"the employees who left the company (:guilabel:`# Departure Employee`), as "
+"well as the total number of employees (:guilabel:`Count`), for the "
+":guilabel:`Last 365 Days`."
+msgstr ""
+
+#: ../../content/applications/hr/employees/retention_report.rst:51
+msgid ""
+"To compare the data for the current year with the previous year, click the "
+":icon:`fa-caret-down` :guilabel:`(down arrow)` in the search bar, revealing "
+"multiple filter and grouping options. Click :guilabel:`Last 365 Days` in the"
+" :icon:`fa-filter` :guilabel:`Filters` column, to turn off that filter. "
+"Then, click :guilabel:`Date`, and click the current year (in this example, "
+":guilabel:`2024`) from the resulting drop-down menu."
+msgstr ""
+
+#: ../../content/applications/hr/employees/retention_report.rst:57
+msgid ""
+"Once a selection is made beneath :guilabel:`Date` in the :icon:`fa-filter` "
+":guilabel:`Filters` column, a :icon:`fa-adjust` :guilabel:`Comparison` "
+"column appears. Click :guilabel:`Date: Previous Year` in the new column, "
+"then click off of the drop-down menu to close it."
+msgstr ""
+
+#: ../../content/applications/hr/employees/retention_report.rst:62
+msgid ""
+"In Odoo, in order to access the :icon:`fa-adjust` :guilabel:`Comparison` "
+"column, a specific time *other than* :guilabel:`Last 365 Days` **must** be "
+"selected. If not, the :icon:`fa-adjust` :guilabel:`Comparison` column is "
+"**not** visible."
+msgstr ""
+
+#: ../../content/applications/hr/employees/retention_report.rst:66
+msgid ""
+"Now, the pivot table displays the total number of employees who left the "
+"company (:guilabel:`# Departure Employee`), as well as the total number of "
+"employees (:guilabel:`Count`) in the columns. These are further divided by "
+"the two different years, and also displays the :guilabel:`Variation` between"
+" the two."
+msgstr ""
+
+#: ../../content/applications/hr/employees/retention_report.rst:71
+msgid ""
+"The rows display the departments, and lists each individual employee for "
+"each department, in the rows."
+msgstr ""
+
+#: ../../content/applications/hr/employees/retention_report.rst:74
+msgid ""
+"For a more concise view of this report, click :icon:`fa-minus-square-o` "
+":guilabel:`Total` above the top row of the departments and employees, to "
+"collapse the rows. Now, the table presents the total number of employees who"
+" left the company for both years, compared to the total number of employees "
+"for both years, including the difference, in a percentage."
+msgstr ""
+
+#: ../../content/applications/hr/employees/retention_report.rst:80
+msgid ""
+"In this example, :guilabel:`3` employees out of :guilabel:`83` left in 2023,"
+" and :guilabel:`8` employees out of :guilabel:`202` left in 2024. There was "
+"a :guilabel:`166.67%` increase in the employees who left in 2024 as compared"
+" to 2023. Additionally, there was a :guilabel:`143.37%` increase in the "
+"total number of employees in 2024 as compared to 2023."
+msgstr ""
+
+#: ../../content/applications/hr/employees/retention_report.rst:0
+msgid ""
+"The report modified to show the difference between two years of employees "
+"who left."
+msgstr ""
+
+#: ../../content/applications/hr/employees/retention_report.rst:89
+msgid ""
+"To view more detailed rates for each department, click :icon:`fa-plus-"
+"square` :guilabel:`Total` in the single row, revealing a drop-down menu, and"
+" click :guilabel:`Department`. Click away from the drop-down to close it, "
+"and now the pivot table displays the total number of employees who left "
+"(:guilabel:`# Departure Employee`), the total number of employees "
+"(:guilabel:`Count`), and the :guilabel:`Variation` (in a percentage) for "
+"both 2023 and 2024, organized by department."
+msgstr ""
+
+#: ../../content/applications/hr/employees/retention_report.rst:96
+msgid ""
+"In this example, it can be determined that the :guilabel:`Management` "
+"department had the best retention rate in 2024 as compared to 2023, with a "
+":guilabel:`Variation` rate of :guilabel:`-100%`. Additionally, it can be "
+"determined that the :guilabel:`Management / Research & Development` "
+"department had the most turnover, with a :guilabel:`Variation` of "
+":guilabel:`300%`."
+msgstr ""
+
+#: ../../content/applications/hr/employees/retention_report.rst:0
+msgid "The expanded employee retention report by department."
 msgstr ""
 
 #: ../../content/applications/hr/fleet.rst:5
@@ -4306,7 +4928,7 @@ msgstr ""
 #: ../../content/applications/hr/fleet/service.rst:380
 #: ../../content/applications/hr/frontdesk.rst:33
 #: ../../content/applications/hr/lunch/products.rst:12
-#: ../../content/applications/hr/payroll.rst:894
+#: ../../content/applications/hr/payroll.rst:875
 #: ../../content/applications/hr/payroll/work_entries.rst:56
 #: ../../content/applications/hr/time_off.rst:221
 msgid "Enter the following information on the form:"
@@ -4832,7 +5454,7 @@ msgstr ""
 
 #: ../../content/applications/hr/fleet/models.rst:29
 msgid "Astra"
-msgstr ""
+msgstr "Astra"
 
 #: ../../content/applications/hr/fleet/models.rst:31
 msgid "A6"
@@ -6738,7 +7360,7 @@ msgstr ""
 
 #: ../../content/applications/hr/fleet/service.rst:481
 msgid "Activity view"
-msgstr ""
+msgstr "Widok aktywności"
 
 #: ../../content/applications/hr/fleet/service.rst:483
 msgid ""
@@ -9238,7 +9860,7 @@ msgstr ""
 
 #: ../../content/applications/hr/payroll.rst:63
 msgid "Time off"
-msgstr ""
+msgstr "Urlop"
 
 #: ../../content/applications/hr/payroll.rst:65
 msgid ""
@@ -9622,7 +10244,7 @@ msgid ""
 msgstr ""
 
 #: ../../content/applications/hr/payroll.rst:265
-#: ../../content/applications/hr/payroll.rst:730
+#: ../../content/applications/hr/payroll.rst:711
 #: ../../content/applications/hr/payroll/contracts.rst:40
 msgid "General information section"
 msgstr ""
@@ -10299,7 +10921,7 @@ msgid ""
 msgstr ""
 
 #: ../../content/applications/hr/payroll.rst:619
-#: ../../content/applications/hr/payroll.rst:815
+#: ../../content/applications/hr/payroll.rst:796
 msgid "Description tab"
 msgstr ""
 
@@ -10382,44 +11004,11 @@ msgid "A new Input Type form filled in."
 msgstr ""
 
 #: ../../content/applications/hr/payroll.rst:669
-msgid "Salary attachment types"
-msgstr ""
-
-#: ../../content/applications/hr/payroll.rst:671
-msgid ""
-"Salary attachments, also thought of as \"wage garnishments\", are portions "
-"of earnings taken out of a payslip for something specific. Much like all "
-"other aspects of payroll configurations, the types of salary attachments "
-"**must** be defined."
-msgstr ""
-
-#: ../../content/applications/hr/payroll.rst:675
-msgid ""
-"To view the currently configured salary attachments, navigate to "
-":menuselection:`Payroll app --> Configuration --> Salary --> Salary "
-"Attachment Types`. The default salary attachment types are "
-":guilabel:`Attachment of Salary`, :guilabel:`Assignment of Salary`, and "
-":guilabel:`Child Support`."
-msgstr ""
-
-#: ../../content/applications/hr/payroll.rst:679
-msgid ""
-"To make a new type of salary attachment, click the :guilabel:`New` button. "
-"Then, enter the :guilabel:`Name`, the :guilabel:`Code` (used in the salary "
-"rules to compute payslips), and decide if it should have :guilabel:`No End "
-"Date`."
-msgstr ""
-
-#: ../../content/applications/hr/payroll.rst-1
-msgid "A new salary attachment form filled in."
-msgstr ""
-
-#: ../../content/applications/hr/payroll.rst:688
 #: ../../content/applications/hr/recruitment.rst:167
 msgid "Salary package configurator"
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:690
+#: ../../content/applications/hr/payroll.rst:671
 msgid ""
 "The various options under the :guilabel:`Salary Package Configurator` "
 "section of the :menuselection:`Payroll app --> Configuration --> Salary "
@@ -10429,7 +11018,7 @@ msgid ""
 "their salary package."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:695
+#: ../../content/applications/hr/payroll.rst:676
 msgid ""
 "Depending on what information an employee enters (such as deductions, "
 "dependents, etc.), their salary is adjusted accordingly. When an applicant "
@@ -10438,11 +11027,11 @@ msgid ""
 "sees, and what is populated, as the applicant enters information."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:701
+#: ../../content/applications/hr/payroll.rst:682
 msgid "Benefits"
-msgstr ""
+msgstr "Świadczenia"
 
-#: ../../content/applications/hr/payroll.rst:703
+#: ../../content/applications/hr/payroll.rst:684
 msgid ""
 "When offering potential employees a position, there can be certain benefits "
 "set in Odoo, in addition to the salary, to make an offer more appealing "
@@ -10450,7 +11039,7 @@ msgid ""
 " or internet, etc.)."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:707
+#: ../../content/applications/hr/payroll.rst:688
 msgid ""
 "To view the benefits, go to :menuselection:`Payroll app --> Configuration "
 "--> Salary Package Configurator: Benefits`. Benefits are grouped by "
@@ -10462,7 +11051,7 @@ msgstr ""
 msgid "A list view of all the benefits available for each structure type."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:716
+#: ../../content/applications/hr/payroll.rst:697
 msgid ""
 "A company has two structure types, one labeled :guilabel:`Employee`, and "
 "another labeled :guilabel:`Intern`. The :guilabel:`Employee` structure type "
@@ -10470,7 +11059,7 @@ msgid ""
 "structure type has a meal voucher benefit available."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:720
+#: ../../content/applications/hr/payroll.rst:701
 msgid ""
 "A person hired under the :guilabel:`Employee` structure type can use the "
 "company car benefit, but cannot have meal vouchers. A person hired under the"
@@ -10478,29 +11067,29 @@ msgid ""
 "available to them, not the use of a company car."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:724
+#: ../../content/applications/hr/payroll.rst:705
 msgid ""
 "To make a new benefit, click the :guilabel:`New` button, and enter the "
 "information in the fields on the blank benefits form."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:727
+#: ../../content/applications/hr/payroll.rst:708
 msgid "The various fields for creating a benefit are as follows:"
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:732
+#: ../../content/applications/hr/payroll.rst:713
 msgid ""
 ":guilabel:`Benefits`: enter the name for the benefit. This field is "
 "required."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:733
+#: ../../content/applications/hr/payroll.rst:714
 msgid ""
 ":guilabel:`Benefit Field`: select from the drop-down menu the type of "
 "benefit this is."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:734
+#: ../../content/applications/hr/payroll.rst:715
 msgid ""
 ":guilabel:`Cost Field`: select from the drop-down menu the type of cost "
 "incurred by the company for this specific benefit. The default options are "
@@ -10511,7 +11100,7 @@ msgid ""
 "available."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:739
+#: ../../content/applications/hr/payroll.rst:720
 msgid ""
 ":guilabel:`Related Type`: select from the drop-down menu what type of "
 "benefit it is. Select from :guilabel:`Monthly Benefit in Kind`, "
@@ -10520,52 +11109,52 @@ msgid ""
 "This field is required."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:743
+#: ../../content/applications/hr/payroll.rst:724
 msgid ""
 ":guilabel:`Benefit Field`: select from the drop-down menu the specific field"
 " on the contract the benefit appears."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:745
+#: ../../content/applications/hr/payroll.rst:726
 msgid ""
 ":guilabel:`Cost Field`: select the specific field on the contract that the "
 "cost of the benefit is linked to, using the drop-down menu. If this field is"
 " left blank, the cost of the benefit is not computed in the employee budget."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:748
+#: ../../content/applications/hr/payroll.rst:729
 msgid ""
 ":guilabel:`Impacts Net Salary`: tick the checkbox if the benefit should "
 "impact the employee's net salary."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:750
+#: ../../content/applications/hr/payroll.rst:731
 msgid ""
 ":guilabel:`Requested Documents`: select any document that is required to be "
 "submitted for this benefit, from the drop-down menu."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:752
+#: ../../content/applications/hr/payroll.rst:733
 msgid ""
 ":guilabel:`Mandatory Benefits`: using the drop-down menu, select the benefit"
 " that is required in order for this specific benefit to be offered to the "
 "employee."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:755
+#: ../../content/applications/hr/payroll.rst:736
 msgid ""
 "For example, a benefit for car insurance would populate `Company Car` in "
 "this field. This would allow the car insurance benefit to **only** be "
 "displayed if the employee has selected/enabled the benefit of a company car."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:758
+#: ../../content/applications/hr/payroll.rst:739
 msgid ""
 ":guilabel:`Salary Structure Type`: select from the drop-down menu which "
 "salary structure type this benefit applies to. This field is required."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:760
+#: ../../content/applications/hr/payroll.rst:741
 msgid ""
 ":guilabel:`Unit of Measure`: select the metric that the benefit is granted, "
 "using the drop-down menu. The options are :guilabel:`Days`, "
@@ -10576,17 +11165,17 @@ msgstr ""
 msgid "A new benefit form filled out for an internet subscription."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:768
+#: ../../content/applications/hr/payroll.rst:749
 msgid "Display section"
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:770
+#: ../../content/applications/hr/payroll.rst:751
 msgid ""
 ":guilabel:`Show Name`: tick the checkbox to have the benefit name appear in "
 "the salary package configurator."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:772
+#: ../../content/applications/hr/payroll.rst:753
 msgid ""
 ":guilabel:`Display Type`: select from the drop-down menu how this benefit is"
 " displayed. The options are :guilabel:`Always Selected`, "
@@ -10595,14 +11184,14 @@ msgid ""
 "This field is required."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:777
+#: ../../content/applications/hr/payroll.rst:758
 msgid ""
 "Depending on the selection made, additional configurations need to be made. "
 "For example, if :guilabel:`Radio Buttons` is selected, the individual radio "
 "buttons must be entered."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:779
+#: ../../content/applications/hr/payroll.rst:760
 msgid ""
 ":guilabel:`Icon`: an icon from the `Font Awesome 4 library "
 "<https://fontawesome.com/v4/icons/>`_ can be visible for this benefit. Enter"
@@ -10610,43 +11199,43 @@ msgid ""
 "suitcase icon, the code `fa fa-suitcase` is entered on this line."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:782
+#: ../../content/applications/hr/payroll.rst:763
 msgid ""
 ":guilabel:`Hide Description`: tick the checkbox to hide the benefit "
 "description if the benefit is not selected by the employee."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:784
+#: ../../content/applications/hr/payroll.rst:765
 msgid ""
 ":guilabel:`Folded`: if the benefit should be folded, or hidden, because it "
 "is dependant on another benefit selection, tick the checkbox. The following "
 "fields appear when this is active:"
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:787
+#: ../../content/applications/hr/payroll.rst:768
 msgid ""
 ":guilabel:`Fold Label`: enter a name for the folded section of the benefit."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:788
+#: ../../content/applications/hr/payroll.rst:769
 msgid ""
 ":guilabel:`Fold Res Field`: select the contract field this benefit is tied "
 "to using the drop-down menu. If this field is selected on the contract, then"
 " this benefit becomes visible."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:792
+#: ../../content/applications/hr/payroll.rst:773
 msgid "Activity section"
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:794
+#: ../../content/applications/hr/payroll.rst:775
 msgid ""
 ":guilabel:`Activity Type`: from the drop-down menu, select the activity type"
 " that is automatically created when this benefit is selected by the "
 "employee."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:796
+#: ../../content/applications/hr/payroll.rst:777
 msgid ""
 ":guilabel:`Activity Creation`: select when the activity is created, either "
 "when the :guilabel:`Employee signs his contract`, or when the "
@@ -10654,7 +11243,7 @@ msgid ""
 "desired selection."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:799
+#: ../../content/applications/hr/payroll.rst:780
 msgid ""
 ":guilabel:`Activity Creation Type`: select the parameters for when the "
 "activity is created, either :guilabel:`When the benefit is set` or "
@@ -10662,47 +11251,47 @@ msgid ""
 " desired selection."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:802
+#: ../../content/applications/hr/payroll.rst:783
 msgid ""
 ":guilabel:`Assigned to`: select the user the activity is automatically "
 "assigned to, using the drop-down menu."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:806
+#: ../../content/applications/hr/payroll.rst:787
 #: ../../content/applications/hr/payroll/contracts.rst:163
 msgid "Sign section"
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:808
+#: ../../content/applications/hr/payroll.rst:789
 msgid ""
 ":guilabel:`Template to Sign`: if the employee is required to sign a document"
 " when selecting this benefit, select the document template from the drop-"
 "down menu."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:811
+#: ../../content/applications/hr/payroll.rst:792
 msgid ""
 "For example, a benefit regarding the use of a company car may require the "
 "employee to sign a document acknowledging the company's car policies."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:817
+#: ../../content/applications/hr/payroll.rst:798
 msgid ""
 "Provide any additional information in this tab to help clarify the benefit."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:820
+#: ../../content/applications/hr/payroll.rst:801
 msgid "Personal info"
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:822
+#: ../../content/applications/hr/payroll.rst:803
 msgid ""
 "Every employee in Odoo has an *employee card* which is created when a "
 "candidate becomes an employee. This card includes all of their personal "
 "information, resume, work information, and documents."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:826
+#: ../../content/applications/hr/payroll.rst:807
 msgid ""
 "The personal information is gathered from the salary package configurator "
 "section that a candidate fills out after being offered a position. This "
@@ -10710,17 +11299,17 @@ msgid ""
 "hired."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:830
+#: ../../content/applications/hr/payroll.rst:811
 msgid ""
 "To view an employee's card, go to the main :menuselection:`Employees` app "
 "dashboard, and click on the employee's card."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:834
+#: ../../content/applications/hr/payroll.rst:815
 msgid "An employee card can be thought of as an employee personnel file."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:836
+#: ../../content/applications/hr/payroll.rst:817
 msgid ""
 "The :guilabel:`Personal Info` section lists all of the fields that are "
 "available to enter on the employee's card. To access this section, go to "
@@ -10734,25 +11323,25 @@ msgid ""
 "enter."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:844
+#: ../../content/applications/hr/payroll.rst:825
 msgid ""
 "To edit a personal info entry, select an entry from the list on the "
 ":guilabel:`Personal Info` page, and modify the personal info on the form "
 "that appears."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:847
+#: ../../content/applications/hr/payroll.rst:828
 msgid "To create a new personal info entry, click the :guilabel:`New` button."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:849
+#: ../../content/applications/hr/payroll.rst:830
 msgid ""
 "The required fields, aside from entering the :guilabel:`Information` name, "
 "are :guilabel:`Related Model`, :guilabel:`Related Field`, and "
 ":guilabel:`Category`."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:852
+#: ../../content/applications/hr/payroll.rst:833
 msgid ""
 "Select a :guilabel:`Related Model` from the drop-down menu. "
 ":guilabel:`Employee` populates the field by default, but the :guilabel:`Bank"
@@ -10760,7 +11349,7 @@ msgid ""
 "account, instead."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:856
+#: ../../content/applications/hr/payroll.rst:837
 msgid ""
 "Select a :guilabel:`Related Field` from the drop-down menu that best "
 "describes what kind of personal information this entry is, and where it is "
@@ -10769,13 +11358,13 @@ msgid ""
 ":guilabel:`Address` or :guilabel:`Personal Documents`."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:861
+#: ../../content/applications/hr/payroll.rst:842
 msgid ""
 "The two most important fields on the personal info form are :guilabel:`Is "
 "Required` and :guilabel:`Display Type`."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:864
+#: ../../content/applications/hr/payroll.rst:845
 msgid ""
 "Checking the :guilabel:`Is Required` box makes the field mandatory on the "
 "employee's card. The :guilabel:`Display Type` drop-down menu allows for the "
@@ -10788,50 +11377,50 @@ msgstr ""
 msgid "New personal information entry."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:876
+#: ../../content/applications/hr/payroll.rst:857
 msgid ""
 "The resumé section, housed within the salary package configurator section of"
 " the settings menu, is how salary information rules are configured when "
 "offering a position to potential employees."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:879
+#: ../../content/applications/hr/payroll.rst:860
 msgid ""
 "When an offer is sent to a prospective employee, the values for the offer "
 "are computed from these settings, and appear on the offer page."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:882
+#: ../../content/applications/hr/payroll.rst:863
 msgid ""
 "To configure this section, navigate to :menuselection:`Payroll app --> "
 "Configuration --> Salary Package Configurator: Resumé`."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:885
+#: ../../content/applications/hr/payroll.rst:866
 msgid ""
 "By default, there are three :guilabel:`Salary Structure Types` pre-"
 "configured in Odoo: :guilabel:`Worker`, :guilabel:`Employee`, and "
 ":guilabel:`None`."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:888
+#: ../../content/applications/hr/payroll.rst:869
 msgid ""
 "Each :guilabel:`Salary Structure Type` has several rules configured. These "
 "affect how an offer is calculated using that particular :guilabel:`Salary "
 "Structure Type`."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:891
+#: ../../content/applications/hr/payroll.rst:872
 msgid ""
 "To create a new rule, click the :guilabel:`New` button, and a blank "
 ":guilabel:`Contract Salary Resumé` form loads."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:896
+#: ../../content/applications/hr/payroll.rst:877
 msgid ":guilabel:`Information`: type in a name for this field."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:897
+#: ../../content/applications/hr/payroll.rst:878
 msgid ""
 ":guilabel:`Category`: select the category this value is housed under, using "
 "the drop-down menu. The default options are :guilabel:`Monthly Salary`, "
@@ -10839,11 +11428,11 @@ msgid ""
 ":guilabel:`Total`."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:901
+#: ../../content/applications/hr/payroll.rst:882
 msgid "New categories can be made if needed."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:903
+#: ../../content/applications/hr/payroll.rst:884
 msgid ""
 "Click the :guilabel:`New` button, then enter the name for the new category "
 "in the :guilabel:`Name` field. Next, select the :guilabel:`Periodicity` from"
@@ -10852,23 +11441,23 @@ msgid ""
 "appears in the  :guilabel:`Salary Structure Type` rule list."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:908
+#: ../../content/applications/hr/payroll.rst:889
 msgid "Finally, click :guilabel:`Save & Close`."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:909
+#: ../../content/applications/hr/payroll.rst:890
 msgid ""
 ":guilabel:`Impacts Monthly Total`: tick the checkbox if this value is added "
 "in the monthly total calculation."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:911
+#: ../../content/applications/hr/payroll.rst:892
 msgid ""
 ":guilabel:`Unit of Measure`: select what kind of value this rule is, either "
 ":guilabel:`Currency`, :guilabel:`Days`, or :guilabel:`Percent`."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:914
+#: ../../content/applications/hr/payroll.rst:895
 msgid ""
 ":guilabel:`Currency` is for a set monetary value, :guilabel:`Days` is for "
 "compensation in the form of time off, and :guilabel:`Percent` is for a "
@@ -10876,13 +11465,13 @@ msgid ""
 "commissions."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:917
+#: ../../content/applications/hr/payroll.rst:898
 msgid ""
 ":guilabel:`Salary Structure Type`: select which :guilabel:`Salary Structure "
 "Type` this rule is nested under, from the drop-down menu."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:919
+#: ../../content/applications/hr/payroll.rst:900
 msgid ""
 ":guilabel:`Value Type`: select how the value is computed, using the drop-"
 "down menu. The default options are :guilabel:`Fixed Value`, "
@@ -10890,7 +11479,7 @@ msgid ""
 "Benefits Values`, and :guilabel:`Monthly Total`."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:922
+#: ../../content/applications/hr/payroll.rst:903
 msgid ""
 ":guilabel:`Code`: select the code this rule applies to from the drop-down "
 "menu."
@@ -10901,23 +11490,23 @@ msgid ""
 "The net wage rule form filled out, with all the information for net pay."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:929
+#: ../../content/applications/hr/payroll.rst:910
 msgid "Jobs"
 msgstr "Stanowiska"
 
-#: ../../content/applications/hr/payroll.rst:931
+#: ../../content/applications/hr/payroll.rst:912
 msgid ""
 "Since the *Payroll* application is responsible for paying employees for "
 "specific job positions, the complete list of job positions can be found in "
 "both the *Payroll* and *Recruitment* applications."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:937
+#: ../../content/applications/hr/payroll.rst:918
 #: ../../content/applications/hr/recruitment/new_job.rst:3
 msgid "Job positions"
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:939
+#: ../../content/applications/hr/payroll.rst:920
 msgid ""
 "The job positions listed in the *Payroll* application are identical to the "
 "job positions listed in the *Recruitment* application. If a new job position"
@@ -10925,13 +11514,13 @@ msgid ""
 "*Payroll* application, and vice versa."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:943
+#: ../../content/applications/hr/payroll.rst:924
 msgid ""
 "To view the job positions, navigate to :menuselection:`Payroll app --> "
 "Configuration --> Jobs: Job Positions`."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:946
+#: ../../content/applications/hr/payroll.rst:927
 msgid ""
 "A list of all the job positions appear, along with the corresponding "
 "department, on the :guilabel:`Job Position` page."
@@ -10941,39 +11530,51 @@ msgstr ""
 msgid "A list of all the job positions and corresponding departments."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:953
+#: ../../content/applications/hr/payroll.rst:934
 msgid ""
 "To create a new job description, click the :guilabel:`New` button and a job "
 "form appears."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:955
+#: ../../content/applications/hr/payroll.rst:936
 msgid ""
 "Enter the information on the form for the new position. The information is "
 "identical as to the information entered when creating a new job position in "
 "the *Recruitment* application."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:958
+#: ../../content/applications/hr/payroll.rst:939
 msgid ""
 "Refer to the :doc:`../hr/recruitment/new_job` documentation for more details"
 " on how to fill out this form."
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:962
+#: ../../content/applications/hr/payroll.rst:943
 msgid ":doc:`payroll/contracts`"
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:963
-msgid ":doc:`payroll/payslips`"
-msgstr ""
-
-#: ../../content/applications/hr/payroll.rst:964
+#: ../../content/applications/hr/payroll.rst:944
 msgid ":doc:`payroll/work_entries`"
 msgstr ""
 
-#: ../../content/applications/hr/payroll.rst:965
+#: ../../content/applications/hr/payroll.rst:945
+msgid ":doc:`payroll/salary_attachments`"
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:946
+msgid ":doc:`payroll/payslips`"
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:947
 msgid ":doc:`payroll/reporting`"
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:948
+msgid ":doc:`payroll/work_entry_analysis`"
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:949
+msgid ":doc:`payroll/salary_attachment`"
 msgstr ""
 
 #: ../../content/applications/hr/payroll/contracts.rst:5
@@ -11610,6 +12211,7 @@ msgid ""
 msgstr ""
 
 #: ../../content/applications/hr/payroll/contracts.rst:330
+#: ../../content/applications/hr/payroll/salary_attachments.rst:3
 msgid "Salary attachments"
 msgstr ""
 
@@ -12797,7 +13399,7 @@ msgstr ""
 
 #: ../../content/applications/hr/payroll/reporting.rst:140
 msgid "Pivot table"
-msgstr ""
+msgstr "Tabela przestawna"
 
 #: ../../content/applications/hr/payroll/reporting.rst:142
 msgid ""
@@ -12834,7 +13436,6 @@ msgid ""
 msgstr ""
 
 #: ../../content/applications/hr/payroll/reporting.rst:160
-#: ../../content/applications/hr/payroll/reporting.rst:225
 msgid ""
 "To export the data in an XLSX format, click the :guilabel:`Download xlsx` "
 "button, represented by a :guilabel:`⬇️ (down arrow above a horizontal bar)` "
@@ -12863,177 +13464,31 @@ msgstr ""
 
 #: ../../content/applications/hr/payroll/reporting.rst:181
 msgid ""
-"If the *Documents* app is **not** installed, the :guilabel:`Insert in "
-"Spreadsheet` option places the newly-created spreadsheet in the *Dashboards*"
-" app."
+"If the **Documents** app is **not** installed, the :guilabel:`Insert in "
+"Spreadsheet` option places the newly-created spreadsheet in the "
+"**Dashboards** app."
 msgstr ""
 
 #: ../../content/applications/hr/payroll/reporting.rst:184
 msgid ""
-"If the *Documents* application **is** installed, the spreadsheet has the "
-"option to be stored in either the *Dashboards* app or *Documents* app."
+"If the **Documents** application *is* installed, the spreadsheet has the "
+"option to be stored in either the **Dashboards** app or **Documents** app."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/reporting.rst:188
-msgid "Work entry analysis"
-msgstr ""
-
-#: ../../content/applications/hr/payroll/reporting.rst:190
-msgid ""
-"The default :guilabel:`Work entry analysis` report provides an overview of "
-"the validated work entries for the current month. To view this report, "
-"navigate to :menuselection:`Payroll app --> Reporting --> Work Entry "
-"Analysis`."
-msgstr ""
-
-#: ../../content/applications/hr/payroll/reporting.rst:194
-msgid ""
-"The work entries appear in a pivot table, with the default filters of "
-"`Current month: (Month)(Year)` and `Validated`. The various types of "
-":doc:`work_entries` are listed on the left-hand side (x-axis), while the "
-":guilabel:`Total` values appear along the top (the y-axis)."
-msgstr ""
-
-#: ../../content/applications/hr/payroll/reporting.rst:198
-msgid ""
-"To change the displayed view, click the :guilabel:`➕ (plus)` icon next to "
-"the word :guilabel:`Total`, then click on one of the grouping options. The "
-"available options are :guilabel:`Work Entry Type`, :guilabel:`Employee`, and"
-" :guilabel:`Department`. If in a multi-company database, a "
-":guilabel:`Company` option also appears."
-msgstr ""
-
-#: ../../content/applications/hr/payroll/reporting.rst:203
-msgid ""
-"To add a new group to sort the data, click :guilabel:`Add Custom Group`, "
-"then click one of the presented options."
-msgstr ""
-
-#: ../../content/applications/hr/payroll/reporting.rst:207
-msgid ""
-"Wherever a :guilabel:`➕ (plus)` icon appears on a pivot table, the "
-"information can be further grouped. Click on a :guilabel:`➕ (plus)` icon to "
-"reveal the available grouping options."
-msgstr ""
-
-#: ../../content/applications/hr/payroll/reporting.rst:210
-msgid ""
-"Click on a :guilabel:`➖ (minus)` icon anywhere on the pivot table to remove "
-"that respective grouping."
-msgstr ""
-
-#: ../../content/applications/hr/payroll/reporting.rst:213
-msgid ""
-"It is possible to compare the current :guilabel:`Work entry analysis` report"
-" to the previous month or the previous year. To view these comparisons, "
-"click the :guilabel:`⬇️ (down arrow)` icon in the search bar to reveal the "
-"various :ref:`filter <payroll/filters>` and grouping options."
-msgstr ""
-
-#: ../../content/applications/hr/payroll/reporting.rst:217
-msgid ""
-"In the section titled :guilabel:`Comparison`, click on either "
-":guilabel:`Current Month: Previous Period` or :guilabel:`Current Month: "
-"Previous Year`. The report updates and displays the previous time period "
-"values, as well as the :guilabel:`Variation` between the two."
-msgstr ""
-
-#: ../../content/applications/hr/payroll/reporting.rst-1
-msgid ""
-"A pivot table comparing the work entries of the current month and the "
-"previous month."
-msgstr ""
-
-#: ../../content/applications/hr/payroll/reporting.rst:229
-msgid ""
-"The data can also be inserted into a spreadsheet. Click the "
-":guilabel:`Insert in Spreadsheet` button and a :guilabel:`Select a "
-"spreadsheet to insert your (type of report)` pop-up window appears, asking "
-"which spreadsheet to place the information in. Select an existing "
-"spreadsheet or dashboard, or select a new :guilabel:`Blank spreadsheet`. "
-"Click the :guilabel:`Confirm` button to move to a spreadsheet view with the "
-"report added to it."
-msgstr ""
-
-#: ../../content/applications/hr/payroll/reporting.rst:236
-msgid ""
-"The work entry analysis spreadsheet is :ref:`stored in the same locations "
-"<payroll/doc-storage>` as a pivot table."
-msgstr ""
-
-#: ../../content/applications/hr/payroll/reporting.rst:240
-msgid "Salary attachment report"
-msgstr ""
-
-#: ../../content/applications/hr/payroll/reporting.rst:242
-msgid ""
-"The :guilabel:`Salary Attachment Report` shows all deductions or allocations"
-" per employee, such as child support payments and wage garnishments. To view"
-" this report, navigate to :menuselection:`Payroll app --> Reporting --> "
-"Salary Attachment Report`."
-msgstr ""
-
-#: ../../content/applications/hr/payroll/reporting.rst-1
-msgid ""
-"View the Attachment of Salary report that shows all salary garnishments."
-msgstr ""
-
-#: ../../content/applications/hr/payroll/reporting.rst:250
-msgid ""
-"The employees are listed in the left-side column, while the different "
-"deductions are listed in the top row, organized by deduction and monthly "
-"individual payslips."
-msgstr ""
-
-#: ../../content/applications/hr/payroll/reporting.rst:253
-msgid ""
-"The report can be exported as an XLSX file, or inserted into a spreadsheet, "
-"using the corresponding buttons at the top."
-msgstr ""
-
-#: ../../content/applications/hr/payroll/reporting.rst:256
-msgid ""
-"Click the :guilabel:`Measures` button to reveal the options of what data can"
-" be displayed. :guilabel:`Assignment of salary`, :guilabel:`Attachment of "
-"salary`, :guilabel:`Child support`, and :guilabel:`Count` can all be "
-"selected or deselected by clicking on the item. If an item has a checkmark "
-"next to it, that information is displayed."
-msgstr ""
-
-#: ../../content/applications/hr/payroll/reporting.rst-1
-msgid "Select the options to be displayed in the Salary Attachment Report."
-msgstr ""
-
-#: ../../content/applications/hr/payroll/reporting.rst:265
-msgid ""
-"The :guilabel:`Salary Attachment Report` can be compared to the report for "
-"the previous time period or the previous year. To view these comparisons, "
-"click the :guilabel:`⬇️ (down arrow)` icon in the search bar to reveal the "
-"various :ref:`filter <payroll/filters>` and grouping options."
-msgstr ""
-
-#: ../../content/applications/hr/payroll/reporting.rst:269
-msgid ""
-"In the section titled :guilabel:`Comparison`, click on either "
-":guilabel:`Payslip End Date: Previous Period` or :guilabel:`Payslip End "
-"Date: Previous Year`. The report updates and displays the previous time "
-"period values, as well as the :guilabel:`Variation` between the two."
-msgstr ""
-
-#: ../../content/applications/hr/payroll/reporting.rst:278
+#: ../../content/applications/hr/payroll/reporting.rst:192
 msgid ""
 "At the top of each report, the default filters are shown inside the "
 ":guilabel:`Search...` box."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/reporting.rst:280
+#: ../../content/applications/hr/payroll/reporting.rst:194
 msgid ""
 "Click the :guilabel:`⬇️ (down arrow)` icon in the search bar to display the "
 "available :guilabel:`Filters`. Filters show information that match the "
 "specific filter parameters."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/reporting.rst:284
+#: ../../content/applications/hr/payroll/reporting.rst:198
 msgid ""
 "The :guilabel:`Work Entries Analysis` report has two default filters, the "
 "`Current month:(Month) (Year)` filter, and the `Validated` filter."
@@ -13043,37 +13498,37 @@ msgstr ""
 msgid "Filters enabled for the Work Entries Analysis report."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/reporting.rst:291
+#: ../../content/applications/hr/payroll/reporting.rst:205
 msgid ""
 "The :guilabel:`Payroll` report has only one default filter, the `Last 365 "
 "Days Payslip` filter."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/reporting.rst:293
+#: ../../content/applications/hr/payroll/reporting.rst:207
 msgid ""
 "The :guilabel:`Salary Attachment Report` has only one default filter, the "
 "`Payslip End Date: (Year)` filter."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/reporting.rst:296
+#: ../../content/applications/hr/payroll/reporting.rst:210
 msgid ""
 "All reports can include custom filters, or group information, by different "
 "metrics (employee, department, company, etc.)."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/reporting.rst:299
+#: ../../content/applications/hr/payroll/reporting.rst:213
 msgid ""
 "Some reports have the option to compare the current report to the previous "
 "time period or year (a :guilabel:`Comparison` option)."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/reporting.rst:302
+#: ../../content/applications/hr/payroll/reporting.rst:216
 msgid ""
 "Click on a parameter to select it and activate it. The report is immediately"
 " updated with the new parameters."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/reporting.rst:305
+#: ../../content/applications/hr/payroll/reporting.rst:219
 msgid ""
 "The updated report can be set as a *favorite* report, meaning the parameters"
 " are stored for quick access in the future. To do that, click "
@@ -13082,7 +13537,7 @@ msgid ""
 "Doing so reveals two options and a :guilabel:`Save` button."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/reporting.rst:310
+#: ../../content/applications/hr/payroll/reporting.rst:224
 msgid ""
 "To set the current report as the default configuration when the report is "
 "accessed, check the box next to :guilabel:`Default filter`. If the current "
@@ -13090,11 +13545,410 @@ msgid ""
 "to :guilabel:`Share`."
 msgstr ""
 
-#: ../../content/applications/hr/payroll/reporting.rst:314
+#: ../../content/applications/hr/payroll/reporting.rst:228
 msgid ""
 "Finally, click :guilabel:`Save`, which saves the currently configured "
 "report. Then, it appears beneath the :guilabel:`Favorites` in the search bar"
 " drop-down mega menu of filter options."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachment.rst:3
+msgid "Salary attachment report"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachment.rst:5
+msgid ""
+"*Salary attachments* in Odoo refer to a portion of an employee's earnings "
+"that are designated for a specific purpose, both voluntary and involuntary. "
+"These can include contributions to a retirement plan, repayment of a loan, "
+"wage garnishments, or child support."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachment.rst:9
+msgid ""
+"Voluntary salary attachments, such as repaying a loan, or contributing to a "
+"charity on a monthly basis, are considered *Assignments of Salary* in Odoo. "
+"Salary attachments that are required, such as a lawsuit settlement "
+"repayment, or repaying a tax lien, are considered *Attachments of Salary* in"
+" Odoo. Child support payments have their own category, and are simply "
+"referred to as *Child Support* in Odoo."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachment.rst:15
+msgid ""
+"To view this report, navigate to :menuselection:`Payroll app --> Reporting "
+"--> Salary Attachment Report`. The :guilabel:`Salary Attachment Report` "
+"shows all deductions or allocations per employee, organized by payslip, in a"
+" default pivot table. The default filter is the end of the current year "
+"(:guilabel:`Payslip End Date: (year)`). The employees populate the rows, "
+"while the various deductions populate the columns, organized by type of "
+"deduction, and further grouped by individual payslip."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachment.rst:22
+msgid ""
+"The default report contains **all** payslips for the current year, so the "
+"report typically contains a large number of columns. This could make it "
+"difficult to view all the data at once, as the report may be very wide and "
+"require scrolling to view all the data."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachment.rst:26
+msgid ""
+"To view a condensed version of salary attachments, and have all the salary "
+"attachment columns visible on one page, click the :icon:`fa-minus-square-o` "
+":guilabel:`Total` icon at the top of the report, above the various payslips."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachment.rst:30
+msgid ""
+"This presents the salary attachments for the current year, and only displays"
+" three columns, :guilabel:`Attachment of Salary`, :guilabel:`Assignment of "
+"Salary`, and :guilabel:`Child Support.`"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachment.rst:33
+msgid ""
+"Each entry displays the total amount paid for each specific type of salary "
+"attachment, for each employee."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachment.rst-1
+msgid ""
+"The Attachment of Salary report that shows all salary garnishments in a "
+"condensed view."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachment.rst:39
+msgid ""
+"The report can be downloaded as an XLSX file, or :doc:`inserted into a "
+"spreadsheet <../../productivity/spreadsheet/insert>` using the corresponding"
+" buttons at the top."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachment.rst:42
+msgid ""
+"Click the :guilabel:`Measures` button to reveal the options of what data is "
+"displayed. :guilabel:`Assignment of salary`, :guilabel:`Attachment of "
+"salary`, and :guilabel:`Child support` are all selected and visible, by "
+"default, while the :guilabel:`Count` option is not."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachment.rst:46
+msgid ""
+"Click an option to either show or hide that particular metric. A :icon:`fa-"
+"check` :guilabel:`(checkmark)` icon indicates the data is visible."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachment.rst:50
+msgid "Compare to previous year"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachment.rst:52
+msgid ""
+"The :guilabel:`Salary Attachment Report` can be compared to the report for "
+"the previous time period or the previous year."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachment.rst:55
+msgid ""
+"To view these comparisons, click the :icon:`fa-caret-down` :guilabel:`(down "
+"arrow)` icon in the search bar, then click either :guilabel:`Payslip End "
+"Date: Previous Period` or :guilabel:`Payslip End Date: Previous Year`, "
+"beneath the :icon:`fa-adjust` :guilabel:`Comparison` column."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachment.rst:59
+msgid ""
+"The report updates and displays the current time period values, and the "
+"previous time period values, as well as the :guilabel:`Variation` between "
+"the two, in a percentage."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachment.rst-1
+msgid "The salary attachment report modified to compare to the previous year."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:5
+msgid ""
+"Salary attachments are portions of earnings taken directly out of a payslip "
+"for a specific purpose, whether voluntary or required."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:8
+msgid ""
+"When the deduction is voluntary, they are typically considered *deductions*."
+" When the deduction is court-ordered, or involuntary, it is sometimes "
+"referred to as a *wage garnishment*. In Odoo, these are all universally "
+"called, *salary attachments*."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:15
+msgid "Salary attachment types"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:17
+msgid ""
+"To view the currently configured salary attachment types, navigate to "
+":menuselection:`Payroll app --> Configuration --> Salary Attachment Types`. "
+"The default salary attachment types are: :guilabel:`Attachment of Salary`, "
+":guilabel:`Assignment of Salary`, and :guilabel:`Child Support`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:21
+msgid ""
+"Each salary attachment type displays the :guilabel:`Name` of the attachment "
+"type, the :guilabel:`Code` used when calculating payslips, a checkbox to "
+"indicate if there is :guilabel:`No End Date`, and whether it is "
+":guilabel:`Country` specific (or universal)."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst-1
+msgid "The default salary attachment types."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:29
+msgid "Create new salary attachment types"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:32
+msgid ""
+"Upon installation of the **Payroll** application, the pre-configured default"
+" salary attachment types are linked to a variety of rules that are linked to"
+" various salary structures, as well as the installed :ref:`localization "
+"package <fiscal_localizations/packages>`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:36
+msgid ""
+"It is **not** recommended to alter or modify **any** of the preconfigured "
+"salary attachment types, especially if they have been previously used on "
+"payslips in the database. Doing so may affect various salary rules, and can "
+"prevent the creation of payslips."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:40
+msgid ""
+"A new salary attachment type *can* be created, but this should only be done "
+"when absolutely necessary. All salary attachments can be associated with one"
+" of the three default salary attachment types."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:44
+msgid ""
+"To make a new type of salary attachment, click the :guilabel:`New` button, "
+"and a blank :guilabel:`Salary Attachment Types` form loads. Enter the "
+":guilabel:`Name` for the new salary attachment type in the corresponding "
+"field. Next, enter the :guilabel:`Code` used in the salary rules to compute "
+"payslips. Last, tick the :guilabel:`No End Date` checkbox if this salary "
+"attachment never expires."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:50
+msgid ""
+"If in a multi-company database, with locations in multiple countries, a "
+":guilabel:`Country` field also appears on the :guilabel:`Salary Attachment "
+"Types` form. Select the country the attachment applies to, or leave blank if"
+" it is universal."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:57
+msgid "Create a salary attachment"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:59
+msgid ""
+"All salary attachments must be configured separately for each employee, for "
+"each type of salary attachment. To view the currently configured salary "
+"attachments, navigate to :menuselection:`Payroll app --> Contracts --> "
+"Salary Attachments`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:63
+msgid ""
+"All salary attachments appear in a default list view, and displays the name "
+"of the :guilabel:`Employees`, :guilabel:`Description`, the salary attachment"
+" :guilabel:`Type`, the :guilabel:`Monthly Amount`, :guilabel:`Start Date`, "
+"and current :guilabel:`Status`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:67
+msgid ""
+"To create a new salary attachment, click the :guilabel:`New` button in the "
+"top-left corner, and a blank :guilabel:`Salary Attachment` form loads. Enter"
+" the following information on the form:"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:70
+msgid ""
+":guilabel:`Employees`: Using the drop-down menu, select the desired "
+"employees. Multiple employees can be listed in this field."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:72
+msgid ""
+":guilabel:`Description`: Enter a short description of the salary attachment."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:73
+msgid ""
+":guilabel:`Type`: Using the drop-down menu, select the specific :ref:`salary"
+" attachment type <payroll/salary-attachment/types>`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:75
+msgid ""
+":guilabel:`Start Date`: Using the calendar selector, select the date the "
+"salary attachment goes into effect."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:77
+msgid ""
+":guilabel:`Estimated End Date`: This field is **not** modifiable, and "
+"**only** appears after the :guilabel:`Monthly Amount` field is populated. "
+"This field is the estimated date when the salary attachment will be "
+"completed. Today's date populates the field by default. Then, when the "
+":guilabel:`Total Amount` field is populated, this date is updated."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:81
+msgid ""
+":guilabel:`Document`: If any documentation is needed, such as a court order,"
+" click the :guilabel:`Upload your file` button, and a file explorer window "
+"loads. Select the desired document to attach it to the record. Only **one** "
+"document can be attached to a salary attachment."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:84
+msgid ""
+":guilabel:`Monthly Amount`: Enter the amount taken out of each paycheck "
+"every month in this field."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:85
+msgid ""
+":guilabel:`Total Amount`: This field **only** appears if the :ref:`salary "
+"attachment type <payroll/salary-attachment/types>` has no end date (the "
+":guilabel:`No End Date` option is **not** ticked.)"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst-1
+msgid "The salary attachment form with all fields filled out."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:92
+msgid ""
+"Since the salary attachment form auto saves as the fields are populated, "
+"after making a salary attachment for an individual employee, there is no "
+"further action required."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:95
+msgid ""
+"If creating salary attachments for multiple employees on a single salary "
+"attachment form, after the form is filled out, click the :guilabel:`Create "
+"Individual Attachments` button. This creates separate salary attachments for"
+" each of the employees listed in the :guilabel:`Employees` field."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:99
+msgid ""
+"After the separate salary attachments have been created, the screen returns "
+"to the :guilabel:`Salary Attachment` dashboard, but with a "
+":guilabel:`Description` filter, populated with the description filled in on "
+"the salary attachment form. All the salary attachments have a status of "
+":guilabel:`Running`, since they are currently active. Clear the filter in "
+"the search box to view the default :guilabel:`Salary Attachment` dashboard "
+"in its entirety."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:106
+msgid "Manage salary attachments"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:108
+msgid ""
+"Salary attachments can have one of three statuses: *Running*, *Completed*, "
+"or *Canceled*. To view the current status of all salary attachments, "
+"navigate to :menuselection:`Payroll app --> Contracts --> Salary "
+"Attachments`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:112
+msgid ""
+"All salary attachments appear in the order they were configured. To view the"
+" salary attachments by a particular metric, such as the :guilabel:`Status`, "
+"or :guilabel:`Type`, click on the column title to sort by that specific "
+"column."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:117
+msgid "Completed salary attachments"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:119
+msgid ""
+"When a salary attachment is created, it has a status of :guilabel:`Running`."
+" Once the salary attachment is finished (the *Total Amount* entered on the "
+":ref:`salary attachment form <payroll/salary-attachment/create>` has been "
+"paid in full), the status automatically changes to *Completed*, and the "
+"employee no longer has the money taken out of future paychecks."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:124
+msgid ""
+"If a salary attachment has been fulfilled, but has not automatically changed"
+" to *Completed*, the record can be manually updated. To change the status, "
+"open the *Salary Attachment* dashboard by navigating to "
+":menuselection:`Payroll app --> Contracts --> Salary Attachments`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:128
+msgid ""
+"Click on the record to update, and the detailed :guilabel:`Salary "
+"Attachment` form loads. On the individual :guilabel:`Salary Attachment` "
+"record, click the :guilabel:`Mark as Completed` button in the upper-left "
+"corner, and the status changes to :guilabel:`Completed`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:133
+msgid ""
+"The following is an example of when a payroll manager may need to manually "
+"change a salary attachment from :guilabel:`Active` to :guilabel:`Cancelled`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:136
+msgid ""
+"Rose Smith has a salary attachment for a lawsuit settlement, where she is "
+"required to pay $3,000.00. A salary attachment is created that takes $250.00"
+" a month out of Rose's paycheck, to go towards this settlement payment."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:140
+msgid ""
+"After six months, Rose has paid $1,500.00 from her salary. She received a "
+"tax refund, and uses the money to pay off the remainder of the lawsuit "
+"settlement. After sending the relevant documentation to the payroll manager,"
+" showing the settlement has been paid in full, the payroll manager manually "
+"changes the status of her salary attachment to :guilabel:`Completed`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:146
+msgid "Cancel salary attachments"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:148
+msgid ""
+"Any salary attachment can be cancelled at any time. To cancel a salary "
+"attachment, click on the individual attachment record from the main "
+":guilabel:`Salary Attachment` dashboard to open the record. From the "
+":guilabel:`Salary Attachment` record, click the :guilabel:`Cancel` button to"
+" cancel the salary attachment, and stop having the designated money taken "
+"out of future paychecks."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:154
+msgid ":doc:`salary_attachment`"
 msgstr ""
 
 #: ../../content/applications/hr/payroll/work_entries.rst:5
@@ -13204,7 +14058,7 @@ msgstr ""
 #: ../../content/applications/hr/payroll/work_entries.rst:62
 msgid ""
 ":guilabel:`Work Entry Type`: select the :ref:`work entry type <payroll/work-"
-"entries-config>` using the drop-down menu."
+"entries>` using the drop-down menu."
 msgstr ""
 
 #: ../../content/applications/hr/payroll/work_entries.rst:64
@@ -13701,6 +14555,153 @@ msgstr ""
 
 #: ../../content/applications/hr/payroll/work_entries.rst:339
 msgid ":ref:`Configure work entries <payroll/work-entries-config>`"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entry_analysis.rst:3
+msgid "Work entry analysis"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entry_analysis.rst:5
+msgid ""
+"The default *Work Entries Analysis* report provides an overview of the "
+"validated work entries for the current month. To view this report, navigate "
+"to :menuselection:`Payroll app --> Reporting --> Work Entry Analysis`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entry_analysis.rst:9
+msgid ""
+"The work entries appear in a pivot table, with the default filters of "
+":guilabel:`Current month: (Month)(Year)` and :guilabel:`Validated`. The "
+"various types of :doc:`work_entries` populate the rows, while the "
+":guilabel:`Total` values populate the only visible column."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entry_analysis.rst:13
+msgid ""
+"To change the displayed information, click :icon:`fa-plus-square` "
+":guilabel:`Total` above the main column, revealing a drop-down menu of "
+"available metrics. Click on one of the available groupings, and the data is "
+"further organized by that selected metric. The default options are "
+":guilabel:`Work Entry Type`, :guilabel:`Employee`, and "
+":guilabel:`Department`. If in a multi-company database, a "
+":guilabel:`Company` option also appears."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entry_analysis.rst:20
+msgid "Work entry analysis comparison"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entry_analysis.rst:22
+msgid ""
+"It is possible to compare the work entries from one time period to a "
+"previous time period. To view this comparison, first navigate to "
+":menuselection:`Payroll app --> Reporting --> Work Entry Analysis`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entry_analysis.rst:26
+msgid ""
+"Next, click the :icon:`fa-caret-down` :guilabel:`(down arrow)` icon in the "
+"search bar, revealing a drop-down menu. Under the :icon:`fa-adjust` "
+":guilabel:`Comparison` section, click on either :guilabel:`Current Month: "
+"Previous Period` or :guilabel:`Current Month: Previous Year`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entry_analysis.rst:30
+msgid ""
+"The report updates and displays the data for the current time period, data "
+"for the selected previous time period, as well as the :guilabel:`Variation` "
+"between the two, in a percentage."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entry_analysis.rst-1
+msgid ""
+"A pivot table comparing the work entries of the current month and the "
+"previous month."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entry_analysis.rst:37
+msgid ""
+"If no work entries for a specific :ref:`work entry type <payroll/work-"
+"entries>` are logged for the time period, it does **not** appear on the "
+"report. That does **not** mean the work entry type does not exist, or is not"
+" configured."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entry_analysis.rst:41
+msgid ""
+"Additionally, if the default :guilabel:`Current month: (Month)(Year)` filter"
+" is removed from the search bar, the :guilabel:`Comparison` column does "
+"**not** appear; there must be a time-frame selected to view the "
+":guilabel:`Comparison` column."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entry_analysis.rst:46
+msgid "Use case: overtime report comparison"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entry_analysis.rst:48
+msgid ""
+"It is possible to alter the *Work Entries Analysis* report to show a "
+"comparison of only overtime work entries, grouped by employee, for a "
+"specific time period. To view this data, first navigate to the default *Work"
+" entry analysis* report by going to :menuselection:`Payroll app --> "
+"Reporting --> Work Entry Analysis`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entry_analysis.rst:53
+msgid ""
+"Next, click the :icon:`fa-caret-down` :guilabel:`(down arrow)` icon in the "
+"search bar, revealing a drop-down menu. Under the :icon:`fa-filter` "
+":guilabel:`Filters` column, click :guilabel:`Add Custom Filter`, and a "
+":guilabel:`Add Custom Filter` pop-up window appears."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entry_analysis.rst:57
+msgid ""
+"Using the drop-down menu, select :guilabel:`Work Entry Type` for the first "
+"field, leave the middle field as-is (with :guilabel:`is in` populating the "
+"field), and select :guilabel:`Overtime Hours` for the last field. Click "
+":guilabel:`Add`, and all other work entry types disappear, and "
+":guilabel:`Overtime Hours` appear in the sole row."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entry_analysis.rst:62
+msgid ""
+"To compare overtime from the current month to the previous month, to see "
+"which month had more overtime logged, click the :icon:`fa-caret-down` "
+":guilabel:`(down arrow)` icon again in the search bar. Under the :icon:`fa-"
+"adjust` :guilabel:`Comparison` section, click :guilabel:`Current Month: "
+"Previous Period`. Click away from the drop-down menu to close it."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entry_analysis.rst:67
+msgid ""
+"Now, the report displays the :guilabel:`Overtime Hours` for the current "
+"month and the previous month, along with the :guilabel:`Variation`, in a "
+"percentage."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entry_analysis.rst:70
+msgid ""
+"To view which employees received the most overtime, click :icon:`fa-plus-"
+"square` :guilabel:`Overtime Hours`, revealing a drop-down menu of options. "
+"Click :guilabel:`Employee`, and all employees with overtime work entries for"
+" either the current or previous month appears."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entry_analysis.rst:74
+msgid ""
+"In this example, it can be determined that :guilabel:`Marc Demo` worked the "
+"most overtime in :guilabel:`August 2024`, whereas :guilabel:`Beth Evans` "
+"worked the most overtime hours in :guilabel:`September 2024`. Additionally, "
+":guilabel:`Mitchell Admin` had the largest variation change, with a "
+":guilabel:`-100%` change from :guilabel:`August 2024` to "
+":guilabel:`September 2024`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entry_analysis.rst-1
+msgid ""
+"A pivot table comparing the overtime from September 2024 with August 2024."
 msgstr ""
 
 #: ../../content/applications/hr/recruitment.rst:5
@@ -15879,7 +16880,7 @@ msgstr "Szablon wiadomości"
 
 #: ../../content/applications/hr/recruitment/refuse_applicant.rst:38
 msgid "Refusal Reason"
-msgstr ""
+msgstr "Powód odrzucenia"
 
 #: ../../content/applications/hr/recruitment/refuse_applicant.rst:39
 msgid ":guilabel:`Recruitment: Refuse`"

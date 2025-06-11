@@ -3,7 +3,7 @@ Upgrade
 =======
 
 An upgrade involves moving a database from an older version to a newer supported version (e.g., from
-Odoo 15.0 to Odoo 17.0). Regular upgrades are crucial as each version offers new features, bug
+Odoo 16.0 to Odoo 18.0). Regular upgrades are crucial as each version offers new features, bug
 fixes, and security patches. Using a :doc:`supported version <supported_versions>` is strongly
 recommended. Each major version is supported for three years.
 
@@ -13,11 +13,11 @@ Depending on the hosting type and Odoo version used, a database upgrade can be *
 
    .. group-tab:: Odoo Online
 
-      - If a database is on a **major version** (e.g., 15.0, 16.0, 17.0), an upgrade is mandatory
+      - If a database is on a **major version** (e.g., 16.0, 17.0, 18.0), an upgrade is mandatory
         every two years.
       - If a database is on a **minor version** (e.g., 17.1, 17.2, 17.4), an upgrade is mandatory
         a few weeks after the next version is released. Minor versions are usually released every
-        three months.
+        two months.
 
    .. group-tab:: Odoo.sh
 
@@ -390,8 +390,8 @@ few exceptions.
          filestore before deploying the new version.
 
 In case of an issue with your production database, you can request the assistance of Odoo by going
-to the `Support page and selecting "An issue related to my future upgrade (I am testing an upgrade)"
-<https://www.odoo.com/help?stage=migration>`_.
+to the `Support page and selecting "An issue related to my upgrade (production)"
+<https://www.odoo.com/help?stage=post_upgrade>`_.
 
 .. _upgrade-sla:
 
@@ -430,10 +430,8 @@ Upgrade services not covered by the SLA
 The following upgrade-related services are **not** included:
 
 - the **cleaning** of pre-existing data and configurations while upgrading;
-- the upgrade of **custom modules created in-house or by third parties**, including Odoo partners;
-- lines of **code added to standard modules**, i.e., customizations created outside the Studio app,
-  code entered manually, and :ref:`automated actions using Python code
-  <studio/automated-actions/action>`; and
+- the upgrade of **additional modules not covered by a maintenance contract** that are created
+  in-house or by third parties, including Odoo partners; and
 - **training** on using the upgraded version's features and workflows.
 
 .. seealso::

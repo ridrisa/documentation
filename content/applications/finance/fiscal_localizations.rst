@@ -66,7 +66,7 @@ available on Odoo.
 - Costa Rica - Accounting
 - Croatia - Accounting (RRIF 2012)
 - Czech - Accounting
-- Denmark - Accounting
+- :doc:`Denmark - Accounting <fiscal_localizations/denmark>`
 - Dominican Republic - Accounting
 - :doc:`Ecuadorian - Accounting <fiscal_localizations/ecuador>`
 - :doc:`Egypt - Accounting <fiscal_localizations/egypt>`
@@ -90,9 +90,11 @@ available on Odoo.
 - Israel - Accounting
 - :doc:`Italy - Accounting <fiscal_localizations/italy>`
 - Japan - Accounting
+- :doc:`Jordan - Accounting <fiscal_localizations/jordan>`
 - :doc:`Kenya - Accounting <fiscal_localizations/kenya>`
 - Lithuania - Accounting
 - :doc:`Luxembourg - Accounting <fiscal_localizations/luxembourg>`
+- :doc:`Malaysia - Accounting <fiscal_localizations/malaysia>`
 - Maroc - Accounting
 - :doc:`Mexico - Accounting <fiscal_localizations/mexico>`
 - Mongolia - Accounting
@@ -137,6 +139,7 @@ available on Odoo.
    fiscal_localizations/canada
    fiscal_localizations/chile
    fiscal_localizations/colombia
+   fiscal_localizations/denmark
    fiscal_localizations/ecuador
    fiscal_localizations/egypt
    fiscal_localizations/france
@@ -145,8 +148,10 @@ available on Odoo.
    fiscal_localizations/india
    fiscal_localizations/indonesia
    fiscal_localizations/italy
+   fiscal_localizations/jordan
    fiscal_localizations/kenya
    fiscal_localizations/luxembourg
+   fiscal_localizations/malaysia
    fiscal_localizations/mexico
    fiscal_localizations/netherlands
    fiscal_localizations/romania

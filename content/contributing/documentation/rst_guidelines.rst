@@ -610,7 +610,7 @@ markup:
          Use relative links for internal URLs
          ------------------------------------
 
-         Please refer to the :ref:`<contributing/rst/hyperlinks-guidelines>` section to learn more
+         Please refer to the :ref:`contributing/rst/hyperlinks-guidelines` section to learn more
          about :ref:`relative links <contributing/rst/relative-links>`.
 
 .. _contributing/rst/doc-hyperlinks:
@@ -714,9 +714,9 @@ See also
    * - .. code-block:: text
 
           .. seealso::
-          - :doc:`Accounting documentation <../../../applications/finance/accounting>`
-          - :doc:`../../../applications/sales/sales/invoicing/proforma`
-          - `Google documentation on setting up Analytics for a website <https://support.google.com/analytics/answer/1008015?hl=en/>`_
+             - :doc:`Accounting documentation <../../../applications/finance/accounting>`
+             - :doc:`../../../applications/sales/sales/invoicing/proforma`
+             - `Google documentation on setting up Analytics for a website <https://support.google.com/analytics/answer/1008015?hl=en/>`_
 
 .. _contributing/rst/note:
 

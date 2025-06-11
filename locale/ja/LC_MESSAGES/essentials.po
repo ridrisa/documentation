@@ -4,18 +4,18 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Junko Augias, 2024
 # Martin Trigaux, 2024
 # Wil Odoo, 2024
+# Junko Augias, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-24 10:43+0000\n"
+"POT-Creation-Date: 2025-04-30 11:37+0000\n"
 "PO-Revision-Date: 2024-03-30 23:40+0000\n"
-"Last-Translator: Wil Odoo, 2024\n"
+"Last-Translator: Junko Augias, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/odoo/teams/41243/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -57,7 +57,7 @@ msgstr ":icon:`fa-envelope` :guilabel:`(封筒)` アイコン: Eメールが予�
 
 #: ../../content/applications/essentials/activities.rst:17
 msgid ":icon:`fa-check` :guilabel:`(check)` icon: a \"to-do\" is scheduled."
-msgstr ":icon:`fa-check` :guilabel:`(チェック)` アイコン: \"To-do\"が予定されています。"
+msgstr ":icon:`fa-check` :guilabel:`(チェック)` アイコン: \"To-do\" が予定されています。"
 
 #: ../../content/applications/essentials/activities.rst:18
 msgid ":icon:`fa-users` :guilabel:`(people)` icon: a meeting is scheduled."
@@ -167,7 +167,7 @@ msgid ""
 ":icon:`oi-settings-adjust` :guilabel:`(settings adjust)` icon in the far-"
 "right of the top row."
 msgstr ""
-" :guilabel:`活動` 列が非表示になっている場合は、一番上の行の右端にある :icon:`oi-settings-adjust` "
+":guilabel:`活動` 列が非表示になっている場合は、一番上の行の右端にある :icon:`oi-settings-adjust` "
 ":guilabel:`(設定調整)` アイコンを使って表示して下さい。"
 
 #: ../../content/applications/essentials/activities.rst:74
@@ -176,8 +176,8 @@ msgid ""
 "and click :guilabel:`+ Schedule an activity`. Proceed to :ref:`fill out the "
 "Schedule Activity form <activities/form>` that appears."
 msgstr ""
-" 次に、活動を追加するレコードの|時計|をクリックし、:guilabel:`+ "
-"活動を予定する`をクリックします。表示された活動予定フォーム<activities/form>`に記入します。"
+"次に、活動を追加するレコードの時計をクリックし、:guilabel:`+ 活動を予定する` "
+"をクリックします。表示された活動予定フォーム<activities/form>` に記入します。"
 
 #: ../../content/applications/essentials/activities.rst-1
 msgid "List view of the CRM pipeline and the option to schedule an activity."
@@ -278,7 +278,7 @@ msgid ""
 ":guilabel:`Meeting`, or :guilabel:`To-Do`. Depending on what other "
 "applications are installed, additional options may be available."
 msgstr ""
-" :guilabel:`活動タイプ`: 活動の種類をドロップダウンメニューから選択します。デフォルトのオプションは :guilabel:`Eメール`, "
+":guilabel:`活動タイプ`: 活動の種類をドロップダウンメニューから選択します。デフォルトのオプションは :guilabel:`Eメール`, "
 ":guilabel:`電話`, :guilabel:`ミーティング`, :guilabel:`ToDo` "
 "です。他にインストールされているアプリケーションによっては、追加オプションが利用できる場合があります。"
 
@@ -307,13 +307,13 @@ msgstr ""
 msgid ""
 ":guilabel:`Notes`: add any additional information for the activity in this "
 "field."
-msgstr " :guilabel:`メモ`: このフィールドに活動に関する追加情報を入力して下さい。"
+msgstr ":guilabel:`メモ`: このフィールドに活動に関する追加情報を入力して下さい。"
 
 #: ../../content/applications/essentials/activities.rst:145
 msgid ""
 "When the :guilabel:`Schedule Activity` pop-up window is completed, click one"
 " of the following buttons:"
-msgstr " :guilabel:`活動をスケジュール`ポップアップウィンドウの入力が完了したら、以下のボタンのいずれかをクリックして下さい:"
+msgstr ":guilabel:`活動をスケジュール` ポップアップウィンドウの入力が完了したら、以下のボタンのいずれかをクリックして下さい:"
 
 #: ../../content/applications/essentials/activities.rst:148
 msgid ""
@@ -371,7 +371,7 @@ msgid ""
 "automatically marked as done, and a new :guilabel:`Schedule Activity` pop-up"
 " window appears."
 msgstr ""
-" :guilabel:`完了して次をスケジュール`: :guilabel:`今日` "
+":guilabel:`完了して次をスケジュール`: :guilabel:`今日` "
 "の下のチャターに活動の詳細を追加します。活動はスケジュールされず、自動的に完了としてマークされ、新しい :guilabel:`活動をスケジュール` "
 "ポップアップウィンドウが表示されます。"
 
@@ -393,7 +393,7 @@ msgstr "全てのスケジュール済活動"
 msgid ""
 "To view a consolidated list of activities, organized by application, click "
 "the |clock| in the header menu, located in the top-right corner."
-msgstr "活動一覧をアプリケーション別に表示するには、右上にあるヘッダーメニューの|時計|をクリックして下さい。"
+msgstr "活動一覧をアプリケーション別に表示するには、右上にあるヘッダーメニューの時計をクリックして下さい。"
 
 #: ../../content/applications/essentials/activities.rst:183
 msgid ""
@@ -488,14 +488,14 @@ msgid ""
 "available tags displayed are based on the tags configured for the selected "
 ":guilabel:`Workspace`."
 msgstr ""
-" :guilabel:`タグ`: ドロップダウンメニューから任意のタグを選択します。表示されるタグは、選択した :guilabel:`ワークスペース` "
+":guilabel:`タグ`: ドロップダウンメニューから任意のタグを選択します。表示されるタグは、選択した :guilabel:`ワークスペース` "
 "に設定されているタグに基づいています。"
 
 #: ../../content/applications/essentials/activities.rst:223
 msgid ""
 ":guilabel:`Message`: enter a message to clarify the document request in this"
 " field."
-msgstr " :guilabel:`メッセージ`: ドキュメント要求を明確にするためのメッセージをこのフィールドに入力して下さい。"
+msgstr ":guilabel:`メッセージ`: ドキュメント要求を明確にするためのメッセージをこのフィールドに入力して下さい。"
 
 #: ../../content/applications/essentials/activities.rst:225
 msgid ""
@@ -597,7 +597,7 @@ msgid ""
 "with this new activity type. Some actions trigger specific behaviors after "
 "an activity is scheduled, such as:"
 msgstr ""
-" :guilabel:`アクション`: "
+":guilabel:`アクション`: "
 "ドロップダウンメニューを使用して、この新規の活動タイプに関連するアクションを選択します。いくつかのアクションは、活動がスケジュールされた後に特定の動作をトリガします:"
 
 #: ../../content/applications/essentials/activities.rst:279
@@ -613,7 +613,7 @@ msgid ""
 ":guilabel:`Call` or :guilabel:`Meeting`: if selected, users have the option "
 "to open their calendar to select a date and time for the activity."
 msgstr ""
-" :guilabel:`通話` または :guilabel:`ミーティング`: "
+":guilabel:`通話` または :guilabel:`ミーティング`: "
 "選択された場合、ユーザはオプションで活動の日時を選択するためにカレンダを開くことができます。"
 
 #: ../../content/applications/essentials/activities.rst:283
@@ -622,9 +622,9 @@ msgid ""
 "request pop-up window is automatically added to the planned activity in the "
 "chatter. This requires the Odoo *Sign* application to be installed."
 msgstr ""
-" :guilabel:`署名を依頼`: "
-"これを選択すると、署名依頼ポップアップウィンドウを開くためのリンクがチャター内の活動予定に自動的に追加されます。これにはOdoo "
-"*署名*アプリケーションがインストールされている必要があります。"
+":guilabel:`署名を依頼`: "
+"これを選択すると、署名依頼ポップアップウィンドウを開くためのリンクがチャター内の活動予定に自動的に追加されます。これにはOdoo *署名* "
+"アプリケーションがインストールされている必要があります。"
 
 #: ../../content/applications/essentials/activities.rst:288
 msgid ""
@@ -639,7 +639,7 @@ msgid ""
 "appears if :guilabel:`Upload Document` is selected for the "
 ":guilabel:`Action`."
 msgstr ""
-" :guilabel:`フォルダ`: ドキュメントを保存する :ref:`ワークスペース <documents/workspaces>` "
+":guilabel:`フォルダ`: ドキュメントを保存する :ref:`ワークスペース <documents/workspaces>` "
 "フォルダを指定します。このフィールドは :guilabel:`活動` で :guilabel:`ドキュメントをアップロード` "
 "が選択されている場合にのみ表示されます。"
 
@@ -656,14 +656,14 @@ msgid ""
 "type is scheduled. If this field is left blank, the activity is assigned to "
 "the user who creates the activity."
 msgstr ""
-" :guilabel:`デフォルトユーザ`: "
+":guilabel:`デフォルトユーザ`: "
 "ドロップダウンメニューからユーザを選択すると、この活動タイプがスケジュールされたときに、選択したユーザにこの活動が自動的に割当てられます。このフィールドが空白の場合、活動は活動を作成したユーザに割当てられます。"
 
 #: ../../content/applications/essentials/activities.rst:299
 msgid ""
 ":guilabel:`Default Summary`: enter a note to include whenever this activity "
 "type is created."
-msgstr " :guilabel:`デフォルト概要`: この活動タイプが作成されるたびに含めるメモを入力します。"
+msgstr ":guilabel:`デフォルト概要`: この活動タイプが作成されるたびに含めるメモを入力します。"
 
 #: ../../content/applications/essentials/activities.rst:302
 msgid ""
@@ -679,8 +679,8 @@ msgid ""
 ":guilabel:`Keep Done`: tick this checkbox to keep activities that have been "
 "marked as `Done` visible in the :ref:`activity view <activities/activity>`."
 msgstr ""
-" :guilabel:`完了のまま残す`: :ref:`活動ビュー "
-"<activities/activity>`に`完了`としてマークされた活動を表示し続けるには、このチェックボックスをオンにします。"
+":guilabel:`完了のまま残す`: :ref:`活動ビュー <activities/activity>` に `完了` "
+"としてマークされた活動を表示し続けるには、このチェックボックスをオンにします。"
 
 #: ../../content/applications/essentials/activities.rst:308
 msgid ":guilabel:`Default Note`: enter any notes to appear with the activity."
@@ -694,7 +694,7 @@ msgstr "次の活動セクション"
 msgid ""
 "It is possible to have another activity either suggested or triggered. To do"
 " so, configure the :guilabel:`Next Activity` section."
-msgstr " 別の活動を提案またはトリガさせることができます。そのためには :guilabel:`次の活動` セクションを設定して下さい。"
+msgstr "別の活動を提案またはトリガさせることができます。そのためには :guilabel:`次の活動` セクションを設定して下さい。"
 
 #: ../../content/applications/essentials/activities.rst:316
 msgid ""
@@ -712,8 +712,8 @@ msgid ""
 "The :guilabel:`Chaining Type` field does **not** appear if :guilabel:`Upload"
 " Document` is selected for the :guilabel:`Action`."
 msgstr ""
-" :guilabel:`アクション` で :guilabel:`ドキュメントをアップロード` が選択されている場合、 "
-":guilabel:`チェーンタイプ` フィールドは表示され**ません**。"
+":guilabel:`アクション` で :guilabel:`ドキュメントをアップロード` が選択されている場合、 "
+":guilabel:`チェーンタイプ` フィールドは表示され **ません**。"
 
 #: ../../content/applications/essentials/activities.rst:324
 msgid ""
@@ -722,7 +722,7 @@ msgid ""
 " :guilabel:`Trigger`. Using the drop-down menu, select the activity to "
 "recommend or schedule as a follow-up task to the activity type."
 msgstr ""
-" :guilabel:`提案/トリガ`: :guilabel:`チェーンタイプ`で何が選択されているかによって、このフィールドには "
+":guilabel:`提案/トリガ`: :guilabel:`チェーンタイプ` で何が選択されているかによって、このフィールドには "
 ":guilabel:`提案` または :guilabel:`トリガ` "
 "と表示されます。ドロップダウンメニューを使用して、活動タイプのフォローアップタスクとして推奨またはスケジュールする活動を選択します。"
 
@@ -730,7 +730,7 @@ msgstr ""
 msgid ""
 ":guilabel:`Schedule`: configure when the next activity is suggested or "
 "triggered."
-msgstr " :guilabel:`スケジュール`: 次の活動がいつ提案されるか、またはトリガされるかを設定します。"
+msgstr ":guilabel:`スケジュール`: 次の活動がいつ提案されるか、またはトリガされるかを設定します。"
 
 #: ../../content/applications/essentials/activities.rst:329
 msgid ""
@@ -798,7 +798,7 @@ msgid ""
 "click :guilabel:`Create`. A new form appears where various contact "
 "information can be added."
 msgstr ""
-" 新しい連絡先を作成するには、 :menuselection:`連絡先アプリ` に移動し、 :guilabel:`作成` "
+"新しい連絡先を作成するには、 :menuselection:`連絡先アプリ` に移動し、 :guilabel:`作成` "
 "をクリックします。様々な連絡先情報を追加できる新しいフォームが表示されます。"
 
 #: ../../content/applications/essentials/contacts.rst:18
@@ -824,8 +824,8 @@ msgid ""
 ":guilabel:`Company`. This is how the name appears throughout the database. "
 "This field is **mandatory**."
 msgstr ""
-" :guilabel:`個人` または :guilabel:`会社` "
-"の名前を記入します。この名前はデータベース全体に表示されます。このフィールドは**必須**です。"
+":guilabel:`個人` または :guilabel:`会社` の名前を記入します。この名前はデータベース全体に表示されます。このフィールドは "
+"**必須** です。"
 
 #: ../../content/applications/essentials/contacts.rst:30
 msgid ""
@@ -854,10 +854,8 @@ msgid ""
 ":guilabel:`Delivery Address`, :guilabel:`Other Address`, and "
 ":guilabel:`Private Address`."
 msgstr ""
-":guilabel:`個人` オプションが選択された場合、 *住所の種類* "
-"をドロップダウンメニューから選択することができます。このドロップダウンメニューのオプションには次が含まれます: :guilabel:`連絡先`, "
-":guilabel:`顧客請求書送付先`, :guilabel:`配送住所`, :guilabel:`他のアドレス`, "
-":guilabel:`個人アドレス`"
+":guilabel:`個人`オプションが選択された場合、*住所の種類* をドロップダウンメニューから選択することができます。このドロップダウンメニューのオプションは以下の通りです: \n"
+"guilabel:`連絡先`、 :guilabel:`請求先住所`、 :guilabel:`配送先住所`、 :guilabel:`その他の住所`、 :guilabel:`プライベートな住所` などがあります。"
 
 #: ../../content/applications/essentials/contacts.rst:46
 msgid "Additional fields"
@@ -877,7 +875,7 @@ msgstr ":guilabel:`登録番号`: 税登録番号"
 msgid ""
 ":guilabel:`Citizen Identification`: citizen or government identification "
 "number (only available on :guilabel:`Individual`)."
-msgstr " :guilabel:`国民ID`: 国民または政府ID番号( :guilabel:`個人`でのみ使用可能)"
+msgstr ":guilabel:`国民ID`: 国民または政府ID番号( :guilabel:`個人` でのみ使用可能)"
 
 #: ../../content/applications/essentials/contacts.rst:53
 msgid ""
@@ -891,7 +889,7 @@ msgid ""
 "an SMS, or WhatsApp message by hovering over the field on the saved form, "
 "and clicking the desired option."
 msgstr ""
-" :guilabel:`電話`: "
+":guilabel:`電話`: "
 "電話番号のリスト(国番号付き)。保存されたフォームのフィールドにカーソルを合わせ、必要なオプションをクリックすることで、電話をかけたり、SMSやWhatsAppメッセージを送信することができます。"
 
 #: ../../content/applications/essentials/contacts.rst:57
@@ -900,7 +898,7 @@ msgid ""
 "call, send an SMS, or WhatsApp message by hovering over the field on the "
 "saved form, and clicking on the desired option."
 msgstr ""
-" :guilabel:`携帯番号`: "
+":guilabel:`携帯番号`: "
 "携帯電話番号のリスト(国番号付き)。保存されたフォームのフィールドにカーソルを合わせ、希望のオプションをクリックすることで、電話をかけたり、SMSやWhatsAppメッセージを送信することができます。"
 
 #: ../../content/applications/essentials/contacts.rst:59
@@ -944,8 +942,8 @@ msgid ""
 "associated with a :guilabel:`Company` and related addresses. For example, a "
 "specific contact person for the company can be listed here."
 msgstr ""
-" "
-"連絡先フォームの下部にはいくつかのタブがあります。guilabel:`連絡先と住所`タブでは、:guilabel:`会社`に関連する連絡先と関連する住所を追加することができます。例えば、会社の特定の連絡先をここに記載することができます。"
+"連絡先フォームの下部にはいくつかのタブがあります。:guilabel:`連絡先と住所` タブでは、:guilabel:`会社` "
+"に関連する連絡先と関連する住所を追加することができます。例えば、会社の特定の連絡先をここに記載することができます。"
 
 #: ../../content/applications/essentials/contacts.rst:74
 msgid ""
@@ -984,13 +982,13 @@ msgstr ":guilabel:`連絡先`: 既存の連絡先フォームに他の連絡先�
 msgid ""
 ":guilabel:`Invoice Address`: adds a specific invoice address to the existing"
 " contact form."
-msgstr ":guilabel:`請求先`: 既存の連絡先フォームに特定の請求先住所を追加します。"
+msgstr ":guilabel:`請求先住所`: 既存の連絡先フォームに特定の請求先住所を追加します。"
 
 #: ../../content/applications/essentials/contacts.rst:89
 msgid ""
 ":guilabel:`Delivery Address`: adds a specific delivery address to the "
 "existing contact form."
-msgstr ":guilabel:`配送先`: 既存の連絡先フォームに特定の配送先住所を追加します。"
+msgstr ":guilabel:`配送先住所`: 既存の連絡先フォームに特定の配送先住所を追加します。"
 
 #: ../../content/applications/essentials/contacts.rst:90
 msgid ""
@@ -1019,8 +1017,8 @@ msgid ""
 "Add the :guilabel:`Contact Name`, :guilabel:`Address`, :guilabel:`Email`, "
 "along with the :guilabel:`Phone` and/or :guilabel:`Mobile` numbers below."
 msgstr ""
-" :guilabel:`連絡先名`、 :guilabel:`住所`、 :guilabel:`Eメール`、 :guilabel:`電話番号` "
-"および/または :guilabel:`携帯電話番号` を以下に追加して下さい。"
+":guilabel:`連絡先名`、 :guilabel:`住所`、 :guilabel:`Eメール`、 :guilabel:`電話番号` および/または"
+" :guilabel:`携帯電話番号` を以下に追加して下さい。"
 
 #: ../../content/applications/essentials/contacts.rst:103
 msgid ""
@@ -1064,7 +1062,7 @@ msgid ""
 "Purchases` tab. Select a :guilabel:`Fiscal Position` from the drop-down "
 "menu."
 msgstr ""
-" :guilabel:`販売と購買` タブで :guilabel:`会計ポジション` を設定することができます。ドロップダウンメニューから "
+":guilabel:`販売と購買` タブで :guilabel:`会計ポジション` を設定することができます。ドロップダウンメニューから "
 ":guilabel:`会計ポジション` を選択します。"
 
 #: ../../content/applications/essentials/contacts.rst:122
@@ -1112,7 +1110,7 @@ msgid ""
 " field to track points the user won as part of a *Loyalty Program*."
 msgstr ""
 ":guilabel:`POS` の下に、連絡先を特定するために使用できる :guilabel:`バーコード` を入力します。 "
-":guilabel:ロイヤリティポイント` フィールドを使用して、ユーザが *ロイヤリティポイント* の一部として獲得したポイントを追跡します。"
+":guilabel:`ロイヤリティポイント` フィールドを使用して、ユーザが *ロイヤリティポイント* の一部として獲得したポイントを追跡します。"
 
 #: ../../content/applications/essentials/contacts.rst:143
 msgid "Purchase section"
@@ -1149,8 +1147,8 @@ msgstr ""
 ":guilabel:`会社` フィールドのドロップダウンリストで選択します。 :guilabel:`ウェブサイト` "
 "ドロップダウンメニューを使用して、この連絡先の公開を1つのウェブサイトに制限します(複数のウェブサイトを持つデータベースで作業する場合)。1つ以上の "
 ":guilabel:`ウェブサイトタグ` を選択して、`/customers` ウェブサイトページで公開済顧客をフィルタリングします。この連絡先の "
-":guilabel:`産業` をドロップダウンメニューから選択します。 :guilabel:`SLAポリシー` "
-"フィールドを使用して、この連絡先に*ヘルプデスク* SLAポリシーを割当てます。"
+":guilabel:`インダストリー` をドロップダウンメニューから選択します。 :guilabel:`SLAポリシー` "
+"フィールドを使用して、この連絡先に *ヘルプデスク* SLAポリシーを割当てます。"
 
 #: ../../content/applications/essentials/contacts.rst:161
 msgid "Accounting tab"
@@ -1181,7 +1179,7 @@ msgid ""
 "tab, where notes can be left on this contact form, just like on the contact "
 "form noted above."
 msgstr ""
-" :guilabel:`会計` タブに続く :guilabel:`内部ノート` "
+":guilabel:`会計` タブに続く :guilabel:`内部ノート` "
 "タブでは、上記の連絡先フォームと同様に、この連絡先フォームにメモを残すことができます。"
 
 #: ../../content/applications/essentials/contacts.rst:176
@@ -1196,9 +1194,9 @@ msgid ""
 "configurations. These are **only** present when the *Resellers* module is "
 "installed."
 msgstr ""
-" 次に :guilabel:`取引先割当` タブです。デフォルトでは :guilabel:`ジオロケーション` セクションがあり、 "
-":guilabel:`パートナー有効化` や :guilabel:`パートナーレビュー` "
-"設定などの取引先オプションがあります。これらは**Resellers*モジュールがインストールされている場合のみ**存在します。"
+"次に :guilabel:`取引先割当` タブです。デフォルトでは :guilabel:`ジオロケーション` セクションがあり、 "
+":guilabel:`パートナー有効化` や :guilabel:`パートナーレビュー` 設定などの取引先オプションがあります。これらは *リセラー* "
+"モジュールがインストールされている場合 **のみ** 存在します。"
 
 #: ../../content/applications/essentials/contacts.rst:183
 msgid ""
@@ -1221,7 +1219,8 @@ msgid ""
 "*Members* application is installed."
 msgstr ""
 "最後に、連絡先フォームの :guilabel:`会員資格` "
-"タブがあり、ユーザはこの特定の連絡先に提供されている会員資格を管理することができます。このタブは**会員*アプリケーションがインストールされている場合に**のみ**表示されます。"
+"タブがあり、ユーザはこの特定の連絡先に提供されている会員資格を管理することができます。このタブは *会員* "
+"アプリケーションがインストールされている場合に **のみ** 表示されます。"
 
 #: ../../content/applications/essentials/contacts.rst:194
 msgid "Activate membership"
@@ -1295,11 +1294,11 @@ msgid ""
 ":guilabel:`Invoiced` information, :guilabel:`Vendor Bills`, and the "
 ":guilabel:`Partner Ledger` connected to this contact."
 msgstr ""
-" ユーザは :guilabel:`ミーティング`, :guilabel:`販売`, :guilabel:`POSオーダ`, "
+"ユーザは :guilabel:`ミーティング`, :guilabel:`販売`, :guilabel:`POSオーダ`, "
 ":guilabel:`サブスクリプション`, プロジェクトの :guilabel:`タスク` を見ることができ、:guilabel:`さらに` "
 "スマートボタンをクリックするとドロップダウンメニューから追加オプションを見ることができます。ユーザは、この連絡先に連動している "
 ":guilabel:`購買`、 :guilabel:`ヘルプデスク`タスク、 配送の :guilabel:`納期遵守率`、 "
-":guilabel:`請求書`情報、 :guilabel:`仕入先請求書`、 :guilabel:`取引先元帳` に素早くアクセスすることができます。"
+":guilabel:`請求書` 情報、 :guilabel:`仕入先請求書`、 :guilabel:`取引先元帳` に素早くアクセスすることができます。"
 
 #: ../../content/applications/essentials/contacts.rst:231
 msgid ""
@@ -1307,7 +1306,8 @@ msgid ""
 " smart buttons, like this, should there be any outstanding/on-file for this "
 "contact."
 msgstr ""
-"この連絡先について、未処理のもの/記録済のものがある場合、配送、ドキュメント、ロイヤリティカードカード、口座引落*もまた*、このようにスマートボタンにリンクされます。"
+"この連絡先について、未処理のもの/記録済のものがある場合、配送、ドキュメント、ロイヤリティカードカード、口座引落 "
+"*もまた*、このようにスマートボタンにリンクされます。"
 
 #: ../../content/applications/essentials/contacts.rst:234
 msgid ""
@@ -1535,7 +1535,7 @@ msgid ""
 "If :guilabel:`Merge with Manual Check` is selected, complete the merge by "
 "following the :ref:`steps above <contacts/merge-duplicate>`."
 msgstr ""
-" :guilabel:`手動チェックでマージ` が選択されていれば、 :ref:`上記手順 <contacts/merge-duplicate>` "
+":guilabel:`手動チェックでマージ` が選択されていれば、 :ref:`上記手順 <contacts/merge-duplicate>` "
 "に従ってマージを完了します。"
 
 #: ../../content/applications/essentials/export_import_data.rst:3
@@ -1580,6 +1580,10 @@ msgid ""
 "the checkbox next to the corresponding record. Finally, click on |actions|, "
 "then :guilabel:`Export`."
 msgstr ""
+"Odooでは、任意のレコードの任意のフィールドから値をエクスポートすることができます。 エクスポートするには、エクスポートが必要なアイテムのリストビュー"
+" (リスト) を有効化し、エクスポートするレコードを選択します。 "
+"レコードを選択するには、該当するレコードの横にあるチェックボックスにチェックを入れます。 "
+"最後に、アクションをクリックし、:guilabel:`エキスポート` をクリックします。"
 
 #: ../../content/applications/essentials/export_import_data.rst-1
 msgid "View of the different things to enable/click to export data."
@@ -1606,6 +1610,10 @@ msgid ""
 "unticked, gives many more field options because it shows all the fields, not"
 " just the ones that can be imported."
 msgstr ""
+":guilabel:`データを更新したい(インポート互換のエクスポート)` "
+"オプションにチェックを入れると、システムはインポート可能なフィールドのみを表示します。これは、:ref:`既存のレコードを更新する必要がある場合 "
+"<essentials/update-data>` "
+"に役立ちます。これはフィルタリングのように機能します。チェックボックスをオフにすると、インポート可能なフィールドだけでなく、全てのフィールドが表示されるため、より多くのフィールドオプションが表示されます。"
 
 #: ../../content/applications/essentials/export_import_data.rst:46
 msgid ""
@@ -1692,6 +1700,8 @@ msgid ""
 "data>`. The following documentation covers how to import data into an Odoo "
 "database."
 msgstr ""
+"Odooへのデータのインポートは、実装中や、データを :ref:`一括して更新する <essentials/update-data>` "
+"必要がある場合に非常に役立ちます。次のドキュメントでは、Odooデータベースへのデータのインポート方法について説明します。"
 
 #: ../../content/applications/essentials/export_import_data.rst:81
 msgid ""
@@ -1699,7 +1709,7 @@ msgid ""
 "use filters (`created on` or `last modified`) to identify records changed or"
 " created by the import."
 msgstr ""
-"インポートは恒久的で、元に戻すことは**できません**。しかし、フィルタ (`作成日`または`最終修正日`) "
+"インポートは恒久的で、元に戻すことは **できません**。しかし、フィルタ (`作成日` または `最終修正日`) "
 "を使用することで、インポートによって変更または作成されたレコードを特定することができます。"
 
 #: ../../content/applications/essentials/export_import_data.rst:85
@@ -1883,7 +1893,7 @@ msgstr "IDの設定はインポート時に必須ではありませんが、多�
 msgid ""
 ":ref:`Update imports <essentials/update-data>`: import the same file several"
 " times without creating duplicates."
-msgstr ""
+msgstr ":ref:`インポートを更新 <essentials/update-data>`: 同じファイルを重複させずに複数回インポートします。"
 
 #: ../../content/applications/essentials/export_import_data.rst:179
 msgid ":ref:`Import relation fields <export_import_data/relation-fields>`."
@@ -1911,7 +1921,7 @@ msgstr ""
 msgid ""
 "It should be noted that conflicts occur if two (or more) records have the "
 "same *External ID*."
-msgstr ""
+msgstr "2つ(またはそれ以上) のレコードが同じ *外部ID* を持つ場合、不整合が発生することに注意して下さい。"
 
 #: ../../content/applications/essentials/export_import_data.rst:191
 msgid "Field missing to map column"
@@ -1963,7 +1973,8 @@ msgid ""
 "difficult to guess which part of a date format is the day, and which part is"
 " the month, in a date, such as `01-03-2016`."
 msgstr ""
-"Odooは列が日付かどうかを自動的に検出し、最も一般的に使用される日付フォーマットのセットから日付フォーマットを推測しようとします。このプロセスは多くの日付フォーマットで機能しますが、認識できない日付フォーマットもあります。これは日月が逆転しているために混乱を引き起こす可能性があります。`01-03-2016`のような日付では、日付書式のどの部分が日で、どの部分が月かを推測するのは困難です。"
+"Odooは列が日付かどうかを自動的に検出し、最も一般的に使用される日付フォーマットのセットから日付フォーマットを推測しようとします。このプロセスは多くの日付フォーマットで機能しますが、認識できない日付フォーマットもあります。これは日月が逆転しているために混乱を引き起こす可能性があります。`01-03-2016`"
+" のような日付では、日付書式のどの部分が日で、どの部分が月かを推測するのは困難です。"
 
 #: ../../content/applications/essentials/export_import_data.rst:219
 msgid ""
@@ -1991,8 +2002,8 @@ msgid ""
 " date format should be `YYYY-MM-DD`. So, in the case of July 24th 1981, it "
 "should be written as `1981-07-24`."
 msgstr ""
-"*ISO 8601*は国際規格であり、日付と時間に関連するデータの世界的な交換と通信をカバーしています。例えば、日付の書式は`YYYY-MM-"
-"DD`とします。よって、1981年7月24日の場合、`1981-07-24`と表記します。"
+"*ISO 8601* は国際規格であり、日付と時間に関連するデータの世界的な交換と通信をカバーしています。例えば、日付の書式は `YYYY-MM-DD`"
+" とします。よって、1981年7月24日の場合、`1981-07-24` と表記します。"
 
 #: ../../content/applications/essentials/export_import_data.rst:232
 msgid ""
@@ -2221,14 +2232,15 @@ msgid ""
 "(there may be several records with the same name, but they always have a "
 "unique Database ID)"
 msgstr ""
-":guilabel:`国/データベースID`を使用する：これはほとんど使用すべきではありません。主な利点は不整合が発生しないことです(同じ名前のレコードが複数あるかもしれませんが、それらは常にユニークなデータベースIDを持っています)。"
+":guilabel:`国/データベースID` を使用する: "
+"ほとんど使用されない方法です。最大の利点は、競合を起こさないという点で、主に開発者が使用します(同じ名前のレコードが複数あっても、常に固有のデータベースIDが付与されます)。"
 
 #: ../../content/applications/essentials/export_import_data.rst:330
 msgid ""
 "Use :guilabel:`Country/External ID`: use *External ID* when importing data "
 "from a third-party application."
 msgstr ""
-"Use :guilabel:`国/外部ID`: サードパーティのアプリケーションからデータをインポートする場合、*外部ID* を使用します。"
+":guilabel:`国/外部ID` を使用: サードパーティのアプリケーションからデータをインポートする場合、*外部ID* を使用します。"
 
 #: ../../content/applications/essentials/export_import_data.rst:333
 msgid ""
@@ -2240,9 +2252,9 @@ msgid ""
 "categories."
 msgstr ""
 "*外部ID* を使用する場合は、インポートする各レコードの *外部ID* を定義する :guilabel:`外部ID` (ID)列を持つ "
-":abbr:`CSV (Comma-separated Values)` "
-"ファイルをインポートします。そして、`フィールド/外部ID`のような列でそのレコードを参照することができます。次の2つの :abbr:`CSV "
-"(Comma-separated Values)` ファイルはプロダクトとそのカテゴリの例です。"
+":abbr:`CSV (Comma-separated Values)` ファイルをインポートします。そして、`フィールド/外部ID` "
+"のような列でそのレコードを参照することができます。次の2つの :abbr:`CSV (Comma-separated Values)` "
+"ファイルはプロダクトとそのカテゴリの例です。"
 
 #: ../../content/applications/essentials/export_import_data.rst:338
 msgid ""
@@ -2297,9 +2309,10 @@ msgid ""
 "Products/Sellable`). Odoo, instead, recommends modifying one of the "
 "duplicate's values, or the product category hierarchy."
 msgstr ""
-"例えば、子カテゴリ名が`販売可能`のプロダクトカテゴリが2つある場合（例：`その他.プロダクト/販売可能`と`他プロダクト/販売可能`）、検証は中断されますが、データをインポートすることはできます。しかし、データは全て"
-" *プロダクトカテゴリ* "
-"リストで最初に見つかった`販売可能`カテゴリ(`その他プロダクト/販売可能`)にリンクされるため、インポートしないことをお勧めします。Odooでは代わりに、重複する値の1つ、またはプロダクトカテゴリ階層を変更することを推奨しています。"
+"例えば、子カテゴリ名が `販売可能` のプロダクトカテゴリが2つある場合（例：`その他.プロダクト/販売可能` と "
+"`他プロダクト/販売可能`）、検証は中断されますが、データをインポートすることはできます。しかし、データは全て *プロダクトカテゴリ* "
+"リストで最初に見つかった`販売可能`カテゴリ (`その他プロダクト/販売可能`) "
+"にリンクされるため、インポートしないことをお勧めします。Odooでは代わりに、重複する値の1つ、またはプロダクトカテゴリ階層を変更することを推奨しています。"
 
 #: ../../content/applications/essentials/export_import_data.rst:366
 msgid ""
@@ -2321,7 +2334,7 @@ msgid ""
 ":abbr:`CSV (Comma-separated Values)` file."
 msgstr ""
 "タグはコンマで区切り、スペースを空けてはいけません。例えば、ある顧客が `製造業` と `小売業者` の両方のタグにリンクされる必要がある場合 "
-"例えば、顧客が 製造業` と `小売業` の両方のタグにリンクする必要がある場合、'製造業.小売業' は :abbr:`CSV (Comma-"
+"例えば、顧客が `製造業` と `小売業` の両方のタグにリンクする必要がある場合、'製造業.小売業' は :abbr:`CSV (Comma-"
 "separated Values)` ファイルの同じ列にエンコードする必要があります。"
 
 #: ../../content/applications/essentials/export_import_data.rst:376
@@ -2459,10 +2472,10 @@ msgid ""
 "name of the application or table. (like, 'company_1', 'person_1' - instead "
 "of '1')"
 msgstr ""
-"テーブル間の関係を管理するには、Odooの `外部ID` "
-"機能を使用します。レコードの`外部ID`は他のアプリケーションにおけるそのレコードの一意な識別子です。 `外部ID` "
-"は全てのオブジェクトの全てのレコードで一意でなければなりません。この `外部ID` の前にアプリケーション名またはテーブル名を付けるとよいでしょう。( "
-"'company_1', 'person_1' -  '1'  の代わりに)"
+"テーブル間の関係を管理するには、Odooの `外部ID` 機能を使用します。レコードの `外部ID` "
+"は他のアプリケーションにおけるそのレコードの一意な識別子です。 `外部ID` は全てのオブジェクトの全てのレコードで一意でなければなりません。この "
+"`外部ID` の前にアプリケーション名またはテーブル名を付けるとよいでしょう。('company_1', 'person_1' -  '1'  "
+"の代わりに)"
 
 #: ../../content/applications/essentials/export_import_data.rst:436
 msgid ""
@@ -2484,7 +2497,7 @@ msgstr ""
 msgid ""
 "First, export all companies and their *External ID*. In PSQL, write the "
 "following command:"
-msgstr "まず、全ての会社とその*外部ID*をエクスポートします。PSQL で次のコマンドを記述します:"
+msgstr "まず、全ての会社とその *外部ID* をエクスポートします。PSQL で次のコマンドを記述します:"
 
 #: ../../content/applications/essentials/export_import_data.rst:449
 msgid ""
@@ -2531,17 +2544,19 @@ msgstr ""
 
 #: ../../content/applications/essentials/export_import_data.rst:489
 msgid "Update data in Odoo"
-msgstr ""
+msgstr "Odoo内でデータを更新"
 
 #: ../../content/applications/essentials/export_import_data.rst:491
 msgid ""
 "Existing data can be updated in bulk through a data import, as long as the "
 ":ref:`External ID <essentials/external-id>` remains consistent."
 msgstr ""
+":ref:`外部 ID <essentials/external-id>` "
+"が一貫性を保っている限り、データインポートにより既存のデータを一括更新することができます。"
 
 #: ../../content/applications/essentials/export_import_data.rst:495
 msgid "Prepare data export"
-msgstr ""
+msgstr "データエキスポートを準備"
 
 #: ../../content/applications/essentials/export_import_data.rst:497
 msgid ""
@@ -2550,6 +2565,8 @@ msgid ""
 "list, tick the checkbox for any record to be updated. Then, click |actions|,"
 " and select :icon:`fa-upload` :guilabel:`Export` from the drop-down menu."
 msgstr ""
+"インポートによりデータを更新するには、まず更新するデータに移動し、リストを選択してリストビューを有効化します。リストの左端で、更新するレコードのチェックボックスにチェックを入れます。次に、アクション"
+" をクリックし、ドロップダウンメニューから :icon:`fa-upload` :guilabel:`エクスポート` を選択します。"
 
 #: ../../content/applications/essentials/export_import_data.rst:502
 msgid ""
@@ -2559,6 +2576,10 @@ msgid ""
 "limits the :guilabel:`Fields to export` list to **only** include fields that"
 " are able to be imported."
 msgstr ""
+"表示される :guilabel:`データをえ示される :guilabel:`データをエクスポート`  "
+"ポップアップウィンドウで、:guilabel:`データを更新したい (インポート可能な項目のエクスポート)` "
+"とラベル付けされたチェックボックスにチェックを入れます。これにより、エクスポートに *外部ID* "
+"が自動的に含まれます。さらに、:guilabel:`エキスポートするフィールド` リストには、インポート可能なフィールド **のみ** が含まれます。"
 
 #: ../../content/applications/essentials/export_import_data.rst:508
 msgid ""
@@ -2568,6 +2589,9 @@ msgid ""
 "data (import-compatible export)` checkbox is ticked, it is included in the "
 "export."
 msgstr ""
+"手動で追加しない限り、:guilabel:`外部ID` フィールドは :guilabel:`エクスポートするフィールド` リストに表示され "
+"**ません**。しかし、エクスポートには含まれます。ただし、:guilabel:`データを更新する(インポート可能な項目のエクスポート)` "
+"チェックボックスが選択されている場合は、エクスポートに含まれます。"
 
 #: ../../content/applications/essentials/export_import_data.rst:512
 msgid ""
@@ -2575,10 +2599,12 @@ msgid ""
 ":ref:`options <export-data>` on the pop-up window, then click "
 ":guilabel:`Export`."
 msgstr ""
+"ポップアップウィンドウの :ref:`オプション <export-data>` "
+"を使用してエクスポートに含めるフィールドを選択し、:guilabel:`エクスポート` をクリックします。"
 
 #: ../../content/applications/essentials/export_import_data.rst:516
 msgid "Import updated data"
-msgstr ""
+msgstr "更新済データをインポート"
 
 #: ../../content/applications/essentials/export_import_data.rst:518
 msgid ""
@@ -2586,6 +2612,8 @@ msgid ""
 "is ready, it can be :ref:`imported <import-data>` by following the same "
 "process as a normal data import."
 msgstr ""
+"エクスポート後、データファイルに必要な変更を加えます。ファイルが準備できたら、通常のデータインポートと同じ手順で、:ref:`インポート "
+"<import-data>`  することができます。"
 
 #: ../../content/applications/essentials/export_import_data.rst:522
 msgid ""
@@ -2594,6 +2622,8 @@ msgid ""
 "altered, or removed, the system may add a duplicate record, instead of "
 "updating the existing one."
 msgstr ""
+"データを更新する際には、*外部ID* "
+"が一貫性を保つことが極めて重要です。これがシステムがレコードを識別する方法であるためです。IDが変更されたり削除されたりすると、システムは既存のレコードを更新する代わりに、重複したレコードを追加してしまう可能性があります。"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:3
 msgid "In-app purchases (IAP)"
@@ -2607,7 +2637,7 @@ msgid ""
 "<https://iap.odoo.com/iap/all-in-app-services>`_."
 msgstr ""
 "アプリ内課金(IAP)はOdooデータベースを強化するオプションサービスです。各サービスには独自の特徴と機能があります。サービスの一覧は `Odoo "
-"IAPカタログ<https://iap.odoo.com/iap/all-in-app-services>`_  に掲載されています。"
+"IAPカタログ <https://iap.odoo.com/iap/all-in-app-services>`_  に掲載されています。"
 
 #: ../../content/applications/essentials/in_app_purchase.rst-1
 msgid "The IAP catalog with various services available on IAP.Odoo.com."
@@ -2694,8 +2724,8 @@ msgid ""
 "Odoo *Sign* to provide their identity using the *itsme®* identity platform, "
 "which is available in Belgium and the Netherlands."
 msgstr ""
-":guilabel:`itsme® 認証でドキュメントに署名®️`: Odoo "
-"*署名*のドキュメント署名者に、ベルギーとオランダで利用可能な*itsme®* IDプラットフォームを使ってIDを提供するよう依頼します。"
+":guilabel:`itsme® 認証でドキュメントに署名®️` : Odoo *署名* のドキュメント署名者に、ベルギーとオランダで利用可能な "
+"*itsme®* IDプラットフォームを使ってIDを提供するよう依頼します。"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:49
 msgid ""
@@ -2792,19 +2822,18 @@ msgstr "各種 |IAP| サービスの利用方法や、OdooのSMS機能に関す�
 
 #: ../../content/applications/essentials/in_app_purchase.rst:89
 msgid ":doc:`Lead mining <../sales/crm/acquire_leads/lead_mining>`"
-msgstr ":doc:`リードマイニング <../sales/crm/acquire_leads/lead_mining>`"
+msgstr ":doc:`リード発掘 <../sales/crm/acquire_leads/lead_mining>`"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:90
 msgid ""
 ":doc:`Enrich your contacts base with Partner Autocomplete "
 "<../sales/crm/optimize/partner_autocomplete>`"
 msgstr ""
-":doc:`取引先オートコンプリートで連絡先ベースを充実させる "
-"<../sales/crm/optimize/partner_autocomplete>`"
+":doc:`取引先自動入力で連絡先ベースを充実させる <../sales/crm/optimize/partner_autocomplete>`"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:92
 msgid ":doc:`SMS Marketing <../marketing/sms_marketing>`"
-msgstr ""
+msgstr ":doc:`SMSマーケティング <../marketing/sms_marketing>`"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:97
 msgid "IAP credits"
@@ -2868,6 +2897,8 @@ msgid ""
 "For more information, refer to the :doc:`SMS Pricing and FAQ "
 "<../marketing/sms_marketing/pricing_and_faq>` documentation."
 msgstr ""
+"さらに詳しくは :doc:`SMS価格設定とFAQ <../marketing/sms_marketing/pricing_and_faq>` "
+"ドキュメンテーションをご覧下さい。"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:127
 msgid "Buy credits"
@@ -2944,7 +2975,7 @@ msgid ""
 "order."
 msgstr ""
 ":guilabel:`アカウント情報` ページで、 :guilabel:`クレジットを購入` ボタンをクリックします。新しいタブに "
-":guilabel:`クレジットを購入: (IAP Account)` ページが表示されます。ここから、希望するクレジットのパックを "
+":guilabel:`クレジットを購入: (IAPアカウント)` ページが表示されます。ここから、希望するクレジットのパックを "
 ":guilabel:`購入` をクリックして下さい。その後、プロンプトに従って支払詳細を入力し、オーダを確定して下さい。"
 
 #: ../../content/applications/essentials/in_app_purchase.rst-1
@@ -3020,23 +3051,24 @@ msgstr ""
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:3
 msgid "Keyboard shortcuts"
-msgstr ""
+msgstr "キーボードショートカット"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:5
 msgid ""
 "Users in Odoo can utilize several keyboard shortcuts to navigate through "
 "modules, execute actions, and manage data."
 msgstr ""
+"Odooのユーザは、いくつかのキーボードショートカットを利用してモジュール間を移動したり、アクションを実行したり、データを管理したりすることができます。"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:9
 msgid ""
 "Hold :kbd:`Ctrl` to view the keyboard shortcuts assigned to each element on "
 "the interface."
-msgstr ""
+msgstr "インターフェース上の各要素に割当てられたキーボードショートカットを表示するには :kbd:`Ctrl` をホールドします。"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:0
 msgid "A selection of keyboard shortcuts in Odoo."
-msgstr ""
+msgstr "Odooキーボードショートカット一覧"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:16
 msgid ""
@@ -3044,16 +3076,17 @@ msgid ""
 "or effective depending on browsers, extensions, or other individual "
 "settings."
 msgstr ""
+"一部のキーボードショートカットは、Odooの異なるバージョンでは利用できない場合や、ブラウザ、拡張機能、その他の個別の設定によっては有効化できない場合があります。"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:20
 msgid "Keyboard shortcuts by operating system"
-msgstr ""
+msgstr "オペレーティングシステム別のキーボードショートカット"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:22
 msgid ""
 "Below is a list of some of the most commonly used keyboard shortcuts within "
 "Odoo, listed by operating system."
-msgstr ""
+msgstr "以下は、Odooで最もよく使われるキーボードショートカットの一覧で、オペレーティングシステム別に記載されています。"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:29
 msgid "Description"
@@ -3061,47 +3094,47 @@ msgstr "説明"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:30
 msgid "Windows / Linux"
-msgstr ""
+msgstr "Windows / Linux"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:31
 msgid "macOS"
-msgstr ""
+msgstr "macOS"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:32
 msgid "Previous breadcrumb"
-msgstr ""
+msgstr "前のパンくず"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:33
 msgid ":kbd:`Alt` + :kbd:`B`"
-msgstr ""
+msgstr ":kbd:`Alt` + :kbd:`B`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:34
 msgid ":kbd:`Ctrl` + :kbd:`B`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`B`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:35
 msgid "Create new record"
-msgstr ""
+msgstr "新規レコードを作成"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:36
 msgid ":kbd:`Alt` + :kbd:`C`"
-msgstr ""
+msgstr ":kbd:`Alt` + :kbd:`C`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:37
 msgid ":kbd:`Ctrl` + :kbd:`C`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`C`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:38
 msgid "Odoo Home Page"
-msgstr ""
+msgstr "Odooホームページ"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:39
 msgid ":kbd:`Alt` + :kbd:`H`"
-msgstr ""
+msgstr ":kbd:`Alt` + :kbd:`H`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:40
 msgid ":kbd:`Ctrl` + :kbd:`H`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`H`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:41
 msgid "Discard changes"
@@ -3109,11 +3142,11 @@ msgstr "変更を破棄"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:42
 msgid ":kbd:`Alt` + :kbd:`J`"
-msgstr ""
+msgstr ":kbd:`Alt` + :kbd:`J`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:43
 msgid ":kbd:`Ctrl` + :kbd:`J`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`J`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:44
 msgid "Save changes"
@@ -3121,11 +3154,11 @@ msgstr "変更を保存"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:45
 msgid ":kbd:`Alt` + :kbd:`S`"
-msgstr ""
+msgstr ":kbd:`Alt` + :kbd:`S`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:46
 msgid ":kbd:`Ctrl` + :kbd:`S`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`S`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:47
 msgid "Next page"
@@ -3133,11 +3166,11 @@ msgstr "次のページ"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:48
 msgid ":kbd:`Alt` + :kbd:`N`"
-msgstr ""
+msgstr ":kbd:`Alt` + :kbd:`N`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:49
 msgid ":kbd:`Ctrl` + :kbd:`N`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`N`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:50
 msgid "Previous page"
@@ -3145,11 +3178,11 @@ msgstr "前のページ"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:51
 msgid ":kbd:`Alt` + :kbd:`P`"
-msgstr ""
+msgstr ":kbd:`Alt` + :kbd:`P`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:52
 msgid ":kbd:`Ctrl` + :kbd:`P`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`P`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:53
 msgid "Search"
@@ -3157,93 +3190,93 @@ msgstr "検索"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:54
 msgid ":kbd:`Alt` + :kbd:`Q`"
-msgstr ""
+msgstr ":kbd:`Alt` + :kbd:`Q`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:55
 msgid ":kbd:`Ctrl` + :kbd:`Q`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`Q`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:56
 msgid "Select menus"
-msgstr ""
+msgstr "メニューを選択"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:57
 msgid ":kbd:`Alt` + :kbd:`1-9`"
-msgstr ""
+msgstr ":kbd:`Alt` + :kbd:`1-9`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:58
 msgid ":kbd:`Ctrl` + :kbd:`1-9`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`1-9`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:59
 msgid "Create a new To-Do"
-msgstr ""
+msgstr "新規To-Do作成"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:60
 msgid ":kbd:`Alt` + :kbd:`Shift` + :kbd:`T`"
-msgstr ""
+msgstr ":kbd:`Alt` + :kbd:`Shift` + :kbd:`T`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:61
 msgid ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`T`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`T`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:62
 msgid "Search a Knowledge article"
-msgstr ""
+msgstr "ナレッジ記事を検索"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:63
 msgid ":kbd:`Alt` + :kbd:`F`"
-msgstr ""
+msgstr ":kbd:`Alt` + :kbd:`F`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:64
 msgid ":kbd:`Ctrl` + :kbd:`F`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`F`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:65
 msgid "Share a Knowledge article"
-msgstr ""
+msgstr "ノレッジ記事を共有"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:66
 msgid ":kbd:`Alt` + :kbd:`Shift` + :kbd:`S`"
-msgstr ""
+msgstr ":kbd:`Alt` + :kbd:`Shift` + :kbd:`S`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:67
 msgid ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`S`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`S`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:68
 msgid "Open command palette"
-msgstr ""
+msgstr "コマンドパレットを開く"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:69
 msgid ":kbd:`Ctrl` + :kbd:`K`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`K`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:70
 msgid ":kbd:`Command` + :kbd:`K`"
-msgstr ""
+msgstr ":kbd:`Command` + :kbd:`K`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:73
 msgid ""
 "After opening the command palette, search using the following keyboard "
 "shortcuts:"
-msgstr ""
+msgstr "コマンドパレットを開いた後、以下のキーボードショートカットを使用して検索します: "
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:75
 msgid ":kbd:`/`: search for menus, applications, and modules."
-msgstr ""
+msgstr ":kbd:`/`: メニュー、アプリケーション、モジュールを検索。"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:76
 msgid ":kbd:`@`: search for users."
-msgstr ""
+msgstr ":kbd:`@`: ユーザを検索"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:77
 msgid ":kbd:`#`: search for **Discuss** channels."
-msgstr ""
+msgstr ":kbd:`#`: **ディスカス** チャンネルを検索"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:78
 msgid ":kbd:`?`: search for **Knowledge** articles."
-msgstr ""
+msgstr ":kbd:`?`:  **ナレッジ** 記事を検索"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:80
 msgid ""
@@ -3251,10 +3284,12 @@ msgid ""
 "through the available options. Then, click :kbd:`Ctrl` + :kbd:`Enter` to "
 "open the selected app, module, or menu in a new tab."
 msgstr ""
+"検索バーに名前(または用語)を入力するか、矢印キーを使用して利用可能なオプションをスクロールします。次に、:kbd:`Ctrl` + "
+":kbd:`Enter` をクリックして、選択したアプリ、モジュール、またはメニューを新しいタブで開きます。"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:0
 msgid "The command palette in Odoo, with the menu search option selected."
-msgstr ""
+msgstr "Odooのメニュー検索オプションが選択されたコマンドパレット。"
 
 #: ../../content/applications/essentials/reporting.rst:3
 msgid "Reporting"
@@ -3310,8 +3345,8 @@ msgid ""
 "the :guilabel:`Reporting` menu of apps but can be found elsewhere. Click the"
 " **pivot view button** located at the top right to access it."
 msgstr ""
-" :ref:`ピボットビュー <reporting/using-pivot>` "
-"はレコードのデータを集計し、分析のために分解するために使用されます。このビューは多くの場合、アプリの :guilabel:レポーティング`  "
+":ref:`ピボットビュー <reporting/using-pivot>` "
+"はレコードのデータを集計し、分析のために分解するために使用されます。このビューは多くの場合、アプリの :guilabel:`レポーティング` "
 "メニューの下にありますが、他の場所でも見つけることができます。右上の **ピボットビューボタン** をクリックしてアクセスして下さい。"
 
 #: ../../content/applications/essentials/reporting.rst-1
@@ -3320,7 +3355,7 @@ msgstr "ピボットビューを選択"
 
 #: ../../content/applications/essentials/reporting.rst:45
 msgid "Choosing measures"
-msgstr "測定方法を選択"
+msgstr "集計項目を選択"
 
 #: ../../content/applications/essentials/reporting.rst:47
 msgid ""
@@ -3330,23 +3365,22 @@ msgid ""
 ":guilabel:`Measures` and choose one or, only for pivots, multiple measures."
 msgstr ""
 "ビューを選択したら、関連するレコードだけが :doc:`フィルタ済<search>` "
-"になるようにします。次に、何を測定するかを選択します。デフォルトでは、常に測定方法が選択されています。編集したい場合は :guilabel:`測定方法`"
-" をクリックし、1 つ、またはピボットの場合のみ複数の測定方法を選択します。"
+"になるようにします。次に、何を測定するかを選択します。デフォルトでは、常に集計項目が選択されています。編集したい場合は :guilabel:`集計項目`"
+" をクリックし、1 つ、またはピボットの場合のみ複数の集計項目を選択します。"
 
 #: ../../content/applications/essentials/reporting.rst:52
 msgid ""
 "When you select a measure, Odoo aggregates the values recorded on that field"
 " for the filtered records. Only numerical fields (:ref:`integer "
-"<studio/fields/simple-fields/integer>`, :ref:`decimal <studio/fields/simple-"
-"fields/decimal>`, :ref:`monetary <studio/fields/simple-fields/monetary>`) "
+"<studio/fields/simple-fields-integer>`, :ref:`decimal <studio/fields/simple-"
+"fields-decimal>`, :ref:`monetary <studio/fields/simple-fields-monetary>`) "
 "can be measured. In addition, the :guilabel:`Count` option is used to count "
 "the total number of filtered records."
 msgstr ""
-"測定方法を選択すると、Odooはフィルタリングされたレコードのフィールドに記録された値を集計します。数値フィールド(:ref:`integer "
-"<studio/fields/simple-fields/integer>`、:ref:`decimal <studio/fields/simple-"
-"fields/decimal>`、:ref:`monetary <studio/fields/simple-"
-"fields/monetary>`)のみ測定できます。さらに、 :guilabel:`カウント` "
-"オプションを使用すると、フィルタリングされたレコードの総数を数えることができます。"
+"集計項目を選択すると、Odooはフィルタリングされたレコードのフィールドに記録された値を集計します。数値フィールド (:ref:`整数 "
+"<studio/fields/simple-fields-integer>`, :ref:`小数 <studio/fields/simple-"
+"fields-decimal>`, :ref:`通貨 <studio/fields/simple-fields-monetary>`) "
+"のみ測定できます。さらに、 :guilabel:`カウント` オプションを使用すると、フィルタリングされたレコードの総数を数えることができます。"
 
 #: ../../content/applications/essentials/reporting.rst:58
 msgid ""
@@ -3355,7 +3389,7 @@ msgid ""
 "analyze. By default, the data is often grouped by *Date > Month*, which is "
 "used to analyze the evolution of a measure over the months."
 msgstr ""
-"何を測定したいかを選択した後、分析したい範囲に応じて、データをどのように :ref:`グループ化 <search/group>` "
+"何を集計したいかを選択した後、分析したい範囲に応じて、データをどのように :ref:`グループ化 <search/group>` "
 "するかを定義できます。デフォルトでは、データは *日付 > 月* でグループ化されることが多く、これは月間の測定単位の変遷を分析するために使用されます。"
 
 #: ../../content/applications/essentials/reporting.rst:63
@@ -3370,7 +3404,7 @@ msgstr "比較オプションを使用"
 
 #: ../../content/applications/essentials/reporting.rst:72
 msgid "Select measures"
-msgstr "測定方法を選択する"
+msgstr "集計項目を選択する"
 
 #: ../../content/applications/essentials/reporting.rst:74
 msgid ""
@@ -3378,22 +3412,22 @@ msgid ""
 ":guilabel:`Count` measures to the Sales Analysis report. By default, the "
 ":guilabel:`Untaxed Amount` measure is selected."
 msgstr ""
-"他の測定方法の中で、 :guilabel:`マージン` 測定方法と :guilabel:`カウント` "
-"測定方法を販売分析レポートに追加できます。デフォルトでは、:guilabel:`税抜金額` 測定方法が選択されています。"
+"他の集計項目の中で、 :guilabel:`マージン` 集計項目と :guilabel:`カウント` "
+"集計項目を販売分析レポートに追加できます。デフォルトでは、:guilabel:`税抜金額` 集計項目が選択されています。"
 
 #: ../../content/applications/essentials/reporting.rst:0
 msgid "Selecting different measures on the Sales Analysis report"
-msgstr "販売分析レポートでの異なる指標の選択"
+msgstr "販売分析レポートでの異なる集計項目を選択"
 
 #: ../../content/applications/essentials/reporting.rst:81
 msgid "Group measures"
-msgstr "測定方法をグループ化する"
+msgstr "集計項目をグループ化する"
 
 #: ../../content/applications/essentials/reporting.rst:83
 msgid ""
 "You could group the measures by :guilabel:`Product Category` at the level of"
 " rows on the previous Sales Analysis report example."
-msgstr "前の販売分析レポートの例の行のレベルで、:guilabel:`プロダクトカテゴリ` によって測定方法をグループ化できます。"
+msgstr "前の販売分析レポートの例の行のレベルで、:guilabel:`プロダクトカテゴリ` によって集計項目をグループ化できます。"
 
 #: ../../content/applications/essentials/reporting.rst:0
 msgid "Adding a group on the Sales Analysis report"
@@ -3431,8 +3465,8 @@ msgid ""
 "the :guilabel:`Order Date > Month` group on the :guilabel:`All / Saleable / "
 "Office Furniture` product category."
 msgstr ""
-"前の販売分析レポートの例では、列のレベルでは :guilabel:`販売員` グループで、プロダクトカテゴリでは "
-":guilabel:`全て/販売可能/オフィス家具` の :guilabel:`オーダ日 > 月` グループで、さらに測定方法を分けることができました。"
+"前述の販売分析レポートの例では、集計項目をさらに、列レベルで :guilabel:`営業担当者` グループ、:guilabel:`全て/販売可能 / "
+"オフィス家具` プロダクトカテゴリに対して :guilabel:`受注日 > 月` グループで分割することができます。"
 
 #: ../../content/applications/essentials/reporting.rst:0
 msgid "Adding multiple groups on the Sales Analysis report"
@@ -3448,7 +3482,7 @@ msgstr "反転軸ボタン (:guilabel:`⇄`) をクリックして、行と列�
 msgid ""
 "Click on a measure's label to sort the values by ascending (⏶) or descending"
 " (⏷) order."
-msgstr "測定方法のラベルをクリックすると、値が昇順 (⏶) または降順 (⏷) にソートされます。"
+msgstr "集計項目のラベルをクリックすると、値が昇順 (⏶) または降順 (⏷) にソートされます。"
 
 #: ../../content/applications/essentials/reporting.rst:114
 msgid ""
@@ -3568,7 +3602,7 @@ msgstr "通常の折れ線グラフの例"
 
 #: ../../content/applications/essentials/search.rst:3
 msgid "Search, filter, and group records"
-msgstr "検索、フィルタとグループレコード"
+msgstr "検索、フィルタ、レコードのグループ化"
 
 #: ../../content/applications/essentials/search.rst:5
 msgid ""
@@ -3740,7 +3774,7 @@ msgid ""
 ":guilabel:`Match all 🔽 of the following rules`: **all** of the filter rules "
 "must be met. Logically, this is an *AND* (`&`) operation."
 msgstr ""
-" :guilabel:`以下の規則の全て 🔽 にマッチする`:  フィルタ規則の**全て**を満たす必要があります。論理的には、これは *AND* "
+":guilabel:`以下の規則の全て 🔽 にマッチする`:  フィルタ規則の **全て** を満たす必要があります。論理的には、これは *AND* "
 "(`&`) オペレーションです。"
 
 #: ../../content/applications/essentials/search.rst:98
@@ -3748,8 +3782,8 @@ msgid ""
 ":guilabel:`Match any 🔽 of the following rules`: **any** of the filter rules "
 "can be met. Logically, this is an *OR* (`|`) operation."
 msgstr ""
-" :guilabel:`以下の規則のいずれか 🔽 にマッチする`:  フィルタ規則の**いずれか**を満たす必要があります。論理的には、これは *OR*"
-" (`|`) オペレーションです。"
+":guilabel:`以下の規則のいずれか 🔽 にマッチする`:  フィルタ規則の **いずれか** を満たす必要があります。論理的には、これは "
+"*OR* (`|`) オペレーションです。"
 
 #: ../../content/applications/essentials/search.rst:101
 msgid ""
@@ -3805,7 +3839,7 @@ msgid ""
 "matching option is set to the same as the parent group, the fields are moved"
 " to join the parent group."
 msgstr ""
-" :guilabel:`(ブランチ追加)`: 既存の規則の下に新しい規則グループを追加します。 :guilabel:`いずれか` と "
+":guilabel:`(ブランチ追加)`: 既存の規則の下に新しい規則グループを追加します。 :guilabel:`いずれか` と "
 ":guilabel:`全て` "
 "のマッチングオプションを使用することで、このブランチ内の各規則をフィルタに適用する方法を定義することができます。マッチングオプションが親グループと同じに設定されている場合、フィールドは親グループに参加するように仕訳されます。"
 
@@ -3844,8 +3878,8 @@ msgid ""
 " are in the *Won* stage, and have an expected revenue greater than $1,000, "
 "the following should be entered:"
 msgstr ""
-":menuselection:`CRM` "
-"アプリから*成約*ステージにあり、見込収益が$1,000を超える全てのリードと案件をターゲットにするには、以下を入力します:"
+":menuselection:`CRM` アプリから *成約* "
+"ステージにあり、見込収益が$1,000を超える全てのリードと案件をターゲットにするには、以下を入力します:"
 
 #: ../../content/applications/essentials/search.rst:139
 msgid ":guilabel:`Match all 🔽 (down arrow) of the following rules:`"
@@ -3881,8 +3915,8 @@ msgid ""
 "data type, as well as the :guilabel:`# Code editor` text area below the "
 "filter rules, to view and edit the domain manually."
 msgstr ""
-" :ref:`開発者モード`を有効化すると、各フィールドの技術的な名前とデータタイプが表示され、フィルタ規則の下にある :guilabel:`# "
-"コードエディタ` テキストエリアも表示され、ドメインを表示し手動で編集することができます。"
+":ref:`開発者モード`を有効化すると、各フィールドの技術的な名前とデータタイプが表示され、フィルタ規則の下にある :guilabel:`# "
+"コードエディタ`  テキストエリアも表示され、ドメインを表示し手動で編集することができます。"
 
 #: ../../content/applications/essentials/search.rst:160
 msgid "Group records"
@@ -3906,8 +3940,8 @@ msgid ""
 " The view changes to group the records by salesperson, without filtering out"
 " any records."
 msgstr ""
-" *販売分析*レポート( :menuselection:`販売アプリ --> レポーティング --> 販売`)で販売員別にレコードをグループ化するには、"
-" :guilabel:`グループ化` ドロップダウンメニューから :guilabel:`販売担当` "
+"*販売分析* レポート( :menuselection:`販売アプリ --> レポーティング --> 販売`) "
+"で販売員別にレコードをグループ化するには、 :guilabel:`グループ化` ドロップダウンメニューから :guilabel:`販売担当` "
 "オプションをクリックします。レコードがフィルタリングされずに、販売担当者別にグループ化されます。"
 
 #: ../../content/applications/essentials/search.rst:0
@@ -3946,6 +3980,10 @@ msgid ""
 "<../inventory_and_mrp/purchase/advanced/analyze>` report for the *Purchase* "
 "app, among others."
 msgstr ""
+"いくつかのレポーティングダッシュボードの、:guilabel:`検索...` バーに :guilabel:`比較` セクションが含まれています。  "
+"これには *製造* アプリ用レポートの :doc:`総合設備効率 "
+"<../inventory_and_mrp/manufacturing/reporting/oee>` および *購買* アプリの :doc:`購買 "
+"<../inventory_and_mrp/purchase/advanced/analyze>` レポートなどが含まれます。"
 
 #: ../../content/applications/essentials/search.rst:195
 msgid ""
@@ -3954,6 +3992,9 @@ msgid ""
 "options to choose from: :guilabel:`(Time Filter): Previous Period` and "
 ":guilabel:`(Time Filter): Previous Year`."
 msgstr ""
+":icon:`fa-adjust` :guilabel:`比較` セクションのオプションは2つの異なる期間のデータを比較するために使用されます。 "
+"2つの比較オプションがあり :guilabel:`(時間フィルタ): 前期間` および :guilabel:`(時間フィルタ): 前年` "
+"から選ぶことができます。"
 
 #: ../../content/applications/essentials/search.rst:200
 msgid ""
@@ -3962,6 +4003,9 @@ msgid ""
 " been selected in the :guilabel:`Filters` column. This is because, if no "
 "time period is specified, there is nothing to compare."
 msgstr ""
+":guilabel:`フィルタ` 列で1つ(または複数) の期間が選択されている場合、一部のレポートでは、:guilabel:`比較` セクション "
+"**のみ** :guilabel:`検索...` "
+"バーのドロップダウンメニューに表示されます。これは、期間が指定されていない場合に比較する対象がないためです。"
 
 #: ../../content/applications/essentials/search.rst:205
 msgid ""
@@ -3972,10 +4016,13 @@ msgid ""
 "enabled, but doing so does **not** change the way data is displayed on the "
 "report."
 msgstr ""
+"さらに、一部のレポートでは、:icon:`fa-pie-chart` :guilabel:`(円グラフ)` グラフタイプ、または :icon:`oi-"
+"view-pivot` :guilabel:`(ピボット)` ビューが選択されている場合のみ、:guilabel:`比較` "
+"機能を使用できます。別のビューが有効になっている場合でも、:guilabel:`比較`オプションは選択できますが、レポート上のデータの表示方法は変更されません。"
 
 #: ../../content/applications/essentials/search.rst-1
 msgid "The Search... bar for the production analysis report."
-msgstr ""
+msgstr "生産分析レポート用の検索バー。"
 
 #: ../../content/applications/essentials/search.rst:215
 msgid ""
@@ -3985,6 +4032,9 @@ msgid ""
 "Period` or :guilabel:`(Time Filter): Previous Year` in the "
 ":guilabel:`Comparison` section."
 msgstr ""
+"2つの比較のうちの1つを使用してデータを表示するには、まず :guilabel:`検索...` バーのドロップダウンメニューの "
+":guilabel:`フィルタ` 列で時間期間を選択します。次に、:guilabel:`比較` セクションで :guilabel:`(時間フィルタ): "
+"前期間` または :guilabel:`(時間フィルタ): 前年` のいずれかを選択します。"
 
 #: ../../content/applications/essentials/search.rst:220
 msgid ""
@@ -3993,6 +4043,8 @@ msgid ""
 "(month, quarter, year), one period or year prior. The way the data is "
 "displayed depends on the selected view:"
 msgstr ""
+":guilabel:`比較` オプションのいずれかが有効になっている場合、レポートは選択した期間のデータと、同じ期間 (月、四半期、年) "
+"の1つ前の期間または1年前の期間のデータを比較します。データの表示方法は、選択したビューによって異なります。"
 
 #: ../../content/applications/essentials/search.rst:224
 msgid ""
@@ -4001,6 +4053,8 @@ msgid ""
 "represents the selected time period, while the right bar represents the "
 "previous time period."
 msgstr ""
+":icon:`fa-bar-chart` :guilabel:`(棒グラフ)` "
+"は、選択した期間の各時間単位について、2つの棒グラフを並べて表示します。左の棒グラフは選択した期間を表し、右の棒グラフは前期間を表します。"
 
 #: ../../content/applications/essentials/search.rst:227
 msgid ""
@@ -4008,6 +4062,8 @@ msgid ""
 "lines, one representing the selected time period, and the other representing"
 " the previous time period."
 msgstr ""
+":icon:`fa-line-chart` :guilabel:`(折れ線グラフ)` "
+"は、選択した期間を表す1本と、前期間を表すもう1本の2本の線で表示されます。"
 
 #: ../../content/applications/essentials/search.rst:229
 msgid ""
@@ -4015,6 +4071,8 @@ msgid ""
 "with a smaller circle inside. The larger circle represents the selected time"
 " period, while the smaller circle represents the previous time period."
 msgstr ""
+":icon:`fa-pie-chart` :guilabel:`(円グラフ)` "
+"は、大きな円の中に小さな円があるように表示されます。大きな円は選択した期間を表し、小さな円は前期間を表します。"
 
 #: ../../content/applications/essentials/search.rst:232
 msgid ""
@@ -4023,6 +4081,8 @@ msgid ""
 "selected time period, while the left column represents the previous time "
 "period."
 msgstr ""
+":icon:`oi-view-pivot` :guilabel:`(ピボットテーブル)` "
+"は、各列が2つの小さな列に分割されて表示されます。右側の列は選択された期間を表し、左側の列は前期間を表します。"
 
 #: ../../content/applications/essentials/search.rst:237
 msgid ""
@@ -4033,6 +4093,10 @@ msgid ""
 "drop-down menu. In the :guilabel:`Comparison` section, :guilabel:`End Date: "
 "Previous Year` is selected."
 msgstr ""
+":menuselection:`製造` アプリの :guilabel:`製造分析` "
+"レポートでは、2024年第2四半期のデータと2023年第2四半期のデータが比較されています。:guilabel:`Q2` が "
+":guilabel:`検索...` バーのドロップダウンメニューの :guilabel:`終了日` フィルタセクションで選択されています。 "
+":guilabel:`比較` セクションでは、:guilabel:`終了日: 前年` が選択されています。"
 
 #: ../../content/applications/essentials/search.rst:242
 msgid ""
@@ -4040,6 +4104,7 @@ msgid ""
 "quarter (Q2) of 2024. The smaller circle shows data for the second quarter "
 "(Q2) of 2023, which is the same time period, but one *year* prior."
 msgstr ""
+"現在の年は2024年なので、大きい円は2024年第2四半期(Q2)のデータを表示しています。小さい円は2023年第2四半期(Q2)のデータを表示しており、同じ期間の1年前のデータです。"
 
 #: ../../content/applications/essentials/search.rst:246
 msgid ""
@@ -4047,10 +4112,12 @@ msgid ""
 "circle shows data for the first quarter (Q1) of 2024, which is the same time"
 " period, but one *period* prior."
 msgstr ""
+"代わりに:guilabel:`終了日: "
+"前期間`が選択されている場合、小さい円は2024年の第1四半期(Q1)のデータを表示します。これは同じ期間ですが、1 *周期* 前の期間です。"
 
 #: ../../content/applications/essentials/search.rst:0
 msgid "The comparison view of the Production Analysis report."
-msgstr ""
+msgstr "生産分析レポートの比較ビュー。"
 
 #: ../../content/applications/essentials/search.rst:256
 msgid "Favorites"

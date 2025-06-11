@@ -24,6 +24,17 @@ with AvaTax.
 The localization also includes taxes and a chart of accounts template that can be modified if
 needed.
 
+.. seealso::
+   Links to helpful resources for the Brazilian localization, including onboarding materials and
+   videos:
+
+   - `Onboarding checklist for new users
+     <https://docs.google.com/document/d/e/2PACX-1vSNYTYVnR_BzvQKL3kn5YdVzPjjHc-WHw_U3udk5tz_dJXo69woj9QrTMinH_siyOX2rLGjvspvc8AF/pub>`_.
+   - `YouTube playlist - Brazil (Localization)
+     <https://youtube.com/playlist?list=PL1-aSABtP6ADqexw4YNCbKPmpFggajxlX&si=RgmZR3Jco3223Np4>`_.
+   - `YouTube playlist - Tutoriais Odoo em Português
+     <https://youtube.com/playlist?list=PL1-aSABtP6ACGOW2UREePGjHQ2Bgdy-UZ&si=j6tiI36eB7BoKVQB>`_.
+
 Configuration
 =============
 
@@ -136,6 +147,7 @@ Correction letter, Invalidate invoice number range), an API call is made using c
 .. note::
    - Odoo is a certified partner of Avalara Brazil.
    - You can `buy IAP credit on odoo.com <https://iap.odoo.com/iap/in-app-services/819>`_.
+   - On creation, new databases receive 500 free credits.
 
 Credential configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -476,7 +488,7 @@ the government for validation.
    Credit notes are only available for electronic invoices for goods (NF-e).
 
 .. seealso::
-   :ref:`Issue a credit note <accounting/issue-credit-note>`
+   :ref:`Issue a credit note <accounting/credit_notes/issue-credit-note>`
 
 Debit Notes
 ~~~~~~~~~~~
@@ -493,7 +505,7 @@ accurately provided in the original invoice, a debit note can be issued.
    original invoice for the same or fewer products.
 
 .. seealso::
-   :ref:`Issue a debit note <accounting/issue-debit-note>`
+   :ref:`Issue a debit note <accounting/credit_notes/issue-debit-note>`
 
 Invoice cancellation
 ~~~~~~~~~~~~~~~~~~~~

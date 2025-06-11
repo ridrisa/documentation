@@ -92,7 +92,15 @@ Running the server
 
 .. option:: --upgrade-path <upgrade_path>
 
-   specify an additional upgrade path.
+   comma-separated list of directories from which additional upgrade scripts
+   are loaded.
+
+.. option:: --pre-upgrade-scripts <pre_upgrade_scripts>
+
+   comma-separated list of paths to upgrade scripts. The scripts are run before
+   loading base module when an upgrade of any module is requested. This is
+   useful to perform some actions during custom modules upgrade after a major
+   upgrade.
 
 .. option:: --load <modules>
 
@@ -609,6 +617,15 @@ Multiprocessing
 
     For multi-processing mode, this is in addition to the HTTP worker processes.
 
+.. option:: --limit-time-worker-cron <limit>
+
+    Soft limit on how long a :ref:`cron <reference/actions/cron>` thread/worker is
+    allowed to live before is is restarted, in seconds.
+
+    Set to 0 to disable.
+
+    Defaults to *0*.
+
 .. _reference/cmdline/config:
 
 Configuration file
@@ -705,6 +722,30 @@ interaction with the :ref:`orm <reference/orm>` and its functionalities.
    :ref:`reference/orm/environment`
 
 .. _reference/cmdline/scaffold:
+
+Neutralize
+==========
+
+.. program:: odoo-bin neutralize
+
+The Odoo command line allows for neutralizing a database as well. The command must be run with a
+database option.
+
+.. code-block:: console
+
+   $ odoo-bin --addons-path <PATH,...>  neutralize -d <database>
+
+.. option:: -d <database, --database <database>
+
+   Specify the database name that you would like to neutralize.
+
+
+.. option:: --stdout
+
+   Output the neutralization SQL instead of applying it
+
+.. seealso::
+   :doc:`../../administration/neutralized_database`
 
 Scaffolding
 ===========

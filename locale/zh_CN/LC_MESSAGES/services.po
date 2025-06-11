@@ -10,17 +10,17 @@
 # 稀饭~~ <wangwhai@qq.com>, 2023
 # Emily Jia <eji@odoo.com>, 2024
 # Mandy Choy <mnc@odoo.com>, 2024
-# Wil Odoo, 2024
-# Chloe Wang, 2024
+# Wil Odoo, 2025
+# Chloe Wang, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-21 11:43+0000\n"
+"POT-Creation-Date: 2025-04-30 11:37+0000\n"
 "PO-Revision-Date: 2023-11-08 08:57+0000\n"
-"Last-Translator: Chloe Wang, 2024\n"
+"Last-Translator: Chloe Wang, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -59,27 +59,29 @@ msgstr "手动创建任务"
 
 #: ../../content/applications/services/field_service/creating_tasks.rst:11
 msgid "To create a new field service task:"
-msgstr ""
+msgstr "要创建新的现场服务任务："
 
 #: ../../content/applications/services/field_service/creating_tasks.rst:13
 msgid ""
 "Open the Field service app and go to :menuselection:`Field Service --> All "
 "Tasks --> All Tasks`."
-msgstr ""
+msgstr "打开现场服务应用程序，转到 :menuselection:`现场服务 --> 所有任务 --> 所有任务`。"
 
 #: ../../content/applications/services/field_service/creating_tasks.rst:14
 msgid "Click :guilabel:`New`."
-msgstr ""
+msgstr "点击 :guilabel:`新建`。"
 
 #: ../../content/applications/services/field_service/creating_tasks.rst:15
 msgid ""
 "Fill in the task title, :guilabel:`Customer` and any other :ref:`optional "
 "field <task_creation/task-configuration>`, then save manually."
 msgstr ""
+"填写任务标题、:guilabel:`客户` 和其他 :ref:`可选字段 <task_creation/task-"
+"configuration>`，然后手动保存。"
 
 #: ../../content/applications/services/field_service/creating_tasks.rst:19
 msgid "Task creation from a sales order"
-msgstr ""
+msgstr "根据销售订单创建任务"
 
 #: ../../content/applications/services/field_service/creating_tasks.rst:21
 msgid ""
@@ -89,6 +91,8 @@ msgid ""
 "automatically created in your Field Service project. Click the "
 ":guilabel:`Tasks` smart button to access it from the sales order."
 msgstr ""
+"此功能允许根据销售订单自动创建现场服务任务。当您使用 :ref:`服务产品 <sales/invoicing/configured-service-"
+"product>` 创建报价单并确认后，您的现场服务项目中将自动创建一个任务。点击 :guilabel:`任务` 智能按钮可从销售订单访问该任务。"
 
 #: ../../content/applications/services/field_service/creating_tasks.rst:27
 msgid "Task creation from a helpdesk ticket"
@@ -956,7 +960,7 @@ msgstr ""
 
 #: ../../content/applications/services/helpdesk.rst:242
 msgid "Merge tickets"
-msgstr ""
+msgstr "合并工单"
 
 #: ../../content/applications/services/helpdesk.rst:244
 msgid ""
@@ -969,6 +973,8 @@ msgid ""
 "The *merge* feature is **only** accessible if the :doc:`Data Cleaning "
 "<../productivity/data_cleaning>` application is installed on the database."
 msgstr ""
+"**只有**在数据库上安装了 :doc:`数据清理 <../productivity/data_cleaning>` 应用程序，才能访问 *合并* "
+"功能。"
 
 #: ../../content/applications/services/helpdesk.rst:251
 msgid ""
@@ -1074,7 +1080,7 @@ msgstr ""
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:38
 msgid "Issue refund with credit note"
-msgstr ""
+msgstr "出具退款和贷记单据"
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:40
 msgid ""
@@ -1088,7 +1094,7 @@ msgstr ""
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:46
 msgid "Invoices **must** be posted before a credit note can be generated."
-msgstr ""
+msgstr "在生成贷记单据之前，发票**必须**已入账。"
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:48
 msgid ""
@@ -1097,6 +1103,8 @@ msgid ""
 "the top-left corner of the ticket form. This opens a :guilabel:`Refund` pop-"
 "up window."
 msgstr ""
+"要创建贷记单据，请导航至 :menuselection:`服务台应用程序` 上的工单，然后点击工单表单左上角的 :guilabel:`退款` "
+"按钮。这将打开一个 :guilabel:`退款` 弹出窗口。"
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst-1
 msgid "View of a refund creation page."
@@ -1105,26 +1113,26 @@ msgstr "创建退款页面视图。"
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:56
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:216
 msgid "Fill out the fields with the necessary information:"
-msgstr ""
+msgstr "填写必要的信息："
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:58
 msgid ""
 ":guilabel:`Sales Order`: if a sales order was referenced on the original "
 "ticket, it automatically populates in this field."
-msgstr ""
+msgstr ":guilabel:`销售订单`：如果原始工单中引用了销售订单，则该字段将自动填充。"
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:60
 msgid ""
 ":guilabel:`Product`: the product the ticket is about. If an item is selected"
 " in this field, only the sales orders, deliveries, and invoices including "
 "this product can be selected."
-msgstr ""
+msgstr ":guilabel:`产品`：工单涉及的产品。如果在此字段中选择了一个产品，则只能选择包含此产品的销售订单、交货和发票。"
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:62
 msgid ""
 ":guilabel:`Lot/Serial Number`: this field is **only** visible if the "
 ":guilabel:`Product` selected has associated lot or serial numbers."
-msgstr ""
+msgstr ":guilabel:`批次/序列号`：**只有**当所选 :guilabel:`产品`具有相关批次或序列号时，该字段才可见。"
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:64
 msgid ""
@@ -1132,40 +1140,42 @@ msgid ""
 "are available in the drop-down, it indicates this customer currently has no "
 "posted invoices, or the :guilabel:`Product` has no related invoices."
 msgstr ""
+":guilabel:`要退款的发票`：此字段为**必填**。如果下拉菜单中没有发票，则表示该客户目前没有已对账的发票，或者 :guilabel:`产品`"
+" 没有相关发票。"
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:67
 msgid ""
 ":guilabel:`Reason displayed on Credit Note`: this field automatically "
 "populates with the ticket number, though it can be edited with additional "
 "information."
-msgstr ""
+msgstr ":guilabel:`贷记单据上显示的原因`：该字段会自动填入工单编号，但也可以编辑其他信息。"
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:69
 msgid ""
 ":guilabel:`Journal`: the accounting journal where the credit note should be "
 "posted. After an invoice is selected, this field defaults to the journal "
 "listed on the original invoice, though it can be changed, if necessary."
-msgstr ""
+msgstr ":guilabel:`日记账`：贷记单据应入账的会计分录。选择发票后，此字段默认为原始发票上列出的日记账，但必要时可以更改。"
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:72
 msgid ""
 ":guilabel:`Reversal date`: when this field is clicked, use the pop-up "
 "calendar that appears to select a date for the credit note invoice. This "
 "field is **required**."
-msgstr ""
+msgstr ":guilabel:`撤销日期`：点击此字段时，使用弹出的日历选择红字发票的日期。此字段为**必填**。"
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:75
 msgid ""
 "After the necessary fields are filled in, click :guilabel:`Reverse` or "
 ":guilabel:`Reverse and Create Invoice`."
-msgstr ""
+msgstr "填写必要字段后，点击 :guilabel:`撤销` 或 :guilabel:`撤销并创建发票`。"
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:78
 msgid ""
 ":guilabel:`Reverse` creates a credit note in a draft state that can be "
 "edited before it is posted. This option can be used to provide a partial "
 "refund."
-msgstr ""
+msgstr ":guilabel:`撤销` 在草稿状态下创建贷记，可在发布前进行编辑。此选项可用于提供部分退款。"
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:81
 msgid ""
@@ -1173,13 +1183,13 @@ msgid ""
 "automatically posted as well as an invoice in a draft state. The invoice "
 "contains the same information as the original invoice, though this "
 "information can be altered."
-msgstr ""
+msgstr ":guilabel:`撤销并创建发票` 创建自动入账的贷项通知单以及草稿状态的发票。发票包含与原始发票相同的信息，但这些信息可以更改。"
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:85
 msgid ""
 "Once the credit note has been posted, a :guilabel:`Credit Notes` smart "
 "button is added to the *Helpdesk* ticket."
-msgstr ""
+msgstr "贷记单据发布后，*服务台* 工单上会添加一个 :guilabel:`贷记单据` 智能按钮。"
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst-1
 msgid "View of smart buttons on a ticket focusing on the credit note button."
@@ -1240,13 +1250,15 @@ msgid ""
 "<../../../sales/sales/products_prices/loyalty_discount>` for more "
 "information."
 msgstr ""
+"优惠券计划也可以在 *销售点* 应用程序或 *网站* 应用程序中创建。更多信息请参阅 "
+":doc:`折扣和会员计划<.../../../sales/sales/products_prices/loyalty_discount>` 。"
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:125
 msgid ""
 "Click on the :guilabel:`Valid Until` field, and use the pop-up calendar to "
 "select an expiration date for this coupon code. If this field is left blank,"
 " the code does **not** expire."
-msgstr ""
+msgstr "点击 :guilabel:`有效直至` 字段，使用弹出的日历为优惠券代码选择有效期。如果该字段留空，则优惠券代码**不会**过期。"
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:128
 msgid ""
@@ -1944,6 +1956,7 @@ msgid ""
 ":guilabel:`Project` drop-down menu, type a name for the project, and then "
 "click :guilabel:`Create` from the drop-down menu beneath."
 msgstr ""
+"要创建记录考勤表的新项目，请点击 :guilabel:`项目` 下拉菜单，键入项目名称，然后从下面的下拉菜单中点击 :guilabel:`创建`。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst-1
 msgid ""
@@ -1964,6 +1977,9 @@ msgid ""
 " the product that is used when invoicing for *post-paid support services* "
 "**after** they have been completed."
 msgstr ""
+"启用 :guilabel:`结算时间` 功能后，将在 *销售* 应用程序中创建一个名为 *工时单上的服务* 新产品。该产品可在 "
+":menuselection:`销售应用程序--> 产品 --> 产品` 下找到。然后，在 :guilabel:`搜索...` 栏中搜索  "
+"`工时单上的服务`。这是在 *后付款支持服务* 完成后开具发票时使用的产品。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:62
 msgid ""
@@ -1974,6 +1990,9 @@ msgid ""
 "any necessary changes to the product record, such as the :guilabel:`Cost` or"
 " :guilabel:`Sales Price`."
 msgstr ""
+"从产品页面选择 :guilabel:`工时单上的服务`。这将显示产品详细信息表单。该产品的 :guilabel:`产品类型` 已设置为 "
+":guilabel:`服务`，:guilabel:`开票策略` 已设置为 :guilabel:`基于时间表`。对产品记录进行必要更改，如 "
+":guilabel:`成本` 或 :guilabel:`销售价格`。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst-1
 msgid ""
@@ -1986,7 +2005,7 @@ msgid ""
 "In order to invoice for support services **before** the work has been "
 "completed (also known as *prepaid support services*), a separate product "
 "with a different invoicing policy must be created."
-msgstr ""
+msgstr "若要在工作完成**之前**为支持服务开具发票（也称为*预付支持服务*），必须创建一个具有不同开票策略的单独产品。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:74
 msgid ""
@@ -1994,6 +2013,8 @@ msgid ""
 "Products --> Products`, and click :guilabel:`New`. This reveals a blank "
 "product detail form."
 msgstr ""
+"要创建新的服务产品，请进入 :menuselection:`销售应用程序 --> 产品 --> 产品`，然后点击 "
+":guilabel:`新建`。这将显示一个空白的产品详细信息表单。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:77
 msgid ""
@@ -2029,6 +2050,8 @@ msgid ""
 "with the *Invoicing Policy* set to *Prepaid/Fixed Price* would be used, just"
 " like :ref:`the section above <helpdesk/configure-service-products>`."
 msgstr ""
+"当支持服务以固定价格计费时，可以在问题的任何工作完成之前创建发票。在这种情况下，将使用 *开票策略* 设置为 *预付/固定价格* 的服务产品，就像 "
+":ref:`上述部分 <helpdesk/configure-service-products>` 一样。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:98
 msgid "Create a sales order with prepaid product"
@@ -2041,6 +2064,8 @@ msgid ""
 ":menuselection:`Sales app --> Orders --> Quotations`. Then, click "
 ":guilabel:`New` to reveal a blank quotation form."
 msgstr ""
+"要为客户开具预付支持服务发票，首先要创建支持服务产品的销售订单 (SO)。要执行此操作，请转到 :menuselection:`销售应用程序 --> "
+"订单 --> 报价单`。然后点击 :guilabel:`新建`，显示空白报价表。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:104
 msgid "Then, fill out the quotation form with the customer information."
@@ -2072,6 +2097,7 @@ msgid ""
 ":guilabel:`Create Invoice` button. This opens a :guilabel:`Create invoices` "
 "pop-up window."
 msgstr ""
+"确认 :abbr:`SO（销售订单）`后，点击 :guilabel:`创建发票` 按钮。这将打开一个 :guilabel:`创建发票` 弹出窗口。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:119
 msgid ""
@@ -2081,6 +2107,9 @@ msgid ""
 "either :guilabel:`Down payment (percentage)` or :guilabel:`Down payment "
 "(fixed amount)`."
 msgstr ""
+"如果没有收取首期付款 ， :guilabel:`创建发票` 类型可以保持为 :guilabel:`普通发票`。如果收取 :doc:`首期付款 "
+"<.../../../sales/sales/invoicing/down_payment>`，请选择 :guilabel:` 首期付款（百分比）` 或"
+" :guilabel:`首期付款（固定金额）`。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:124
 msgid ""
@@ -2116,7 +2145,7 @@ msgid ""
 "When the customer name is added, the :guilabel:`Sales Order Item` field "
 "automatically populates with the most recent prepaid sales order item that "
 "has time remaining."
-msgstr ""
+msgstr "添加客户名称后，:guilabel:`销售订单项目` 字段会自动填充有剩余时间的最新预付销售订单项目。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:142
 msgid "Track hours on helpdesk ticket"
@@ -2143,7 +2172,7 @@ msgid ""
 "As new lines are added to :guilabel:`Timesheets` tab, the "
 ":guilabel:`Remaining Hours on SO` field, at the bottom-right of the tab, is "
 "automatically updated."
-msgstr ""
+msgstr "在 :guilabel:`工时单` 标签中添加新行时，标签右下方的 :guilabel:`销售订单的剩余小时数` 字段会自动更新。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst-1
 msgid ""
@@ -2155,7 +2184,7 @@ msgstr "视图：工单上的工时单选项卡，SO 剩余工时。"
 msgid ""
 "If the number of hours on the :guilabel:`Timesheets` tab exceeds the number "
 "of hours sold, the :guilabel:`Remaining Hours of SO` turns red."
-msgstr ""
+msgstr "如果 :guilabel:`工时单` 标签上的小时数超过已售出的小时数，:guilabel:`销售订单剩余小时数` 将变为红色。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:161
 msgid ""
@@ -2168,7 +2197,7 @@ msgstr ""
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:165
 msgid "Invoice post-paid support services"
-msgstr ""
+msgstr "付费后支持服务发票"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:167
 msgid ""
@@ -2179,6 +2208,8 @@ msgid ""
 "Timesheets* would be used, like the one created in :ref:`the section above "
 "<helpdesk/configure-service-products>`."
 msgstr ""
+"根据处理问题所花费的时间，为支持服务计费时，要先输入解决问题所需的总小时数，才能创建发票。在这种情况下，应使用*开票策略*设置为*基于时间表*的服务产品，如"
+" :ref:`上节 <helpdesk/configure-service-products>` 中创建的产品。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:174
 msgid "Create a sales order with a time-tracked product"
@@ -2191,6 +2222,8 @@ msgid ""
 ":menuselection:`Sales app --> Orders --> Quotations`. Then, click "
 ":guilabel:`New` to reveal a blank quotation form."
 msgstr ""
+"要为客户开具付费后支持服务发票，首先要创建包含*支持服务产品*的销售订单（SO）。要执行此操作，请转到 :menuselection:`销售应用程序 "
+"--> 订单 --> 报价单`。然后，点击 :guilabel:`新建`，显示空白报价表。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:180
 msgid "Fill out the quotation with the customer information."
@@ -2212,6 +2245,7 @@ msgid ""
 "performed; in other words, nothing has been delivered, therefore, there is "
 "nothing to invoice."
 msgstr ""
+"与预付服务报价不同，Odoo 此时**不**允许创建发票。这是因为没有提供任何服务；换句话说，没有交付任何东西，因此没有需要开具发票的项目。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:192
 msgid "Create a helpdesk ticket for time-tracked services"
@@ -2222,7 +2256,7 @@ msgid ""
 "To record a *Timesheet* entry for time-tracker services, go to the "
 ":menuselection:`Helpdesk` app, and select the appropriate team for which "
 "these services apply."
-msgstr ""
+msgstr "要为时间追踪服务记录 *工时单* 条目，请转到 :menuselection:`服务台` 应用程序，并选择适用这些服务的相应团队。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:197
 msgid ""
@@ -2232,13 +2266,15 @@ msgid ""
 " and enter the necessary customer information on the blank ticket details "
 "form."
 msgstr ""
+"如果该问题已有工单，请从看板视图中选择，打开工单详细信息表单。如果此客户问题无现有工单，请点击 :guilabel:`新建` "
+"以创建新工单，并在空白工单详细信息表单中输入必要的客户信息。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:202
 msgid ""
 "After selecting or creating a ticket, go to the :guilabel:`Sales Order Item`"
 " drop-down menu. Select the :abbr:`SO (sales order)` created in the previous"
 " step."
-msgstr ""
+msgstr "选择或创建工单后，转到 :guilabel:`销售订单项目` 下拉菜单。选择在上一步中创建的 :abbr:`SO（销售订单）`。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:206
 msgid "Track support hours on a ticket"
@@ -2282,7 +2318,7 @@ msgid ""
 "After the customer's issue has been solved, and it is determined no new "
 "timesheet entries need to be made, an invoice can be created, and the "
 "customer can be billed."
-msgstr ""
+msgstr "客户的问题得到解决，并确定不需要制作新的工时单条目后，就可以创建发票，并向客户收取费用。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:227
 msgid ""
@@ -2307,7 +2343,7 @@ msgstr "销售订单视图，已交付栏。"
 msgid ""
 "Then, click :guilabel:`Create Invoice`. This opens a :guilabel:`Create "
 "invoice(s)` pop-up window."
-msgstr ""
+msgstr "然后，点击 :guilabel:`创建发票`。这将打开一个 :guilabel:`创建发票` 弹出窗口。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:239
 msgid ""
@@ -2316,6 +2352,8 @@ msgid ""
 "choose between either :guilabel:`Down payment (percentage)` or "
 ":guilabel:`Down payment (fixed amount)`."
 msgstr ""
+"如果没有收取定金，:guilabel:`创建发票`类型可保留为:guilabel:`普通发票`。如果收取定金，请选择:guilabel:`定金（百分比）`"
+" 或 :guilabel:`定金（固定金额）`。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:244
 msgid ""
@@ -2324,17 +2362,18 @@ msgid ""
 "**all** applicable timesheets that have not yet been invoiced will be "
 "included."
 msgstr ""
+"如果发票**只应**包括某个时间段的工时单，请使用 :guilabel:`工时单时段` 字段。如果此字段留空，则将包括*所有*尚未开具发票的适用工时单。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst-1
 msgid "View of create invoices pop up showing timesheets period fields."
-msgstr ""
+msgstr "创建发票弹窗视图，显示工时单时间段字段。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:252
 msgid ""
 "When the necessary information has been entered, click :guilabel:`Create "
 "Draft`. The invoice can then be reviewed, edited, and sent to the customer "
 "for payment."
-msgstr ""
+msgstr "输入必要信息后，点击 :guilabel:`创建草稿`。然后就可以查看、编辑发票，并发送给客户付款。"
 
 #: ../../content/applications/services/helpdesk/advanced/track_and_bill.rst:256
 msgid ""
@@ -2394,7 +2433,7 @@ msgid ""
 "Since all of the *Help Center* features require integration with other "
 "applications, enabling any of them may result in the installation of "
 "additional modules or applications."
-msgstr ""
+msgstr "由于 *帮助中心* 所有功能都需要与其他应用程序整合，因此启用其中任何一项功能，都可能需要安装额外模块或应用程序。"
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:30
 msgid ""
@@ -2405,7 +2444,7 @@ msgstr ""
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:35
 msgid ":doc:`Helpdesk Overview <../../helpdesk>`"
-msgstr ""
+msgstr ":doc:`服务台概览 <../../helpdesk>`"
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:38
 msgid "Knowledge"
@@ -2421,7 +2460,7 @@ msgstr ""
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst-1
 msgid "View of a message in Helpdesk focusing on the Knowledge bookmark icon."
-msgstr ""
+msgstr "查看服务台中的信息，重点是知识书签图标。"
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:49
 msgid "Enable Knowledge on a Helpdesk team"
@@ -2487,7 +2526,7 @@ msgstr "一旦创建了一篇文章并将其分配给*服务台*团队，就可�
 msgid ""
 ":doc:`Editing Knowledge articles "
 "<../../../productivity/knowledge/articles_editing>`"
-msgstr ""
+msgstr ":doc:`编辑知识库文章 <../../../productivity/knowledge/articles_editing>`"
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:81
 msgid "Search articles from a Helpdesk ticket"
@@ -2509,13 +2548,13 @@ msgstr ""
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:90
 msgid "When a ticket is selected, Odoo reveals that ticket's detail form."
-msgstr ""
+msgstr "选择工单后，Odoo 会显示该工单的详细信息表单。"
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:92
 msgid ""
 "Click the :guilabel:`Knowledge (bookmark)` icon, located at the top-right of"
 " the page, to open a pop-up search window."
-msgstr ""
+msgstr "点击页面右上方的 :guilabel:`知识库（书签）` 图标，弹出搜索窗口。"
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst-1
 msgid "View of knowledge search window from a helpdesk ticket."
@@ -2545,11 +2584,11 @@ msgstr "要在新标签页中打开文章，请按 :command:`Ctrl + Enter`。"
 msgid ""
 "If a more in-depth search is required, press :command:`Alt + B`. That "
 "reveals a separate page, in which a more detailed search can occur."
-msgstr ""
+msgstr "如果需要更深入的搜索，请按 :command:`Alt+B`。这将显示一个单独的页面，可以进行更详细的搜索。"
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:113
 msgid "Share an article to the Help Center"
-msgstr ""
+msgstr "分享文章到帮助中心"
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:115
 msgid ""
@@ -2563,6 +2602,7 @@ msgid ""
 " share all the nested articles to the web. Individual articles intended for "
 "customers **must** be published for them to be viewable on the website."
 msgstr ""
+"即使在团队中启用了*帮助*文章，Odoo 也**不会**将所有嵌套文章共享到网络上。面向客户的单篇文章**必须**已发布，才能在网站上查看。"
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:122
 msgid ""
@@ -2578,7 +2618,7 @@ msgstr "视图：知识库文章，分享和发布选项。"
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:131
 msgid "Solve tickets with a clipboard box"
-msgstr ""
+msgstr "用剪贴板盒解决工单问题"
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:133
 msgid ""
@@ -2591,7 +2631,7 @@ msgstr ""
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:138
 msgid "Add clipboard boxes to articles"
-msgstr ""
+msgstr "将剪贴板框添加到文章中"
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:140
 msgid ""
@@ -2610,7 +2650,7 @@ msgstr ""
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst-1
 msgid "View of a clipboard in knowledge with focus on send and copy options."
-msgstr ""
+msgstr "知识库中的剪贴板视图，重点在发送和复制选项。"
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:152
 msgid ""
@@ -2621,7 +2661,7 @@ msgstr ""
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:156
 msgid "Use clipboard boxes in tickets"
-msgstr ""
+msgstr "在工单中使用剪贴板框"
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:158
 msgid ""
@@ -2650,7 +2690,7 @@ msgid ""
 "To use a clipboard box to respond to a ticket, click :guilabel:`Send as "
 "message` in the upper-right corner of the clipboard box, located in the body"
 " of the article."
-msgstr ""
+msgstr "要使用剪贴板框回复工单，请点击位于文章正文中的剪贴板框右上角的 :guilabel:`作为消息发送`。"
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:172
 msgid ""
@@ -2658,6 +2698,8 @@ msgid ""
 "select the recipients, make any necessary additions or edits to the "
 "clipboard content, then click :guilabel:`Send`."
 msgstr ""
+"这样做将弹出 :guilabel:`撰写电子邮件` 窗口。在该窗口中，选择收件人，对剪贴板内容进行必要的添加或编辑，然后点击 "
+":guilabel:`发送`。"
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:176
 msgid ""
@@ -2667,6 +2709,8 @@ msgid ""
 "existing text in a ticket's description. The content from the clipboard box "
 "is added as additional text."
 msgstr ""
+"要使用剪贴板框为票单说明添加信息，请点击位于文章正文中的剪贴板框右上角的 "
+":guilabel:`用作描述`。这样做**不会**取代工单描述中的现有文本。剪贴板框中的内容将作为附加文本添加。"
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:184
 msgid "Community Forum"
@@ -2696,6 +2740,8 @@ msgid ""
 " the :guilabel:`Help Center` section of features, and enable "
 ":guilabel:`Community Forum`, by checking the box beside it."
 msgstr ""
+"选择或创建一个团队会显示该团队的详细表格。向下滚动到 :guilabel:`帮助中心` 功能部分，选中旁边的复选框，启用 "
+":guilabel:`社区论坛`。"
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:200
 msgid ""
@@ -2723,7 +2769,7 @@ msgstr ""
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:211
 msgid ":doc:`Forum documentation <../../../websites/forum>`"
-msgstr ""
+msgstr ":doc:`论坛说明文档 <../../../websites/forum>`"
 
 #: ../../content/applications/services/helpdesk/overview/help_center.rst:214
 msgid "Create a forum post from a Helpdesk ticket"
@@ -3848,7 +3894,7 @@ msgstr ":doc:`/applications/services/helpdesk/advanced/close_tickets`"
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:351
 msgid ":doc:`../../../general/email_communication`"
-msgstr ""
+msgstr ":doc:`../../../general/email_communication`"
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:352
 msgid ":doc:`/applications/websites/livechat`"
@@ -4799,11 +4845,11 @@ msgid ""
 "Hours` field) and :guilabel:`Planning`."
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:94
+#: ../../content/applications/services/planning.rst:96
 msgid "Working hours"
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:96
+#: ../../content/applications/services/planning.rst:98
 msgid ""
 "The :guilabel:`Working Hours` are taken into account when the "
 ":guilabel:`Allocated Time` and its percentage is calculated for :ref:`shifts"
@@ -4811,94 +4857,94 @@ msgid ""
 "blank, the employee is considered to be working flexible hours."
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:100
+#: ../../content/applications/services/planning.rst:102
 msgid ""
 "To create individual :guilabel:`Working Hours`, for example, for employees "
 "working part-time, click :guilabel:`Search more...`, then :guilabel:`New`."
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:104
+#: ../../content/applications/services/planning.rst:106
 msgid ""
 "The :guilabel:`Working Hours` and the :guilabel:`Allocated Time` in Planning"
 " can impact **Payroll**, if the employee's contract is configured to "
 "generate work entries based on shifts."
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:108
+#: ../../content/applications/services/planning.rst:110
 msgid ""
 ":ref:`Payroll documentation on working schedules <payroll/working-times>`"
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:111
+#: ../../content/applications/services/planning.rst:113
 msgid "Planning roles"
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:113
+#: ../../content/applications/services/planning.rst:115
 msgid "Once an employee has one or more :guilabel:`Roles`:"
 msgstr "一旦员工拥有一个或多个 :guilabel:`角色`："
 
-#: ../../content/applications/services/planning.rst:115
+#: ../../content/applications/services/planning.rst:117
 msgid ""
 "When creating a shift for this employee, only the shift templates from the "
 "roles chosen in this field are displayed."
 msgstr "为该员工创建班次时，只显示该字段中所选角色的班次模板。"
 
-#: ../../content/applications/services/planning.rst:117
+#: ../../content/applications/services/planning.rst:119
 msgid ""
 "When a schedule is published, the employee is only notified of open shifts "
 "for the roles that are assigned to them."
 msgstr "发布日程表时，员工只会收到分配给他们的角色的空缺班次通知。"
 
-#: ../../content/applications/services/planning.rst:119
+#: ../../content/applications/services/planning.rst:121
 msgid ""
 "When auto-assigning open shifts or planning sales orders, the employee is "
 "only assigned shifts for the roles assigned to them."
 msgstr "在自动分配开放班次或计划销售订单时，只会为员工分配其角色的班次。"
 
-#: ../../content/applications/services/planning.rst:122
+#: ../../content/applications/services/planning.rst:124
 msgid "Additionally, when a :guilabel:`Default role` is defined:"
 msgstr "此外，当定义了:guilabel:`默认角色` 时："
 
-#: ../../content/applications/services/planning.rst:124
+#: ../../content/applications/services/planning.rst:126
 msgid ""
 "When creating a shift for the employee, the default role is automatically "
 "selected."
 msgstr "为员工创建班次时，会自动选择默认角色。"
 
-#: ../../content/applications/services/planning.rst:125
+#: ../../content/applications/services/planning.rst:127
 msgid ""
 "This role also has precedence over the other roles of the employee when "
 "auto-assigning open shifts or planning sales orders."
 msgstr "在自动分配开放班次或计划销售订单时，该角色也优先于员工的其他角色。"
 
-#: ../../content/applications/services/planning.rst:129
+#: ../../content/applications/services/planning.rst:131
 msgid ""
 "If the Planning roles fields are left empty, there are no restrictions in "
 "the shift templates and open shifts shared with the employee. However, it’s "
 "not possible to use the **Auto Plan** feature for employee with no roles."
 msgstr "如果计划角色字段为空，则与员工共享的班次模板和开放班次将不受限制。但是，没有角色的员工无法使用**自动计划**功能。"
 
-#: ../../content/applications/services/planning.rst:136
+#: ../../content/applications/services/planning.rst:138
 msgid "Materials"
 msgstr "材料"
 
-#: ../../content/applications/services/planning.rst:138
+#: ../../content/applications/services/planning.rst:140
 msgid ""
 "**Materials** are resources that can be assigned shifts and working hours "
 "but are not employees. For example, a construction company could use "
 "materials to create shifts for shared machines (e.g., cranes, forklifts)."
 msgstr "**材料**是可以分配班次和工作时间的资源，但不是员工。例如，建筑公司可以使用材料为共享机器（如起重机、叉车）创建班次。"
 
-#: ../../content/applications/services/planning.rst:142
+#: ../../content/applications/services/planning.rst:144
 msgid ""
 "Similarly to employees, materials can be assigned roles and working time."
 msgstr "与员工类似，材料也可以分配角色和工作时间。"
 
-#: ../../content/applications/services/planning.rst:147
+#: ../../content/applications/services/planning.rst:149
 msgid "Shift templates"
 msgstr "班次模板"
 
-#: ../../content/applications/services/planning.rst:149
+#: ../../content/applications/services/planning.rst:151
 msgid ""
 "To create a shift template, click :guilabel:`New` on any schedule, then fill"
 " in the :ref:`details of the shift <planning/create-shift>`. In order for "
@@ -4911,7 +4957,7 @@ msgstr ""
 msgid "Shift form with the option `save template` ticked."
 msgstr "勾选 `保存模板` 选项的移位表单。"
 
-#: ../../content/applications/services/planning.rst:156
+#: ../../content/applications/services/planning.rst:158
 msgid ""
 "Alternatively, you can go to :menuselection:`Planning --> Configuration --> "
 "Shift Templates`, then click :guilabel:`New`. Fill in the :guilabel:`Start "
@@ -4923,20 +4969,20 @@ msgstr ""
 ":guilabel:`开始时间` 和 :guilabel:`班次时间`。班次的 :guilabel:`结束时间` 将根据 "
 ":guilabel:`工作时间` 计算，并将工作时间和休息时间考虑在内。"
 
-#: ../../content/applications/services/planning.rst:162
+#: ../../content/applications/services/planning.rst:164
 msgid ""
 "The employee's working hours are Monday to Friday, 8 am to 5 pm, with a "
 "break between 12 and 1 pm."
 msgstr "员工的工作时间为周一至周五，上午 8 时至下午 5 时，中午 12 时至下午 1 时休息。"
 
-#: ../../content/applications/services/planning.rst:165
+#: ../../content/applications/services/planning.rst:167
 msgid ""
 "Creating a shift template with a start hour of 9 am and a duration of 8 "
 "hours will result in the end hour being 5 pm, based on the working hours and"
 " the 1-hour break."
 msgstr "创建一个开始时间为上午 9 点、持续时间为 8 小时的班次模板，根据工作时间和 1 小时的休息时间，结束时间为下午 5 点。"
 
-#: ../../content/applications/services/planning.rst:167
+#: ../../content/applications/services/planning.rst:169
 msgid ""
 "Creating a shift template with a start hour of 10 am and a duration of 10 "
 "hours will result in the end hour of 10 am the following day, as the company"
@@ -4944,25 +4990,25 @@ msgid ""
 msgstr ""
 "创建一个开始时间为上午 10 点、持续时间为 10 小时的轮班模板，结束时间将为第二天上午 10 点，因为根据工作时间，当天下午 5 点已经下班。"
 
-#: ../../content/applications/services/planning.rst:171
+#: ../../content/applications/services/planning.rst:173
 msgid "Additionally, for each shift template, you can also configure:"
 msgstr "此外，您还可以为每个轮班模板进行配置："
 
-#: ../../content/applications/services/planning.rst:173
+#: ../../content/applications/services/planning.rst:175
 msgid ":guilabel:`Role`: to link the shift to this specific role."
 msgstr ":guilabel:`角色`：将班次与特定角色关联。"
 
-#: ../../content/applications/services/planning.rst:174
+#: ../../content/applications/services/planning.rst:176
 msgid ""
 ":guilabel:`Project`: to keep track of shifts that are dedicated to work on a"
 " project."
 msgstr ":guilabel:`项目`：记录专门用于项目工作的班次。"
 
-#: ../../content/applications/services/planning.rst:179
+#: ../../content/applications/services/planning.rst:181
 msgid "Planning shifts"
 msgstr "计划排班"
 
-#: ../../content/applications/services/planning.rst:181
+#: ../../content/applications/services/planning.rst:183
 msgid ""
 "On opening the Planning app, the users see their own schedule. Users with "
 "admin roles can also see :guilabel:`Schedule by Resource`, :guilabel:`Role`,"
@@ -4973,7 +5019,7 @@ msgstr ""
 ":guilabel:`按资源安排日程`、:guilabel:`角色`、:guilabel:`项目` 或 "
 ":guilabel:`销售订单`，以及报告和配置菜单。"
 
-#: ../../content/applications/services/planning.rst:186
+#: ../../content/applications/services/planning.rst:188
 msgid ""
 "The schedule is displayed in the Gantt view, which allows you to edit (with "
 "a drag and drop), resize, split, and duplicate shifts without having to open"
@@ -4984,29 +5030,29 @@ msgstr "日程表显示在甘特视图中，您可以通过拖放进行编辑、
 msgid "A schedule displaying various visual elements."
 msgstr "显示各种视觉元素的日程表。"
 
-#: ../../content/applications/services/planning.rst:192
+#: ../../content/applications/services/planning.rst:194
 msgid "The following visual elements are used on the shifts in the schedules:"
 msgstr "日程表中的班次使用了以下视觉元素："
 
-#: ../../content/applications/services/planning.rst:194
-msgid "**Full color**: shifts that are planned and published."
-msgstr ""
-
-#: ../../content/applications/services/planning.rst:195
-msgid ""
-"**Diagonal stripes**: shifts that are planned but have yet to be published."
-msgstr ""
-
 #: ../../content/applications/services/planning.rst:196
-msgid "**Grayed-out background**: employees that are on time off."
+msgid "**Full color**: shifts that are planned and published."
 msgstr ""
 
 #: ../../content/applications/services/planning.rst:197
 msgid ""
-"**Progress bar**: currently ongoing shifts with timesheets linked to them."
+"**Diagonal stripes**: shifts that are planned but have yet to be published."
 msgstr ""
 
 #: ../../content/applications/services/planning.rst:198
+msgid "**Grayed-out background**: employees that are on time off."
+msgstr ""
+
+#: ../../content/applications/services/planning.rst:199
+msgid ""
+"**Progress bar**: currently ongoing shifts with timesheets linked to them."
+msgstr ""
+
+#: ../../content/applications/services/planning.rst:200
 msgid ""
 "**Grayed-out shift**: when copying shifts, the copied shifts are shown in "
 "full color, whereas previously existing shifts are temporarily greyed out. "
@@ -5014,31 +5060,31 @@ msgid ""
 " of the page or by removing the filter."
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:205
+#: ../../content/applications/services/planning.rst:207
 msgid "Create a shift"
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:207
+#: ../../content/applications/services/planning.rst:209
 msgid ""
 "To create a shift, go to any schedule, then click :guilabel:`New`. In the "
 "pop-up window that opens, fill in the following details:"
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:210
+#: ../../content/applications/services/planning.rst:212
 msgid ""
 "**Templates**: If there is one or more templates existing in your database, "
 "they are displayed in the upper section of the pop-up window. Once selected,"
 " a template prefills the shift form accordingly."
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:213
+#: ../../content/applications/services/planning.rst:215
 msgid ""
 ":guilabel:`Resource`: Resources can be both employees or materials. If this "
 "field is left empty, the shift is considered an :ref:`open shift "
 "<planning/open-shifts>`."
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:215
+#: ../../content/applications/services/planning.rst:217
 msgid ""
 ":guilabel:`Role`: Select the role that the resource assigned will be "
 "performing. This field is used when :ref:`auto-planning <planning/open-"
@@ -5046,38 +5092,38 @@ msgid ""
 " it are displayed in the upper section of the pop-up window."
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:218
+#: ../../content/applications/services/planning.rst:220
 msgid ""
 ":guilabel:`Project`: If the Project app is installed in your database, this "
 "field allows you to link the project to the shift is available, allowing you"
 " to plan and track shifts dedicated to work on the selected project."
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:221
+#: ../../content/applications/services/planning.rst:223
 msgid ""
 ":guilabel:`Sales Order Item`: If the Sales app is installed in your "
 "database, this field allows you to link a sales order to the shift."
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:223
+#: ../../content/applications/services/planning.rst:225
 msgid ""
 ":guilabel:`Repeat`: Tick the checkbox and configure the :guilabel:`Repeat "
 "Every` field according to your needs. The following rules apply to recurring"
 " shifts:"
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:226
+#: ../../content/applications/services/planning.rst:228
 msgid ""
 "All fields (e.g., :guilabel:`Resource`, :guilabel:`Role`, "
 ":guilabel:`Project`) are copied from the original shift except for the date,"
 " which is adjusted according to the :guilabel:`Repeat Every` field."
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:229
+#: ../../content/applications/services/planning.rst:231
 msgid "Recurrences are planned but not published."
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:230
+#: ../../content/applications/services/planning.rst:232
 msgid ""
 "By default, planned shifts are created six months in advance, after which "
 "they are created gradually. To change the time frame, :ref:`activate the "
@@ -5085,184 +5131,196 @@ msgid ""
 "Configuration --> Settings` and edit the :guilabel:`Recurring Shifts`."
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:235
+#: ../../content/applications/services/planning.rst:237
 msgid ""
 ":guilabel:`Save as Template`: When this option is ticked, a shift template "
 "is created with the same :guilabel:`Start and End hours`, "
 ":guilabel:`Allocated time`, :guilabel:`Role`, and :guilabel:`Project`."
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:238
+#: ../../content/applications/services/planning.rst:240
 msgid ""
 ":guilabel:`Additional note sent to the employee`: Click on the field to add "
 "a note."
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:239
+#: ../../content/applications/services/planning.rst:241
 msgid ""
 ":guilabel:`Date`: Choose the date and time of your shift. This is the only "
 "mandatory field when creating a shift."
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:241
+#: ../../content/applications/services/planning.rst:243
 msgid ""
 ":guilabel:`Allocated time`: Is calculated based on the date and the "
 "employee’s :guilabel:`Working Schedule`. See more in :ref:`Shift Templates "
 "<planning/templates>`."
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:244
+#: ../../content/applications/services/planning.rst:246
 msgid ""
 "Click :guilabel:`Publish & Save` to confirm the shift and send the assigned "
 "employee their schedule by email."
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:248
+#: ../../content/applications/services/planning.rst:250
 msgid ""
 "The draft is visible on the admin planning view and can be identified by "
 "diagonal lines. The employee is only notified of the shift once it's "
 "published."
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:251
+#: ../../content/applications/services/planning.rst:253
 msgid ""
 "Two kinds of notifications are sent to the employees depending on their "
 "account configuration:"
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:253
+#: ../../content/applications/services/planning.rst:255
 msgid ""
 "Employees without user accounts are redirected to a dedicated **Planning "
 "portal**."
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:254
+#: ../../content/applications/services/planning.rst:256
 msgid ""
 "Employees with a user account are redirected to the :guilabel:`My Planning` "
 "view in the backend view of Odoo."
 msgstr ""
 
 #: ../../content/applications/services/planning.rst:260
+msgid ""
+"The **split shifts** tool allows to easily split a long shift into segments."
+" To do so, hover the mouse over the desired shift and click the :icon:`fa-"
+"scissors` (:guilabel:`scissors`) icon."
+msgstr ""
+
+#: ../../content/applications/services/planning.rst:0
+msgid "Split shifts tool."
+msgstr ""
+
+#: ../../content/applications/services/planning.rst:269
 msgid "Open shifts and auto planning"
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:262
+#: ../../content/applications/services/planning.rst:271
 msgid ""
 "The :guilabel:`Auto Plan` button allows you to assign **Open shifts** "
 "(shifts with no resource assigned) and create and assign shifts linked to "
 "sales orders or project."
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:265
+#: ../../content/applications/services/planning.rst:274
 msgid "The following features have an impact on auto planning:"
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:267
+#: ../../content/applications/services/planning.rst:276
 msgid ""
 "**Roles**: Open shifts are only assigned to resources (employees or "
 "materials) that have the corresponding role assigned. It is not possible to "
 "use the :guilabel:`Auto Plan` feature for employee with no roles."
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:270
+#: ../../content/applications/services/planning.rst:279
 msgid ""
 "**Default roles**: The default role assigned to a resource is given priority"
 " over the other roles they have assigned to them."
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:272
+#: ../../content/applications/services/planning.rst:281
 msgid ""
 "**Conflicts**: Employees or materials cannot be assigned multiple shifts at "
 "the same time."
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:273
+#: ../../content/applications/services/planning.rst:282
 msgid ""
 "**Time off**: The employees’ time off is taken into account, as well as "
 "public holidays."
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:274
+#: ../../content/applications/services/planning.rst:283
 msgid ""
-"**Company working hours**: Are taken into account when assigning shifts to "
-"employees or materials."
+"**Working hours**: Are taken into account when assigning shifts to employees"
+" or materials. It is not possible to use the :guilabel:`Auto Plan` feature "
+"for an employee who is working :ref:`flexible hours <planning/working-"
+"hours>`."
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:275
+#: ../../content/applications/services/planning.rst:286
 msgid ""
-"**Contracts**: Employees without an active contract cannot be assigned "
-"shifts."
+"**Contracts**: If the employee has an active contract, they won't be "
+"assigned shifts that fall outside of their contract period."
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:277
+#: ../../content/applications/services/planning.rst:289
 msgid ""
 "Click :guilabel:`Publish` to confirm the schedule and notify the employees "
 "of their planning."
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:282
+#: ../../content/applications/services/planning.rst:294
 msgid "Switching shifts and unassignment"
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:284
+#: ../../content/applications/services/planning.rst:296
 msgid ""
 "Two features are available to allow employees to make changes to their "
 "schedule: **switching shifts** and **unassignment**."
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:288
+#: ../../content/applications/services/planning.rst:300
 msgid ""
 "These features are mutually exclusive. Switching shifts is possible by "
 "default and cannot be disabled. However, once the **Allow unassignment** "
 "feature is enabled, it replaces the option to switch shifts."
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:293
+#: ../../content/applications/services/planning.rst:305
 msgid "Switching shifts"
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:295
+#: ../../content/applications/services/planning.rst:307
 msgid ""
 "Once shifts are planned and published, employees receive an email "
 "notification. If an employee wishes to switch a shift, they can click the "
 "unwanted shift and click :guilabel:`Ask to switch`."
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:298
+#: ../../content/applications/services/planning.rst:310
 msgid ""
 "The shift remains assigned to the original employee, but in the schedule, a "
 "notification informing that the assigned employee would like to switch "
 "shifts is visible on the shift."
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:301
+#: ../../content/applications/services/planning.rst:313
 msgid ""
 "The shift is then displayed to other employees who share the same role, and "
 "if they wish to assign it to themselves, they can click the :guilabel:`I "
 "take it` button."
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:305
-#: ../../content/applications/services/planning.rst:323
+#: ../../content/applications/services/planning.rst:317
+#: ../../content/applications/services/planning.rst:335
 msgid "The following rules apply:"
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:307
+#: ../../content/applications/services/planning.rst:319
 msgid ""
 "Only the shifts matching the employee's roles are displayed as available to "
 "them."
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:308
-#: ../../content/applications/services/planning.rst:326
-msgid "Switching shifts is only available for shifts that are in the future."
+#: ../../content/applications/services/planning.rst:320
+msgid "Switching shifts is not available for shifts in the past."
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:311
+#: ../../content/applications/services/planning.rst:323
 msgid "Unassignment"
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:313
+#: ../../content/applications/services/planning.rst:325
 msgid ""
 "To allow employees to unassign themselves from shifts, go to "
 ":menuselection:`Planning --> Configuration --> Settings`, then tick the "
@@ -5270,17 +5328,21 @@ msgid ""
 " days that the employees can unassign themselves before the shift."
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:318
+#: ../../content/applications/services/planning.rst:330
 msgid ""
 "Once shifts are planned and published, employees receive an email "
 "notification. If shift unassignment is allowed, the employees can click the "
 ":guilabel:`I am unavailable` button, and the shift reverts to an open shift."
 msgstr ""
 
-#: ../../content/applications/services/planning.rst:325
+#: ../../content/applications/services/planning.rst:337
 msgid ""
 "Only the shifts matching the employee's roles are displayed in their "
 "schedule."
+msgstr ""
+
+#: ../../content/applications/services/planning.rst:338
+msgid "Unassigning shifts is not available for shifts in the past."
 msgstr ""
 
 #: ../../content/applications/services/project.rst:8
@@ -5301,6 +5363,213 @@ msgid ""
 "<https://www.odoo.com/slides/project-and-timesheets-21>`_"
 msgstr ""
 "`Odoo 教程：项目和时间表 <https://www.odoo.com/slides/project-and-timesheets-21>`_"
+
+#: ../../content/applications/services/project/project_dashboard.rst:3
+msgid "Project dashboard"
+msgstr ""
+
+#: ../../content/applications/services/project/project_dashboard.rst:5
+msgid ""
+"The project dashboard allows you to get a comprehensive overview of your "
+"project's status. It displays information such as the total number of tasks,"
+" timesheets, and planned hours linked to the project, as well as detailed "
+"information about project milestones and its costs and revenues. Within the "
+"project dashboard, you can create :guilabel:`Project updates`, which allow "
+"you to take a snapshot of the project's status at a certain point in time. "
+"As such, it is a crucial tool for effective project management and ensuring "
+"that your project stays on track."
+msgstr ""
+
+#: ../../content/applications/services/project/project_dashboard.rst:13
+msgid "Using the project dashboard"
+msgstr ""
+
+#: ../../content/applications/services/project/project_dashboard.rst:15
+msgid ""
+"To access the project dashboard, open the **Project** app and hover over the"
+" desired project’s card. Then, click the :icon:`fa-vertical-ellipsis` "
+"(:guilabel:`vertical ellipsis`) icon and select :guilabel:`Dashboard`."
+msgstr ""
+
+#: ../../content/applications/services/project/project_dashboard.rst:19
+msgid ""
+"The left side of the dashboard displays a list of existing :ref:`project "
+"updates <project/project-dashboard/updates>`, and the right side provides "
+":ref:`detailed information about records linked to the project "
+"<project/project-dashboard/smart-buttons>`, as well as :ref:`milestones "
+"<project/project-dashboard/milestones>`, :ref:`profitability "
+"<project/project-dashboard/profitability>`, and :ref:`budgets "
+"<project/project-dashboard/budgets>`."
+msgstr ""
+
+#: ../../content/applications/services/project/project_dashboard.rst:26
+msgid ""
+"The information displayed on the project dashboard varies depending on the "
+"applications installed on your database. For example, you will not see "
+"information about **Timesheets**, **Planning**, or **Purchase Orders** if "
+"the corresponding applications are not installed."
+msgstr ""
+
+#: ../../content/applications/services/project/project_dashboard.rst:33
+msgid "Totals smart buttons"
+msgstr ""
+
+#: ../../content/applications/services/project/project_dashboard.rst:35
+msgid ""
+"The following smart buttons are displayed on the top left of the project "
+"dashboard:"
+msgstr ""
+
+#: ../../content/applications/services/project/project_dashboard.rst:37
+msgid ""
+":guilabel:`Tasks`: the number of completed (i.e., :guilabel:`Done` or "
+":guilabel:`Canceled` :ref:`tasks "
+"<project/tasks/task_stages_statuses/statuses>`) and all tasks, in format "
+"completed/all, as well as the entire project's completion percentage "
+"estimation."
+msgstr ""
+
+#: ../../content/applications/services/project/project_dashboard.rst:40
+msgid ""
+":guilabel:`Timesheets`: the number of hours or days (depending on the "
+"**Timesheets** app configuration) linked to the project. This includes all "
+":doc:`timesheets <../timesheets>`, whether or not they have been validated."
+msgstr ""
+
+#: ../../content/applications/services/project/project_dashboard.rst:43
+msgid ""
+":guilabel:`Planned`: the number of hours that have been planned for shifts "
+"in the **Planning** app. This includes all :doc:`planned shifts "
+"<../planning>`, including past shifts and shifts that have not yet been "
+"published."
+msgstr ""
+
+#: ../../content/applications/services/project/project_dashboard.rst:46
+msgid ""
+":guilabel:`Documents`: number of :doc:`documents "
+"<../../productivity/documents>` in the project’s workspace."
+msgstr ""
+
+#: ../../content/applications/services/project/project_dashboard.rst:48
+msgid ""
+":guilabel:`Burndown Chart`: click the smart button to access a :doc:`report "
+"</applications/essentials/reporting>` on the status of the project’s tasks "
+"over time."
+msgstr ""
+
+#: ../../content/applications/services/project/project_dashboard.rst:50
+msgid ""
+":guilabel:`Timesheets and Planning`: click the smart button to access a "
+":doc:`report </applications/essentials/reporting>` on the project’s "
+"timesheets and shifts."
+msgstr ""
+
+#: ../../content/applications/services/project/project_dashboard.rst:52
+msgid ""
+"**Additional fields**, such as :guilabel:`Sales Orders`, :guilabel:`Sales "
+"Order Items`, :guilabel:`Purchase Orders`, and more, represent the number of"
+" records linked to the project."
+msgstr ""
+
+#: ../../content/applications/services/project/project_dashboard.rst:56
+msgid ""
+"Use the project dashboard smart buttons to update the project records "
+"easily. Click :guilabel:`Timesheets` to validate timesheets, "
+":guilabel:`Planned` to create project planning, :guilabel:`Documents` to "
+"view and validate documents, etc."
+msgstr ""
+
+#: ../../content/applications/services/project/project_dashboard.rst:63
+msgid "Milestones"
+msgstr "里程碑"
+
+#: ../../content/applications/services/project/project_dashboard.rst:65
+msgid ""
+"This section is only visible if :doc:`milestones "
+"</applications/sales/sales/invoicing/milestone>` have been created for this "
+"project. Click :guilabel:`Add Milestone` to create a new milestone. Click a "
+"milestone in the checklist to edit it, enable its checkbox to mark it as "
+"completed, or click the :icon:`fa-trash` (:guilabel:`trash`) icon to remove "
+"it."
+msgstr ""
+
+#: ../../content/applications/services/project/project_dashboard.rst:73
+msgid "Profitability"
+msgstr "盈利能力"
+
+#: ../../content/applications/services/project/project_dashboard.rst:75
+msgid ""
+"This section only applies to billable projects and provides a breakdown of "
+"project costs and revenues."
+msgstr ""
+
+#: ../../content/applications/services/project/project_dashboard.rst:81
+msgid "Budgets"
+msgstr "预算"
+
+#: ../../content/applications/services/project/project_dashboard.rst:83
+msgid ""
+"If a budget has been set for the project, its status and related details are"
+" displayed in this section. Click :guilabel:`Add Budget` to create a new "
+"budget for the project."
+msgstr ""
+
+#: ../../content/applications/services/project/project_dashboard.rst:87
+msgid ""
+":doc:`Analytic accounting "
+"</applications/finance/accounting/reporting/analytic_accounting>` must be "
+"enabled in your database’s **Accounting** application in order for this "
+"section to be displayed."
+msgstr ""
+
+#: ../../content/applications/services/project/project_dashboard.rst:94
+msgid "Project updates"
+msgstr ""
+
+#: ../../content/applications/services/project/project_dashboard.rst:96
+msgid ""
+"Project updates allow you to take a snapshot of the project’s overall status"
+" at a given point in time, for example, during a periodic (weekly, bi-"
+"weekly, or monthly) review. This allows you to compare specific data points,"
+" note any aspects of the project that need improvement, and estimate if the "
+"project is on or off track."
+msgstr ""
+
+#: ../../content/applications/services/project/project_dashboard.rst:101
+msgid ""
+"To create a new project update, go to the project dashboard, click "
+":guilabel:`New`, and fill in the following fields:"
+msgstr ""
+
+#: ../../content/applications/services/project/project_dashboard.rst:104
+msgid ""
+":guilabel:`Status`: Choose between :guilabel:`On Track`, :guilabel:`At "
+"Risk`, :guilabel:`Off Track`, :guilabel:`On Hold`, and :guilabel:`Done`. "
+"Once the status is set, a color-coded dot is displayed on the project’s "
+"Kanban card, allowing the project manager to easily identify which projects "
+"need attention."
+msgstr ""
+
+#: ../../content/applications/services/project/project_dashboard.rst:108
+msgid ""
+":guilabel:`Progress`: Manually input the completion percentage based on the "
+"project's progress."
+msgstr ""
+
+#: ../../content/applications/services/project/project_dashboard.rst:109
+msgid ""
+":guilabel:`Date` and :guilabel:`Author`: These fields are automatically "
+"filled in with appropriate information based on the user who created the "
+"update and the current date."
+msgstr ""
+
+#: ../../content/applications/services/project/project_dashboard.rst:111
+msgid ""
+":guilabel:`Description`: Use this rich-text field to gather notes. Depending"
+" on the project configuration (e.g., if the project is billable), this field"
+" may be pre-filled with current information on aspects such as "
+"profitability, budget, milestones, etc."
+msgstr ""
 
 #: ../../content/applications/services/project/project_management.rst:3
 msgid "Project management"
@@ -5500,66 +5769,68 @@ msgstr "设置任务重复周期"
 
 #: ../../content/applications/services/project/tasks/recurring_tasks.rst:21
 msgid ""
-"In an existing task, press the :guilabel:`Recurrent` button next to the "
-":guilabel:`Planned date`. Then, configure :guilabel:`Repeat Every` field "
-"according to your needs."
+"In an existing task, click the :icon:`fa-repeat` (:guilabel:`Recurrent`) "
+"button next to the :guilabel:`Deadline` field. Then, configure the "
+":guilabel:`Repeat Every` field according to your needs."
 msgstr ""
-"在现有任务中，按下 :guilabel:`计划日期` 旁边的 :guilabel:`经常性` 按钮。然后，根据需要配置 :guilabel:`重复` "
-"字段。"
 
-#: ../../content/applications/services/project/tasks/recurring_tasks.rst:24
+#: ../../content/applications/services/project/tasks/recurring_tasks.rst:25
 msgid ""
-"A new task in recurrence will be created once either of this conditions is "
-"met: - Previous task in recurrence has been closed. - On the day of the "
-"planned recurrence."
-msgstr "只要满足以下条件之一，就会创建一个新的循环任务：- 上一个循环任务已关闭。- 在计划的循环日期当天。"
+"A new task in recurrence will be created once the status of the previous "
+"task is set to :guilabel:`Done` or :guilabel:`Canceled`."
+msgstr ""
 
 #: ../../content/applications/services/project/tasks/recurring_tasks.rst:28
 msgid ""
-"The new task is created on your project dashboard with the following "
+"The new task is created on the project dashboard with the following "
 "configuration:"
-msgstr "新任务在项目仪表板上创建，配置如下："
+msgstr ""
 
 #: ../../content/applications/services/project/tasks/recurring_tasks.rst:30
 msgid ""
-":guilabel:`Stage`: first stage of the project dashboard (:guilabel:`New` or "
-"equivalent);"
-msgstr ":guilabel:`阶段：项目仪表板的第一阶段（:guilabel:`新建` 或类似内容）；"
+":guilabel:`Stage`: is set to the first stage of the project dashboard "
+"(:guilabel:`New` or equivalent);"
+msgstr ""
 
-#: ../../content/applications/services/project/tasks/recurring_tasks.rst:31
+#: ../../content/applications/services/project/tasks/recurring_tasks.rst:32
 msgid ""
 ":guilabel:`Name`, :guilabel:`Description`, :guilabel:`Project`, "
-":guilabel:`Assignees`, :guilabel:`Customer`, :guilabel:`Tags`: copied from "
-"the original task;"
+":guilabel:`Assignees`, :guilabel:`Customer`, :guilabel:`Tags`: are copied "
+"from the original task;"
 msgstr ""
-":guilabel:`名称`、:guilabel:`描述`、:guilabel:`项目`、:guilabel:`获分配者`、:guilabel:`客户`、:guilabel:`标签`：从原始任务复制；"
 
-#: ../../content/applications/services/project/tasks/recurring_tasks.rst:33
+#: ../../content/applications/services/project/tasks/recurring_tasks.rst:34
 msgid ""
-":guilabel:`Milestones`, :guilabel:`Deadline`, :guilabel:`Timesheets`, "
-":guilabel:`Chatter`, :guilabel:`Activities`, :guilabel:`Subtasks`: those "
-"fields are not copied;"
+":guilabel:`Deadline`: is updated based on the :guilabel:`Repeat Every` field"
+" (e.g., if the task is set to repeat once a week, 7 days will be added to "
+"the deadline);"
 msgstr ""
-":guilabel:`里程碑`、:guilabel:`截止日期`、:guilabel:`工时单`、:guilabel:`沟通栏`、:guilabel:`活动`、:guilabel:`子任务`：这些字段不会被复制；"
 
 #: ../../content/applications/services/project/tasks/recurring_tasks.rst:36
 msgid ""
-"A **smart button** on the task displays the total number of existing "
-"recurrences."
-msgstr "任务上的**智能按钮**会显示现有循环任务的总数。"
+":guilabel:`Milestones`, :guilabel:`Timesheets`, :guilabel:`Chatter`, "
+":guilabel:`Activities`, :guilabel:`Subtasks`: are **not** copied from the "
+"original task."
+msgstr ""
 
 #: ../../content/applications/services/project/tasks/recurring_tasks.rst:39
+msgid ""
+"Once a recurrence is configured, a **smart button** on the task displays the"
+" total number of existing recurrences."
+msgstr ""
+
+#: ../../content/applications/services/project/tasks/recurring_tasks.rst:43
 msgid "Edit or stop task recurrence"
 msgstr "编辑或停止任务循环"
 
-#: ../../content/applications/services/project/tasks/recurring_tasks.rst:41
+#: ../../content/applications/services/project/tasks/recurring_tasks.rst:45
 msgid ""
 "**To edit** the recurrence, open the last task in recurrence. Any changes "
 "made on the task will be applied to the tasks that will be created in the "
 "future."
 msgstr "**要编辑**循环任务，打开循环任务中的最后一项任务。对该任务所做的任何更改都将应用到今后创建的任务中。"
 
-#: ../../content/applications/services/project/tasks/recurring_tasks.rst:44
+#: ../../content/applications/services/project/tasks/recurring_tasks.rst:48
 msgid ""
 "**To stop** the recurrence, open the last task in recurrence and press the "
 ":guilabel:`Recurrent` button next to the :guilabel:`Planned date`."
@@ -5953,7 +6224,7 @@ msgid ""
 msgstr ""
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:119
-msgid ":ref:`Customize the form <dynamic_content/form>`."
+msgid ":ref:`Customize the form <website/dynamic_content/form>`."
 msgstr ""
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:121
@@ -5966,6 +6237,86 @@ msgstr ""
 msgid ""
 ":doc:`Dynamic website content "
 "<../../../websites/website/web_design/building_blocks/dynamic_content>`"
+msgstr ""
+
+#: ../../content/applications/services/project/tasks/task_dependencies.rst:3
+msgid "Task dependencies"
+msgstr ""
+
+#: ../../content/applications/services/project/tasks/task_dependencies.rst:5
+msgid ""
+"Odoo Project allows you to break down projects into tasks and establish "
+"relationships between those tasks to determine the order in which they are "
+"executed. Task dependencies ensure that certain tasks begin only after the "
+"preceding tasks are completed."
+msgstr ""
+
+#: ../../content/applications/services/project/tasks/task_dependencies.rst:9
+msgid ""
+"To enable task dependencies in projects, go to :menuselection:`Project --> "
+"Configuration --> Settings`, enable :guilabel:`Task Dependencies`, and click"
+" :guilabel:`Save`."
+msgstr ""
+
+#: ../../content/applications/services/project/tasks/task_dependencies.rst:13
+msgid "Set task dependencies"
+msgstr ""
+
+#: ../../content/applications/services/project/tasks/task_dependencies.rst:15
+msgid ""
+"Task dependencies can be created from the task form or the project's Gantt "
+"view by linking the successor task (i.e., the task blocked by other tasks) "
+"to its predecessor task(s) (i.e., the tasks blocking the successor task)."
+msgstr ""
+
+#: ../../content/applications/services/project/tasks/task_dependencies.rst:19
+msgid ""
+"To create task dependencies from the task form, access the desired task and,"
+" in the :guilabel:`Blocked by` tab, click :guilabel:`Add a line`. Click "
+":guilabel:`View` to access the predecessor task. To access the successor "
+"tasks from the predecessor task, click the :guilabel:`Blocking Tasks` smart "
+"button."
+msgstr ""
+
+#: ../../content/applications/services/project/tasks/task_dependencies.rst:24
+msgid ""
+"To create a task dependency from the Gantt view, hover your mouse over the "
+"predecessor task, then click one of the dots that appear around it. Drag and"
+" drop the dot onto the successor task. An arrow appears, indicating the "
+"dependency from the predecessor task to the successor."
+msgstr ""
+
+#: ../../content/applications/services/project/tasks/task_dependencies.rst-1
+msgid "Task dependency"
+msgstr ""
+
+#: ../../content/applications/services/project/tasks/task_dependencies.rst:32
+msgid ""
+"Odoo automatically manages task progress based on their dependency. "
+"Successor tasks are assigned the :guilabel:`Waiting` status and cannot be "
+"moved to :guilabel:`In Progress` until their predecessor task(s) are marked "
+"as :guilabel:`Approved`, :guilabel:`Cancelled`, or :guilabel:`Done`."
+msgstr ""
+
+#: ../../content/applications/services/project/tasks/task_dependencies.rst:37
+msgid "Remove dependencies"
+msgstr ""
+
+#: ../../content/applications/services/project/tasks/task_dependencies.rst:39
+msgid "To remove a task dependency, proceed as follows:"
+msgstr ""
+
+#: ../../content/applications/services/project/tasks/task_dependencies.rst:41
+msgid ""
+"From the task form, go to the **Blocked by** tab and click the :icon:`fa-"
+"times` (:guilabel:`times`) button."
+msgstr ""
+
+#: ../../content/applications/services/project/tasks/task_dependencies.rst:43
+msgid ""
+"From the Gantt view, click the red :icon:`fa-times` (:guilabel:`times`) "
+"button that appears at the center of the arrow when you hover your mouse "
+"over it."
 msgstr ""
 
 #: ../../content/applications/services/project/tasks/task_stages_statuses.rst:3
@@ -6073,11 +6424,11 @@ msgid ""
 "in this stage."
 msgstr ""
 
-#: ../../content/applications/services/project/tasks/task_stages_statuses.rst:51
+#: ../../content/applications/services/project/tasks/task_stages_statuses.rst:53
 msgid "Task statuses"
 msgstr ""
 
-#: ../../content/applications/services/project/tasks/task_stages_statuses.rst:53
+#: ../../content/applications/services/project/tasks/task_stages_statuses.rst:55
 msgid ""
 "Task statuses are used to track the status of tasks within the Kanban stage,"
 " as well as to close the task when it’s done or canceled. Unlike Kanban "
@@ -6085,34 +6436,34 @@ msgid ""
 "used as follows:"
 msgstr ""
 
-#: ../../content/applications/services/project/tasks/task_stages_statuses.rst:57
+#: ../../content/applications/services/project/tasks/task_stages_statuses.rst:59
 msgid ""
 ":guilabel:`In Progress`: this is the default state of all tasks, meaning "
 "that work required for the task to move to the next Kanban stage is ongoing."
 msgstr ""
 
-#: ../../content/applications/services/project/tasks/task_stages_statuses.rst:59
+#: ../../content/applications/services/project/tasks/task_stages_statuses.rst:61
 msgid ""
 ":guilabel:`Changes Requested`: to highlight that changes, either requested "
 "by the customer or internally, are needed before the task is moved to the "
 "next Kanban stage."
 msgstr ""
 
-#: ../../content/applications/services/project/tasks/task_stages_statuses.rst:61
+#: ../../content/applications/services/project/tasks/task_stages_statuses.rst:63
 msgid ""
 ":guilabel:`Approved`: to highlight that the task is ready to be moved to the"
 " next stage."
 msgstr ""
 
-#: ../../content/applications/services/project/tasks/task_stages_statuses.rst:62
+#: ../../content/applications/services/project/tasks/task_stages_statuses.rst:64
 msgid ":guilabel:`Canceled`: to cancel the task."
 msgstr ""
 
-#: ../../content/applications/services/project/tasks/task_stages_statuses.rst:63
+#: ../../content/applications/services/project/tasks/task_stages_statuses.rst:65
 msgid ":guilabel:`Done`: to close the task once it's been completed."
 msgstr ""
 
-#: ../../content/applications/services/project/tasks/task_stages_statuses.rst:67
+#: ../../content/applications/services/project/tasks/task_stages_statuses.rst:69
 msgid ""
 "The :guilabel:`Changes Requested` and :guilabel:`Approved` task statuses are"
 " cleared as soon as the task is moved to another Kanban stage. The task "
@@ -6121,7 +6472,7 @@ msgid ""
 "again once the necessary work has been completed in this Kanban stage."
 msgstr ""
 
-#: ../../content/applications/services/project/tasks/task_stages_statuses.rst:71
+#: ../../content/applications/services/project/tasks/task_stages_statuses.rst:73
 msgid ""
 "The :guilabel:`Done` and :guilabel:`Canceled` statuses are independent from "
 "the Kanban stage. Once a task is marked as :guilabel:`Done` or "

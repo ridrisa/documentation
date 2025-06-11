@@ -12,22 +12,24 @@
 # MichaelHadar, 2024
 # Ofir Blum <ofir.blum@gmail.com>, 2024
 # ExcaliberX <excaliberx@gmail.com>, 2024
-# NoaFarkash, 2024
-# Yihya Hugirat <hugirat@gmail.com>, 2024
+# ZVI BLONDER <ZVIBLONDER@gmail.com>, 2024
 # Martin Trigaux, 2024
 # דודי מלכה <Dudimalka6@gmail.com>, 2024
-# ZVI BLONDER <ZVIBLONDER@gmail.com>, 2024
 # yael terner, 2024
 # Ha Ketem <haketem@gmail.com>, 2024
+# NoaFarkash, 2024
+# tomerlayline, 2024
+# Yihya Hugirat <hugirat@gmail.com>, 2024
+# or balmas, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-24 10:43+0000\n"
+"POT-Creation-Date: 2025-02-20 12:15+0000\n"
 "PO-Revision-Date: 2023-11-08 08:57+0000\n"
-"Last-Translator: Ha Ketem <haketem@gmail.com>, 2024\n"
+"Last-Translator: or balmas, 2025\n"
 "Language-Team: Hebrew (https://app.transifex.com/odoo/teams/41243/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -43,8 +45,559 @@ msgstr "יצרנות"
 msgid "Calendar"
 msgstr "יומן"
 
+#: ../../content/applications/productivity/calendar.rst:7
+msgid ""
+"Odoo **Calendar** is a scheduling app that allows users to integrate a "
+"company's business flow into a single management platform. By integrating "
+"with the other apps in Odoo's ecosystem, **Calendar** allows users to "
+"schedule and organize meetings, schedule events, plan employee appraisals, "
+"coordinate projects, and more – all from the same platform."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:12
+msgid ""
+"Upon opening the :menuselection:`Calendar app`, users have an overview of "
+"their current meetings. The selected view option appears as a "
+":guilabel:`Day`, :guilabel:`Week`, :guilabel:`Month`, or :guilabel:`Year` "
+"drop-down menu. Under the view options drop-down menu, users can also enable"
+" or disable :guilabel:`Show weekends`."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst-1
+msgid "Overview of Calendar app."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:21
+msgid ""
+"Depending on the selected view option, users can click the :icon:`oi-arrow-"
+"left` :icon:`oi-arrow-right` :guilabel:`(left or right arrow)` buttons to "
+"switch between days, weeks, etc., and switch back to the current day with "
+"the :guilabel:`Today` button."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:26
+msgid "Sync third-party calendars"
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:28
+msgid ""
+"Users can sync Odoo with existing :doc:`Outlook <calendar/outlook>` and/or "
+":doc:`Google <calendar/google>` calendars, by heading to "
+":menuselection:`Calendar app --> Configuration --> Settings`. From here, "
+"enter :guilabel:`Client ID` and :guilabel:`Client Secret`. There is also an "
+"option to pause synchronization by ticking the checkbox, or automating "
+"synchronization by keeping it blank."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:34
+msgid ""
+"Once the desired configurations are complete, be sure to click "
+":guilabel:`Save` before moving on."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:36
+msgid ""
+"Events created in synced calendars automatically appear across the "
+"integrated platforms."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:39
+msgid ":doc:`Synchronize Outlook calendar with Odoo <calendar/outlook>`"
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:40
+msgid ":doc:`Synchronize Google calendar with Odoo <calendar/google>`"
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:43
+msgid "Create activities from chatter"
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:45
+msgid ""
+"Instantly create new meetings anywhere in Odoo through an individual "
+"record's chatter, like in a **CRM** opportunity card or task in the "
+"**Projects** app."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:48
+msgid ""
+"From the chatter, click on the :guilabel:`Activities` button. In the "
+":guilabel:`Schedule Activity` pop-up window, select the desired "
+":guilabel:`Activity Type`, which populates a set of buttons, depending on "
+"the activity."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:52
+msgid ""
+"Activities that involve other schedules, like :guilabel:`Meeting` or "
+":guilabel:`Call for Demo`, link to the **Calendar** app. Select one of these"
+" activities to link to the **Calendar** app, then hit :guilabel:`Open "
+"Calendar` to navigate back to the app. Alternatively, it is also possible to"
+" :guilabel:`Schedule & Mark as Done` to close out the activity, or select "
+":guilabel:`Done & Schedule Next` to keep the :guilabel:`Schedule Activity` "
+"window open to create another."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:59
+msgid ":doc:`Schedule activities in Odoo <../essentials/activities>`"
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:62
+msgid "Plan an event"
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:64
+msgid ""
+"To put an event on the calendar, open the :menuselection:`Calendar app`, and"
+" click into the target date. On the :guilabel:`New Event` pop-up window that"
+" appears, start by adding the event title."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst-1
+msgid "Schedule an event window on Calendar app."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:70
+msgid ""
+"The target date auto-populates in the :guilabel:`Start` field. This can be "
+"changed by clicking into the date section, and selecting a date from the "
+"calendar. For multi-day events, select the end date in the second field, "
+"then click :guilabel:`Apply`."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:74
+msgid ""
+"Tick the :guilabel:`All Day` checkbox if there is no specific start or end "
+"time."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:76
+msgid ""
+"For events with specific start and stop times, ensure the :guilabel:`All "
+"Day` checkbox is unticked to enable time selection. With the :guilabel:`All "
+"Day` checkbox unticked, time selections appear in the :guilabel:`Start` "
+"field."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:80
+msgid ""
+"The signed-in user auto-populates as the first attendee. Additional "
+":guilabel:`Attendees` can be added or created from here, as well."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:83
+msgid ""
+"For virtual meetings, copy and paste the URL into the space provided in the "
+":guilabel:`Videocall URL` field. Or, click :icon:`fa-plus` :guilabel:`Odoo "
+"meeting` to create a link."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:87
+msgid ""
+"Next, either create the event by clicking :guilabel:`Save & Close`, or "
+"select :guilabel:`More Options` to further configure the event."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:91
+msgid ""
+"Once the event is created, users can click into the virtual meeting directly"
+" from the calendar event to access more configuration options."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst-1
+msgid "The full event form for a new calendar event."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:97
+msgid ""
+"The :guilabel:`Description` field allows users to add additional information"
+" and details about the meeting."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:100
+msgid ""
+"Click :guilabel:`More Options` to navigate to the meeting form, which "
+"provides additional configurations for the event:"
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:103
+msgid ""
+":guilabel:`Duration`: Define the length of the meeting in :guilabel:`hours`,"
+" or toggle the :guilabel:`All Day` switch."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:105
+msgid ""
+":guilabel:`Recurrent`: Tick the checkbox to create a recurring meeting. Once"
+" selected, this opens new fields:"
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:108
+msgid ""
+":guilabel:`Timezone`: Select the timezone for which this meeting time is "
+"specified."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:109
+msgid ""
+":guilabel:`Repeat`: Select the recurring period of this meeting. Depending "
+"on what type of recurrence has been selected, a subsequent field appears, in"
+" which users can indicate when the meeting should recur. For example, if "
+":guilabel:`Monthly` is selected as the :guilabel:`Repeat` option, a new "
+"field appears, in which the user decides on what :guilabel:`Day of Month` "
+"the meeting should recur."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:114
+msgid ""
+":guilabel:`Until`: Select the limited :guilabel:`Number of repetitions` this"
+" meeting should recur, the :guilabel:`End date` of when the recurrences "
+"should stop, or if the meetings should recur :guilabel:`Forever`."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:117
+msgid ""
+":guilabel:`Tags`: Add tags to the event, like `Customer Meeting` or "
+"`Internal Meeting`. These can be searched and filtered in the **Calendar** "
+"app when organizing multiple events."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:119
+msgid ""
+":guilabel:`Appointment`: Link existing or new appointments. These can be "
+"configured through the :ref:`Share Availabilities <calendar/share-"
+"availabilities>` button from the main **Calendar** dashboard."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:122
+msgid ""
+":guilabel:`Privacy`: Toggle between visibility options to control who can "
+"view the event."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:123
+msgid ""
+":guilabel:`Organizer`: This is defaulted to the current Odoo user. Select a "
+"new one from existing users, or create and edit a new user."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:125
+msgid ""
+":guilabel:`Description`: Add additional information or details about the "
+"meeting."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:126
+msgid ""
+":guilabel:`Reminders`: Select notification options to send to attendees. "
+"Choose a default notification, or configure new reminders."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:130
+msgid "Coordinate with teams' availability"
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:132
+msgid ""
+"When scheduling an event for multiple users, on the **Calendar** app "
+"dashboard, tick the checkbox next to :guilabel:`Attendees` to view team "
+"members' availability. Tick (or untick) the checkbox next to listed users to"
+" show (or hide) individual calendars."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst-1
+msgid "View of Attendees section on Calendar app."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:142
+msgid "Share Availabilities"
+msgstr "שתף זמינות"
+
+#: ../../content/applications/productivity/calendar.rst:144
+msgid ""
+"On the **Calendar** app main dashboard, click the :guilabel:`Share "
+"Availabilities` button at the top of the page. Next, click and drag to "
+"select the available times and dates on the calendar to add them as options "
+"in the invitation."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:149
+msgid ""
+"To remove a selected time range, hover over the availability to click the "
+":icon:`fa-trash` :guilabel:`(trash)` icon."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:153
+msgid ""
+"Within the :guilabel:`Share Availabilities` feature, selecting times is only"
+" possible on the *Day* calendar views."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:156
+msgid ""
+"Once availability has been selected, click the :icon:`fa-external-link` "
+":guilabel:`Open` button to navigate to the associated appointment."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst-1
+msgid "Share availability window on Calendar app."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:162
+msgid "Several configuration options are available on the appointment form:"
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:164
+msgid ""
+"In the :guilabel:`Scheduling` field, set a minimum hour window to ensure "
+"appointments are confirmed a specified amount of time in advance. For "
+"example, set `01:00` to require attendees to confirm at least one hour "
+"before their appointment time."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:168
+msgid ""
+"In the :guilabel:`Allow Cancelling` field, set a maximum hour window before "
+"the appointment that attendees are able to cancel."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:171
+msgid ""
+"The :guilabel:`Availability on` field enables attendees to book "
+":guilabel:`Users` or :guilabel:`Resources`, such as meeting rooms or tables."
+" After selecting :guilabel:`Users` or :guilabel:`Resources`, type in the "
+"desired user or resource in the space below."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:175
+msgid ""
+"The :guilabel:`Front-End Display` field is used to choose :guilabel:`No "
+"Picture` or :guilabel:`Show Pictures` related to the selected user or "
+"resource on the appointment page."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:178
+msgid ""
+"If :guilabel:`Resources` has been selected in the :guilabel:`Availability "
+"on` field, users have an option to :guilabel:`Manage Capacities`."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:181
+msgid ""
+"Tick the checkbox to limit the maximum amount of people that can use the "
+"resource at the same time."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:183
+msgid ""
+"The :guilabel:`Assignment Method` field enables the order in which attendees"
+" book their time and user/resource:"
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:186
+msgid ":guilabel:`Pick User/Resource then Time`"
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:187
+msgid ":guilabel:`Select Time then User/Resource`"
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:189
+msgid ""
+"If :guilabel:`Resources` has been selected in the :guilabel:`Availability "
+"On` field, a third option is available, :guilabel:`Select Time then auto-"
+"assign`."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:192
+msgid "Optionally, configure the following tabs:"
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:194
+msgid ":ref:`calendar/appointment-schedule`"
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:195
+msgid ":ref:`calendar/appointment-options`"
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:196
+msgid ":ref:`calendar/appointment-questions`"
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:197
+msgid ":ref:`calendar/appointment-messages`"
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:199
+msgid ""
+"Click the :guilabel:`Preview` button to see how the appointment link looks "
+"for attendees."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:201
+msgid ""
+"Once the configurations are finished, click the :guilabel:`Share` button to "
+"generate a link to send directly, or click :guilabel:`Publish` to publish "
+"the appointment selection on the connected Odoo website."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:208
+msgid "Schedule tab"
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:210
+msgid ""
+"In the :guilabel:`Schedule` tab of the appointment form, time slots can be "
+"managed. The target date and time populate as the first time slots."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:213
+msgid ""
+"To add a new time slot, hit :guilabel:`Add a line`. Click into the new blank"
+" space under the :guilabel:`From` field, then select and enter the new "
+"target start date and time, respectively. Repeat under the new blank space "
+"under :guilabel:`To` to select and enter the new target end date and time."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:221
+msgid "Options tab"
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:223
+msgid "The :guilabel:`Options` tab provides additional configurations:"
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:225
+msgid ""
+":guilabel:`Website`: Specify which website this meeting invitation will be "
+"published on."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:226
+msgid ""
+":guilabel:`Timezone`: This defaults to the company's timezone selected in "
+"the **Settings** app. To change the timezone, select the desired option from"
+" the drop-down menu."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:228
+msgid ""
+":guilabel:`Location`: Select or create new locations from the drop-down "
+"menu. If this field is left empty, the meeting is considered to be taking "
+"place online."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:230
+msgid ""
+":guilabel:`Videoconference Link`: Select from :guilabel:`Odoo Discuss` or "
+":guilabel:`Google Meet` to include a video conference link in the meeting "
+"invitation, or leave it blank to prevent generating a meeting URL."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:233
+msgid ""
+":guilabel:`Manual Confirmation`: Only shown if :guilabel:`Resources` has "
+"been selected in the :guilabel:`Availability On` field. Tick the checkbox "
+"and enter a maximum percentage of the selected resource(s)' total capacity "
+"to create a manual confirmation requirement to finalize the meeting."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:237
+msgid ""
+":guilabel:`Up-front Payment`: Tick the checkbox to require users to pay "
+"before confirming their booking. Once this is ticked, a link appears to "
+":icon:`oi-arrow-right` :guilabel:`Configure Payment Providers`, which "
+"enables online payments."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:240
+msgid ""
+":guilabel:`Limit to Work Hours`: If :guilabel:`Users` has been selected in "
+"the :guilabel:`Availability On` field, tick the checkbox to limit meeting "
+"time slots to the selected :doc:`users' working hours "
+"<../hr/employees/new_employee>`."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:243
+msgid ""
+":guilabel:`Create Opportunities`: When this is selected, each scheduled "
+"appointment creates a new **CRM** opportunity."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:245
+msgid ""
+":guilabel:`Reminders`: Add or delete notification reminders in this field. "
+"Select the blank space for additional options."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:247
+msgid ""
+":guilabel:`Confirmation Email`: Tick the checkbox to automatically send a "
+"confirmation email to attendees once the meeting is confirmed. Select from "
+"the email templates or click :guilabel:`Search More...`, then "
+":guilabel:`New` to create a custom template."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:250
+msgid ""
+":guilabel:`Cancelation Email`: Tick the checkbox to automatically send a "
+"cancelation email to attendees if the meeting is canceled. Select from the "
+"email templates or click :guilabel:`Search More...`, then :guilabel:`New` to"
+" create a custom template."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:253
+msgid ""
+":guilabel:`CC to`: Add contacts to be notified of meeting updates in this "
+"field, regardless if they attend the meeting."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:255
+msgid ""
+":guilabel:`Allow Guests`: Tick the checkbox to allow attendees to invite "
+"guests."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:260
+msgid "Questions tab"
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:262
+msgid ""
+"In the :guilabel:`Questions` tab, add questions for the attendee to answer "
+"when confirming their meeting. Click :guilabel:`Add a line` to configure a "
+":guilabel:`Question`. Then select a :guilabel:`Question Type`, optionally "
+"add a :guilabel:`Placeholder` answer, and choose whether it is a "
+":guilabel:`Required Answer`."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:267
+msgid ""
+"To learn how to create more comprehensive questionnaires, head to the "
+"**Survey** app documentation on :doc:`creating and configuring data-"
+"capturing questions <../marketing/surveys/questions>`."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:274
+msgid "Messages tab"
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:276
+msgid ""
+"In the :guilabel:`Introduction Message` field of the :guilabel:`Messages` "
+"tab, add additional meeting information that appears on the invitation."
+msgstr ""
+
+#: ../../content/applications/productivity/calendar.rst:279
+msgid ""
+"Information added to the :guilabel:`Extra Message on Confirmation` field "
+"appears once the meeting is confirmed."
+msgstr ""
+
 #: ../../content/applications/productivity/calendar/google.rst:3
-msgid "Synchronize Google calendar with Odoo"
+msgid "Google Calendar synchronization"
 msgstr ""
 
 #: ../../content/applications/productivity/calendar/google.rst:5
@@ -332,7 +885,7 @@ msgid ""
 msgstr ""
 
 #: ../../content/applications/productivity/calendar/google.rst:158
-#: ../../content/applications/productivity/calendar/outlook.rst:211
+#: ../../content/applications/productivity/calendar/outlook.rst:210
 msgid "Troubleshoot sync"
 msgstr ""
 
@@ -356,12 +909,12 @@ msgid "Reset buttons highlighted on the calendar tab of the user."
 msgstr ""
 
 #: ../../content/applications/productivity/calendar/google.rst:172
-#: ../../content/applications/productivity/calendar/outlook.rst:225
+#: ../../content/applications/productivity/calendar/outlook.rst:224
 msgid "Next, click :guilabel:`Reset Account` under the correct calendar."
 msgstr ""
 
 #: ../../content/applications/productivity/calendar/google.rst:175
-#: ../../content/applications/productivity/calendar/outlook.rst:228
+#: ../../content/applications/productivity/calendar/outlook.rst:227
 msgid "Reset options"
 msgstr ""
 
@@ -376,12 +929,12 @@ msgid "Google calendar reset options in Odoo."
 msgstr ""
 
 #: ../../content/applications/productivity/calendar/google.rst:183
-#: ../../content/applications/productivity/calendar/outlook.rst:237
+#: ../../content/applications/productivity/calendar/outlook.rst:236
 msgid ":guilabel:`User's Existing Events`:"
 msgstr ""
 
 #: ../../content/applications/productivity/calendar/google.rst:185
-#: ../../content/applications/productivity/calendar/outlook.rst:239
+#: ../../content/applications/productivity/calendar/outlook.rst:238
 msgid ":guilabel:`Leave them untouched`: no changes to the events."
 msgstr ""
 
@@ -392,7 +945,7 @@ msgid ""
 msgstr ""
 
 #: ../../content/applications/productivity/calendar/google.rst:188
-#: ../../content/applications/productivity/calendar/outlook.rst:242
+#: ../../content/applications/productivity/calendar/outlook.rst:241
 msgid ""
 ":guilabel:`Delete from Odoo`: delete the events from the Odoo calendar."
 msgstr ""
@@ -404,7 +957,7 @@ msgid ""
 msgstr ""
 
 #: ../../content/applications/productivity/calendar/google.rst:191
-#: ../../content/applications/productivity/calendar/outlook.rst:246
+#: ../../content/applications/productivity/calendar/outlook.rst:245
 msgid ":guilabel:`Next Synchronization`:"
 msgstr ""
 
@@ -421,7 +974,7 @@ msgid ""
 msgstr ""
 
 #: ../../content/applications/productivity/calendar/google.rst:198
-#: ../../content/applications/productivity/calendar/outlook.rst:253
+#: ../../content/applications/productivity/calendar/outlook.rst:252
 msgid ""
 "Click :guilabel:`Confirm` after making the selection to modify the user's "
 "events and the calendar synchronization."
@@ -733,16 +1286,16 @@ msgstr ""
 
 #: ../../content/applications/productivity/calendar/outlook.rst:123
 msgid ""
-"In the Odoo database, go to :menuselection:`Settings app --> Integrations "
-"section`, and tick the checkbox beside the :guilabel:`Outlook Calendar` "
-"setting. Remember to click :guilabel:`Save` to implement the changes."
+"In the Odoo database, go to :menuselection:`Calendar app --> Configuration "
+"--> Settings`, and tick the checkbox beside the :guilabel:`Outlook Calendar`"
+" setting. Remember to click :guilabel:`Save` to implement the changes."
 msgstr ""
 
 #: ../../content/applications/productivity/calendar/outlook.rst-1
 msgid "The \"Outlook Calendar\" setting activated in Odoo."
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/outlook.rst:131
+#: ../../content/applications/productivity/calendar/outlook.rst:130
 msgid ""
 "From the Microsoft *Azure* portal, under the :guilabel:`Overview` section of"
 " the application, copy the :guilabel:`Application (Client) ID`, if it has "
@@ -754,7 +1307,7 @@ msgstr ""
 msgid "The \"Client ID\" in the Microsoft Azure portal."
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/outlook.rst:139
+#: ../../content/applications/productivity/calendar/outlook.rst:138
 msgid ""
 "Copy the previously-acquired :guilabel:`Value` (Client Secret Value), and "
 "paste it into the :guilabel:`Client Secret` field in Odoo."
@@ -764,17 +1317,17 @@ msgstr ""
 msgid "The \"Client Secret\" token to be copied from Microsoft to Odoo."
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/outlook.rst:146
+#: ../../content/applications/productivity/calendar/outlook.rst:145
 msgid ""
 "Finally, on the Odoo :menuselection:`Settings --> General Settings` page, "
 "click :guilabel:`Save`."
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/outlook.rst:151
+#: ../../content/applications/productivity/calendar/outlook.rst:150
 msgid "Sync with Outlook"
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/outlook.rst:155
+#: ../../content/applications/productivity/calendar/outlook.rst:154
 msgid ""
 "Odoo highly recommends testing the Outlook calendar synchronization on a "
 "test database and a test email address (that is not used for any other "
@@ -782,7 +1335,7 @@ msgid ""
 "user's production database."
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/outlook.rst:159
+#: ../../content/applications/productivity/calendar/outlook.rst:158
 msgid ""
 "If the user has any past, present, or future events on their Odoo calendar "
 "before syncing their Outlook calendar, Outlook will treat the events pulled "
@@ -790,7 +1343,7 @@ msgid ""
 "notification to be sent from Outlook to all the event attendees."
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/outlook.rst:163
+#: ../../content/applications/productivity/calendar/outlook.rst:162
 msgid ""
 "To avoid unwanted emails being sent to all past, present, and future event "
 "attendees, the user must add the events from the Odoo calendar to the "
@@ -798,7 +1351,7 @@ msgid ""
 "and then start the sync."
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/outlook.rst:167
+#: ../../content/applications/productivity/calendar/outlook.rst:166
 msgid ""
 "Even after synchronizing the Odoo Calendar with the Outlook calendar, "
 "Outlook will still send a notification to all event participants every time "
@@ -807,53 +1360,53 @@ msgid ""
 " Odoo's side."
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/outlook.rst:172
+#: ../../content/applications/productivity/calendar/outlook.rst:171
 msgid ""
 "In summary, once a user synchronizes their Outlook calendar with the Odoo "
 "calendar:"
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/outlook.rst:174
+#: ../../content/applications/productivity/calendar/outlook.rst:173
 msgid ""
 "Creating an event in Odoo causes Outlook to send an invitation to all event "
 "attendees."
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/outlook.rst:175
+#: ../../content/applications/productivity/calendar/outlook.rst:174
 msgid ""
 "Deleting an event in Odoo causes Outlook to send a cancellation to all event"
 " attendees."
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/outlook.rst:176
+#: ../../content/applications/productivity/calendar/outlook.rst:175
 msgid ""
 "Unarchiving an event in Odoo causes Outlook to send an invitation to all "
 "event attendees."
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/outlook.rst:177
+#: ../../content/applications/productivity/calendar/outlook.rst:176
 msgid ""
 "Archiving an event in Odoo causes Outlook to send a cancellation to all "
 "event attendees."
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/outlook.rst:178
+#: ../../content/applications/productivity/calendar/outlook.rst:177
 msgid ""
 "Adding a contact to an event causes Outlook to send an invitation to all "
 "event attendees."
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/outlook.rst:179
+#: ../../content/applications/productivity/calendar/outlook.rst:178
 msgid ""
 "Removing a contact from an event causes Outlook to send a cancellation to "
 "all event attendees."
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/outlook.rst:182
+#: ../../content/applications/productivity/calendar/outlook.rst:181
 msgid "Sync Odoo Calendar and Outlook"
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/outlook.rst:184
+#: ../../content/applications/productivity/calendar/outlook.rst:183
 msgid ""
 "In the Odoo database, open to the *Calendar* module, and click the "
 ":guilabel:`Outlook` sync button on the right-side of the page, beneath the "
@@ -864,7 +1417,7 @@ msgstr ""
 msgid "The \"Outlook\" sync button in Odoo Calendar."
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/outlook.rst:191
+#: ../../content/applications/productivity/calendar/outlook.rst:190
 msgid ""
 "The synchronization is a two-way process, meaning that events are reconciled"
 " in both accounts (*Outlook* and Odoo). The page redirects to a Microsoft "
@@ -877,7 +1430,7 @@ msgstr ""
 msgid "Authentication process on Microsoft Outlook OAuth page."
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/outlook.rst:201
+#: ../../content/applications/productivity/calendar/outlook.rst:200
 msgid ""
 "All users that want to use the synchronization simply need to :ref:`sync "
 "their calendar with Outlook <outlook/sync>`. The configuration of "
@@ -887,21 +1440,21 @@ msgid ""
 "users."
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/outlook.rst:207
+#: ../../content/applications/productivity/calendar/outlook.rst:206
 msgid ":doc:`../../general/integrations/mail_plugins/outlook`"
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/outlook.rst:208
+#: ../../content/applications/productivity/calendar/outlook.rst:207
 msgid ":doc:`google`"
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/outlook.rst:213
+#: ../../content/applications/productivity/calendar/outlook.rst:212
 msgid ""
 "There may be times when the *Microsoft Outlook Calendar* account does not "
 "sync correctly with Odoo. Sync issues can be seen in the database logs."
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/outlook.rst:216
+#: ../../content/applications/productivity/calendar/outlook.rst:215
 msgid ""
 "In these cases, the account needs troubleshooting. A reset can be performed "
 "using the :guilabel:`Reset Account` button, which can be accessed by "
@@ -909,7 +1462,7 @@ msgid ""
 "the user to modify the calendar, and click on the :guilabel:`Calendar` tab."
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/outlook.rst:230
+#: ../../content/applications/productivity/calendar/outlook.rst:229
 msgid ""
 "The following reset options are available for troubleshooting *Microsoft "
 "Outlook Calendar* sync with Odoo:"
@@ -919,25 +1472,25 @@ msgstr ""
 msgid "Outlook calendar reset options in Odoo."
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/outlook.rst:240
+#: ../../content/applications/productivity/calendar/outlook.rst:239
 msgid ""
 ":guilabel:`Delete from the current Microsoft Calendar account`: delete the "
 "events from *Microsoft Outlook Calendar*."
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/outlook.rst:243
+#: ../../content/applications/productivity/calendar/outlook.rst:242
 msgid ""
 ":guilabel:`Delete from both`: delete the events from both *Microsoft Outlook"
 " Calendar* and Odoo calendar."
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/outlook.rst:248
+#: ../../content/applications/productivity/calendar/outlook.rst:247
 msgid ""
 ":guilabel:`Synchronize only new events`: sync new events on *Microsoft "
 "Outlook Calendar* and/or Odoo calendar."
 msgstr ""
 
-#: ../../content/applications/productivity/calendar/outlook.rst:250
+#: ../../content/applications/productivity/calendar/outlook.rst:249
 msgid ""
 ":guilabel:`Synchronize all existing events`: sync all events on *Microsoft "
 "Outlook Calendar* and/or Odoo calendar."
@@ -949,658 +1502,665 @@ msgstr "ניקוי נתונים"
 
 #: ../../content/applications/productivity/data_cleaning.rst:5
 msgid ""
-"The Odoo *Data Cleaning* app keeps the database neat and organized "
-"throughout the use of its provided features:"
+"The Odoo **Data Cleaning** app maintains data integrity and consistency with"
+" the following features:"
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:8
+#: ../../content/applications/productivity/data_cleaning.rst:7
 msgid ""
 ":ref:`Deduplicates <data_cleaning/deduplication>`: merges or removes "
 "duplicate entries to ensure data is unique."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:10
+#: ../../content/applications/productivity/data_cleaning.rst:9
 msgid ""
 ":ref:`Recycles <data_cleaning/recycle>`: identifies outdated records to "
 "either archive or delete them."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:12
-msgid ""
-":ref:`Merges <data_cleaning/merge-action-manager>`: combines multiple "
-"similar entries into one streamlined record."
-msgstr ""
-
-#: ../../content/applications/productivity/data_cleaning.rst:14
+#: ../../content/applications/productivity/data_cleaning.rst:11
 msgid ""
 ":ref:`Formats <data_cleaning/field-cleaning>`: standardizes text data by "
 "finding and replacing it according to specified needs."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:17
+#: ../../content/applications/productivity/data_cleaning.rst:14
 msgid ""
-"Through customizable automated rules (or manual praxis), individual records "
-"and accompanying text data in the database will remain up-to-date and "
-"consistently formatted, tailored to company specifications."
+"Customizable rules ensure text data stays up-to-date, streamlined, "
+"consistently formatted, and aligned with company-specific formatting "
+"requirements."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:24
+#: ../../content/applications/productivity/data_cleaning.rst:20
 msgid "Install modules"
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:26
+#: ../../content/applications/productivity/data_cleaning.rst:22
 msgid ""
-"The *Data Cleaning* application consists of several modules. :ref:`Install "
-"<general/install>` the following to access all available features:"
+"The **Data Cleaning** application consists of several modules. :ref:`Install"
+" <general/install>` the following to access all available features:"
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:33
+#: ../../content/applications/productivity/data_cleaning.rst:0
 #: ../../content/applications/productivity/voip/axivox/call_queues.rst:30
 #: ../../content/applications/productivity/whatsapp.rst:273
 #: ../../content/applications/productivity/whatsapp.rst:677
 msgid "Name"
 msgstr "שם"
 
-#: ../../content/applications/productivity/data_cleaning.rst:34
-msgid "Technical name"
-msgstr "שם טכני"
+#: ../../content/applications/productivity/data_cleaning.rst:0
+msgid "`Technical name`"
+msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:35
+#: ../../content/applications/productivity/data_cleaning.rst:31
 #: ../../content/applications/productivity/documents.rst:91
 msgid "Description"
 msgstr "תיאור"
 
-#: ../../content/applications/productivity/data_cleaning.rst:36
+#: ../../content/applications/productivity/data_cleaning.rst:0
 msgid ":guilabel:`Data Recycle`"
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:37
+#: ../../content/applications/productivity/data_cleaning.rst:0
 msgid "`data_recycle`"
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:34
+msgid ""
+"Base module to enable the recycle feature, available on :ref:`Odoo Community"
+" edition <install/editions>`."
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:0
+msgid ":guilabel:`Data Cleaning`"
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:0
+msgid "`data_cleaning`"
 msgstr ""
 
 #: ../../content/applications/productivity/data_cleaning.rst:38
 msgid ""
-"Base module to enable the recycle feature, available on Odoo Community "
-"edition."
-msgstr ""
-
-#: ../../content/applications/productivity/data_cleaning.rst:39
-msgid ":guilabel:`Data Cleaning`"
-msgstr ""
-
-#: ../../content/applications/productivity/data_cleaning.rst:40
-msgid "`data_cleaning`"
-msgstr ""
-
-#: ../../content/applications/productivity/data_cleaning.rst:41
-msgid ""
 "Enables field cleaning feature to format text data across multiple records, "
-"available **only** on Odoo Enterprise edition."
+"available **only** on :ref:`Odoo Enterprise edition <install/editions>`."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:43
+#: ../../content/applications/productivity/data_cleaning.rst:0
 msgid ":guilabel:`Data Cleaning (merge)`"
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:44
+#: ../../content/applications/productivity/data_cleaning.rst:0
 msgid "`data_merge`"
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:45
+#: ../../content/applications/productivity/data_cleaning.rst:42
 msgid ""
 "Enables the deduplication feature to find similar (or duplicate) records, "
-"and merge them, available **only** on Odoo Enterprise edition."
+"and merge them, available **only** on :ref:`Odoo Enterprise edition "
+"<install/editions>`."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:53
+#: ../../content/applications/productivity/data_cleaning.rst:0
 msgid ":guilabel:`CRM Deduplication`"
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:54
+#: ../../content/applications/productivity/data_cleaning.rst:0
 msgid "`data_merge_crm`"
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:55
+#: ../../content/applications/productivity/data_cleaning.rst:52
 msgid ""
-"Enables the deduplication feature on the *CRM* app, and uses the :doc:`CRM "
-"default merging feature <../sales/crm/pipeline/merge_similar>`."
+"Enables the deduplication feature on the **CRM** app, and uses the :doc:`CRM"
+" default merging feature <../sales/crm/pipeline/merge_similar>`."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:57
+#: ../../content/applications/productivity/data_cleaning.rst:0
 msgid ":guilabel:`Helpdesk Merge action`"
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:58
+#: ../../content/applications/productivity/data_cleaning.rst:0
 msgid "`data_merge_helpdesk`"
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:59
-msgid "Enables the merge feature for the *Helpdesk* app."
+#: ../../content/applications/productivity/data_cleaning.rst:56
+msgid "Enables the merge feature for the **Helpdesk** app."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:60
+#: ../../content/applications/productivity/data_cleaning.rst:0
 msgid ":guilabel:`Project Merge action`"
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:61
+#: ../../content/applications/productivity/data_cleaning.rst:0
 msgid "`data_merge_project`"
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:62
-msgid "Enables the merge feature for the *Projects* app."
+#: ../../content/applications/productivity/data_cleaning.rst:59
+msgid "Enables the merge feature for the **Projects** app."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:63
+#: ../../content/applications/productivity/data_cleaning.rst:0
 msgid ":guilabel:`UTM Deduplication`"
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:64
+#: ../../content/applications/productivity/data_cleaning.rst:0
 msgid "`data_merge_utm`"
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:65
-msgid "Enables the merge feature for the *UTM Tracker* app."
+#: ../../content/applications/productivity/data_cleaning.rst:62
+msgid "Enables the merge feature for the **UTM Tracker** app."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:66
+#: ../../content/applications/productivity/data_cleaning.rst:0
 msgid ":guilabel:`WMS Accounting Merge`"
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:67
+#: ../../content/applications/productivity/data_cleaning.rst:0
 msgid "`data_merge_stock_account`"
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:68
+#: ../../content/applications/productivity/data_cleaning.rst:65
 msgid ""
 "Creates a warning in cases of products merging that may affect inventory "
-"valuation, if the *Inventory* app is installed."
+"valuation, if the **Inventory** app is installed."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:74
+#: ../../content/applications/productivity/data_cleaning.rst:71
 msgid "Deduplication"
 msgstr "ביטול מיזוג"
 
-#: ../../content/applications/productivity/data_cleaning.rst:76
+#: ../../content/applications/productivity/data_cleaning.rst:73
 msgid ""
-"On the :guilabel:`Duplicates` dashboard (:menuselection:`Data Cleaning app "
-"--> Deduplication`), Odoo suggests groups of similar records to be "
-":ref:`merged <data_cleaning/merge-records>` by matching conditions within "
-"the records set by the :ref:`deduplication rules "
-"<data_cleaning/deduplication-rules>`."
+"The *Duplicates* dashboard groups similar records to be :ref:`merged "
+"<data_cleaning/merge-records>` by matching conditions within the records set"
+" by the :ref:`deduplication rules <data_cleaning/deduplication-rules>`."
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:77
+msgid ""
+"Navigate to this dashboard by going to :menuselection:`Data Cleaning app -->"
+" Deduplication`."
 msgstr ""
 
 #: ../../content/applications/productivity/data_cleaning.rst-1
 msgid "Deduplication dashboard in the Data Cleaning application."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:85
+#: ../../content/applications/productivity/data_cleaning.rst:82
 msgid ""
 "The :guilabel:`RULE` sidebar lists each of the active deduplication rules, "
 "and displays the total number of duplicates detected beside each rule."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:88
+#: ../../content/applications/productivity/data_cleaning.rst:85
 msgid ""
-"By default, the :guilabel:`All` rule is selected. Displayed records are "
-"grouped by their rule, with a :guilabel:`Similarity` rating (out of 100%) in"
-" the list view, with the following columns:"
+"By default, the :guilabel:`All` rule is selected. Records are grouped by "
+"their rule, with a :guilabel:`Similarity` rating (out of 100%), with the "
+"following columns:"
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:91
+#: ../../content/applications/productivity/data_cleaning.rst:88
 msgid ""
 ":guilabel:`Created On`: the date and time the original record was created."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:92
+#: ../../content/applications/productivity/data_cleaning.rst:89
 msgid ":guilabel:`Name`: the name or title of the original record."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:93
+#: ../../content/applications/productivity/data_cleaning.rst:90
 msgid ""
 ":guilabel:`Field Values`: the original record's values for the fields used "
 "to detect duplicates."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:94
+#: ../../content/applications/productivity/data_cleaning.rst:91
 msgid ""
 ":guilabel:`Used In`: lists other models referencing the original record."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:95
+#: ../../content/applications/productivity/data_cleaning.rst:92
 msgid ":guilabel:`ID`: the original record's unique ID."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:96
+#: ../../content/applications/productivity/data_cleaning.rst:93
 msgid ""
 ":guilabel:`Is Master`: the duplicates are merged into the *master* record. "
-"There can be **one** master record in a grouping of similar records."
+"There can only be **one** master record in a grouping of similar records."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:99
+#: ../../content/applications/productivity/data_cleaning.rst:96
 msgid ""
 "Select a specific rule in the :guilabel:`RULE` sidebar to filter the "
 "duplicate records."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:104
+#: ../../content/applications/productivity/data_cleaning.rst:101
 msgid "Merge duplicate records"
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:106
+#: ../../content/applications/productivity/data_cleaning.rst:103
 msgid ""
 "To merge records, first choose a *master* record within the grouping of "
 "similar records. The master record acts as the base, at which any additional"
 " information from similar records are merged into."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:109
+#: ../../content/applications/productivity/data_cleaning.rst:106
 msgid ""
 "Optionally, no master record can be set, leaving Odoo to choose a record at "
 "random to merge into."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:111
+#: ../../content/applications/productivity/data_cleaning.rst:108
 msgid ""
 "Next, click the :guilabel:`Merge` button at the top of the similar records "
 "grouping. Then, click :guilabel:`Ok` to confirm the merge."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:114
+#: ../../content/applications/productivity/data_cleaning.rst:111
 msgid ""
 "Once a record is merged, a message is logged in the chatter of the master "
-"record, describing the merge. Certain records, like *Project* tasks, are "
-"logged in the chatter with a link to the old record for a convenient "
-"reference."
+"record, describing the merge. Certain records, like **Project** tasks, are "
+"logged in the chatter with a link to the old record as a convenient "
+"reference of the merge."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:119
+#: ../../content/applications/productivity/data_cleaning.rst:116
 msgid ""
 "Discard groupings by clicking the :guilabel:`DISCARD` button. Upon doing so,"
 " the grouping is hidden from the list and archived."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:122
+#: ../../content/applications/productivity/data_cleaning.rst:119
 msgid ""
 "View discarded groupings by selecting the :guilabel:`Discarded` filter from "
-"the :ref:`Search... <search/filters>` bar."
+"the :ref:`search bar <search/filters>`."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:128
+#: ../../content/applications/productivity/data_cleaning.rst:125
 msgid "Deduplication rules"
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:130
+#: ../../content/applications/productivity/data_cleaning.rst:127
 msgid ""
-"The :guilabel:`Deduplication Rules` page (:menuselection:`Data Cleaning app "
-"--> Configuration --> Rules: Deduplication`) is where the conditions for "
-"records to be detected as duplicates can be set."
+"The *Deduplication Rules* set the conditions for how records are detected as"
+" duplicates."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:133
-#: ../../content/applications/productivity/data_cleaning.rst:255
+#: ../../content/applications/productivity/data_cleaning.rst:129
 msgid ""
 "These rules can be configured for each model in the database, and with "
-"varying levels of specificity."
+"varying levels of specificity. To get started, navigate to "
+":menuselection:`Data Cleaning app --> Configuration --> Deduplication`."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:137
+#: ../../content/applications/productivity/data_cleaning.rst:134
 msgid ""
 "The deduplication rules run once every day, by default, as part of a "
-"scheduled action chron (*Data Merge: Find Duplicate Records*). However, each"
-" rule can be :ref:`ran manually <data_cleaning/run-deduplication-rule>` "
+"scheduled action cron (*Data Merge: Find Duplicate Records*). However, each "
+"rule can be :ref:`ran manually <data_cleaning/run-deduplication-rule>` "
 "anytime."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:142
+#: ../../content/applications/productivity/data_cleaning.rst:139
 msgid "Modify a deduplication rule"
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:144
+#: ../../content/applications/productivity/data_cleaning.rst:141
 msgid ""
 "Select a default rule to edit, or create a new rule by clicking on the "
-":guilabel:`New` button, on the :guilabel:`Deduplication Rules` page "
-"(:menuselection:`Data Cleaning app --> Configuration --> Rules: "
-"Deduplication`)."
+":guilabel:`New` button."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:148
+#: ../../content/applications/productivity/data_cleaning.rst:143
 msgid ""
 "First, choose a :guilabel:`Model` for this rule to target. Selecting a model"
 " updates the rule title to the chosen model."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:151
+#: ../../content/applications/productivity/data_cleaning.rst:146
 msgid ""
 "Optionally, configure a :guilabel:`Domain` to specify the records eligible "
 "for this rule. The number of eligible records is shown in the :icon:`oi-"
 "arrow-right` :guilabel:`# record(s)` link."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:154
+#: ../../content/applications/productivity/data_cleaning.rst:149
 msgid ""
 "Depending on the selected :guilabel:`Model`, the :guilabel:`Duplicate "
 "Removal` field appears. Choose whether to :guilabel:`Archive` or "
 ":guilabel:`Delete` merged records."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:157
+#: ../../content/applications/productivity/data_cleaning.rst:152
 msgid "Next, select a :guilabel:`Merge Mode`:"
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:159
+#: ../../content/applications/productivity/data_cleaning.rst:154
 msgid ""
 ":guilabel:`Manual`: requires each duplicate grouping to be manually merged, "
 "also enables the :guilabel:`Notify Users` field."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:161
+#: ../../content/applications/productivity/data_cleaning.rst:156
 msgid ""
 ":guilabel:`Automatic`: automatically merges duplicate groupings, without "
 "notifying users, based on the records with a similarity percentage above the"
 " threshold set in the :guilabel:`Similarity Threshold` field."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:165
+#: ../../content/applications/productivity/data_cleaning.rst:160
 msgid ""
 "Enable the :guilabel:`Active` toggle to start capturing duplicates with this"
 " rule as soon as it is saved."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:168
+#: ../../content/applications/productivity/data_cleaning.rst:163
 msgid ""
 "Lastly, create at least one deduplication rule in the "
 ":guilabel:`Deduplication Rules` field, by clicking :guilabel:`Add a line`, "
 "under the :guilabel:`Unique ID Field` column."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:171
+#: ../../content/applications/productivity/data_cleaning.rst:166
 msgid ""
 "Select a field in the model from the :guilabel:`Unique ID Field` drop-down "
 "menu. This field is referenced for similar records."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:173
+#: ../../content/applications/productivity/data_cleaning.rst:168
 msgid ""
 "Select a matching condition in the :guilabel:`Match If` field to apply the "
 "deduplication rule, depending on the text in the :guilabel:`Unique ID "
 "Field`:"
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:176
+#: ../../content/applications/productivity/data_cleaning.rst:171
 msgid ":guilabel:`Exact Match`: the characters in the text match exactly."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:177
+#: ../../content/applications/productivity/data_cleaning.rst:172
 msgid ""
 ":guilabel:`Case/Accent Insensitive Match`: the characters in the text match,"
 " regardless of casing and language-specific accent differences."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:181
+#: ../../content/applications/productivity/data_cleaning.rst:176
 msgid ""
-"The rule does **not** capture duplicates without at least one deduplication "
-"rule set in the :guilabel:`Deduplication Rules` field."
+"At least one :guilabel:`Deduplication Rules` must be set for the rule to "
+"capture duplicates."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:185
+#: ../../content/applications/productivity/data_cleaning.rst:179
 msgid "A few more fields are available for an advanced configuration."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:187
+#: ../../content/applications/productivity/data_cleaning.rst:181
 msgid ""
 "If on a multi-company database, the :guilabel:`Cross-Company` field is "
 "available. When enabled, duplicates across different companies are "
 "suggested."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:190
+#: ../../content/applications/productivity/data_cleaning.rst:184
 msgid ""
 "Activate :ref:`developer-mode` to display the :guilabel:`Suggestion "
 "Threshold` field. Duplicates with a similarity below the threshold set in "
 "this field are **not** suggested."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:193
+#: ../../content/applications/productivity/data_cleaning.rst:187
 msgid ""
 "With the rule's configuration complete, either close the rule form, or "
 ":ref:`run the rule manually <data_cleaning/run-deduplication-rule>` to "
 "instantly capture duplicate records."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:199
+#: ../../content/applications/productivity/data_cleaning.rst:193
 msgid "Manually run a deduplication rule"
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:201
+#: ../../content/applications/productivity/data_cleaning.rst:195
 msgid ""
 "To manually run a specific deduplication rule at any time, navigate to "
-":menuselection:`Data Cleaning app --> Configuration --> Rules: "
-"Deduplication`, and select the rule to run."
+":menuselection:`Data Cleaning app --> Configuration --> Deduplication`, and "
+"select the rule to run."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:204
+#: ../../content/applications/productivity/data_cleaning.rst:198
 msgid ""
 "Then, on the rule form, select the :guilabel:`Deduplicate` button on the "
 "top-left. Upon doing so, the :icon:`fa-clone` :guilabel:`Duplicates` smart "
 "button displays the number of duplicates captured."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:207
+#: ../../content/applications/productivity/data_cleaning.rst:201
 msgid ""
-"Click on the :icon:`fa-clone` :guilabel:`Duplicates` smart button to manage "
-"these records."
+"Click on the :icon:`fa-clone` :guilabel:`Duplicates` smart button to "
+":ref:`manage these records <data_cleaning/merge-records>`."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:212
+#: ../../content/applications/productivity/data_cleaning.rst:207
 msgid "Recycle records"
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:209
+msgid ""
+"Use the *recycle records* feature to rid the database of old and outdated "
+"records."
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:211
+msgid ""
+"The *Field Recycle Records* dashboard displays records that can be archived "
+"or deleted, by matching conditions within the records set by the "
+":ref:`recycle record's rules <data_cleaning/recylce-rule>`."
 msgstr ""
 
 #: ../../content/applications/productivity/data_cleaning.rst:214
 msgid ""
-"Use the *Recycle Records* feature to rid the database of old and outdated "
-"records."
-msgstr ""
-
-#: ../../content/applications/productivity/data_cleaning.rst:216
-msgid ""
-"On the :guilabel:`Field Recycle Records` dashboard (:menuselection:`Data "
-"Cleaning app --> Recycle Records`), Odoo detects records that can be "
-"archived or deleted, by matching conditions within the records set by the "
-":ref:`recycle record's rules <data_cleaning/recylce-rule>`."
+"Navigate to this dashboard by going to :menuselection:`Data Cleaning app -->"
+" Recycle Records`."
 msgstr ""
 
 #: ../../content/applications/productivity/data_cleaning.rst-1
 msgid "Field Recycle Records dashboard in the Data Cleaning application."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:224
+#: ../../content/applications/productivity/data_cleaning.rst:219
 msgid ""
 "The :guilabel:`RECYCLE RULES` sidebar lists each of the active recycle "
-"record rules, and displays the total number of records detected beside each "
-"rule."
+"record rules."
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:221
+msgid ""
+"By default, the :guilabel:`All` option is selected. Records are displayed "
+"with the following columns:"
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:224
+#: ../../content/applications/productivity/data_cleaning.rst:339
+msgid ":guilabel:`Record ID`: the ID of the original record."
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:225
+#: ../../content/applications/productivity/data_cleaning.rst:340
+msgid ":guilabel:`Record Name`: the name or title of the original record."
 msgstr ""
 
 #: ../../content/applications/productivity/data_cleaning.rst:227
 msgid ""
-"By default, the :guilabel:`All` option is selected. Records are displayed in"
-" the list view, with the following columns:"
-msgstr ""
-
-#: ../../content/applications/productivity/data_cleaning.rst:230
-msgid ":guilabel:`Record ID`: the ID of the original record."
-msgstr ""
-
-#: ../../content/applications/productivity/data_cleaning.rst:231
-msgid ":guilabel:`Record Name`: the name or title of the original record."
-msgstr ""
-
-#: ../../content/applications/productivity/data_cleaning.rst:233
-msgid ""
 "Select a specific rule in the :guilabel:`RECYCLE RULES` sidebar to filter "
-"the duplicate records."
+"the records."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:235
+#: ../../content/applications/productivity/data_cleaning.rst:229
 msgid ""
 "To recycle records, click the :icon:`fa-check` :guilabel:`Validate` button "
 "on the row of the record."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:237
+#: ../../content/applications/productivity/data_cleaning.rst:231
 msgid ""
 "Upon doing so, the record is recycled, depending on how the rule is "
 "configured, to be either archived or deleted from the database."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:241
+#: ../../content/applications/productivity/data_cleaning.rst:235
 msgid ""
 "Discard groupings by clicking the :icon:`fa-times` :guilabel:`Discard` "
 "button. Upon doing so, the record is hidden from the list, and is not "
 "detected by the recycle rule again in the future."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:244
+#: ../../content/applications/productivity/data_cleaning.rst:238
 msgid ""
 "View discarded records by selecting the :guilabel:`Discarded` filter from "
 "the :ref:`search bar <search/filters>` drop-down menu."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:250
+#: ../../content/applications/productivity/data_cleaning.rst:244
 msgid "Recycle record rules"
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:252
+#: ../../content/applications/productivity/data_cleaning.rst:246
 msgid ""
-"The :guilabel:`Recycle Records Rules` page (:menuselection:`Data Cleaning "
-"app --> Configuration --> Rules: Recycle Records`) is where the conditions "
-"for records to be recycled can be set."
+"The *Recycle Records Rules* set the conditions for how records are recycled."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:259
+#: ../../content/applications/productivity/data_cleaning.rst:248
 msgid ""
-"The recycle rules run once a day, by default, as part of a scheduled action "
-"chron (*Data Recycle: Clean Records*). However, each rule can be :ref:`run "
+"These rules can be configured for each model in the database, and with "
+"varying levels of specificity. To get started, navigate to "
+":menuselection:`Data Cleaning app --> Configuration --> Recycle Records`."
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:253
+msgid ""
+"Recycle rules run once a day, by default, as part of a scheduled action cron"
+" (*Data Recycle: Clean Records*). However, each rule can be :ref:`run "
 "manually <data-cleaning/run-recycle-rule>` anytime."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:263
+#: ../../content/applications/productivity/data_cleaning.rst:257
 msgid ""
 "By default, no recycle record rules exist. Click the :guilabel:`New` button "
 "to create a new rule."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:265
+#: ../../content/applications/productivity/data_cleaning.rst:259
 msgid ""
 "On the recycle record rule form, first choose a :guilabel:`Model` for this "
 "rule to target. Selecting a model updates the rule title to the chosen "
 "model."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:268
+#: ../../content/applications/productivity/data_cleaning.rst:262
 msgid ""
 "Optionally, configure a :guilabel:`Filter` to specify the records eligible "
 "for this rule. The number of eligible records is shown in the :icon:`oi-"
 "arrow-right` :guilabel:`# record(s)` link."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:271
+#: ../../content/applications/productivity/data_cleaning.rst:265
 msgid ""
 "Next, configure the field and time range for how the rule detects the "
 "records to recycle:"
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:273
+#: ../../content/applications/productivity/data_cleaning.rst:267
 msgid ""
 ":guilabel:`Time Field`: select a field from the model to base the time "
 "(:dfn:`Delta`)."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:274
+#: ../../content/applications/productivity/data_cleaning.rst:268
 msgid ""
 ":guilabel:`Delta`: type the length of time, which must be a whole number "
 "(e.g. `7`)."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:275
+#: ../../content/applications/productivity/data_cleaning.rst:269
 msgid ""
 ":guilabel:`Delta Unit`: select the unit of time (:guilabel:`Days`, "
 ":guilabel:`Weeks`, :guilabel:`Months`, or :guilabel:`Years`)."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:278
+#: ../../content/applications/productivity/data_cleaning.rst:272
 msgid "Then, select a :guilabel:`Recycle Mode`:"
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:280
+#: ../../content/applications/productivity/data_cleaning.rst:274
 msgid ""
 ":guilabel:`Manual`: requires each detected record to be manually recycled, "
 "and enables the :guilabel:`Notify Users` field."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:282
+#: ../../content/applications/productivity/data_cleaning.rst:276
 msgid ""
 ":guilabel:`Automatic`: automatically merges recycled groupings, without "
 "notifying users."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:284
+#: ../../content/applications/productivity/data_cleaning.rst:278
 msgid ""
 "Lastly, select a :guilabel:`Recycle Action` to either :guilabel:`Archive` or"
 " :guilabel:`Delete` records. If :guilabel:`Delete` is selected, choose "
 "whether or not to :guilabel:`Include Archived` records in the rule."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:288
+#: ../../content/applications/productivity/data_cleaning.rst:282
 msgid ""
 "With the rule's configuration complete, either close the rule form, or "
 ":ref:`run the rule manually <data-cleaning/run-recycle-rule>` to instantly "
 "capture records to recycle."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:292
+#: ../../content/applications/productivity/data_cleaning.rst:286
 msgid ""
 "A recycle rule can be configured to delete archived leads and opportunities "
 "that were last updated a year ago, and with a specific lost reason, by using"
 " the following configuration:"
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:295
+#: ../../content/applications/productivity/data_cleaning.rst:289
 msgid ":guilabel:`Model`: :guilabel:`Lead/Opportunity`"
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:296
+#: ../../content/applications/productivity/data_cleaning.rst:290
 msgid ":guilabel:`Filter`:"
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:298
+#: ../../content/applications/productivity/data_cleaning.rst:292
 msgid "`Active` `is` `not set`"
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:299
+#: ../../content/applications/productivity/data_cleaning.rst:293
 msgid "`Lost Reason` `is in` `Too expensive`"
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:301
+#: ../../content/applications/productivity/data_cleaning.rst:295
 msgid ":guilabel:`Time Field`: :guilabel:`Last Updated on (Lead/Opportunity)`"
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:302
+#: ../../content/applications/productivity/data_cleaning.rst:296
 msgid ":guilabel:`Delta`: `1`"
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:303
+#: ../../content/applications/productivity/data_cleaning.rst:297
 msgid ":guilabel:`Delta Unit`: :guilabel:`Years`"
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:304
+#: ../../content/applications/productivity/data_cleaning.rst:298
 msgid ":guilabel:`Recycle Mode`: :guilabel:`Automatic`"
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:305
+#: ../../content/applications/productivity/data_cleaning.rst:299
 msgid ":guilabel:`Recycle Action`: :guilabel:`Delete`"
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:306
+#: ../../content/applications/productivity/data_cleaning.rst:300
 msgid ":guilabel:`Include Archived`: :icon:`fa-check-square`"
 msgstr ""
 
@@ -1608,51 +2168,347 @@ msgstr ""
 msgid "Recycle records rule form for a lead/opportunity."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:315
+#: ../../content/applications/productivity/data_cleaning.rst:308
 msgid "Manually run a recycle rule"
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:317
+#: ../../content/applications/productivity/data_cleaning.rst:310
 msgid ""
 "To manually run a specific recycle rule at any time, navigate to "
-":menuselection:`Data Cleaning app --> Configuration --> Rules: Recycle "
-"Records`, and select the rule to run."
+":menuselection:`Data Cleaning app --> Configuration --> Recycle Records`, "
+"and select the rule to run."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:320
+#: ../../content/applications/productivity/data_cleaning.rst:313
 msgid ""
 "Then, on the rule form, click the :guilabel:`Run Now` button on the top-"
 "left. Upon doing so, the :icon:`fa-bars` :guilabel:`Records` smart button "
 "displays the number of records captured."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:323
+#: ../../content/applications/productivity/data_cleaning.rst:316
 msgid ""
-"Click the :icon:`fa-bars` :guilabel:`Records` smart button to manage these "
-"records."
+"Click the :icon:`fa-bars` :guilabel:`Records` smart button to :ref:`manage "
+"these records <data_cleaning/recycle>`."
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:328
+#: ../../content/applications/productivity/data_cleaning.rst:322
 msgid "Field cleaning"
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:330
+#: ../../content/applications/productivity/data_cleaning.rst:324
 msgid ""
-"On the :guilabel:`Field Cleaning Records` dashboard (:menuselection:`Data "
-"Cleaning app --> Field Cleaning`), Odoo suggests formatting changes to data "
+"Use the field cleaning feature to maintain consistent formatting of names, "
+"phone numbers, IDs and other fields throughout a database."
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:327
+msgid ""
+"The *Field Cleaning Records* dashboard displays formatting changes to data "
 "in fields of a record, to follow a convention set by the field cleaning "
 "rules."
 msgstr ""
 
+#: ../../content/applications/productivity/data_cleaning.rst:330
+msgid ""
+"Navigate to this dashboard by going to :menuselection:`Data Cleaning app -->"
+" Field Cleaning`."
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst-1
+msgid "Field Cleaning Records dashboard in the Data Cleaning application."
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:335
+msgid ""
+"The :guilabel:`CLEANING RULES` sidebar lists each of the active cleaning "
+"rules."
+msgstr ""
+
 #: ../../content/applications/productivity/data_cleaning.rst:337
+msgid ""
+"By default, the :guilabel:`All` rule is selected. Records are listed with "
+"the following columns:"
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:341
+msgid ""
+":guilabel:`Field`: the original record's field that contains the value to "
+"format."
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:342
+msgid ""
+":guilabel:`Current`: the current value in the field of the original record."
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:343
+msgid ""
+":guilabel:`Suggested`: the suggested formatted value in the field of the "
+"original record."
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:345
+msgid ""
+"To clean and format records, click the :icon:`fa-check` :guilabel:`Validate`"
+" button on the row of the record."
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:348
+msgid "Upon doing so, the record is formatted and/or cleaned."
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:351
+msgid ""
+"Discard records by clicking the :icon:`fa-times` :guilabel:`Discard` button."
+" Upon doing so, the record is hidden from the list and will not be detected "
+"by the field cleaning rule again in the future."
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:355
+msgid ""
+"View discarded records by selecting the :guilabel:`Discarded` filter from "
+"the :ref:`search bar <search/filters>`."
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:361
+msgid "Field cleaning rules"
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:363
+msgid ""
+"The *Field Cleaning Rules* set the conditions for fields to be cleaned "
+"and/or formatted."
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:365
+msgid ""
+"These rules can be configured for each model in the database, and with "
+"varying levels of specificity. To get started, navigate to "
+":menuselection:`Data Cleaning app --> Configuration --> Field Cleaning`."
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:370
+msgid ""
+"The field cleaning rules run once every day, by default, as part of a "
+"scheduled action cron (*Data Cleaning: Clean Records*). However, each rule "
+"can be :ref:`ran manually <data-cleaning/run-field-cleaning-rule>` anytime."
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:374
+msgid ""
+"By default, a :guilabel:`Contact` rule exists to format and clean up the "
+"**Contacts** app records. Select the :guilabel:`Contact` record to make "
+"edits, or select the :guilabel:`New` button to create a new rule."
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:378
+msgid ""
+"On the field cleaning rule form, first choose a :guilabel:`Model` for this "
+"rule to target. Selecting a model updates the rule title to the chosen "
+"model."
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:381
+msgid ""
+"Next, configure at least one rule by clicking :guilabel:`Add a line` in the "
+":guilabel:`Rules` section."
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:384
+msgid ""
+"Upon doing so, a :guilabel:`Create Rules` popover window appears with the "
+"following fields to configure:"
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:387
+msgid ""
+"Select a :guilabel:`Field To Clean` from the model to assign to an action."
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:388
+msgid "Choose one of the following :guilabel:`Action` options:"
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:390
+msgid ""
+":guilabel:`Trim Spaces` reveals the :guilabel:`Trim` field to select the "
+":guilabel:`All Spaces` or :guilabel:`Superfluous Spaces` option. Leading, "
+"trailing, and successive spaces are considered superfluous."
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:395
+msgid ""
+"The contact name `Dr.  John   Doe` can be formatted with the following "
+":guilabel:`Trim` options:"
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:398
+msgid ":guilabel:`All Spaces`: `DR.JohnDoe`"
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:399
+msgid ":guilabel:`Superfluous Spaces`: `DR. John Doe`"
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:401
+msgid ""
+":guilabel:`Set Type Case` reveals the :guilabel:`Case` field to select "
+"either :guilabel:`First Letters to Uppercase`, :guilabel:`All Uppercase`, or"
+" :guilabel:`All Lowercase`."
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:405
+msgid ""
+"The lead/opportunity title `lumber inc, Lorraine douglas` can be formatted "
+"with the following :guilabel:`Case` options:"
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:408
+msgid ":guilabel:`First Letters to Uppercase`: `Lumber Inc, Lorraine Douglas`"
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:409
+msgid ":guilabel:`All Uppercase`: `LUMBER INC, LORRAINE DOUGLAS`"
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:410
+msgid ":guilabel:`All Lowercase`: `lumber inc, lorraine douglas`"
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:412
+msgid ""
+":guilabel:`Format Phone` converts the phone number to an international "
+"country format."
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:415
+msgid "Belgium: `061928374` :icon:`fa-long-arrow-right` `+32 61 92 83 74`"
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:416
+msgid ""
+"United States: `800 555-0101` :icon:`fa-long-arrow-right` `+1 800-555-0101`"
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:418
+msgid ""
+":guilabel:`Scrap HTML` converts :abbr:`HTML (HyperText Markup Language)` to "
+"plain text."
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:422
+msgid "HTML text"
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:428
+msgid "Plain text"
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:433
+msgid ""
+"Once a field and action are selected, click :guilabel:`Save` to close the "
+":guilabel:`Create Rules` popover window."
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:436
+msgid "Then, select a :guilabel:`Cleaning Mode`:"
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:438
+msgid ""
+":guilabel:`Manual`: requires each detected field to be manually cleaned and "
+"enables the :guilabel:`Notify Users` field."
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:440
+msgid ""
+":guilabel:`Automatic`: automatically cleans fields without notifying users."
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:442
+msgid ""
+"With the rule's configuration complete, either close the rule form, or "
+":ref:`run the rule manually <data-cleaning/run-field-cleaning-rule>` to "
+"instantly capture fields to clean."
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:448
+msgid "Manually run a field cleaning rule"
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:450
+msgid ""
+"To manually run a specific field cleaning rule at any time, navigate to "
+":menuselection:`Data Cleaning app --> Configuration --> Field Cleaning`, and"
+" select the rule to run."
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:453
+msgid ""
+"Then, on the rule form, select the :guilabel:`Clean` button on the top-left."
+" Upon doing so, the :icon:`fa-bars` :guilabel:`Records` smart button "
+"displays the number of records captured."
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:456
+msgid ""
+"Click on the :icon:`fa-bars` :guilabel:`Records` smart button to "
+":ref:`manage these records <data_cleaning/field-cleaning>`."
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:462
 msgid "Merge action manager"
 msgstr ""
 
-#: ../../content/applications/productivity/data_cleaning.rst:339
+#: ../../content/applications/productivity/data_cleaning.rst:464
 msgid ""
-"The :guilabel:`Merge Action Manager` (:menuselection:`Data Cleaning app --> "
-"Configuration --> Merge Action Manager`) enables or disables the *Merge* "
-"action available in the *Actions* menu for models in the database."
+"The *Merge Action Manager* enables or disables the *Merge* action available "
+"in the *Actions* menu for models in the database."
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:467
+msgid ""
+"Enable :ref:`developer-mode` and navigate to :menuselection:`Data Cleaning "
+"app --> Configuration --> Merge Action Manager`."
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:470
+msgid "Models are listed with the following columns:"
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:472
+msgid ":guilabel:`Model`: technical name of the model."
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:473
+msgid ":guilabel:`Model Description`: display name of the model."
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:474
+msgid ""
+":guilabel:`Type`: whether the model is of the *Base Object* or *Custom "
+"Object* type."
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:475
+msgid ""
+":guilabel:`Transient Model`: the model handles temporary data that does not "
+"need to be stored long-term in the database."
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:477
+msgid ":guilabel:`Can Be Merged`: enables the *Merge* action for the model."
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:479
+msgid ""
+"To view which models are enabled by default, use the :ref:`search bar "
+"<search/filters>` to filter models that :guilabel:`Can Be Merged`."
+msgstr ""
+
+#: ../../content/applications/productivity/data_cleaning.rst:483
+msgid ":doc:`../essentials/contacts/merge`"
 msgstr ""
 
 #: ../../content/applications/productivity/discuss.rst:6
@@ -1661,169 +2517,353 @@ msgstr "צ'אט"
 
 #: ../../content/applications/productivity/discuss.rst:8
 msgid ""
-"Odoo *Discuss* is an internal communication app that allows users to connect"
-" through messages, notes, and file sharing, either through a persistent chat"
-" window that works across applications, or through the dedicated *Discuss* "
-"dashboard."
+"Odoo **Discuss** is an internal communication app that allows users to "
+"connect through messages, notes, file sharing, and video calls. **Discuss** "
+"enables communication through a persistent chat window that works across "
+"applications, or through the dedicated *Discuss* dashboard."
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:12
+msgid ""
+"Upon opening the :menuselection:`Discuss app`, the :guilabel:`Discuss` "
+"dashboard appears."
 msgstr ""
 
 #: ../../content/applications/productivity/discuss.rst:15
-msgid "Choose notifications preference"
+msgid "Inbox, starred, and history"
 msgstr ""
 
 #: ../../content/applications/productivity/discuss.rst:17
 msgid ""
-"Access user-specific preferences for the *Discuss* app by navigating to "
-":menuselection:`Settings app --> Users --> User --> Preferences tab`."
+"Upon opening the :menuselection:`Discuss app`, the *Discuss* dashboard "
+"appears."
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:19
+msgid ""
+"On the :guilabel:`Discuss` dashboard, unread messages are visible in the "
+":icon:`fa-inbox` :guilabel:`Inbox`. :icon:`fa-star-o` :guilabel:`Starred` is"
+" where starred messages are stored. :icon:`fa-history` :guilabel:`History` "
+"shows chatter updates for records in the Odoo database the user has been "
+"assigned to, or tagged on."
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:25
+msgid "Direct messages"
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:27
+msgid ""
+"*Direct messages* allow the user to communicate privately with one or "
+"multiple team members. To start a new direct message, click the :icon:`fa-"
+"plus` icon, next to :guilabel:`Direct Messages` on the :guilabel:`Discuss` "
+"dashboard, and enter the name of the desired person in the :guilabel:`Start "
+"a conversation` search bar that appears."
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:33
+msgid ""
+"Multiple names can be selected in the :guilabel:`Start a conversation` "
+"search bar. Once all of the names have been entered, press :kbd:`Enter`."
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:37
+msgid "Direct message actions"
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:39
+msgid ""
+"Hover over a direct message in the chat window to see a menu of actions to "
+"take on the message."
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:41
+msgid ""
+":icon:`oi-smile-add` :guilabel:`(Add a Reaction)`: open a drop-down menu of "
+"emojis that can be used to react to the direct message."
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:43
+msgid ""
+":icon:`fa-reply` :guilabel:`(Reply)`: reply to the direct message in a "
+"thread."
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:44
+msgid ""
+":icon:`fa-star-o` :guilabel:`(Mark as Todo)`: add the message to the "
+":guilabel:`Starred` tab."
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:45
+msgid ""
+":icon:`fa-ellipsis-h` :guilabel:`(Expand)`: reveals more message actions, "
+"including:"
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:47
+msgid ":icon:`fa-thumb-tack` :guilabel:`Pin`"
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:48
+msgid ":icon:`fa-eye-slash` :guilabel:`Mark as Unread`"
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:49
+msgid ":icon:`fa-pencil` :guilabel:`Edit`"
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:50
+msgid ":icon:`fa-trash` :guilabel:`Delete`"
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:53
+msgid "Conversation actions"
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:55
+msgid ""
+"The icons in the top-right corner of a direct message conversation represent"
+" different actions the user can take on that conversation."
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:58
+msgid ""
+"Click :icon:`fa-bell` :guilabel:`Notification Settings` to set up "
+"notification preferences for the conversation, or click :icon:`fa-phone` "
+":guilabel:`Start a Call` to begin a meeting. See the :ref:`Meetings "
+"<discuss/meetings>` section for more information about meetings."
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:62
+msgid ""
+"At the top of the direct message window, click the name of the direct "
+"message to change the group name, and choose to add a description in the "
+"adjacent :guilabel:`Add a description` field."
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst-1
+msgid "View of the conversation actions."
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:70
+msgid ""
+"The :guilabel:`Add a description` field is **only** available for group "
+"messages with more than two participants."
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:74
+msgid "User status"
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:76
+msgid ""
+"It is helpful to see what colleagues are up to, and how quickly they can "
+"respond to messages, by checking their status. The status is displayed as a "
+"circle in the bottom-right corner of a contact's photo in the :icon:`fa-"
+"users` :guilabel:`(Members List)`."
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:80
+msgid "The color of the circle represents the user's status:"
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:82
+msgid "Green = online"
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:83
+msgid "Orange = away"
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:84
+msgid "White = offline"
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:85
+msgid "Airplane = out of the office"
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:88
+msgid "Leave a direct message conversation"
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:90
+msgid ""
+"To leave a direct message conversations, click the :icon:`fa-times` "
+":guilabel:`(Leave this channel)` icon next to the conversation name in the "
+":guilabel:`Direct Messages` section of the sidebar."
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:94
+msgid ""
+"Leaving a conversation does **not** delete the direct messages in the "
+"conversation. The direct message conversation's history is visible when "
+"another direct message with the same person, or group, is created."
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:101
+msgid "Meetings"
+msgstr "פגישות"
+
+#: ../../content/applications/productivity/discuss.rst:103
+msgid ""
+"In **Discuss**, *Meetings* are video calls. To start a meeting from the "
+":guilabel:`Discuss` dashboard, click :guilabel:`Start a meeting` in the top-"
+"left corner, and select who to invite to the meeting, via the "
+":guilabel:`Invite People` drop-down window that appears. To start a meeting "
+"from a direct message, click the :icon:`fa-phone` :guilabel:`Start a Call` "
+"icon in the top-right corner."
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst-1
+msgid "View of a Meeting in Odoo Discuss."
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:111
+msgid "Once a meeting has been started, the following buttons can be used:"
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:114
+msgid "Icon"
+msgstr "סמל"
+
+#: ../../content/applications/productivity/discuss.rst:114
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:119
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:149
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:169
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:183
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:201
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:215
+#: ../../content/applications/productivity/knowledge/articles_editing.rst:240
+msgid "Use"
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:116
+msgid ":icon:`fa-microphone`"
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:116
+msgid ":guilabel:`Mute`"
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:118
+msgid ":icon:`fa-microphone-slash`"
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:118
+msgid ":guilabel:`Unmute`"
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:120
+msgid ":icon:`fa-headphones`"
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:120
+msgid ":guilabel:`Deafen`"
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:122
+msgid ":icon:`fa-deaf`"
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:122
+msgid ":guilabel:`Undeafen`"
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:124
+msgid ":icon:`fa-video-camera`"
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:124
+msgid ":guilabel:`Turn camera on/off`"
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:126
+msgid ":icon:`fa-hand-paper-o`"
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:126
+msgid ":guilabel:`Raise Hand`"
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:128
+msgid ":icon:`fa-desktop`"
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:128
+msgid ":guilabel:`Share Screen`"
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:130
+msgid ":icon:`fa-arrows-alt`"
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:130
+msgid ":guilabel:`Enter Full Screen`"
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:136
+msgid "User-specific notification preferences"
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:138
+msgid ""
+"Access user-specific preferences for the **Discuss** app by navigating to "
+":menuselection:`Settings app --> Manage Users`, select a user, then click "
+"the :guilabel:`Preferences` tab."
 msgstr ""
 
 #: ../../content/applications/productivity/discuss.rst-1
 msgid "View of the Preferences tab for Odoo Discuss."
 msgstr ""
 
-#: ../../content/applications/productivity/discuss.rst:23
+#: ../../content/applications/productivity/discuss.rst:144
 msgid ""
 "By default, the :guilabel:`Notification` field is set as :guilabel:`Handle "
-"by Emails`. With this setting enabled, a notification email will be sent by "
-"Odoo every time a message is sent from the chatter, a note is sent with an "
-"`@` mention (from chatter), or a notification is sent for a record that the "
-"user follows. Something that triggers a notification is changing of the "
-"stage (if an email\\ is configured to be sent, for example if the task is "
-"set to :guilabel:`Done`)."
+"by Emails`. With this setting enabled, a notification email is sent by Odoo "
+"every time a message is sent from the chatter of a record, a note is sent "
+"with an `@` mention (from the chatter of a record), or a notification is "
+"sent for a record the user follows."
 msgstr ""
 
-#: ../../content/applications/productivity/discuss.rst:29
+#: ../../content/applications/productivity/discuss.rst:149
 msgid ""
 "By choosing :guilabel:`Handle in Odoo`, the above notifications are shown in"
-" the *Discuss* app's *inbox*. Messages can have the following actions taken "
-"on them: respond with an emoji by clicking :guilabel:`Add a Reaction`, or "
-"reply to the message by clicking on :guilabel:`Reply`. Additional actions "
-"may include starring the message by clicking :guilabel:`Marked as Todo`, or "
-"pinning the message by selecting :guilabel:`Pin` or even mark the message as"
-" unread by selecting :guilabel:`Marked as unread`."
+" the **Discuss** app's *Inbox*."
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:153
+msgid "Chat from different applications"
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:155
+msgid ""
+"The **Discuss** application enables communication across all of Odoo's "
+"applications. To view chats and channels, or start a new message, select the"
+" speech bubbles that are consistently present in the upper-right corner of "
+"the database header."
 msgstr ""
 
 #: ../../content/applications/productivity/discuss.rst-1
-msgid "View of an inbox message and its action options in Odoo Discuss."
+msgid "Use Discuss across other applications by clicking the speech bubbles."
 msgstr ""
 
-#: ../../content/applications/productivity/discuss.rst:39
-msgid ""
-"Clicking :guilabel:`Mark as Todo` on a message causes it to appear on the "
-":guilabel:`Starred` page, while clicking :guilabel:`Mark as Read` moves the "
-"message to :guilabel:`History`."
-msgstr ""
-
-#: ../../content/applications/productivity/discuss.rst-1
-msgid "View of messages marked as todo in Odoo Discuss."
-msgstr ""
-
-#: ../../content/applications/productivity/discuss.rst:46
-msgid "Start chatting"
-msgstr ""
-
-#: ../../content/applications/productivity/discuss.rst:48
-msgid ""
-"The first time a user logs in to their account, OdooBot sends a message "
-"asking for permission to send desktop notifications for chats. If accepted, "
-"the user will receive push notifications on their desktop for the messages "
-"they receive, regardless of where the user is in Odoo."
-msgstr ""
-
-#: ../../content/applications/productivity/discuss.rst-1
-msgid ""
-"View of the messages under the messaging menu emphasizing the request for push\n"
-"notifications for Odoo Discuss."
-msgstr ""
-
-#: ../../content/applications/productivity/discuss.rst:57
-msgid ""
-"To stop receiving desktop notifications, reset the notifications settings of"
-" the browser."
-msgstr ""
-
-#: ../../content/applications/productivity/discuss.rst:59
-msgid ""
-"To start a chat, go to the :menuselection:`Discuss` app and click on the "
-":guilabel:`+ (plus)` icon next to :guilabel:`Direct Messages` or "
-":guilabel:`Channels` in the left menu of the dashboard."
-msgstr ""
-
-#: ../../content/applications/productivity/discuss.rst-1
-msgid ""
-"View of Discuss's panel emphasizing the titles channels and direct messages in Odoo\n"
-"Discuss."
-msgstr ""
-
-#: ../../content/applications/productivity/discuss.rst:67
-msgid ""
-"A company can also easily create :doc:`public and private channels "
-"<discuss/team_communication>`."
-msgstr ""
-
-#: ../../content/applications/productivity/discuss.rst:70
-msgid "Mentions in the chat and on the chatter"
-msgstr ""
-
-#: ../../content/applications/productivity/discuss.rst:72
-msgid ""
-"To mention a user within a chat or the chatter, type `@user-name`; to refer "
-"to a channel, type `#channel-name`. The user mentioned will be notified in "
-"their *inbox* or through an email, depending on their communication "
-"settings."
-msgstr ""
-
-#: ../../content/applications/productivity/discuss.rst-1
-msgid "View of a couple of chat window messages for Odoo Discuss."
-msgstr ""
-
-#: ../../content/applications/productivity/discuss.rst:80
-msgid ""
-"When a user is mentioned, the search list (list of names) suggests values "
-"first based on the task's followers, and secondly on employees. If the "
-"record being searched does not match with either a follower or employee, the"
-" scope of the search becomes all partners."
-msgstr ""
-
-#: ../../content/applications/productivity/discuss.rst:85
-msgid "User status"
-msgstr ""
-
-#: ../../content/applications/productivity/discuss.rst:87
-msgid ""
-"It is helpful to see what colleagues are up to and how quickly they can "
-"respond to messages by checking their *status*. The status is shown on the "
-"left side of a contact's name on the :guilabel:`Discuss` sidebar, on the "
-"*messaging menu* and when listed in the *chatter*."
-msgstr ""
-
-#: ../../content/applications/productivity/discuss.rst:91
-msgid "Green = online"
-msgstr ""
-
-#: ../../content/applications/productivity/discuss.rst:92
-msgid "Orange = away"
-msgstr ""
-
-#: ../../content/applications/productivity/discuss.rst:93
-msgid "White = offline"
-msgstr ""
-
-#: ../../content/applications/productivity/discuss.rst:94
-msgid "Airplane = out of the office"
-msgstr ""
-
-#: ../../content/applications/productivity/discuss.rst-1
-msgid "View of the contacts' status for Odoo Discuss."
-msgstr ""
-
-#: ../../content/applications/productivity/discuss.rst:101
+#: ../../content/applications/productivity/discuss.rst:163
 msgid ":doc:`discuss/team_communication`"
 msgstr ""
 
-#: ../../content/applications/productivity/discuss.rst:102
+#: ../../content/applications/productivity/discuss.rst:164
 #: ../../content/applications/productivity/discuss/team_communication.rst:114
 msgid ":doc:`/applications/essentials/activities`"
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:165
+msgid ":doc:`discuss/ice_servers`"
+msgstr ""
+
+#: ../../content/applications/productivity/discuss.rst:166
+msgid ":doc:`discuss/chatter`"
 msgstr ""
 
 #: ../../content/applications/productivity/discuss/chatter.rst:3
@@ -1893,7 +2933,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/discuss/chatter.rst:46
 msgid "Add followers"
-msgstr ""
+msgstr "הוספת עוקבים"
 
 #: ../../content/applications/productivity/discuss/chatter.rst:48
 msgid ""
@@ -2967,7 +4007,7 @@ msgid ""
 msgstr ""
 
 #: ../../content/applications/productivity/documents.rst:58
-#: ../../content/applications/productivity/sign.rst:290
+#: ../../content/applications/productivity/sign.rst:293
 msgid "Tags"
 msgstr "תגיות"
 
@@ -3207,7 +4247,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/documents.rst:195
 msgid "Add a link"
-msgstr ""
+msgstr "הוסף קישור"
 
 #: ../../content/applications/productivity/documents.rst:197
 msgid ""
@@ -3864,16 +4904,6 @@ msgstr "מבנה"
 #: ../../content/applications/productivity/knowledge/articles_editing.rst:239
 msgid "Command"
 msgstr "פקודה"
-
-#: ../../content/applications/productivity/knowledge/articles_editing.rst:119
-#: ../../content/applications/productivity/knowledge/articles_editing.rst:149
-#: ../../content/applications/productivity/knowledge/articles_editing.rst:169
-#: ../../content/applications/productivity/knowledge/articles_editing.rst:183
-#: ../../content/applications/productivity/knowledge/articles_editing.rst:201
-#: ../../content/applications/productivity/knowledge/articles_editing.rst:215
-#: ../../content/applications/productivity/knowledge/articles_editing.rst:240
-msgid "Use"
-msgstr ""
 
 #: ../../content/applications/productivity/knowledge/articles_editing.rst:120
 msgid ":guilabel:`Bulleted list`"
@@ -4666,10 +5696,14 @@ msgid ""
 msgstr ""
 
 #: ../../content/applications/productivity/sign.rst:61
+msgid ":doc:`Documentation for Germany <sign/germany>`"
+msgstr ""
+
+#: ../../content/applications/productivity/sign.rst:64
 msgid "United States of America"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:63
+#: ../../content/applications/productivity/sign.rst:66
 msgid ""
 "The `ESIGN Act (Electronic Signatures in Global and National Commerce Act) "
 "<https://www.fdic.gov/regulations/compliance/manual/10/X-3.1.pdf>`_, at the "
@@ -4683,258 +5717,258 @@ msgid ""
 "adopted the UETA, but similar acts instead."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:72
+#: ../../content/applications/productivity/sign.rst:75
 msgid ""
 "Overall, to be recognized as valid, electronic signatures have to meet five "
 "criteria:"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:74
+#: ../../content/applications/productivity/sign.rst:77
 msgid ""
 "The signer must show a clear **intent to sign**. For example, using a mouse "
 "to draw a signature can show intent. The signer must also have the option to"
 " opt out of the electronic document."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:76
+#: ../../content/applications/productivity/sign.rst:79
 msgid ""
 "The signer must first express or imply their **consent to conduct business "
 "electronically**."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:77
+#: ../../content/applications/productivity/sign.rst:80
 msgid ""
 "**The signature must be clearly attributed**. In Odoo, metadata, such as the"
 " signer's IP address, is added to the signature, which can be used as "
 "supporting evidence."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:79
+#: ../../content/applications/productivity/sign.rst:82
 msgid ""
 "**The signature must be associated with the signed document**, for example, "
 "by keeping a record detailing how the signature was captured."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:81
+#: ../../content/applications/productivity/sign.rst:84
 msgid ""
 "Electronically signed documents need to be **retained and stored** by all "
 "parties involved; for example, by providing the signer either a fully-"
 "executed copy or the possibility to download a copy."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:86
+#: ../../content/applications/productivity/sign.rst:89
 msgid "Other countries"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:88
+#: ../../content/applications/productivity/sign.rst:91
 msgid ":doc:`Algeria <sign/algeria>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:89
+#: ../../content/applications/productivity/sign.rst:92
 msgid ":doc:`Angola <sign/angola>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:90
+#: ../../content/applications/productivity/sign.rst:93
 msgid ":doc:`Argentina <sign/argentina>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:91
+#: ../../content/applications/productivity/sign.rst:94
 msgid ":doc:`Australia <sign/australia>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:92
+#: ../../content/applications/productivity/sign.rst:95
 msgid ":doc:`Azerbaijan <sign/azerbaijan>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:93
+#: ../../content/applications/productivity/sign.rst:96
 msgid ":doc:`Bangladesh <sign/bangladesh>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:94
+#: ../../content/applications/productivity/sign.rst:97
 msgid ":doc:`Brazil <sign/brazil>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:95
+#: ../../content/applications/productivity/sign.rst:98
 msgid ":doc:`Canada <sign/canada>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:96
+#: ../../content/applications/productivity/sign.rst:99
 msgid ":doc:`Chile <sign/chile>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:97
+#: ../../content/applications/productivity/sign.rst:100
 msgid ":doc:`China <sign/china>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:98
+#: ../../content/applications/productivity/sign.rst:101
 msgid ":doc:`Colombia <sign/colombia>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:99
+#: ../../content/applications/productivity/sign.rst:102
 msgid ":doc:`Dominican Republic <sign/dominican_republic>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:100
+#: ../../content/applications/productivity/sign.rst:103
 msgid ":doc:`Ecuador <sign/ecuador>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:101
+#: ../../content/applications/productivity/sign.rst:104
 msgid ":doc:`Egypt <sign/egypt>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:102
+#: ../../content/applications/productivity/sign.rst:105
 msgid ":doc:`Ethiopia <sign/ethiopia>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:103
+#: ../../content/applications/productivity/sign.rst:106
 msgid ":doc:`Guatemala <sign/guatemala>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:104
+#: ../../content/applications/productivity/sign.rst:107
 msgid ":doc:`Hong Kong <sign/hong_kong>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:105
+#: ../../content/applications/productivity/sign.rst:108
 msgid ":doc:`India <sign/india>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:106
+#: ../../content/applications/productivity/sign.rst:109
 msgid ":doc:`Indonesia <sign/indonesia>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:107
+#: ../../content/applications/productivity/sign.rst:110
 msgid ":doc:`Iran <sign/iran>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:108
+#: ../../content/applications/productivity/sign.rst:111
 msgid ":doc:`Iraq <sign/iraq>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:109
+#: ../../content/applications/productivity/sign.rst:112
 msgid ":doc:`Israel <sign/israel>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:110
+#: ../../content/applications/productivity/sign.rst:113
 msgid ":doc:`Japan <sign/japan>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:111
+#: ../../content/applications/productivity/sign.rst:114
 msgid ":doc:`Kazakhstan <sign/kazakhstan>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:112
+#: ../../content/applications/productivity/sign.rst:115
 msgid ":doc:`Kenya <sign/kenya>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:113
+#: ../../content/applications/productivity/sign.rst:116
 msgid ":doc:`Kuwait <sign/kuwait>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:114
+#: ../../content/applications/productivity/sign.rst:117
 msgid ":doc:`Malaysia <sign/malaysia>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:115
+#: ../../content/applications/productivity/sign.rst:118
 msgid ":doc:`Mexico <sign/mexico>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:116
+#: ../../content/applications/productivity/sign.rst:119
 msgid ":doc:`Morocco <sign/morocco>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:117
+#: ../../content/applications/productivity/sign.rst:120
 msgid ":doc:`New Zealand <sign/new_zealand>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:118
+#: ../../content/applications/productivity/sign.rst:121
 msgid ":doc:`Nigeria <sign/nigeria>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:119
+#: ../../content/applications/productivity/sign.rst:122
 msgid ":doc:`Norway <sign/norway>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:120
+#: ../../content/applications/productivity/sign.rst:123
 msgid ":doc:`Oman <sign/oman>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:121
+#: ../../content/applications/productivity/sign.rst:124
 msgid ":doc:`Pakistan <sign/pakistan>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:122
+#: ../../content/applications/productivity/sign.rst:125
 msgid ":doc:`Peru <sign/peru>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:123
+#: ../../content/applications/productivity/sign.rst:126
 msgid ":doc:`Philippines <sign/philippines>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:124
+#: ../../content/applications/productivity/sign.rst:127
 msgid ":doc:`Qatar <sign/qatar>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:125
+#: ../../content/applications/productivity/sign.rst:128
 msgid ":doc:`Russia <sign/russia>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:126
+#: ../../content/applications/productivity/sign.rst:129
 msgid ":doc:`Saudi Arabia <sign/saudi_arabia>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:127
+#: ../../content/applications/productivity/sign.rst:130
 msgid ":doc:`Singapore <sign/singapore>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:128
+#: ../../content/applications/productivity/sign.rst:131
 msgid ":doc:`South Africa <sign/south_africa>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:129
+#: ../../content/applications/productivity/sign.rst:132
 msgid ":doc:`South Korea <sign/south_korea>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:130
+#: ../../content/applications/productivity/sign.rst:133
 msgid ":doc:`Switzerland <sign/switzerland>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:131
+#: ../../content/applications/productivity/sign.rst:134
 msgid ":doc:`Thailand <sign/thailand>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:132
+#: ../../content/applications/productivity/sign.rst:135
 msgid ":doc:`Turkey <sign/turkey>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:133
+#: ../../content/applications/productivity/sign.rst:136
 msgid ":doc:`Ukraine <sign/ukraine>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:134
+#: ../../content/applications/productivity/sign.rst:137
 msgid ":doc:`United Arab Emirates <sign/united_arab_emirates>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:135
+#: ../../content/applications/productivity/sign.rst:138
 msgid ":doc:`United Kingdom <sign/united_kingdom>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:136
+#: ../../content/applications/productivity/sign.rst:139
 msgid ":doc:`Uzbekistan <sign/uzbekistan>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:137
+#: ../../content/applications/productivity/sign.rst:140
 msgid ":doc:`Vietnam <sign/vietnam>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:140
+#: ../../content/applications/productivity/sign.rst:143
 msgid "Send a document to sign"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:143
+#: ../../content/applications/productivity/sign.rst:146
 msgid "One-time signature"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:145
+#: ../../content/applications/productivity/sign.rst:148
 msgid ""
 "You can click :guilabel:`Upload a PDF to sign` from your dashboard for a "
 "one-time signature. Select your document, open it, and drag and drop the "
@@ -4943,7 +5977,7 @@ msgid ""
 "the one you want."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:150
+#: ../../content/applications/productivity/sign.rst:153
 msgid ""
 "When ready, click :guilabel:`Send`, and fill in the required fields. Once "
 "sent, your document remains available. Go to :menuselection:`Documents --> "
@@ -4954,11 +5988,11 @@ msgstr ""
 msgid "Signature status"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:158
+#: ../../content/applications/productivity/sign.rst:161
 msgid "Validity dates and reminders"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:160
+#: ../../content/applications/productivity/sign.rst:163
 msgid ""
 "You can set **validity dates** on limited-duration agreement documents or "
 "send **automatic email reminders** to obtain signatures on time. From your "
@@ -4967,12 +6001,12 @@ msgid ""
 ":guilabel:`Reminder` fields."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:166
+#: ../../content/applications/productivity/sign.rst:169
 #: ../../content/applications/productivity/spreadsheet/templates.rst:3
 msgid "Templates"
 msgstr "תבניות"
 
-#: ../../content/applications/productivity/sign.rst:168
+#: ../../content/applications/productivity/sign.rst:171
 msgid ""
 "You can create document templates when you have to send the same document "
 "several times. From your dashboard, click :guilabel:`Upload a PDF template`."
@@ -4981,7 +6015,7 @@ msgid ""
 "selecting the one you want."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:173
+#: ../../content/applications/productivity/sign.rst:176
 msgid ""
 "Click :guilabel:`Template Properties` to add :guilabel:`Tags` to your "
 "template, define a :guilabel:`Signed Document Workspace`, add "
@@ -4991,14 +6025,14 @@ msgid ""
 "the use of your template to specific authorized users or groups."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:179
+#: ../../content/applications/productivity/sign.rst:182
 msgid ""
 "Your templates are visible by default on your dashboard. You can click "
 ":guilabel:`Send` to quickly send a document template to a signer or "
 ":guilabel:`Sign Now` if you are ready to sign your document immediately."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:184
+#: ../../content/applications/productivity/sign.rst:187
 msgid ""
 "You can **create a template from a document that was previously sent**. To "
 "do so, go to :menuselection:`Documents --> All Documents`. On the document "
@@ -5008,24 +6042,24 @@ msgid ""
 " next to your other templates."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:193
+#: ../../content/applications/productivity/sign.rst:196
 msgid "Roles"
 msgstr "תפקידים"
 
-#: ../../content/applications/productivity/sign.rst:195
+#: ../../content/applications/productivity/sign.rst:198
 msgid ""
 "Each field in a Sign document is related to a role corresponding to a "
 "specific person. When a document is being signed, the person assigned to the"
 " role must fill in their assigned fields and sign it."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:199
+#: ../../content/applications/productivity/sign.rst:202
 msgid ""
 "Roles are available by going to :menuselection:`Sign --> Configuration --> "
 "Roles`."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:201
+#: ../../content/applications/productivity/sign.rst:204
 msgid ""
 "It is possible to update existing roles or to create new roles by clicking "
 "on :guilabel:`New`. Choose a :guilabel:`Role Name`, add an :guilabel:`Extra "
@@ -5036,11 +6070,11 @@ msgid ""
 "field when configuring a template."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:209
+#: ../../content/applications/productivity/sign.rst:212
 msgid "Secured identification"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:211
+#: ../../content/applications/productivity/sign.rst:214
 msgid ""
 "As the owner of a document, you may request an :guilabel:`Extra "
 "Authentication Step` through :ref:`SMS verification <sign/sms>` or via "
@@ -5049,27 +6083,27 @@ msgid ""
 "do not have any credits left, the authentication steps will be skipped."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:217
+#: ../../content/applications/productivity/sign.rst:220
 msgid ":doc:`In-App Purchase (IAP) <../essentials/in_app_purchase>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:218
+#: ../../content/applications/productivity/sign.rst:221
 msgid ""
 ":doc:`SMS pricing and FAQ <../marketing/sms_marketing/pricing_and_faq>`"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:223
+#: ../../content/applications/productivity/sign.rst:226
 msgid "SMS verification"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:225
+#: ../../content/applications/productivity/sign.rst:228
 msgid ""
 "Go to :menuselection:`Sign --> Configuration --> Roles`. Click in the "
 ":guilabel:`Extra Authentication Step` column for the role, and select "
 ":guilabel:`Unique Code Via SMS`."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:229
+#: ../../content/applications/productivity/sign.rst:232
 msgid ""
 "Before being able to send SMS Text Messages, you need to register your phone"
 " number. To do so, go to :menuselection:`Sign --> Configuration --> "
@@ -5077,7 +6111,7 @@ msgid ""
 " SMS`."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:233
+#: ../../content/applications/productivity/sign.rst:236
 msgid ""
 "Go to the document to sign, add the field for which the SMS verification is "
 "required, for example, the :guilabel:`Signature` field, and click "
@@ -5085,7 +6119,7 @@ msgid ""
 " :guilabel:`Send`."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:237
+#: ../../content/applications/productivity/sign.rst:240
 msgid ""
 "The person signing the document fills in the :guilabel:`Signature` field, "
 "then :guilabel:`Sign`, and clicks :guilabel:`Validate & Send Completed "
@@ -5097,28 +6131,28 @@ msgstr ""
 msgid "Add a hash to your document"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:245
+#: ../../content/applications/productivity/sign.rst:248
 msgid "This feature is enabled by default."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:246
+#: ../../content/applications/productivity/sign.rst:249
 msgid ""
 "As soon as the :guilabel:`Extra Authentication Step` applies to a role, this"
 " validation step is requested for any field assigned to this role."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:252
+#: ../../content/applications/productivity/sign.rst:255
 msgid "Itsme®"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:254
+#: ../../content/applications/productivity/sign.rst:257
 msgid ""
 "Itsme® authentication can be used to allow signatories to provide their "
 "identity using itsme®. This feature is only available in **Belgium** and the"
 " **Netherlands**."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:257
+#: ../../content/applications/productivity/sign.rst:260
 msgid ""
 "The feature can be enabled in :guilabel:`Sign Settings` and applies "
 "automatically to the :guilabel:`Customer (identified with itsme®)` role. To "
@@ -5127,7 +6161,7 @@ msgid ""
 "role, and select :guilabel:`Via itsme®`."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:262
+#: ../../content/applications/productivity/sign.rst:265
 msgid ""
 "Go to the document that needs to be signed and add the :guilabel:`Signature`"
 " field. Switch to any role configured to use the feature, and click "
@@ -5138,7 +6172,7 @@ msgstr ""
 msgid "select customer identified with itsme®"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:268
+#: ../../content/applications/productivity/sign.rst:271
 msgid ""
 "Upon signing the document, the signer completes the :guilabel:`Signature` "
 "field and proceeds by clicking on :guilabel:`Validate & Send Completed "
@@ -5146,11 +6180,11 @@ msgid ""
 "authentication via itsme® is required."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:273
+#: ../../content/applications/productivity/sign.rst:276
 msgid "Signatory hash"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:275
+#: ../../content/applications/productivity/sign.rst:278
 msgid ""
 "Each time someone signs a document, a **hash** - a unique digital signature "
 "of the operation - is generated to ensure traceability, integrity, and "
@@ -5159,7 +6193,7 @@ msgid ""
 "authenticity and security throughout its lifecycle."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:280
+#: ../../content/applications/productivity/sign.rst:283
 msgid ""
 "A visual security frame displaying the beginning of the hash is added to the"
 " signatures. Internal users can hide or show it by turning the "
@@ -5170,26 +6204,26 @@ msgstr ""
 msgid "Adding the visual security frame to a signature."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:292
+#: ../../content/applications/productivity/sign.rst:295
 msgid ""
 "Tags can be used to categorize and organize documents, allowing users to "
 "quickly search for and filter documents based on specific criteria."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:295
+#: ../../content/applications/productivity/sign.rst:298
 msgid ""
 "You can manage tags by going to :menuselection:`Configuration --> Tags`. To "
 "create a tag, click :guilabel:`New`. On the new line, add the :guilabel:`Tag"
 " Name` and select a :guilabel:`Color Index` for your tag."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:299
+#: ../../content/applications/productivity/sign.rst:302
 msgid ""
 "To apply a tag to a document, use the dropdown list available in your "
 "document."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:302
+#: ../../content/applications/productivity/sign.rst:305
 msgid ""
 "You can modify the tags of a signed document by going to "
 ":menuselection:`Documents --> All Documents`, clicking the vertical ellipsis"
@@ -5197,18 +6231,18 @@ msgid ""
 "your :guilabel:`Tags`."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:307
+#: ../../content/applications/productivity/sign.rst:310
 msgid "Sign order"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:309
+#: ../../content/applications/productivity/sign.rst:312
 msgid ""
 "When a document needs to be signed by different parties, the signing order "
 "lets you control the order in which your recipients receive it for "
 "signature."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:312
+#: ../../content/applications/productivity/sign.rst:315
 msgid ""
 "After uploading a PDF with at least two signature fields with two different "
 "roles and clicking :guilabel:`Send`, toggle the :guilabel:`Specify Signing "
@@ -5221,24 +6255,24 @@ msgstr ""
 msgid "Toggle the switch to specify the signing order."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:320
+#: ../../content/applications/productivity/sign.rst:323
 msgid ""
 "Each recipient receives the signature request notification only once the "
 "previous recipient has completed their action."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:326
+#: ../../content/applications/productivity/sign.rst:329
 msgid "Field types"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:328
+#: ../../content/applications/productivity/sign.rst:331
 msgid ""
 "Fields are used in a document to indicate what information must be completed"
 " by the signers. You can add fields to your document simply by dragging and "
 "dropping them for the left column into your document."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:332
+#: ../../content/applications/productivity/sign.rst:335
 msgid ""
 "Various field types can be used to sign documents (placeholder, "
 "autocompletion, etc.). By configuring your own field types, also known as "
@@ -5246,20 +6280,20 @@ msgid ""
 "customers, partners, and employees."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:336
+#: ../../content/applications/productivity/sign.rst:339
 msgid ""
 "To create and edit field types, go to :menuselection:`Sign --> Configuration"
 " --> Settings --> Edit field types`."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:339
+#: ../../content/applications/productivity/sign.rst:342
 msgid ""
 "You can select an existing field by clicking on it, or you can "
 ":guilabel:`Create` a new one. First, edit the :guilabel:`Field Name`. Then, "
 "select a :guilabel:`Field Type`:"
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:342
+#: ../../content/applications/productivity/sign.rst:345
 msgid ""
 ":guilabel:`Signature`: users are asked to enter their signature either by "
 "drawing it, generating an automatic one based on their name, or uploading a "
@@ -5267,33 +6301,33 @@ msgid ""
 "type then reuses the data entered in the first field."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:345
+#: ../../content/applications/productivity/sign.rst:348
 msgid ""
 ":guilabel:`Initial`: users are asked to enter their initials, in a similar "
 "way to the :guilabel:`Signature` field."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:347
+#: ../../content/applications/productivity/sign.rst:350
 msgid ":guilabel:`Text`: users enter text on a single line."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:348
+#: ../../content/applications/productivity/sign.rst:351
 msgid ":guilabel:`Multiline Text`: users enter text on multiple lines."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:349
+#: ../../content/applications/productivity/sign.rst:352
 msgid ""
 ":guilabel:`Checkbox`: users can tick a box (e.g., to mark their approval or "
 "consent)."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:350
+#: ../../content/applications/productivity/sign.rst:353
 msgid ""
 ":guilabel:`Selection`: users choose a single option from a variety of "
 "options."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:352
+#: ../../content/applications/productivity/sign.rst:355
 msgid ""
 "The :guilabel:`Auto-fill Partner Field` setting is used to automatically "
 "fill in a field during the signature process. It uses the value of one of "
@@ -5301,19 +6335,19 @@ msgid ""
 "document. To do so, enter the contact model field's technical name."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:357
+#: ../../content/applications/productivity/sign.rst:360
 msgid ""
 "To know the technical name of a field, enable developer mode and hover your "
 "mouse on the question mark next to the field."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:361
+#: ../../content/applications/productivity/sign.rst:364
 msgid ""
 "Auto-completed values are suggestions and can be modified as required by the"
 " person signing the document."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:364
+#: ../../content/applications/productivity/sign.rst:367
 msgid ""
 "The size of the fields can also be changed by editing the :guilabel:`Default"
 " Width` and :guilabel:`Default Height`. Both sizes are defined as a "
@@ -5323,7 +6357,7 @@ msgid ""
 "1.5% (0.015) of a full page's height."
 msgstr ""
 
-#: ../../content/applications/productivity/sign.rst:370
+#: ../../content/applications/productivity/sign.rst:373
 msgid ""
 "Next, write a :guilabel:`Tip`. Tips are displayed inside arrows on the left-"
 "hand side of the user's screen during the signing process to help them "
@@ -5374,6 +6408,7 @@ msgstr ""
 #: ../../content/applications/productivity/sign/ecuador.rst:18
 #: ../../content/applications/productivity/sign/egypt.rst:17
 #: ../../content/applications/productivity/sign/ethiopia.rst:17
+#: ../../content/applications/productivity/sign/germany.rst:19
 #: ../../content/applications/productivity/sign/guatemala.rst:17
 #: ../../content/applications/productivity/sign/hong_kong.rst:17
 #: ../../content/applications/productivity/sign/india.rst:20
@@ -5429,6 +6464,7 @@ msgstr ""
 #: ../../content/applications/productivity/sign/ecuador.rst:20
 #: ../../content/applications/productivity/sign/egypt.rst:19
 #: ../../content/applications/productivity/sign/ethiopia.rst:19
+#: ../../content/applications/productivity/sign/germany.rst:21
 #: ../../content/applications/productivity/sign/guatemala.rst:19
 #: ../../content/applications/productivity/sign/hong_kong.rst:19
 #: ../../content/applications/productivity/sign/india.rst:22
@@ -5504,6 +6540,7 @@ msgstr ""
 #: ../../content/applications/productivity/sign/ecuador.rst:31
 #: ../../content/applications/productivity/sign/egypt.rst:30
 #: ../../content/applications/productivity/sign/ethiopia.rst:30
+#: ../../content/applications/productivity/sign/germany.rst:32
 #: ../../content/applications/productivity/sign/guatemala.rst:30
 #: ../../content/applications/productivity/sign/hong_kong.rst:30
 #: ../../content/applications/productivity/sign/india.rst:34
@@ -5560,6 +6597,7 @@ msgstr ""
 #: ../../content/applications/productivity/sign/ecuador.rst:33
 #: ../../content/applications/productivity/sign/egypt.rst:32
 #: ../../content/applications/productivity/sign/ethiopia.rst:32
+#: ../../content/applications/productivity/sign/germany.rst:34
 #: ../../content/applications/productivity/sign/guatemala.rst:32
 #: ../../content/applications/productivity/sign/hong_kong.rst:32
 #: ../../content/applications/productivity/sign/india.rst:36
@@ -5616,6 +6654,7 @@ msgstr ""
 #: ../../content/applications/productivity/sign/ecuador.rst:35
 #: ../../content/applications/productivity/sign/egypt.rst:34
 #: ../../content/applications/productivity/sign/ethiopia.rst:34
+#: ../../content/applications/productivity/sign/germany.rst:36
 #: ../../content/applications/productivity/sign/guatemala.rst:34
 #: ../../content/applications/productivity/sign/hong_kong.rst:34
 #: ../../content/applications/productivity/sign/india.rst:38
@@ -5672,6 +6711,7 @@ msgstr ""
 #: ../../content/applications/productivity/sign/ecuador.rst:37
 #: ../../content/applications/productivity/sign/egypt.rst:36
 #: ../../content/applications/productivity/sign/ethiopia.rst:36
+#: ../../content/applications/productivity/sign/germany.rst:38
 #: ../../content/applications/productivity/sign/guatemala.rst:36
 #: ../../content/applications/productivity/sign/hong_kong.rst:36
 #: ../../content/applications/productivity/sign/india.rst:40
@@ -5728,6 +6768,7 @@ msgstr ""
 #: ../../content/applications/productivity/sign/ecuador.rst:39
 #: ../../content/applications/productivity/sign/egypt.rst:38
 #: ../../content/applications/productivity/sign/ethiopia.rst:38
+#: ../../content/applications/productivity/sign/germany.rst:40
 #: ../../content/applications/productivity/sign/guatemala.rst:38
 #: ../../content/applications/productivity/sign/hong_kong.rst:38
 #: ../../content/applications/productivity/sign/india.rst:42
@@ -5783,6 +6824,7 @@ msgstr ""
 #: ../../content/applications/productivity/sign/ecuador.rst:43
 #: ../../content/applications/productivity/sign/egypt.rst:42
 #: ../../content/applications/productivity/sign/ethiopia.rst:42
+#: ../../content/applications/productivity/sign/germany.rst:44
 #: ../../content/applications/productivity/sign/guatemala.rst:42
 #: ../../content/applications/productivity/sign/hong_kong.rst:42
 #: ../../content/applications/productivity/sign/india.rst:46
@@ -5836,6 +6878,7 @@ msgstr ""
 #: ../../content/applications/productivity/sign/ecuador.rst:45
 #: ../../content/applications/productivity/sign/egypt.rst:44
 #: ../../content/applications/productivity/sign/ethiopia.rst:44
+#: ../../content/applications/productivity/sign/germany.rst:46
 #: ../../content/applications/productivity/sign/guatemala.rst:44
 #: ../../content/applications/productivity/sign/hong_kong.rst:44
 #: ../../content/applications/productivity/sign/india.rst:48
@@ -5891,6 +6934,7 @@ msgstr ""
 #: ../../content/applications/productivity/sign/ecuador.rst:47
 #: ../../content/applications/productivity/sign/egypt.rst:46
 #: ../../content/applications/productivity/sign/ethiopia.rst:46
+#: ../../content/applications/productivity/sign/germany.rst:48
 #: ../../content/applications/productivity/sign/guatemala.rst:46
 #: ../../content/applications/productivity/sign/hong_kong.rst:46
 #: ../../content/applications/productivity/sign/india.rst:50
@@ -5946,6 +6990,7 @@ msgstr ""
 #: ../../content/applications/productivity/sign/ecuador.rst:48
 #: ../../content/applications/productivity/sign/egypt.rst:47
 #: ../../content/applications/productivity/sign/ethiopia.rst:47
+#: ../../content/applications/productivity/sign/germany.rst:49
 #: ../../content/applications/productivity/sign/guatemala.rst:47
 #: ../../content/applications/productivity/sign/hong_kong.rst:47
 #: ../../content/applications/productivity/sign/india.rst:51
@@ -6001,6 +7046,7 @@ msgstr ""
 #: ../../content/applications/productivity/sign/ecuador.rst:49
 #: ../../content/applications/productivity/sign/egypt.rst:48
 #: ../../content/applications/productivity/sign/ethiopia.rst:48
+#: ../../content/applications/productivity/sign/germany.rst:50
 #: ../../content/applications/productivity/sign/guatemala.rst:48
 #: ../../content/applications/productivity/sign/hong_kong.rst:48
 #: ../../content/applications/productivity/sign/india.rst:52
@@ -6056,6 +7102,7 @@ msgstr ""
 #: ../../content/applications/productivity/sign/ecuador.rst:51
 #: ../../content/applications/productivity/sign/egypt.rst:50
 #: ../../content/applications/productivity/sign/ethiopia.rst:50
+#: ../../content/applications/productivity/sign/germany.rst:52
 #: ../../content/applications/productivity/sign/guatemala.rst:50
 #: ../../content/applications/productivity/sign/hong_kong.rst:50
 #: ../../content/applications/productivity/sign/india.rst:54
@@ -6111,6 +7158,7 @@ msgstr ""
 #: ../../content/applications/productivity/sign/ecuador.rst:54
 #: ../../content/applications/productivity/sign/egypt.rst:53
 #: ../../content/applications/productivity/sign/ethiopia.rst:53
+#: ../../content/applications/productivity/sign/germany.rst:55
 #: ../../content/applications/productivity/sign/guatemala.rst:53
 #: ../../content/applications/productivity/sign/hong_kong.rst:53
 #: ../../content/applications/productivity/sign/india.rst:57
@@ -6170,6 +7218,7 @@ msgstr ""
 #: ../../content/applications/productivity/sign/ecuador.rst:59
 #: ../../content/applications/productivity/sign/egypt.rst:58
 #: ../../content/applications/productivity/sign/ethiopia.rst:58
+#: ../../content/applications/productivity/sign/germany.rst:60
 #: ../../content/applications/productivity/sign/guatemala.rst:58
 #: ../../content/applications/productivity/sign/hong_kong.rst:58
 #: ../../content/applications/productivity/sign/india.rst:62
@@ -6225,6 +7274,7 @@ msgstr ""
 #: ../../content/applications/productivity/sign/ecuador.rst:61
 #: ../../content/applications/productivity/sign/egypt.rst:60
 #: ../../content/applications/productivity/sign/ethiopia.rst:60
+#: ../../content/applications/productivity/sign/germany.rst:62
 #: ../../content/applications/productivity/sign/guatemala.rst:60
 #: ../../content/applications/productivity/sign/hong_kong.rst:60
 #: ../../content/applications/productivity/sign/india.rst:64
@@ -6280,6 +7330,7 @@ msgstr ""
 #: ../../content/applications/productivity/sign/ecuador.rst:63
 #: ../../content/applications/productivity/sign/egypt.rst:62
 #: ../../content/applications/productivity/sign/ethiopia.rst:62
+#: ../../content/applications/productivity/sign/germany.rst:64
 #: ../../content/applications/productivity/sign/guatemala.rst:62
 #: ../../content/applications/productivity/sign/hong_kong.rst:62
 #: ../../content/applications/productivity/sign/india.rst:66
@@ -6335,6 +7386,7 @@ msgstr ""
 #: ../../content/applications/productivity/sign/ecuador.rst:65
 #: ../../content/applications/productivity/sign/egypt.rst:64
 #: ../../content/applications/productivity/sign/ethiopia.rst:64
+#: ../../content/applications/productivity/sign/germany.rst:66
 #: ../../content/applications/productivity/sign/guatemala.rst:64
 #: ../../content/applications/productivity/sign/hong_kong.rst:64
 #: ../../content/applications/productivity/sign/india.rst:68
@@ -6393,6 +7445,7 @@ msgstr ""
 #: ../../content/applications/productivity/sign/dominican_republic.rst:73
 #: ../../content/applications/productivity/sign/ecuador.rst:73
 #: ../../content/applications/productivity/sign/ethiopia.rst:72
+#: ../../content/applications/productivity/sign/germany.rst:74
 #: ../../content/applications/productivity/sign/guatemala.rst:72
 #: ../../content/applications/productivity/sign/hong_kong.rst:72
 #: ../../content/applications/productivity/sign/iran.rst:71
@@ -7227,6 +8280,63 @@ msgid ""
 "The information provided on this page is for general informational purposes "
 "only and does not constitute legal advice. While Odoo Sign complies with the"
 " Electronic Signature Law of Ethiopia, users should consult with legal "
+"professionals to ensure specific document types and use cases meet all legal"
+" requirements. Compliance with additional industry-specific regulations may "
+"also be necessary."
+msgstr ""
+
+#: ../../content/applications/productivity/sign/germany.rst:5
+msgid "Odoo Sign legality in Germany"
+msgstr ""
+
+#: ../../content/applications/productivity/sign/germany.rst:7
+msgid ""
+":doc:`Odoo Sign <../sign>` is your trusted partner for secure, efficient, "
+"and legally compliant electronic signatures in Germany."
+msgstr ""
+
+#: ../../content/applications/productivity/sign/germany.rst:11
+msgid "Legal framework for electronic signatures in Germany"
+msgstr ""
+
+#: ../../content/applications/productivity/sign/germany.rst:13
+msgid ""
+"In Germany, electronic signatures are regulated under `eIDAS Regulation No. "
+"910/2014 <https://eur-lex.europa.eu/legal-"
+"content/EN/TXT/?uri=uriserv%3AOJ.L_.2014.257.01.0073.01.ENG>`_ and the "
+"`Trust Services Act <https://www.gesetze-im-"
+"internet.de/vdg/BJNR274510017.html>`_. The law establishes the legal basis "
+"for acknowledging electronic records, contracts, and digital signatures. The"
+" key points of the law include:"
+msgstr ""
+
+#: ../../content/applications/productivity/sign/germany.rst:23
+msgid ""
+"**Qualified signature**: there are certain use cases that require a "
+"qualified signature issued by a trust service provider."
+msgstr ""
+
+#: ../../content/applications/productivity/sign/germany.rst:27
+msgid "How Odoo Sign complies with German regulations"
+msgstr ""
+
+#: ../../content/applications/productivity/sign/germany.rst:29
+msgid ""
+"Odoo Sign ensures full compliance with the Electronic Signature Law of "
+"Germany by incorporating the following features:"
+msgstr ""
+
+#: ../../content/applications/productivity/sign/germany.rst:57
+msgid ""
+"While Odoo Sign is broadly applicable, there are certain exceptions where "
+"electronic signatures may not be suitable or legally recognized in Germany:"
+msgstr ""
+
+#: ../../content/applications/productivity/sign/germany.rst:68
+msgid ""
+"The information provided on this page is for general informational purposes "
+"only and does not constitute legal advice. While Odoo Sign complies with the"
+" Electronic Signature Law of Germany, users should consult with legal "
 "professionals to ensure specific document types and use cases meet all legal"
 " requirements. Compliance with additional industry-specific regulations may "
 "also be necessary."
@@ -11739,7 +12849,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:653
 msgid "Statistical"
-msgstr ""
+msgstr "סטטיסטי"
 
 #: ../../content/applications/productivity/spreadsheet/functions.rst:661
 msgid "AVEDEV(value1, [value2, ...])"
@@ -13589,7 +14699,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/voip/axivox/call_queues.rst:41
 msgid "Strategy"
-msgstr ""
+msgstr "אסטרטגיה"
 
 #: ../../content/applications/productivity/voip/axivox/call_queues.rst:43
 msgid ""
@@ -17724,7 +18834,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/voip/voip_widget.rst:61
 msgid "Recent"
-msgstr ""
+msgstr "אחרון"
 
 #: ../../content/applications/productivity/voip/voip_widget.rst:63
 msgid ""

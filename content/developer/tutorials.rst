@@ -13,8 +13,10 @@ Tutorials
    tutorials/define_module_data
    tutorials/restrict_data_access
    tutorials/unit_tests
+   tutorials/importable_modules
    tutorials/mixins
    tutorials/pdf_reports
+   tutorials/website_theme
 
 .. tip::
    If you are new to Odoo development, we recommend starting with the :doc:`setup guide
@@ -74,6 +76,11 @@ Expand your knowledge on the server framework
       Write effective unit tests in Python to ensure the resilience of your code and safeguard it
       against unexpected behaviors and regressions.
 
+   .. card:: Write importable modules
+      :target: tutorials/importable_modules
+
+      Write modules that define new models, fields and logic using only data files.
+
    .. card:: Reuse code with mixins
       :target: tutorials/mixins
 
@@ -83,3 +90,9 @@ Expand your knowledge on the server framework
       :target: tutorials/pdf_reports
 
       Use QWeb, Odoo's powerful templating engine, to create custom PDF reports for your documents.
+
+   .. card:: Build a website theme
+      :target: tutorials/website_theme
+
+      Create a tailored website from scratch fully integrated with Odoo and editable via the Website
+      Builder.

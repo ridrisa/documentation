@@ -28,6 +28,11 @@ These guidelines should be applied to every new module and to all new developmen
 Module structure
 ================
 
+.. warning::
+
+    For modules developed by the community, it is strongly recommended to name
+    your module with a prefix like your company name.
+
 Directories
 -----------
 
@@ -425,7 +430,7 @@ Inside these 3 groups, the imported lines are alphabetically sorted.
     from datetime import datetime
     # 2 : imports of odoo
     import odoo
-    from odoo import api, fields, models, _ # alphabetically ordered
+    from odoo import Command, _, api, fields, models # ASCIIbetically ordered
     from odoo.tools.safe_eval import safe_eval as eval
     # 3 : imports from odoo addons
     from odoo.addons.web.controllers.main import login_redirect
@@ -575,7 +580,7 @@ So, you can write ``if some_collection:`` instead of ``if len(some_collection):`
 - As a good developer, document your code (docstring on methods, simple
   comments for tricky part of code)
 - In additions to these guidelines, you may also find the following link
-  interesting: http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html
+  interesting: https://david.goodger.org/projects/pycon/2007/idiomatic/handout.html
   (a little bit outdated, but quite relevant)
 
 Programming in Odoo

@@ -6,17 +6,17 @@
 # Translators:
 # Martin Trigaux, 2023
 # Daye Jeong, 2024
-# Sarah Park, 2024
 # Wil Odoo, 2024
+# Sarah Park, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-24 10:43+0000\n"
+"POT-Creation-Date: 2025-04-30 11:37+0000\n"
 "PO-Revision-Date: 2023-11-08 08:55+0000\n"
-"Last-Translator: Wil Odoo, 2024\n"
+"Last-Translator: Sarah Park, 2025\n"
 "Language-Team: Korean (https://app.transifex.com/odoo/teams/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -142,12 +142,12 @@ msgid "Transferring an on-premise database"
 msgstr "온프레미스 데이터베이스 이전하기"
 
 #: ../../content/administration/hosting.rst:17
-#: ../../content/administration/hosting.rst:90
+#: ../../content/administration/hosting.rst:92
 msgid "To Odoo Online"
 msgstr "Odoo 온라인으로 이전하기"
 
 #: ../../content/administration/hosting.rst:20
-#: ../../content/administration/hosting.rst:93
+#: ../../content/administration/hosting.rst:95
 msgid "Odoo Online is *not* compatible with **non-standard apps**."
 msgstr "Odoo 온라인은 **표준 앱 외에는** *호환되지 않습니다*."
 
@@ -170,13 +170,14 @@ msgid "Use the database manager to grab a *dump with filestore*."
 msgstr "데이터베이스 관리자를 사용하여 *파일 저장소 덤프* 를 가져옵니다."
 
 #: ../../content/administration/hosting.rst:26
+#: ../../content/administration/hosting.rst:98
 msgid ""
-"`Submit a support ticket <https://www.odoo.com/help>`_ including the "
+"`Create a support ticket <https://www.odoo.com/help-form>`_ including the "
 "following:"
-msgstr "다음과 같은 내용으로 `고객 지원 티켓 <https://www.odoo.com/help>`_ 을 제출하세요."
+msgstr ""
 
 #: ../../content/administration/hosting.rst:28
-#: ../../content/administration/hosting.rst:98
+#: ../../content/administration/hosting.rst:100
 msgid "your **subscription number**,"
 msgstr "내 **구독 번호**,"
 
@@ -192,7 +193,7 @@ msgid ""
 msgstr "첨부 파일 또는 파일 링크의 **덤프** (60MB 이상 파일에 필요)."
 
 #: ../../content/administration/hosting.rst:32
-#: ../../content/administration/hosting.rst:105
+#: ../../content/administration/hosting.rst:107
 msgid ""
 "Odoo then makes sure the database is compatible before putting it online. In"
 " case of technical issues during the process, Odoo might contact you."
@@ -201,21 +202,20 @@ msgstr ""
 "발생할 경우 Odoo에서 연락을 드릴 수 있습니다."
 
 #: ../../content/administration/hosting.rst:36
-#: ../../content/administration/hosting.rst:109
+#: ../../content/administration/hosting.rst:111
 msgid ""
-"If you have time constraints, `submit a support ticket "
-"<https://www.odoo.com/help>`_ as soon as possible to schedule the transfer."
+"If you have time constraints, `create a support ticket "
+"<https://www.odoo.com/help-form>`_ as soon as possible to schedule the "
+"transfer."
 msgstr ""
-"시간 제약이 있는 경우 최대한 빨리 `고객 지원 티켓 <https://www.odoo.com/help>`_ 을 제출하여 이전 스케줄을 "
-"정하세요."
 
 #: ../../content/administration/hosting.rst:40
-#: ../../content/administration/hosting.rst:77
+#: ../../content/administration/hosting.rst:78
 msgid "To Odoo.sh"
 msgstr "Odoo.sh로 이전하기"
 
 #: ../../content/administration/hosting.rst:42
-#: ../../content/administration/hosting.rst:83
+#: ../../content/administration/hosting.rst:85
 msgid ""
 "Follow the instructions found in :ref:`the Import your database section "
 "<odoo_sh_import_your_database>` of the Odoo.sh *Create your project* "
@@ -248,96 +248,84 @@ msgstr "Odoo 16.3에서 실행 중인 온라인 데이터베이스를 이전하�
 
 #: ../../content/administration/hosting.rst:59
 msgid ""
-"Click the gear icon (:guilabel:`⚙`) next to the database name on the `Odoo "
-"Online database manager <https://www.odoo.com/my/databases/>`_ to display "
-"its version number."
+"Click the :icon:`fa-gear` (:guilabel:`gear`) button next to the database "
+"name on the `Odoo Online database manager "
+"<https://www.odoo.com/my/databases/>`_ to display its version number."
 msgstr ""
-"`Odoo 온라인 데이터베이스 관리자 <https://www.odoo.com/my/databases/>`_ 에서 데이터베이스 이름 옆에 "
-"있는 톱니바퀴 아이콘 (:guilabel:`⚙`)을 클릭하면 버전 번호가 표시됩니다."
 
 #: ../../content/administration/hosting.rst:63
 msgid ""
 "If there is an active Odoo subscription linked to the database being "
-"migrated, reach out to the Customer Service Manager or `submit a support "
-"ticket <https://www.odoo.com/help>`_  to complete the subscription transfer."
+"migrated, reach out to the Customer Service Manager or `contact Odoo support"
+" <https://www.odoo.com/help>`_ to complete the subscription transfer."
 msgstr ""
-"마이그레이션 중인 데이터베이스에 활성화 상태인 Odoo 구독이 연결되어 있는 경우 고객 서비스 관리자에게 문의하거나 '고객 지원 티켓을 "
-"제출<https://www.odoo.com/help>`_ 하여 구독 이전을 완료합니다."
 
 #: ../../content/administration/hosting.rst:68
-#: ../../content/administration/hosting.rst:118
+#: ../../content/administration/hosting.rst:120
 msgid "To on-premise"
 msgstr "온프레미스로 이전하기"
 
 #: ../../content/administration/hosting.rst:70
-#: ../../content/administration/hosting.rst:79
+#: ../../content/administration/hosting.rst:80
 msgid ""
-"Sign in to `the Odoo Online database manager "
-"<https://www.odoo.com/my/databases/>`_ and click the gear icon "
-"(:guilabel:`⚙`) next to the database name to :guilabel:`Download` a backup. "
-"If the download fails due to the file being too large, `contact Odoo support"
-" <https://www.odoo.com/help>`_."
+"Download a database backup by signing in to `the Odoo Online database "
+"manager <https://www.odoo.com/my/databases/>`_, clicking the :icon:`fa-gear`"
+" (:guilabel:`gear`) button next to the database name, then selecting "
+":icon:`fa-cloud-download` :guilabel:`Download`. If the download fails due to"
+" the file being too large, `contact Odoo support "
+"<https://www.odoo.com/help>`_."
 msgstr ""
-"Odoo 온라인 데이터베이스 관리자 <https://www.odoo.com/my/databases/>`_ 에 로그인하여 데이터베이스 이름"
-" 옆에 있는 톱니바퀴 아이콘 (:guilabel:`⚙`)을 :guilabel:`백업 다운로드` 를 클릭합니다. 파일 용량이 너무 커서 "
-"다운로드에 실패한 경우 `Odoo 고객 지원팀 <https://www.odoo.com/help>`_ 에 문의하세요."
 
-#: ../../content/administration/hosting.rst:74
-#: ../../content/administration/hosting.rst:121
+#: ../../content/administration/hosting.rst:75
+#: ../../content/administration/hosting.rst:123
 msgid ""
 "Restore the database from the database manager on your local server using "
 "the backup."
 msgstr "백업을 사용하여 로컬 서버의 데이터베이스 관리자에서 데이터베이스를 복원합니다."
 
-#: ../../content/administration/hosting.rst:87
+#: ../../content/administration/hosting.rst:89
 msgid "Transferring an Odoo.sh database"
 msgstr "Odoo.sh 데이터베이스 이전하기"
 
-#: ../../content/administration/hosting.rst:95
+#: ../../content/administration/hosting.rst:97
 msgid ""
 "Uninstall all **non-standard apps** in a staging build before doing it in "
 "the production build."
 msgstr "프로덕션 빌드에서 진행하기 전에 스테이징 빌드에 있는 모든 **비표준 앱** 을 삭제합니다."
 
-#: ../../content/administration/hosting.rst:96
-msgid ""
-"`Create a support ticket <https://www.odoo.com/help>`_ including the "
-"following:"
-msgstr "다음과 같은 내용으로 `고객 지원 티켓 <https://www.odoo.com/help>`_ 을 생성합니다."
-
-#: ../../content/administration/hosting.rst:99
+#: ../../content/administration/hosting.rst:101
 msgid ""
 "the **URL** you want to use for the database (e.g., `company.odoo.com`),"
 msgstr "데이터베이스에 사용하려는 **URL** (예: `company.odoo.com`),"
 
-#: ../../content/administration/hosting.rst:100
+#: ../../content/administration/hosting.rst:102
 msgid "which **branch** should be migrated,"
 msgstr "마이그레이션하려는 **브랜치**,"
 
-#: ../../content/administration/hosting.rst:101
+#: ../../content/administration/hosting.rst:103
 msgid ""
 "in which **region** you want the database to be hosted (Americas, Europe, or"
 " Asia),"
 msgstr "데이터베이스를 호스팅할 **지역** (미주, 유럽 또는 아시아),"
 
-#: ../../content/administration/hosting.rst:102
+#: ../../content/administration/hosting.rst:104
 msgid "which user(s) will be the **administrator(s)**, and"
 msgstr "**관리자** 로 지정할 사용자 및"
 
-#: ../../content/administration/hosting.rst:103
+#: ../../content/administration/hosting.rst:105
 msgid ""
 "**when** (and in which timezone) you want the database to be up and running."
 msgstr "데이터베이스를 가동하고 실행할 **시기** (및 시간대)."
 
-#: ../../content/administration/hosting.rst:111
+#: ../../content/administration/hosting.rst:113
 msgid "Select the **region** closest to most of your users to reduce latency."
 msgstr "지연 시간을 줄이려면 대부분의 사용자와 가장 가까운 **지역** 을 선택하세요."
 
-#: ../../content/administration/hosting.rst:112
+#: ../../content/administration/hosting.rst:114
 msgid "Future **administrator(s)** must have an Odoo.com account."
 msgstr "향후의 **관리자** 는 반드시 Odoo.com 계정이 있어야 합니다."
 
-#: ../../content/administration/hosting.rst:113
+#: ../../content/administration/hosting.rst:115
 msgid ""
 "The **date and time** you want the database to be up and running are helpful"
 " to organize the switch from the Odoo.sh server to the Odoo Online servers."
@@ -345,11 +333,11 @@ msgstr ""
 "데이터베이스를 가동하려는 **날짜와 시간** 은 Odoo.sh 서버에서 Odoo Online 서버로의 전환하도록 설정하는데 도움이 "
 "됩니다."
 
-#: ../../content/administration/hosting.rst:115
+#: ../../content/administration/hosting.rst:117
 msgid "Databases are **not reachable** during their migration."
 msgstr "마이그레이션 중에는 데이터베이스에 **접근할 수 없습니다**."
 
-#: ../../content/administration/hosting.rst:120
+#: ../../content/administration/hosting.rst:122
 msgid ""
 "Download a :ref:`backup of your Odoo.sh production database "
 "<odoo_sh_branches_backups>`."
@@ -588,7 +576,7 @@ msgstr "배송 방법"
 
 #: ../../content/administration/neutralized_database.rst:31
 msgid ":abbr:`IAP (In-App Purchase)` tokens"
-msgstr ":abbr:`IAP (인앱 구매)` 토큰"
+msgstr ":abbr:`IAP (인앱 결제)` 토큰"
 
 #: ../../content/administration/neutralized_database.rst:32
 msgid "website visibility (prevent search engines from indexing your site)"
@@ -867,7 +855,11 @@ msgstr ":ref:`odoo_online/contact-support`"
 msgid ":ref:`odoo_online/users`"
 msgstr ":ref:`odoo_online/users`"
 
-#: ../../content/administration/odoo_online.rst:43
+#: ../../content/administration/odoo_online.rst:39
+msgid ":ref:`odoo_online/web-services`"
+msgstr ""
+
+#: ../../content/administration/odoo_online.rst:44
 #: ../../content/administration/odoo_sh/getting_started/branches.rst:293
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:123
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:168
@@ -875,27 +867,29 @@ msgstr ":ref:`odoo_online/users`"
 msgid "Upgrade"
 msgstr "업그레이드"
 
-#: ../../content/administration/odoo_online.rst:45
+#: ../../content/administration/odoo_online.rst:46
 msgid "Trigger a database upgrade."
 msgstr "데이터베이스 업그레이드를 진행합니다."
 
-#: ../../content/administration/odoo_online.rst:48
+#: ../../content/administration/odoo_online.rst:49
 msgid ""
 "For more information about the upgrade process, check out the :ref:`Odoo "
 "Online upgrade documentation <upgrade-request-test>`."
 msgstr ""
+"업그레이드 절차에 대한 자세한 내용은 :ref:`Odoo 온라인 업그레이드 문서 ` 를 확인하세요 <upgrade-request-"
+"test>`."
 
-#: ../../content/administration/odoo_online.rst:54
+#: ../../content/administration/odoo_online.rst:55
 msgid "Duplicate"
 msgstr "복사"
 
-#: ../../content/administration/odoo_online.rst:56
+#: ../../content/administration/odoo_online.rst:57
 msgid ""
 "Create an exact copy of the database, which can be used to perform testing "
 "without compromising daily operations."
 msgstr "데이터베이스와 일치하는 복제본을 생성하여 일상적인 작업에 영향 없이 테스트를 실행할 수 있도록 합니다."
 
-#: ../../content/administration/odoo_online.rst:60
+#: ../../content/administration/odoo_online.rst:61
 msgid ""
 "By checking :guilabel:`For testing purposes`, all external actions (emails, "
 "payments, delivery orders, etc.) are disabled by default on the duplicated "
@@ -904,11 +898,11 @@ msgstr ""
 ":guilabel:`테스트 목적` 을 선택하면 복제된 데이터베이스에서 모든 외부 작업 (이메일, 결제, 배송 주문 등)이 기본적으로 "
 "비활성화됩니다."
 
-#: ../../content/administration/odoo_online.rst:62
+#: ../../content/administration/odoo_online.rst:63
 msgid "Duplicated databases expire automatically after 15 days."
 msgstr "중복된 데이터베이스는 15일 후에 자동으로 만료됩니다."
 
-#: ../../content/administration/odoo_online.rst:63
+#: ../../content/administration/odoo_online.rst:64
 msgid ""
 "A maximum of five duplicates can be made per database. Under extraordinary "
 "circumstances, contact `support <https://www.odoo.com/help>`_ to raise the "
@@ -917,34 +911,34 @@ msgstr ""
 "데이터베이스당 최대 5개까지 복제할 수 있습니다. 특별한 상황에서는 `고객 지원 <https://www.odoo.com/help>`_ 에"
 " 문의하여 한도를 높일 수 있습니다."
 
-#: ../../content/administration/odoo_online.rst:69
+#: ../../content/administration/odoo_online.rst:70
 msgid "Rename"
 msgstr "이름 바꾸기"
 
-#: ../../content/administration/odoo_online.rst:71
+#: ../../content/administration/odoo_online.rst:72
 msgid "Rename the database and its URL."
 msgstr "데이터베이스 이름 및 해당 URL 주소를 바꿉니다."
 
-#: ../../content/administration/odoo_online.rst:76
+#: ../../content/administration/odoo_online.rst:77
 msgid "Download"
 msgstr "다운로드"
 
-#: ../../content/administration/odoo_online.rst:78
+#: ../../content/administration/odoo_online.rst:79
 msgid "Download a ZIP file containing a backup of the database."
 msgstr "데이터베이스 백업이 포함되어 있는 ZIP 파일을 다운로드합니다."
 
-#: ../../content/administration/odoo_online.rst:81
+#: ../../content/administration/odoo_online.rst:82
 msgid ""
 "Databases are backed up daily as per the `Odoo Cloud Hosting SLA "
 "<https://www.odoo.com/cloud-sla>`_."
 msgstr ""
 "데이터베이스는 `Odoo 클라우드 호스팅 SLA <https://www.odoo.com/cloud-sla>`_ 에 따라 매일 백업됩니다."
 
-#: ../../content/administration/odoo_online.rst:87
+#: ../../content/administration/odoo_online.rst:88
 msgid "Domain names"
 msgstr "도메인 주소"
 
-#: ../../content/administration/odoo_online.rst:89
+#: ../../content/administration/odoo_online.rst:90
 msgid ""
 "Use a custom :doc:`domain name "
 "</applications/websites/website/configuration/domain_names>` to access the "
@@ -953,32 +947,32 @@ msgstr ""
 "다른 URL을 통해 데이터베이스에 액세스하려면 사용자 지정 :doc:`도메인 주소 "
 "</applications/websites/website/configuration/domain_names>` 를 사용하세요."
 
-#: ../../content/administration/odoo_online.rst:93
+#: ../../content/administration/odoo_online.rst:94
 msgid "You can :ref:`register a domain name for free <domain-name/register>`."
 msgstr "ref:`무료로 도메인 주소 등록 <domain-name/register>` 을 할 수 있습니다."
 
-#: ../../content/administration/odoo_online.rst:98
+#: ../../content/administration/odoo_online.rst:99
 msgid "Tags"
 msgstr "태그"
 
-#: ../../content/administration/odoo_online.rst:100
+#: ../../content/administration/odoo_online.rst:101
 msgid "Add tags to easily identify and sort your databases."
 msgstr "태그를 추가하면 데이터베이스를 쉽게 식별하고 정렬할 수 있습니다."
 
-#: ../../content/administration/odoo_online.rst:103
+#: ../../content/administration/odoo_online.rst:104
 msgid "You can search for tags in the search bar."
 msgstr "검색창에서 태그를 검색할 수 있습니다."
 
-#: ../../content/administration/odoo_online.rst:108
+#: ../../content/administration/odoo_online.rst:109
 #: ../../content/administration/odoo_sh/getting_started/branches.rst:550
 msgid "Delete"
 msgstr "삭제"
 
-#: ../../content/administration/odoo_online.rst:110
+#: ../../content/administration/odoo_online.rst:111
 msgid "Delete a database instantly."
 msgstr "데이터베이스를 즉시 삭제합니다."
 
-#: ../../content/administration/odoo_online.rst:113
+#: ../../content/administration/odoo_online.rst:114
 msgid ""
 "Deleting a database means that all data is permanently lost. The deletion is"
 " instant and applies to all users. It is recommended to create a backup of "
@@ -987,7 +981,7 @@ msgstr ""
 "데이터베이스를 삭제하면 모든 데이터가 영구적으로 손실됩니다. 삭제는 즉시 실행되며 모든 사용자에게 적용됩니다. 데이터베이스를 삭제하기 "
 "전에 백업을 생성해 두는 것이 좋습니다."
 
-#: ../../content/administration/odoo_online.rst:116
+#: ../../content/administration/odoo_online.rst:117
 msgid ""
 "Carefully read the warning message and only proceed if the implications of "
 "deleting a database are fully understood."
@@ -997,15 +991,15 @@ msgstr "주의 메시지를 꼼꼼히 읽고 데이터베이스를 삭제하는 
 msgid "The warning message displayed before deleting a database"
 msgstr "데이터베이스를 삭제하기 전에 표시되는 경고 메시지"
 
-#: ../../content/administration/odoo_online.rst:123
+#: ../../content/administration/odoo_online.rst:124
 msgid "Only an administrator can delete a database."
 msgstr "데이터베이스는 관리자만 삭제를 할 수 있습니다."
 
-#: ../../content/administration/odoo_online.rst:124
+#: ../../content/administration/odoo_online.rst:125
 msgid "The database name is immediately made available to anyone."
 msgstr "데이터베이스 이름은 누구나 즉시 사용할 수 있습니다."
 
-#: ../../content/administration/odoo_online.rst:125
+#: ../../content/administration/odoo_online.rst:126
 msgid ""
 "Deleting a database if it has expired or is linked to a subscription is "
 "impossible. In that case, contact `Odoo Support "
@@ -1014,11 +1008,11 @@ msgstr ""
 "데이터베이스가 만료되었거나 구독에 연결되어 경우에는 데이터베이스를 삭제할 수 없습니다. 이 경우 `Odoo 고객 지원 "
 "<https://www.odoo.com/help>`_ 으로 문의하세요."
 
-#: ../../content/administration/odoo_online.rst:131
+#: ../../content/administration/odoo_online.rst:132
 msgid "Contact us"
 msgstr "문의하기"
 
-#: ../../content/administration/odoo_online.rst:133
+#: ../../content/administration/odoo_online.rst:134
 msgid ""
 "Access the `Odoo.com support page <https://www.odoo.com/help>`_ with the "
 "database's details already pre-filled."
@@ -1026,11 +1020,11 @@ msgstr ""
 "미리 입력되어 있는 데이터베이스 세부 정보를 사용하여 `Odoo.com 고객 지원 페이지 "
 "<https://www.odoo.com/help>`_ 에 액세스하세요."
 
-#: ../../content/administration/odoo_online.rst:139
+#: ../../content/administration/odoo_online.rst:140
 msgid "Invite / remove users"
 msgstr "사용자 초대 / 삭제"
 
-#: ../../content/administration/odoo_online.rst:141
+#: ../../content/administration/odoo_online.rst:142
 msgid ""
 "To invite users, fill out the new user's email address and click "
 ":guilabel:`Invite`. To add multiple users, click :guilabel:`Add more users`."
@@ -1042,17 +1036,40 @@ msgstr ""
 msgid "Inviting a user on a database"
 msgstr "데이터베이스에 사용자 초대하기"
 
-#: ../../content/administration/odoo_online.rst:147
+#: ../../content/administration/odoo_online.rst:148
 msgid "To remove users, select them and click :guilabel:`Remove`."
 msgstr "사용자를 삭제하려면 해당 사용자를 선택한 후 :guilabel:`삭제` 를 클릭합니다."
 
-#: ../../content/administration/odoo_online.rst:150
+#: ../../content/administration/odoo_online.rst:151
 msgid ":doc:`/applications/general/users`"
 msgstr ":doc:`/applications/general/users`"
 
-#: ../../content/administration/odoo_online.rst:151
+#: ../../content/administration/odoo_online.rst:152
 msgid ":doc:`odoo_accounts`"
 msgstr ":doc:`odoo_accounts`"
+
+#: ../../content/administration/odoo_online.rst:157
+msgid "Web Services"
+msgstr ""
+
+#: ../../content/administration/odoo_online.rst:159
+msgid ""
+"In order to programmatically retrieve the list of the databases displayed in"
+" the `database manager <https://www.odoo.com/my/databases>`_, call the "
+"method `list` of the model `odoo.database` via a :doc:`Web Service "
+"</developer/howtos/web_services>` call."
+msgstr ""
+
+#: ../../content/administration/odoo_online.rst:163
+msgid ""
+"Inspired from the examples provided in the :doc:`Web Services "
+"</developer/howtos/web_services>` section, this is how to retrieve this list"
+" with the library ``xmlrpc.client``::"
+msgstr ""
+
+#: ../../content/administration/odoo_online.rst:176
+msgid "And here is the equivalent example with JSON-RPC::"
+msgstr ""
 
 #: ../../content/administration/odoo_sh.rst:5
 #: ../../content/administration/supported_versions.rst:30
@@ -1475,7 +1492,7 @@ msgid "Here is a pseudo-implementation example:"
 msgstr "다음은 가상 구현의 예시입니다."
 
 #: ../../content/administration/odoo_sh/advanced/submodules.rst:6
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:229
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:249
 msgid "Submodules"
 msgstr "하위 모듈"
 
@@ -3317,7 +3334,7 @@ msgstr ""
 
 #: ../../content/administration/odoo_sh/getting_started/create.rst:196
 msgid "Register your subscription"
-msgstr "구독 상품 등록하기"
+msgstr "정기 구독 등록하기"
 
 #: ../../content/administration/odoo_sh/getting_started/create.rst:198
 msgid "Your subscription is unlinked after the import."
@@ -4344,11 +4361,11 @@ msgstr "프로젝트에 액세스할 수 있는 Github 사용자를 관리합니
 
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:36
 msgid "There are three levels of users:"
-msgstr ""
+msgstr "사용자 레벨에는 세 가지가 있습니다:"
 
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:38
 msgid ":guilabel:`Admin`: has access to all features of an Odoo.sh project."
-msgstr ""
+msgstr ":guilabel:`관리자`: Odoo.sh 프로젝트에서 모든 기능에 액세스할 수 있습니다."
 
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:40
 msgid ""
@@ -4357,6 +4374,9 @@ msgid ""
 "Testers can work with copies of production data but cannot access the "
 "production database through the Odoo.sh tooling."
 msgstr ""
+":guilabel:`테스터`: *스테이징* 및 *개발* 데이터베이스 및 해당 도구에 액세스할 수 있습니다. 이 역할은 사용자 승인 "
+"테스트를 진행하는 사용자에게 부여됩니다. 테스터가 프로덕션 데이터 복사본으로 작업하는 것은 가능하지만 Odoo.sh 도구를 통해서는 "
+"프로덕션 데이터베이스에 액세스할 수 없습니다."
 
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:44
 msgid ""
@@ -4365,6 +4385,8 @@ msgid ""
 "but are not allowed to access production and staging databases through the "
 "Odoo.sh tooling."
 msgstr ""
+":guilabel:`개발자`: *개발* 데이터베이스 및 관련 도구에만 액세스할 수 있습니다. 이 역할은 코드 수정을 하는 개발자를 위한 "
+"역할이나 Odoo.sh 도구로 프로덕션 및 스테이징 데이터베이스에 액세스를 하는 것은 허용되지 않습니다."
 
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:54
 msgid "Developer"
@@ -4432,15 +4454,14 @@ msgstr "관리자"
 #: ../../content/administration/supported_versions.rst:35
 #: ../../content/administration/supported_versions.rst:41
 #: ../../content/administration/supported_versions.rst:47
-#: ../../content/administration/supported_versions.rst:53
-#: ../../content/administration/supported_versions.rst:54
-#: ../../content/administration/supported_versions.rst:55
-#: ../../content/administration/supported_versions.rst:59
-#: ../../content/administration/supported_versions.rst:60
-#: ../../content/administration/supported_versions.rst:61
+#: ../../content/administration/supported_versions.rst:48
+#: ../../content/administration/supported_versions.rst:49
 #: ../../content/administration/supported_versions.rst:65
 #: ../../content/administration/supported_versions.rst:66
 #: ../../content/administration/supported_versions.rst:67
+#: ../../content/administration/supported_versions.rst:71
+#: ../../content/administration/supported_versions.rst:72
+#: ../../content/administration/supported_versions.rst:73
 msgid "|green|"
 msgstr "|green|"
 
@@ -4470,6 +4491,11 @@ msgid ""
 "your-repository/managing-protected-branches/managing-a-branch-protection-"
 "rule>`_ for detailed guidance."
 msgstr ""
+"이와 같은 역할은 Odoo.sh 를 사용하는 경우에만 적용됩니다. GitHub 저장소 내에 사용자 역할에 대한 어트리뷰션을 반드시 "
+"반영시키세요. 자세한 안내는 `브랜치 보호 규칙 관리 "
+"<https://docs.github.com/en/repositories/configuring-branches-and-merges-in-"
+"your-repository/managing-protected-branches/managing-a-branch-protection-"
+"rule>`_ 에 대한 GitHub 문서 섹션을 참조하세요."
 
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:207
 msgid "Public Access"
@@ -4483,7 +4509,7 @@ msgstr "개발 빌드에 공개 액세스를 허용합니다."
 msgid ""
 "If activated, this option exposes the Builds page publicly, allowing "
 "visitors to view logs of development builds."
-msgstr ""
+msgstr "활성화할 경우, 빌드 페이지가 일반에 공개되어 방문자가 개발 빌드 로그를 볼 수 있게 됩니다."
 
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:216
 msgid ""
@@ -4492,10 +4518,60 @@ msgid ""
 msgstr "프로덕션 및 스테이징 빌드는 제외되며 방문자는 해당하는 상태만 볼 수 있습니다."
 
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:221
+msgid "GitHub commit statuses"
+msgstr "GitHub 커밋 상태"
+
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:223
+msgid ""
+"This option enables Odoo.sh to push commit statuses to your GitHub "
+"repository when a build is created or updated. It requires a GitHub token "
+"with permissions to push commit statuses to the repository. Refer to "
+"`GitHub's documentation on personal access tokens "
+"<https://docs.github.com/en/authentication/keeping-your-account-and-data-"
+"secure/managing-your-personal-access-tokens>`_ for instructions to create "
+"yours."
+msgstr ""
+"이 옵션을 사용하면 빌드를 생성하거나 업데이트할 때 Odoo.sh에서 커밋 상태를 GitHub 저장소로 푸시할 수 있습니다. 권한이 있는"
+" GitHub 토큰으로 커밋 상태를 저장소에 푸시할 수 있어야 합니다. 개인 액세스 토큰을 만드는 방법에 대해서는 `GitHub 문서 "
+"<https://docs.github.com/en/authentication/keeping-your-account-and-data-"
+"secure/managing-your-personal-access-tokens>`_ 를 참조하세요."
+
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:229
+msgid ""
+"GitHub's **fine-grained personal tokens** have an expiration date and will "
+"be disabled if they fail to update the commit status. You can replace the "
+"token at any time on Odoo.sh."
+msgstr ""
+"GitHub의 **세분화 개인 토큰** 에는 만료되는 날짜가 있으며 커밋 상태를 업데이트하지 않을 경우 비활성화됩니다. 토큰은 "
+"Odoo.sh에서 언제든지 교체할 수 있습니다."
+
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:232
+msgid "The commit statuses pushed to GitHub can have the following contexts:"
+msgstr "GitHub에 푸시된 커밋 상태의 컨텍스트는 다음과 같습니다."
+
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:234
+msgid ":guilabel:`ci/odoo.sh (dev)`: status of a development build"
+msgstr ":guilabel:`ci/odoo.sh (dev)`: 개발 빌드 상태"
+
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:235
+msgid ":guilabel:`ci/odoo.sh (staging)`: status of a staging build"
+msgstr ":guilabel:`ci/odoo.sh (staging)`: 스테이징 빌드 상태"
+
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:236
+msgid ":guilabel:`ci/odoo.sh (production)`: status of a production build"
+msgstr ":guilabel:`ci/odoo.sh (production)`: 프로덕션 빌드 상태"
+
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:237
+msgid ""
+":guilabel:`ci/odoo.sh (test_ci)`: testing the token from the Settings page "
+"will push a test status on the last commit of your repository"
+msgstr ""
+
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:241
 msgid "Custom domains"
 msgstr "사용자 지정 도메인"
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:223
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:243
 msgid ""
 "To configure additional domains please refer to the corresponding branch's "
 ":ref:`settings tab <odoosh-gettingstarted-branches-tabs-settings>`."
@@ -4503,13 +4579,13 @@ msgstr ""
 "추가 도메인을 설정하려면 해당 브랜치의 :ref:`설정 탭 <odoosh-gettingstarted-branches-tabs-"
 "settings>` 을 참조하세요."
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:231
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:251
 msgid ""
 "Configure the deploy keys for the private repositories you use as submodules"
 " in your branches to allow Odoo.sh to download them."
 msgstr "브랜치에서 하위 모듈로 사용하는 비공개 저장소에 대한 배포 키를 설정하여 Odoo.sh에서 다운로드할 수 있도록 합니다."
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:235
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:255
 msgid ""
 "These settings are required for **private repositories** only. If you are "
 "looking on how to set up your submodules, instructions are available in the "
@@ -4519,7 +4595,7 @@ msgstr ""
 "이 설정은 **비공개 저장소** 에서만 필요한 설정입니다. 하위 모듈을 설정하는 방법을 확인하려면 이 문서의 :ref:`하위 모듈 "
 "<odoosh-advanced-submodules>` 챕터에서 관련 내용을 확인할 수 있습니다."
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:242
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:262
 msgid ""
 "When a repository is private, it is not possible to publicly download its "
 "branches and revisions. For that reason, you need to configure a deploy key "
@@ -4529,83 +4605,83 @@ msgstr ""
 "비공개 저장소의 경우에는 해당 브랜치 및 개정판을 다운로드를 공개하지 않습니다. 따라서 원격 Git 서버를 통해 플랫폼이 비공개 저장소 "
 "개정판을 다운로드할 수 있도록 Odoo.sh에 대한 배포 키를 설정해야 합니다."
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:247
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:267
 msgid ""
 "To configure the deploy key for a private repository, proceed as follows:"
 msgstr "비공개 저장소에 대한 배포 키를 설정하려면 다음과 같이 진행합니다:"
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:249
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:269
 msgid ""
 "in the input, paste the SSH URL of your private sub-repository and click on "
 "*Add*,"
 msgstr "입력란에 비공개 하위 저장소의 SSH URL을 붙여넣은 다음 *추가* 를 클릭합니다,"
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:251
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:271
 msgid "e.g. *git@github.com:USERNAME/REPOSITORY.git*"
 msgstr "예: *git@github.com:USERNAME/REPOSITORY.git*"
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:252
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:272
 msgid ""
 "it can be another Git server than Github, such as Bitbucket, Gitlab or even "
 "your own self-hosted server"
 msgstr "Bitbucket, Gitlab와 같이 Github가 아닌 다른 Git 서버일 수 있으며 자체 호스팅 서버일 수도 있습니다."
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:255
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:275
 msgid "copy the public key,"
 msgstr "공개 키를 복사하고,"
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:257
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:277
 msgid "it should look like *ssh-rsa some...random...characters...here...==*"
 msgstr "*ssh-rsa some...random...characters...here...==* 과 같이 표시됩니다."
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:259
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:279
 msgid ""
 "in the settings of the private sub-repository, add the public key amongst "
 "the deploy keys."
 msgstr "비공개 하위 저장소 설정에 있는 배포 키 중 공개 키를 추가합니다."
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:261
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:281
 msgid ""
 "Github.com: :menuselection:`Settings --> Deploy keys --> Add deploy key`"
 msgstr "Github.com: :menuselection:`설정 --> 키 배포 --> 배포 키 추가`"
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:262
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:282
 msgid "Bitbucket.com: :menuselection:`Settings --> Access keys --> Add key`"
 msgstr "Bitbucket.com: :menuselection:`설정 --> 액세스 키 --> 키 추가`"
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:263
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:283
 msgid "Gitlab.com: :menuselection:`Settings --> Repository --> Deploy Keys`"
 msgstr "Gitlab.com: :menuselection:`설정 --> 저장소 --> 키 배포`"
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:264
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:284
 msgid ""
 "Self-hosted: append the key to the git user’s authorized_keys file in its "
 ".ssh directory"
 msgstr "자체 호스팅: .ssh 디렉토리에 있는 git 사용자의authorized_keys 파일에 키를 추가합니다."
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:267
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:287
 msgid "Storage Size"
 msgstr "스토리지 크기"
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:269
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:289
 msgid "This section shows the storage size used by your project."
 msgstr "이 섹션에서는 프로젝트에서 사용하는 스토리지 크기를 보여 줍니다."
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:274
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:294
 msgid "Storage size is computed as follows:"
 msgstr "스토리지 크기는 다음과 같이 계산합니다."
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:276
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:296
 msgid "the size of the PostgreSQL database"
 msgstr "PostgreSQL 데이터베이스 크기"
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:278
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:298
 msgid ""
 "the size of the disk files available in your container: database filestore, "
 "sessions storage directory..."
 msgstr "컨테이너에서 사용할 수 있는 디스크 파일의 크기: 데이터베이스 파일 저장소, 세션 스토리지 디렉토리 등"
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:281
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:301
 msgid ""
 "In case you want to analyze disk usage, you can run the tool `ncdu "
 "<https://dev.yorhel.nl/ncdu/man>`_ in your Web Shell."
@@ -4613,17 +4689,17 @@ msgstr ""
 "디스크 사용량을 분석하려면 웹 셸에서 `ncdu <https://dev.yorhel.nl/ncdu/man>`_ 도구를 실행할 수 "
 "있습니다."
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:284
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:304
 msgid ""
 "Should your production database size grow to exceed what's provisioned in "
 "your subscription, it will automatically be synchronized with it."
 msgstr "프로덕션 데이터베이스 크기가 구독 항목에 프로비저닝된 크기를 초과할 정도로 커지면 자동으로 동기화가 실행됩니다."
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:288
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:308
 msgid "Database Workers"
 msgstr "데이터베이스 작업자"
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:290
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:310
 msgid ""
 "Additional database workers can be configured here. More workers help "
 "increase the load your production database is able to handle. If you add "
@@ -4632,7 +4708,7 @@ msgstr ""
 "여기에서 데이터베이스 작업자를 추가로 설정할 수 있습니다. 작업자가 많을수록 프로덕션 데이터베이스가 처리할 수 있는 부하가 늘어납니다. "
 "더 추가될 경우에는 자동으로 구독과 동기화됩니다."
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:298
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:318
 msgid ""
 "Adding more workers will not magically solve all performance issues. It only"
 " allows the server to handle more connections at the same time. If some "
@@ -4644,11 +4720,11 @@ msgstr ""
 "뿐입니다. 일부 작업이 비정상적으로 느려진 경우에는 코드에 문제가 있을 가능성이 높으며 사용자 지정으로 인한 문제가 아니라면 `여기 "
 "<https://www.odoo.com/help>`_ 에서 고객 상담을 요청할 수 있습니다."
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:304
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:324
 msgid "Staging Branches"
 msgstr "스테이징 브랜치"
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:306
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:326
 msgid ""
 "Additional staging branches allow you to develop and test more features at "
 "the same time. If you add more, it will automatically be synchronized with "
@@ -4656,11 +4732,11 @@ msgid ""
 msgstr ""
 "스테이징 브랜치를 추가하면 더 많은 기능을 동시에 개발하고 테스트할 수 있습니다. 더 추가될 경우에는 자동으로 구독과 동기화됩니다."
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:313
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:333
 msgid "Activation"
 msgstr "활성화"
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:315
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:335
 msgid ""
 "Shows the status of the project's activation. You can change the project's "
 "activation code if needed."
@@ -4802,12 +4878,12 @@ msgstr ""
 " 연결을 열 수 있도록 허용하는지 확인합니다."
 
 #: ../../content/administration/on_premise.rst:64
-msgid "`services.odoo.com` on port `443` (or `80`)"
-msgstr "포트 `443` (또는 `80`)의 `services.odoo.com`"
+msgid "Odoo 18.0 and above: `services.odoo.com` on port `80`"
+msgstr "Odoo 18.0 이상: 포트 `80`의 `services.odoo.com`"
 
 #: ../../content/administration/on_premise.rst:65
-msgid "for older deployments, `services.openerp.com` on port `443` (or `80`)"
-msgstr "이전에 진행한 배포의 경우 '443' (또는 '80') 포트의 'services.openerp.com'"
+msgid "Odoo 17.0 and below: `services.openerp.com` on port `80`"
+msgstr "Odoo 17.0 이하: 포트 `80`의 `services.openerp.com`"
 
 #: ../../content/administration/on_premise.rst:67
 msgid ""
@@ -4837,7 +4913,7 @@ msgid ""
 msgstr "해당 메시지가 표시되면 데이터베이스 만료 30일 전까지  조치를 취해야 합니다. 매일 카운트다운이 업데이트됩니다."
 
 #: ../../content/administration/on_premise.rst:82
-#: ../../content/administration/on_premise.rst:108
+#: ../../content/administration/on_premise.rst:102
 msgid "To resolve the issue, either:"
 msgstr "문제를 해결하려면 다음 중에서 선택하세요;"
 
@@ -4856,19 +4932,7 @@ msgid ""
 "quotation."
 msgstr ":ref:`사용자 비활성화 <users/deactivate>` 를 선택하고 상향 판매 견적서를 **거절** 합니다."
 
-#: ../../content/administration/on_premise.rst:89
-msgid ""
-"If you are on a monthly subscription plan, the database will automatically "
-"update to reflect the added user(s). If you are on a yearly or multi-year "
-"plan, an expiration banner will appear in the database. You can create the "
-"upsell quotation by clicking the banner to update the subscription or `send "
-"a support ticket <https://www.odoo.com/help>`_ to resolve the issue."
-msgstr ""
-"월간 구독 요금제를 사용 중인 경우 사용자 추가 내역을 반영하도록 데이터베이스가 자동으로 업데이트됩니다. 연간 또는 다년 요금제를 "
-"사용하는 경우 데이터베이스에 만료 배너가 표시됩니다. 배너를 클릭하여 상향 판매 견적서를 생성하거나 `고객 지원 상담 "
-"<https://www.odoo.com/help>`_ 을 통해 문제를 해결할 수 있습니다."
-
-#: ../../content/administration/on_premise.rst:94
+#: ../../content/administration/on_premise.rst:88
 msgid ""
 "Once your database has the correct number of users, the expiration message "
 "disappears automatically after a few days, when the next verification "
@@ -4876,11 +4940,11 @@ msgid ""
 msgstr ""
 "데이터베이스의 사용자 숫자가 정확하게 확보되면 며칠 내에 다음과 같은 인증을 진행하게 되고 만료 메시지는 자동으로 사라집니다."
 
-#: ../../content/administration/on_premise.rst:98
+#: ../../content/administration/on_premise.rst:92
 msgid "Database expired error"
 msgstr "데이터베이스 만료 오류"
 
-#: ../../content/administration/on_premise.rst:100
+#: ../../content/administration/on_premise.rst:94
 msgid ""
 "If your database expires before you renew your subscription, the following "
 "message should be displayed."
@@ -4890,13 +4954,13 @@ msgstr "구독 갱신을 하기 전에 데이터베이스가 만료될 경우 �
 msgid "Database expired error message"
 msgstr "데이터베이스 만료 오류 메시지"
 
-#: ../../content/administration/on_premise.rst:106
+#: ../../content/administration/on_premise.rst:100
 msgid ""
 "This message appears if you fail to act before the end of the 30-day "
 "countdown."
 msgstr "30일 카운트다운이 끝나기 전에 조치를 취하지 않을 경우 이 메시지가 표시됩니다."
 
-#: ../../content/administration/on_premise.rst:110
+#: ../../content/administration/on_premise.rst:104
 msgid ""
 "Click the :guilabel:`Renew your subscription` link displayed in the message "
 "and complete the process. If you pay by wire transfer, your subscription "
@@ -4906,7 +4970,7 @@ msgstr ""
 "메시지에 표시된 :guilabel:`구독 갱신` 링크를 클릭하여 절차를 완료합니다. 결제 방식이 은행 이체인 경우에는 결제 완료 시 "
 "구독이 갱신되며 며칠 정도 소요될 수 있습니다. 신용카드로 결제하면 즉시 처리됩니다."
 
-#: ../../content/administration/on_premise.rst:113
+#: ../../content/administration/on_premise.rst:107
 msgid "`Send a support ticket <https://www.odoo.com/help>`_."
 msgstr "`고객 지원 티켓 보내기 <https://www.odoo.com/help>`_."
 
@@ -5496,8 +5560,8 @@ msgstr ""
 "확인합니다."
 
 #: ../../content/administration/on_premise/deploy.rst:243
-msgid "RAM = 9 * ((0.8*150) + (0.2*1024)) ~= 3Go RAM for Odoo"
-msgstr "RAM = 9 * ((0.8*150) + (0.2*1024)) ~= Odoo용 3Go RAM"
+msgid "RAM = 9 * ((0.8*150) + (0.2*1024)) ~= 3GB RAM for Odoo"
+msgstr ""
 
 #: ../../content/administration/on_premise/deploy.rst:245
 msgid "in :ref:`the configuration file <reference/cmdline/config_file>`:"
@@ -6479,42 +6543,26 @@ msgid "Supported Browsers"
 msgstr "지원되는 브라우저"
 
 #: ../../content/administration/on_premise/deploy.rst:884
-msgid ""
-"Odoo supports all the major desktop and mobile browsers available on the "
-"market, as long as they are supported by their publishers."
-msgstr "게시자가 지원하는 한 Odoo는 시중에서 판매되는 모든 주요 데스크톱 및 모바일 브라우저를 지원합니다."
+msgid "Odoo supports the latest version of the following browsers."
+msgstr ""
 
-#: ../../content/administration/on_premise/deploy.rst:887
-msgid "Here are the supported browsers:"
-msgstr "지원되는 브라우저는 다음과 같습니다."
-
-#: ../../content/administration/on_premise/deploy.rst:889
+#: ../../content/administration/on_premise/deploy.rst:886
 msgid "Google Chrome"
 msgstr "Google Chrome"
 
-#: ../../content/administration/on_premise/deploy.rst:890
+#: ../../content/administration/on_premise/deploy.rst:887
 msgid "Mozilla Firefox"
 msgstr "Mozilla Firefox"
 
-#: ../../content/administration/on_premise/deploy.rst:891
+#: ../../content/administration/on_premise/deploy.rst:888
 msgid "Microsoft Edge"
 msgstr "Microsoft Edge"
 
-#: ../../content/administration/on_premise/deploy.rst:892
+#: ../../content/administration/on_premise/deploy.rst:889
 msgid "Apple Safari"
 msgstr "Apple Safari"
 
-#: ../../content/administration/on_premise/deploy.rst:894
-msgid ""
-"Please make sure your browser is up-to-date and still supported by its "
-"publisher before filing a bug report."
-msgstr "버그 보고서를 제출하기 전에 브라우저가 게시자에게서 계속 지원이 되는 최신 버전인지 확인하세요."
-
-#: ../../content/administration/on_premise/deploy.rst:899
-msgid "Since Odoo 13.0, ES6 is supported.  Therefore, IE support is dropped."
-msgstr "Odoo 13.0부터 ES6가 지원됩니다. 따라서 IE 지원은 중단됩니다."
-
-#: ../../content/administration/on_premise/deploy.rst:902
+#: ../../content/administration/on_premise/deploy.rst:892
 msgid ""
 "to have multiple Odoo installations use the same PostgreSQL database, or to "
 "provide more computing resources to both software."
@@ -6522,7 +6570,7 @@ msgstr ""
 "Odoo를 여러 개 설치할 때 동일한 PostgreSQL 데이터베이스를 사용하거나 컴퓨팅 리소스를 양쪽 소프트웨어에 더 제공하도록 설정할"
 " 수 있습니다."
 
-#: ../../content/administration/on_premise/deploy.rst:905
+#: ../../content/administration/on_premise/deploy.rst:895
 msgid ""
 "technically a tool like socat_ can be used to proxy UNIX sockets across "
 "networks, but that is mostly for software which can only be used over UNIX "
@@ -6531,7 +6579,7 @@ msgstr ""
 "기술적으로 socat_ 과 같은 도구를 사용하여 네트워크를 통해 UNIX 소켓을 프록시할 수 있으나 대부분의 경우에는 UNIX 소켓을 "
 "통해서만 사용할 수 있는 소프트웨어용입니다."
 
-#: ../../content/administration/on_premise/deploy.rst:909
+#: ../../content/administration/on_premise/deploy.rst:899
 msgid ""
 "or be accessible only over an internal packet-switched network, but that "
 "requires secured switches, protections against `ARP spoofing`_ and precludes"
@@ -6900,8 +6948,8 @@ msgstr ""
 "않으므로 `l10n_mx_edi` 모듈에 문제가 생길 수 있습니다. 필요한 경우 다음을 사용하여 수동으로 설치하세요."
 
 #: ../../content/administration/on_premise/packages.rst:135
-msgid "Odoo 17 'rpm' package supports Fedora 36."
-msgstr "Odoo 17 'rpm' 패키지는 Fedora 36을 지원합니다."
+msgid "Odoo 17 'rpm' package supports Fedora 38."
+msgstr ""
 
 #: ../../content/administration/on_premise/packages.rst:137
 msgid ""
@@ -7854,83 +7902,53 @@ msgid "End of support"
 msgstr "지원 종료"
 
 #: ../../content/administration/supported_versions.rst:34
-msgid "Odoo saas~17.4"
-msgstr "Odoo saas~17.4"
+msgid "Odoo SaaS 18.2"
+msgstr "Odoo SaaS 18.2"
 
 #: ../../content/administration/supported_versions.rst:36
 #: ../../content/administration/supported_versions.rst:37
 #: ../../content/administration/supported_versions.rst:42
 #: ../../content/administration/supported_versions.rst:43
-#: ../../content/administration/supported_versions.rst:48
-#: ../../content/administration/supported_versions.rst:49
+#: ../../content/administration/supported_versions.rst:54
+#: ../../content/administration/supported_versions.rst:55
+#: ../../content/administration/supported_versions.rst:60
+#: ../../content/administration/supported_versions.rst:61
 msgid "N/A"
 msgstr "해당 없음"
 
 #: ../../content/administration/supported_versions.rst:38
-msgid "July 2024"
-msgstr "2024년 7월"
+msgid "March 2025"
+msgstr "2025년 3월"
 
 #: ../../content/administration/supported_versions.rst:40
-msgid "Odoo saas~17.2"
-msgstr "Odoo saas~17.2"
+msgid "Odoo SaaS 18.1"
+msgstr "Odoo SaaS 18.1"
 
 #: ../../content/administration/supported_versions.rst:44
-msgid "April 2024"
-msgstr "2024년 4월"
+msgid "January 2025"
+msgstr "2025년 1월"
 
 #: ../../content/administration/supported_versions.rst:46
-msgid "Odoo saas~17.1"
-msgstr "Odoo saas~17.1"
+msgid "**Odoo 18.0**"
+msgstr "**Odoo 18.0**"
 
 #: ../../content/administration/supported_versions.rst:50
-msgid "January 2024"
-msgstr "2024년 1월"
+#: ../../content/administration/supported_versions.rst:57
+#: ../../content/administration/supported_versions.rst:63
+#: ../../content/administration/supported_versions.rst:81
+msgid "October 2024"
+msgstr "October 2024"
+
+#: ../../content/administration/supported_versions.rst:51
+msgid "October 2027 (planned)"
+msgstr "2027년 10월 (예정)"
 
 #: ../../content/administration/supported_versions.rst:52
-msgid "**Odoo 17.0**"
-msgstr "**Odoo 17.0**"
+msgid "Odoo SaaS 17.4"
+msgstr "Odoo SaaS 17.4"
 
-#: ../../content/administration/supported_versions.rst:56
-#: ../../content/administration/supported_versions.rst:75
-msgid "November 2023"
-msgstr "2023년 11월"
-
-#: ../../content/administration/supported_versions.rst:57
-msgid "October 2026 (planned)"
-msgstr "2026년 10월 (예정)"
-
-#: ../../content/administration/supported_versions.rst:58
-msgid "**Odoo 16.0**"
-msgstr "**Odoo 16.0**"
-
-#: ../../content/administration/supported_versions.rst:62
-#: ../../content/administration/supported_versions.rst:81
-msgid "October 2022"
-msgstr "2022년 10월"
-
-#: ../../content/administration/supported_versions.rst:63
-msgid "November 2025 (planned)"
-msgstr "2025년 11월 (예정)"
-
-#: ../../content/administration/supported_versions.rst:64
-msgid "**Odoo 15.0**"
-msgstr "**Odoo 15.0**"
-
-#: ../../content/administration/supported_versions.rst:68
-msgid "October 2021"
-msgstr "2021년 10월"
-
-#: ../../content/administration/supported_versions.rst:69
-msgid "November 2024 (planned)"
-msgstr "2024년 11월 (예정)"
-
-#: ../../content/administration/supported_versions.rst:70
-msgid "**Odoo 14.0**"
-msgstr "**Odoo 14.0**"
-
-#: ../../content/administration/supported_versions.rst:71
-#: ../../content/administration/supported_versions.rst:72
-#: ../../content/administration/supported_versions.rst:73
+#: ../../content/administration/supported_versions.rst:53
+#: ../../content/administration/supported_versions.rst:59
 #: ../../content/administration/supported_versions.rst:77
 #: ../../content/administration/supported_versions.rst:78
 #: ../../content/administration/supported_versions.rst:79
@@ -7938,31 +7956,63 @@ msgstr "**Odoo 14.0**"
 #: ../../content/administration/supported_versions.rst:84
 #: ../../content/administration/supported_versions.rst:85
 msgid "|red|"
-msgstr "|빨간색|"
+msgstr "|red|"
+
+#: ../../content/administration/supported_versions.rst:56
+msgid "July 2024"
+msgstr "2024년 7월"
+
+#: ../../content/administration/supported_versions.rst:58
+msgid "Odoo SaaS 17.2"
+msgstr "Odoo SaaS 17.2"
+
+#: ../../content/administration/supported_versions.rst:62
+msgid "April 2024"
+msgstr "2024년 4월"
+
+#: ../../content/administration/supported_versions.rst:64
+msgid "**Odoo 17.0**"
+msgstr "**Odoo 17.0**"
+
+#: ../../content/administration/supported_versions.rst:68
+msgid "November 2023"
+msgstr "2023년 11월"
+
+#: ../../content/administration/supported_versions.rst:69
+msgid "October 2026 (planned)"
+msgstr "2026년 10월 (예정)"
+
+#: ../../content/administration/supported_versions.rst:70
+msgid "**Odoo 16.0**"
+msgstr "**Odoo 16.0**"
 
 #: ../../content/administration/supported_versions.rst:74
-msgid "October 2020"
-msgstr "2020년 10월"
+msgid "October 2022"
+msgstr "2022년 10월"
+
+#: ../../content/administration/supported_versions.rst:75
+msgid "October 2025 (planned)"
+msgstr "2025년 10월 (예정)"
 
 #: ../../content/administration/supported_versions.rst:76
-msgid "**Odoo 13.0**"
-msgstr "**Odoo 13.0**"
+msgid "**Odoo 15.0**"
+msgstr "**Odoo 15.0**"
 
 #: ../../content/administration/supported_versions.rst:80
-msgid "October 2019"
-msgstr "2019년 10월"
+msgid "October 2021"
+msgstr "2021년 10월"
 
 #: ../../content/administration/supported_versions.rst:82
 msgid "Older versions"
 msgstr "이전 버전"
 
 #: ../../content/administration/supported_versions.rst:86
-msgid "Before 2019"
-msgstr "2019년 이전"
+msgid "Before 2021"
+msgstr "2021년 이전"
 
 #: ../../content/administration/supported_versions.rst:87
-msgid "Before 2022"
-msgstr "2022년 이전"
+msgid "Before 2024"
+msgstr "2024년 이전"
 
 #: ../../content/administration/supported_versions.rst:89
 msgid "Legend"
@@ -7970,11 +8020,11 @@ msgstr "범례"
 
 #: ../../content/administration/supported_versions.rst:91
 msgid "|green| Supported version"
-msgstr "|초록색| 지원되는 버전"
+msgstr "|green| 지원되는 버전"
 
 #: ../../content/administration/supported_versions.rst:93
 msgid "|red| End-of-support"
-msgstr "|빨간색| 지원 종료"
+msgstr "|red| 지원 종료"
 
 #: ../../content/administration/supported_versions.rst:95
 msgid "N/A Never released for this platform"
@@ -7990,40 +8040,48 @@ msgstr ""
 #: ../../content/administration/upgrade.rst:5
 msgid ""
 "An upgrade involves moving a database from an older version to a newer "
-"supported version (e.g., from Odoo 15.0 to Odoo 17.0). Regular upgrades are "
+"supported version (e.g., from Odoo 16.0 to Odoo 18.0). Regular upgrades are "
 "crucial as each version offers new features, bug fixes, and security "
 "patches. Using a :doc:`supported version <supported_versions>` is strongly "
 "recommended. Each major version is supported for three years."
 msgstr ""
+"업그레이드 작업에는 이전 버전에서 최신 지원 버전(예: Odoo 16.0에서 Odoo 18.0)으로 데이터베이스를 이동하는 작업이 "
+"포함됩니다. 각 버전마다 새로운 기능, 버그 수정 및 보안 패치가 제공되므로 정기적으로 업그레이드하는 것이 매우 중요합니다. "
+":doc:`지원되는 버전 <supported_versions>` 을 사용하는 것을 강력히 권장합니다. 각 주요 버전에 대한 지원 기간은 "
+"3년입니다."
 
 #: ../../content/administration/upgrade.rst:10
 msgid ""
 "Depending on the hosting type and Odoo version used, a database upgrade can "
 "be **mandatory**."
-msgstr ""
+msgstr "사용 중인 호스팅 유형 및 Odoo 버전에 따라 데이터베이스 업그레이드가 **필수** 일 수 있습니다."
 
 #: ../../content/administration/upgrade.rst:16
 msgid ""
-"If a database is on a **major version** (e.g., 15.0, 16.0, 17.0), an upgrade"
+"If a database is on a **major version** (e.g., 16.0, 17.0, 18.0), an upgrade"
 " is mandatory every two years."
-msgstr ""
+msgstr "데이터베이스가 **주요 버전** (예: 16.0, 17.0, 18.0)인 경우 2년마다 필수로 업그레이드를 해야 합니다."
 
 #: ../../content/administration/upgrade.rst:18
 msgid ""
 "If a database is on a **minor version** (e.g., 17.1, 17.2, 17.4), an upgrade"
 " is mandatory a few weeks after the next version is released. Minor versions"
-" are usually released every three months."
+" are usually released every two months."
 msgstr ""
+"데이터베이스가 **마이너 버전**(예: 17.1, 17.2, 17.4)인 경우에는, 후속 버전이 출시된 후 몇 주 후에는 반드시 "
+"업그레이드를 해야 합니다. 마이너 버전은 보통 2개월마다 출시됩니다."
 
 #: ../../content/administration/upgrade.rst:24
 msgid ""
 "After the initial three years of support, you will have another two years to"
 " complete the upgrade. You will be notified when an upgrade is required."
 msgstr ""
+"최초 3년의 지원 기간이 종료되면, 추가로 2년을 업그레이드를 완료할 수 있도록 받게 됩니다. 업그레이드가 필요할 경우 알림이 "
+"전달됩니다."
 
 #: ../../content/administration/upgrade.rst:0
 msgid "The \"unsupported version\" popup on Odoo.sh."
-msgstr ""
+msgstr "Odoo.sh에서 \"지원되지 않는 버전\" 팝업이 표시된 모습"
 
 #: ../../content/administration/upgrade.rst:32
 msgid ""
@@ -8031,6 +8089,7 @@ msgid ""
 "recommended. Note that the smaller the version gap, the easier the upgrade "
 "should be."
 msgstr ""
+"동일한 버전을 계속해서 사용할 수는 있으나, 권장되지는 않습니다. 버전 차이가 작을수록 더 쉽게 업그레이드된다는 점에 유의하세요."
 
 #: ../../content/administration/upgrade.rst:37
 msgid ""
@@ -8038,6 +8097,8 @@ msgid ""
 "mandatory upgrade will be automatically carried out. You are in control of "
 "the process as long as the deadline is not reached."
 msgstr ""
+"데이터베이스에서는 필수 업그레이드가 실행되기 몇 주 전에 알림을 통해 자동으로 업그레이드된다는 내용을 안내합니다. 기한이 되기 전까지는 "
+"프로세스를 제어할 수 있습니다."
 
 #: ../../content/administration/upgrade.rst:0
 msgid "The upgrade message prompt on the top right of the database"
@@ -8051,6 +8112,9 @@ msgid ""
 "the test fails, you can test an upgrade using the `database manager "
 "<https://www.odoo.com/my/databases>`_."
 msgstr ""
+"구체적으로는, Odoo 업그레이드 팀에서 업그레이드가 필요한 모든 데이터베이스에 대해 알림 없이 테스트 업그레이드를 진행합니다. 테스트가"
+" 성공하고 20분 이내에 완료되면 데이터베이스에서 직접 업그레이드를 실행할 수 있습니다. 테스트가 실패하는 경우에는 `데이터베이스 관리자"
+" <https://www.odoo.com/my/databases>`_ 를 통해 업그레이드를 테스트할 수 있습니다."
 
 #: ../../content/administration/upgrade.rst:49
 msgid ""
@@ -8058,12 +8122,14 @@ msgid ""
 " an upgraded test database <upgrade-request-test>` first and spend time "
 ":ref:`testing <upgrade-testing>` it."
 msgstr ""
+"업그레이드를 하도록 안내를 받은 경우, 먼저 :ref:`업그레이드된 테스트 데이터베이스 요청 <upgrade-request-test>` "
+"을 한 후 :ref:`테스트 <upgrade-testing>` 에 시간을 할애하는 것을 강력히 권장합니다."
 
 #: ../../content/administration/upgrade.rst:52
 msgid ""
 "An automatic upgrade to the next version will be triggered if no action is "
 "taken before the specified due date."
-msgstr ""
+msgstr "지정된 기한 날짜까지 별도 조치가 없으면 다음 버전으로 자동 업그레이드됩니다."
 
 #: ../../content/administration/upgrade.rst:55
 msgid "An upgrade does not cover:"
@@ -8098,6 +8164,10 @@ msgid ""
 "request-test>` while also :doc:`upgrading the source code of your custom "
 "modules </developer/howtos/upgrade_custom_db>`."
 msgstr ""
+"데이터베이스에 사용자 지정 모듈이 있는 경우에는, 대상으로 하는 Odoo 버전에서 사용자 지정 모듈 버전을 사용할 수 있을 때까지 모듈을"
+" 업그레이드할 수 없습니다. 고객이 자체적으로 사용자 지정 모듈을 유지 관리하는 경우 :ref:`업그레이드된 데이터베이스 요청 "
+"<upgrade-request-test>` 및 :doc:`사용자 지정 모듈의 소스 코드 업그레이드 "
+"</developer/howtos/upgrade_custom_db>` 를 병행하여 프로세스를 진행하는 것을 추천합니다."
 
 #: ../../content/administration/upgrade.rst:73
 msgid "Upgrading in a nutshell"
@@ -8108,6 +8178,8 @@ msgid ""
 "Request an upgraded test database (see :ref:`obtaining an upgraded test "
 "database <upgrade-request-test>`)."
 msgstr ""
+"업그레이드된 테스트 데이터베이스 요청 (:ref:`업그레이드된 테스트 데이터베이스 받기 <upgrade-request-test>` "
+"참조)."
 
 #: ../../content/administration/upgrade.rst:77
 msgid ""
@@ -8123,6 +8195,7 @@ msgid ""
 "Thoroughly test the upgraded database (see :ref:`testing the new version of "
 "the database <upgrade-testing>`)."
 msgstr ""
+"업그레이드된 데이터베이스를 꼼꼼히 테스트합니다 (:ref:`데이터베이스 새 버전 테스트하기 <upgrade-testing>` 참조)."
 
 #: ../../content/administration/upgrade.rst:81
 msgid ""
@@ -8130,6 +8203,8 @@ msgid ""
 "`Support page and selecting \"An issue related to my future upgrade (I am "
 "testing an upgrade)\" <https://www.odoo.com/help?stage=migration>`_."
 msgstr ""
+"테스트 중에 문제가 발생할 경우 Odoo로 연락하도록 하며 `고객 지원 페이지로 이동하여 \"향후의 업그레이드와 관련된 문제 (업그레이드"
+" 테스트 중)\" <https://www.odoo.com/help?stage=migration>`_ 에서 진행하세요."
 
 #: ../../content/administration/upgrade.rst:84
 msgid ""
@@ -8146,6 +8221,8 @@ msgid ""
 "for the time it takes to complete the process (see :ref:`upgrading the "
 "production database <upgrade-production>`)."
 msgstr ""
+"프로덕션 데이터베이스에 대한 업그레이드를 요청하면, 프로세스를 완료하는 동안에는 사용을 할 수 없게 렌더링합니다 (:ref:`프로덕션 "
+"데이터베이스 업그레이드 <upgrade-production>` 참조)."
 
 #: ../../content/administration/upgrade.rst:88
 msgid ""
@@ -8153,6 +8230,8 @@ msgid ""
 "`Support page and selecting \"An issue related to my upgrade (production)\" "
 "<https://www.odoo.com/help?stage=post_upgrade>`_."
 msgstr ""
+"업그레이드 중에 발생하는 모든 문제는 Odoo에 보고하도록 하며 `고객 지원 페이지로 이동하여 \"내 업그레이드 (프로덕션)와 관련된 "
+"문제\" <https://www.odoo.com/help?stage=post_upgrade>`_ 를 선택하여 보고하세요."
 
 #: ../../content/administration/upgrade.rst:95
 msgid "Obtaining an upgraded test database"
@@ -8166,6 +8245,10 @@ msgid ""
 "manager <https://www.odoo.com/my/databases>`_, or your `Odoo.sh project "
 "<https://www.odoo.sh/project>`_."
 msgstr ""
+"`업그레이드 페이지 <https://upgrade.odoo.com>`_ 는 업그레이드된 데이터베이스를 요청할 때 쓰는 기본 플랫폼입니다."
+" 단, 호스팅 유형에 따라 업그레이드를 명령줄 (온프레미스), Odoo 온라인 `데이터베이스 관리자 "
+"<https://www.odoo.com/my/databases>`_ 또는 `Odoo.sh 프로젝트 "
+"<https://www.odoo.sh/project>`_ 에서 진행할 수 있습니다."
 
 #: ../../content/administration/upgrade.rst:103
 msgid ""
@@ -8184,6 +8267,8 @@ msgid ""
 "Odoo Online databases can be manually upgraded via the `database manager "
 "<https://www.odoo.com/my/databases>`_."
 msgstr ""
+"Odoo 온라인 데이터베이스는 `데이터베이스 관리자 <https://www.odoo.com/my/databases>`_ 를 통해 수동으로"
+" 업그레이드할 수 있습니다."
 
 #: ../../content/administration/upgrade.rst:114
 msgid ""
@@ -8255,7 +8340,7 @@ msgstr "Odoo.sh 프로젝트 및 탭"
 msgid ""
 "The **latest production daily automatic backup** is then sent to the Upgrade"
 " platform."
-msgstr ""
+msgstr "**최신 프로덕션 일일 자동 백업** 이 그런 다음 업그레이드 플랫폼으로 전송됩니다."
 
 #: ../../content/administration/upgrade.rst:148
 msgid ""
@@ -8298,7 +8383,7 @@ msgstr "데이터베이스가 호스팅되는 시스템에서 다음 명령줄�
 
 #: ../../content/administration/upgrade.rst:173
 msgid "This command has some requirements on the environment it runs in:"
-msgstr ""
+msgstr "이 명령어를 실행할 환경에 대한 일부 요구 사항이 있습니다:"
 
 #: ../../content/administration/upgrade.rst:175
 msgid ""
@@ -8306,6 +8391,8 @@ msgid ""
 "normally found in any Linux distribution (including WSL). An error will be "
 "displayed if one or several of them are missing."
 msgstr ""
+"일부분 외부 명령어가 운영 체제에서 반드시 제공되어야 하는 경우에는, 보통 Linux 배포판 (WSL 포함)에서 확인할 수 있습니다. "
+"오류 메시지가 이 중에서 하나 혹은 여러 개 누락된 경우에 표시됩니다."
 
 #: ../../content/administration/upgrade.rst:178
 msgid ""
@@ -8316,6 +8403,10 @@ msgid ""
 "<https://www.postgresql.org/docs/current/libpq-pgpass.html>`_ for this "
 "requirement."
 msgstr ""
+"명령을 실행하는 시스템 사용자가 데이터베이스에 액세스할 수 있도록 환경 설정을 해야 합니다. 해당 요건에 대한 내용은 `클라이언트 환경 "
+"<https://www.postgresql.org/docs/current/libpq-envars.html>`_ 의 PostgreSQL "
+"문서 또는 `클라이언트 비밀번호 파일 <https://www.postgresql.org/docs/current/libpq-"
+"pgpass.html>`_ 을 참조하세요."
 
 #: ../../content/administration/upgrade.rst:182
 msgid ""
@@ -8324,6 +8415,8 @@ msgid ""
 "between 32768 and 60999. This can be in conflict with your restrictive "
 "firewall and may need an exception added to the firewall configuration."
 msgstr ""
+"스크립트가 TCP 포트 443과 32768~60999 사이의 임의의 TCP 포트에서 업그레이드 플랫폼의 하나 혹은 여러 개의 서버에 "
+"도달할 수 있어야 합니다. 이는 일부 방화벽과 충돌할 수 있으며 방화벽 환경 설정에 예외 항목을 추가해야 할 수 있습니다."
 
 #: ../../content/administration/upgrade.rst:187
 msgid ""
@@ -8336,6 +8429,7 @@ msgid ""
 "An upgraded test database can also be requested via the `Upgrade page "
 "<https://upgrade.odoo.com>`_."
 msgstr ""
+"업그레이드된 테스트 데이터베이스는 '업그레이드 페이지 <https://upgrade.odoo.com>`_ 에서도 요청할 수 있습니다."
 
 #: ../../content/administration/upgrade.rst:197
 msgid ""
@@ -8418,6 +8512,8 @@ msgid ""
 "not stuck in your day-to-day activities by a change in views, behavior, or "
 "an error message once the upgrade goes live."
 msgstr ""
+"반드시 업그레이드된 테스트 데이터베이스에 대한 테스트를 실행하여 업그레이드를 실행한 후에 보기, 동작 또는 오류 메시지의 변경으로 인해 "
+"일상적인 활동에 지장이 없도록 합니다."
 
 #: ../../content/administration/upgrade.rst:236
 msgid ""
@@ -8586,6 +8682,10 @@ msgid ""
 "to report any problem encountered during the testing to fix it before "
 "upgrading your production database."
 msgstr ""
+"업그레이드된 테스트 데이터베이스를 테스트하는 동안 문제가 발생하면 `지원 페이지에서 \"향후 업그레이드와 관련된 문제 (업그레이드를 "
+"테스트하고 있습니다)\" <https://www.odoo.com/help?stage=migration>`_ 를 선택하여 Odoo에 지원 "
+"요청을 할 수 있습니다. 어떤 경우든 프로덕션 데이터베이스를 업그레이드하기 전에 테스트를 하는 동안 발생한 문제를 보고하여 해결하는 것이"
+" 중요합니다."
 
 #: ../../content/administration/upgrade.rst:293
 msgid ""
@@ -8637,6 +8737,8 @@ msgid ""
 "that the upgraded database can be used as your main database without any "
 "issues, it is time to plan the go-live day."
 msgstr ""
+":ref:`테스트 <upgrade-testing>` 가 완료되어 아무런 문제없이 업그레이드된 데이터베이스를 기본 데이터베이스로 사용할 수"
+" 있다는 확신이 든다면, 이제는 본격적인 가동일을 계획해 보세요."
 
 #: ../../content/administration/upgrade.rst:317
 msgid ""
@@ -8683,7 +8785,7 @@ msgstr "고객 경험 악화 (예: 이커머스 웹사이트가 제대로 동작
 msgid ""
 "The process of upgrading a production database is similar to upgrading a "
 "test database, but with a few exceptions."
-msgstr ""
+msgstr "프로덕션 데이터베이스를 업그레이드하는 절차는 테스트 데이터베이스 업그레이드와 몇 가지만 제외하고 유사합니다."
 
 #: ../../content/administration/upgrade.rst:339
 msgid ""
@@ -8691,6 +8793,8 @@ msgid ""
 "<upgrade-request-test>`, except for the purpose option, which must be set to"
 " :guilabel:`Production` instead of :guilabel:`Test`."
 msgstr ""
+"이 절차는 :ref:`업그레이드된 테스트 데이터베이스 받기 <upgrade-request-test>`와 비슷한 절차이나, 목적 선택에 "
+"있어 다르며 반드시 :guilabel:`테스트` 대신 :guilabel:`프로덕션` 으로 설정해야 합니다."
 
 #: ../../content/administration/upgrade.rst:344
 msgid ""
@@ -8705,6 +8809,7 @@ msgid ""
 "The process is similar to :ref:`obtaining an upgraded test database "
 "<upgrade-request-test>` on the :guilabel:`Production` branch."
 msgstr ""
+"이 절차는 :guilabel:`프로덕션` 브랜치에서 :ref:`업그레이드된 테스트 데이터베이스 받기` 를 받는 절차와 유사합니다."
 
 #: ../../content/administration/upgrade.rst:0
 msgid "View from the upgrade tab"
@@ -8756,6 +8861,8 @@ msgid ""
 "An upgraded production database can also be requested via the `Upgrade page "
 "<https://upgrade.odoo.com>`_."
 msgstr ""
+"업그레이드된 프로덕션 데이터베이스는 `업그레이드 페이지 <https://upgrade.odoo.com>`_ 를 통해서도 요청할 수 "
+"있습니다."
 
 #: ../../content/administration/upgrade.rst:383
 msgid ""
@@ -8763,6 +8870,8 @@ msgid ""
 "will **not** be present on your upgraded database. This is why we recommend "
 "not using it during the upgrade process."
 msgstr ""
+"데이터베이스가 업로드되면 프로덕션 데이터베이스에 대한 수정 사항은 업그레이드된 데이터베이스에 나타나지 **않습니다**. 그렇기 때문에 "
+"업그레이드 프로세스가 진행되는 동안에는 사용하지 않는 것이 좋습니다."
 
 #: ../../content/administration/upgrade.rst:388
 msgid ""
@@ -8778,9 +8887,11 @@ msgstr ""
 msgid ""
 "In case of an issue with your production database, you can request the "
 "assistance of Odoo by going to the `Support page and selecting \"An issue "
-"related to my future upgrade (I am testing an upgrade)\" "
-"<https://www.odoo.com/help?stage=migration>`_."
+"related to my upgrade (production)\" "
+"<https://www.odoo.com/help?stage=post_upgrade>`_."
 msgstr ""
+"프로덕션 데이터베이스에 문제가 있는 경우에는 Odoo에 도움을 요청할 수 있으며 `고객 지원 페이지로 이동하여 \" 업그레이드 관련 "
+"문제(프로덕션)\" <https://www.odoo.com/help?stage=migration> 을 선택합니다`_."
 
 #: ../../content/administration/upgrade.rst:399
 msgid "Service-level agreement (SLA)"
@@ -8858,27 +8969,18 @@ msgstr "업그레이드 중에 기존 데이터 및 환경 설정 **정리**"
 
 #: ../../content/administration/upgrade.rst:433
 msgid ""
-"the upgrade of **custom modules created in-house or by third parties**, "
-"including Odoo partners;"
-msgstr "Odoo 파트너를 포함하여, **자체 제작 혹은 타사에서 제작한 맞춤형 모듈** 업그레이드;"
-
-#: ../../content/administration/upgrade.rst:434
-msgid ""
-"lines of **code added to standard modules**, i.e., customizations created "
-"outside the Studio app, code entered manually, and :ref:`automated actions "
-"using Python code <studio/automated-actions/action>`; and"
+"the upgrade of **additional modules not covered by a maintenance contract** "
+"that are created in-house or by third parties, including Odoo partners; and"
 msgstr ""
-"**표준 모듈에 추가된 코드** 줄, 예를 들면 스튜디오 앱 외부에서 커스터마이징한 경우, 수동으로 입력한 코드 및 "
-":ref:`Python 코드를 사용한 자동화 작업 <studio/automated-actions/action>`; 및"
 
-#: ../../content/administration/upgrade.rst:437
+#: ../../content/administration/upgrade.rst:435
 msgid "**training** on using the upgraded version's features and workflows."
 msgstr "업그레이드 버전의 기능 및 작업 흐름 사용에 대한 **교육**."
 
-#: ../../content/administration/upgrade.rst:440
+#: ../../content/administration/upgrade.rst:438
 msgid ":doc:`Odoo.sh documentation <odoo_sh>`"
 msgstr ":doc:`Odoo.sh 참고 문서 <odoo_sh>`"
 
-#: ../../content/administration/upgrade.rst:441
+#: ../../content/administration/upgrade.rst:439
 msgid ":doc:`Supported Odoo versions <supported_versions>`"
 msgstr ":doc:`지원되는 Odoo 버전 <supported_versions>`"

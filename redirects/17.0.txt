@@ -26,6 +26,14 @@ developer/tutorials/getting_started/16_final_word.rst developer/tutorials/server
 # applications/general
 
 applications/general/email_communication/email_servers.rst applications/general/email_communication.rst
+applications/general/iot/config.rst applications/general/iot.rst
+applications/general/iot/config/connect.rst applications/general/iot/connect.rst
+applications/general/iot/config/pos.rst applications/sales/point_of_sale/configuration/pos_iot.rst
+applications/general/iot/config/https_certificate_iot.rst applications/general/iot/iot_advanced/https_certificate_iot.rst
+applications/general/iot/config/updating_iot.rst applications/general/iot/iot_advanced/updating_iot.rst
+applications/general/iot/config/troubleshooting.rst applications/general/iot.rst
+applications/general/iot/config/windows_iot.rst applications/general/iot/windows_iot.rst
+applications/general/iot/config/ssh_connect.rst applications/general/iot/iot_advanced/ssh_connect.rst
 
 # applications/hr
 
@@ -34,6 +42,7 @@ applications/hr/appraisals/reporting.rst applications/hr/appraisals/appraisal_an
 # applications/inventory_and_mrp
 
 applications/inventory_and_mrp/inventory/product_management/product_tracking/type.rst applications/inventory_and_mrp/inventory/product_management/configure/type.rst                                        # product_tracking/type --> configure/type
+applications/inventory_and_mrp/inventory/product_management/inventory_valuation/integrating_landed_costs.rst applications/inventory_and_mrp/inventory/product_management/inventory_valuation/landed_costs.rst        # integrating_landed_costs --> landed costs
 applications/inventory_and_mrp/inventory/warehouses_storage/advanced_operations_warehouse/batch_transfer.rst applications/inventory_and_mrp/inventory/shipping_receiving/picking_methods/batch.rst                   # advanced_operations_warehouse/batch_transfer --> shipping_receiving/picking_methods/batch
 applications/inventory_and_mrp/inventory/warehouses_storage/advanced_operations_warehouse/storage_category.rst applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations/storage_category.rst     # advanced_operations_warehouse/storage_category --> shipping_receiving/daily_operations/storage_category
 applications/inventory_and_mrp/inventory/warehouses_storage/advanced_operations_warehouse/removal.rst applications/inventory_and_mrp/inventory/warehouses_storage/removal_strategies.rst                             # advanced_operations_warehouse/removal --> warehouses_storage/removal_strategies
@@ -49,6 +58,7 @@ applications/inventory_and_mrp/inventory/warehouses_storage/advanced_operations_
 applications/inventory_and_mrp/inventory/warehouses_storage/removal_strategies/lifo.rst applications/inventory_and_mrp/inventory/shipping_receiving/removal_strategies/lifo.rst                            # warehouses_storage/removal_strategies/* --> shipping_receiving/removal_strategies/*
 applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/resupply_warehouses.rst applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/resupply_warehouses.rst                              # inventory_management/resupply_warehouses --> replenishment/resupply_warehouses
 applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/warehouse_replenishment_transfer.rst applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/warehouse_replenishment_transfer.rst    # inventory_management/warehouse_replenishment_transfer --> replenishment/warehouse_replenishment_transfer
+applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/warehouse_replenishment_transfer.rst applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/resupply_warehouses.rst                        # Move all information on resupplying warehouses on one page
 applications/inventory_and_mrp/inventory/shipping_receiving/advanced_operations_shipping/print_on_validation.rst applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/print_on_validation.rst                # shipping_receiving/advanced_operations_shipping/* -> shipping_receiving/setup_configuration/*
 applications/inventory_and_mrp/manufacturing/management/bill_configuration.rst applications/inventory_and_mrp/manufacturing/basic_setup/bill_configuration.rst                              # management/* --> basic_setup/*
 applications/inventory_and_mrp/manufacturing/management/configure_manufacturing_product.rst applications/inventory_and_mrp/manufacturing/basic_setup/configure_manufacturing_product.rst    # management/* --> basic_setup/*
@@ -85,7 +95,6 @@ applications/marketing/marketing_automation/getting_started/first_campaign.rst a
 applications/marketing/marketing_automation/getting_started/target_audience.rst applications/marketing/marketing_automation/target_audience.rst           # getting_started/* --> marketing_automation/*
 applications/marketing/marketing_automation/getting_started/testing_running.rst applications/marketing/marketing_automation/testing_running.rst           # getting_started/* --> marketing_automation/*
 applications/marketing/marketing_automation/getting_started/workflow_activities.rst applications/marketing/marketing_automation/workflow_activities.rst   # getting_started/* --> marketing_automation/*
-applications/marketing/surveys/time_random.rst applications/marketing/surveys/questions.rst   # time_random --> questions
 applications/marketing/social_marketing/essentials.rst applications/marketing/social_marketing.rst                                                        # /marketing/social_marketing/essentials --> /marketing/social_marketing
 applications/marketing/social_marketing/essentials/social_posts.rst applications/marketing/social_marketing/social_posts.rst                              # /marketing/social_marketing/essentials --> /marketing/social_marketing
 applications/marketing/social_marketing/essentials/social_campaigns.rst applications/marketing/social_marketing/social_campaigns.rst                      # /marketing/social_marketing/essentials --> /marketing/social_marketing
@@ -95,12 +104,16 @@ applications/marketing/sms_marketing/essentials/sms_campaign_settings.rst applic
 applications/marketing/sms_marketing/essentials/mailing_lists_blacklists.rst applications/marketing/sms_marketing/mailing_lists_blacklists.rst            # /marketing/sms_marketing/essentials --> /marketing/sms_marketing
 applications/marketing/sms_marketing/pricing.rst applications/marketing/sms_marketing/pricing_and_faq.rst                                                 # /marketing/sms_marketing/pricing --> /marketing/sms_marketing
 applications/marketing/sms_marketing/pricing/pricing_and_faq.rst applications/marketing/sms_marketing/pricing_and_faq.rst                                 # /marketing/sms_marketing/pricing --> /marketing/sms_marketing
+applications/marketing/surveys/essentials.rst applications/marketing/surveys.rst 									  #/marketing/surveys/essentials --> /marketing/surveys
+applications/marketing/surveys/time_random.rst applications/marketing/surveys/questions.rst   # time_random --> questions
 
 # applications/sales
 
 applications/sales/crm/acquire_leads/generate_leads.rst applications/sales/crm/acquire_leads/email_manual.rst                                             #generate_leads --> email_manual
 applications/sales/crm/pipeline/multi_sales_team.rst applications/sales/crm/pipeline/manage_sales_teams.rst                                               # multi_sales_team --> manage_sales_teams
 applications/sales/point_of_sale/pricing/digital_labels.rst applications/sales/point_of_sale/pricing/electronic_labels.rst                                # digital_labels --> electronic_labels
+applications/sales/subscriptions/payment_providers/wire_transfer.rst applications/finance/payment_providers/wire_transfer.rst
+applications/sales/subscriptions/payment_providers/sdd.rst applications/finance/payment_providers/sdd.rst
 
 # applications/services
 
@@ -116,6 +129,15 @@ applications/websites/ecommerce/managing_products/catalog.rst applications/websi
 applications/websites/ecommerce/managing_products/variants.rst applications/websites/ecommerce/products/variants.rst
 applications/websites/ecommerce/managing_products/price_management.rst applications/websites/ecommerce/products/price_management.rst
 applications/websites/ecommerce/managing_products/cross_upselling.rst applications/websites/ecommerce/products/cross_upselling.rst
+applications/websites/ecommerce/ecommerce_management/order_handling.rst applications/websites/ecommerce/order_handling.rst
+applications/websites/ecommerce/ecommerce_management/customer_accounts.rst applications/websites/ecommerce/customer_accounts.rst
+applications/websites/ecommerce/ecommerce_management/customer_interaction.rst applications/websites/website/web_design/building_blocks.rst
+applications/websites/ecommerce/ecommerce_management/performance.rst applications/websites/ecommerce/performance.rst
+applications/websites/ecommerce/checkout_payment_shipping/cart.rst applications/websites/ecommerce/cart.rst
+applications/websites/ecommerce/checkout_payment_shipping/checkout.rst applications/websites/ecommerce/checkout.rst
+applications/websites/ecommerce/checkout_payment_shipping/payments.rst applications/websites/ecommerce/payments.rst
+applications/websites/ecommerce/checkout_payment_shipping.rst applications/websites/ecommerce.rst
+applications/websites/ecommerce/ecommerce_management.rst applications/websites/ecommerce.rst
 
 # applications/finance
 

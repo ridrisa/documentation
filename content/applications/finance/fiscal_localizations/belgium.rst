@@ -244,28 +244,74 @@ Once your **SODA** files are imported, the entries are created automatically in 
 CodaBox
 -------
 
-**CodaBox** is a service that allows Belgian accounting firms to access their clients' bank
+**CodaBox** is a service that allows Belgian companies and accounting firms to access bank
 information and statements. Odoo provides a way to import such statements automatically.
-
-.. note::
-   As an accounting firm, you must manage your clients on separate databases and configure them
-   individually to avoid mixing up their data. The connection must be made by the accounting firm
-   with valid CodaBox Connect credentials.
 
 Configuration
 ~~~~~~~~~~~~~
 
-The configuration must be done on each client database. In the following
-instructions, we will refer to your client's company as *Company* and to your
-accounting firm as *Accounting Firm*.
+To configure and use Codabox, first :ref:`install <general/install>` the :guilabel:`CodaBox` module.
 
-You must first :ref:`install <general/install>` :guilabel:`CodaBox` and
-:guilabel:`CodaBox Bridge Wizard` (if available) to start.
+.. _belgium/codabox-configuration-connection:
 
-.. important::
-   Make sure the company settings are correctly configured, i.e., the country is set to
-   :guilabel:`Belgium`, the :guilabel:`Tax ID` and :guilabel:`Accounting Firm` fields are filled, as
-   well as the :guilabel:`Tax ID` of the :guilabel:`Accounting Firm`.
+Configure the Connection
+************************
+
+.. tabs::
+
+   .. tab:: For companies
+
+      .. important::
+         Make sure the :doc:`company settings </applications/general/companies>` are correctly
+         configured, i.e., the country is set to :guilabel:`Belgium` and the :guilabel:`Tax ID` or
+         :guilabel:`Company ID` field is filled.
+
+      #. Go to :menuselection:`Accounting --> Configuration --> Settings`, then go to the
+         :guilabel:`CodaBox & SODA` section.
+      #. Click on :guilabel:`Manage Connection` to open the connection wizard, which shows the
+         :guilabel:`Company VAT/ID` number that will be used for the connection.
+      #. If this is your **first connection**, click on :guilabel:`Create connection`.
+         The wizard confirms that the connection has been created on **Odoo's side**. Follow the
+         steps to validate the connection on **CodaBox's side** too.
+
+         If this is **not your first connection**, the :guilabel:`Password` provided by
+         Odoo during the first connection will be requested to create a new connection.
+
+            .. note::
+               This :guilabel:`Password` is unique to Odoo and must be stored securely
+               on your side.
+
+   .. tab:: For accounting firms
+      .. note::
+         Accounting firms must manage their clients on separate databases and configure them
+         individually to avoid mixing up their data. The connection must be made by an accounting
+         firm with valid CodaBox Connect credentials.
+         In the following instructions, we will refer to your client's company as *Company* and to
+         your accounting firm as *Accounting Firm*.
+
+      .. important::
+         Make sure the :doc:`company settings </applications/general/companies>` are correctly
+         configured, i.e., the country is set to :guilabel:`Belgium`, the :guilabel:`Tax ID` or
+         :guilabel:`Company ID` and :guilabel:`Accounting Firm` fields are filled, as well as the
+         :guilabel:`Tax ID` of the :guilabel:`Accounting Firm`.
+
+      #. Go to :menuselection:`Accounting --> Configuration --> Settings`, then go to the
+         :guilabel:`CodaBox & SODA` section.
+      #. Click on :guilabel:`Manage Connection` to open the connection wizard, which shows the
+         :guilabel:`Accounting Firm VAT` number and the :guilabel:`Company VAT/ID` number that will
+         be used for the connection.
+      #. If this is your **first connection**, click on :guilabel:`Create connection`. The wizard
+         confirms that the connection has been created on **Odoo's side**. Follow the steps to
+         validate the connection on **CodaBox's side**, too.
+
+         If this is **not your first connection**, the :guilabel:`Accounting Firm Password` provided
+         by Odoo during the first connection will be requested to create a new connection.
+
+            .. note::
+               This :guilabel:`Accounting Firm Password` is unique to Odoo and must be stored
+               securely on your side.
+
+The :guilabel:`Status` should have now switched to :guilabel:`Connected`.
 
 Configure the journals
 **********************
@@ -296,29 +342,6 @@ Configure the journals
       .. image:: belgium/codabox_configuration_soda_setting.png
          :align: center
          :alt: Configuration of a SODA journal.
-
-.. _belgium/codabox-configuration-connection:
-
-Configure the connection
-************************
-
-#. Go to :menuselection:`Accounting --> Configuration --> Settings`, then go to the
-   :guilabel:`CodaBox` section.
-#. Click on :guilabel:`Manage Connection` to open the connection wizard, which shows the
-   :guilabel:`Accounting Firm VAT` number and the :guilabel:`Company VAT` number that will be used
-   for the connection.
-#. If this is your **first connection**, click on :guilabel:`Create connection`.
-   The wizard confirms that the connection has been created on **Odoo's side**. Follow the steps
-   to validate the connection on **CodaBox's side**, too.
-
-   If this is **not your first connection**, the :guilabel:`Accounting Firm Password` provided by
-   Odoo during the first connection will be requested to create a new connection.
-
-      .. note::
-        This :guilabel:`Accounting Firm Password` is unique to Odoo and must be stored securely
-        on your side.
-
-The :guilabel:`Status` should have now switched to :guilabel:`Connected`.
 
 Synchronization
 ~~~~~~~~~~~~~~~
@@ -450,33 +473,8 @@ This government-certified system entails the use of a :ref:`certified POS system
 Certified POS system
 --------------------
 
-The Odoo POS system is certified for the major versions of databases hosted on **Odoo Online** and
-**Odoo.sh**. Please refer to the following table to ensure that your POS system is certified.
-
-.. list-table::
-   :header-rows: 1
-   :stub-columns: 1
-
-   * -
-     - Odoo Online
-     - Odoo.sh
-     - On-Premise
-   * - Odoo 17.0
-     - Certified
-     - Certified
-     - Not certified
-   * - Odoo 16.0
-     - Certified
-     - Certified
-     - Not certified
-   * - Odoo 15.0
-     - Certified
-     - Certified
-     - Not certified
-   * - Odoo 14.0
-     - Certified
-     - Certified
-     - Not certified
+The Odoo POS system is certified for databases hosted on **Odoo Online**, **Odoo.sh**, and
+**On-Premise**.
 
 .. seealso::
    :doc:`/administration/supported_versions`
@@ -580,8 +578,8 @@ provide the following information:
 - your company's name, address, and legal structure; and
 - the Mac address of your IoT Box.
 
-Once your IoT box is certified, :doc:`connect <../../general/iot/config/connect>` it to your
-database. To verify that the IoT Box recognizes the FDM, go to the IoT homepage and scroll down the
+Once your IoT box is certified, :doc:`connect <../../general/iot/connect>` it to your database. To
+verify that the IoT Box recognizes the FDM, go to the IoT homepage and scroll down the
 :guilabel:`IOT Device` section, which should display the FDM.
 
 .. image:: belgium/iot-devices.png

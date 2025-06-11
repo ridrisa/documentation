@@ -12,16 +12,17 @@
 # 山西清水欧度(QQ:54773801) <54773801@qq.com>, 2023
 # Datasource International <Hennessy@datasourcegroup.com>, 2024
 # Wil Odoo, 2024
-# Chloe Wang, 2024
+# Raymond Yu <cl_yu@hotmail.com>, 2024
+# Chloe Wang, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-21 11:43+0000\n"
+"POT-Creation-Date: 2025-02-20 12:15+0000\n"
 "PO-Revision-Date: 2023-11-08 08:57+0000\n"
-"Last-Translator: Chloe Wang, 2024\n"
+"Last-Translator: Chloe Wang, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -111,7 +112,7 @@ msgstr ":ref:`图表 <email_marketing/graph-view>`"
 #: ../../content/applications/marketing/email_marketing.rst:64
 #: ../../content/applications/marketing/email_marketing.rst:736
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:52
-#: ../../content/applications/marketing/surveys.rst:145
+#: ../../content/applications/marketing/surveys.rst:172
 msgid "List view"
 msgstr "列表视图"
 
@@ -1644,194 +1645,376 @@ msgid ""
 "In order to properly understand the success or failure of an email marketing"
 " campaign, it is necessary to monitor several key metrics. The insights "
 "gained from these metrics can then be used to optimize future campaigns. "
-"Odoo's *Email Marketing* application tracks several :ref:`key metrics "
-"<email-marketing/key-metrics>`, that can be interpreted to improve future "
-"campaigns."
+"Odoo's **Email Marketing** application tracks several :ref:`key metrics "
+"<email-marketing/view-metrics>`, that can be interpreted through "
+":ref:`reports <email_marketing/create_reports>` to improve future campaigns."
 msgstr ""
-"为了正确理解电子邮件营销活动的成败，有必要监控几个关键指标。从这些指标中获得的见解可用于优化未来的营销活动。Odoo 的 *电子邮件营销* "
-"应用程序可跟踪多个 :ref:`关键指标 <email-marketing/key-metrics>`，通过解读这些指标，可改进未来的营销活动。"
+"要准确评估邮件营销活动的成效，必须监控多项核心指标。通过对这些指标的数据分析，可有效优化后续营销策略。Odoo **电子邮件营销** 应用程序追踪多个 "
+":ref:`关键指标 <email-marketing/view-metrics>`，可通过 :ref:`报告 "
+"<email_marketing/create_reports>`进行解释，以改进未来的营销活动。"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:13
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:16
 msgid "View metrics"
 msgstr "查看指标"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:15
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:18
 msgid ""
 "After a mass mail has been sent, the results for that particular mailing are"
 " displayed in multiple locations."
 msgstr "群发邮件发出后，该邮件的结果会显示在多个位置。"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:18
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:21
 msgid ""
 "To access the metrics for an individual mailing, navigate to "
 ":menuselection:`Email Marketing app --> Mailings`. Locate the specific "
 "mailing in the list view, and use the column headings to view the results "
 "for that mailing. Click on one of the mailings in the list to open the "
-"record. At the top of the record, detailed metrics are displayed as smart "
-"buttons."
+"record."
 msgstr ""
 "要访问单个邮件的指标，请导航至 :menuselection:`电子邮件营销应用程序 --> "
-"邮件`。在列表视图中找到特定邮件，使用列标题查看该邮件的结果。点击列表中的邮件之一，打开记录。在记录顶部，详细指标以智能按钮的形式显示。"
+"邮件`。在列表视图中找到特定邮件，使用列标题查看该邮件的结果。点击列表中的邮件之一以打开记录。"
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:25
+msgid ""
+"At the top of the record, detailed metrics are displayed as smart buttons."
+msgstr "在记录顶部，详细指标以智能按钮的形式显示。"
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst-1
 msgid ""
 "The smart buttons on a mass mailing, displaying the results of the message."
 msgstr "群发邮件上的智能按钮，显示邮件结果。"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:28
-msgid ""
-"Click on the smart buttons to see the recipient records for each metric."
-msgstr "点击智能按钮，查看每个指标的收件人记录。"
-
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:33
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:32
 msgid "Opened rate"
 msgstr "打开率"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:35
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:34
 msgid ""
-"The *Opened* rate measures the percentage of emails opened by recipients "
-"against the total number of sent emails."
-msgstr "*打开*率衡量的是收件人打开的邮件占发送邮件总数的百分比。"
+"The percentage of emails opened by recipients, against the total number of "
+"sent emails."
+msgstr "收件人打开的邮件占发送邮件总数的百分比。"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:38
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:36
 msgid ""
-"A high open rate may indicate that the subject line was timely, compelling, "
-"and successfully prompted the recipients to view the message."
-msgstr "打开率高可能表明，主题发送及时、引人注目，成功吸引收件人查看邮件。"
+"In cases where a reply is expected, such as cold outreach emails, high open "
+"rate may indicate the subject line was timely, compelling, and successfully "
+"prompted the recipients to view the message."
+msgstr "在需要回复的情况下，例如陌生开发邮件，高打开率可能表明：邮件主题具有时效性、吸引力，并成功促使收件人查看消息。"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:41
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:39
 msgid ""
-"A low open rate may indicate the subject line failed to capture the "
-"recipients' interest. It could also indicate the email ended up in a spam or"
-" junk folder due to having a poor sender reputation or failing to "
-":doc:`configure the proper DNS records "
-"<../../general/email_communication/email_domain>`."
+"In cases where a reply is not expected, such as promotional emails, it may "
+"indicate an issue with the email, such as incorrect product links or coupon "
+"codes."
+msgstr "在无需回复的情况下，例如促销邮件，可能表明邮件存在问题，例如错误的产品链接或优惠码。"
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:42
+msgid ""
+"In cases where a reply is expected, a low open rate may indicate the subject"
+" line failed to capture the recipients' interest or the message ended up in "
+"a spam or junk folder. It could also indicate the email ended up in a spam "
+"or junk folder."
+msgstr "在需要回复的情况下，低打开率可能表明：邮件主题未能吸引收件人兴趣，或邮件被归类至垃圾箱。也可能表明邮件最终进入了垃圾邮件文件夹。"
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:47
+msgid ""
+"Emails that consistently land in recipient spam folders could be due to "
+"having a poor sender reputation (i.e. high unsubscribe rate, high percentage"
+" of past emails marked as spam, etc.), or failing to :doc:`configure the "
+"proper DNS records <../../general/email_communication/email_domain>`."
 msgstr ""
-"打开率低可能表明主题行未能引起收件人的兴趣。这也可能表明，由于发件人信誉不佳或未能 :doc:`配置适当的 DNS 记录 "
-"<.../../general/email_communication/email_domain>`，电子邮件最终被放入垃圾邮件文件夹。"
+"邮件持续进入垃圾箱可能原因包括：发件人信誉差（如高退订率、历史邮件高标记垃圾率等），或未正确 :doc:`配置DNS记录 "
+"<../../general/email_communication/email_domain>`。"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:46
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:53
 msgid "Replied rate"
 msgstr "回复率"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:48
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:55
 msgid ""
-"The *Replied* rate measures the percentage of recipients who responded to "
-"the email directly against the total number of sent emails."
-msgstr "*已回复*率衡量的是直接回复邮件的收件人占发送邮件总数的百分比。"
+"The percentage of recipients who responded to the email, against the total "
+"number of sent emails."
+msgstr "响应邮件的收件人占总发送量的百分比。"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:51
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:57
 msgid ""
 "A high replied rate may indicate the email resonated with recipients, "
 "prompting them to take action or provide feedback."
 msgstr "回复率高可能表明电子邮件引起了收件人的共鸣，促使他们采取行动或提供反馈。"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:54
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:60
 msgid ""
-"A low replied rate may suggest that the message lacked relevance or did not "
-"contain a clear call to action."
-msgstr "回复率低可能表明信息缺乏相关性，或没有明确的行动号召。"
+"A low replied rate may suggest the message lacked relevance or did not "
+"contain a clear call-to-action."
+msgstr "低回复率可能表明：邮件内容相关性不足，或未包含明确的行动号召。"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:58
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:64
 msgid "Clicked rate"
 msgstr "点击率"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:60
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:66
 msgid ""
-"The *Clicked* through rate (CTR), measures the percentage of recipients who "
-"clicked on a link within the email against the total number of sent emails."
-msgstr "*点击*率（CTR）衡量的是点击邮件中链接的收件人占发送邮件总数的百分比。"
+"This represents the *Clicked through rate (CTR)*, which measures the "
+"percentage of recipients who clicked on a link within the email, against the"
+" total number of sent emails."
+msgstr "*点击率（CTR）*：点击邮件内链接的收件人占总发送量的百分比。"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:63
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:70
 msgid ""
 "A high |CTR| may indicate the email content was relevant and appropriately "
 "targeted. Recipients were motivated to click the links provided, and likely "
 "found the content engaging."
 msgstr "高点击率 |CTR| 表明电子邮件内容相关性强，目标受众准确。收件人产生兴趣并点击提供的链接，并且很可能觉得内容吸引人。"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:66
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:73
 msgid ""
 "A low |CTR| may indicate issues with either the targeting, or the content "
-"itself. Recipients may have been unmotivated by the calls to action, if "
+"itself. Recipients may have been unmotivated by the calls-to-action, if "
 "there were any, or the message itself may have been directed toward the "
 "wrong audience."
-msgstr "低点击率 |CTR| 可能表明定位或内容本身存在问题。收件人可能没有被吸引，或者信息本身的目标受众不对。"
+msgstr "低点击率可能反映：定向目标不准确或内容问题。收件人可能对行动号召缺乏兴趣，或邮件受众定位错误。"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:71
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:78
 msgid "Received rate"
 msgstr "接收率"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:73
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:80
 msgid ""
-"The *Received* rate measures the percentage of emails that were successfully"
-" delivered against the total number of sent emails."
-msgstr "*接收*率衡量的是成功送达的邮件占发送邮件总数的百分比。"
+"This rate measures the percentage of emails that were **successfully** "
+"delivered, against the total number of sent emails."
+msgstr "**成功**投递的邮件占总发送量的百分比。"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:76
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:83
 msgid ""
-"A high received rate can indicate that the mailing list used is up to date "
-"and the sender authentication is trusted by email providers."
-msgstr "高接收率表明所使用的邮件列表是最新的，发件人认证也得到了电子邮件提供商的信任。"
-
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:79
-msgid ""
-"A low received rate may indicate issues either with the mailing list used "
-"for the mailing or with the sender authentication. View the :ref:`email-"
-"marketing/deliverability-issues` section for more information."
-msgstr ""
-"接收率低可能表明邮件使用的邮件列表或发件人身份验证存在问题。请查看 :ref:`email-marketing/deliverability-"
-"issues` 部分了解更多信息。"
-
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:84
-msgid "Bounced rate"
-msgstr "退回率"
+"A high received rate can indicate the mailing list used is up-to-date, and "
+"the sender authentication is trusted by email providers."
+msgstr "高接收率可能表明，使用的邮件列表是最新的，且发件人认证已获得邮件服务商的信任。"
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:86
 msgid ""
-"The *Bounced* rate measures the percentage of emails that were "
-"unsuccessfully delivered, against the total number of sent emails."
-msgstr "*退回*率衡量的是发送失败的邮件占发送邮件总数的百分比。"
-
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:89
-msgid ""
-"A high bounce rate could indicate issues either with the mailing list used "
-"for the mailing or with the sender authentication."
-msgstr "高退回率可能表明邮件列表或发件人身份验证存在问题。"
-
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:92
-msgid ""
-"A low bounce rate may indicate that the mailing list used is up to date and "
-"the sender authentication is trusted by email providers. View the "
-":ref:`email-marketing/deliverability-issues` section for more information."
+"A low received rate may indicate issues, either with the mailing list used "
+"for the mailing, or with the sender authentication. View the :ref:`email-"
+"marketing/deliverability-issues` section for more information."
 msgstr ""
-"退回率低表明所使用的邮件列表是最新的，发件人验证也得到了电子邮件提供商的信任。请查看 :ref:`email-"
-"marketing/deliverability-issues` 部分了解更多信息。"
+"低接收率可能反映，使用的邮件列表存在问题，或发件人认证未通过。更多信息请查看 :ref:`email-marketing/deliverability-"
+"issues>`章节。"
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:91
+msgid "Bounced rate"
+msgstr "退回率"
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:93
+msgid ""
+"This rate measures the percentage of emails that were **unsuccessfully** "
+"delivered, and did not enter a recipient's inbox, against the total number "
+"of sent emails."
+msgstr "**未成功**投递且未进入收件箱的邮件占总发送量的百分比。"
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:96
+msgid ""
+"A high bounce rate could indicate issues, either with the mailing list used "
+"for the mailing, or with the sender authentication."
+msgstr "高退信率可能表明，使用的邮件列表存在问题，或发件人认证未通过。"
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:99
+msgid ""
+"A low bounce rate may indicate that the mailing list used is up-to-date, and"
+" the sender authentication is trusted by email providers. View the "
+":ref:`email-marketing/deliverability-issues` section for more information."
+msgstr ""
+"低退信率可能反映，使用的邮件列表是最新的，且发件人认证已获得邮件服务商的信任。更多信息请查看 :ref:`email-"
+"marketing/deliverability-issues>` 章节。"
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:104
+msgid ""
+"Click on the respective smart buttons to see all the corresponding recipient"
+" records that are attributed to each metric. When these filtered records are"
+" in view, multiple types of reports can be run for further analysis."
+msgstr "点击相应智能按钮查看各指标对应的收件人记录。查看这些筛选记录时，可运行多种报告进行深入分析。"
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:111
+msgid "Create metrics reports"
+msgstr "创建指标报告"
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:113
+msgid ""
+"Individual metrics can be analyzed by creating a report. To begin, click on "
+"the smart button of the desired metric."
+msgstr "可以通过创建报告来分析单个指标。首先，点击所需指标的智能按钮。"
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:116
+msgid ""
+"Next, click the :icon:`fa-caret-down` :guilabel:`(down arrow)` to the right "
+"of the search bar to see a drop-down menu of filtering and grouping "
+"parameters."
+msgstr "接下来，点击搜索栏右侧的 :icon:`fa-caret-down`:`（向下箭头）`，即可看到筛选和分组参数的下拉菜单。"
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:119
+msgid ""
+":guilabel:`Filters`, located in the left column of the search options, can "
+"be used to keep only the results that fit the filter. For example, selecting"
+" the *Bounced* filter only shows emails that could not be delivered."
+msgstr "位于搜索选项左栏的 :guilabel:`筛选项` 可以用来只保留符合筛选条件的结果。例如，选择 *已退回* 筛选器仅显示无法送达的邮件。"
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:123
+msgid ""
+":guilabel:`Group By`, found in the middle column, is used to organize the "
+"results into groups, and can be used with or without filters."
+msgstr ":guilabel:`分组方式` 位于中间列，用于将结果组织成组，并且可以使用或不使用筛选器。"
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:127
+msgid ""
+"Setting multiple :guilabel:`Group By` options creates nested groups, "
+"according to which option is selected first. For example, selecting "
+":guilabel:`Sent Period`, followed by :guilabel:`Add Custom Group --> "
+"Responsible`, in the :guilabel:`Group By` column, sorts all results *first* "
+"by the sent period, *then* by the team member responsible. This is a useful "
+"metric for analyzing who on the team is sending in volume or quantity over a"
+" set time period."
+msgstr ""
+"设置多个 :guilabel:`分组方式` 选项会根据先选择的选项创建嵌套组。例如，在 :guilabel:`分组方` 列中选择 "
+":guilabel:`发送周期`，然后选择 :guilabel:`添加自定义组 --> "
+"负责人`，所有结果*先*按发送时间排序，*后*按负责的团队成员排序。这是一个有用的指标，可用于分析团队成员在设定时间段内的邮件发送量。"
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:133
+msgid ""
+"This can be verified by looking at the direction, and order, of the "
+"selections in the group tile that appears in the search bar after the "
+"selections are made."
+msgstr "可通过查看搜索栏中分组标签的选择方向和顺序来验证这一点，该标签在选择后即会显示。"
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:137
+msgid ""
+"A monthly newsletter has been sent out, and 6.9% of the sent emails were "
+"bounced."
+msgstr "已发送月度简报，其中6.9%的邮件被退回。"
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:0
+msgid "The metrics smart buttons of the newsletter."
+msgstr "简报的指标智能按钮。"
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:143
+msgid ""
+"To see what these bounced recipients have in common, the records are grouped"
+" using a custom group targeting :guilabel:`Mailing Lists`, which groups all "
+"records by the mailing lists they are on. The records are then filtered "
+"using a custom filter with the rule `Created on >= 07/01/2024 00:00:00`, to "
+"filter by when the mailing list was last checked. This filter only includes "
+"recipients that have been created on, or after, July 1st, 2024, in the "
+"report."
+msgstr ""
+"要查看这些被退回的收件人有哪些共同点，可使用自定义分组 :guilabel:`邮件列表` "
+"对记录进行分组，该分组根据记录所在的邮件列表对所有记录进行分组。然后使用规则为 `创建于 >= 07/01/2024 00:00:00` "
+"的自定义筛选器对记录进行筛选，以筛选邮件列表最后一次被检查的时间。该筛选器仅将 2024 年 7 月 1 日或之后创建的收件人包含在报告中。"
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:0
+msgid "The custom filter creation form."
+msgstr "自定义筛选器创建表单。"
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:153
+msgid ""
+"Using these configurations, it is evident that all the recipients with "
+"bounced emails were added after the list was last checked. Looking closer at"
+" the domains, it is evident that each recipient has a malformed email domain"
+" (i.e: @yaoo.com instead of @yahoo.com), likely due to a manual entry error "
+"while updating the database."
+msgstr ""
+"通过这些配置，可以发现所有被退回邮件的收件人都是在上次检查列表后添加的。仔细查看域名，可以发现每个收件人的电子邮件域名都有误（例如：@yaoo.com "
+"而不是 @yahoo.com），这很可能是由于更新数据库时手动输入错误造成的。"
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:0
+msgid "A list of bounced email addresses with malformed email domains."
+msgstr "包含错误电子邮件域的被退回电子邮件地址列表。"
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:163
+msgid ""
+"View :doc:`../../essentials/search` for more information about making custom"
+" groups and filters."
+msgstr "查看 :doc:`../../essentials/search` 获取更多有关自定义分组和筛选器的信息。"
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:169
+msgid "Mass mailing analysis"
+msgstr "群发邮件分析"
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:171
+msgid ""
+"It is also possible to analyze the success between mailing campaigns by "
+"creating a *Mass Mailing Analysis* report. To begin, navigate to "
+":menuselection:`Email Marketing app --> Reporting --> Mass Mailing "
+"Analysis`."
+msgstr ""
+"还可以通过创建*群发邮件分析*报告来分析邮件营销活动的成功与否。首先，导航至 :menuselection:`电子邮件营销应用程序 --> 报告 -->"
+" 邮件群发分析`。"
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:175
+msgid ""
+"A dashboard appears displaying a bar chart containing each mailing campaign."
+" By default, :guilabel:`Sent` is selected, displaying the number of sent "
+"records on the y-axis. To change the measure, click the :guilabel:`Measures`"
+" button, and select the desired measure from the drop-down menu."
+msgstr ""
+"此时会出现一个仪表板，显示包含每个邮件活动的条形图。默认情况下，选择 :guilabel:`已发送`，在 Y "
+"轴上显示已发送记录的数量。要更改测量值，请点击 :guilabel:`度量` 按钮，然后从下拉菜单中选择所需的测量值。"
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:181
+msgid ""
+"The following chart displays the number of opened emails from two different "
+"mass mailings."
+msgstr "下图显示了两种不同群发邮件的打开数量。"
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:183
+msgid ""
+"In this view, it can be seen that the first mass mailing led to a higher "
+"opened rate than the second. Because a lower opened rate can sometimes be "
+"attributed to a subject line that failed to capture readers' attention, the "
+"subject line of each mass mailing can be a good place to begin looking."
+msgstr ""
+"从图中可以看出，第一封群发邮件的打开率高于第二封。由于打开率较低有时可能是由于主题行未能吸引读者的注意力，因此可以从每封群发邮件的主题行入手进行研究。"
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:0
+msgid ""
+"A bar chart displaying the different opened rate between two mass mailing "
+"campaigns."
+msgstr "显示两个群发邮件活动打开率不同的条形图。"
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:192
+msgid ""
+"Comparing the two subject lines, it is clear the newsletter's subject line "
+"was less engaging, which may have led to the lower opened rate, when "
+"compared to the other mass mailing."
+msgstr "比较这两个标题， 很明显，与其他群发邮件相比，时事通讯的标题没有那么吸引人，这可能是导致打开率较低的原因。"
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:0
+msgid "alt text"
+msgstr ""
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:200
 msgid "Deliverability issues"
 msgstr "送达问题"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:101
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:202
 msgid ""
 "The following define possible reasons for a high bounce rate or low received"
 " rate:"
 msgstr "以下是退回率高或接收率低的可能原因："
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:103
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:204
 msgid ""
 "Using a mailing list that contains outdated contact information, or "
 "malformed email addresses are likely to result in a high bounce rate and/or "
 "a low received rate."
 msgstr "使用包含过时联系信息或畸形电子邮件地址的邮件列表，很可能会导致高退回率和/或低接收率。"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:105
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:206
 msgid ""
 "Mailings sent using a *From* email address that differs from the sender's "
 "domain are likely to bounce with certain email providers due to failing "
 ":ref:`DMARC authentication <email-domain-dmarc>`."
 msgstr ""
+"使用与*发件人*域名不同的发件邮箱地址发送邮件，可能因未通过 :ref:`DMARC认证<email-domain-dmarc>` "
+"而被某些邮件服务商退回。"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:108
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:209
 msgid ""
 "Failing to :doc:`configure the proper DNS records "
 "<../../general/email_communication/email_domain>` can also result in a high "
@@ -1840,11 +2023,11 @@ msgstr ""
 "未能 :doc:`配置正确的 DNS 记录 <../../general/email_communication/email_domain>` "
 "也会导致高退回率。"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:112
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:213
 msgid ":ref:`Mailing campaigns <email_marketing/mailing-campaigns>`"
 msgstr ":ref:`邮件活动 <email_marketing/mailing-campaigns>`"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:113
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:214
 msgid ":doc:`Manage unsubscriptions <unsubscriptions>`"
 msgstr ":doc:`管理取消订阅<unsubscriptions>`"
 
@@ -2679,6 +2862,8 @@ msgid ""
 "template form, which can be filled out by following steps explained in the "
 ":doc:`SMS Marketing doc <../sms_marketing>`."
 msgstr ""
+"点击 :guilabel:`发送短信` 会显示一个单独页面，其中有一个空白的 SMS 模板表单，可按照 :doc:`SMS 电子营销文档 "
+"<../sms_marketing>` 中说明的步骤填写。"
 
 #: ../../content/applications/marketing/email_marketing/mailing_lists.rst:44
 msgid ""
@@ -3306,6 +3491,8 @@ msgid ""
 "about events (and their attendees), which can then be used to improve "
 "decision-making and event-planning."
 msgstr ""
+"探索 Odoo **活动** "
+"详细仪表板的各个方面以及有用的设置，利用这些设置可以生成和收集有关活动（及其参加者）的宝贵数据，然后用于改进决策和活动规划。"
 
 #: ../../content/applications/marketing/events.rst:12
 msgid "`Odoo Tutorials: Events <https://www.odoo.com/slides/surveys-63>`_"
@@ -3323,6 +3510,8 @@ msgid ""
 ":guilabel:`Events` dashboard in the upper-right corner, via a series of "
 "view-related icon buttons."
 msgstr ""
+"打开 **活动** 应用程序后，Odoo 将显示 :guilabel:`活动` 主仪表板，可通过多种不同方式查看该仪表板。可通过右上角的 "
+":guilabel:`活动` 仪表板中的一系列视图相关图标按钮访问这些不同的视图选项。"
 
 #: ../../content/applications/marketing/events.rst:63
 msgid ""
@@ -3401,6 +3590,8 @@ msgid ""
 " here, tick the checkboxes beside the desired settings and/or features, and "
 "click :guilabel:`Save` to activate them."
 msgstr ""
+"要访问 Odoo **活动** 中的活动设置和功能选项，请导航至 :menuselection:`活动应用程序 --> 配置 --> "
+"设置`。在此，勾选所需设置和/或功能旁边的复选框，然后点击 :guilabel:`保存` 以激活它们。"
 
 #: ../../content/applications/marketing/events.rst:106
 msgid "Events section"
@@ -3412,6 +3603,8 @@ msgid ""
 "are selectable features that can be enabled to add various elements to "
 "events created with the Odoo **Events** application."
 msgstr ""
+"在:guilabel:`设置` 页面的:guilabel:`活动` 部分，可启用一些可选功能，为使用 Odoo **活动** "
+"应用程序创建的事件添加各种元素。"
 
 #: ../../content/applications/marketing/events.rst-1
 msgid ""
@@ -3567,7 +3760,7 @@ msgstr "创建活动"
 msgid ""
 "With Odoo **Events**, events can be manually created from scratch or built "
 "off of pre-made templates."
-msgstr ""
+msgstr "使用 Odoo **活动**，可以从头开始手动创建活动，也可以根据预制模板创建活动。"
 
 #: ../../content/applications/marketing/events.rst:184
 msgid ""
@@ -3576,6 +3769,8 @@ msgid ""
 "for attendees, the **Sales** app for the purchasing ability of paid tickets,"
 " and the **CRM** application through customizable lead generation rules."
 msgstr ""
+"启动后，**活动** 应用程序将与 **网站** 应用程序集成，用于前端推广和与会者注册活动，**销售** "
+"应用程序用于购买付费门票，**客户关系管理** 应用程序则通过可定制的潜在客户生成规则进行整合。"
 
 #: ../../content/applications/marketing/events.rst:189
 msgid ":doc:`events/create_events`"
@@ -3627,7 +3822,7 @@ msgstr "活动模板"
 msgid ""
 "Learn the process to customize and configure event templates, which can be "
 "used to expedite the event-creation process."
-msgstr ""
+msgstr "了解自定义和配置活动模板的流程，这些模板可用于加快活动创建流程。"
 
 #: ../../content/applications/marketing/events.rst:219
 msgid ":doc:`events/event_templates`"
@@ -3642,55 +3837,55 @@ msgstr "活动展位"
 msgid ""
 "Explore the various ways to create, manage, and sell event booths with the "
 "Odoo **Events** application."
-msgstr ""
+msgstr "探索使用 Odoo **活动** 应用程序创建、管理和销售活动展位的各种方法。"
 
 #: ../../content/applications/marketing/events.rst:228
 msgid ":doc:`events/event_booths`"
-msgstr ""
+msgstr ":doc:`events/event_booths`"
 
 #: ../../content/applications/marketing/events.rst:231
 #: ../../content/applications/marketing/events/event_tracks.rst:3
 msgid "Event tracks"
-msgstr ""
+msgstr "活动专题"
 
 #: ../../content/applications/marketing/events.rst:233
 msgid ""
 "Find out how to create, manage, and schedule different experiences (aka "
 "*Tracks*) for events with Odoo."
-msgstr ""
+msgstr "了解如何使用 Odoo 为活动创建、管理和安排不同的体验（又称 *专题*）。"
 
 #: ../../content/applications/marketing/events.rst:237
 msgid ":doc:`events/event_tracks`"
-msgstr ""
+msgstr ":doc:`events/event_tracks`"
 
 #: ../../content/applications/marketing/events.rst:240
 msgid "Registration desk"
-msgstr ""
+msgstr "登记处"
 
 #: ../../content/applications/marketing/events.rst:242
 msgid ""
 "Grant access to event attendees quickly and easily with the Odoo **Events** "
 "*Registration Desk* feature."
-msgstr ""
+msgstr "利用 Odoo **活动** *登记处* 功能，快速、轻松地向活动参与者授予访问权限。"
 
 #: ../../content/applications/marketing/events.rst:246
 msgid ":doc:`events/registration_desk`"
-msgstr ""
+msgstr ":doc:`events/registration_desk`"
 
 #: ../../content/applications/marketing/events.rst:249
 #: ../../content/applications/marketing/events/revenues_report.rst:3
 msgid "Revenues report"
-msgstr ""
+msgstr "收入报告"
 
 #: ../../content/applications/marketing/events.rst:251
 msgid ""
 "Gain invaluable insight into event-related revenues with customizable "
 "reports and metrics."
-msgstr ""
+msgstr "通过可定制的报告和指标，深入了解与活动相关的收入。"
 
 #: ../../content/applications/marketing/events.rst:254
 msgid ":doc:`events/revenues_report`"
-msgstr ""
+msgstr ":doc:`events/revenues_report`"
 
 #: ../../content/applications/marketing/events/create_events.rst:5
 msgid ""
@@ -3813,15 +4008,17 @@ msgstr ""
 
 #: ../../content/applications/marketing/events/create_events.rst:65
 msgid ""
-":guilabel:`Date`: when the event is scheduled to take place. This field is "
-"auto-populated, but modifiable, and is **required**."
-msgstr ":guilabel:`日期`：活动计划发生的时间。此字段为自动填充，但可修改，并且是**必填**。"
+":guilabel:`Date`: when the event is scheduled to take place (expressed in "
+"your local timezone). This field is auto-populated, but modifiable, and is "
+"**required**."
+msgstr ":guilabel:`日期`：事件计划发生的时间（以当地时区表示）。此字段为自动填充，但可修改，并且是**必填**。"
 
 #: ../../content/applications/marketing/events/create_events.rst:67
 msgid ""
-":guilabel:`Timezone`: the corresponding timezone related to the event. This "
-"field is auto-populated, but modifiable, and is **required**."
-msgstr ":guilabel:`时区`：与事件相关的相应时区。此字段为自动填充，但可修改，并且是**必填**。"
+":guilabel:`Display Timezone`: the timezone in which the event dates/times "
+"will be displayed on the website. This field is auto-populated, but "
+"modifiable, and is **required**."
+msgstr ":guilabel:`显示时区`：网站上显示活动日期/时间的时区。此字段为自动填充，但可修改，且为**必填**。"
 
 #: ../../content/applications/marketing/events/create_events.rst:69
 msgid ""
@@ -3911,6 +4108,8 @@ msgid ""
 "a stream on the application. To learn more, check out the :doc:`Social "
 "Marketing <../social_marketing>` documentation."
 msgstr ""
+"只有在安装了 *社会营销* 应用程序，且 X 帐户已添加为应用程序流的情况下，该 :guilabel:`推特墙` "
+"字段才会出现在事件表单中。要了解更多信息，请查看 :doc:`社媒营销 <../social_marketing>` 文档。"
 
 #: ../../content/applications/marketing/events/create_events.rst:108
 msgid ""
@@ -4641,6 +4840,8 @@ msgid ""
 "200. To learn more about daily limits, visit the :ref:`email-issues-"
 "outgoing-delivery-failure-messages-limit` documentation."
 msgstr ""
+"从 Odoo 发送电子邮件受每日限额限制，默认为 200。要了解有关每日限制的更多信息，请访问 :ref:`email-issues-outgoing-"
+"delivery-failure-messages-limit` 文档。"
 
 #: ../../content/applications/marketing/events/create_events.rst:430
 #: ../../content/applications/marketing/events/event_tracks.rst:310
@@ -4686,6 +4887,9 @@ msgid ""
 "<../../inventory_and_mrp/inventory/product_management/configure/type>` "
 "becomes available on all product forms: *Event Booth*."
 msgstr ""
+"激活 :guilabel:`展位管理` 设置后，所有产品表单上都会出现一个新的 :doc:`产品类型 "
+"<.../../inventory_and_mrp/inventory/product_management/configure/type>` "
+"：*活动展位*。"
 
 #: ../../content/applications/marketing/events/event_booths.rst:26
 msgid ""
@@ -5583,13 +5787,13 @@ msgstr ""
 msgid ""
 "There is also the option to add a photo/visual representation of the booth "
 "category, via the :guilabel:`(camera)` icon in the upper-right corner."
-msgstr ""
+msgstr "还可通过右上角的 :guilabel:`(camera)` 图标添加展位类别的照片/视觉效果。"
 
 #: ../../content/applications/marketing/events/event_templates.rst:175
 msgid ""
 "When all desired configurations are complete, click the :guilabel:`Save & "
 "Close` button."
-msgstr ""
+msgstr "完成所有所需配置后，点击 :guilabel:`保存并关闭` 按钮。"
 
 #: ../../content/applications/marketing/events/event_templates.rst:177
 msgid ""
@@ -5597,6 +5801,8 @@ msgid ""
 ":menuselection:`Events app --> Configuration --> Booth Categories`, and "
 "clicking :guilabel:`New`."
 msgstr ""
+"通过导航到 :menuselection:`活动应用程序 --> 配置 --> 展位类别`，然后点击 "
+":guilabel:`新建`，可以使用相同的配置和选项。"
 
 #: ../../content/applications/marketing/events/event_templates.rst:180
 msgid ""
@@ -5605,13 +5811,16 @@ msgid ""
 " :guilabel:`Product`, and :guilabel:`Price`) autopopulate, based on "
 "information configured for that selected :guilabel:`Booth Category`."
 msgstr ""
+"选择所需的 :guilabel:`展位类别` 后，:guilabel:`创建展位` "
+"弹出窗口中的其余字段（:guilabel:`货币`、:guilabel:`产品`  和 :guilabel:`价格`）将根据为所选 "
+":guilabel:`展位类别` 配置的信息自动填充。"
 
 #: ../../content/applications/marketing/events/event_templates.rst:186
 msgid ""
 "These fields **cannot** be modified from the :guilabel:`Create Booths` pop-"
 "up window. They can only be modified from the specific booth category form "
 "page."
-msgstr ""
+msgstr "这些字段**不能**从 :guilabel:`创建展位` 弹出窗口修改。只能在特定展位类别表格页面修改。"
 
 #: ../../content/applications/marketing/events/event_templates.rst:189
 msgid ""
@@ -5622,28 +5831,31 @@ msgid ""
 ":guilabel:`Discard` to remove all changes, and return to the event template "
 "form."
 msgstr ""
+"完成所有所需配置后，点击 :guilabel:`保存并关闭` 保存展位，并返回活动模板表单。或者，点击 :guilabel:`保存并新建` "
+"保存展位，并在新的 :guilabel:`创建展位` 弹出窗口中开始创建另一个展位。点击 :guilabel:`丢弃` "
+"删除所有更改，并返回活动模板表单。"
 
 #: ../../content/applications/marketing/events/event_templates.rst:194
 msgid ""
 "Once the booth has been saved, it appears in the :guilabel:`Booths` tab on "
 "the event template form."
-msgstr ""
+msgstr "保存展位后，它就会出现在活动模板表单的 :guilabel:`展位` 选项卡中。"
 
 #: ../../content/applications/marketing/events/event_templates.rst:197
 msgid "Use event templates"
-msgstr ""
+msgstr "使用活动模板"
 
 #: ../../content/applications/marketing/events/event_templates.rst:199
 msgid ""
 "Once an event template is complete, it is accessible on all event forms in "
 "the Odoo *Events* application."
-msgstr ""
+msgstr "活动模板完成后，可在 Odoo *活动* 应用程序中的所有活动表单上进行访问。"
 
 #: ../../content/applications/marketing/events/event_templates.rst:202
 msgid ""
 "To use an event template, navigate to the :menuselection:`Events app` and "
 "click :guilabel:`New` to open a new event form."
-msgstr ""
+msgstr "要使用活动模板，请导航至 :menuselection:`活动应用程序` 并点击 :guilabel:`新建` 以打开新的活动表单。"
 
 #: ../../content/applications/marketing/events/event_templates.rst:205
 msgid ""
@@ -5652,40 +5864,42 @@ msgid ""
 "they are listed in on the *Event Templates* page (:menuselection:`Events app"
 " --> Configuration --> Event Templates`)."
 msgstr ""
+"在活动表单中，单击 :guilabel:`模板` 字段可显示数据库中的所有现有活动模板。它们的显示顺序与 *活动模板* "
+"页面（:menuselection:`活动应用程序 --> 配置 --> 活动模板`）中列出的顺序相同。"
 
 #: ../../content/applications/marketing/events/event_templates.rst:209
 msgid ""
 "Select the desired event template from the :guilabel:`Template` drop-down "
 "field on the event form. Pre-configured settings automatically populate the "
 "event form, saving time during the event creation process."
-msgstr ""
+msgstr "从事件表单的 :guilabel:`模板` 下拉字段中选择所需的事件模板。预配置设置会自动填充事件表单，从而节省事件创建过程中的时间。"
 
 #: ../../content/applications/marketing/events/event_templates.rst:213
 msgid ""
 "Any of these pre-configured settings related to the selected event template "
 "chosen in the :guilabel:`Template` field on an event form can be modified, "
 "as desired."
-msgstr ""
+msgstr "与事件表单中 :guilabel:`模板` 字段所选事件模板相关的任何这些预配置设置都可以根据需要进行修改。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:5
 msgid ""
 "Odoo *Events* provides the ability to create, schedule, and manage talks, "
 "lectures, demonstrations, presentations, etc., which known as *Tracks* in "
 "Odoo."
-msgstr ""
+msgstr "Odoo *活动* 提供创建、安排和管理会谈、讲座、演示、介绍等的功能，在 Odoo 中称为 *专题* 。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:8
 msgid ""
 "The Odoo *Events* application also has an option to allow event attendees to"
 " propose talks (tracks) for an event, which can then be approved (or "
 "disapproved)."
-msgstr ""
+msgstr "Odoo *活动* 应用程序还有一个选项，允许活动参加者为活动提议讲座（专题），然后可以批准（或不批准）。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:14
 msgid ""
 "First, there are some settings that need to be enabled, in order to get the "
 "most out of event tracks."
-msgstr ""
+msgstr "首先，需要启用一些设置，以便充分利用活动专题。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:17
 msgid ""
@@ -5694,32 +5908,34 @@ msgid ""
 "setting. Doing so provides the ability to manage and publish an event "
 "schedule with various tracks."
 msgstr ""
+"要执行此操作，请导航至 :menuselection:`活动应用程序 --> 配置 --> 设置`，然后勾选 :guilabel:`时间表和专题` "
+"设置旁边的复选框。这样就可以管理和发布带有各种专题的活动日程。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:21
 msgid ""
 "Also, when that setting checkbox is ticked, two additional setting options "
 "appear beneath it: :guilabel:`Live Broadcast` and :guilabel:`Event "
 "Gamification`."
-msgstr ""
+msgstr "此外，勾选该设置复选框后，其下方会出现另外两个设置选项：:guilabel:`现场直播`和 :guilabel:`活动游戏化`。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst-1
 msgid ""
 "The Schedule and Tracks setting in the Odoo Events app, along with "
 "corresponding options."
-msgstr ""
+msgstr "Odoo 活动应用程序中的日程和专题设置，以及相应的选项。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:28
 msgid ""
 "The :guilabel:`Live Broadcast` option provides the ability to air tracks "
 "online through a *YouTube* integration."
-msgstr ""
+msgstr ":guilabel:`现场直播` 选项提供了通过 *YouTube* 整合在线播放曲目的功能。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:31
 msgid ""
 "The :guilabel:`Event Gamification` options provides the ability to share a "
 "quiz with track attendees once the track is over, in order to test how much "
 "they learned."
-msgstr ""
+msgstr ":guilabel:`活动游戏化` 选项提供了在活动结束后与活动参与者分享测验的功能，以了解参与者学到多少知识。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:35
 msgid ""
@@ -5728,17 +5944,19 @@ msgid ""
 "create a quiz <events/track-add-quiz>` specific to the topic related to that"
 " particular track."
 msgstr ""
+"启用 :guilabel:`活动游戏化` 设置后，轨道表单上会出现一个 :guilabel:`添加测验` 按钮，可以 "
+":ref:`快速创建测验<events/track-add-quiz>` 针对与特定轨道相关的主题。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:39
 msgid ""
 "Once all desired settings have been enabled, be sure to click the "
 ":guilabel:`Save` button in the upper-left corner of the :guilabel:`Settings`"
 " page."
-msgstr ""
+msgstr "启用所有所需设置后，请务必点击 :guilabel:`设置` 页面左上角的 :guilabel:`保存` 按钮。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:43
 msgid "Event Tracks page"
-msgstr ""
+msgstr "活动专题页面"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:45
 msgid ""
@@ -5746,6 +5964,8 @@ msgid ""
 "preconfigured event, or :doc:`create a new one <create_events>` from the "
 "*Events* application."
 msgstr ""
+"要访问、修改和/或创建活动的专题，首先要导航到预配置的活动，或从 *活动* 应用程序 :doc:`新建<create_events>` "
+"中创建一个新的活动。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:48
 msgid ""
@@ -5753,12 +5973,14 @@ msgid ""
 "pre-existing event from the :guilabel:`Events` dashboard, or create a new "
 "one by clicking :guilabel:`New`."
 msgstr ""
+"要执行此操作，请导航至 :menuselection:`活动应用程序`，然后从 :guilabel:`活动` 面板中选择一个已存在的事件，或点击 "
+":guilabel:`新建` 创建一个新事件。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:51
 msgid ""
 "Once on the desired event form, click into the :guilabel:`Tracks` smart "
 "button at the top of the form."
-msgstr ""
+msgstr "进入所需活动表单后，点击表单顶部的 :guilabel:`专题` 智能按钮。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:55
 msgid ""
@@ -5766,6 +5988,8 @@ msgid ""
 ":guilabel:`More` :icon:`fa-sort-desc` drop-down menu to reveal hidden smart "
 "buttons. Then, click :guilabel:`Tracks` from the resulting drop-down menu."
 msgstr ""
+"如果没有 :guilabel:`专题` 智能按钮，请点击 :guilabel:`更多` :icon:`fa-sort-desc` "
+"下拉菜单以显示隐藏的智能按钮。然后，点击下拉菜单中的 :guilabel:`专题`。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:59
 msgid ""
@@ -5773,10 +5997,12 @@ msgid ""
 "Tracks` page for that particular event, which presents all the tracks (both "
 "scheduled and proposed) for the event, if there are any."
 msgstr ""
+"点击 :guilabel:`专题` 智能按钮后，将显示该特定活动的 :guilabel:`活动专题` "
+"页面，其中将显示该活动的所有专题（包括计划专题和建议专题）（如有）。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst-1
 msgid "Typical event tracks page for an event in the Odoo Events application."
-msgstr ""
+msgstr "Odoo 活动应用程序中一个活动的典型活动跟踪页面。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:67
 msgid ""
@@ -5788,6 +6014,11 @@ msgid ""
 ":icon:`fa-clock-o` :guilabel:`(Activity)` view. All of which are accessible "
 "in the upper-right corner of the :guilabel:`Tracks` page."
 msgstr ""
+"这些专题显示在默认 :icon:`oi-view-kanban` :guilabel:`(看板)` 视图中，但也可以选择在 :icon:`oi-"
+"view-list` 中查看这些轨道： guilabel:`(列表)`、:icon:`oi-view-cohort` :guilabel:`(甘特图)`"
+" 图表、:icon:`fa-calendar-check-o` :guilabel:`(日历)`、:icon:`fa-area-chart` "
+":guilabel:`(图表)` 或 :icon:`fa-clock-o` :guilabel:`(活动)` 视图。所有这些都可以在 "
+":guilabel:`专题` 页面的右上角访问。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:74
 msgid ""
@@ -5798,6 +6029,9 @@ msgid ""
 ":guilabel:`Cancelled` (collapsed stage). All of which can be edited, if "
 "needed."
 msgstr ""
+"在默认的 :icon:`oi-view-kanban` :guilabel:`(看板)` 视图中，专题被分为不同的阶段。默认的阶段包括： "
+":guilabel:`提案`、 :guilabel:`已确认`、:guilabel:`已宣布`、:guilabel:`已发布`、 "
+":guilabel:`已拒绝` （折叠阶段），以及 :guilabel:`已取消` （折叠阶段）。如需，所有这些都可以编辑。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:80
 msgid ""
@@ -5805,32 +6039,34 @@ msgid ""
 ":guilabel:`(Settings)` icon, and select :guilabel:`Edit` from the resulting "
 "drop-down menu."
 msgstr ""
+"要编辑阶段，请将鼠标悬停在阶段名称上，点击 :icon:`fa-cog` :guilabel:`(设置)` 图标，然后从出现的下拉菜单中选择 "
+":guilabel:`编辑`。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:83
 msgid ""
 "Clicking into a track from the :guilabel:`Event Tracks` page reveals the "
 "track form for that particular track."
-msgstr ""
+msgstr "从 :guilabel:`活动专题` 页面点击进入一个专题，就会显示该专题的专题表单。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:87
 msgid "Create event track"
-msgstr ""
+msgstr "创建活动专题"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:89
 msgid ""
 "From the :guilabel:`Event Tracks` page, click :guilabel:`New` in the upper-"
 "left corner to reveal a blank event track form to create an event track."
-msgstr ""
+msgstr "在 :guilabel:`活动专题` 页面，点击左上角的 :guilabel:`新建`，显示空白的活动追踪表单，以创建活动追踪。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst-1
 msgid "Typical event track form in the Odoo Events application."
-msgstr ""
+msgstr "Odoo 活动应用程序中的典型活动追踪表单。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:96
 msgid ""
 "Start by giving this track a :guilabel:`Title`. This field is **required** "
 "by Odoo."
-msgstr ""
+msgstr "首先为该专题设置 :guilabel:`标题`。该字段是 Odoo 的**必填**字段。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:98
 msgid ""
@@ -5841,12 +6077,15 @@ msgid ""
 "This image appears on the front-end of the event website, on this specific "
 "tracks webpage."
 msgstr ""
+"然后，如果需要，可通过 :icon:`fa-pencil`(铅笔)`(guilabel:`(铅笔)`) "
+"图标为轨道添加附带的图像，当光标停留在表格右上角的 :icon:`fa-camera`(相机)`(guilabel:`(相机)`) "
+"图标上时，该图标就会出现。点击后，继续上传轨道所需的图像。该图片将显示在活动网站的前端，即该特定赛道的网页上。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:104
 msgid ""
 "Next, enter a :guilabel:`Track Date` and time for the track, and designate a"
 " :guilabel:`Location` where the talk is planning to be held."
-msgstr ""
+msgstr "然后，输入 :guilabel:`讲座日期` 和时间，并指定计划举行讲座的 :guilabel:`位置` 地点。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:108
 msgid ""
@@ -5854,10 +6093,11 @@ msgid ""
 "modified (and added to) at any time, navigate to :menuselection:`Events app "
 "--> Configuration --> Track Locations`."
 msgstr ""
+"要访问可随时修改（和添加）的活动讲座位置完整列表，请导航至 :menuselection:`活动应用程序 --> 配置 --> 讲座位置`。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:111
 msgid "Then, add a :guilabel:`Duration` to the track (in minutes)."
-msgstr ""
+msgstr "然后，为讲座添加 :guilabel:`时长`（以分钟为单位）。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:113
 msgid ""
@@ -5865,19 +6105,20 @@ msgid ""
 "settings, the option to add a corresponding link in the :guilabel:`YouTube "
 "Video Link` field is available."
 msgstr ""
+"如果已在 *活动* 应用程序设置中启用 *直播* 设置，则可在 :guilabel:`YouTube 视频链接` 字段中添加相应链接的选项。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:116
 msgid ""
 "If the :guilabel:`Always Wishlisted` checkbox is ticked, the talk is "
 "automatically set as a favorite for each registered event attendee."
-msgstr ""
+msgstr "如果勾选 :guilabel:`始终列入心愿单` 复选框，则会自动将讲座设为每个注册活动与会者的收藏夹。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:119
 msgid ""
 "Assign someone to be in charge of managing this track in the "
 ":guilabel:`Responsible` field. By default, the person who initially created "
 "the track is assigned."
-msgstr ""
+msgstr "在 :guilabel:`负责人` 字段中指定负责管理此轨道的人员。默认情况下，会指定最初创建轨道的人。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:122
 msgid ""
@@ -5886,6 +6127,7 @@ msgid ""
 "event related to the *Event Tracks* page the track was originally created "
 "from."
 msgstr ""
+"然后，确保分会场应用到 :guilabel:`活动` 字段中的正确活动。默认情况下，该字段会自动填充与分会场最初创建的 *活动分会场* 页面相关的事件。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:126
 msgid ""
@@ -5894,6 +6136,8 @@ msgid ""
 "on the event specific website - mainly on the *Talks* web page on the event "
 "website, via the drop-down filter menus."
 msgstr ""
+"接下来，选择添加现有标签或创建新标签，以进一步组织活动。这些标签及其相应的标签类别可在活动特定网站上使用，主要是在活动网站的 *演讲* "
+"网页上，通过下拉过滤菜单使用。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:130
 msgid ""
@@ -5902,25 +6146,27 @@ msgid ""
 "description-tab>`, and :ref:`Interactivity <events/track-interactivity-"
 "tab>`."
 msgstr ""
+"在一般信息部分下面有三个标签：:ref:`发言人 <events/track-speaker-tab>`、:ref:`说明 <events/track-"
+"description-tab>` 和 :ref:`互动性 <events/track-interactivity-tab>`。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:137
 msgid "Speaker tab"
-msgstr ""
+msgstr "发言人选项卡"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:139
 msgid ""
 "The :guilabel:`Speaker` tab on an event track form is filled with various "
 "fields related to the specific speaker who is planning to conduct/host the "
 "track."
-msgstr ""
+msgstr "活动跟踪表单上的 :guilabel:`发言人` 选项卡包含与计划主持/主办追踪活动的特定发言人有关的各种字段。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst-1
 msgid "The Speaker tab on an event track form in the Odoo Events application."
-msgstr ""
+msgstr "Odoo 活动应用程序中活动追踪表单上的发言人选项卡。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:147
 msgid "Contact Details section"
-msgstr ""
+msgstr "联系方式部分"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:149
 msgid ""
@@ -5928,6 +6174,7 @@ msgid ""
 ":guilabel:`Contact` drop-down field to select an existing contact from the "
 "database as the main point of contact for the talk."
 msgstr ""
+"在 :guilabel:`联系方式` 部分，使用 :guilabel:`联系人` 下拉字段从数据库中选择一个现有联系人作为会谈的主要联系人。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:152
 msgid ""
@@ -5936,6 +6183,8 @@ msgid ""
 "click :guilabel:`Create and edit...` to be taken to that new contact's "
 "contact form, where the rest of their pertinent information can be entered."
 msgstr ""
+"如果数据库中还没有该联系人，请输入联系人姓名，然后点击 :guilabel:`创建` 以稍后创建和编辑联系人表单，或点击 "
+":guilabel:`创建和编辑...`，进入新联系人的联系人表单，在此输入其余相关信息。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:157
 msgid ""
@@ -5944,10 +6193,12 @@ msgid ""
 " contact form. These fields are not modifiable once the :guilabel:`Contact` "
 "field is selected."
 msgstr ""
+":guilabel:`联系人电子邮件` 和 :guilabel:`联系人电话` 字段将显示为灰色，并使用所选联系人联系表单中的信息填充。选择 "
+":guilabel:`联系人` 字段后，这些字段不可修改。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:162
 msgid "Speaker Bio section"
-msgstr ""
+msgstr "发言人简介部分"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:164
 msgid ""
@@ -5957,19 +6208,21 @@ msgid ""
 ":guilabel:`Contact Details` section. If not, enter information in the "
 "necessary fields."
 msgstr ""
+"在 :guilabel:`演讲者简介` 部分，继续输入与计划主持/主办活动的特定演讲者有关的信息。本部分可能会根据 :guilabel:`联系人` "
+"部分中选择的 :guilabel:`联系人` 自动填充。如果不是，请在必要的字段中输入信息。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:170
 msgid ""
 "This information appears on the front-end of the event website, on the "
 "specific track webpage, providing more information about the speaker to the "
 "track attendees."
-msgstr ""
+msgstr "这些信息会出现在活动网站的前端，即特定活动的网页上，为活动的参与者提供有关发言人的更多信息。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:173
 msgid ""
 "Start by entering a :guilabel:`Name`, :guilabel:`Email`, and "
 ":guilabel:`Phone` number for the speaker."
-msgstr ""
+msgstr "首先输入发言人的 :guilabel:`姓名`、:guilabel:`电子邮件` 和 :guilabel:`电话号码`。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:176
 msgid ""
@@ -5979,18 +6232,21 @@ msgid ""
 ":guilabel:`(camera)` icon. When clicked, proceed to upload the desired image"
 " for the speaker."
 msgstr ""
+"接下来，如果需要，可通过 :icon:`fa-pencil`(铅笔) :guilabel:`(pencil)` "
+"图标添加图片，图片将出现在活动网站的发言人简介旁，当光标停留在 :icon:`fa-camera` :guilabel:`(camera)` "
+"图标上时，该图标就会出现。点击后，继续上传发言人所需的图像。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:181
 msgid ""
 "Then, enter a :guilabel:`Job Position` for the designated speaker, followed "
 "by the :guilabel:`Company Name` associated with the speaker."
-msgstr ""
+msgstr "然后，输入指定发言人的 :guilabel:`工作职位`，再输入与发言人相关的 :guilabel:`公司名称`。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:184
 msgid ""
 "In the :guilabel:`Biography` field, proceed to enter in a custom biography "
 "with any speaker-related information."
-msgstr ""
+msgstr "在 :guilabel:`简历` 字段中，输入与发言人相关的任何信息。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:190
 #: ../../content/applications/marketing/surveys/create.rst:258
@@ -6004,91 +6260,93 @@ msgid ""
 "field, in which a description of the track can be entered. The information "
 "entered here appears on the specific track page on the event website."
 msgstr ""
+"活动讲座表单的 :guilabel:`描述` 选项卡是一个空白文本字段，可在其中输入讲座描述。在此输入的信息将显示在活动网站的特定讲座页面上。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:199
 msgid "Interactivity tab"
-msgstr ""
+msgstr "互动标签页"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:201
 msgid ""
 "The :guilabel:`Interactivity` tab on an event track form features a single "
 "option at first: :guilabel:`Magic Button`."
-msgstr ""
+msgstr "活动追踪表单上的 :guilabel:`互动` 选项卡最初只有一个选项：:guilabel:`魔法按钮`。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst-1
 msgid ""
 "The Interactivity tab on an event track form in the Odoo Events application."
-msgstr ""
+msgstr "Odoo 活动应用程序中活动追踪表单上的互动标签页。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:208
 msgid ""
 "When the checkbox beside :guilabel:`Magic Button` is ticked, Odoo displays a"
 " *call to action* button to attendees on the track sidebar, while the track "
 "is taking place."
-msgstr ""
+msgstr "勾选 :guilabel:`魔法按纽` 旁边的复选框后，Odoo 会在讲座进行时，在讲座侧边栏上向参与者显示*行动召唤*按钮。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:211
 msgid ""
 "With that checkbox ticked, three more options appear, all of which are "
 "related to the :guilabel:`Magic Button`:"
-msgstr ""
+msgstr "勾选该复选框后，会出现另外三个选项，它们都与 :guilabel:`魔法按纽` 有关："
 
 #: ../../content/applications/marketing/events/event_tracks.rst:214
 msgid ""
 ":guilabel:`Button Title`: enter a title to appear on the button for "
 "attendees."
-msgstr ""
+msgstr ":guilabel:`按钮标题`：为参与者输入出现在按钮上的标题。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:215
 msgid ""
 ":guilabel:`Button Target URL`: enter a URL that leads attendees, who click "
 "the button, to a specific page."
-msgstr ""
+msgstr ":guilabel:`按钮目标 URL`：输入 URL，引导点击按钮的参与者进入特定页面。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:217
 msgid ""
 ":guilabel:`Show Button`: enter a number in the field, and the button will "
 "appear that number of :guilabel:`minutes after Track start`."
-msgstr ""
+msgstr ":guilabel:`显示按钮`：在字段中输入数字，按钮将在 :guilabel:`讲座开始后指定分钟数` 显示。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:221
 msgid ""
 "The magic button **only** appears if there is more than one published track."
-msgstr ""
+msgstr "**只有**在有多个已发布讲座的情况下，魔法按钮才会出现。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:226
 msgid "Add Quiz button"
-msgstr ""
+msgstr "添加测验按钮"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:228
 msgid ""
 "The :guilabel:`Add Quiz` button **only** appears on event track forms if the"
 " *Event Gamification* setting is enabled in the Odoo *Events* settings."
 msgstr ""
+"如果在 Odoo *活动* 设置中启用了 *活动游戏化* 设置，则 :guilabel:`添加测验` 按钮 **仅** 会出现在活动跟踪表单中。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:231
 msgid ""
 "To add a quiz to the event track, click the :guilabel:`Add Quiz` button. "
 "Doing so reveals a separate page where an event track quiz can be created "
 "and configured."
-msgstr ""
+msgstr "要在活动追踪中添加测验，请点击 :guilabel:`添加测验` 按钮。这样就会显示一个单独的页面，在此可以创建和配置事件跟踪测验。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst-1
 msgid "The Add Quiz page in the Odoo Events application for an event track."
-msgstr ""
+msgstr "在 Odoo 活动应用程序中为活动轨迹添加测验页面。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:238
 msgid ""
 "Start by entering a title for the quiz in the blank field at the top of the "
 "page. Then, if participants should be allowed to try the quiz multiple "
 "times, tick the checkbox beside :guilabel:`Allow multiple tries`."
-msgstr ""
+msgstr "首先，在页面顶部的空白区域输入测验标题。然后，如果允许参与者多次尝试测验，请勾选 :guilabel:`允许多次尝试` 旁边的复选框。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:242
 msgid ""
 "The :guilabel:`Event` and :guilabel:`Event Track` fields are non-modifiable,"
 " and show the corresponding event and track this quiz is associated with."
-msgstr ""
+msgstr ":guilabel:`活动`和 :guilabel:`活动轨迹` 字段不可修改，并显示此测验关联的相应事件和轨迹。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:245
 msgid ""
@@ -6096,16 +6354,18 @@ msgid ""
 ":guilabel:`Question` column. Doing so reveals a :guilabel:`Create Questions`"
 " pop-up window."
 msgstr ""
+"要在测验中添加问题，请点击 :guilabel:`问题` 栏下的 :guilabel:`添加一行`。这样会弹出一个 :guilabel:`创建问题` "
+"窗口。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst-1
 msgid ""
 "The Create Questions pop-up window on an event-specific track quiz in the "
 "Odoo Events app."
-msgstr ""
+msgstr "在 Odoo 活动应用程序中，创建问题弹出窗口出现在特定活动轨迹测验上。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:253
 msgid "**All** track quiz questions are multiple choice."
-msgstr ""
+msgstr "**所有** 轨道测验题均为多选题。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:255
 msgid ""
@@ -6114,41 +6374,43 @@ msgid ""
 ":guilabel:`Add a line`, a new line appears, in which an answer option can be"
 " entered."
 msgstr ""
+"在弹出的窗口中，在顶部的空白区域输入问题。然后点击 :guilabel:`添加一行` 添加答案选项。点击 :guilabel:`添加一行` "
+"后，会出现一行新内容，可在其中输入答案选项。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:259
 msgid ""
 "Once an answer option has been entered, proceed to designate whether it is "
 "the :guilabel:`Correct` response, by ticking the checkbox in the "
 ":guilabel:`Correct` column."
-msgstr ""
+msgstr "输入答案选项后，请勾选 :guilabel:`正确` 栏中的复选框，指定该选项是否为 :guilabel:`正确` 答案。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:262
 msgid ""
 "Then, there is the option to add a point value in the :guilabel:`Points` "
 "column."
-msgstr ""
+msgstr "然后，可以选择在 :guilabel:`积点` 列中添加点值。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:264
 msgid ""
 "And, if there are any additional comments that should accompany an answer "
 "option, type them into the :guilabel:`Extra Comment` field."
-msgstr ""
+msgstr "如果答案选项有任何附加注释，请在 :guilabel:`附加评论` 字段中输入。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:268
 msgid ""
 "The :guilabel:`Correct`, :guilabel:`Points`, and :guilabel:`Extra Comment` "
 "fields are all optional."
-msgstr ""
+msgstr "guilabel:`正确`、:guilabel:`点数` 和 :guilabel:`附加评论` 字段都是可选的。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:271
 msgid "Repeat this process for all the answer options."
-msgstr ""
+msgstr "对所有答案选项重复此过程。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:273
 msgid ""
 "To remove an answer option, click the :icon:`fa-trash-o` :guilabel:`(trash "
 "can)` icon on the far-right."
-msgstr ""
+msgstr "要删除答案选项，请点击最右侧的 :icon:`fa-trash-o` :guilabel:`（垃圾桶）` 图标。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:276
 msgid ""
@@ -6169,7 +6431,7 @@ msgstr "要从测验中删除任何问题，请点击问题行最右侧的 :icon
 
 #: ../../content/applications/marketing/events/event_tracks.rst:285
 msgid "Publish event track"
-msgstr ""
+msgstr "发布活动轨迹"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:287
 msgid ""
@@ -6184,14 +6446,14 @@ msgid ""
 "The stage of a track can also be changed from the :guilabel:`Event Tracks` "
 "page, where the desired track card can be dragged-and-dropped into the "
 "appropriate Kanban stage."
-msgstr ""
+msgstr "还可以通过 :guilabel:`活动轨迹` 页面更改轨道的阶段，在该页面中可以将所需的轨道卡拖放到相应的看板阶段。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:295
 msgid ""
 "If an event track has *not* been published yet, and it is moved to the "
 ":guilabel:`Published` stage, Odoo automatically publishes the track on the "
 "event website."
-msgstr ""
+msgstr "如果活动讲座*未*发布，而已移动到 :guilabel:`已发布` 阶段，Odoo 会自动在活动网站上发布讲座。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:298
 msgid ""
@@ -6202,13 +6464,16 @@ msgid ""
 "at the top of the page to :icon:`fa-toggle-on` :guilabel:`Published`; thus "
 "turning it from red to green, and making it accessible for attendees."
 msgstr ""
+"打开所需的活动讲座表单，点击 :guilabel:`访问网站` 智能按钮，即可发布活动讲座。然后，为了让参与者可以查看（和访问）讲座页面，请将页面顶部的"
+" :icon:`fa-toggle-off`:guilabel:`未发布`开关切换为 :icon:`fa-toggle-"
+"on`:guilabel:`已发布`；从而将其从红色变为绿色，使参与者可以访问。"
 
 #: ../../content/applications/marketing/events/event_tracks.rst-1
 #: ../../content/applications/marketing/events/track_manage_talks.rst-1
 msgid ""
 "The track-related event submenu options on an event website built with Odoo "
 "Events."
-msgstr ""
+msgstr "Odoo 活动网站中的追踪相关事件子菜单选项。"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:3
 msgid "Registration Desk"
@@ -6219,11 +6484,11 @@ msgid ""
 "Use the *Registration Desk* feature in Odoo **Events** to grant access to "
 "registered event attendees as they arrive, and store attendee-related data "
 "in the reporting metrics."
-msgstr ""
+msgstr "使用 Odoo 活动中的 *签到处* 功能，为到场注册参会者授予准入权限，并将参与者相关数据存储至报告指标。"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:9
 msgid "Registration Desk page"
-msgstr ""
+msgstr "签到处页面"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:11
 msgid ""
@@ -6231,16 +6496,18 @@ msgid ""
 ":menuselection:`Events app`, and click the :guilabel:`Registration Desk` to "
 "view the :guilabel:`Registration Desk` page."
 msgstr ""
+"在移动设备（Odoo应用或浏览器中）：打开 :menuselection:`活动应用`，点击 :guilabel:`签到处`，查看 "
+":guilabel:`签到处` 页面。"
 
 #: ../../content/applications/marketing/events/registration_desk.rst-1
 msgid "The Registration Desk page in the Odoo Events application."
-msgstr ""
+msgstr "Odoo 活动应用程序中的签到页面。"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:18
 msgid ""
 "At the bottom of the :guilabel:`Registration Desk` box, there are options to"
 " either :guilabel:`Scan a badge` or :guilabel:`Select Attendee`."
-msgstr ""
+msgstr "在 :guilabel:`签到处`框底部，可选择 :guilabel:`扫描证件` 或 :guilabel:`选择参与者`。"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:22
 msgid "Scan a badge"
@@ -6252,12 +6519,13 @@ msgid ""
 ":menuselection:`Events app --> Registration Desk`, and selecting the "
 ":guilabel:`Scan a badge` option."
 msgstr ""
+"通过导航至 :menuselection:`活动应用程序 --> 登记处` 并选择 :guilabel:`扫描胸卡` 选项，扫描活动参与者胸卡上的代码。"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:28
 msgid ""
 "Odoo **must** be granted access to the camera being used for the "
 ":guilabel:`Scan a badge` option to work."
-msgstr ""
+msgstr "必须授予 Odoo 访问所用相机的权限，:guilabel:`扫描胸卡` 选项才能工作。"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:31
 msgid ""
@@ -6266,12 +6534,14 @@ msgid ""
 "specified view finder box present, whose size can be manually modified, "
 "accordingly, using the :icon:`fa-crop` :guilabel:`(crop)` icon."
 msgstr ""
+"一旦 Odoo 可以访问摄像机，就会出现一个 :guilabel:`条形码扫描器` 弹出窗口，显示摄像机的视角。此外，还会出现一个指定的取景框，可使用 "
+":icon:`fa-crop`(裁剪)` 图标手动修改取景框的大小。"
 
 #: ../../content/applications/marketing/events/registration_desk.rst-1
 msgid ""
 "The Barcode Scanner window of the Registration Desk in the Odoo Events "
 "application."
-msgstr ""
+msgstr "Odoo 活动应用程序中登记处的条形码扫描器窗口。"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:39
 msgid ""
@@ -6280,16 +6550,18 @@ msgid ""
 "attendee is granted access to the event. Once the code is scanned, their "
 "attendance is logged in the Odoo **Events** app."
 msgstr ""
+"当证件条码位于取景框中央时，系统将自动扫描代码，:guilabel:`条码扫描器` "
+"弹窗随即关闭，参与者即获得活动准入权限。扫描完成后，出席记录将自动录入 Odoo 活动应用程序。"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:43
 msgid ""
 "If the barcode being scanned is invalid, an error pop-up message appears in "
 "the upper-right corner."
-msgstr ""
+msgstr "如果扫描条形码无效，右上角会弹出错误信息。"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:46
 msgid "Select attendee"
-msgstr ""
+msgstr "选择参与者"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:48
 msgid ""
@@ -6297,6 +6569,8 @@ msgid ""
 ":menuselection:`Events app --> Registration Desk`, and selecting the "
 ":guilabel:`Select Attendee` option."
 msgstr ""
+"通过导航至 :menuselection:`活动应用程序 --> 签到处` 并选择 :guilabel:`选择参与者` "
+"选项，手动授予活动参与者访问权限。"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:51
 msgid ""
@@ -6304,12 +6578,14 @@ msgid ""
 " event in the database, in a default :icon:`oi-view-kanban` "
 ":guilabel:`Kanban` view."
 msgstr ""
+"Odoo 会显示一个 :guilabel:`参与者` 页面，在默认的 :icon:`oi-view-kanban`:guilabel:`看板` "
+"视图中显示数据库中每个事件的所有参与者。"
 
 #: ../../content/applications/marketing/events/registration_desk.rst-1
 msgid ""
 "The Attendees page, via the Registration Desk, located in the Odoo Events "
 "application."
-msgstr ""
+msgstr "通过 Odoo 活动应用程序中的签到处进入参与者页面。"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:58
 msgid ""
@@ -6319,24 +6595,27 @@ msgid ""
 " two buttons: a :icon:`fa-check` :guilabel:`(checkmark)` and :icon:`fa-undo`"
 " :guilabel:`(counter-clockwise arrow)`."
 msgstr ""
+"在 :guilabel:`参与者` "
+"页面上，每个参与者卡片都会显示该人的姓名、注册参加的活动、相关公司（如适用）、购买的门票级别（如适用），以及两个按钮：:icon:`fa-check` "
+":guilabel:`（复选标记）`和 :icon:`fa-undo`:guilabel:`（逆时针箭头）`。"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:63
 msgid ""
 "To grant access to a person, marking them as attended, click the :icon:`fa-"
 "check` :guilabel:`(checkmark)` button on that attendee's card."
-msgstr ""
+msgstr "要授予某人访问权并将其标记为参与者，请点击参与者卡片上的 :icon:`复选框` :guilabel:`（复选标记）` 按钮。"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:66
 msgid ""
 "Click the :icon:`fa-undo` :guilabel:`(counter-clockwise arrow)` button on an"
 " attendee's card to undo the previous action."
-msgstr ""
+msgstr "点击参与者卡片上的 :icon:`fa-undo`(逆时针箭头)` 按钮，可撤销上一步操作。"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:70
 msgid ""
 "It is recommended to use an event-specific filter on the "
 ":guilabel:`Attendees` page, via the search bar drop-down menu."
-msgstr ""
+msgstr "建议在 :guilabel:`参与者` 页面，通过搜索栏下拉菜单使用特定事件筛选器。"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:73
 msgid ""
@@ -6344,6 +6623,8 @@ msgid ""
 "the seach bar to reveal a drop-down menu with :guilabel:`Filters`, "
 ":guilabel:`Group By`, and :guilabel:`Favorites` options."
 msgstr ""
+"为此，请点击搜索栏旁边的 :icon:`fa-sort-desc`:guilabel:`（向下箭头）`，以显示包含 "
+":guilabel:`筛选器`、:guilabel:`按分组` 和 :guilabel:`收藏夹` 选项的下拉菜单。"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:77
 msgid ""
@@ -6352,6 +6633,8 @@ msgid ""
 ":guilabel:`Attendees` page with event-specific columns, allowing users to "
 "locate specific event attendees."
 msgstr ""
+"例如，点击 :guilabel:`分组方式` 列中的 :guilabel:`活动` 选项。然后，点击删除，以移除下拉菜单。Odoo "
+"将显示带有特定事件列的 :guilabel:`参与者` 页面，允许用户查找特定事件的参与者。"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:82
 #: ../../content/applications/marketing/events/revenues_report.rst:72
@@ -6363,23 +6646,23 @@ msgid ""
 "The Odoo **Events** application creates custom reports, based on event-"
 "related data and analytics. These reports can either be focused on "
 "*Attendees* or *Revenues*."
-msgstr ""
+msgstr "Odoo **活动** 应用程序可根据活动相关数据和分析，创建自定义报告。这些报告可侧重于*参与者*或*收入*。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:8
 msgid ""
 "The following documentation focuses on the reporting options related to "
 "event *Revenues*."
-msgstr ""
+msgstr "以下文档主要介绍与事件 *收入* 相关的报告选项。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:11
 msgid "Revenues reporting page"
-msgstr ""
+msgstr "收入报告页面"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:13
 msgid ""
 "To access the *Attendees* reporting page, navigate to :menuselection:`Events"
 " app --> Reporting --> Revenues`."
-msgstr ""
+msgstr "要访问 *参与者* 报告页面，请导航至 :menuselection:`活动应用程序 --> 报告 --> 收入`。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst-1
 msgid ""
@@ -6445,40 +6728,40 @@ msgstr ""
 msgid ""
 "In graph view, only one of the :guilabel:`Measures` can be selected at a "
 "time."
-msgstr ""
+msgstr "在图表视图中，一次只能选择一个 :guilabel:`计量` 选项。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:48
 msgid ""
 "When the pivot option is selected, all :guilabel:`Measures` options are "
 "selected, by default."
-msgstr ""
+msgstr "选择透视选项时，默认情况下会选择所有 :guilabel:`计量` 选项。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:50
 msgid ":guilabel:`Revenues`: shows the revenues generated from events."
-msgstr ""
+msgstr ":guilabel:`收入`：显示活动产生的收入。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:51
 msgid ""
 ":guilabel:`Untaxed Revenues`: shows the untaxed revenues generated from "
 "events."
-msgstr ""
+msgstr ":guilabel:`未税收入`：显示活动产生的未税收入。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:52
 msgid ""
 ":guilabel:`Count`: shows the total amount of registrants who attended "
 "events."
-msgstr ""
+msgstr ":guilabel:`数目`：显示参加活动的注册人总数。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:55
 msgid "Filters and grouping options"
-msgstr ""
+msgstr "筛选器和分组选项"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:57
 msgid ""
 "To reveal a drop-down menu of filter and grouping options to create custom "
 "reports, click the :icon:`fa-caret-down` :guilabel:`(down arrow)` to the "
 "right of the search bar."
-msgstr ""
+msgstr "要显示下拉菜单中的筛选器和分组选项以创建自定义报告，请点击搜索栏右侧的 :icon:`fa-caret-down`:`（向下箭头）`。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:60
 msgid ""
@@ -6486,6 +6769,8 @@ msgid ""
 ":ref:`Filters <search/preconfigured-filters>`, :ref:`Group By "
 "<search/group>`, and :ref:`Favorites <search/favorites>`."
 msgstr ""
+"这样做会打开一个下拉式巨型菜单，其中的选项按列排列：:ref:`筛选 <search/preconfigured-"
+"filters>`、:ref:`分组方式 <search/group>`, 和 :ref:`收藏 <search/favorites>`。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:65
 msgid ""
@@ -6494,54 +6779,56 @@ msgid ""
 ":guilabel:`Comparison` column appears, with comparison options for the "
 "corresponding time-related filter option selected."
 msgstr ""
+"如果已从 :guilabel:`筛选` 列中选择了与时间相关的选项（例如默认的 :guilabel:`活动开始日期：年` 筛选器），则会出现 "
+":guilabel:`比较` 列，其中包含已选择的相应时间相关筛选器选项的比较选项。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:69
 msgid ""
 "Only **one** selection can be made from the :guilabel:`Comparison` column at"
 " a time."
-msgstr ""
+msgstr "一次只能从 :guilabel:`比较` 列中选择**一个**选项。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:75
 msgid "Filter options"
-msgstr ""
+msgstr "筛选器选项"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:77
 msgid ""
 "In the :guilabel:`Filters` column of the drop-down mega menu, there are "
 "various event-related options that can be utilized to create custom reports,"
 " based on a number of specific criteria."
-msgstr ""
+msgstr "在大型下拉菜单的 :guilabel:`筛选` 栏中，有各种与活动相关的选项，可用于根据一些特定条件创建自定义报告。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:80
 msgid ""
 "Multiple options in the :guilabel:`Filters` column can be selected at once."
-msgstr ""
+msgstr "可同时选择 :guilabel:`筛选` 列中的多个选项。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:82
 msgid "The :guilabel:`Filters` column has the following options:"
-msgstr ""
+msgstr ":guilabel:`筛选` 列包含以下选项："
 
 #: ../../content/applications/marketing/events/revenues_report.rst:84
 msgid ""
 ":guilabel:`Non-free tickets`: event tickets/registrations that were **not** "
 "free."
-msgstr ""
+msgstr ":guilabel:`付费票`：非免费的活动票证/注册"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:85
 msgid ":guilabel:`Free`: event tickets/registrations that *were* free."
-msgstr ""
+msgstr ":guilabel:`免费`：免费的活动门票。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:86
 msgid ""
 ":guilabel:`Pending payment`: event tickets/registrations that were "
 "purchased, but still have payment pending."
-msgstr ""
+msgstr ":guilabel:`待付款`：已购买活动门票/注册，但仍未付款。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:88
 msgid ""
 ":guilabel:`Sold`: event tickets/registrations that have been successfully "
 "sold (and paid for)."
-msgstr ""
+msgstr ":guilabel:`已售出`：已成功售出（并支付）的活动门票/注册。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:89
 msgid ""
@@ -6550,18 +6837,20 @@ msgid ""
 "options. Select any number of these options to view a specific periods of "
 "time and see how many registrations happened during that time."
 msgstr ""
+":guilabel:`注册日期`： 点击 :icon:`fa-caret-down`:guilabel:`（向下箭头）` "
+"图标，显示月、季度和年选项列表。选择其中任意一个选项，即可查看特定时间段内的注册数量。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:92
 msgid ""
 ":guilabel:`Upcoming/Running`: include revenue-related information for events"
 " that are either currently running or are going to happen in the future."
-msgstr ""
+msgstr ":guilabel:`即将举办/进行中`：包含当前正在进行或未来将举办活动的收入相关信息。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:94
 msgid ""
 ":guilabel:`Past Events`: include revenue-related information for events that"
 " have already taken place."
-msgstr ""
+msgstr ":guilabel:`过往活动`：包含已结束活动的收入相关信息。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:96
 msgid ""
@@ -6570,6 +6859,8 @@ msgid ""
 "options. Select any number of these options to designate event start dates "
 "to use as filters for revenue-related event data."
 msgstr ""
+":guilabel:`活动开始日期`：点击 :icon:`fa-caret-down`:guilabel:`（向下箭头）` "
+"图标，显示月、季度和年选项列表。选择任意数量的这些选项来指定事件开始日期，以用作收入相关活动数据的筛选器。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:99
 msgid ""
@@ -6578,12 +6869,14 @@ msgid ""
 "any number of these options to designate event end dates to use as filters "
 "for revenue-related event data."
 msgstr ""
+":guilabel:`活动结束日期`：点击 :icon:`fa-caret-down`:guilabel:`（向下箭头）` "
+"图标，显示月、季度和年选项列表。从这些选项中任意选择一个指定活动结束日期，作为收入相关活动数据的筛选器。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:102
 msgid ""
 ":guilabel:`Published Events`: Select this option to show revenue-related "
 "data for published events."
-msgstr ""
+msgstr ":guilabel:`已发布活动`：选择此选项可显示已发布活动的收入相关数据。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:104
 msgid ""
@@ -6591,61 +6884,63 @@ msgid ""
 "related revenue data. To learn more, refer to the documentation on "
 ":ref:`custom filters <search/custom-filters>`."
 msgstr ""
+":guilabel:`添加自定义筛选器`：创建自定义筛选器来分析与活动相关的收入数据。要了解更多信息，请参阅 :ref:`自定义筛选器 "
+"<search/custom-filters>` 文档。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:108
 msgid "Group By options"
-msgstr ""
+msgstr "按选项分组"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:110
 msgid ""
 "In the :guilabel:`Group By` column of the drop-down mega menu, there are "
 "various event-related options to create custom groupings of data."
-msgstr ""
+msgstr "在 :guilabel:`分组方式` 列的下拉菜单中，有各种与活动相关的选项，用于创建自定义数据分组。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:113
 msgid "Multiple :guilabel:`Group By` options can be selected at once."
-msgstr ""
+msgstr "可同时选择多个 :guilabel:`分组方式` 选项。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:115
 msgid "The :guilabel:`Group By` column has the following options:"
-msgstr ""
+msgstr ":guilabel:`分组方式` 列有以下选项："
 
 #: ../../content/applications/marketing/events/revenues_report.rst:117
 msgid ":guilabel:`Event Type`: Group data based on the type of event."
-msgstr ""
+msgstr ":guilabel:`活动类型`：根据活动类型对数据进行分组。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:118
 msgid ""
 ":guilabel:`Event`: Organize data into individual groups, separated by "
 "events."
-msgstr ""
+msgstr ":guilabel:`活动`：将数据组织成单个组，按活动分隔。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:119
 msgid ""
 ":guilabel:`Product`: Group data based on the event registration product."
-msgstr ""
+msgstr ":guilabel:`产品`：根据活动注册产品对数据进行分组。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:120
 msgid ""
 ":guilabel:`Ticket`: Group data based on the type of event ticket purchased "
 "by attendees."
-msgstr ""
+msgstr ":guilabel:`门票`：根据参与者购买的活动门票类型分组数据。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:121
 msgid ""
 ":guilabel:`Registration Status`: Group data based on the status of "
 "registrations."
-msgstr ""
+msgstr ":guilabel:`注册状态`：根据注册状态对数据进行分组。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:122
 msgid ""
 ":guilabel:`Sale Order Status`: Group data based on the status of event-"
 "related sales orders."
-msgstr ""
+msgstr ":guilabel:`销售订单状态`：根据与事件相关的销售订单状态对数据进行分组。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:123
 msgid ":guilabel:`Customer`: Group data based on customer records."
-msgstr ""
+msgstr ":guilabel:`客户`：根据客户记录对数据进行分组。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:124
 msgid ""
@@ -6654,10 +6949,12 @@ msgid ""
 "select one, click on the desired option, and Odoo adds it to the "
 ":guilabel:`Group By` column. Multiple selections can be made."
 msgstr ""
+":guilabel:`添加自定义分组`：点击 :icon:`fa-caret-down`:guilabel:`（向下箭头）` "
+"图标，显示分组选项的下拉列表。要选择一个，请点击所需的选项，Odoo 会将其添加到 :guilabel:`分组方式` 列。可进行多个选择。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:129
 msgid "Sample report: event ticket analysis (graph)"
-msgstr ""
+msgstr "报告样本：活动门票分析（图表）"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:131
 msgid ""
@@ -6666,12 +6963,13 @@ msgid ""
 "case, the configurations present data about sold or free tickets to "
 "published events, with the metrics separated by ticket type and event."
 msgstr ""
+"下面的示例说明了各种筛选器和分组选项如何创建有用的活动收入分析图表报告。在本例中，配置显示了已发布活动的已售或免费门票数据，指标按门票类型和活动分列。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst-1
 msgid ""
 "The event ticket analysis sample report with unique filters and groupings in"
 " place."
-msgstr ""
+msgstr "活动门票分析样本报告，配有独特的筛选器和分组。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:139
 msgid ""
@@ -6679,19 +6977,20 @@ msgid ""
 "Reporting --> Revenues`. Stay in the default graph view, but remove the "
 "default filters from the search bar."
 msgstr ""
+"要创建此类报告，请导航至 :menuselection:`活动应用程序 --> 报告 --> 收入`。保留默认图表视图，但删除搜索栏中的默认筛选器。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:142
 msgid ""
 "Then, click the :icon:`fa-caret-down` :guilabel:`(down arrow)` to the right "
 "of the search bar, to reveal the drop-down mega menu of filter and grouping "
 "options."
-msgstr ""
+msgstr "然后，点击搜索栏右侧的 :icon:`fa-caret-down`(向下箭头)`，显示包含筛选和分组选项的下拉菜单。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:145
 msgid ""
 "From here, select :guilabel:`Free` and :guilabel:`Sold` from the "
 ":guilabel:`Filters` column."
-msgstr ""
+msgstr "在此处，从 :guilabel:`筛选` 列中选择 :guilabel:`免费` 和 :guilabel:`已售` 。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:147
 msgid ""
@@ -6699,6 +6998,7 @@ msgid ""
 " events, select the :guilabel:`Published Events` option in the "
 ":guilabel:`Filters` column, as well."
 msgstr ""
+"然后，由于**只想**查看与已发布活动相关的数据，因此也在 :guilabel:`筛选` 列中选择 :guilabel:`已发布活动` 选项。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:150
 msgid ""
@@ -6707,18 +7007,20 @@ msgid ""
 "groups the data by event, *then* by ticket type, which provides a more "
 "useful array of data to analyze."
 msgstr ""
+"接下来，在:guilabel:`分组方式`列中，按顺序选择 :guilabel:`活动`和 :guilabel:`门票` "
+"选项。这样做首先是按活动分组，*然后*是按门票类型分组，从而提供更有用的数据进行分析。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:155
 msgid ""
 "The order in which the options are selected in the :guilabel:`Group By` "
 "column directly affects how the data is presented on the report."
-msgstr ""
+msgstr "在 :guilabel:`分组方式` 列中选择选项的顺序会直接影响数据在报告中的显示方式。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:158
 msgid ""
 "From there, additional configurations can be added for more detailed data, "
 "if desired."
-msgstr ""
+msgstr "在此处，还可以根据需要添加其他配置，以获得更详细的数据。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:160
 msgid ""
@@ -6726,10 +7028,11 @@ msgid ""
 "representation of data related to all *free* or *sold* tickets for "
 "*published events*, grouped by *event*, and organized by *ticket* type."
 msgstr ""
+"如果没有添加其他筛选器或分组，Odoo 会以图形方式显示与*已发布活动*的所有*免费*或*已售出*门票相关的数据，按*活动*分组，并按*门票*类型组织。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:165
 msgid "Sample report: event type analysis (pivot table)"
-msgstr ""
+msgstr "报告示例：活动类型分析（数据透视表）"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:167
 msgid ""
@@ -6739,12 +7042,13 @@ msgid ""
 "event types have generated, in order to gauge which events are the most "
 "profitable."
 msgstr ""
+"下面的示例说明了各种筛选器和分组选项如何创建有用的活动收入分析透视表报告。在本例中，配置文件提供了不同活动类型产生的收入数据，以衡量哪些活动最赚钱。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst-1
 msgid ""
 "The event type analysis sample report with unique filters and groupings in "
 "place."
-msgstr ""
+msgstr "活动类型分析样本报告，包含独特的筛选器和分组。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:176
 msgid ""
@@ -6752,61 +7056,64 @@ msgid ""
 "and switch to the pivot table view, by clicking the :icon:`oi-view-pivot` "
 ":guilabel:`(Pivot)` icon in the upper-right corner."
 msgstr ""
+"首先，导航至 :menuselection:`活动应用程序 --> 报告 --> 收入`，点击右上角的 :icon:`oi-view-"
+"pivot`:guilabel:`(Pivot)`图标，切换到透视表视图。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:180
 msgid ""
 "Keep the default filters (:guilabel:`Non-free tickets` and :guilabel:`Event "
 "Start Date: (year)`) in the search bar."
-msgstr ""
+msgstr "保留搜索栏中的默认筛选器（:guilabel:`非免费门票`和 :guilabel:`活动开始日期：（年）`）。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:183
 msgid ""
 "Next, open the :guilabel:`Measures` drop-down menu, and deselect the option "
 "for :guilabel:`Count`, because this report is only going to focus on "
 "revenues."
-msgstr ""
+msgstr "接下来，打开 :guilabel:`度量` 下拉菜单，取消选择 :guilabel:`计数` 选项，因为本报告只关注收入。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:186
 msgid ""
 "Then, click :icon:`fa-plus-square` :guilabel:`Total` above the column "
 "titles, and select :guilabel:`Event Type` from the resulting drop-down menu."
 msgstr ""
+"然后，点击列标题上方的 :icon:`fa-plus-square`:guilabel:`总计`，并从下拉菜单中选择 :guilabel:`活动类型`。"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:189
 msgid ""
 "With these configurations in place, all the revenues generated from the "
 "events (and their corresponding registrations) are displayed, organized by "
 "the event type (presented as expandable columns)."
-msgstr ""
+msgstr "有了这些配置，就可以按活动类型（以可扩展列的形式显示）显示活动产生的所有收入（及其相应的注册情况）。"
 
 #: ../../content/applications/marketing/events/sell_tickets.rst:5
 msgid ""
 "Odoo *Events* provides users with the ability to create custom event tickets"
 " (and ticket tiers), with various price points."
-msgstr ""
+msgstr "Odoo *活动* 为用户提供了创建不同价位的自定义活动门票（和门票等级）的功能。"
 
 #: ../../content/applications/marketing/events/sell_tickets.rst:8
 msgid ""
 "It *also* allows them to sell event tickets in two different ways: via "
 "standard sales orders, and online through an integrated website."
-msgstr ""
+msgstr "它*还*允许以两种不同的方式销售活动门票：通过标准销售订单，以及通过整合网站在线销售。"
 
 #: ../../content/applications/marketing/events/sell_tickets.rst:11
 msgid ""
 "Odoo also simplifies the ticket-purchasing process by providing plenty of "
 "payment method options."
-msgstr ""
+msgstr "Odoo 还通过提供大量付款方式选项简化了购票流程。"
 
 #: ../../content/applications/marketing/events/sell_tickets.rst:14
 msgid ""
 "To learn more about how to create custom tickets (and ticket tiers) for "
 "events, check out the :doc:`create_events` documentation."
-msgstr ""
+msgstr "要进一步了解如何为活动创建自定义门票（和门票层级），请查看 :doc:`create_events` 文档。"
 
 #: ../../content/applications/marketing/events/sell_tickets.rst:20
 msgid ""
 "In order to sell event tickets in Odoo, some settings must first be enabled."
-msgstr ""
+msgstr "要在 Odoo 中销售活动门票，首先必须启用某些设置。"
 
 #: ../../content/applications/marketing/events/sell_tickets.rst:22
 msgid ""
@@ -6814,31 +7121,33 @@ msgid ""
 "Settings`. In the :guilabel:`Registration` section, there are two different "
 "settings: :guilabel:`Tickets` and :guilabel:`Online Ticketing`."
 msgstr ""
+"首先，导航至 :menuselection:`活动应用程序 --> 配置 --> 设置`。在 :guilabel:`注册` "
+"部分，有两个不同的设置：:guilabel:`门票` 和 :guilabel:`在线购票`。"
 
 #: ../../content/applications/marketing/events/sell_tickets.rst:26
 msgid ""
 "The :guilabel:`Tickets` setting allows users to sell event tickets with "
 "standard sales orders."
-msgstr ""
+msgstr "通过 :guilabel:`门票` 设置，用户可使用标准销售订单，销售活动门票。"
 
 #: ../../content/applications/marketing/events/sell_tickets.rst:28
 msgid ""
 "The :guilabel:`Online Ticketing` setting allows users to sell event tickets "
 "online through their integrated Odoo website."
-msgstr ""
+msgstr ":guilabel:`在线票务` 设置允许用户通过其整合的 Odoo 网站在线销售活动门票。"
 
 #: ../../content/applications/marketing/events/sell_tickets.rst:31
 msgid ""
 "To activate a setting, tick the checkbox beside the desired feature's label,"
 " and click :guilabel:`Save` to finish enabling it."
-msgstr ""
+msgstr "要激活设置，请勾选所需功能标签旁边的复选框，然后点击 :guilabel:`保存` 完成激活。"
 
 #: ../../content/applications/marketing/events/sell_tickets.rst:35
 msgid ""
 "If these options are *not* enabled, a default :guilabel:`Register` button "
 "becomes available for visitors to interact with and procure free "
 "registrations to the event."
-msgstr ""
+msgstr "如果*未启用*这些选项，则会出现一个默认的 :guilabel:`注册` 按钮，供访客与之互动并免费注册活动。"
 
 #: ../../content/applications/marketing/events/sell_tickets.rst-1
 msgid "View of the settings page for Odoo Events."
@@ -6851,6 +7160,8 @@ msgid ""
 "also creates three event registration products (with the *Product Type* set "
 "to *Event Ticket*) that can be used or modified for event tickets."
 msgstr ""
+"启用这些设置后，Odoo 会自动创建一个新的*产品类型*，名为*活动门票*，可在每个产品表单上访问。Odoo 还创建了三个活动注册产品（*产品类型* "
+"设置为 *活动门票*），可用于或修改活动门票。"
 
 #: ../../content/applications/marketing/events/sell_tickets.rst:47
 msgid ""
@@ -6858,12 +7169,13 @@ msgid ""
 "be set to *Event Ticket* on the product form, in order for it to be selected"
 " in the *Product* column under the *Tickets* tab on an event form."
 msgstr ""
+"创建新的活动登记产品时，**必须**在产品表单上将*产品类型*设置为*活动门票*，才能在活动表单的*门票*选项卡下的*产品*栏中选择该产品。"
 
 #: ../../content/applications/marketing/events/sell_tickets.rst:0
 msgid ""
 "View of an event form highlighting the column product under the tickets tab "
 "in Odoo."
-msgstr ""
+msgstr "活动表单视图，突出显示 Odoo 中门票标签页下的产品栏。"
 
 #: ../../content/applications/marketing/events/sell_tickets.rst:56
 msgid ""
@@ -6871,6 +7183,8 @@ msgid ""
 ":guilabel:`Sales` smart button at the top of the event form, where the "
 "respective sales orders attributed to those ticket sales become available."
 msgstr ""
+"任何已售出付费门票的活动都会在活动表单顶部显示一个 :icon:`fa-"
+"dollar`:guilabel:`销售`智能按钮，在该按钮上可以看到这些门票销售的相应销售订单。"
 
 #: ../../content/applications/marketing/events/sell_tickets.rst-1
 msgid "View of an event's form and the sales smart button in Odoo Events."
@@ -6882,10 +7196,12 @@ msgid ""
 "separate page, showcasing all the sales orders (standard and/or online) "
 "related to tickets that have been sold for that specific event."
 msgstr ""
+"点击 :icon:`fa-dollar`:guilabel:`销售` "
+"智能按钮，会显示一个单独的页面，展示与该特定活动已售出门票相关的所有销售订单（标准和/或在线）。"
 
 #: ../../content/applications/marketing/events/sell_tickets.rst:69
 msgid "Sell event tickets with the Sales app"
-msgstr ""
+msgstr "使用销售应用程序销售活动门票"
 
 #: ../../content/applications/marketing/events/sell_tickets.rst:71
 msgid ""
@@ -6893,6 +7209,8 @@ msgid ""
 ":menuselection:`Sales` app. Then, click :guilabel:`New` to open a new "
 "quotation form."
 msgstr ""
+"要使用销售订单销售活动门票，首先要导航到 :menuselection:`销售` 应用程序。然后，点击 :guilabel:`新建` "
+"打开一个新的报价单。"
 
 #: ../../content/applications/marketing/events/sell_tickets.rst:74
 msgid ""
@@ -6902,18 +7220,21 @@ msgid ""
 "registration product configured with its :guilabel:`Product Type` set to "
 ":guilabel:`Event Ticket` on its product form."
 msgstr ""
+"在表单顶部填写适当的客户信息后，点击 :guilabel:`订单行` 选项卡中的 "
+":guilabel:`添加产品`。然后，在:guilabel:`产品`栏中选择（或创建）一个活动注册产品，并在其产品表单中将其 "
+":guilabel:`产品类型` 设置为 :guilabel:`活动门票`。"
 
 #: ../../content/applications/marketing/events/sell_tickets.rst:79
 msgid ""
 "Once an event registration product is selected, a :guilabel:`Configure an "
 "event` pop-up window appears."
-msgstr ""
+msgstr "选择活动注册产品后，会弹出 :guilabel:` 配置活动` 窗口。"
 
 #: ../../content/applications/marketing/events/sell_tickets.rst-1
 msgid ""
 "Standard 'Configure an event' pop-up window that appears on an event ticket "
 "sales order."
-msgstr ""
+msgstr "活动门票销售订单上出现的标准 “配置活动” 弹出窗口。"
 
 #: ../../content/applications/marketing/events/sell_tickets.rst:86
 msgid ""
@@ -6923,6 +7244,8 @@ msgid ""
 "ticket tier the customer wishes to purchase, if there are multiple tiers "
 "configured for that event."
 msgstr ""
+"在 :guilabel:`配置活动` 弹出窗口中，在 :guilabel:`活动` 字段下拉菜单中选择购买的门票与哪个事件相关。然后，在 "
+":guilabel:`活动门票` 下拉菜单中，选择客户希望购买的门票级别（如果为该事件配置了多个级别）。"
 
 #: ../../content/applications/marketing/events/sell_tickets.rst:91
 msgid ""
@@ -6931,6 +7254,8 @@ msgid ""
 "ticket product now present in the :guilabel:`Order Lines` tab. The user can "
 "proceed to confirm and close the sale, per the usual process."
 msgstr ""
+"完成所有所需配置后，点击 :guilabel:`确认`。用户将返回销售订单，活动登记门票产品将出现在 :guilabel:`订单行` "
+"选项卡中。用户可按常规流程确认并关闭销售。"
 
 #: ../../content/applications/marketing/events/sell_tickets.rst:96
 msgid ""
@@ -6938,16 +7263,18 @@ msgid ""
 "registration product name in the :guilabel:`Order Lines` tab, and click on "
 "the :icon:`fa-pencil` :guilabel:`(pencil)` icon."
 msgstr ""
+"要重新打开 *配置活动* 弹出窗口，请将鼠标悬停在 :guilabel:`订单行` 选项卡中的活动注册产品名称上，然后点击 :icon:`fa-"
+"pencil`(铅笔)`图标。"
 
 #: ../../content/applications/marketing/events/sell_tickets.rst:100
 msgid "Sell event tickets through the Website app"
-msgstr ""
+msgstr "通过网站应用程序销售活动门票"
 
 #: ../../content/applications/marketing/events/sell_tickets.rst:102
 msgid ""
 "When a visitor arrives on the register page of the event website, they can "
 "click the :guilabel:`Register` button to purchase a ticket to the event."
-msgstr ""
+msgstr "访问者到达活动网站的注册页面后，可点击 :guilabel:`注册` 按钮购买活动门票。"
 
 #: ../../content/applications/marketing/events/sell_tickets.rst:106
 msgid ""
@@ -6956,18 +7283,20 @@ msgid ""
 "to the proper register page. From there, they can click the "
 ":guilabel:`Register` button to begin the ticket purchasing process."
 msgstr ""
+"如果访客*尚未*进入活动网站的注册页面，点击活动网站子菜单上的 :guilabel:`注册` 会将访问者重定向到正确的注册页面。在此处，访客可以点击 "
+":guilabel:`注册` 按钮开始购票流程。"
 
 #: ../../content/applications/marketing/events/sell_tickets.rst:111
 msgid ""
 "If different ticket tiers are configured for the event, the visitor is "
 "presented with a :guilabel:`Tickets` pop-up window."
-msgstr ""
+msgstr "如果为活动配置了不同的票价，访客将看到一个 :guilabel:`门票` 弹出窗口。"
 
 #: ../../content/applications/marketing/events/sell_tickets.rst-1
 msgid ""
 "The tickets pop-up window that appears on the event's website when "
 "'Register' is clicked."
-msgstr ""
+msgstr "点击 “注册” 后，活动网站上会弹出的门票窗口。"
 
 #: ../../content/applications/marketing/events/sell_tickets.rst:118
 msgid ""
@@ -6975,20 +7304,20 @@ msgid ""
 "along with a quantity, using the numerical drop-down menu available to the "
 "right of their desired ticket. Once the desired selections have been "
 "entered, the visitor then clicks the :guilabel:`Register` button."
-msgstr ""
+msgstr "在这里，访客可使用所需门票右侧的数字下拉菜单，选择要购买的门票等级和数量。输入所需选项后，访客点击 :guilabel:`注册` 按钮。"
 
 #: ../../content/applications/marketing/events/sell_tickets.rst:122
 msgid ""
 "Then, an :guilabel:`Attendees` pop-up window appears, containing all the "
 "questions that have been configured in the *Questions* tab of the event form"
 " for this particular event."
-msgstr ""
+msgstr "然后，会弹出一个 :guilabel:`参与者` 窗口，其中包含在活动表单的 *问题* 选项卡中为该特定活动配置的所有问题。"
 
 #: ../../content/applications/marketing/events/sell_tickets.rst-1
 msgid ""
 "The attendees pop-up window that appears on the event's website when 'Ok' is"
 " clicked."
-msgstr ""
+msgstr "点击 “确定” 后，活动网站会弹出参与者窗口。"
 
 #: ../../content/applications/marketing/events/sell_tickets.rst:129
 msgid ""
@@ -6998,6 +7327,8 @@ msgid ""
 "setting, that question is only asked once -- and **not** for every attendee "
 "making the reservation in the order."
 msgstr ""
+"如果一次购买多张门票，则每个门票注册人都有编号部分，每个部分都包含相同的问题。但是，如果任何问题已配置了 “每个订单问一次* "
+"设置，则该问题只问一次，并且 **不会** 针对订单中进行预订的每位参与者询问。"
 
 #: ../../content/applications/marketing/events/sell_tickets.rst:134
 msgid ""
@@ -7007,17 +7338,19 @@ msgid ""
 "confirmation page, where they can utilize any configured payment method set "
 "up in the database to complete the order."
 msgstr ""
+"输入所有必要信息后，访问者可以点击 :guilabel:`前往付款` 按钮。首先，访问者会进入 :guilabel:`账单` 确认页面，然后进入 "
+":guilabel:`付款` 确认页面，访问者可以使用数据库中设置的任何付款方式完成订单。"
 
 #: ../../content/applications/marketing/events/sell_tickets.rst:139
 msgid ""
 "Then, once the purchase is complete on the front-end of the website, the "
 "subsequent sales order is instantly accessible in the back-end of the "
 "database."
-msgstr ""
+msgstr "然后，一旦在网站前端完成购买，随后的销售订单就可以立即在后台数据库中访问。"
 
 #: ../../content/applications/marketing/events/track_manage_talks.rst:3
 msgid "Talks, proposals, and agenda"
-msgstr ""
+msgstr "分享会、提案和议程"
 
 #: ../../content/applications/marketing/events/track_manage_talks.rst:5
 msgid ""
@@ -7025,10 +7358,11 @@ msgid ""
 "where attendees can quickly access various tracks (talks, presentations, "
 "etc.), view entire agendas, and propose talks for the event."
 msgstr ""
+"有了 Odoo *活动*，用户就可以利用一个完全整合的活动网站，参与者可以快速访问各种分区（分享会、演讲等），查看整个议程，并为活动提议分享。"
 
 #: ../../content/applications/marketing/events/track_manage_talks.rst:10
 msgid "Event website"
-msgstr ""
+msgstr "活动网站"
 
 #: ../../content/applications/marketing/events/track_manage_talks.rst:12
 msgid ""
@@ -7038,12 +7372,14 @@ msgid ""
 ":guilabel:`Events` header option, and select the desired event to view that "
 "event's website."
 msgstr ""
+"要访问活动网站，请导航至 Odoo *活动* 应用程序中的特定活动表单，然后点击 :guilabel:`前往网站` 智能按钮。或者，在为公司建立的 "
+"Odoo 网站上，点击 :guilabel:`活动` 标题选项，然后选择所需的活动，以查看该活动的网站。"
 
 #: ../../content/applications/marketing/events/track_manage_talks.rst:17
 msgid ""
 "On the event website, there is an event-specific subheader menu with "
 "different options to choose from."
-msgstr ""
+msgstr "在活动网站上，有一个针对活动的副标题菜单，其中有不同的选项可供选择。"
 
 #: ../../content/applications/marketing/events/track_manage_talks.rst:20
 msgid ""
@@ -7052,6 +7388,8 @@ msgid ""
 "the event website: :guilabel:`Talks`, :guilabel:`Talk Proposals`, and "
 ":guilabel:`Agenda`."
 msgstr ""
+"在 Odoo *活动* 应用程序中启用 *时间表和分区* "
+"设置后，以下链接将自动添加到活动网站的副标题菜单中：:guilabel:`分享会`、:guilabel:`提案` 和 :guilabel:`议程`。"
 
 #: ../../content/applications/marketing/events/track_manage_talks.rst:28
 msgid ""
@@ -7059,28 +7397,30 @@ msgid ""
 ":menuselection:`Events app --> Configuration --> Settings`, tick the "
 "checkbox beside :guilabel:`Schedule & Tracks`, and click :guilabel:`Save`."
 msgstr ""
+"要启用 :guilabel:`时间表和活动` 设置，请导航至 :menuselection:`活动应用程序 --> 配置 --> 设置`，勾选 "
+":guilabel:`时间表和活动` 旁边的复选框，然后点击 :guilabel:`保存`。"
 
 #: ../../content/applications/marketing/events/track_manage_talks.rst:33
 msgid "Talks page"
-msgstr ""
+msgstr "演讲页面"
 
 #: ../../content/applications/marketing/events/track_manage_talks.rst:35
 msgid ""
 "The :guilabel:`Talks` link takes the attendee to a page filled with all the "
 "planned tracks for the event."
-msgstr ""
+msgstr ":guilabel:`演讲` 链接会将参与者带入一个页面，该页面包含活动的所有计划讲座。"
 
 #: ../../content/applications/marketing/events/track_manage_talks.rst-1
 msgid ""
 "The Talks page on an event website built through the Odoo Events "
 "application."
-msgstr ""
+msgstr "通过 Odoo 活动应用程序建立的活动网站上的演讲页面。"
 
 #: ../../content/applications/marketing/events/track_manage_talks.rst:42
 msgid ""
 "At the top of :guilabel:`Talks` page, there are drop-down filter menus "
 "beside a :guilabel:`Search a talk...` search bar."
-msgstr ""
+msgstr "在 :guilabel:`演讲` 页面顶部的 :guilabel:`搜索演讲...` 搜索栏旁边有下拉筛选菜单。"
 
 #: ../../content/applications/marketing/events/track_manage_talks.rst:45
 msgid ""
@@ -7089,31 +7429,33 @@ msgid ""
 "default. When clicked, the resulting menu presents two options: "
 ":guilabel:`Favorites` and :guilabel:`All Talks`."
 msgstr ""
+"第一个下拉筛选菜单（起始标题为 "
+":guilabel:`收藏夹`）是默认情况下唯一出现的下拉筛选菜单。点击后，菜单会显示两个选项：:guilabel:`收藏夹`和:guilabel:`所有讲座`。"
 
 #: ../../content/applications/marketing/events/track_manage_talks.rst:49
 msgid ""
 "Selecting :guilabel:`Favorites` shows *only* the tracks that have been "
 "favorited by the attendee."
-msgstr ""
+msgstr "选择 :guilabel:`收藏` *只*显示被参与者收藏的曲目。"
 
 #: ../../content/applications/marketing/events/track_manage_talks.rst:52
 msgid ""
 "If no tracks have been favorited, and the :guilabel:`Favorites` filter is "
 "selected, Odoo presents all the event tracks."
-msgstr ""
+msgstr "如果没有讲座被收藏，且选择了 :guilabel:`收藏` 筛选器，Odoo 会显示所有活动讲座。"
 
 #: ../../content/applications/marketing/events/track_manage_talks.rst:55
 msgid ""
 "Selecting :guilabel:`All Talks` shows *all* the tracks, regardless if they "
 "have been favorited or not."
-msgstr ""
+msgstr "选择 :guilabel:`所有讲座` 会显示*所有*讲座，无论它们是否已被收藏。"
 
 #: ../../content/applications/marketing/events/track_manage_talks.rst:58
 msgid ""
 "The other drop-down filter menus that appear on this page are related to any"
 " configured tags (and tag categories) created for event tracks in the "
 "backend."
-msgstr ""
+msgstr "该页面上出现的其他下拉筛选菜单与在后台为活动追踪创建的任何配置标签（和标签类别）有关。"
 
 #: ../../content/applications/marketing/events/track_manage_talks.rst:62
 msgid ""
@@ -7121,10 +7463,12 @@ msgid ""
 "form, and start typing a new tag in the :guilabel:`Tags` field. Then, click "
 ":guilabel:`Create and edit...` from the resulting drop-down menu."
 msgstr ""
+"要在追踪表单中添加标签和标签类别，请打开所需的活动追踪表单，并开始在 :guilabel:`标签` 字段中键入新标签。然后，从出现的下拉菜单中点击 "
+":guilabel:`创建和编辑...`。"
 
 #: ../../content/applications/marketing/events/track_manage_talks.rst:66
 msgid "Doing so reveals a :guilabel:`Create Tags` pop-up form."
-msgstr ""
+msgstr "这样做会弹出一个 :guilabel:`创建标签` 表单。"
 
 #: ../../content/applications/marketing/events/track_manage_talks.rst-1
 msgid ""
@@ -7168,6 +7512,8 @@ msgid ""
 "title. Attendees will know a track has been favorited when they notice the "
 "icon has been changed to :icon:`fa-bell` :guilabel:`(filled bell)` icon."
 msgstr ""
+"如果参与者希望收藏某个讲座，可点击讲座标题右侧的 :icon:`fa-bell-o` :guilabel:`（空铃）` 图标。当参与者注意到图标已更改为"
+" :icon:`fa-bell`:guilabel:`（满铃）` 图标时，就会知道曲目已被收藏。"
 
 #: ../../content/applications/marketing/events/track_manage_talks.rst:88
 msgid ""
@@ -7175,10 +7521,11 @@ msgid ""
 "which is accessible from the default drop-down filter menu, located at the "
 "top of the :guilabel:`Talks` page."
 msgstr ""
+"以这种方式收藏讲座会将其放在 :guilabel:`收藏` 列表中，可通过 :guilabel:`讲座` 页面顶部的默认下拉筛选菜单访问该列表。"
 
 #: ../../content/applications/marketing/events/track_manage_talks.rst:92
 msgid "Talk Proposals page"
-msgstr ""
+msgstr "演讲提案页面"
 
 #: ../../content/applications/marketing/events/track_manage_talks.rst:94
 msgid ""
@@ -7186,26 +7533,28 @@ msgid ""
 "website, wherein they can formerly submit a proposal for a talk "
 "(:dfn:`track`) for the event, via a custom online form."
 msgstr ""
+"通过 :guilabel:`演讲提案` "
+"链接，参与者可以访问活动网站上的一个页面，在该页面上，参与者可以通过自定义在线表格提交活动的讲座（:dfn:`演讲`）提案。"
 
 #: ../../content/applications/marketing/events/track_manage_talks.rst-1
 msgid ""
 "The Talk Proposals page on the event website built with the Odoo Events "
 "application."
-msgstr ""
+msgstr "使用 Odoo 活动应用程序建立的活动网站上的会谈提案页面。"
 
 #: ../../content/applications/marketing/events/track_manage_talks.rst:101
 msgid ""
 "In addition to the form, an introduction to the page, along with any other "
 "pertinent information related to the types of talks the event will feature "
 "can be added, if needed."
-msgstr ""
+msgstr "除表格外，还可根据需要添加页面介绍，以及与活动将举办的讲座类型相关的任何其他信息。"
 
 #: ../../content/applications/marketing/events/track_manage_talks.rst:104
 msgid ""
 "The talk proposal form can be modified in a number of different ways, via "
 "the web builder tools, accessible by clicking :guilabel:`Edit` while on the "
 "specific page."
-msgstr ""
+msgstr "在特定页面上点击 :guilabel:`编辑` 即可使用网页制作工具以多种方式修改演讲提案表单。"
 
 #: ../../content/applications/marketing/events/track_manage_talks.rst:107
 msgid ""
@@ -7213,12 +7562,13 @@ msgid ""
 ":guilabel:`Form` building block (located in the :guilabel:`Blocks` section "
 "of the web builder tools sidebar)."
 msgstr ""
+"然后，继续编辑任何默认字段，或使用 :guilabel:`表单` 构建块（位于网页制作工具侧边栏的 :guilabel:`块` 部分）添加新表单。"
 
 #: ../../content/applications/marketing/events/track_manage_talks.rst:110
 msgid ""
 "Once all the necessary information is entered into the form, the attendees "
 "just need to click the :guilabel:`Submit Proposal` button."
-msgstr ""
+msgstr "将所有必要信息输入表格后，参与者只需点击 :guilabel:`提交提案` 按钮。"
 
 #: ../../content/applications/marketing/events/track_manage_talks.rst:113
 msgid ""
@@ -7227,12 +7577,14 @@ msgid ""
 " :guilabel:`Proposal` stage, which is accessible via the :guilabel:`Tracks` "
 "smart button on the event form."
 msgstr ""
+"然后，可以在 :guilabel:`提案` 阶段的 :guilabel:`活动讲座` 页面上访问该演讲和在表单上输入的所有信息，该页面可通过活动表单上的"
+" :guilabel:`讲座` 智能按钮访问。"
 
 #: ../../content/applications/marketing/events/track_manage_talks.rst:117
 msgid ""
 "At that point, an internal user can review the proposed talk, and choose to "
 "accept or deny the proposal."
-msgstr ""
+msgstr "此时，内部用户可以审查提议的谈话，并选择接受或拒绝提案。"
 
 #: ../../content/applications/marketing/events/track_manage_talks.rst:120
 msgid ""
@@ -7242,6 +7594,8 @@ msgid ""
 ":guilabel:`Go to Website` smart button to reveal that track's page on the "
 "event website."
 msgstr ""
+"如果接受，内部用户就可以在活动的 :guilabel:`活动讲座` 页面上将讲座移动到看板管道的下一个适当阶段。然后，可以打开讲座表单，点击 "
+":guilabel:`转至网站` 智能按钮，在活动网站上显示该讲座的页面。"
 
 #: ../../content/applications/marketing/events/track_manage_talks.rst:125
 msgid ""
@@ -7249,29 +7603,30 @@ msgid ""
 " to :guilabel:`Published`, which allows all event attendees to view and "
 "access the talk."
 msgstr ""
+"在此处，可以将标题中的 :guilabel:`未发布` 开关切换为 :guilabel:`已发布`，这样所有活动参与者都可以查看和访问该讲座。"
 
 #: ../../content/applications/marketing/events/track_manage_talks.rst:129
 msgid "Agenda page"
-msgstr ""
+msgstr "议程页面"
 
 #: ../../content/applications/marketing/events/track_manage_talks.rst:131
 msgid ""
 "The :guilabel:`Agenda` link takes attendees to a page on the event website, "
 "showcasing an event calendar, depicting when (and where) events are taking "
 "place for that specific event."
-msgstr ""
+msgstr ":guilabel:`议程` 链接会将参与者带入活动网站上的一个页面，该页面展示了活动日历，介绍了该特定活动的举办时间（和地点）。"
 
 #: ../../content/applications/marketing/events/track_manage_talks.rst-1
 msgid ""
 "The event Agenda page on the event website built with the Odoo Events "
 "application."
-msgstr ""
+msgstr "使用 Odoo 活动应用程序建立的活动网站上的活动议程页面。"
 
 #: ../../content/applications/marketing/events/track_manage_talks.rst:138
 msgid ""
 "Clicking any track on the calendar takes the attendee to that specific "
 "track's detail page on the event website."
-msgstr ""
+msgstr "点击日历上的任何讲座，参与者就会进入活动网站上该讲座的详细页面。"
 
 #: ../../content/applications/marketing/marketing_automation.rst:5
 msgid "Marketing Automation"
@@ -7279,20 +7634,20 @@ msgstr "市场营销自动化"
 
 #: ../../content/applications/marketing/marketing_automation.rst:7
 msgid ""
-"The Odoo *Marketing Automation* application enables users to create dynamic "
+"Use the Odoo **Marketing Automation** application to create dynamic "
 "campaigns with actions that automatically occur within a defined duration, "
 "such as sending a series of timed mass emails or engaging with leads based "
 "on their interactions with marketing campaigns."
 msgstr ""
-"Odoo "
-"*营销自动化*应用程序使用户能够创建动态营销活动，并在规定时间内自动执行操作，例如发送一系列定时群发邮件，或根据潜在客户与营销活动的互动情况与其互动。"
+"使用 Odoo **营销自动化** "
+"应用程序创建动态营销活动，在规定时间内自动执行操作，例如发送一系列定时群发邮件，或根据潜在客户与营销活动的互动情况与其互动。"
 
 #: ../../content/applications/marketing/marketing_automation.rst:11
 msgid ""
-"While the application is designed to be user-friendly for quickly creating, "
+"While the application is designed to be user-friendly for creating, "
 "launching, and reviewing marketing campaigns, it also provides advanced "
 "features to automate repetitive tasks throughout the database."
-msgstr "该应用程序的设计旨在方便用户快速创建、启动和审查营销活动，同时还提供高级功能，可自动执行整个数据库中的重复性任务。"
+msgstr "该应用程序的设计旨在方便用户创建、启动和审查营销活动，同时还提供高级功能，可自动执行整个数据库中的重复性任务。"
 
 #: ../../content/applications/marketing/marketing_automation.rst:15
 msgid ""
@@ -7312,52 +7667,46 @@ msgstr "`Odoo教程：营销 <https://www.odoo.com/slides/marketing-27>`_"
 
 #: ../../content/applications/marketing/marketing_automation.rst:46
 msgid ""
-"To install the *Marketing Automation* application, navigate to the "
-":menuselection:`Apps application` and search for `Marketing Automation`."
-msgstr "要安装 *市场营销自动化* 应用程序，请导航至 :menuselection:`应用程序`，然后搜索 `市场营销自动化`。"
+"To begin, make sure the **Marketing Automation** application is "
+":ref:`installed <general/install>`."
+msgstr "首先，确保 **市场营销自动化** 应用程序 :ref:`已安装 <general/install>`。"
 
 #: ../../content/applications/marketing/marketing_automation.rst:49
 msgid ""
-"In the list of results, click the :guilabel:`Activate` button on the "
-":guilabel:`Marketing Automation` application to install it."
-msgstr "在结果列表中，点击 :guilabel:`激活` 按钮安装 :guilabel:`市场营销自动化` 应用程序。"
+"Installing the **Marketing Automation** application also installs the "
+":doc:`Email Marketing <email_marketing>` app, as most features of Odoo "
+"**Marketing Automation** are dependent on that specific application."
+msgstr ""
+"安装 **市场营销自动化** 应用程序的同时也会安装 :doc:`电子邮件营销<email_marketing>` 应用程序，因为 Odoo "
+"**营销自动化** 的大多数功能都依赖于该特定应用程序。"
 
 #: ../../content/applications/marketing/marketing_automation.rst:53
 msgid ""
-"Installing the *Marketing Automation* application also installs the "
-":doc:`Email Marketing <email_marketing>` app, as most features of Odoo "
-"*Marketing Automation* are dependent on that specific application."
-msgstr ""
-"安装 *营销自动化* 应用程序的同时也会安装 :doc:`电子邮件营销<email_marketing>` 应用程序，因为 Odoo *营销自动化* "
-"的大多数功能都依赖于该特定应用程序。"
-
-#: ../../content/applications/marketing/marketing_automation.rst:57
-msgid ""
 "Additionally, install the :doc:`CRM <../sales/crm>` and :doc:`SMS Marketing "
 "<sms_marketing>` applications to access *all* of the features available in "
-"*Marketing Automation*."
+"**Marketing Automation**."
 msgstr ""
 "此外，请安装 :doc:`CRM <../sales/crm>` 和 :doc:`短信市场营销<sms_marketing>` 应用程序，以访问 "
-"*市场营销自动化* 中可用的*所有*功能。"
+"**市场营销自动化** 中可用的*所有*功能。"
 
-#: ../../content/applications/marketing/marketing_automation.rst:60
+#: ../../content/applications/marketing/marketing_automation.rst:56
 msgid ""
 "The following documentation assumes that all three of these dependent "
 "applications are installed on the database."
 msgstr "以下说明文档假定数据库上安装了所有这三个依赖应用程序。"
 
-#: ../../content/applications/marketing/marketing_automation.rst:66
+#: ../../content/applications/marketing/marketing_automation.rst:62
 msgid "Campaigns"
 msgstr "活动"
 
-#: ../../content/applications/marketing/marketing_automation.rst:68
+#: ../../content/applications/marketing/marketing_automation.rst:64
 msgid ""
 "A *campaign* refers to a workflow of activities that are automatically "
 "executed to a target audience, based on predefined filters, triggers, and "
 "durations of activities."
 msgstr "*活动*是指根据预定义的筛选器、触发器和活动持续时间，自动执行给目标受众的活动工作流程。"
 
-#: ../../content/applications/marketing/marketing_automation.rst:71
+#: ../../content/applications/marketing/marketing_automation.rst:67
 msgid ""
 "A new campaign can be created from scratch or from a :ref:`template "
 "<marketing_automation/campaign-templates>`."
@@ -7365,23 +7714,22 @@ msgstr ""
 "可以从头开始创建一个新的营销活动，也可以从 :ref:`模板<marketing_automation/campaign-templates>` "
 "创建一个新的营销活动。"
 
-#: ../../content/applications/marketing/marketing_automation.rst:74
+#: ../../content/applications/marketing/marketing_automation.rst:70
 msgid ""
 "To create a campaign, navigate to the :menuselection:`Marketing Automation` "
-"application, from the main Odoo dashboard, to open the :guilabel:`Campaigns`"
-" dashboard. From here, click the :guilabel:`New` button to reveal a new "
-"campaign form."
+"application and click the :guilabel:`New` button to reveal a new campaign "
+"form."
 msgstr ""
-"要创建营销活动，请从 Odoo 主仪表板导航至 :menuselection:`市场营销自动化` 应用程序，打开 "
-":guilabel:`活动`仪表板。在此处，点击 :guilabel:`新建` 按钮以显示新活动表单。"
+"要创建营销活动，请导航至 :menuselection:`市场营销自动化` 应用程序，然后点击 :guilabel:`新建` "
+"按钮，显示新的营销活动表单。"
 
-#: ../../content/applications/marketing/marketing_automation.rst:81
+#: ../../content/applications/marketing/marketing_automation.rst:76
 #: ../../content/applications/marketing/marketing_automation/campaign_templates.rst:5
 #: ../../content/applications/marketing/sms_marketing/marketing_campaigns.rst:82
 msgid "Campaign templates"
 msgstr "活动模板"
 
-#: ../../content/applications/marketing/marketing_automation.rst:83
+#: ../../content/applications/marketing/marketing_automation.rst:78
 msgid ""
 "Odoo provides six campaign templates to help users get started. The campaign"
 " template cards **only** display when there are no existing campaigns in the"
@@ -7392,17 +7740,19 @@ msgstr ""
 "Odoo "
 "提供了六个营销活动模板，以帮助用户入门。当数据库中没有现有的营销活动时，营销活动模板卡片**才会**显示。一旦创建了营销活动，*活动*仪表板上的模板卡片将被现有营销活动的看板视图所取代。"
 
-#: ../../content/applications/marketing/marketing_automation.rst:88
+#: ../../content/applications/marketing/marketing_automation.rst:83
 msgid ""
 "To get started with a template, navigate to the :menuselection:`Marketing "
 "Automation` application, from the main Odoo dashboard, to open the "
 ":guilabel:`Campaigns` dashboard, which displays six :doc:`campaign template "
 "<marketing_automation/campaign_templates>` cards:"
 msgstr ""
+"要开始使用模板，请从 Odoo 主控制面板导航到 :menuselection:`市场营销自动化` 应用程序，打开 :guilabel:`活动` "
+"仪表板，其中显示六个 :doc:`活动模板 <marketing_automation/campaign_templates>` 卡片："
 
 #: ../../content/applications/marketing/marketing_automation.rst:0
-msgid ":guilabel:`🏷️ Tag Hot Contacts`"
-msgstr ":guilabel:`️🏷️标签热门联系人`"
+msgid ":icon:`fa-tag` :guilabel:`Tag Hot Contacts`"
+msgstr ":icon:`fa-tag` :guilabel:`标签热门联系人`"
 
 #: ../../content/applications/marketing/marketing_automation.rst:0
 msgid ""
@@ -7410,8 +7760,8 @@ msgid ""
 msgstr ":guilabel:`向联系人发送欢迎电子邮件，并在他们点击电子邮件时标记他们。"
 
 #: ../../content/applications/marketing/marketing_automation.rst:0
-msgid ":guilabel:`✌️ Welcome Flow`"
-msgstr ":guilabel:`✌️ 欢迎流程`"
+msgid ":icon:`fa-hand-peace-o` :guilabel:`Welcome Flow`"
+msgstr ":icon:`fa-hand-peace-o` :guilabel:`欢迎流程`"
 
 #: ../../content/applications/marketing/marketing_automation.rst:0
 msgid ""
@@ -7424,22 +7774,24 @@ msgid ""
 ":icon:`fa-check-square` :doc:`Double Opt-in "
 "<marketing_automation/campaign_templates/double_optin>`"
 msgstr ""
+":icon:`fa-check-square` :doc:`双重选择 "
+"<marketing_automation/campaign_templates/double_optin>`"
 
 #: ../../content/applications/marketing/marketing_automation.rst:0
 msgid ":guilabel:`Send an email to new recipients to confirm their consent.`"
 msgstr ":guilabel:`向新收件人发送电子邮件以确认其同意。`"
 
 #: ../../content/applications/marketing/marketing_automation.rst:0
-msgid ":guilabel:`🔍 Commercial prospection`"
-msgstr ":guilabel:`🔍 商业勘探`"
+msgid ":icon:`fa-search` :guilabel:`Commercial prospection`"
+msgstr ":icon:`fa-search` :guilabel:`商业洞察`"
 
 #: ../../content/applications/marketing/marketing_automation.rst:0
 msgid ":guilabel:`Send a free catalog and follow-up according to reactions.`"
 msgstr ":guilabel:`发送免费目录并根据反应采取后续行动。`"
 
 #: ../../content/applications/marketing/marketing_automation.rst:0
-msgid ":guilabel:`📞 Schedule Calls`"
-msgstr ":guilabel:`📞 安排通话`"
+msgid ":icon:`fa-phone` :guilabel:`Schedule Calls`"
+msgstr ":icon:`fa-phone` :guilabel:`预约通话`"
 
 #: ../../content/applications/marketing/marketing_automation.rst:0
 msgid ""
@@ -7448,8 +7800,8 @@ msgid ""
 msgstr ":guilabel:`如果为现有联系人创建了潜在客户，请安排与他们的销售人员通话。`"
 
 #: ../../content/applications/marketing/marketing_automation.rst:0
-msgid ":guilabel:`⭐️ Prioritize Hot leads`"
-msgstr ":guilabel:`⭐️ 优先处理热门潜在客户`"
+msgid ":icon:`fa-star` :guilabel:`Prioritize Hot leads`"
+msgstr ":icon:`fa-star` :guilabel:`优先考虑热门潜在客户`"
 
 #: ../../content/applications/marketing/marketing_automation.rst:0
 msgid ""
@@ -7463,21 +7815,20 @@ msgid ""
 "Automation app."
 msgstr "营销自动化应用程序“营销活动”仪表板上的六个营销活动模板卡。"
 
-#: ../../content/applications/marketing/marketing_automation.rst:110
+#: ../../content/applications/marketing/marketing_automation.rst:104
 msgid ""
 "These templates are designed to be used as starting points for creating new "
 "campaigns. Click one of the template cards to open the campaign form."
 msgstr "这些模板可作为创建新活动的起点。点击其中一个模板卡即可打开活动表单。"
 
-#: ../../content/applications/marketing/marketing_automation.rst:114
+#: ../../content/applications/marketing/marketing_automation.rst:108
 msgid ""
 "To display the campaign template cards again after a campaign has been "
 "created, type the name of a campaign that does **not** exist in the database"
-" into the :guilabel:`Search...` bar, then press :kbd:`Enter`."
-msgstr ""
-"要在创建活动后再次显示活动模板卡，请在 :guilabel:`搜索...` 栏中键入数据库中**不**存在的活动名称，然后按 :kbd:`回车键`。"
+" into the search bar, then press :kbd:`Enter`."
+msgstr "要在创建广告系列后再次显示广告系列模板卡，请在搜索栏中输入数据库中**不存在**的广告系列名称，然后按 :kbd:`回车键`。"
 
-#: ../../content/applications/marketing/marketing_automation.rst:118
+#: ../../content/applications/marketing/marketing_automation.rst:111
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:33
 msgid ""
 "For example, searching for `empty` displays the campaign template cards "
@@ -7485,11 +7836,11 @@ msgid ""
 "database."
 msgstr "例如，搜索 `empty` 时，只要数据库中没有名称为 \"empty\" 的活动，就会再次显示活动模板卡。"
 
-#: ../../content/applications/marketing/marketing_automation.rst:122
+#: ../../content/applications/marketing/marketing_automation.rst:115
 msgid "Targets and filters"
 msgstr "目标和筛选器"
 
-#: ../../content/applications/marketing/marketing_automation.rst:124
+#: ../../content/applications/marketing/marketing_automation.rst:117
 msgid ""
 "On the campaign form, the :guilabel:`Target` and :guilabel:`Filter` section,"
 " also referred to as the domain, contains the fields used to define the "
@@ -7499,75 +7850,75 @@ msgstr ""
 "在营销活动表单中，:guilabel:`目标` 和 :guilabel:`筛选器` "
 "部分（也称为域）包含用于定义营销活动覆盖的目标受众（即数据库中的唯一联系人记录）的字段。"
 
-#: ../../content/applications/marketing/marketing_automation.rst:128
+#: ../../content/applications/marketing/marketing_automation.rst:121
 msgid ""
 "The target audience specifies the type of records available for use in the "
 "campaign, such as *Lead/Opportunity*, *Event Registration*, *Contact*, and "
 "more."
 msgstr "目标受众指定了可在营销活动中使用的记录类型，如*潜在客户/机会*、*活动注册*、*联系人*等。"
 
-#: ../../content/applications/marketing/marketing_automation.rst:132
+#: ../../content/applications/marketing/marketing_automation.rst:125
 msgid "Records"
 msgstr "记录"
 
-#: ../../content/applications/marketing/marketing_automation.rst:134
+#: ../../content/applications/marketing/marketing_automation.rst:127
 msgid ""
 "The contacts in the system that fit the specified criteria for a campaign "
 "are referred to as *records*."
 msgstr "系统中符合活动指定标准的联系人被称为*记录*。"
 
-#: ../../content/applications/marketing/marketing_automation.rst:137
+#: ../../content/applications/marketing/marketing_automation.rst:130
 msgid ""
 "The number of records that are displayed next to the campaign "
 ":guilabel:`Filter` represent the total number of records the campaign is "
 "targeting."
 msgstr "在营销活动的:guilabel:`筛选器`旁边显示的记录数量表示该营销活动的目标记录总数。"
 
-#: ../../content/applications/marketing/marketing_automation.rst:141
+#: ../../content/applications/marketing/marketing_automation.rst:134
 #: ../../content/applications/marketing/marketing_automation/understanding_metrics.rst:157
 msgid "Participants"
 msgstr "参与者"
 
-#: ../../content/applications/marketing/marketing_automation.rst:143
+#: ../../content/applications/marketing/marketing_automation.rst:136
 msgid ""
 "The records that are engaged by the campaign are referred to as "
 "*participants*."
 msgstr "参与活动的记录被称为*参与者*。"
 
-#: ../../content/applications/marketing/marketing_automation.rst:145
+#: ../../content/applications/marketing/marketing_automation.rst:138
 msgid ""
 "The number of participants engaged in a test run are shown in the *Tests* "
 "smart button, which displays on the top of the campaign form after a test "
 "has been run."
 msgstr "参与测试运行的人数显示在 *测试* 智能按钮中，该按钮在测试运行后显示在活动表单的顶部。"
 
-#: ../../content/applications/marketing/marketing_automation.rst:148
+#: ../../content/applications/marketing/marketing_automation.rst:141
 msgid ""
 "The number of participants engaged in a running, or stopped, campaign are "
 "shown in the *Participants* smart button at the top of the campaign form."
 msgstr "正在进行或已停止的活动的参与者人数显示在活动表单顶部的 *参与者* 智能按钮中。"
 
-#: ../../content/applications/marketing/marketing_automation.rst:152
+#: ../../content/applications/marketing/marketing_automation.rst:145
 msgid ":doc:`Audience targeting <marketing_automation/target_audience>`"
 msgstr ":doc:`受众定位 <marketing_automation/target_audience>`"
 
-#: ../../content/applications/marketing/marketing_automation.rst:155
+#: ../../content/applications/marketing/marketing_automation.rst:148
 msgid "Workflow"
 msgstr "工作流"
 
-#: ../../content/applications/marketing/marketing_automation.rst:157
+#: ../../content/applications/marketing/marketing_automation.rst:150
 msgid ""
 "A *workflow* consists of an activity, many activities, or a sequence of "
 "activities organized in a campaign. A campaign's workflow is defined in the "
 ":guilabel:`Workflow` section of the campaign form."
 msgstr "*工作流程*由一个活动、多个活动或一系列活动组成。活动表单的 :guilabel:`工作流` 部分定义了活动的工作流程。"
 
-#: ../../content/applications/marketing/marketing_automation.rst:161
+#: ../../content/applications/marketing/marketing_automation.rst:154
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:19
 msgid "Activities"
 msgstr "活动"
 
-#: ../../content/applications/marketing/marketing_automation.rst:163
+#: ../../content/applications/marketing/marketing_automation.rst:156
 msgid ""
 "*Activities* are the methods of communication or server actions, organized "
 "in a workflow, that are executed within a campaign. Once running, each "
@@ -7575,64 +7926,64 @@ msgid ""
 "activity as *Success* and *Rejected* counts."
 msgstr "*活动*是在活动中执行的沟通方法或服务器操作，按工作流程组织。运行后，每个活动都会以*成功*和*拒绝*计数的形式显示参与活动的人数。"
 
-#: ../../content/applications/marketing/marketing_automation.rst:167
+#: ../../content/applications/marketing/marketing_automation.rst:160
 msgid ""
 "To create one of the following activities, click :guilabel:`Add new "
 "activity` in the :guilabel:`Workflow` section of the campaign form:"
 msgstr "要创建以下活动之一，请点击活动表单中 :guilabel:`工作流` 部分的 :guilabel:`添加新活动`："
 
-#: ../../content/applications/marketing/marketing_automation.rst:170
+#: ../../content/applications/marketing/marketing_automation.rst:163
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:53
 msgid ""
 ":ref:`Email <marketing_automation/email-activity-type>`: an email that is "
 "sent to the target audience."
 msgstr ":ref:`电子邮件 <marketing_automation/email-activity-type>`：发送给目标受众的电子邮件。"
 
-#: ../../content/applications/marketing/marketing_automation.rst:172
+#: ../../content/applications/marketing/marketing_automation.rst:165
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:55
 msgid ""
 ":ref:`Server action <marketing_automation/sa-activity-type>`: an internal "
 "action within the database that is executed."
 msgstr ":ref:`服务器操作 <marketing_automation/sa-activity-type>`：在数据库中执行的内部操作。"
 
-#: ../../content/applications/marketing/marketing_automation.rst:174
+#: ../../content/applications/marketing/marketing_automation.rst:167
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:57
 msgid ""
 ":ref:`SMS <marketing_automation/sms-activity-type>`: a text message that is "
 "sent to the target audience."
 msgstr ":ref:`SMS <marketing_automation/sms-activity-type>`：发送给目标受众的文本信息。"
 
-#: ../../content/applications/marketing/marketing_automation.rst:178
+#: ../../content/applications/marketing/marketing_automation.rst:171
 msgid ":doc:`marketing_automation/workflow_activities`"
 msgstr ":doc:`marketing_automation/workflow_activities`"
 
-#: ../../content/applications/marketing/marketing_automation.rst:181
+#: ../../content/applications/marketing/marketing_automation.rst:174
 msgid "Testing and running"
 msgstr "测试和运行"
 
-#: ../../content/applications/marketing/marketing_automation.rst:183
+#: ../../content/applications/marketing/marketing_automation.rst:176
 msgid ""
 "Once a campaign has been created, it can be tested to ensure the workflow is"
 " functioning as expected, to check for errors, and correct any mistakes "
 "before it reaches its target audience."
 msgstr "一旦创建了营销活动，就可以对其进行测试，以确保工作流程按预期运行，检查是否存在错误，并在到达目标受众之前纠正任何错误。"
 
-#: ../../content/applications/marketing/marketing_automation.rst:186
+#: ../../content/applications/marketing/marketing_automation.rst:179
 msgid ""
 "After testing, the campaign can be launched to start engaging the target "
 "audience. The campaign can also be launched *without* testing, if the user "
 "is confident in the workflow."
 msgstr "测试完成后，就可以启动营销活动，开始吸引目标受众。如果用户对工作流程有信心，也可以*不*进行测试，直接启动活动。"
 
-#: ../../content/applications/marketing/marketing_automation.rst:190
+#: ../../content/applications/marketing/marketing_automation.rst:183
 msgid ":doc:`marketing_automation/testing_running`"
 msgstr ":doc:`marketing_automation/testing_running`"
 
-#: ../../content/applications/marketing/marketing_automation.rst:193
+#: ../../content/applications/marketing/marketing_automation.rst:186
 msgid "Reporting"
 msgstr "报告"
 
-#: ../../content/applications/marketing/marketing_automation.rst:195
+#: ../../content/applications/marketing/marketing_automation.rst:188
 msgid ""
 "A range of reporting metrics are available to measure the success of each "
 "campaign. Navigate to :menuselection:`Marketing Automation app --> "
@@ -7640,31 +7991,31 @@ msgid ""
 msgstr ""
 "有一系列报告指标可用于衡量每个营销活动的成功与否。导航至 :menuselection:`营销自动化应用程序 --> 报告` 访问以下菜单选项："
 
-#: ../../content/applications/marketing/marketing_automation.rst:198
+#: ../../content/applications/marketing/marketing_automation.rst:191
 msgid ""
 ":guilabel:`Link Tracker`: displays the metrics of links to track the number "
 "of clicks."
 msgstr ":guilabel:`链接追踪器`：显示链接的指标，以追踪点击次数。"
 
-#: ../../content/applications/marketing/marketing_automation.rst:199
+#: ../../content/applications/marketing/marketing_automation.rst:192
 msgid ""
 ":guilabel:`Traces`: displays the results of all activities from all "
 "campaigns."
 msgstr ":guilabel:`追踪`：显示所有活动的结果。"
 
-#: ../../content/applications/marketing/marketing_automation.rst:200
+#: ../../content/applications/marketing/marketing_automation.rst:193
 msgid ""
 ":guilabel:`Participants`: displays an overview of the participants of all "
 "campaigns."
 msgstr ":guilabel:`参与者`：显示所有活动参与者的概览。"
 
-#: ../../content/applications/marketing/marketing_automation.rst:202
+#: ../../content/applications/marketing/marketing_automation.rst:195
 msgid ""
 "Additionally, each activity within the workflow of a campaign displays its "
 "engagement metrics."
 msgstr "此外，活动工作流程中的每个活动都会显示其参与度指标。"
 
-#: ../../content/applications/marketing/marketing_automation.rst:205
+#: ../../content/applications/marketing/marketing_automation.rst:198
 msgid ":doc:`marketing_automation/understanding_metrics`"
 msgstr ":doc:`marketing_automation/understanding_metrics`"
 
@@ -7680,6 +8031,7 @@ msgid ""
 "addresses, avoids spam/robo subscribers, keeps mailing lists clean, and only"
 " includes engaged contacts in the mailing list."
 msgstr ""
+"在一些国家/地区，由于反垃圾邮件法律的规定，营销通信可能需要*双重选择*，也称为*确认选择加入*。确认同意还有其他好处：它可以验证电子邮件地址，避免垃圾邮件/机器人订阅者，保持邮件列表干净，并只将真正感兴趣的联系人纳入邮件列表。"
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:10
 msgid ""
@@ -7690,17 +8042,19 @@ msgid ""
 "that click on the confirmation link in the email are automatically added to "
 "the *Confirmed contacts* mailing list in Odoo."
 msgstr ""
+"使用*双重选择*活动模板时，将在*电子邮件营销*应用程序中创建名为*确认联系人*的新邮件列表，并向添加到默认*时事通讯*邮件列表的任何新邮件列表联系人发送一封确认电子邮件，以实现双重选择。点击电子邮件中确认链接的联系人，将自动添加到"
+" Odoo *确认联系人*邮件列表。"
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:17
 msgid ""
 "When using the *Double Opt-in* campaign template, only the contacts in the "
 "*Confirmed contacts mailing* list are considered to have confirmed their "
 "consent."
-msgstr ""
+msgstr "使用*双重选择*活动模板时，只有*已确认联系人邮件*列表中的联系人才被视为已确认同意。"
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:23
 msgid "Use the Double Opt-in campaign template"
-msgstr ""
+msgstr "使用双重选择活动模板"
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:25
 msgid ""
@@ -7708,6 +8062,7 @@ msgid ""
 ":guilabel:`Double Opt-in` campaign template to create a new campaign for "
 "confirming consent."
 msgstr ""
+"打开 :menuselection:`市场营销自动化` 应用程序，并选择 :guilabel:`双重选择` 营销活动模板，以创建新的确认同意营销活动。"
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:29
 msgid ""
@@ -7716,6 +8071,8 @@ msgid ""
 "templates, type the name of a campaign (that does not exist in the database)"
 " into the :guilabel:`Search...` bar, then press :kbd:`Enter`."
 msgstr ""
+"如果已有*营销自动化*营销活动，默认情况下不会显示营销活动模板。要显示营销活动模板，请在 :guilabel:`搜索...` "
+"栏中键入营销活动名称（数据库中不存在），然后按 :kbd:`回车键`。"
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:37
 msgid "Campaign configuration"
@@ -7725,51 +8082,51 @@ msgstr "活动配置"
 msgid ""
 "Upon creation of the campaign, the campaign form loads with a new "
 "preconfigured campaign."
-msgstr ""
+msgstr "创建营销活动时，营销活动表单会加载一个新的预配置营销活动。"
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:41
 msgid ""
 "The :guilabel:`Target` and :guilabel:`Filter` configurations of the campaign"
 " are as follows:"
-msgstr ""
+msgstr "活动的 :guilabel:`目标` 和 :guilabel:`筛选` 配置如下："
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:43
 msgid ":guilabel:`Name`: `Double Opt-in`"
-msgstr ""
+msgstr ":guilabel:`名称`：`双重选择`"
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:44
 msgid ":guilabel:`Responsible`\\*: The user who created the campaign."
-msgstr ""
+msgstr ":guilabel:`负责人`\\*：创建活动的用户。"
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:45
 msgid ":guilabel:`Target`: :guilabel:`Mailing Contact`"
-msgstr ""
+msgstr ":guilabel:`目标`：:guilabel:`邮件联系人`"
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:46
 msgid ":guilabel:`Unicity based on`: :guilabel:`Email (Mailing Contact)`"
-msgstr ""
+msgstr ":guilabel:`唯一性基于`：:guilabel:`电子邮件（邮件联系人）`"
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:47
 msgid ":guilabel:`Filter`:"
-msgstr ""
+msgstr ":guilabel:`筛选项`："
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:49
 msgid ":guilabel:`Email` :guilabel:`is set`"
-msgstr ""
+msgstr ":guilabel:`电子邮件` :guilabel:`已设置`"
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:50
 msgid ":guilabel:`Blacklist` :guilabel:`is not` :guilabel:`set`"
-msgstr ""
+msgstr ":guilabel:`黑名单` :guilabel:`未` :guilabel:`设置`"
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:51
 msgid ":guilabel:`Mailing lists` :guilabel:`contains` `Newsletter`"
-msgstr ""
+msgstr ":guilabel:`邮件列表` :guilabel:`包含` `时事通讯`"
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:53
 msgid ""
 "\\* The :guilabel:`Responsible` field is only visible with :ref:`developer-"
 "mode` activated."
-msgstr ""
+msgstr "\\*只有 :ref:`开发者模式` 已激活时，:guilabel:`负责人` 字段才可见。 "
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:56
 msgid ""
@@ -7778,12 +8135,14 @@ msgid ""
 ":guilabel:`Workflow` invalidates the existing activities in the "
 ":guilabel:`Workflow`."
 msgstr ""
+"不应修改活动的 :guilabel:`目标` 模型。使用 :guilabel:`工作流` 中的活动更改 :guilabel:`目标` 模型会使 "
+":guilabel:`工作流` 中的现有活动失效。"
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:60
 msgid ""
 "The *Double Opt-in* campaign template is intended to **only** use the "
 ":guilabel:`Mailing Contact` model."
-msgstr ""
+msgstr "*双重确认* 活动模板**仅限**使用 :guilabel:`邮件联系人`模型。"
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:63
 msgid ""
@@ -7791,6 +8150,7 @@ msgid ""
 " campaign: an email activity, with a child server action activity that "
 "triggers *on click*."
 msgstr ""
+"该活动在活动的 :guilabel:`工作流程` 部分加载了两个活动：一个电子邮件活动和一个子服务器操作活动，子服务器操作活动在*点击*时触发。"
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:66
 msgid ""
@@ -7798,12 +8158,14 @@ msgid ""
 " Hours` after the beginning of the workflow. In other words, the email is "
 "sent 1 hour after a new contact is added to the *Newsletter* mailing list."
 msgstr ""
+"默认情况下， `确认 ` 电子邮件活动被设置为在工作流程开始后 :guilabel:`1 小时` 触发。换句话说，电子邮件将在新联系人添加到 "
+"*时事通讯* 邮件列表 1 小时后发送。"
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:70
 msgid ""
 "The email activity uses the preconfigured *Confirmation* email template, "
 "which contains a button for the contact to click to confirm their consent."
-msgstr ""
+msgstr "电子邮件活动使用预先配置的 *确认* 电子邮件模板，其中包含一个按钮，供联系人点击确认同意。"
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:73
 msgid ""
@@ -7811,13 +8173,15 @@ msgid ""
 ":guilabel:`Templates` smart button at the top of the campaign form. Then, in"
 " the list of templates, select the `Confirmation` email template."
 msgstr ""
+"要修改电子邮件模板，请选择活动表单顶部的 :icon:`fa-envelope-o`:guilabel:`模板`智能按钮。然后，在模板列表中选择 "
+"`确认` 电子邮件模板。"
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:77
 msgid ""
 "Be sure to personalize the contents of the email template; however, it is "
 "recommended to keep the contents of double opt-in confirmation emails short "
 "and to-the-point."
-msgstr ""
+msgstr "请务必个性化电子邮件模板的内容；不过，建议双重确认电子邮件的内容简短、切题。"
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:80
 msgid ""
@@ -7840,13 +8204,13 @@ msgstr ""
 msgid ""
 "The email template should only include a single call-to-action link for "
 "confirmation, other than an unsubscribe link."
-msgstr ""
+msgstr "邮件模板应仅包含一个确认用的行动号召链接（退订链接除外）。"
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:93
 msgid ""
 "Any click on a link (or button) included in the confirmation email, besides "
 "the unsubscribe button, triggers the *Add to list* server action."
-msgstr ""
+msgstr "除退订按钮外，点击确认邮件中的任何链接（或按钮）都将触发*添加至列表*服务器动作。"
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:96
 msgid ""
@@ -7855,39 +8219,40 @@ msgid ""
 "`/unsubscribe_from_list` unsubscribe button that is included in any one of "
 "the footer blocks."
 msgstr ""
+"子活动*添加至列表*服务器动作的点击时触发器无法区分邮件中的多个URL（除任何页脚区块中包含的/unsubscribe_from_list退订按钮外）。"
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:100
 msgid ""
 "The `Add to list` server action activity triggers immediately after a click "
 "in the parent `Confirmation` email activity is detected."
-msgstr ""
+msgstr "`添加至列表` 服务器动作活动，会在检测到母确认邮件活动中的点击后立即触发。"
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:103
 msgid ""
 "When triggered, the `Add to list` activity executes the *Add To Confirmed "
 "List* server action, automatically adding the contact to the *Confirmed "
 "contacts* mailing list, if they are not already in the mailing list."
-msgstr ""
+msgstr "触发时，添加至列表活动将执行添加至确认列表服务器动作，自动将联系人添加至已确认联系人邮件列表（若尚未存在该列表中）。"
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:107
 msgid ""
 "To modify the server action, select the title of the activity to open the "
 ":guilabel:`Open: Activities` pop-up window and edit the server action "
 "activities configuration."
-msgstr ""
+msgstr "要修改服务器动作，请选择活动标题打开 :guilabel:`打开：活动` 弹窗，编辑服务器动作活动配置。"
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:111
 msgid ""
 "Consider setting an :guilabel:`Expiry Duration` to prevent executing the "
 "activity after a specific amount of time."
-msgstr ""
+msgstr "建议设置 :guilabel:`到期时长` 以避免在特定时间后执行该活动。"
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:115
 msgid ""
 "It is not recommended to modify the preconfigured Python code in the "
 ":guilabel:`Add To Confirmed List` server action, as doing so may trigger a "
 "change in the database's pricing plan."
-msgstr ""
+msgstr "不建议修改 :guilabel:`添加至确认列表` 服务器动作中预配置的 Python 代码，否则可能触发数据库定价方案的变更。"
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:118
 msgid ""
@@ -7903,7 +8268,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:126
 msgid "Double Opt-in use-case"
-msgstr ""
+msgstr "双重确认用例"
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:129
 msgid ""
@@ -7926,6 +8291,9 @@ msgid ""
 "*Marketing Automation* app to confirm marketing email consent from the "
 "contacts in the *Newsletter* mailing list."
 msgstr ""
+"在发送任何营销电子邮件之前，:ref:`使用 *市场营销_自动化* 应用程序中的双重选择营销活动模板 "
+"<marketing_automation/template/using-double-optin>`，以确认 *时事通讯* "
+"邮件列表中的联系人同意发送营销电子邮件。"
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:141
 msgid ""
@@ -7933,16 +8301,18 @@ msgid ""
 "double opt-in in the *Confirmed contacts* mailing list "
 "(:menuselection:`Email Marketing app --> Mailing Lists --> Mailing Lists`)."
 msgstr ""
+"启动 *双重选择* 营销活动后，在 *已确认联系人* 邮件列表（:menuselection:`电子邮件营销应用程序--> 邮件列表--> "
+"邮件列表`）中查看已双选的联系人。"
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst-1
 msgid "Activity metrics on the campaign form."
-msgstr ""
+msgstr "活动表格上的活动指标。"
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:149
 msgid ""
 "Now, the *Confirmed contacts* mailing list is ready to be used for sending "
 "newsletter marketing emails from an Odoo database."
-msgstr ""
+msgstr "现在， *已确认联系人* 邮件列表已准备好，可以从 Odoo 数据库发送新闻通讯营销电子邮件。"
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:153
 msgid ":doc:`../understanding_metrics`"
@@ -7997,6 +8367,8 @@ msgid ""
 "where duplicates should be avoided. Traditionally, the :guilabel:`Email` "
 "field is used, but any available field can be used."
 msgstr ""
+":guilabel:`唯一性依据`：指定 :guilabel:`目标` 模型中应避免重复的字段。传统上使用 :guilabel:`邮箱` "
+"字段，但也可选择任何可用字段。"
 
 #: ../../content/applications/marketing/marketing_automation/target_audience.rst:19
 msgid ""
@@ -8005,25 +8377,27 @@ msgid ""
 "model. See more details in the :ref:`marketing_automation/defining-filters` "
 "section."
 msgstr ""
+":guilabel:`筛选器`：包含可配置逻辑的交互式表单，用于细化所选 :guilabel:`目标` 模型下的定向参数。详见 "
+":ref:`<marketing_automation/defining-filters>`章节。"
 
 #: ../../content/applications/marketing/marketing_automation/target_audience.rst:22
 msgid ""
 ":guilabel:`Include archived`: allows or disallows the inclusion of archived "
 "records in the target audience."
-msgstr ""
+msgstr ":guilabel:`包含归档记录`：允许或禁止在目标受众中包含归档记录。"
 
 #: ../../content/applications/marketing/marketing_automation/target_audience.rst:26
 msgid ""
 "A :guilabel:`Responsible` user can be assigned to the campaign by activating"
 " :ref:`developer-mode`."
-msgstr ""
+msgstr "可通过启用 :ref:`开发者模式` 为营销活动分配 :guilabel:`负责人` 用户。"
 
 #: ../../content/applications/marketing/marketing_automation/target_audience.rst:30
 msgid ""
 "Each activity in a campaign's workflow can target a subset of the target "
 "audience; see the :doc:`workflow_activities` documentation for more "
 "information."
-msgstr ""
+msgstr "营销活动工作流中的每个活动均可针对目标受众的子集，详见 :doc:` <workflow_activities>` 文档。"
 
 #: ../../content/applications/marketing/marketing_automation/target_audience.rst:36
 msgid "Defining filters"
@@ -8099,33 +8473,33 @@ msgstr ""
 
 #: ../../content/applications/marketing/marketing_automation/target_audience.rst:68
 msgid ":guilabel:`Expected Revenue` :guilabel:`>` `1,000`"
-msgstr ""
+msgstr ":guilabel:`预期收入` :guilabel:`>` `1,000`"
 
 #: ../../content/applications/marketing/marketing_automation/target_audience.rst:69
 msgid ":guilabel:`any 🔽 (down arrow)` :guilabel:`of:`"
-msgstr ""
+msgstr ":guilabel:`任何 🔽 (向下箭头)` :guilabel:`的:`"
 
 #: ../../content/applications/marketing/marketing_automation/target_audience.rst:71
 msgid ":guilabel:`Type` :guilabel:`=` :guilabel:`Lead`"
-msgstr ""
+msgstr ":guilabel:`类型` :guilabel:`=` :guilabel:`潜在客户`"
 
 #: ../../content/applications/marketing/marketing_automation/target_audience.rst:72
 msgid ":guilabel:`Type` :guilabel:`=` :guilabel:`Opportunity`"
-msgstr ""
+msgstr ":guilabel:`Type` :guilabel:`=` :guilabel:`机会"
 
 #: ../../content/applications/marketing/marketing_automation/target_audience.rst:74
 msgid ""
 "With the above configuration, the campaign targets :guilabel:`157 "
 "record(s)`."
-msgstr ""
+msgstr "通过上述配置，营销活动的目标是 :guilabel:`157 条记录`。"
 
 #: ../../content/applications/marketing/marketing_automation/target_audience.rst:0
 msgid "A domain configuration in a Marketing Automation campaign."
-msgstr ""
+msgstr "营销自动化活动中的域配置。"
 
 #: ../../content/applications/marketing/marketing_automation/target_audience.rst:81
 msgid ":ref:`Domain developer documentation <reference/orm/domains>`"
-msgstr ""
+msgstr ":ref:`域开发者说明文档 <reference/orm/domains>`"
 
 #: ../../content/applications/marketing/marketing_automation/target_audience.rst:82
 #: ../../content/applications/marketing/marketing_automation/testing_running.rst:153
@@ -10694,6 +11068,8 @@ msgid ""
 "example if the :guilabel:`Calendar Event` model is selected, then the "
 "following options appear in addition to those above:"
 msgstr ""
+"根据所选的 :guilabel:`模型`，可能会出现其他选项。例如，如果选择了 :guilabel:`日历活动` "
+"模型，则除上述选项外，还会出现以下选项："
 
 #: ../../content/applications/marketing/sms_marketing/sms_analysis.rst:70
 msgid ":guilabel:`Email Events`"
@@ -10712,7 +11088,7 @@ msgid ""
 "Under the :guilabel:`Before Update Domain` field, set a condition to be met "
 "before updating the record. Click :guilabel:`Edit Domain` to set record "
 "parameters."
-msgstr ""
+msgstr "在 :guilabel:`域名更新前` 字段下，设置更新记录前必须满足的条件。点击 :guilabel:`编辑域` 设置记录参数。"
 
 #: ../../content/applications/marketing/sms_marketing/sms_analysis.rst:78
 msgid ""
@@ -10723,6 +11099,9 @@ msgid ""
 "execute this rule. Leave the field empty to allow all groups. See this "
 "documentation: :ref:`access-rights/groups`."
 msgstr ""
+"在 :guilabel:`待采取的行动` 选项卡下，选择 :guilabel:`添加操作`。然后，在弹出的 :guilabel:`创建操作` "
+"窗口中，选择 :guilabel:`发送短信`，并设置 :guilabel:`允许的组`。 :guilabel:`允许的组` "
+"是允许执行此规则的访问权限组。将该字段留空表示允许所有组。请参阅此文档：:ref:`access-rights/groups`。"
 
 #: ../../content/applications/marketing/sms_marketing/sms_analysis.rst:84
 msgid ""
@@ -10731,12 +11110,14 @@ msgid ""
 ":guilabel:`Send SMS as`. Click :guilabel:`Save and Close` to save the "
 "changes to this new action."
 msgstr ""
+"接下来，设置 :guilabel:`SMS 模板`，并在下拉菜单 :guilabel:`发送短信为` 中选择是否将短信记录为备注。点击 "
+":guilabel:`保存并关闭` 保存对新操作的更改。"
 
 #: ../../content/applications/marketing/sms_marketing/sms_analysis.rst-1
 msgid ""
 "Automation rule template with rule to do, SMS template and log as note "
 "highlighted."
-msgstr ""
+msgstr "自动化规则模板，包含待办规则、短信模板和日志，作为备注突出显示。"
 
 #: ../../content/applications/marketing/sms_marketing/sms_analysis.rst:92
 msgid ""
@@ -10744,6 +11125,8 @@ msgid ""
 "away from the completed automation rule, or manually save (by clicking the "
 ":guilabel:`☁️ (cloud)` icon), to implement the change."
 msgstr ""
+"在 :guilabel:`说明` 选项卡下添加任何必要的注释。最后，导航离开已完成的自动化规则，或手动保存（通过点击 :guilabel:`☁️ "
+"(云朵)` 图标）以执行更改。"
 
 #: ../../content/applications/marketing/social_marketing.rst:5
 msgid "Social Marketing"
@@ -11296,13 +11679,13 @@ msgstr "Odoo *社媒营销* 应用程序与其他 Odoo 应用程序整合，如*
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:3
 msgid "Social posts"
-msgstr ""
+msgstr "社交贴文"
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:5
 msgid ""
 "The Odoo *Social Marketing* application provides various ways to create "
 "posts for any type of social media outlet."
-msgstr ""
+msgstr "Odoo *社媒营销* 应用程序提供了为任何类型的社交媒体渠道创建贴文的各种方法。"
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:9
 msgid "Posts page"
@@ -12050,7 +12433,7 @@ msgstr "规则下方显示的 :guilabel:`记录` 数量代表指定目标受众�
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:395
 msgid ":doc:`social_campaigns`"
-msgstr ""
+msgstr ":doc:`social_campaigns`"
 
 #: ../../content/applications/marketing/surveys.rst:5
 msgid "Surveys"
@@ -12060,7 +12443,7 @@ msgstr "调查"
 msgid ""
 "Companies gather valuable insights from customers and employees through "
 "surveys, aiding informed decision-making."
-msgstr ""
+msgstr "公司通过调查从客户和员工那里收集宝贵的意见，从而帮助做出明智决策。"
 
 #: ../../content/applications/marketing/surveys.rst:10
 msgid ""
@@ -12077,11 +12460,11 @@ msgstr ""
 msgid "`Odoo Tutorials: Surveys <https://www.odoo.com/slides/surveys-62>`_"
 msgstr "`Odoo 教程：调查<https://www.odoo.com/slides/surveys-62>_"
 
-#: ../../content/applications/marketing/surveys.rst:19
+#: ../../content/applications/marketing/surveys.rst:46
 msgid "Dashboard"
 msgstr "仪表板"
 
-#: ../../content/applications/marketing/surveys.rst:21
+#: ../../content/applications/marketing/surveys.rst:48
 msgid ""
 "Upon opening the *Surveys* application, Odoo presents the main dashboard of "
 "the *Surveys* application, otherwise known as the :guilabel:`Surveys` page."
@@ -12091,98 +12474,98 @@ msgstr "打开 *调查* 应用程序后，Odoo 会显示 *调查* 应用程序�
 msgid "The Odoo Surveys application dashboard in the default Kanban view."
 msgstr "默认看板视图中的 Odoo 调查应用程序仪表板。"
 
-#: ../../content/applications/marketing/surveys.rst:29
+#: ../../content/applications/marketing/surveys.rst:56
 msgid ""
 "The *Surveys* dashboard can be accessed at any time throughout the "
 "application by clicking :menuselection:`Surveys` from the header menu."
 msgstr "在整个应用程序中，可随时点击标题菜单中的 :menuselection:`调查` 访问 *调查* 仪表板。"
 
-#: ../../content/applications/marketing/surveys.rst:32
+#: ../../content/applications/marketing/surveys.rst:59
 msgid ""
 "In the upper-left corner, there is a :guilabel:`New` button. When clicked, "
 "Odoo presents a blank survey form that can be used to create a survey."
 msgstr "左上角有一个 :guilabel:`新建` 按钮。点击后，Odoo 会显示一个空白调查表，可用于创建调查表。"
 
-#: ../../content/applications/marketing/surveys.rst:35
+#: ../../content/applications/marketing/surveys.rst:62
 msgid ""
 "On the dashboard, all the surveys that have been created in the database are"
 " displayed in a default Kanban view."
 msgstr "在仪表板上，数据库中创建的所有调查都以默认看板视图显示。"
 
-#: ../../content/applications/marketing/surveys.rst:38
+#: ../../content/applications/marketing/surveys.rst:65
 msgid ""
 "From left-to-right, after the survey name, the user who is responsible for "
 "it, and the month it was created, each line on the *Surveys* dashboard shows"
 " the following:"
 msgstr "从左到右，在调查名称、负责用户和创建月份之后，*调查* 仪表板上的每一行都会显示以下内容："
 
-#: ../../content/applications/marketing/surveys.rst:41
+#: ../../content/applications/marketing/surveys.rst:68
 msgid "Number of :guilabel:`Questions` in that particular survey"
 msgstr ""
 
-#: ../../content/applications/marketing/surveys.rst:42
+#: ../../content/applications/marketing/surveys.rst:69
 msgid ""
 ":guilabel:`Average Duration` of the survey (how long it typically takes a "
 "participant to complete)"
 msgstr ""
 
-#: ../../content/applications/marketing/surveys.rst:43
+#: ../../content/applications/marketing/surveys.rst:70
 msgid "Number of :guilabel:`Registered` participants for the survey"
 msgstr ""
 
-#: ../../content/applications/marketing/surveys.rst:44
+#: ../../content/applications/marketing/surveys.rst:71
 msgid "Number of times that particular survey has been :guilabel:`Completed`"
 msgstr ""
 
-#: ../../content/applications/marketing/surveys.rst:45
+#: ../../content/applications/marketing/surveys.rst:72
 msgid ""
 "Percentage and data bar showcasing how many people have :guilabel:`Passed` "
 "or become :guilabel:`Certified`"
 msgstr ""
 
-#: ../../content/applications/marketing/surveys.rst:49
+#: ../../content/applications/marketing/surveys.rst:76
 msgid ""
 "The :guilabel:`Passed` percentage and bar **only** appears when a *Required "
 "Score* has been configured for that particular survey."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys.rst:52
+#: ../../content/applications/marketing/surveys.rst:79
 msgid ""
 "The :guilabel:`Certified` percentage and bar **only** appears if that "
 "particular survey has the *Is a Certification* option enabled on the survey "
 "form."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys.rst:55
+#: ../../content/applications/marketing/surveys.rst:82
 msgid ""
 "If neither :guilabel:`Passed` nor :guilabel:`Certified` appear on the line, "
 "that indicates the survey is without a *Required Score* and was not enabled "
 "with the *Is a Certification* option."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys.rst:58
+#: ../../content/applications/marketing/surveys.rst:85
 msgid ""
 "Number of :guilabel:`Courses` related to that survey, which **only** appears"
 " if more than one course has been created and attached to a single survey"
-msgstr ""
+msgstr "与该调查表相关的 :guilabel:`课程` 数量，**只有** 在创建了一个以上的课程并附加到一个调查表时才会出现。"
 
-#: ../../content/applications/marketing/surveys.rst:62
+#: ../../content/applications/marketing/surveys.rst:89
 msgid ""
 "A half-trophy background image behind the survey name indicates that the "
 "survey is a *Certification*."
-msgstr ""
+msgstr "调查表名称后面的半奖杯背景图片表示调查表为*认证*。"
 
-#: ../../content/applications/marketing/surveys.rst:65
+#: ../../content/applications/marketing/surveys.rst:92
 msgid ""
 "To the far-right of those data points on the survey lines, located on the "
 "*Surveys* application dashboard, are a collection of buttons."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys.rst:68
+#: ../../content/applications/marketing/surveys.rst:95
 msgid "Those buttons are as follows:"
 msgstr "这些按钮如下："
 
-#: ../../content/applications/marketing/surveys.rst:70
+#: ../../content/applications/marketing/surveys.rst:97
 msgid ""
 ":guilabel:`Share`: click to reveal a :guilabel:`Share a Survey` pop-up form "
 "that can be used to invite potential participants to the survey - complete "
@@ -12192,7 +12575,7 @@ msgstr ""
 ":guilabel:`共享`：点击可显示 :guilabel:`分享调查` 弹出式表单，该表单可用于邀请潜在参与者参与调查 - "
 "包含可复制并发送给潜在参与者的 :guilabel:`调查链接` 和 :guilabel:`通过电子邮件发送` 切换开关。"
 
-#: ../../content/applications/marketing/surveys.rst:74
+#: ../../content/applications/marketing/surveys.rst:101
 msgid ""
 "When the :guilabel:`Send by Email` toggle is active (green switch), "
 "additional fields appear, in which :guilabel:`Recipients`, "
@@ -12202,19 +12585,19 @@ msgstr ""
 "当 :guilabel:`通过电子邮件发送` 切换处于活动状态（绿色开关）时，会出现其他字段，其中 :guilabel:`收件人`, "
 ":guilabel:`其他电子邮件` 和 :guilabel:`主题` 可以添加到电子邮件中。"
 
-#: ../../content/applications/marketing/surveys.rst:78
+#: ../../content/applications/marketing/surveys.rst:105
 msgid ""
 "Below that, a dynamic email template, complete with a :guilabel:`Start "
 "Certification` button appears, which can be modified, as well, if needed."
 msgstr "下面会出现一个动态电子邮件模板，其中包含一个 :guilabel:`开始认证` 按钮，如有需要，也可以对其进行修改。"
 
-#: ../../content/applications/marketing/surveys.rst:81
+#: ../../content/applications/marketing/surveys.rst:108
 msgid ""
 ":guilabel:`Attachments` can be added to the email, as well as an "
 ":guilabel:`Answer deadline` can be set, if needed."
 msgstr "如果需要，可以在电子邮件中添加 :guilabel:`附件` 并设置 :guilabel:`答复期限`。"
 
-#: ../../content/applications/marketing/surveys.rst:84
+#: ../../content/applications/marketing/surveys.rst:111
 #: ../../content/applications/marketing/surveys/create.rst:299
 msgid ""
 "Once modifications are complete, click :guilabel:`Send` to send that email "
@@ -12229,7 +12612,7 @@ msgid ""
 "toggled on."
 msgstr "Odoo 调查中的 “共享调查问卷” 弹出窗口，电子邮件发送已打开。"
 
-#: ../../content/applications/marketing/surveys.rst:92
+#: ../../content/applications/marketing/surveys.rst:119
 msgid ""
 "The default :guilabel:`Mail Template` for survey invites can be edited by "
 "navigating to :menuselection:`Settings --> Technical --> Email Templates` "
@@ -12238,39 +12621,39 @@ msgstr ""
 "调查邀请的默认 :guilabel:`邮件模板` 可通过导航至 :menuselection:`设置 --> 技术 --> 邮件模板` "
 "并搜索`调查：邀请` 来编辑。"
 
-#: ../../content/applications/marketing/surveys.rst:96
+#: ../../content/applications/marketing/surveys.rst:123
 msgid ""
 "The :guilabel:`Send by Email` toggle switch is **not** present when the "
 "survey line has zero questions."
 msgstr "当调查行没有问题时，:guilabel:`通过电子邮件发送`切换开关**不**存在。"
 
-#: ../../content/applications/marketing/surveys.rst:99
+#: ../../content/applications/marketing/surveys.rst:126
 msgid ""
 "The :guilabel:`Survey Link` only appears when the survey's *Access Mode* is "
 "set to *Anyone with the link*."
 msgstr "只有当调查表的*访问模式*设置为*任何人都可使用链接*时，才会显示 :guilabel:`调查表链接`。"
 
-#: ../../content/applications/marketing/surveys.rst:102
+#: ../../content/applications/marketing/surveys.rst:129
 msgid ""
 "The :guilabel:`Additional Emails` field only appears when the survey's "
 "*Require Login* field is **not** active."
 msgstr "只有在调查表的 *要求登录* 字段**未**激活时，才会显示 :guilabel:`其他电子邮件` 字段。"
 
-#: ../../content/applications/marketing/surveys.rst:105
+#: ../../content/applications/marketing/surveys.rst:132
 msgid ""
 ":guilabel:`Test`: click to take a test version of the survey in a new tab, "
 "from the point-of-view of a survey participant, in order to check for any "
 "errors or inconsistencies."
 msgstr ":guilabel:`测试`：点击以调查参与者的视角在新选项卡中进行调查的测试版本，以检查是否有任何错误或不一致之处。"
 
-#: ../../content/applications/marketing/surveys.rst:107
+#: ../../content/applications/marketing/surveys.rst:134
 msgid ""
 ":guilabel:`See results`: click to reveal a new tab showcasing detailed "
 "metrics and graphical representations of all survey participants, questions,"
 " and responses for deeper analysis."
 msgstr ":guilabel:`查看结果`：点击以显示一个新选项卡，其中展示了所有调查参与者、问题和回复的详细指标和图形表示，以便进行更深入的分析。"
 
-#: ../../content/applications/marketing/surveys.rst:109
+#: ../../content/applications/marketing/surveys.rst:136
 msgid ""
 ":guilabel:`Start Live Session`: click to initiate a *Live session* survey, "
 "and reveal a session manager window in a new tab. This button is **not** "
@@ -12279,14 +12662,14 @@ msgid ""
 msgstr ""
 ":guilabel:`开始实时会话`：点击可启动*实时会话*调查，并在新标签页中显示会话管理器窗口。对于已在调查表上启用*是认证*选项的调查，此按钮**不会**出现。"
 
-#: ../../content/applications/marketing/surveys.rst:112
+#: ../../content/applications/marketing/surveys.rst:139
 msgid ""
 ":guilabel:`End Live Session`: click to end a *Live session* survey that has "
 "been officially started. This button option **only** appears on survey lines"
 " that have previously initiated a live session."
 msgstr ":guilabel:`结束实时会话`：点击以结束已正式开始的*实时会话*调查。此按钮选项**仅**出现在先前已启动实时会话的调查行上。"
 
-#: ../../content/applications/marketing/surveys.rst:116
+#: ../../content/applications/marketing/surveys.rst:143
 msgid ""
 "Above the buttons that are located to the far-right of the survey lines, a "
 ":guilabel:`⋮ (three dots)` icon appears when the cursor hovers over that "
@@ -12296,25 +12679,25 @@ msgstr ""
 "在调查行最右侧的按钮上方，当光标停留在特定调查线上时，会出现一个 :guilabel:`⋮（三点）`图标。点击 :guilabel:`⋮ "
 "（三点）`图标后，会出现一个下拉菜单，其中包含一些与配置相关的选项："
 
-#: ../../content/applications/marketing/surveys.rst:120
+#: ../../content/applications/marketing/surveys.rst:147
 msgid "The options are:"
 msgstr "选项有："
 
-#: ../../content/applications/marketing/surveys.rst:122
+#: ../../content/applications/marketing/surveys.rst:149
 msgid ""
 ":guilabel:`Edit Survey`: when clicked, Odoo reveals the survey form for that"
 " particular survey, which can then be modified in a number of different "
 "ways."
 msgstr ":guilabel:`编辑调查表`：点击后，Odoo 会显示该特定调查表的调查表单，然后可以多种不同方式对其进行修改。"
 
-#: ../../content/applications/marketing/surveys.rst:124
+#: ../../content/applications/marketing/surveys.rst:151
 msgid ""
 ":guilabel:`Share`: when clicked, Odoo reveals the :guilabel:`Share a Survey`"
 " pop-up form that can be used to invite potential participants to the "
 "survey."
 msgstr ":guilabel:`共享`：点击后，Odoo 将显示 :guilabel:`共享调查` 弹出式表单，可用于邀请潜在参与者参与调查。"
 
-#: ../../content/applications/marketing/surveys.rst:126
+#: ../../content/applications/marketing/surveys.rst:153
 msgid ""
 ":guilabel:`Delete`: when clicked, Odoo presents a pop-up window, wherein the"
 " user **must** confirm they want to delete the survey entirely, which they "
@@ -12324,7 +12707,7 @@ msgstr ""
 ":guilabel:`删除`：点击后，Odoo 会弹出一个窗口，用户**必须**确认是否要完全删除调查问卷，用户可单击弹出窗口底部的 "
 ":guilabel:`删除` 按钮来完成此操作。"
 
-#: ../../content/applications/marketing/surveys.rst:129
+#: ../../content/applications/marketing/surveys.rst:156
 msgid ""
 ":guilabel:`Color`: users can opt to choose a color to add to the survey line"
 " on the dashboard for added organizational purposes, if needed."
@@ -12336,7 +12719,7 @@ msgid ""
 "dashboard."
 msgstr "出现在 Odoo 调查仪表板上的三点式下拉菜单选项。"
 
-#: ../../content/applications/marketing/surveys.rst:136
+#: ../../content/applications/marketing/surveys.rst:163
 msgid ""
 "Beneath the buttons that are located to the far-right of the survey lines, "
 "there is an *Activities* button, represented by a :guilabel:`🕘 (clock)` "
@@ -12352,14 +12735,14 @@ msgid ""
 "dashboard."
 msgstr "在 Odoo 调查仪表板上显示的“日程活动”下拉菜单。"
 
-#: ../../content/applications/marketing/surveys.rst:147
+#: ../../content/applications/marketing/surveys.rst:174
 msgid ""
 "The *Surveys* dashboard is shown in the Kanban view, by default, but there "
 "is also a list view option available in the upper-right corner, represented "
 "by a :guilabel:`≣ (bars)` icon."
 msgstr "默认情况下，*调查* 仪表板以看板视图显示，但右上角还有一个列表视图选项，由 :guilabel:`≣（柱条）` 图标表示。"
 
-#: ../../content/applications/marketing/surveys.rst:150
+#: ../../content/applications/marketing/surveys.rst:177
 msgid ""
 "When the :guilabel:`≣ (bars)` icon is clicked, the survey related data is "
 "displayed in a list view."
@@ -12370,37 +12753,37 @@ msgid ""
 "The list view option located on the Odoo Surveys application dashboard."
 msgstr "位于 Odoo 调查应用程序仪表板上的列表视图选项。"
 
-#: ../../content/applications/marketing/surveys.rst:156
+#: ../../content/applications/marketing/surveys.rst:183
 msgid ""
 "The columns shown on the *Surveys* app dashboard, while in list view, are as"
 " follows:"
 msgstr "在列表视图中，*调查* 应用程序仪表板上显示的列如下："
 
-#: ../../content/applications/marketing/surveys.rst:158
+#: ../../content/applications/marketing/surveys.rst:185
 msgid ":guilabel:`Survey Title`"
 msgstr ":guilabel:`调查标题`"
 
-#: ../../content/applications/marketing/surveys.rst:159
+#: ../../content/applications/marketing/surveys.rst:186
 msgid ":guilabel:`Responsible`"
 msgstr ":guilabel:`负责人`"
 
-#: ../../content/applications/marketing/surveys.rst:160
+#: ../../content/applications/marketing/surveys.rst:187
 msgid ":guilabel:`Average Duration`"
 msgstr ":guilabel:`平均时长`"
 
-#: ../../content/applications/marketing/surveys.rst:161
+#: ../../content/applications/marketing/surveys.rst:188
 msgid ":guilabel:`Registered`"
 msgstr ":guilabel:`已注册`"
 
-#: ../../content/applications/marketing/surveys.rst:162
+#: ../../content/applications/marketing/surveys.rst:189
 msgid ":guilabel:`Success Ratio (%)`"
 msgstr ":guilabel:`成功率（%）`"
 
-#: ../../content/applications/marketing/surveys.rst:163
+#: ../../content/applications/marketing/surveys.rst:190
 msgid ":guilabel:`Avg Score (%)`"
 msgstr ":guilabel:`平均分（%）`"
 
-#: ../../content/applications/marketing/surveys.rst:166
+#: ../../content/applications/marketing/surveys.rst:193
 msgid ""
 "Additional columns can be added to the *Surveys* application dashboard, "
 "while in list view, by clicking the *additional options* drop-down menu, "
@@ -12410,11 +12793,11 @@ msgstr ""
 "在列表视图中，点击列标题最右侧的*附加选项*下拉菜单，即可在*调查*应用程序仪表板中添加附加列，该下拉菜单由 :guilabel:`（带两点的滑块）` "
 "图标表示。"
 
-#: ../../content/applications/marketing/surveys.rst:171
+#: ../../content/applications/marketing/surveys.rst:198
 msgid "Activities view"
 msgstr "活动视图"
 
-#: ../../content/applications/marketing/surveys.rst:173
+#: ../../content/applications/marketing/surveys.rst:200
 msgid ""
 "To have the *Surveys* application dashboard display nothing but the "
 "activities associated to the surveys in the database, click the :guilabel:`🕘"
@@ -12427,21 +12810,100 @@ msgstr ""
 msgid "The activities view option located on the Odoo Surveys dashboard."
 msgstr "活动视图选项位于 Odoo 调查仪表板上。"
 
-#: ../../content/applications/marketing/surveys.rst:181
+#: ../../content/applications/marketing/surveys.rst:208
 msgid ""
 "Doing so reveals a table with rows and columns. The rows show the different "
 "surveys in the database, and the columns depict the various activity types."
 msgstr "这样就会显示一个有行和列的表格。行表示数据库中的不同调查，列表示各种活动类型。"
 
-#: ../../content/applications/marketing/surveys.rst:185
+#: ../../content/applications/marketing/surveys.rst:212
 msgid ""
 "A new survey cannot be created in this view, as it is solely for the purpose"
 " of creating and viewing scheduled activities."
 msgstr "在此视图中无法创建新调查表，因为它仅用于创建和查看计划活动。"
 
+#: ../../content/applications/marketing/surveys.rst:216
+#: ../../content/applications/marketing/surveys/create.rst:3
+msgid "Create surveys"
+msgstr "新建调查"
+
+#: ../../content/applications/marketing/surveys.rst:218
+msgid ""
+"Learn about all the different options and configurations that can be "
+"utilized when creating a survey in Odoo."
+msgstr ""
+
+#: ../../content/applications/marketing/surveys.rst:222
+msgid ":doc:`surveys/create`"
+msgstr ":doc:`调查/创建`"
+
+#: ../../content/applications/marketing/surveys.rst:225
+#: ../../content/applications/marketing/surveys/scoring.rst:3
+msgid "Scoring surveys"
+msgstr "评分调查"
+
+#: ../../content/applications/marketing/surveys.rst:227
+msgid ""
+"Discover how to measure a survey participant's performance, or overall "
+"satisfaction, with Odoo's detailed (and fully customizable) survey scoring "
+"options."
+msgstr "了解如何利用 Odoo 详细（完全自定义）调查问卷评分选项来衡量调查问卷参与者的绩效或总体满意度。"
+
+#: ../../content/applications/marketing/surveys.rst:231
+msgid ":doc:`surveys/scoring`"
+msgstr ":doc:`调查/评分`"
+
+#: ../../content/applications/marketing/surveys.rst:234
+#: ../../content/applications/marketing/surveys/questions.rst:3
+#: ../../content/applications/marketing/surveys/questions.rst:64
+msgid "Create questions"
+msgstr "创建问题"
+
+#: ../../content/applications/marketing/surveys.rst:236
+msgid ""
+"With Odoo *Surveys*, there are many question types and options to choose "
+"from, providing the ability to create any kind of unique survey, "
+"questionnarire, and/or certification."
+msgstr "借助 Odoo *调查问卷*，有许多问题类型和选项可供选择，从而能够创建任何类型的独特调查、问卷和/或认证。"
+
+#: ../../content/applications/marketing/surveys.rst:240
+msgid ":doc:`surveys/questions`"
+msgstr ":doc:`调查/问题`"
+
+#: ../../content/applications/marketing/surveys.rst:243
+#: ../../content/applications/marketing/surveys/live_session.rst:3
+msgid "Live Session surveys"
+msgstr ""
+
+#: ../../content/applications/marketing/surveys.rst:245
+msgid ""
+"The *Live Session* survey option available in Odoo can enhance in-person "
+"demonstrations and presentations, where participants' real-time responses "
+"can be used to dictate where the conversation goes next."
+msgstr ""
+
+#: ../../content/applications/marketing/surveys.rst:250
+msgid ":doc:`surveys/live_session`"
+msgstr ":doc:`surveys/live_session`"
+
+#: ../../content/applications/marketing/surveys.rst:253
 #: ../../content/applications/marketing/surveys/analysis.rst:3
 msgid "Survey analysis"
 msgstr "调查分析"
+
+#: ../../content/applications/marketing/surveys.rst:255
+msgid ""
+"Once the surveys start to come in, it is time to analyze the responses from "
+"your participants. Fortuantely, the in-depth reporting pages and options "
+"available in Odoo *Surveys* provide countless ways to examine everything "
+"related to surveys, and their submitted responses."
+msgstr ""
+"一旦开始收到调查问卷，就该对参与者的回复进行分析了。幸运的是，Odoo *调查* "
+"中的深入报告页面和选项提供了无数方法来检查与调查有关的所有内容及其提交的答复。"
+
+#: ../../content/applications/marketing/surveys.rst:260
+msgid ":doc:`surveys/analysis`"
+msgstr ":doc:`调查/分析`"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:5
 msgid ""
@@ -12869,14 +13331,14 @@ msgstr ""
 #: ../../content/applications/marketing/surveys/analysis.rst-1
 msgid ""
 "The Participations smart button at the top of a survey form in Odoo Surveys."
-msgstr ""
+msgstr "Odoo 调查中调查表格顶部的参与智能按钮。"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:223
 msgid ""
 "Doing so reveals a separate :guilabel:`Participations` page, showcasing the "
 "participants for that specific survey, along with a collection of pertinent "
 "information related to each one."
-msgstr ""
+msgstr "这样做会显示一个单独的 :guilabel:`参与` 页面，展示该特定调查的参与者，以及与每个参与者相关的信息集合。"
 
 #: ../../content/applications/marketing/surveys/analysis.rst-1
 msgid ""
@@ -12944,10 +13406,6 @@ msgstr ":doc:`新建`"
 msgid ":doc:`scoring`"
 msgstr ":doc:`scoring`"
 
-#: ../../content/applications/marketing/surveys/create.rst:3
-msgid "Create surveys"
-msgstr "新建调查"
-
 #: ../../content/applications/marketing/surveys/create.rst:5
 msgid ""
 "To create a survey in the Odoo *Surveys* application, navigate to "
@@ -12958,11 +13416,11 @@ msgstr "要在 Odoo *调查* 应用程序中创建调查表，请导航至 :menu
 msgid ""
 "The :guilabel:`New` button is **not** present on the *Surveys* dashboard if "
 "in the *Activities* view."
-msgstr ""
+msgstr "如果在 *活动* 视图中，*调查* 仪表板上没有 :guilabel:`新建` 按钮。"
 
 #: ../../content/applications/marketing/surveys/create.rst:13
 msgid "Survey form"
-msgstr ""
+msgstr "调查表"
 
 #: ../../content/applications/marketing/surveys/create.rst-1
 msgid "How a blank survey form looks in the Odoo Surveys application."
@@ -13049,7 +13507,7 @@ msgstr "在 :guilabel:`问题` 选项卡中查看、访问、添加和/或删除
 msgid ""
 "By default, two columns are present in the :guilabel:`Questions` tab: "
 ":guilabel:`Title` (i.e. the question) and :guilabel:`Question Type`."
-msgstr ""
+msgstr "默认情况下，:guilabel:`问题` 选项卡中有两列 :guilabel:`标题`（即问题）和 :guilabel:`问题类型`。"
 
 #: ../../content/applications/marketing/surveys/create.rst:58
 #: ../../content/applications/marketing/surveys/questions.rst:28
@@ -13058,6 +13516,8 @@ msgid ""
 ":guilabel:`Options` tab of the survey form, a column titled, :guilabel:`# "
 "Questions Randomly Picked` appears in the :guilabel:`Questions` tab."
 msgstr ""
+"如果调查表的 :guilabel:`选项` 标签页中启用了 :guilabel:`每节随机分组` 选项，则 :guilabel:`问题` "
+"选项卡中将出现标题为 :guilabel:`# 随机选择的问题` 列。"
 
 #: ../../content/applications/marketing/surveys/create.rst:62
 msgid ""
@@ -13066,12 +13526,14 @@ msgid ""
 "Then, select :guilabel:`Mandatory Answer` from the drop-down menu to reveal "
 "the :guilabel:`Mandatory Answer` column in the :guilabel:`Questions` tab."
 msgstr ""
+"点击列标题最右侧的 :guilabel:`（可选列）` 图标，说明问题是否需要必答。然后，从下拉菜单中选择 :guilabel:`必答题`，以显示 "
+":guilabel:`问题` 选项卡中的 :guilabel:`必答题` 栏。"
 
 #: ../../content/applications/marketing/surveys/create.rst-1
 msgid ""
 "The slider drop-down menu with the Mandatory Answer option selected in Odoo "
 "Surveys."
-msgstr ""
+msgstr "在 Odoo 调查中选择了强制回答选项的滑块下拉菜单。"
 
 #: ../../content/applications/marketing/surveys/create.rst:71
 msgid "Add a question"
@@ -13083,12 +13545,14 @@ msgid ""
 ":guilabel:`Questions` tab, and proceed to fill out the :guilabel:`Create "
 "Sections and Questions` pop-up window that appears."
 msgstr ""
+"要在调查问卷中添加问题，请点击 :guilabel:`问题` 选项卡中的 :guilabel:`添加问题`，然后继续填写出现的 "
+":guilabel:`创建章节和问题` 弹出窗口。"
 
 #: ../../content/applications/marketing/surveys/create.rst:76
 msgid ""
 "To learn how to create and customize questions, refer to the :doc:`create "
 "questions <questions>` documentation."
-msgstr ""
+msgstr "要了解如何创建和自定义问题，请参阅 :doc:`创建问题<questions>` 文档。"
 
 #: ../../content/applications/marketing/surveys/create.rst:80
 #: ../../content/applications/marketing/surveys/questions.rst:73
@@ -13098,6 +13562,8 @@ msgid ""
 "the survey, an error pop-up message appears in the upper-right corner, "
 "instructing the user to enter a survey title."
 msgstr ""
+"**必须** 输入调查表标题，:guilabel:`创建章节和问题` "
+"弹出窗口才会出现。如果未输入调查表标题，右上角会弹出错误消息，指示用户输入调查表标题。"
 
 #: ../../content/applications/marketing/surveys/create.rst:85
 msgid "Add a section"
@@ -13112,12 +13578,14 @@ msgid ""
 "a desired name for the section, then either press :kbd:`Enter` or click "
 "away."
 msgstr ""
+"*分节* 将调查表分成有组织的部分，以便直观地将类似的问题归类在一起。要创建一个小节，请点击 :guilabel:`问题` 选项卡底部的 "
+":guilabel:`添加小节`，然后为小节键入所需的名称，然后按 :kbd:`回车键` 或点击离开。"
 
 #: ../../content/applications/marketing/surveys/create.rst:92
 #: ../../content/applications/marketing/surveys/questions.rst:48
 msgid ""
 "The section line appears in dark gray in the :guilabel:`Questions` tab."
-msgstr ""
+msgstr "在 :guilabel:`问题` 选项卡中，小节行显示为深灰色。"
 
 #: ../../content/applications/marketing/surveys/create.rst:94
 msgid ""
@@ -13125,7 +13593,7 @@ msgid ""
 "section title on top of (i.e. *before*) the desired question(s) in the "
 "survey. Doing so populates the section with questions that align with its "
 "theme."
-msgstr ""
+msgstr "然后，将所需问题拖放至章节下方，或将章节标题拖放至调查问卷中所需问题的上方（即*之前*）。这样，该部分就会出现与其主题一致的问题。"
 
 #: ../../content/applications/marketing/surveys/create.rst:98
 #: ../../content/applications/marketing/surveys/questions.rst:54
@@ -13135,6 +13603,8 @@ msgid ""
 "default, on the section line, beneath the :guilabel:`# Questions Randomly "
 "Picked` column."
 msgstr ""
+"如果调查表的 :guilabel:`选项` 标签页中启用了 :guilabel:`每节随机分组` 选项，则默认情况下， `1` 号会出现在小节行中的 "
+":guilabel:`# 随机抽取的问题` 列下方。"
 
 #: ../../content/applications/marketing/surveys/create.rst:102
 #: ../../content/applications/marketing/surveys/questions.rst:58
@@ -13145,6 +13615,8 @@ msgid ""
 "type in the desired number in its place. Then, either press :kbd:`Enter`, or"
 " click away."
 msgstr ""
+"这表示将为每位参与调查的参与者随机抽取该部分中的 `1` "
+"个问题，而绕过该部分中其他未被选中的问题。要更改该数字，请选择该数字，然后在其位置上键入所需的数字。然后，按 :kbd:`回车键`，或点击离开。"
 
 #: ../../content/applications/marketing/surveys/create.rst:108
 #: ../../content/applications/marketing/surveys/live_session.rst:57
@@ -13159,6 +13631,8 @@ msgid ""
 ":guilabel:`Time & Scoring`, :guilabel:`Participants`, and :guilabel:`Live "
 "Session`."
 msgstr ""
+"在调查表的 :guilabel:`选项` 标签页中，有许多选项可供选择，分为四个不同部分： "
+":guilabel:`问题`、:guilabel:`时间与计分`、:guilabel:`参与者` 和 :guilabel:`实时会话`。"
 
 #: ../../content/applications/marketing/surveys/create.rst:114
 msgid ""
@@ -13166,6 +13640,8 @@ msgid ""
 "radio buttons at the top of the survey form: :guilabel:`Survey`, "
 ":guilabel:`Live Session`, :guilabel:`Assessment`, or :guilabel:`Custom`."
 msgstr ""
+"通过调查表顶部的单选按钮选择调查类型后，此选项卡中的可用选项会有所不同：:guilabel:`调查`、:guilabel:`实时会话`、:guilabel:`评估`"
+" 或:guilabel:`自定义`。"
 
 #: ../../content/applications/marketing/surveys/create.rst:118
 msgid ""
@@ -13174,16 +13650,18 @@ msgid ""
 "appear in the :guilabel:`Options` tab, it is likely because the selected "
 "survey type does not offer it."
 msgstr ""
+":guilabel:`自定义` 调查表类型在 :guilabel:`选项` 标签页中展示所有可能的选项。因此，如果以下任何选项**没有**出现在 "
+":guilabel:`选项` 标签页中，很可能是因为所选调查问卷类型不提供该选项。"
 
 #: ../../content/applications/marketing/surveys/create.rst:123
 #: ../../content/applications/marketing/surveys/live_session.rst:66
 msgid "Questions section"
-msgstr ""
+msgstr "问题部分"
 
 #: ../../content/applications/marketing/surveys/create.rst-1
 msgid ""
 "The Questions section of the Options tab on a survey form in Odoo Surveys."
-msgstr ""
+msgstr "Odoo 调查应用程序中调查表“选项”标签页的“问题” 部分。"
 
 #: ../../content/applications/marketing/surveys/create.rst:129
 msgid ""
@@ -13570,10 +14048,6 @@ msgstr ""
 msgid ":doc:`questions`"
 msgstr ""
 
-#: ../../content/applications/marketing/surveys/live_session.rst:3
-msgid "Live Session surveys"
-msgstr ""
-
 #: ../../content/applications/marketing/surveys/live_session.rst:5
 msgid ""
 "With the Odoo *Surveys* application, users can enhance in-person "
@@ -13957,11 +14431,6 @@ msgstr ""
 msgid "Repeat this process until the survey is complete."
 msgstr ""
 
-#: ../../content/applications/marketing/surveys/questions.rst:3
-#: ../../content/applications/marketing/surveys/questions.rst:64
-msgid "Create questions"
-msgstr "创建问题"
-
 #: ../../content/applications/marketing/surveys/questions.rst:5
 msgid ""
 "In Odoo *Surveys*, crafting and tailoring survey questions is crucial for "
@@ -14328,25 +14797,27 @@ msgid ""
 "allowed`, there is a :guilabel:`Show Comments Field` present in the "
 ":guilabel:`Answers` section."
 msgstr ""
+"如果选择的 :guilabel:`问题类型` 是 :guilabel:`多项选择：只有一个答案` 或 "
+":guilabel:`多项选择：允许多个答案`，则在 :guilabel:`答案` 部分会出现 :guilabel:`显示评论字段`。"
 
 #: ../../content/applications/marketing/surveys/questions.rst:228
 msgid ""
 "When enabled, two additional fields appear: :guilabel:`Comment Message` and "
 ":guilabel:`Comment is an answer`."
-msgstr ""
+msgstr "启用后，会出现两个附加字段：:guilabel:`评论信息` 和 :guilabel:`评论是答案`。"
 
 #: ../../content/applications/marketing/surveys/questions.rst-1
 msgid ""
 "The answers section of the options tab when a multiple choice question type "
 "is selected."
-msgstr ""
+msgstr "选择多选题类型时，选项卡的答案部分。"
 
 #: ../../content/applications/marketing/surveys/questions.rst:235
 msgid ""
 "In the :guilabel:`Comment Message` field, type in a guiding message to help "
 "participants know what is expected of them (e.g. `If other, please "
 "specify`)."
-msgstr ""
+msgstr "在 :guilabel:`评论信息` 字段中，键入一条指导信息，以帮助参与者了解对他们的期望（例如，“如果是其他，请说明”）。"
 
 #: ../../content/applications/marketing/surveys/questions.rst:238
 msgid ""
@@ -14355,10 +14826,12 @@ msgid ""
 "the question. This is best utilized in surveys where there is no scoring "
 "option enabled."
 msgstr ""
+"如果启用 :guilabel:`评论是答案`选项，Odoo "
+"会将参与者的评论作为答案，而不仅仅是对问题的评论。在没有启用评分选项的调查中，这种方法最适用。"
 
 #: ../../content/applications/marketing/surveys/questions.rst:243
 msgid "Multiple Lines Text Box question type"
-msgstr ""
+msgstr "多行文本框问题类型"
 
 #: ../../content/applications/marketing/surveys/questions.rst:245
 msgid ""
@@ -14366,12 +14839,14 @@ msgid ""
 "Box`, a :guilabel:`Placeholder` field appears in the :guilabel:`Answers` "
 "section of the :guilabel:`Options` tab."
 msgstr ""
+"如果选择的 :guilabel:`问题类型` 是 :guilabel:`多行文本框`，则 :guilabel:`选项` 选项卡的 "
+":guilabel:`答案` 部分会出现一个 :guilabel:`占位符` 字段。"
 
 #: ../../content/applications/marketing/surveys/questions.rst-1
 msgid ""
 "The placeholder field when a multiple lines text box option is chosen in "
 "Odoo Surveys."
-msgstr ""
+msgstr "在 Odoo Surveys 中选择多行文本框选项时的占位符字段。"
 
 #: ../../content/applications/marketing/surveys/questions.rst:253
 #: ../../content/applications/marketing/surveys/questions.rst:276
@@ -14380,10 +14855,11 @@ msgid ""
 "participants know what they should write in the :guilabel:`Multiple Lines "
 "Text Box` presented to them."
 msgstr ""
+"在 :guilabel:`占位符` 字段中，输入指导方向，帮助参与者知道他们应该在呈现给他们的 :guilabel:`多行文本框` 中写什么。"
 
 #: ../../content/applications/marketing/surveys/questions.rst:257
 msgid "Single Line Text Box, Numerical Value, Date, Datetime question types"
-msgstr ""
+msgstr "单行文本框、数值、日期、日期时间问题类型"
 
 #: ../../content/applications/marketing/surveys/questions.rst:259
 msgid ""
@@ -14393,34 +14869,38 @@ msgid ""
 "of the :guilabel:`Options` tab: :guilabel:`Validate Entry` and "
 ":guilabel:`Placeholder`."
 msgstr ""
+"如果选择的 :guilabel:` 问题类型` 是 :guilabel:`单行文本框`、:guilabel:`数值`、:guilabel:`日期` 或 "
+":guilabel:`日期时间`，则在 :guilabel:` 选项` 标签的 :guilabel:` 答案` "
+"部分会出现两个选项：:guilabel:`验证条目` 和 :guilabel:`占位符`。"
 
 #: ../../content/applications/marketing/surveys/questions.rst:263
 msgid ""
 "If the :guilabel:`Validate Entry` option is enabled, two additional fields "
 "appear beneath: :guilabel:`Min/Max Limits` and :guilabel:`Validation Error`."
 msgstr ""
+"如果启用 :guilabel:`验证条目` 选项，下方会出现两个附加字段：:guilabel:`最小/最大限制` 和 :guilabel:`验证错误`。"
 
 #: ../../content/applications/marketing/surveys/questions.rst-1
 msgid ""
 "The answers section of the option tab when a single line text box question "
 "type is chosen."
-msgstr ""
+msgstr "选择单行文本框问题类型时，选项卡的答案部分。"
 
 #: ../../content/applications/marketing/surveys/questions.rst:270
 msgid ""
 "In the :guilabel:`Min/Max Limits` field, designate the minimum and maximum "
 "allowed quantities for that specific question."
-msgstr ""
+msgstr "在 :guilabel:`最小/最大限制` 字段中，指定特定问题的最小和最大允许数量。"
 
 #: ../../content/applications/marketing/surveys/questions.rst:273
 msgid ""
 "In the :guilabel:`Validation Error` field, enter a custom message that Odoo "
 "displays when an answer is not valid."
-msgstr ""
+msgstr "在 :guilabel:`验证错误` 字段中，输入 Odoo 在答案无效时显示的自定义消息。"
 
 #: ../../content/applications/marketing/surveys/questions.rst:280
 msgid "Constraints section"
-msgstr ""
+msgstr "限制部分"
 
 #: ../../content/applications/marketing/surveys/questions.rst:282
 msgid ""
@@ -14522,10 +15002,6 @@ msgid ""
 "Survey text colors are directly linked to the colors used for the "
 ":doc:`website theme <../../websites/website/web_design/themes>`."
 msgstr ""
-
-#: ../../content/applications/marketing/surveys/scoring.rst:3
-msgid "Scoring surveys"
-msgstr "评分调查"
 
 #: ../../content/applications/marketing/surveys/scoring.rst:5
 msgid ""

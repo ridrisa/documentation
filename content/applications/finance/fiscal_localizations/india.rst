@@ -25,21 +25,15 @@ localization:
    * - :guilabel:`Indian E-waybill`
      - `l10n_in_edi_ewaybill`
      - :ref:`Indian E-way bill integration <india/e-waybill>`
+   * - :guilabel:`Indian E-waybill Stock`
+     - `l10n_in_ewaybill_stock`
+     - :ref:`E-waybill creation from the Inventory app <india/e-waybill-stock>`
    * - :guilabel:`Indian - GSTR India eFiling`
      - `l10n_in_reports_gstr`
      - :ref:`Indian GST Return filing <india/gstr>`
    * - :guilabel:`Indian - Accounting Reports`
      - `l10n_in_reports`
      - :ref:`Indian tax reports <india/gstr_reports>`
-   * - :guilabel:`Indian - Purchase Report(GST)`
-     - `l10n_in_purchase`
-     - Indian GST Purchase report
-   * - :guilabel:`Indian - Sale Report(GST)`
-     - `l10n_in_sale`
-     - Indian GST Sale report
-   * - :guilabel:`Indian - Stock Report(GST)`
-     - `l10n_in_stock`
-     - Indian GST Stock report
 
 .. image:: india/india-modules.png
    :alt: Indian localization modules
@@ -191,6 +185,8 @@ website itself.
 E-Way bill
 ==========
 
+.. _india/e-waybill-setup:
+
 Setup
 -----
 
@@ -244,9 +240,8 @@ Workflow
 Send an E-Way bill
 ~~~~~~~~~~~~~~~~~~
 
-You can manually send an E-Way bill by clicking :guilabel:`Send E-Way bill`. To send the E-Way bill
-automatically when an invoice or a bill is confirmed, enable :guilabel:`E-Way bill (IN)` in your
-:ref:`Sales or Purchase journal <india/e-invoicing-journals>`.
+To send an E-Way bill, confirm the customer invoice/vendor bill and click :guilabel:`Send E-Way
+bill`.
 
 .. image:: india/e-waybill-send-button.png
    :alt: Send E-waybill button on invoices
@@ -256,8 +251,8 @@ automatically when an invoice or a bill is confirmed, enable :guilabel:`E-Way bi
 Invoice validation
 ~~~~~~~~~~~~~~~~~~
 
-Once an invoice has been issued and sent via :guilabel:`Send E-Way bill`, a confirmation message is
-displayed.
+Once an invoice/bill has been issued and sent via :guilabel:`Send E-Way bill`, a confirmation
+message is displayed.
 
 .. image:: india/e-waybill-process.png
    :alt: Indian e-Way bill confirmation message
@@ -265,7 +260,7 @@ displayed.
 .. note::
    - You can find the JSON-signed file in the attached files in the chatter.
    - Odoo automatically uploads the JSON-signed file to the government portal after some time. Click
-     :guilabel:`Process now` if you want to process the invoice immediately.
+     :guilabel:`Process now` if you want to process the invoice/bill immediately.
 
 Invoice PDF report
 ~~~~~~~~~~~~~~~~~~
@@ -281,9 +276,9 @@ You can print the invoice PDF report once you have submitted the E-Way bill. The
 E-Way bill cancellation
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-If you want to cancel an E-Way bill, go to the :guilabel:`E-Way bill` tab of the related invoice and
-fill out the :guilabel:`Cancel reason` and :guilabel:`Cancel remarks` fields. Then, click
-:guilabel:`Request EDI Cancellation`.
+If you want to cancel an E-Way bill, go to the :guilabel:`E-Way bill` tab of the related
+invoice/bill and fill out the :guilabel:`Cancel reason` and :guilabel:`Cancel remarks` fields. Then,
+click :guilabel:`Request EDI Cancellation`.
 
 .. important::
    Doing so cancels both the :ref:`e-Invoice <india/e-invoicing>` (if applicable) and the
@@ -298,6 +293,40 @@ fill out the :guilabel:`Cancel reason` and :guilabel:`Cancel remarks` fields. Th
    - Once you request to cancel the E-Way bill, Odoo automatically submits the JSON-signed file to
      the government portal. You can click :guilabel:`Process Now` if you want to process the invoice
      immediately.
+
+.. _india/e-waybill-stock:
+
+E-waybill creation from receipts and delivery orders
+----------------------------------------------------
+
+.. note::
+   Make sure the **E-Way bill Stock** module is :ref:`installed <general/install>` and
+   the :ref:`E-Way bill setup <india/e-waybill-setup>` is complete.
+
+To create E-Way bills from :doc:`receipts and deliveries
+</applications/inventory_and_mrp/inventory/shipping_receiving/daily_operations>` in the Inventory
+app, follow these steps:
+
+#. Go to :menuselection:`Inventory --> Operations --> Deliveries` or :menuselection:`Inventory -->
+   Operations --> Receipts` and select an existing delivery order/receipt or create a new one.
+
+#. Click :guilabel:`Create E-waybill/Challan`.
+
+   .. note::
+      To create an E-way bill:
+
+      - A delivery order must be in the :guilabel:`Done` state (i.e., validated)
+      - A receipt must have the :guilabel:`Ready` or :guilabel:`Done` state.
+
+#. Click :guilabel:`Generate e-Waybill` to validate the E-Way bill and send it to the NIC E-Way
+   bill portal.
+
+   .. tip::
+      To use the E-Way bill as a challan for goods deliveries without sending it to the NIC
+      E-Waybill portal, click :guilabel:`Use as Challan`.
+
+To print the E-waybill or the challan, click the :icon:`fa-cog` :guilabel:`(gear)` icon and select
+:icon:`fa-print` :guilabel:`Ewaybill / Delivery Challan`.
 
 .. _india/gstr:
 
@@ -322,6 +351,10 @@ To file GST Returns in Odoo, you must first enable API access on the GST portal.
 
    .. image:: india/gst-portal-api-yes.png
       :alt: Click Yes
+
+.. note::
+   It is recommended to set the :guilabel:`Duration` to :guilabel:`30 days` to avoid the need for
+   frequent token reauthentication.
 
 #. Doing so enables a :guilabel:`Duration` drop-down menu. Select the :guilabel:`Duration` of your
    preference, and click :guilabel:`Confirm`.

@@ -61,8 +61,8 @@ To resolve the issue:
   your **network and firewall settings** allow the Odoo server to open outgoing connections
   towards:
 
-  - `services.odoo.com` on port `443` (or `80`)
-  - for older deployments, `services.openerp.com` on port `443` (or `80`)
+  - Odoo 18.0 and above: `services.odoo.com` on port `80`
+  - Odoo 17.0 and below: `services.openerp.com` on port `80`
 
   These ports must be kept open even after registering a database, as the update notification runs
   once a week.
@@ -84,12 +84,6 @@ To resolve the issue, either:
 - **Add more users** to your subscription by clicking the :guilabel:`Upgrade your subscription` link
   displayed in the message to validate the upsell quotation and pay for the extra users.
 - :ref:`Deactivate users <users/deactivate>` and **reject** the upsell quotation.
-
-.. important::
-   If you are on a monthly subscription plan, the database will automatically update to reflect the
-   added user(s). If you are on a yearly or multi-year plan, an expiration banner will appear in the
-   database. You can create the upsell quotation by clicking the banner to update the subscription
-   or `send a support ticket <https://www.odoo.com/help>`_ to resolve the issue.
 
 Once your database has the correct number of users, the expiration message disappears automatically
 after a few days, when the next verification occurs.

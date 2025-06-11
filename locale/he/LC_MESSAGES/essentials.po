@@ -10,15 +10,16 @@
 # Roy Sayag, 2024
 # Martin Trigaux, 2024
 # ZVI BLONDER <ZVIBLONDER@gmail.com>, 2024
+# or balmas, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-24 10:43+0000\n"
+"POT-Creation-Date: 2025-04-30 11:37+0000\n"
 "PO-Revision-Date: 2024-03-30 23:40+0000\n"
-"Last-Translator: ZVI BLONDER <ZVIBLONDER@gmail.com>, 2024\n"
+"Last-Translator: or balmas, 2025\n"
 "Language-Team: Hebrew (https://app.transifex.com/odoo/teams/41243/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -147,7 +148,7 @@ msgstr ""
 
 #: ../../content/applications/essentials/activities.rst:67
 msgid "List view"
-msgstr ""
+msgstr "תצוגת רשימה"
 
 #: ../../content/applications/essentials/activities.rst:69
 msgid ""
@@ -175,7 +176,7 @@ msgstr ""
 
 #: ../../content/applications/essentials/activities.rst:89
 msgid "Activity view"
-msgstr ""
+msgstr "תצוגת פעילות"
 
 #: ../../content/applications/essentials/activities.rst:91
 msgid ""
@@ -2699,7 +2700,7 @@ msgstr ""
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:44
 msgid "Save changes"
-msgstr ""
+msgstr "שמור שינויים"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:45
 msgid ":kbd:`Alt` + :kbd:`S`"
@@ -2909,8 +2910,8 @@ msgstr ""
 msgid ""
 "When you select a measure, Odoo aggregates the values recorded on that field"
 " for the filtered records. Only numerical fields (:ref:`integer "
-"<studio/fields/simple-fields/integer>`, :ref:`decimal <studio/fields/simple-"
-"fields/decimal>`, :ref:`monetary <studio/fields/simple-fields/monetary>`) "
+"<studio/fields/simple-fields-integer>`, :ref:`decimal <studio/fields/simple-"
+"fields-decimal>`, :ref:`monetary <studio/fields/simple-fields-monetary>`) "
 "can be measured. In addition, the :guilabel:`Count` option is used to count "
 "the total number of filtered records."
 msgstr ""

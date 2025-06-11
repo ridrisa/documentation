@@ -5,17 +5,17 @@
 # 
 # Translators:
 # Martin Trigaux, 2023
-# Wil Odoo, 2024
-# Tony Ng, 2024
+# Wil Odoo, 2025
+# Tony Ng, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-21 11:43+0000\n"
+"POT-Creation-Date: 2025-04-30 11:37+0000\n"
 "PO-Revision-Date: 2023-11-08 08:57+0000\n"
-"Last-Translator: Tony Ng, 2024\n"
+"Last-Translator: Tony Ng, 2025\n"
 "Language-Team: Chinese (Taiwan) (https://app.transifex.com/odoo/teams/41243/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -333,52 +333,49 @@ msgid ""
 "`Odoo Tutorials: eCommerce <https://www.odoo.com/slides/ecommerce-26>`_"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping.rst:5
-msgid "Checkout, payment, and shipping"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/cart.rst:3
+#: ../../content/applications/websites/ecommerce/cart.rst:3
 msgid "Add to cart"
 msgstr "加入購物車"
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/cart.rst:5
+#: ../../content/applications/websites/ecommerce/cart.rst:5
 msgid ""
 "The :guilabel:`Add to Cart` button can be customized in multiple ways. You "
 "can:"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/cart.rst:7
+#: ../../content/applications/websites/ecommerce/cart.rst:7
 msgid ""
 "Choose on which page customers go after clicking the 'Add to Cart' button;"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/cart.rst:8
+#: ../../content/applications/websites/ecommerce/cart.rst:8
 msgid "Hide the 'Add to Cart' button to prevent sales;"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/cart.rst:9
+#: ../../content/applications/websites/ecommerce/cart.rst:9
 msgid ""
 "Add a 'Buy Now' button to skip the cart step and lead customers straight to "
 "checkout;"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/cart.rst:10
+#: ../../content/applications/websites/ecommerce/cart.rst:10
 msgid "Create additional 'Add to Cart / Buy Now' buttons;"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/cart.rst:11
+#: ../../content/applications/websites/ecommerce/cart.rst:11
 msgid "Add an 'Order Again' button to the customer portal."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/cart.rst:14
+#: ../../content/applications/websites/ecommerce/cart.rst:14
+#: ../../content/applications/websites/ecommerce/payments.rst:11
 msgid ":doc:`checkout`"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/cart.rst:17
+#: ../../content/applications/websites/ecommerce/cart.rst:17
 msgid "'Add to Cart' action customization"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/cart.rst:19
+#: ../../content/applications/websites/ecommerce/cart.rst:19
 msgid ""
 "When customers click on the :guilabel:`Add to Cart` button, the product is "
 "added to their cart, and customers remain **by default** on the product's "
@@ -386,34 +383,34 @@ msgid ""
 "cart, or given the choice on what to do through a **dialog box**."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/cart.rst:23
+#: ../../content/applications/websites/ecommerce/cart.rst:23
 msgid ""
 "To change the default behavior, go to :menuselection:`Website --> "
 "Configuration --> Settings`. Under the :guilabel:`Shop - Checkout Process` "
 "section, look for :guilabel:`Add to Cart` and select one of the options."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/cart.rst:28
+#: ../../content/applications/websites/ecommerce/cart.rst:28
 msgid ""
-"If a product has :doc:`optional products <../products/cross_upselling>`, the"
-" **dialog box** will always appear."
+"If a product has :doc:`optional products <products/cross_upselling>`, the "
+"**dialog box** will always appear."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/cart.rst:32
-msgid ":doc:`../products/catalog`"
+#: ../../content/applications/websites/ecommerce/cart.rst:32
+msgid ":doc:`products/catalog`"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/cart.rst:37
+#: ../../content/applications/websites/ecommerce/cart.rst:37
 msgid "Replace 'Add to Cart' button by 'Contact Us' button"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/cart.rst:39
+#: ../../content/applications/websites/ecommerce/cart.rst:39
 msgid ""
 "You can replace the 'Add to Cart' button with a 'Contact Us' button which "
 "redirects users to the URL of your choice."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/cart.rst:43
+#: ../../content/applications/websites/ecommerce/cart.rst:43
 msgid ""
 "Hiding the :guilabel:`Add to Cart` button is often used by B2B eCommerces "
 "that need to restrict purchases only to :ref:`customers with an account "
@@ -421,33 +418,33 @@ msgid ""
 "those without."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/cart.rst:47
+#: ../../content/applications/websites/ecommerce/cart.rst:47
 msgid ""
 "To do so, go to :menuselection:`Website --> Configuration --> Settings --> "
 "Shop - Products` and tick :guilabel:`Prevent Sale of Zero Priced Product`. "
 "This creates a new :guilabel:`Button url` field where you can enter the "
 "**redirect URL** to be used. Then, set the price of the product to `0.00` "
 "either from the **product's template**, or from a :doc:`pricelist "
-"<../../../sales/sales/products_prices/prices/pricing>`."
+"</applications/sales/sales/products_prices/prices/pricing>`."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/cart.rst-1
+#: ../../content/applications/websites/ecommerce/cart.rst-1
 msgid "Contact us button on product page"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/cart.rst:58
+#: ../../content/applications/websites/ecommerce/cart.rst:58
 msgid ""
 "The 'Contact Us' button and '*Not Available For Sale*' text can both be "
 "modified using the **website builder** on the product's page "
 "(:menuselection:`Edit --> Customize`) by clicking on them."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/cart.rst:63
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/cart.rst-1
+#: ../../content/applications/websites/ecommerce/cart.rst:63
+#: ../../content/applications/websites/ecommerce/cart.rst-1
 msgid "Customizable 'Add to Cart' button"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/cart.rst:65
+#: ../../content/applications/websites/ecommerce/cart.rst:65
 msgid ""
 "You can also create a customizable 'Add to Cart' button and link it to a "
 "specific product. The **customized button** can be added on any page of the "
@@ -455,30 +452,30 @@ msgid ""
 "button to the regular :guilabel:`Add to Cart` button."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/cart.rst:69
+#: ../../content/applications/websites/ecommerce/cart.rst:69
 msgid ""
 "To add it, go on the :guilabel:`Shop` page of your choice, click "
 ":menuselection:`Edit --> Blocks` and place the building block. Once placed, "
 "you have the following options:"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/cart.rst:72
+#: ../../content/applications/websites/ecommerce/cart.rst:72
 msgid ""
 ":guilabel:`Product`: select the product to link the button with. Selecting a"
 " product renders the :guilabel:`Action` field available;"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/cart.rst:74
+#: ../../content/applications/websites/ecommerce/cart.rst:74
 msgid ""
 ":guilabel:`Action`: choose if the button should :guilabel:`Add to Cart` or "
 ":guilabel:`Buy Now` (instant checkout)."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/cart.rst:84
+#: ../../content/applications/websites/ecommerce/cart.rst:84
 msgid "'Buy Now' button"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/cart.rst:86
+#: ../../content/applications/websites/ecommerce/cart.rst:86
 msgid ""
 "You can enable the 'Buy Now' button to instantly take the customer to "
 "**checkout** instead of adding the product to the cart. The :guilabel:`Buy "
@@ -488,15 +485,15 @@ msgid ""
 ":guilabel:`Buy Now`."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/cart.rst-1
+#: ../../content/applications/websites/ecommerce/cart.rst-1
 msgid "Buy Now button"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/cart.rst:97
+#: ../../content/applications/websites/ecommerce/cart.rst:97
 msgid "Re-order from portal"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/cart.rst:99
+#: ../../content/applications/websites/ecommerce/cart.rst:99
 msgid ""
 "Customers have the possibility to **re-order** items from **previous sales "
 "orders** on the customer portal. To do so, go to :menuselection:`Website -->"
@@ -505,44 +502,44 @@ msgid ""
 "Again` button on their **sales order** from the **customer portal**."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/cart.rst-1
+#: ../../content/applications/websites/ecommerce/cart.rst-1
 msgid "Re-order button"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/checkout.rst:3
+#: ../../content/applications/websites/ecommerce/checkout.rst:3
 msgid "Checkout"
 msgstr "簽出"
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/checkout.rst:5
+#: ../../content/applications/websites/ecommerce/checkout.rst:5
 msgid ""
 "You can customize the **checkout steps**, add more content using the "
 "**website builder**, and enable additional features such as **express "
 "checkout** and **sign in/up at checkout**."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/checkout.rst:8
+#: ../../content/applications/websites/ecommerce/checkout.rst:8
 msgid ""
 "You can use **building blocks** to add content at any step of the checkout "
 "process. To do so, from any **checkout page**, go to :menuselection:`Edit "
 "--> Blocks`, and drag and drop **building blocks** to the page."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/checkout.rst:13
+#: ../../content/applications/websites/ecommerce/checkout.rst:13
 msgid ""
 "Note that content added through building blocks is **specific** to each "
 "step."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/checkout.rst:16
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/checkout.rst-1
+#: ../../content/applications/websites/ecommerce/checkout.rst:16
+#: ../../content/applications/websites/ecommerce/checkout.rst-1
 msgid "Checkout steps"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/checkout.rst:19
+#: ../../content/applications/websites/ecommerce/checkout.rst:19
 msgid "Review order: promo code (and subtotal)"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/checkout.rst:21
+#: ../../content/applications/websites/ecommerce/checkout.rst:21
 msgid ""
 "If you have enabled :guilabel:`Discounts, Loyalty, & Gift Card` in the "
 "settings (:menuselection:`Website --> Configuration --> Settings --> Shop - "
@@ -552,21 +549,21 @@ msgid ""
 " step."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/checkout.rst:26
+#: ../../content/applications/websites/ecommerce/checkout.rst:26
 msgid ""
 "Furthermore, you can display the subtotal with discounts applied by enabling"
 " :guilabel:`Show Discount in Subtotal`."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/checkout.rst-1
+#: ../../content/applications/websites/ecommerce/checkout.rst-1
 msgid "Subtotal discount"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/checkout.rst:34
+#: ../../content/applications/websites/ecommerce/checkout.rst:34
 msgid "Address: B2B fields"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/checkout.rst:36
+#: ../../content/applications/websites/ecommerce/checkout.rst:36
 msgid ""
 "Optional :guilabel:`TIN/VAT` and :guilabel:`Company Name` fields can be "
 "added to the :guilabel:`Billing Address` form for B2B customers, at the "
@@ -574,11 +571,11 @@ msgid ""
 "Customize` from any checkout page, and enable :guilabel:`Show B2B fields`."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/checkout.rst:42
+#: ../../content/applications/websites/ecommerce/checkout.rst:42
 msgid "Request extra info (additional step)"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/checkout.rst:44
+#: ../../content/applications/websites/ecommerce/checkout.rst:44
 msgid ""
 "You can request :guilabel:`Extra Info` from the customer by adding an "
 ":guilabel:`Extra Info` step between the :guilabel:`Address` and "
@@ -586,7 +583,7 @@ msgid ""
 "Customize` from any checkout page, and enable :guilabel:`Extra Step Option`."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/checkout.rst:53
+#: ../../content/applications/websites/ecommerce/checkout.rst:53
 msgid ""
 "The :guilabel:`Extra Info` step is an online form linked to the quotation or"
 " sales order of the customer. The information added during that step can be "
@@ -594,7 +591,7 @@ msgid ""
 "the **Sales** app."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/checkout.rst:57
+#: ../../content/applications/websites/ecommerce/checkout.rst:57
 msgid ""
 "When enabled, you can remove, add, and modify fields of the form by clicking"
 " on :guilabel:`Edit` in the top-right corner, and then clicking on any of "
@@ -603,30 +600,30 @@ msgid ""
 ":guilabel:`Customize` menu under the :guilabel:`Field` section."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/checkout.rst-1
+#: ../../content/applications/websites/ecommerce/checkout.rst-1
 msgid "Online form customization"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/checkout.rst:67
+#: ../../content/applications/websites/ecommerce/checkout.rst:67
 msgid "Confirm order: terms and conditions"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/checkout.rst:69
+#: ../../content/applications/websites/ecommerce/checkout.rst:69
 msgid ""
 "You can ask customers to agree to the :guilabel:`Terms & Conditions` in "
 "order to confirm their order by enabling :guilabel:`Accept Terms & "
 "Conditions` under :menuselection:`Edit --> Customize` on any checkout page."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/checkout.rst-1
+#: ../../content/applications/websites/ecommerce/checkout.rst-1
 msgid "Terms and conditions"
 msgstr "條款和條件"
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/checkout.rst:78
+#: ../../content/applications/websites/ecommerce/checkout.rst:78
 msgid "Express checkout"
 msgstr "快速結賬"
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/checkout.rst:80
+#: ../../content/applications/websites/ecommerce/checkout.rst:80
 msgid ""
 "You can enable a :guilabel:`Buy Now` button on products' pages which "
 "instantly takes the customer to the :guilabel:`Confirm Order` checkout page,"
@@ -637,25 +634,21 @@ msgid ""
 "going :menuselection:`Edit --> Customize`, in the :guilabel:`Cart` section."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/checkout.rst:86
+#: ../../content/applications/websites/ecommerce/checkout.rst:86
 msgid ""
 "The button can be found next to the :guilabel:`Add to Cart` button on the "
 "product's page."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/checkout.rst-1
+#: ../../content/applications/websites/ecommerce/checkout.rst-1
 msgid "Buy now (express checkout) button"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/checkout.rst:93
-msgid ":ref:`Product page design: additional functions <ecommerce-functions>`"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/checkout.rst:98
+#: ../../content/applications/websites/ecommerce/checkout.rst:95
 msgid "Guest and signed-in checkout"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/checkout.rst:100
+#: ../../content/applications/websites/ecommerce/checkout.rst:97
 msgid ""
 "It is possible to introduce a **checkout policy** under which customers can "
 "either checkout as **guests** or **signed-in users only**. Customers can "
@@ -663,43 +656,43 @@ msgid ""
 "their order, if enabled."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/checkout.rst:104
+#: ../../content/applications/websites/ecommerce/checkout.rst:101
 msgid ""
 "To select a policy, go to :menuselection:`Website --> Configuration --> "
 "Settings --> Shop - Checkout Process`. You can choose between:"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/checkout.rst:107
+#: ../../content/applications/websites/ecommerce/checkout.rst:104
 msgid ""
 ":guilabel:`Optional`: allows guests to checkout and later register from the "
 "**order confirmation** email to track their order;"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/checkout.rst:109
+#: ../../content/applications/websites/ecommerce/checkout.rst:106
 msgid ""
 ":guilabel:`Disabled (buy as guest)`: customers can only checkout as guests;"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/checkout.rst:110
+#: ../../content/applications/websites/ecommerce/checkout.rst:107
 msgid ""
 ":guilabel:`Mandatory (no guest checkout)`: customers can only checkout if "
 "they have signed-in."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/checkout.rst:113
-msgid ":doc:`../ecommerce_management/customer_accounts`"
+#: ../../content/applications/websites/ecommerce/checkout.rst:110
+msgid ":doc:`customer_accounts`"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/checkout.rst:114
-#: ../../content/applications/websites/ecommerce/ecommerce_management/customer_accounts.rst:24
+#: ../../content/applications/websites/ecommerce/checkout.rst:111
+#: ../../content/applications/websites/ecommerce/customer_accounts.rst:24
 msgid ":doc:`/applications/general/users/portal`"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/checkout.rst:117
+#: ../../content/applications/websites/ecommerce/checkout.rst:114
 msgid "B2B access restriction"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/checkout.rst:119
+#: ../../content/applications/websites/ecommerce/checkout.rst:116
 msgid ""
 "If you wish to restrict checkout only to **selected B2B customers**, enable "
 ":guilabel:`Mandatory (no guest checkout)` and go to :menuselection:`Website "
@@ -708,257 +701,36 @@ msgid ""
 ":guilabel:`Grant Access`."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/checkout.rst:125
+#: ../../content/applications/websites/ecommerce/checkout.rst:122
 msgid ""
 "Settings are **website-specific**, which means you can set up a B2C website "
 "allowing **guest** checkout, and another for B2B customers with **mandatory "
 "sign-in**."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/checkout.rst:129
+#: ../../content/applications/websites/ecommerce/checkout.rst:126
 msgid ""
 "Users can only have one portal access per **email**. They *cannot* be "
 "granted access to two different portals with the same **email address**."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/checkout.rst:133
+#: ../../content/applications/websites/ecommerce/checkout.rst:130
 msgid "Shared customer accounts"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/checkout.rst:135
+#: ../../content/applications/websites/ecommerce/checkout.rst:132
 msgid ""
 "If you enable :guilabel:`Shared Customer Accounts` under "
 ":menuselection:`Website --> Configuration --> Settings --> Privacy section`,"
 " you can allow or disallow access to *all* websites for one same account."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/payments.rst:3
-msgid "Payment providers"
-msgstr "付款服務商"
-
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/payments.rst:5
-msgid ""
-"Odoo supports a multitude of online :doc:`payment providers "
-"</applications/finance/payment_providers>` for your website, allowing your "
-"customers to pay with their preferred payment methods."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/payments.rst:10
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/payments.rst:54
-msgid ":doc:`/applications/sales/sales/products_prices/ewallets_giftcards`"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/payments.rst:11
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:12
-msgid ":doc:`../checkout_payment_shipping/checkout`"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/payments.rst:14
-#: ../../content/applications/websites/ecommerce/products/price_management.rst:94
-#: ../../content/applications/websites/website/configuration.rst:5
-#: ../../content/applications/websites/website/configuration/cookies_bar.rst:15
-#: ../../content/applications/websites/website/reporting/link_tracker.rst:10
-msgid "Configuration"
-msgstr "配置"
-
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/payments.rst:16
-msgid ""
-"To set up payment providers on the eCommerce app, go to "
-":menuselection:`Website --> Configuration --> Payment Providers`. From here,"
-" :guilabel:`Activate` the payment providers you wish to have available on "
-"your shop, and configure them according to your needs."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/payments.rst:20
-msgid ""
-"Alternatively, you can access **payment providers** via "
-":menuselection:`Website --> Configuration --> Settings`. In the "
-":guilabel:`Shop - Payment` section, you can :guilabel:`Configure SEPA Direct"
-" Debit` if you wish to use it, as well as :guilabel:`View other providers`. "
-"If you use the :guilabel:`Authorize.net` payment provider, the :ref:`Payment"
-" Capture Method <payment_providers/manual_capture>` can be configured in "
-"that same menu."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/payments.rst:26
-msgid ""
-"If you are using :doc:`/applications/finance/payment_providers/paypal`, you "
-"can also enable and configure it here."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/payments.rst:30
-msgid "Checkout payment options"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/payments.rst:32
-msgid ""
-"Once activated, customers can choose the payment provider of their choice "
-"during the **checkout process**, at the :guilabel:`Confirm Order` step."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/payments.rst-1
-msgid "Payment provider selection at checkout"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/payments.rst:40
-msgid "eWallets and gift cards"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/payments.rst:42
-msgid ""
-"When checking out, customers can pay with an eWallet or gift cards. To "
-"enable these, go to :menuselection:`Website --> Configuration --> Settings`,"
-" and in the :guilabel:`Shop-Products` section, enable "
-":menuselection:`Discounts, Loyalty & Gift Card`."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/payments.rst:46
-msgid ""
-"Once enabled, customers can enter their gift card **code** or pay with their"
-" eWallet at the checkout step."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/payments.rst-1
-msgid "Enter gift card code to process checkout"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:3
-msgid "Shipping methods"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:5
-msgid ""
-"Depending on your shipping strategy, you have the choice to either use your "
-":ref:`own shipping methods <ecommerce-own-shipping>`, or use an integration "
-"with an :ref:`existing shipping provider <ecommerce-shipping-providers>`."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:15
-msgid "Own shipping methods"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:17
-msgid ""
-"You can create your own custom shipping methods and define rules to compute "
-"shipping costs. To do so, go to :menuselection:`Website --> Configuration "
-"--> Shipping Methods`, and either select an **existing** shipping method, or"
-" :guilabel:`Create` one. When creating a shipping method, you can choose "
-"between :ref:`Fixed Price <inventory/shipping/fixed>`, :ref:`Based on Rules "
-"<inventory/shipping/rules>`, and :guilabel:`Pickup in store`."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:24
-msgid "Pickup in store"
-msgstr "到店自取"
-
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:26
-msgid ""
-":guilabel:`Pickup in store` must first be **enabled** in the settings "
-"(:menuselection:`Website --> Configuration --> Settings --> Shipping "
-"section)` by checking :guilabel:`On Site Payments & Picking`. Once enabled, "
-"you can select and :guilabel:`Customize Pickup Sites`. :guilabel:`Picking "
-"sites` can be made **website-specific**, but are by default available for "
-"*all* websites."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:32
-msgid ""
-":doc:`../../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration`"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:33
-#: ../../content/applications/websites/ecommerce/ecommerce_management/order_handling.rst:83
-msgid ""
-":doc:`../../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/invoicing`"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:34
-#: ../../content/applications/websites/ecommerce/ecommerce_management/order_handling.rst:85
-msgid ""
-":doc:`../../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/multipack`"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:35
-msgid ""
-":doc:`../../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/cancel`"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:40
-msgid "Shipping providers"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:42
-msgid ""
-"Another solution is to use one of the integrations with an existing shipping"
-" provider. The advantage of using an integration is that delivery costs are "
-"automatically computed based on each order as well as generating shipping "
-"labels."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:49
-msgid ""
-":doc:`../../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/third_party_shipper`"
-msgstr ""
-":doc:`../../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/third_party_shipper`"
-
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:50
-msgid ""
-":doc:`../../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/ups_credentials`"
-msgstr ""
-":doc:`../../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/ups_credentials`"
-
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:51
-msgid ""
-":doc:`../../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dhl_credentials`"
-msgstr ""
-":doc:`../../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dhl_credentials`"
-
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:52
-#: ../../content/applications/websites/ecommerce/ecommerce_management/order_handling.rst:84
-msgid ""
-":doc:`../../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/labels`"
-msgstr ""
-":doc:`../../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/labels`"
-
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:55
-#: ../../content/applications/websites/ecommerce/products.rst:205
-msgid "Website availability"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:57
-msgid ""
-"Shipping methods can be made available on **specific** websites *only*, if "
-"desired. To do so, go to :menuselection:`Website --> Configuration --> "
-"Settings --> Shipping Methods`, and select the desired **shipping method**. "
-"In the :guilabel:`Website` field, set the website you want the shipping "
-"method to be restrained to. Leave the field **empty** for the method to be "
-"available on *all* websites."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:63
-msgid "Delivery method at checkout"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst:65
-msgid ""
-"Customers can choose the shipping method at the end of the checkout process,"
-" at the :guilabel:`Confirm Order` step."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/checkout_payment_shipping/shipping.rst-1
-msgid "Delivery method choice at checkout"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/ecommerce_management.rst:5
-msgid "eCommerce management"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/ecommerce_management/customer_accounts.rst:3
+#: ../../content/applications/websites/ecommerce/customer_accounts.rst:3
 #: ../../content/applications/websites/website/configuration/multi_website.rst:124
 msgid "Customer accounts"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/customer_accounts.rst:5
+#: ../../content/applications/websites/ecommerce/customer_accounts.rst:5
 msgid ""
 "Having customer accounts on an eCommerce allows customers to access all "
 "their documents from a single place. To access their account, customers must"
@@ -968,28 +740,28 @@ msgid ""
 ":guilabel:`orders`, :guilabel:`invoices`, etc."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/customer_accounts.rst-1
+#: ../../content/applications/websites/ecommerce/customer_accounts.rst-1
 msgid "Customer account log-in"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/customer_accounts.rst:16
+#: ../../content/applications/websites/ecommerce/customer_accounts.rst:16
 msgid ""
 "Customers can only have an account if the :ref:`sign in/up at checkout "
 "<checkout-sign>` option allows for accounts creation."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/customer_accounts.rst:20
+#: ../../content/applications/websites/ecommerce/customer_accounts.rst:20
 msgid ""
 "Similarly to the rest of the website, the customer account page can be "
 "customized with **content blocks** and other features through the **website "
 "builder**."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/customer_accounts.rst:27
+#: ../../content/applications/websites/ecommerce/customer_accounts.rst:27
 msgid "Access restriction"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/customer_accounts.rst:29
+#: ../../content/applications/websites/ecommerce/customer_accounts.rst:29
 msgid ""
 "It is possible to allow or restrict the documents to which customers have "
 "access through the website builder. Log in your **own** account with your "
@@ -998,15 +770,15 @@ msgid ""
 " have access to."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/customer_accounts.rst-1
+#: ../../content/applications/websites/ecommerce/customer_accounts.rst-1
 msgid "Documents to which customers have access to from their account"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/customer_accounts.rst:39
+#: ../../content/applications/websites/ecommerce/customer_accounts.rst:39
 msgid "Multi-website account"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/customer_accounts.rst:41
+#: ../../content/applications/websites/ecommerce/customer_accounts.rst:41
 msgid ""
 "If you own multiple websites, you can make customer accounts available "
 "across **all** websites. Then, the customer only needs one account. To do "
@@ -1014,228 +786,37 @@ msgid ""
 " section`, and enable :guilabel:`Shared Customer Accounts`."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/customer_interaction.rst:3
-msgid "Customer interaction"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/ecommerce_management/customer_interaction.rst:5
-msgid ""
-"Odoo offers many ways to interact with customers and for customers to "
-"interact with your website."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/ecommerce_management/customer_interaction.rst:10
-msgid "Product reviews"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/ecommerce_management/customer_interaction.rst:12
-msgid ""
-"Customers can give a rating to your products. This is a great way to promote"
-" your products or services since reviews can influence purchase processes. "
-"To activate the **rating** feature, from your **shop page**, select a "
-"product, go to :menuselection:`Edit --> Customize` and enable "
-":guilabel:`Rating`."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/ecommerce_management/customer_interaction.rst-1
-msgid "Rating of a product on the product page"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/ecommerce_management/customer_interaction.rst:22
-msgid ""
-"Only portal users which purchased the product or service can leave ratings."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/ecommerce_management/customer_interaction.rst:25
-msgid ""
-"Customer reviews can be hidden by clicking the :guilabel:`Visible` button "
-"next to a published review."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/ecommerce_management/customer_interaction.rst:29
-msgid "Live chat"
-msgstr "即時聊天"
-
-#: ../../content/applications/websites/ecommerce/ecommerce_management/customer_interaction.rst:31
-msgid ""
-"A chatbot is available and can simulate a human-like conversation with "
-"website visitors via text messages in a chat box."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/ecommerce_management/customer_interaction.rst:35
-msgid ":doc:`../../livechat`"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/ecommerce_management/customer_interaction.rst:36
-msgid ":doc:`../../livechat/ratings`"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/ecommerce_management/customer_interaction.rst:37
-msgid ":doc:`../../livechat/responses`"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/ecommerce_management/customer_interaction.rst:42
-msgid "Contact forms"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/ecommerce_management/customer_interaction.rst:45
-msgid "Helpdesk"
-msgstr "技術支援"
-
-#: ../../content/applications/websites/ecommerce/ecommerce_management/customer_interaction.rst:47
-msgid ""
-"Customers may need support after purchasing a product or subscribing to a "
-"service. It is possible to create a **contact form**, which, when fulfilled,"
-" automatically creates a new ticket for your **support team**."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/ecommerce_management/customer_interaction.rst-1
-msgid "Contact form to submit a ticket to the support team"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/ecommerce_management/customer_interaction.rst:55
-msgid ""
-"To add a contact form, **create** a new page (:menuselection:`+ New --> "
-"Page`) if necessary, and drag and drop a :guilabel:`Form` block from the "
-":guilabel:`Dynamic Content` section onto the page. Once placed, click on the"
-" form (while in :guilabel:`Edit` mode), and in the :guilabel:`Action` field,"
-" select :guilabel:`Create a Ticket`. You can then select to which "
-":guilabel:`Helpdesk team` the ticket should be assigned."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/ecommerce_management/customer_interaction.rst-1
-msgid "Action field to create a task upon submitting a form"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/ecommerce_management/customer_interaction.rst:66
-msgid "Contact us"
-msgstr "聯絡我們"
-
-#: ../../content/applications/websites/ecommerce/ecommerce_management/customer_interaction.rst:68
-msgid ""
-"A 'Contact Us' page makes it easier for customers and prospects to contact "
-"your company and get in touch."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/ecommerce_management/customer_interaction.rst:71
-msgid ""
-"To have a 'Contact Us' page, create a new page (:menuselection:`+ New --> "
-"Page`) if necessary, and click on :menuselection:`Edit --> Customize`. Then,"
-" drag and drop a :guilabel:`Form` block onto the page. Select the form and "
-"define the action to be performed when submitted in the :guilabel:`Action` "
-"field."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/ecommerce_management/customer_interaction.rst:76
-msgid ""
-"When clicking on a field, or when adding a new field (:guilabel:`+ Field`), "
-"you can select its :guilabel:`Type`. This enables different options, such as"
-" :guilabel:`Multiple Checkboxes`, which customers can use to indicate the "
-"services they are interested in, for example."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/ecommerce_management/customer_interaction.rst-1
-msgid "Tags to be selected on the 'Contact Us' form"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/ecommerce_management/customer_interaction.rst-1
-msgid "'Checkboxes' configuration settings"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/ecommerce_management/customer_interaction.rst:89
-msgid "Newsletter"
-msgstr "最新消息"
-
-#: ../../content/applications/websites/ecommerce/ecommerce_management/customer_interaction.rst:91
-msgid ""
-"Customers can get updates on your eCommerce activities by subscribing to a "
-"newsletter. Visitors subscribing to the newsletter are automatically added "
-"to the mailing list of the **Email Marketing** application. You can either "
-"choose a newsletter **block**, a newsletter **popup**, or both."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/ecommerce_management/customer_interaction.rst:95
-msgid ""
-"**Popup**: prompts up a newsletter box when visitors scroll down the page;"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/ecommerce_management/customer_interaction.rst:96
-msgid ""
-"**Block**: displays a field on the page where customers can sign up by "
-"entering their email."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/ecommerce_management/customer_interaction.rst:98
-msgid ""
-"The newsletter **block** can be configured according to different "
-":guilabel:`Templates`. To do so, click the **block** while in "
-":menuselection:`Edit --> Customize`, and select a :guilabel:`Template` in "
-"the :guilabel:`Newsletter Block` section. There are **three** templates "
-"available:"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/ecommerce_management/customer_interaction.rst:102
-msgid ""
-":guilabel:`Email Subscription`: visitors can sign up by email to the "
-"newsletter, without any choice to the content. The content is defined in "
-":menuselection:`Edit --> Customize` in the :guilabel:`Newsletter` field;"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/ecommerce_management/customer_interaction.rst:105
-msgid ""
-":guilabel:`SMS Subscription`: is the same as :guilabel:`Email Subscription`,"
-" but by SMS;"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/ecommerce_management/customer_interaction.rst:106
-msgid ""
-":guilabel:`Form Subscription`: allows adding several fields, as well as a "
-"checkbox for the visitor to agree to the **GDPR policy** of your website."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/ecommerce_management/customer_interaction.rst-1
-msgid "Form subscription configuration and settings"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/ecommerce_management/customer_interaction.rst:114
-msgid ""
-"Alternatively, you can select :guilabel:`Subscribe to Newsletter` as "
-":guilabel:`Action` when creating a :ref:`contact form <contact-form>`, "
-"allowing for the same level of customization. Make sure to add a checkbox "
-"stating visitors agree to be added to the mailing list."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/ecommerce_management/order_handling.rst:3
+#: ../../content/applications/websites/ecommerce/order_handling.rst:3
 msgid "Order handling"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/order_handling.rst:5
+#: ../../content/applications/websites/ecommerce/order_handling.rst:5
 msgid ""
 "When a customer orders on your eCommerce, there are **three** record types "
 "required to be handle in Odoo:"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/order_handling.rst:8
+#: ../../content/applications/websites/ecommerce/order_handling.rst:8
 msgid ":ref:`Sales orders <handling/sales>`;"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/order_handling.rst:9
+#: ../../content/applications/websites/ecommerce/order_handling.rst:9
 msgid ":ref:`Delivery orders <handling/delivery>`;"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/order_handling.rst:10
+#: ../../content/applications/websites/ecommerce/order_handling.rst:10
 msgid ":ref:`Invoices & legal requirements <handling/legal>`."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/order_handling.rst:15
+#: ../../content/applications/websites/ecommerce/order_handling.rst:15
 msgid "Sales orders"
 msgstr "銷售訂單"
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/order_handling.rst:18
+#: ../../content/applications/websites/ecommerce/order_handling.rst:18
 msgid "Order and payment status"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/order_handling.rst:20
+#: ../../content/applications/websites/ecommerce/order_handling.rst:20
 msgid ""
 "The first step when a customer adds a product to his cart is the creation of"
 " a quotation. Orders can be managed either from the **Website** or "
@@ -1246,43 +827,43 @@ msgid ""
 ":guilabel:`Salesperson` to handle eCommerce orders."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/order_handling.rst-1
+#: ../../content/applications/websites/ecommerce/order_handling.rst-1
 msgid "Assignment of online orders to a sales team or salesperson"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/order_handling.rst:30
+#: ../../content/applications/websites/ecommerce/order_handling.rst:30
 msgid ""
 "Orders can be found under :menuselection:`Website --> eCommerce --> "
 "Orders/Unpaid Orders`. Each order goes through a different status:"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/order_handling.rst:33
+#: ../../content/applications/websites/ecommerce/order_handling.rst:33
 msgid ""
 "**Quotation**: a new product is added to the cart, but the customer has "
 "*not* gone through the checkout process yet;"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/order_handling.rst:35
+#: ../../content/applications/websites/ecommerce/order_handling.rst:35
 msgid ""
 "**Quotation sent**: the customer has gone through the checkout process and "
 "confirmed the order, but the payment is not yet confirmed;"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/order_handling.rst:37
+#: ../../content/applications/websites/ecommerce/order_handling.rst:37
 msgid ""
 "**Order**: the customer has gone through the checkout process, confirmed the"
 " order, and the payment is received."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/order_handling.rst-1
+#: ../../content/applications/websites/ecommerce/order_handling.rst-1
 msgid "Statuses of eCommerce orders"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/order_handling.rst:45
+#: ../../content/applications/websites/ecommerce/order_handling.rst:45
 msgid "Abandoned cart"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/order_handling.rst:47
+#: ../../content/applications/websites/ecommerce/order_handling.rst:47
 msgid ""
 "An **abandoned cart** represents an order for which the customer did **not "
 "finish** the checkout confirmation process. For these orders, it is possible"
@@ -1294,28 +875,28 @@ msgid ""
 "**email template** used."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/order_handling.rst:55
+#: ../../content/applications/websites/ecommerce/order_handling.rst:55
 msgid ""
 "For abandoned cart emails, the customer must either have entered their "
 "contact details during the checkout process; or be logged-in when they added"
 " the product to their cart."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/order_handling.rst:61
+#: ../../content/applications/websites/ecommerce/order_handling.rst:61
 msgid "Delivery orders"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/order_handling.rst:64
+#: ../../content/applications/websites/ecommerce/order_handling.rst:64
 msgid "Delivery flow"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/order_handling.rst:66
+#: ../../content/applications/websites/ecommerce/order_handling.rst:66
 msgid ""
 "Once a quotation has been confirmed, a delivery order is automatically "
 "created. The next step is to process this delivery."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/order_handling.rst:69
+#: ../../content/applications/websites/ecommerce/order_handling.rst:69
 msgid ""
 "Packing eCommerce orders usually requires picking the product, preparing the"
 " packaging, printing the shipping label(s) and shipping to the customer. "
@@ -1323,14 +904,14 @@ msgid ""
 "be considered as one or multiple actions in Odoo."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/order_handling.rst:73
+#: ../../content/applications/websites/ecommerce/order_handling.rst:73
 msgid ""
 "An automatic email can be sent to the customer when the transfer status in "
 "Odoo is “done”. To do so, enable the feature in the settings of the "
 ":doc:`Inventory </applications/inventory_and_mrp/inventory>` app."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/order_handling.rst:78
+#: ../../content/applications/websites/ecommerce/order_handling.rst:78
 msgid ""
 "If customers are allowed to pay when picking up their order in stores or by "
 "wire transfer, the quotation is **not** be confirmed and the stock is "
@@ -1338,40 +919,55 @@ msgid ""
 "in stock."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/order_handling.rst:88
+#: ../../content/applications/websites/ecommerce/order_handling.rst:83
+msgid ""
+":doc:`../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/invoicing`"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/order_handling.rst:84
+msgid ""
+":doc:`../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/labels`"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/order_handling.rst:85
+msgid ""
+":doc:`../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/multipack`"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/order_handling.rst:88
 msgid "Returns and refunds"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/order_handling.rst:90
+#: ../../content/applications/websites/ecommerce/order_handling.rst:90
 msgid ""
 "Customers can only return an order through an online form. It may not be "
 "possible to return products depending on the return strategy or type of "
 "product."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/order_handling.rst:93
+#: ../../content/applications/websites/ecommerce/order_handling.rst:93
 msgid ""
 "Full refunds can be directly sent to customers from within the order "
 "interface. A refund-compatible payment provider needs to be enabled first."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/order_handling.rst:97
+#: ../../content/applications/websites/ecommerce/order_handling.rst:97
 msgid ":doc:`/applications/sales/sales/products_prices/returns`"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/order_handling.rst:98
+#: ../../content/applications/websites/ecommerce/order_handling.rst:98
 msgid ":doc:`/applications/services/helpdesk/advanced/after_sales`"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/order_handling.rst:99
+#: ../../content/applications/websites/ecommerce/order_handling.rst:99
 msgid ":doc:`/applications/finance/payment_providers`"
-msgstr ""
+msgstr ":doc:`/applications/finance/payment_providers`"
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/order_handling.rst:104
+#: ../../content/applications/websites/ecommerce/order_handling.rst:104
 msgid "Invoice and legal requirements"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/order_handling.rst:106
+#: ../../content/applications/websites/ecommerce/order_handling.rst:106
 msgid ""
 "The final step of an ecommerce order is to generate the invoice and send it "
 "to the customer. Depending on the type of business (B2B or B2C), an invoice "
@@ -1380,28 +976,113 @@ msgid ""
 ":ref:`confirmed <handling/sales>`."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/order_handling.rst:111
+#: ../../content/applications/websites/ecommerce/order_handling.rst:111
 msgid ""
 "To automate invoicing, go to :menuselection:`Website --> Configuration --> "
 "Settings` and in the :guilabel:`Invoicing` section, enable "
 ":guilabel:`Automatic Invoice`."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/performance.rst:3
-msgid "Performance monitoring"
+#: ../../content/applications/websites/ecommerce/payments.rst:3
+msgid "Payment providers"
+msgstr "付款服務商"
+
+#: ../../content/applications/websites/ecommerce/payments.rst:5
+msgid ""
+"Odoo supports a multitude of online :doc:`payment providers "
+"</applications/finance/payment_providers>` for your website, allowing your "
+"customers to pay with their preferred payment methods."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/performance.rst:5
+#: ../../content/applications/websites/ecommerce/payments.rst:10
+#: ../../content/applications/websites/ecommerce/payments.rst:54
+msgid ":doc:`/applications/sales/sales/products_prices/ewallets_giftcards`"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/payments.rst:14
+#: ../../content/applications/websites/ecommerce/products/price_management.rst:96
+#: ../../content/applications/websites/website/configuration.rst:5
+#: ../../content/applications/websites/website/configuration/cookies_bar.rst:15
+#: ../../content/applications/websites/website/reporting/link_tracker.rst:10
+msgid "Configuration"
+msgstr "配置"
+
+#: ../../content/applications/websites/ecommerce/payments.rst:16
+msgid ""
+"To set up payment providers on the eCommerce app, go to "
+":menuselection:`Website --> Configuration --> Payment Providers`. From here,"
+" :guilabel:`Activate` the payment providers you wish to have available on "
+"your shop, and configure them according to your needs."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/payments.rst:20
+msgid ""
+"Alternatively, you can access **payment providers** via "
+":menuselection:`Website --> Configuration --> Settings`. In the "
+":guilabel:`Shop - Payment` section, you can :guilabel:`Configure SEPA Direct"
+" Debit` if you wish to use it, as well as :guilabel:`View other providers`. "
+"If you use the :guilabel:`Authorize.net` payment provider, the :ref:`Payment"
+" Capture Method <payment_providers/manual_capture>` can be configured in "
+"that same menu."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/payments.rst:26
+msgid ""
+"If you are using :doc:`/applications/finance/payment_providers/paypal`, you "
+"can also enable and configure it here."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/payments.rst:30
+msgid "Checkout payment options"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/payments.rst:32
+msgid ""
+"Once activated, customers can choose the payment provider of their choice "
+"during the **checkout process**, at the :guilabel:`Confirm Order` step."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/payments.rst-1
+msgid "Payment provider selection at checkout"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/payments.rst:40
+msgid "eWallets and gift cards"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/payments.rst:42
+msgid ""
+"When checking out, customers can pay with an eWallet or gift cards. To "
+"enable these, go to :menuselection:`Website --> Configuration --> Settings`,"
+" and in the :guilabel:`Shop-Products` section, enable "
+":menuselection:`Discounts, Loyalty & Gift Card`."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/payments.rst:46
+msgid ""
+"Once enabled, customers can enter their gift card **code** or pay with their"
+" eWallet at the checkout step."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/payments.rst-1
+msgid "Enter gift card code to process checkout"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/performance.rst:3
+msgid "Performance management"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/performance.rst:5
 msgid ""
 "Odoo integrates a variety of tools to analyze and improve the performance of"
 " your eCommerce website."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/performance.rst:9
+#: ../../content/applications/websites/ecommerce/performance.rst:9
 msgid "Data monitoring"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/performance.rst:11
+#: ../../content/applications/websites/ecommerce/performance.rst:11
 msgid ""
 "**Website** allows monitoring and analysis of the sales performance of your "
 "eCommerce. To access the **reporting view**, go to :menuselection:`Website "
@@ -1409,51 +1090,106 @@ msgid ""
 "related to sales, such as sales performance per product, category, day, etc."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/performance.rst-1
+#: ../../content/applications/websites/ecommerce/performance.rst-1
 msgid "Performance reporting of eCommerce"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/performance.rst:19
+#: ../../content/applications/websites/ecommerce/performance.rst:19
 msgid ""
 "By clicking :guilabel:`Measures`, you can select the type of measurement "
 "used, such as:"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/performance.rst:21
+#: ../../content/applications/websites/ecommerce/performance.rst:21
 msgid ":guilabel:`Margin`;"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/performance.rst:22
+#: ../../content/applications/websites/ecommerce/performance.rst:22
 msgid ":guilabel:`Qty Invoiced`;"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/performance.rst:23
+#: ../../content/applications/websites/ecommerce/performance.rst:23
 msgid ":guilabel:`Untaxed Total`;"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/performance.rst:24
+#: ../../content/applications/websites/ecommerce/performance.rst:24
 msgid ":guilabel:`Volume`;"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/performance.rst:25
+#: ../../content/applications/websites/ecommerce/performance.rst:25
 msgid "..."
 msgstr "..."
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/performance.rst:27
+#: ../../content/applications/websites/ecommerce/performance.rst:27
 msgid ""
 "Other options include **multiple views (Pivot, etc.), comparison** by "
 "periods or years, and directly :guilabel:`insert in spreadsheet`, etc."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/performance.rst:31
+#: ../../content/applications/websites/ecommerce/performance.rst:31
 #: ../../content/applications/websites/website/configuration/multi_website.rst:147
 msgid "Analytics"
 msgstr "分析"
 
-#: ../../content/applications/websites/ecommerce/ecommerce_management/performance.rst:33
+#: ../../content/applications/websites/ecommerce/performance.rst:33
 msgid ""
 "It is possible to link your Odoo website with :ref:`analytics/plausible` and"
 " :ref:`analytics/google-analytics`."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/performance.rst:39
+msgid "Email queue optimization"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/performance.rst:41
+msgid ""
+"For websites handling flash sales (e.g., event ticket sales) or experiencing"
+" high traffic spikes, order confirmation emails can become a performance "
+"bottleneck, potentially slowing down the checkout process for other "
+"customers."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/performance.rst:45
+msgid ""
+"To improve performance, these emails can be queued and processed separately "
+"from the order confirmation flow. This is managed by the :guilabel:`Sales: "
+"Send pending emails` scheduled action, which sends queued emails as soon as "
+"possible."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/performance.rst:49
+msgid "To enable asynchronous email sending:"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/performance.rst:51
+msgid ""
+"Enable the :doc:`developer mode </applications/general/developer_mode>`."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/performance.rst:52
+msgid ""
+"Go to :menuselection:`Apps`, remove the :guilabel:`Apps` filter, and install"
+" the :guilabel:`Sales - Async Emails` module."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/performance.rst:54
+msgid ""
+"Go to :menuselection:`Settings --> Technical --> System Parameters` and set "
+"the :guilabel:`sale.async_emails` system parameter to `True`."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/performance.rst:56
+msgid ""
+"Go to :menuselection:`Settings --> Technical --> Scheduled Actions` and "
+"ensure that the :guilabel:`Sales: Send pending emails` scheduled action is "
+"enabled."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/performance.rst:60
+msgid ""
+"Enabling this feature may delay order confirmation and invoice emails by a "
+"few minutes. It is recommended only for high-traffic websites, as it can "
+"introduce unnecessary delays for e-commerce websites with moderate traffic."
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products.rst:5
@@ -1463,474 +1199,758 @@ msgstr "產品"
 
 #: ../../content/applications/websites/ecommerce/products.rst:7
 msgid ""
-"Odoo allows you to create, import, and manage your products' pages all "
-"within the **Website** app."
+"**Odoo eCommerce** allows you to :ref:`add products <ecommerce/products/add-"
+"products>` and manage your :ref:`product pages <ecommerce/products/product-"
+"page>` directly from the Website app. It also allows you to add "
+":ref:`product variants <ecommerce/products/product-variants>` and "
+":ref:`digital files <ecommerce/products/digital-files>`, :ref:`translating "
+"<ecommerce/products/translation>` the product page content, :ref:`managing "
+"stock <ecommerce/products/stock-management>`, and enabling :ref:`product "
+"comparisons <ecommerce/products/product-comparison>`."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products.rst:10
-msgid "Add products to the catalog"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/products.rst:12
-msgid "To add a product to your catalog, you can either do it in:"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/products.rst:14
-msgid ""
-"From anywhere on your website, click :menuselection:`+ New --> Product`. "
-"Enter the name of your product, and :guilabel:`Save`;"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/products.rst:16
-msgid ":menuselection:`Website --> eCommerce --> Products --> Create`;"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/products.rst:17
-msgid ""
-"or by :ref:`importing data <import-data>` using XLSX or CSV files. To do so,"
-" go to :menuselection:`Website --> eCommerce --> Products`. Click on "
-":guilabel:`Favorites` and :ref:`Import records <import-data>`."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/products.rst:22
-msgid ":doc:`products/catalog`"
+#: ../../content/applications/websites/ecommerce/products.rst:18
+msgid "Add products"
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products.rst:23
-msgid ":doc:`../../sales/sales/products_prices/products/import`"
+msgid "Create products"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products.rst:24
-msgid ":doc:`Product-related documentation <../../sales/sales>`"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/products.rst:27
-msgid "Publish"
-msgstr "公開"
-
-#: ../../content/applications/websites/ecommerce/products.rst:29
+#: ../../content/applications/websites/ecommerce/products.rst:25
 msgid ""
-"Upon creation, products are defaulted as :guilabel:`Unpublished` in your "
-"eCommerce catalog. To make a product visible to visitors, go to "
-":menuselection:`Website --> Site --> Homepage`, click on your **main shop** "
-"page, select the product, and enable it as :guilabel:`Published` in the top-"
-"right corner."
+"To create a product from the frontend, click :guilabel:`+ New` in the top-"
+"right corner, then :guilabel:`Product`. Enter the :guilabel:`Product Name`, "
+":guilabel:`Sales Price`, the default :guilabel:`Customer Taxes` for local "
+"transactions, and :guilabel:`Save`. You can then update the product's "
+"details, add an image, and :ref:`customize "
+"<ecommerce/products/customization>` the product page. When you "
+":guilabel:`Save`, the product page is automatically published."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products.rst:35
+#: ../../content/applications/websites/ecommerce/products.rst:32
 msgid ""
-"To publish **large batches** of products, the most convenient fashion is to "
-"go to :menuselection:`Website --> eCommerce --> Products`. Here, remove the "
-":guilabel:`Published` filter by clicking on the :guilabel:`x` right to it, "
-"and then select the :guilabel:`List` view. Next, click the "
-":guilabel:`dropdown toggle` button (located right below the :guilabel:`List`"
-" button) and enable :guilabel:`Is published`. Click the :guilabel:`Is "
-"Published` column to re-order it either by **published** or **unpublished** "
-"products. Finally, select the products to publish by ticking their box on "
-"the extreme-right, and tick any box of the selected products in the "
-":guilabel:`Is Published` column to publish them all."
+"You can also create a product from the backend by going to "
+":menuselection:`Website --> eCommerce --> Products` and clicking "
+":guilabel:`New`."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products.rst-1
-msgid "List and dropdown toggle buttons"
+#: ../../content/applications/websites/ecommerce/products.rst:34
+msgid ""
+"Products created from the frontend are automatically :ref:`published "
+"<website/un-publish-page>`, while products created from the backend are not."
+" To publish a product, click the :guilabel:`Go to Website` smart button to "
+"access the product page, then toggle the switch from :guilabel:`Unpublished`"
+" to :guilabel:`Published`."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:42
+msgid "Import products"
+msgstr "匯入產品"
+
+#: ../../content/applications/websites/ecommerce/products.rst:44
+msgid ""
+"To :ref:`import product data <import-data>` using XLSX or CSV files, go to "
+":menuselection:`Website --> eCommerce --> Products`, click the :icon:`fa-"
+"cog` (:guilabel:`gear`) icon, then :ref:`Import records <import-data>`."
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products.rst:49
-msgid "Product page design"
+msgid "To publish **large batches** of products, follow these steps:"
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products.rst:51
-msgid ""
-"Once a product is created, you can access its **product page** through the "
-":guilabel:`Shop` page by clicking on the product, and then clicking "
-":guilabel:`Edit`. Here, you can change the page's **additional functions**, "
-"**layout**, **add content**, etc. Note that **enabled functions** apply to "
-"*all* product pages."
+msgid "Go to :menuselection:`Website --> eCommerce --> Products`."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products.rst:59
-msgid "Additional functions"
+#: ../../content/applications/websites/ecommerce/products.rst:52
+msgid ""
+"Remove the :guilabel:`Published` filter and switch to the :guilabel:`List` "
+"view."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products.rst:61
+#: ../../content/applications/websites/ecommerce/products.rst:53
 msgid ""
-"In the **website builder** window, click :guilabel:`Customize` to enable "
-"additional functions:"
+"Click the :icon:`fa-sliders` (:guilabel:`dropdown toggle`) icon and enable "
+":guilabel:`Is published`."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products.rst:63
+#: ../../content/applications/websites/ecommerce/products.rst:55
 msgid ""
-":guilabel:`Customers: Rating` allows customers to submit :ref:`product "
-"reviews <product-reviews>`; :guilabel:`Share` adds social media and email "
-"icon buttons to share the product via those channels;"
+"Click the :guilabel:`Is Published` column to re-order it by **published** or"
+" **unpublished** products."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:57
+msgid "Select the products to publish by ticking their box."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:58
+msgid ""
+"In the :guilabel:`Is Published` column, tick the box for any of the selected"
+" products, then :guilabel:`Confirm` to publish them."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:64
+msgid "Shop page"
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products.rst:66
 msgid ""
-":guilabel:`Select Quantity`: if enabled, allows to choose the quantity added"
-" to cart;"
+"To customize the layout of the main :guilabel:`Shop` page or modify its "
+"content, click :guilabel:`Edit`. Go to the :guilabel:`Blocks` tab to add "
+":doc:`building blocks <../../websites/website/web_design/building_blocks>` "
+"or to the :guilabel:`Customize` tab to change the page layout or add "
+"features:"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products.rst:67
-msgid ""
-":guilabel:`Tax Indication`: notifies if the price is **VAT included** or "
-"**excluded**;"
+#: ../../content/applications/websites/ecommerce/products.rst:71
+msgid ":guilabel:`Layout`: Select :guilabel:`Grid` or :guilabel:`List`."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products.rst:68
+#: ../../content/applications/websites/ecommerce/products.rst:73
 msgid ""
-":guilabel:`Variants`: shows all possible :doc:`variants "
-"</applications/sales/sales/products_prices/products/variants>` of the "
-"product as a :guilabel:`Products List`; :guilabel:`Options` as selectable "
-"options to compose the variant yourself;"
+":guilabel:`Size`: Set the number of products displayed per page and line."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products.rst:72
+#: ../../content/applications/websites/ecommerce/products.rst:74
 msgid ""
-":guilabel:`Cart`: :guilabel:`Buy Now` adds a :ref:`checkout button "
-"<cart/buy-now>` taking the customer directly to the checkout page; "
-":guilabel:`Wishlist` allows to add the product to a wishlist;"
+":guilabel:`Style`: Select :guilabel:`Default`, :guilabel:`Cards`, "
+":guilabel:`Thumbnails`, or :guilabel:`Grid`."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products.rst:75
+#: ../../content/applications/websites/ecommerce/products.rst:76
 msgid ""
-":guilabel:`Specification`: allows you to select where the "
-":guilabel:`Specifications` section is displayed. This option displays a list"
-" of all variant attributes and values of a product, but only works for "
-"products *with* variants."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/products.rst:80
-msgid ""
-"To allow **wishlists**, the option must be enabled in "
-":menuselection:`Website --> Configuration --> Settings --> Shop - Products`;"
+":guilabel:`Image Size`: Choose the aspect ratio for the product images: "
+":guilabel:`Landscape (4/3)`, :guilabel:`Default (1/1)`, :guilabel:`Portrait "
+"(4/5)`, or :guilabel:`Vertical (2/3)`. You can also adjust the display by "
+"changing the :guilabel:`Fill` options to best fit your design preferences."
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products.rst:82
 msgid ""
-"To access the :guilabel:`Variants` options, the :doc:`Product Variants "
-"<../../sales/sales/products_prices/products/variants>` option must first be "
-"enabled under :menuselection:`Website --> Configuration --> Settings --> "
-"Shop - Products`."
+":guilabel:`Search Bar`: Toggle the switch to display a search bar at the top"
+" of the products"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:82
+msgid "page."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:84
+msgid ""
+":guilabel:`Prod. Desc.`: Toggle the switch to display the product "
+"description below the product's name."
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products.rst:87
-msgid "Layout"
-msgstr "格式"
-
-#: ../../content/applications/websites/ecommerce/products.rst:89
 msgid ""
-"Within the same :guilabel:`Customize` tab as the :ref:`functions <ecommerce-"
-"functions>`, the layout configuration can be changed according to your "
-"needs."
+":guilabel:`Categories`: display product categories on the :guilabel:`Left`, "
+"on the :guilabel:`Top`, or both. If :guilabel:`Left` is selected, you can "
+"enable :guilabel:`Collapse Categories` to make the category menu "
+"collapsible."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products.rst:92
+#: ../../content/applications/websites/ecommerce/products.rst:91
 msgid ""
-":guilabel:`Images Width`: changes the width of the product images displayed "
-"on the page;"
+":guilabel:`Datepicker`: Toggle the switch to display a date range calendar "
+"to check the availability of rental products over a specific period. The "
+":doc:`Rental app <../../sales/rental>` must be installed to use this "
+"feature."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products.rst:93
+#: ../../content/applications/websites/ecommerce/products.rst:95
 msgid ""
-":guilabel:`Layout`: the :guilabel:`Carousel` layout displays a large, main "
-"image with smaller ones underneath; whereas the :guilabel:`Grid` displays "
-"four images in a square layout (see pictures below);"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/products.rst:96
-msgid ""
-":guilabel:`Image Zoom`: choose which image zooms are available, either "
-":guilabel:`Pop-up on Click`, when hovering over the image "
-"(:guilabel:`Magnifier on hover`), on :guilabel:`Both`, or :guilabel:`None`;"
+":guilabel:`Attributes`: Show product attributes on the :guilabel:`Left` "
+"and/or display a :icon:`fa-sliders` (:guilabel:`dropdown toggle`) icon at "
+"the :guilabel:`Top` allowing customers to filter products based on their "
+"attributes."
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products.rst:99
 msgid ""
-":guilabel:`Thumbnails`: decide how the thumbnails should be aligned, either "
-"**vertically** (:guilabel:`Left`), or **horizontally** (:guilabel:`Right`);"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/products.rst:101
-msgid ""
-":guilabel:`Main Image`: click :guilabel:`Replace` to change the product's "
-"main image;"
+":guilabel:`Price Filter`: Toggle the switch to display a :guilabel:`Price "
+"Range` bar, which allows customers to filter products according to a "
+"specific price range by dragging adjustable handles."
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products.rst:102
 msgid ""
-":guilabel:`Extra Images`: click :guilabel:`Add` or :guilabel:`Remove all` to"
-" add or remove extra product images. You can also add images and videos via "
-"**URL**."
+":guilabel:`Product Tags`: Toggle the switch to display the "
+":guilabel:`Product Template Tags` on the product page and allow customers to"
+" filter products using those tags by going to the :guilabel:`Tags` section "
+"in the left column."
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products.rst:106
 msgid ""
-"Images must either be in PNG or JPG format. To trigger the zoom, the image "
-"has to be bigger than 1024x1024."
+":guilabel:`Top Bar`: Select :guilabel:`Sort By` to display a dropdown list "
+"in the top bar for sorting products and/or :guilabel:`Layout` to allow "
+"customers to switch to the grid or list view using the related icons."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products.rst-1
-msgid "Product images layout"
+#: ../../content/applications/websites/ecommerce/products.rst:110
+msgid ""
+":guilabel:`Default Sort`: Choose how products are sorted by default: "
+":guilabel:`Featured`, :guilabel:`Newest Arrivals`, :guilabel:`Name (A-Z)`, "
+":guilabel:`Price - Low to High`, or :guilabel:`Price - High to Low`."
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products.rst:114
-#: ../../content/applications/websites/ecommerce/products/catalog.rst:180
-msgid "Add content"
+msgid ":guilabel:`Buttons`:"
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products.rst:116
 msgid ""
-"You can use **building blocks** (:menuselection:`Edit --> Blocks`) to add "
-"content to your product page. These blocks can be used to add extra text and"
-" picture galleries, features such as :guilabel:`Call to Actions`, "
-":guilabel:`Comparisons`, etc."
+"Select the :icon:`fa-shopping-cart` (:guilabel:`Shopping cart`) option to "
+"display an :icon:`fa-shopping-cart` (:guilabel:`Add to cart`) icon on each "
+"product's image, which takes the customer to the checkout page."
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products.rst:120
 msgid ""
-"Depending on *where* you drop the **building block**, it may be available "
-"either on the product page *only*, or on the *whole* website. **Building "
-"blocks** dropped at the very top or very bottom of the page are available on"
-" the *whole* website, where **building blocks** put underneath the product "
-"description are only displayed on the *product* page *(see image below)*."
+"Select the :icon:`fa-heart-o` (:guilabel:`Wishlist`) option to display an "
+":icon:`fa-shopping-cart` (:guilabel:`Add to wishlist`) icon on each "
+"product's image allowing logged-in customers to save products to a wishlist."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products.rst-1
-msgid "Building blocks on product page"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/products.rst:130
-msgid "Download link"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/products.rst:132
+#: ../../content/applications/websites/ecommerce/products.rst:124
 msgid ""
-"To add a downloadable file (ex.: user's manual, notice of use, etc.) on the "
-"product page, drag and drop a :guilabel:`Text` block from "
-":menuselection:`Edit --> Blocks` on the page. Once placed, click within the "
-":guilabel:`Text` block, and under the :guilabel:`Inline Text` section, "
-"select either :menuselection:`Insert Media --> Documents` or "
-":guilabel:`Insert or edit link` and enter the URL in the :guilabel:`Your "
-"URL` field."
+"Select the :icon:`fa-exchange` (:guilabel:`Compare`) option to display the "
+":icon:`fa-exchange` (:guilabel:`Compare`) icon on each product's image "
+"allowing customers to :ref:`compare products <ecommerce/products/product-"
+"comparison>` based on their attributes."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products.rst:139
+#: ../../content/applications/websites/ecommerce/products.rst:129
 msgid ""
-"The difference with :ref:`digital files <ecommerce-digital-file>` is that "
-"digital files can only be downloaded *after* checkout."
+"To feature a product, go to the :ref:`product form "
+"<ecommerce/products/product-form>` and click the :icon:`fa-star-o` "
+"(:guilabel:`Favorite`) icon next to the product's name."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products.rst-1
-msgid "Media and link buttons"
+#: ../../content/applications/websites/ecommerce/products.rst:135
+msgid "Product page"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products.rst:149
-msgid "Digital files"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/products.rst:151
+#: ../../content/applications/websites/ecommerce/products.rst:137
 msgid ""
-"Should your product be sold with a certificate, manual user, or any other "
-"relevant document, it is possible to add a download link for customers at "
-"the end of the checkout. To do that, first enable :guilabel:`Digital "
-"Content` under :menuselection:`Website --> Configuration --> Settings --> "
-"Shop - Checkout Process`. Then, on the **product's template**, click on "
-":menuselection:`More --> Digital Files` and :guilabel:`Create` a new file."
+"To access a product's page, go to the :guilabel:`Shop` and click on the "
+"product. Click :guilabel:`Edit` to :ref:`customize "
+"<ecommerce/products/customization>` the page or :ref:`edit its images "
+"<ecommerce/products/image-customization>`."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products.rst-1
-msgid "Digital Files menu"
+#: ../../content/applications/websites/ecommerce/products.rst:143
+msgid ""
+"To access the backend **product form**, click the :icon:`fa-cog` "
+":guilabel:`Product` button in the top-right corner of the product page. "
+"Alternatively, navigate to :menuselection:`Website --> eCommerce --> "
+"Products` and select the product. You can configure the product page from "
+"the form by adding :ref:`variants <ecommerce/products/product-variants>`, "
+":ref:`digital documents <ecommerce/products/digital-files>`, or "
+":ref:`translating <ecommerce/products/translation>` content."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:150
+msgid ""
+"Click the :guilabel:`Go to Website` smart button to return to the frontend "
+"product's page."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:155
+#: ../../content/applications/websites/website/configuration/cookies_bar.rst:27
+msgid "Customization"
+msgstr "自訂"
+
+#: ../../content/applications/websites/ecommerce/products.rst:157
+msgid ""
+"To customize a product page, click :guilabel:`Edit` in the upper right "
+"corner of the page. Use the :guilabel:`Blocks` tab to add :doc:`building "
+"blocks <../../websites/website/web_design/building_blocks>`."
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products.rst:161
-msgid "For the configuration:"
+msgid ""
+"When dragging and dropping a building block on the product page, placing it "
+"above or below the top or bottom blue lines makes it visible on all product "
+"pages."
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products.rst:163
-msgid ":guilabel:`Name`: the name of your file;"
+msgid ""
+"You can edit any text on your website by clicking on it while in "
+":guilabel:`Edit` mode."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products.rst:164
+#: ../../content/applications/websites/ecommerce/products.rst:165
 msgid ""
-":guilabel:`Type:` select if it is either a **file** or a **URL**. "
-"Accordingly, you either have a :guilabel:`File Content (base64)` field to "
-"upload your file, or a :guilabel:`URL` field to enter your URL."
+"Go to the :guilabel:`Customize` tab to modify the page layout or add "
+"features:"
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products.rst:167
 msgid ""
-":guilabel:`Website`: the website on which that file is *available*. If you "
-"want it available for *all* websites, leave it empty."
+":guilabel:`Terms and Conditions`: Toggle the switch to display a link to "
+"your :doc:`terms and conditions "
+"<../../finance/accounting/customer_invoices/terms_conditions>` on the "
+"product page."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products.rst:170
+#: ../../content/applications/websites/ecommerce/products.rst:171
+msgid ":guilabel:`Customers`:"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:173
 msgid ""
-"The file is then available after checkout in the :guilabel:`Sales Orders` "
-"section, found on the customer's portal."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/products.rst:174
-msgid "Product configuration"
-msgstr "產品配置"
-
-#: ../../content/applications/websites/ecommerce/products.rst:177
-msgid "Multiple languages"
+":guilabel:`Rating`: Allow logged-in portal users to submit product reviews "
+"by clicking the stars below the product's name and sharing their experience "
+"in the :guilabel:`Customer Reviews` section at the bottom. Reviews are "
+"visible from the product page using the :icon:`fa-plus` (:guilabel:`plus`) "
+"icon next to the :guilabel:`Customer Reviews` heading or from the product "
+"form's chatter. To restrict visibility to internal employees, toggle the "
+":guilabel:`Public` switch next to the review comment."
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products.rst:179
 msgid ""
-"If multiple languages are available on your website and you wish to have the"
-" product's information translated, it is necessary to encode this translated"
-" information in the **product's template**. Fields with multiple languages "
-"available are identifiable by their abbreviation language (ex. :abbr:`EN "
-"(English)`) next to their field."
+":guilabel:`Share`: Add social media and email icon buttons allowing "
+"customers to share the product through those channels."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products.rst-1
-msgid "Field translation"
+#: ../../content/applications/websites/ecommerce/products.rst:182
+msgid ""
+":guilabel:`Select Quantity`: Toggle the switch to allow customers to select "
+"the product quantity they want to purchase."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:185
+msgid ""
+":guilabel:`Tax Indication`: Toggle the switch to indicate if the price is "
+":ref:`VAT included or excluded <ecommerce-price-management-tax-display>`."
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products.rst:188
-msgid "The **eCommerce-related** fields to translate are:"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/products.rst:190
-msgid ":guilabel:`Product name`;"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/products.rst:191
-msgid ":guilabel:`Out-of-Stock Message` (under the :guilabel:`Sales` tab);"
+msgid ""
+":guilabel:`Variants`: Show all possible product :ref:`variants "
+"<ecommerce/products/product-variants>` vertically as a :guilabel:`Products "
+"List` or horizontally as selectable :guilabel:`Options` to compose the "
+"variant yourself."
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products.rst:192
-msgid ":guilabel:`Sales Description` (under the :guilabel:`Sales` tab);"
+msgid ""
+":guilabel:`Product Tags`: Toggle the switch to display the "
+":guilabel:`Product Template Tags` on the product page and allow customers to"
+" filter products using those tags."
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products.rst:195
+msgid ":guilabel:`Cart`:"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:197
 msgid ""
-"Having untranslated content on a web page may be detrimental to the user "
-"experience and :doc:`SEO <../../websites/website/pages/seo>`."
+":guilabel:`Buy Now`: Add a :icon:`fa-bolt` :guilabel:`Buy Now` option to "
+"take the customer to the checkout page."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products.rst:198
+#: ../../content/applications/websites/ecommerce/products.rst:199
 msgid ""
-"To check the language(s) of your website, go to :menuselection:`Website --> "
-"Configuration --> Settings --> Website Info section`."
+":guilabel:`Wishlist`: Add an :icon:`fa-heart-o` :guilabel:`Add to wishlist` "
+"option allowing logged-in customers to save products in a wishlist."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products.rst:202
-msgid ":doc:`../../websites/website/pages/seo`"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/products.rst:207
+#: ../../content/applications/websites/ecommerce/products.rst:201
 msgid ""
-"A product can be set available on either *one* or *all* websites, but it is "
-"not possible to select *some* websites and not others. To define a product's"
-" availability, go to :menuselection:`Website --> eCommerce --> Products`, "
-"select your product, and in the :guilabel:`Sales` tab, click the "
-":guilabel:`Website` you wish the product to be available on. Leave the field"
-" empty for the products to be available on *all* websites."
+":guilabel:`Compare`: Add a :icon:`fa-exchange` :guilabel:`Compare` option, "
+"allowing customers to :ref:`compare products <ecommerce/products/product-"
+"comparison>` based on their attributes."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products.rst:214
-msgid "Stock management"
+#: ../../content/applications/websites/ecommerce/products.rst:204
+msgid ""
+":guilabel:`Specification`: Select :guilabel:`Bottom of Page` to display a "
+"detailed list of the attributes and their values available for the product. "
+"This option only works for products with :ref:`variants "
+"<ecommerce/products/product-variants>` if the :ref:`Product comparison tool "
+"<ecommerce/products/product-comparison>` is enabled in the Website "
+":guilabel:`Settings`."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:211
+msgid ""
+":guilabel:`Variants`, :icon:`fa-heart-o` :guilabel:`Wishlist`, and "
+":icon:`fa-exchange` :guilabel:`Compare` options must be enabled by going to "
+":menuselection:`Website --> Configuration --> Settings`, in the "
+":guilabel:`Shop - Products` section."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:215
+msgid "Enabled functions apply to all product pages."
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products.rst:216
 msgid ""
-"Under the :menuselection:`Website --> Configuration --> Settings --> Shop - "
-"Products`, you can enable and configure inventory management options."
+"Products with single values for their attributes do not generate variants "
+"but are still displayed in the :guilabel:`Product Specifications`."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products.rst:220
-msgid ""
-"To display the stock level on the product page, the :guilabel:`Product Type`"
-" on the **product's form** must be set to :guilabel:`Storable` (only "
-"available when the **Inventory** app is installed)."
+#: ../../content/applications/websites/ecommerce/products.rst:222
+msgid "Product images and videos"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products.rst:225
-msgid "Inventory"
-msgstr "庫存"
-
-#: ../../content/applications/websites/ecommerce/products.rst:227
+#: ../../content/applications/websites/ecommerce/products.rst:224
 msgid ""
-"In the :guilabel:`Inventory Defaults` sub-section, you can select the "
-"eCommerce selling strategy of products:"
+"To add more media items, such as images and videos, navigate to the "
+":ref:`product form <ecommerce/products/product-form>`, then go to the "
+":guilabel:`Sales` tab and click :guilabel:`Add a media` under the "
+":guilabel:`Extra Product Media` section. In the :guilabel:`Create Extra "
+"Product Media` pop-up window, enter the :guilabel:`Image Name`, and add a "
+"video URL or hover your mouse over the :icon:`fa-camera` "
+":guilabel:`(camera)` icon and click the :icon:`fa-pencil` "
+":guilabel:`(pencil)` icon to upload images from your local drive."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products.rst:230
+#: ../../content/applications/websites/ecommerce/products.rst:231
 msgid ""
-":guilabel:`Warehouse`: if you have multiple warehouses, you can define the "
-"warehouse associated to your website. If you have multiple websites, you can"
-" select a different one per website;"
+"To customize the images or videos, go to the ecommerce product page, click "
+":guilabel:`Edit` and select the relevant media. In the :guilabel:`Customize`"
+" tab, use the following features:"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products.rst:232
+#: ../../content/applications/websites/ecommerce/products.rst:234
 msgid ""
-":guilabel:`Out-of-Stock (Continue Selling)`: enabling it allows customers to"
-" continue placing orders even when the product is **out-of-stock**. Leave it"
-"  unchecked to **prevent orders**;"
+":guilabel:`Images Width`: Changes the width of the product images displayed "
+"on the page."
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products.rst:235
 msgid ""
-":guilabel:`Show Available Qty`: enabling it displays the available quantity "
-"left under a specified threshold on the product page. The available quantity"
-" is calculated based on the 'On hand' quantity minus the quantity already "
-"reserved for outgoing transfers."
+":guilabel:`Layout`: The :guilabel:`Carousel` layout allows customers to "
+"navigate from one image to the next using the :icon:`fa-angle-left` "
+"(:guilabel:`left arrow`) or :icon:`fa-angle-right` (:guilabel:`right "
+"arrow`); whereas the :guilabel:`Grid` displays four images in a square "
+"layout."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:238
+msgid ""
+":guilabel:`Image Zoom`: Select the zoom effect for product images: "
+":guilabel:`Magnifier on hover` :guilabel:`Pop-up on Click`, "
+":guilabel:`Both`, or :guilabel:`None`."
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products.rst:240
-msgid ":ref:`Allow only selected customers to buy <cart/prevent-sale>`"
+msgid ""
+":guilabel:`Thumbnails`: Align thumbnails on the :icon:`fa-long-arrow-left` "
+"(:guilabel:`Left`) or at the :icon:`fa-long-arrow-down` "
+"(:guilabel:`Bottom`)."
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products.rst:243
-msgid "Selling as kit"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/products.rst:245
 msgid ""
-"If you are selling non-prepackaged kits (i.e., the kits are made of "
-"individual products), we recommend you read the related documentation to "
-"keep track of your stock."
+":guilabel:`Main Image`: Click :guilabel:`Replace` to change the product's "
+"main image."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products.rst:249
+#: ../../content/applications/websites/ecommerce/products.rst:244
 msgid ""
-":doc:`../../inventory_and_mrp/manufacturing/advanced_configuration/kit_shipping`"
+":guilabel:`Extra Images`: :guilabel:`Add` more extra images or videos "
+"(including via URL) or :guilabel:`Remove all`."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products.rst:252
-msgid "Product comparison"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/products.rst:254
+#: ../../content/applications/websites/ecommerce/products.rst:248
 msgid ""
-"You can enable a **product comparison tool** for your eCommerce by going to "
-":menuselection:`Website --> Configuration --> Settings --> Shop - Products`,"
-" and ticking :guilabel:`Product Comparison Tool`. This tool allows to save "
-"products' **specifications** and compare them against each other on a single"
-" page."
+"Images must be in PNG or JPG format and with a minimum size of 1024x1024 to "
+"trigger the zoom."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:253
+msgid "Product variants"
+msgstr "產品款式變體"
+
+#: ../../content/applications/websites/ecommerce/products.rst:255
+msgid ""
+":doc:`Product variants "
+"<../../sales/sales/products_prices/products/variants>` are different "
+"versions of the same product, such as various colors or materials, with "
+"potential differences in price and availability."
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products.rst:259
-msgid ""
-"On the product page, scroll down to the :guilabel:`Specifications` section "
-"and click :guilabel:`Compare`. Repeat the same process for all products you "
-"wish to compare. Then, click the :guilabel:`Compare` button of the pop-up "
-"window at the bottom of the page to reach the comparison summary."
+msgid "To configure product variants for a product:"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products.rst:265
+#: ../../content/applications/websites/ecommerce/products.rst:261
+#: ../../content/applications/websites/website/configuration/multi_website.rst:26
+#: ../../content/applications/websites/website/configuration/multi_website.rst:136
+msgid "Go to :menuselection:`Website --> Configuration --> Settings`."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:262
 msgid ""
-"The :guilabel:`Product Comparison Tool` can only be used if :doc:`attributes"
-" <products/variants>` are set on the **product's template**."
+"Scroll down to the :guilabel:`Shop - Products` section and enable the "
+":guilabel:`Product Variants` feature."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:264
+msgid ""
+"Access the :ref:`product forms <ecommerce/products/product-form>` and go to "
+"the :guilabel:`Attributes & Variants` tab, where you can add attributes and "
+"values, allowing customers to configure and select product variants on the "
+"product page. For multiple attributes, you can combine them to create "
+"specific variants."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:269
+msgid ""
+"To display or hide an attribute on the :guilabel:`Shop` page and allow "
+"visitors to filter them, go to :menuselection:`Website --> eCommerce --> "
+"Attributes`, click on the attribute, and select :guilabel:`Visible` or "
+":guilabel:`Hidden` in the :guilabel:`eCommerce Filter Visibility` field."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:274
+msgid ""
+"To display the product attributes on :ref:`the main Shop page "
+"<ecommerce/products/shop-page>`, set the :guilabel:`Attributes` feature to "
+":guilabel:`Left` using the website editor."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:276
+msgid ""
+"To group attributes under the same section when :ref:`comparing products "
+"<ecommerce/products/product-comparison>`, go to the :guilabel:`eCommerce "
+"Category` field and either select an :doc:`existing category or create a new"
+" one <../../websites/ecommerce/products>`."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:282
+msgid "Two attribute values are needed to make the filter visible."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:285
+msgid ""
+":doc:`Product variants "
+"<../../sales/sales/products_prices/products/variants>`"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:290
+msgid "Digital files"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:292
+msgid ""
+"You can link digital files like certificates, eBooks, or user manuals to the"
+" products. These documents are available :ref:`before payment <ecommerce-"
+"products-digital-files-before-payment>` on the product page or in the "
+"customer portal :ref:`after checkout <ecommerce-products-digital-files-"
+"after-payment>`."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:297
+msgid ""
+"To link a digital file to a product, go to the :ref:`product form "
+"<ecommerce/products/product-form>` and click the :guilabel:`Documents` smart"
+" button. Then, click :guilabel:`Upload` to upload a file directly, or for "
+"additional options, click :guilabel:`New`, then :guilabel:`Upload your "
+"file`."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:302
+msgid ""
+"You can link a URL instead of a digital file. To do so, click "
+":guilabel:`New`, go to the :guilabel:`Type` field, and select "
+":guilabel:`URL`."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:304
+msgid ""
+"To edit an existing file, click the :icon:`fa-ellipsis-v` "
+"(:guilabel:`dropdown menu`) in the top-right corner of the document card and"
+" click :guilabel:`Edit`."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:310
+msgid "Digital files available before payment"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:312
+msgid ""
+"To make the file available on the product page (before payment), leave the "
+":guilabel:`Visibility` field blank and toggle the :guilabel:`Show on product"
+" page` switch."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst-1
+msgid "digital file available before payment on the  product page"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:321
+msgid "Digital files available after payment"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:323
+msgid ""
+"To make the file available (after payment), set the :guilabel:`Visibility` "
+"field to :guilabel:`Confirmed order` and turn off the :guilabel:`Show on "
+"product page` switch."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:329
+msgid "Translation"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:331
+msgid ""
+"If multiple languages are available on your website, you can translate a "
+"product's information directly on the :ref:`product form "
+"<ecommerce/products/product-form>`. Fields that support multiple languages "
+"are identifiable by their abbreviation language (e.g., EN) next to their "
+"field."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:335
+msgid "The eCommerce-related fields to translate are:"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:337
+msgid ":guilabel:`Product name`."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:338
+msgid ":guilabel:`Out-of-Stock Message` (under the :guilabel:`Sales` tab)."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:339
+msgid ":guilabel:`Sales Description` (under the :guilabel:`Sales` tab)."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:342
+msgid ""
+"Having untranslated content on a web page may be detrimental to the user "
+"experience and :doc:`SEO <../../websites/website/pages/seo>`. You can use "
+"the :doc:`Translate <../website/configuration/translate>` feature to "
+"translate the page's content."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:345
+msgid ""
+"To check the language(s) of your website, go to :menuselection:`Website --> "
+"Configuration --> Settings` and go to the :guilabel:`Website Info` section."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:351
+msgid "Website availability"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:353
+msgid ""
+"To set the product's website availability, navigate to the :ref:`product "
+"form <ecommerce/products/product-form>`, go to the :guilabel:`Sales` tab, "
+"and in the :guilabel:`eCommerce shop` section, select the "
+":guilabel:`Website` you wish the product to be available on. Leave the field"
+" blank to make the product available on *all* websites."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:359
+msgid ""
+"You can make a product available on either *one* website or *all* websites, "
+"but selecting only *some* websites is not possible."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:365
+msgid "Stock management"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:367
+msgid ""
+"To enable and configure inventory management options, go to "
+":menuselection:`Website --> Configuration --> Settings`, scroll down to the "
+":guilabel:`Shop - Products` section and the :guilabel:`Inventory Defaults` "
+"sub-section."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:372
+msgid ""
+"The **Inventory** app must be installed to see the inventory management "
+"options."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:373
+msgid ""
+"To display the stock level on the product page, the :guilabel:`Product Type`"
+" field must be set to :guilabel:`Storable` in the :ref:`product form "
+"<ecommerce/products/product-form>`."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:377
+msgid "Inventory"
+msgstr "庫存"
+
+#: ../../content/applications/websites/ecommerce/products.rst:379
+msgid ""
+"In the :guilabel:`Inventory Defaults` sub-section, fill in those fields:"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:381
+msgid ""
+":doc:`Warehouse "
+"<../../inventory_and_mrp/inventory/warehouses_storage/inventory_management/warehouses>`."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:382
+msgid ""
+":guilabel:`Out-of-Stock`: Enable :guilabel:`Continue Selling` to allow "
+"customers to place orders even when the product is **out of stock**. Leave "
+"the box unchecked to **prevent orders**."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:384
+msgid ""
+":guilabel:`Show Available Qty`: Displays the available quantity left under a"
+" specified threshold on the product page. The available quantity is "
+"calculated based on the :guilabel:`On hand` quantity minus the quantity "
+"already reserved for outgoing transfers."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:391
+msgid "Product comparison"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:393
+msgid ""
+"To allow website visitors to compare products based on their attributes, go "
+"to :menuselection:`Website --> Configuration --> Settings`, scroll down to "
+"the :guilabel:`Shop - Products` section, and enable :guilabel:`Product "
+"Comparison Tool`."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:397
+msgid ""
+"The :icon:`fa-exchange` (:guilabel:`Compare`) icon is now available on each "
+"product card on the main shop page when customers hover their mouse over it."
+" To compare products, customers can click the :icon:`fa-exchange` "
+"(:guilabel:`Compare`) option on the products they want to compare, then "
+"click :icon:`fa-exchange` :guilabel:`Compare` in the pop-up window at the "
+"bottom of the page to reach the comparison summary."
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products.rst-1
 msgid "Product comparison window"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:407
+msgid ""
+"The :guilabel:`Product Comparison Tool` is only available for products with "
+":ref:`attributes <ecommerce/products/product-variants>`."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products.rst:409
+msgid ""
+"Selecting the :icon:`fa-exchange` (:guilabel:`Compare`) option from a "
+"product page is also possible."
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products/catalog.rst:3
@@ -1987,7 +2007,6 @@ msgid "Categories options for your eCommerce website"
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products/catalog.rst:38
-#: ../../content/applications/websites/ecommerce/products/variants.rst:14
 msgid ":doc:`../products`"
 msgstr ":doc:`../products`"
 
@@ -2017,7 +2036,6 @@ msgid ""
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products/catalog.rst:58
-#: ../../content/applications/websites/ecommerce/products/variants.rst:15
 msgid ":doc:`../../../sales/sales/products_prices/products/variants`"
 msgstr ":doc:`../../../sales/sales/products_prices/products/variants`"
 
@@ -2096,6 +2114,10 @@ msgid ""
 "products in :menuselection:`Website --> eCommerce --> Products` and drag-"
 "and-dropping the products within the list."
 msgstr ""
+"此外，您還可以 **手動編輯** 產品的目錄順序，方法是進入 **商店主頁面** 並按一下產品。在 :guilabel:`自訂` 部份的 "
+":guilabel:`產品` 欄下，您可按下箭頭，重新排列順序。`<<` `>>` 將產品移向 **最右** 或 **最左** ，`<` `>` "
+"將產品向右或向左移動 **一行**。你還可以在 :menuselection:`網站製作 --> 電子商務 --> 產品` "
+"中，更改產品目錄的順序，並在列表中拖放產品去編輯。"
 
 #: ../../content/applications/websites/ecommerce/products/catalog.rst-1
 msgid "Product rearrangement in the catalog"
@@ -2141,7 +2163,7 @@ msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products/catalog.rst:131
 msgid "Product highlight"
-msgstr ""
+msgstr "產品亮點"
 
 #: ../../content/applications/websites/ecommerce/products/catalog.rst:133
 msgid ""
@@ -2204,7 +2226,7 @@ msgstr ""
 #: ../../content/applications/websites/ecommerce/products/catalog.rst:165
 msgid ""
 ":guilabel:`Add to Cart`: adds a button to :doc:`add the product to the cart "
-"<../checkout_payment_shipping/cart>`;"
+"<../cart>`;"
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products/catalog.rst:167
@@ -2224,6 +2246,10 @@ msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products/catalog.rst-1
 msgid "Appearance of buttons when hoovering over the mouse"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products/catalog.rst:180
+msgid "Add content"
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products/catalog.rst:182
@@ -2264,139 +2290,106 @@ msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products/cross_upselling.rst:5
 msgid ""
-"Any sales process is an opportunity to maximize revenues. **Cross-selling "
-"and upselling** are sales techniques consisting in selling customers "
-"additional or more expensive products and services than what they were "
-"originally shopping for. It is a great way to maximize the value of each one"
-" of your customers."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/products/cross_upselling.rst:10
-msgid "**Cross-selling** can be done via **two** features:"
+":ref:`Cross-selling <ecommerce/cross_selling>` and :ref:`upselling "
+"<ecommerce/cross_upselling/alternative>` are sales techniques designed to "
+"encourage customers to purchase additional or higher-priced products and "
+"services from your :doc:`catalog`."
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products/cross_upselling.rst:12
-msgid ""
-":ref:`Optional products <cross_upselling/optional>` upon **adding to cart**;"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/products/cross_upselling.rst:13
-msgid ""
-":ref:`Accessory products <cross_upselling/accessory>` on the **checkout "
-"page**."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/products/cross_upselling.rst:15
-msgid ""
-"**Upselling** is only done via :ref:`alternative products "
-"<cross_upselling/alternative>` on the **product page**."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/products/cross_upselling.rst:19
-msgid ":doc:`catalog`"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/products/cross_upselling.rst:22
 msgid "Cross-selling"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products/cross_upselling.rst:27
+#: ../../content/applications/websites/ecommerce/products/cross_upselling.rst:14
+msgid ""
+"Cross-selling can be achieved by suggesting :ref:`optional products "
+"<ecommerce/cross_upselling/optional>` when items are added to the cart or by"
+" recommending :ref:`accessory products "
+"<ecommerce/cross_upselling/accessory>` on the checkout page."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products/cross_upselling.rst:21
 msgid "Optional products"
 msgstr "可選產品"
 
-#: ../../content/applications/websites/ecommerce/products/cross_upselling.rst:29
+#: ../../content/applications/websites/ecommerce/products/cross_upselling.rst:23
 msgid ""
-"**Optional products** are suggested when customers click :guilabel:`Add to "
-"cart`, either from the **product page** or **catalog page**. Upon clicking, "
-"a pop-up window opens with the **optional products** displayed in the "
-":guilabel:`Available Options` section."
+"**Optional products** are suggested when the customer selects a product and "
+"clicks :guilabel:`Add to cart`."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products/cross_upselling.rst:26
+msgid ""
+"To enable **optional products**, go to :menuselection:`Website --> eCommerce"
+" --> Products`, select a product, go to the :guilabel:`Sales` tab, and enter"
+" the products you wish to feature in the :guilabel:`Optional Products` "
+"field."
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products/cross_upselling.rst-1
 msgid "Optional products cross-selling"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products/cross_upselling.rst:37
-msgid ""
-"To enable **optional products** go to :menuselection:`Website --> eCommerce "
-"--> Products`, select a product, go to the :guilabel:`Sales` tab, and enter "
-"the products you wish to feature in the :guilabel:`Optional Products` field."
-" Optional products are **linked** to the product(s) they are set up with on "
-"the **product template**. They only appear when that product is added to the"
-" cart."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/products/cross_upselling.rst:43
-msgid ""
-"You can also access the :guilabel:`Sales` tab of the **product template** by"
-" selecting a product on your **main shop page** and clicking "
-":guilabel:`Product` in the top-right corner."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/products/cross_upselling.rst:49
+#: ../../content/applications/websites/ecommerce/products/cross_upselling.rst:36
 msgid "Accessory products"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products/cross_upselling.rst:51
+#: ../../content/applications/websites/ecommerce/products/cross_upselling.rst:38
 msgid ""
-"**Accessory products** are displayed in the :guilabel:`Suggested "
-"Accessories` section before processing to checkout at the :guilabel:`Review "
-"Order` step."
+"**Accessory products** are showcased in the :guilabel:`Suggested "
+"Accessories` section during the :guilabel:`Review Order` step, just before "
+"proceeding to checkout."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products/cross_upselling.rst:41
+msgid ""
+"To enable **accessory products**, go to :menuselection:`Website --> "
+"eCommerce --> Products`, select a product, go to the :guilabel:`Sales` tab, "
+"and enter the products you wish to feature in the :guilabel:`Accessory "
+"Products` field."
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products/cross_upselling.rst-1
 msgid "Suggested accessories at checkout during cart review"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products/cross_upselling.rst:58
-msgid ""
-"To enable **accessory products**, go to :menuselection:`Website --> "
-"eCommerce --> Products`, select a product, go to the :guilabel:`Sales` tab, "
-"and enter the products you wish to feature in the :guilabel:`Accessory "
-"Products` field. Suggested accessory products are **linked** to the "
-"product(s) they are set up with on the **product template**. They only "
-"appear when that product is at the checkout process review."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/products/cross_upselling.rst:65
+#: ../../content/applications/websites/ecommerce/products/cross_upselling.rst:51
 msgid "Upselling"
 msgstr "超售"
 
-#: ../../content/applications/websites/ecommerce/products/cross_upselling.rst:70
-msgid "Alternative products"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/products/cross_upselling.rst:72
+#: ../../content/applications/websites/ecommerce/products/cross_upselling.rst:53
 msgid ""
-"**Alternative products** are suggested on the **product page** and usually "
-"incentivize customers to buy a more expensive variant or product than the "
-"one they were initially shopping for."
+"You can display **alternative products** at the bottom of the product page "
+"as an upselling technique, encouraging customers to consider a more "
+"expensive variant or product than their initial choice by presenting "
+"appealing alternatives."
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products/cross_upselling.rst-1
 msgid "Alternative products on the product page"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products/cross_upselling.rst:79
+#: ../../content/applications/websites/ecommerce/products/cross_upselling.rst:60
 msgid ""
-"To enable **alternative products**, go to :menuselection:`Website --> "
-"eCommerce --> Products`, select a product, go to the :guilabel:`Sales` tab, "
-"and enter the products you wish to feature in the :guilabel:`Alternative "
-"Products` field. Then, go to the related **product page** by clicking "
-":guilabel:`Go To Website`, and click :menuselection:`Edit`. Stay on the "
-":guilabel:`Blocks` tab, and scroll down to the :guilabel:`Dynamic Content` "
-"section. Then, drag and drop the :guilabel:`Products` building block "
-"anywhere on the **product page**."
+"To enable alternative products, navigate to :menuselection:`Website --> "
+"eCommerce --> Products`, select the desired product, and go to the "
+":guilabel:`Sales` tab. In the :guilabel:`Alternative Products` field, add "
+"the products you want to feature."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products/cross_upselling.rst:86
+#: ../../content/applications/websites/ecommerce/products/cross_upselling.rst:64
 msgid ""
-"When placed, in :guilabel:`Edit` mode, click the **block** to access various"
-" settings for that :guilabel:`Products` building block. In the "
-":guilabel:`Filter` field, select :guilabel:`Alternative Products`. You can "
-"configure several additional settings, such as how many elements are "
-"displayed (:guilabel:`Fetched Elements`), the :guilabel:`Template` used, "
-"etc."
+"Click :guilabel:`Go to Website` to view the alternative products displayed "
+"at the bottom of the product page."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/products/cross_upselling.rst:67
+msgid ""
+"To adjust the settings, click :guilabel:`Edit` and select the related "
+":doc:`building block <../../website/web_design/building_blocks>`. In the "
+":guilabel:`Customize` tab, scroll to the :guilabel:`Alternative Products` "
+"section and modify the settings as needed to tailor the display to your "
+"preferences."
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products/price_management.rst:3
@@ -2411,7 +2404,7 @@ msgstr ""
 
 #: ../../content/applications/websites/ecommerce/products/price_management.rst:9
 msgid "Taxes"
-msgstr "稅金"
+msgstr "稅項"
 
 #: ../../content/applications/websites/ecommerce/products/price_management.rst:12
 msgid "Tax configuration"
@@ -2437,11 +2430,11 @@ msgstr ""
 msgid ":doc:`/applications/finance/accounting/taxes/fiscal_positions`"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products/price_management.rst:24
+#: ../../content/applications/websites/ecommerce/products/price_management.rst:26
 msgid "Tax display"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products/price_management.rst:26
+#: ../../content/applications/websites/ecommerce/products/price_management.rst:28
 msgid ""
 "Choosing the displayed price tax usually depends on a country's regulations "
 "or the type of customers **(B2B vs. B2C)**. To select the type of price "
@@ -2450,19 +2443,19 @@ msgid ""
 ":guilabel:`Tax Excluded` or :guilabel:`Tax Included`."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products/price_management.rst:31
+#: ../../content/applications/websites/ecommerce/products/price_management.rst:33
 msgid ""
 ":guilabel:`Tax Excluded`: the price displayed on the website is **tax-"
 "excluded**, and the tax is computed at the cart-review step;"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products/price_management.rst:33
+#: ../../content/applications/websites/ecommerce/products/price_management.rst:35
 msgid ""
 ":guilabel:`Tax Included`: the price displayed on the website is **tax-"
 "included**."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products/price_management.rst:36
+#: ../../content/applications/websites/ecommerce/products/price_management.rst:38
 msgid ""
 "This setting is **global**, and the tax-display type is the same for (all "
 "of) your website(s). It is, therefore, not possible to select different tax "
@@ -2471,7 +2464,7 @@ msgid ""
 "aimed at varying customer types (i.e., B2B and B2C)."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products/price_management.rst:41
+#: ../../content/applications/websites/ecommerce/products/price_management.rst:43
 msgid ""
 "You can choose to display the type of pricing next to the product price by "
 "going to :menuselection:`Website --> Site --> Homepage --> Shop`, selecting "
@@ -2483,15 +2476,15 @@ msgstr ""
 msgid "Tax type displayed on the product page"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products/price_management.rst:50
+#: ../../content/applications/websites/ecommerce/products/price_management.rst:52
 msgid ":doc:`/applications/finance/accounting/taxes/B2B_B2C`"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products/price_management.rst:53
+#: ../../content/applications/websites/ecommerce/products/price_management.rst:55
 msgid "Price per unit"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products/price_management.rst:55
+#: ../../content/applications/websites/ecommerce/products/price_management.rst:57
 msgid ""
 "It is possible to display a :doc:`price per unit "
 "<../../../inventory_and_mrp/inventory/product_management/configure/uom>` on "
@@ -2506,7 +2499,7 @@ msgstr ""
 msgid "Cost per unit pricing on the product template"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products/price_management.rst:66
+#: ../../content/applications/websites/ecommerce/products/price_management.rst:68
 msgid ""
 "The price per unit of measure can be found above the :guilabel:`Add to Cart`"
 " button on the product page."
@@ -2516,22 +2509,22 @@ msgstr ""
 msgid "Cost per unit pricing on the product page"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products/price_management.rst:74
+#: ../../content/applications/websites/ecommerce/products/price_management.rst:76
 msgid ""
 "Pay attention that having the price per unit may be **mandatory** in some "
 "countries."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products/price_management.rst:77
+#: ../../content/applications/websites/ecommerce/products/price_management.rst:79
 msgid ""
 ":doc:`../../../inventory_and_mrp/inventory/product_management/configure/uom`"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products/price_management.rst:82
+#: ../../content/applications/websites/ecommerce/products/price_management.rst:84
 msgid "Price configuration: pricelists"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products/price_management.rst:84
+#: ../../content/applications/websites/ecommerce/products/price_management.rst:86
 msgid ""
 "Pricelists are the primary tool to manage prices on your eCommerce. They "
 "allow you to define website-specific prices - different from the price on "
@@ -2542,12 +2535,12 @@ msgid ""
 "the **Public Pricelist** for all websites."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products/price_management.rst:91
-#: ../../content/applications/websites/ecommerce/products/price_management.rst:119
+#: ../../content/applications/websites/ecommerce/products/price_management.rst:93
+#: ../../content/applications/websites/ecommerce/products/price_management.rst:121
 msgid ":doc:`/applications/sales/sales/products_prices/prices/pricing`"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products/price_management.rst:96
+#: ../../content/applications/websites/ecommerce/products/price_management.rst:98
 msgid ""
 "Pricelists can be found under :menuselection:`Website --> eCommerce --> "
 "Pricelists`, but must first be activated. For that, head to "
@@ -2555,15 +2548,15 @@ msgid ""
 "the :guilabel:`Shop - Products` section. There, you can find two options:"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products/price_management.rst:100
+#: ../../content/applications/websites/ecommerce/products/price_management.rst:102
 msgid ":guilabel:`Multiple prices per product`;"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products/price_management.rst:101
+#: ../../content/applications/websites/ecommerce/products/price_management.rst:103
 msgid ":guilabel:`Advanced price rules (discounts, formulas)`."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products/price_management.rst:103
+#: ../../content/applications/websites/ecommerce/products/price_management.rst:105
 msgid ""
 "The **first** option allows you to set different prices per customer "
 "*segment*, i.e., registered customers, gold customers, regular customers, "
@@ -2571,11 +2564,11 @@ msgid ""
 "**discounts**, **margins**, **roundings**, etc."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products/price_management.rst:108
+#: ../../content/applications/websites/ecommerce/products/price_management.rst:110
 msgid "Foreign currency"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products/price_management.rst:110
+#: ../../content/applications/websites/ecommerce/products/price_management.rst:112
 msgid ""
 "If you are selling in **multiple currencies** and have pricelists in foreign"
 " currencies, customers can select their corresponding pricelist anywhere on "
@@ -2587,15 +2580,15 @@ msgstr ""
 msgid "Pricelists selection"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products/price_management.rst:120
+#: ../../content/applications/websites/ecommerce/products/price_management.rst:122
 msgid ":doc:`/applications/sales/sales/products_prices/prices/currencies`"
 msgstr ":doc:`/applications/sales/sales/products_prices/prices/currencies`"
 
-#: ../../content/applications/websites/ecommerce/products/price_management.rst:123
+#: ../../content/applications/websites/ecommerce/products/price_management.rst:125
 msgid "Permanent discount"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products/price_management.rst:125
+#: ../../content/applications/websites/ecommerce/products/price_management.rst:127
 msgid ""
 "If you have permanently reduced the price of a product, a popular means to "
 "attract customers is the **strikethrough** strategy. The strategy consists "
@@ -2607,7 +2600,7 @@ msgstr ""
 msgid "Price strikethrough"
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products/price_management.rst:133
+#: ../../content/applications/websites/ecommerce/products/price_management.rst:135
 msgid ""
 "To display a 'striked' price, enable the :guilabel:`Comparison Price` option"
 " under :menuselection:`Website --> Configuration --> Settings --> Shop - "
@@ -2616,162 +2609,188 @@ msgid ""
 ":guilabel:`Compare to Price` field, enter the **new** price."
 msgstr ""
 
-#: ../../content/applications/websites/ecommerce/products/variants.rst:3
-msgid "Product variants"
-msgstr "產品款式變體"
+#: ../../content/applications/websites/ecommerce/shipping.rst:3
+msgid "Shipping"
+msgstr "送貨"
 
-#: ../../content/applications/websites/ecommerce/products/variants.rst:5
+#: ../../content/applications/websites/ecommerce/shipping.rst:5
 msgid ""
-"Product variants are variations, such as different colors, materials, etc., "
-"of the same product. These variations can differ in price and availability "
-"from the product. Product variants can either be :doc:`created "
-"<../../../sales/sales/products_prices/products/variants>` or :doc:`imported "
-"<../../../sales/sales/products_prices/products/import>`."
+"Odoo eCommerce allows you to configure various shipping methods, enabling "
+"customers to choose their preferred option at checkout. These methods "
+"include :ref:`external providers <ecommerce/shipping/external-provider>`, "
+":ref:`custom options <ecommerce/shipping/custom-method>` such as flat-rate "
+"or free shipping, local carriers via :doc:`Sendcloud "
+"</applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/sendcloud_shipping>`"
+" or :ref:`Based on Rules <inventory/shipping/rules>`, and :ref:`in-store "
+"pickup <ecommerce/shipping/instore-pickup>`."
 msgstr ""
-"產品「變體」（variant）是指同一型號產品的不同顏色、不同材質等變化種類。這些變化可能會影響產品的價格及庫存水平。在 Odoo，產品變體是可以 "
-":doc:`建立 <../../../sales/sales/products_prices/products/variants>` 或 "
-":doc:`匯入 <../../../sales/sales/products_prices/products/import>` 的。"
 
-#: ../../content/applications/websites/ecommerce/products/variants.rst:10
-msgid ""
-"To use product variants, enable them under :menuselection:`Website --> "
-"Configuration --> Settings`, in the :guilabel:`Shop - Products` section."
+#: ../../content/applications/websites/ecommerce/shipping.rst:16
+msgid "External provider integration"
 msgstr ""
-"若要使用產品變體，請前往 :menuselection:`網站製作 --> 配置 --> 設定`，在 :guilabel:`商店 - 產品` "
-"部份下啟用此功能。"
 
-#: ../../content/applications/websites/ecommerce/products/variants.rst:16
-msgid ":doc:`../../../sales/sales/products_prices/products/import`"
-msgstr ":doc:`../../../sales/sales/products_prices/products/import`"
-
-#: ../../content/applications/websites/ecommerce/products/variants.rst:19
-msgid "Product configurator"
-msgstr "產品配置器"
-
-#: ../../content/applications/websites/ecommerce/products/variants.rst:21
+#: ../../content/applications/websites/ecommerce/shipping.rst:18
 msgid ""
-"Adding attributes and values to a product template allows the enabling of "
-"the **product configurator** on the product page. Customers use it to "
-"configure and select the product variant of their choice; or in the case of "
-"multiple attributes, combine those to create a specific variant."
+"To handle product delivery, you can connect your database to :doc:`third-"
+"party shipping carriers "
+"</applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/third_party_shipper>`"
+" like :doc:`FedEx "
+"</applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/fedex>`,"
+" :doc:`UPS "
+"</applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/ups_credentials>`,"
+" or :doc:`DHL "
+"</applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dhl_credentials>`."
+" A shipping connector links to these providers, automating :doc:`tracking "
+"labels "
+"</applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/labels>`"
+" and shipping processes."
 msgstr ""
-"將屬性及屬性值新增至產品範本後，可以在產品頁面上啟用 **產品配置器** "
-"。客戶可使用它去配置和選擇自己想要的產品變體；或者，在有多個屬性的情況下，將這些屬性組合起來，創建一個獨特的變體。"
 
-#: ../../content/applications/websites/ecommerce/products/variants.rst-1
-msgid "Variants configurator"
-msgstr "變體配置器"
-
-#: ../../content/applications/websites/ecommerce/products/variants.rst:29
+#: ../../content/applications/websites/ecommerce/shipping.rst:27
 msgid ""
-"The **display type** of each attribute used in the product configurator can "
-"be edited through the **website builder** by clicking :menuselection:`Edit "
-"--> Customize` on the product page, and then clicking on one of the "
-"attributes. You can then select between four options:"
+"To enable a third-party shipping provider, go to :menuselection:`Website -->"
+" Configuration --> Settings`, scroll to the :guilabel:`Shipping` section, "
+"select the desired shipping provider(s), and :guilabel:`Save`."
 msgstr ""
-"產品配置器中所使用的每個屬性，其 **顯示類型** 都可透過 **網站製作工具** 編輯。方法是在產品頁面上按一下 :menuselection:`編輯"
-" --> 自訂`，然後按一下其中一個屬性。之後，你可選擇以下四個選項的其中之一："
 
-#: ../../content/applications/websites/ecommerce/products/variants.rst:33
-msgid ":guilabel:`Radio`"
-msgstr ":guilabel:`單選圓鈕`"
-
-#: ../../content/applications/websites/ecommerce/products/variants.rst:34
-msgid ":guilabel:`Pills`"
-msgstr ":guilabel:`藥丸`"
-
-#: ../../content/applications/websites/ecommerce/products/variants.rst:35
-msgid ":guilabel:`Select`"
-msgstr ":guilabel:`選單`"
-
-#: ../../content/applications/websites/ecommerce/products/variants.rst:36
-msgid ":guilabel:`Color`"
-msgstr ":guilabel:`顏色`"
-
-#: ../../content/applications/websites/ecommerce/products/variants.rst-1
-msgid "Display type options for attributes"
-msgstr "屬性的顯示類型選項"
-
-#: ../../content/applications/websites/ecommerce/products/variants.rst:44
+#: ../../content/applications/websites/ecommerce/shipping.rst:31
 msgid ""
-"Alternatively, the **display type** can be edited through "
-":menuselection:`Website --> eCommerce --> Attributes`, selecting an "
-"**attribute**, and then choosing a :guilabel:`Display Type`; or through the "
-"**product template** by going to :menuselection:`eCommerce --> Products`, "
-"selecting a product, and then clicking :guilabel:`Attributes and Variants`."
+"Go to :menuselection:`Website --> Configuration --> Shipping Methods` and "
+"select the shipping method in the list to :ref:`configure it "
+"<inventory/shipping_receiving/configure-delivery-method>`."
 msgstr ""
-"或者，你可以透過 :menuselection:`網站製作 --> 電子商務 --> 屬性`，編輯 **顯示類型** ：首先選擇 **屬性** "
-"，然後選擇 :guilabel:`顯示類型`。你也可使用 **產品範本** 執行此操作，首先前往 :menuselection:`電子商務 --> "
-"產品`，選擇需要的產品，然後按一下 :guilabel:`屬性及變體`。"
 
-#: ../../content/applications/websites/ecommerce/products/variants.rst:50
+#: ../../content/applications/websites/ecommerce/shipping.rst:35
 msgid ""
-"Specific combinations of values can be excluded from the product "
-"configurator. This way, customers are unable to select the excluded "
-"combination of values. To do so, go to :menuselection:`Website --> eCommerce"
-" --> Products`, select a product, and go to :guilabel:`Attributes and "
-"Variants`. Then, click on an **attribute**, select a **value**, and in the "
-":guilabel:`Exclude for` section, select a :guilabel:`Product Template` and "
-"the :guilabel:`Attribute Values` to exclude."
+":doc:`Third-party shipping carriers "
+"</applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/third_party_shipper>`"
 msgstr ""
-"你可透過產品配置器，排除某些屬性值組合，使客戶無法選擇已排除的屬性值組合。要執行此操作，請前往 :menuselection:`網站製作 --> "
-"電子商務 --> 產品`，選擇一項產品，然後前往 :guilabel:`屬性及變體`。之後，按一下 **屬性** ，選擇一個 **值** ，然後在 "
-":guilabel:`排除情況` 部份中，選擇要排除的 :guilabel:`產品範本` 及 :guilabel:`屬性值`。"
 
-#: ../../content/applications/websites/ecommerce/products/variants.rst:58
-msgid "Product specifications"
-msgstr "產品規格清單"
-
-#: ../../content/applications/websites/ecommerce/products/variants.rst:60
+#: ../../content/applications/websites/ecommerce/shipping.rst:39
 msgid ""
-"Values used for each attribute are displayed as a **specification list** at "
-"the bottom of the product page. To be visible, the **specification list** "
-"must first be enabled on the product page by going to :menuselection:`Edit "
-"--> Customize` and selecting a placement for the field "
-":guilabel:`Specification`."
+"The field used to define additional fees **must** be filled **in your third-"
+"party shipping provider account**, even if you do not plan to charge "
+"customers any additional fee. If you do not want to apply a fee, enter `0`. "
+"If the field is left empty, the delivery price cannot be calculated, and an "
+"error message prompts the customer to select an alternative shipping method."
 msgstr ""
-"每種屬性使用的值，會在產品頁面底部，以 **規格清單** 形式顯示。要顯示此資料，必須先啟用在產品頁面使用 **規格清單** ，方法是前往 "
-":menuselection:`編輯 --> 自訂`，並為 :guilabel:`規格` 欄位選擇一個擺放位置。"
 
-#: ../../content/applications/websites/ecommerce/products/variants.rst-1
-msgid "Specifications list on the product page"
-msgstr "產品頁面上的規格清單"
-
-#: ../../content/applications/websites/ecommerce/products/variants.rst:70
-msgid ""
-"The product **specification list** can also be used on products without "
-"variants. For that, make sure to have no values combination. Products with "
-"single values for their attributes do not generate variants."
-msgstr "產品 **規格清單** 也可用於沒有變體的產品。為此，請確保沒有屬性值組合。屬性只有單一屬性值的產品，不會產生變體。"
-
-#: ../../content/applications/websites/ecommerce/products/variants.rst:75
-msgid "Filter catalog by attributes"
-msgstr "按屬性篩選產品目錄"
-
-#: ../../content/applications/websites/ecommerce/products/variants.rst:77
-msgid ""
-"Customers **can** filter the **catalog** based on product attributes and "
-"values, allowing them to :ref:`filter <ecommerce-browsing>` the catalog "
-"based only on the attribute(s) of their choice."
+#: ../../content/applications/websites/ecommerce/shipping.rst:45
+msgid "Margin on delivery rate"
 msgstr ""
-"客戶 **可以** 根據產品屬性及屬性值，篩選 **產品目錄** 的資料，讓他們只根據自己選擇的屬性，:ref:`篩選 <ecommerce-"
-"browsing>` 及查看產品目錄。"
 
-#: ../../content/applications/websites/ecommerce/products/variants.rst:80
+#: ../../content/applications/websites/ecommerce/shipping.rst:47
 msgid ""
-"To enable **attributes filtering**, go to :menuselection:`Edit --> "
-"Customize` from your **main shop page** and click on one of the "
-":guilabel:`Categories` in the left column. Here, enable either "
-":guilabel:`Left`, :guilabel:`Top`, or **both**, in the "
-":guilabel:`Attributes` field."
+"To add an additional fee to the base shipping rate (e.g., to cover extra "
+"costs), log into your carrier account and set the desired fee in the related"
+" field. The shipping connector retrieves this fee and includes it in the "
+"final price at checkout. Contact your carrier for further assistance with "
+"this configuration."
 msgstr ""
-"要啟用 **屬性篩選** ，請在 **商店主頁面** 前往 :menuselection:`編輯 --> 自訂`，然後按一下左邊欄中的其中一個 "
-":guilabel:`類別`。在此處，請在 :guilabel:`屬性` 欄位啟用 :guilabel:`左`、:guilabel:`上` 或 "
-"**兩者** 皆啟用。"
 
-#: ../../content/applications/websites/ecommerce/products/variants.rst-1
-msgid "Categories buttons"
-msgstr "類別按鈕"
+#: ../../content/applications/websites/ecommerce/shipping.rst:52
+msgid ""
+"Alternatively, enter `0` in your third-party shipping provider account, then"
+" set the fee in Odoo. To do so, access the desired :ref:`shipping method's "
+"form <inventory/shipping_receiving/configure-delivery-method>` and enter the"
+" fee in the :guilabel:`Margin on Rate` field to add a percentage to the "
+"shipping costs and/or the :guilabel:`Additional margin` field to add a fixed"
+" amount."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/shipping.rst:59
+msgid ""
+"The field used to define additional fees cannot be left empty in your third-"
+"party shipping provider account."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/shipping.rst:65
+msgid "Custom shipping method"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/shipping.rst:67
+msgid "Custom shipping methods must be created, for example:"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/shipping.rst:69
+msgid ""
+"to integrate shipping carriers through :doc:`Sendcloud "
+"</applications/inventory_and_mrp/inventory/shipping_receiving/setup_configuration/sendcloud_shipping>`;"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/shipping.rst:71
+msgid ""
+"to configure specific rules (e.g., to offer free shipping for orders above a"
+" specific amount) for a specific provider;"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/shipping.rst:73
+msgid ""
+"to configure :ref:`Fixed Price <inventory/shipping/fixed>` shipping or "
+"shipping :ref:`Based on Rules <inventory/shipping/rules>`."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/shipping.rst:76
+msgid ""
+"To create a custom shipping method, go to :menuselection:`Website --> "
+"Configuration --> Shipping Methods`, click :guilabel:`New` and fill in the "
+":ref:`fields <inventory/shipping_receiving/shipping-methods-details>`."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/shipping.rst:80
+msgid ""
+"In the :guilabel:`Provider` field, select :ref:`Based on Rules "
+"<inventory/shipping/rules>`, :ref:`Fixed Price <inventory/shipping/fixed>`, "
+"or :ref:`Pickup in store <inventory/shipping/pickup>` if the shiping method "
+"does not involve any specific provider."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/shipping.rst:85
+msgid ""
+"Upon :ref:`configuring <inventory/shipping_receiving/configure-delivery-"
+"method>` a shipping method, you can:"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/shipping.rst:88
+msgid ""
+"restrict it :doc:`to a specific website "
+"<../website/configuration/multi_website>` by selecting it in "
+":guilabel:`Website` field;"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/shipping.rst:90
+msgid ""
+"use the :guilabel:`Destination availability` tab to filter the delivery "
+"carriers displayed based on the customer's area;"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/shipping.rst:92
+msgid ""
+"click the :guilabel:`Test Environment` smart button to switch to the "
+":guilabel:`Production Environment`, then click :guilabel:`Unpublished` to "
+":guilabel:`Publish` the shipping method and make it available to website "
+"visitors."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/shipping.rst:99
+msgid "In-store pickup"
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/shipping.rst:101
+msgid ""
+"To allow customers to reserve products online and pay for/collect them in "
+"person at the store, go to :menuselection:`Website --> Configuration --> "
+"Settings`, scroll to the :guilabel:`Shipping` section, enable :guilabel:`On "
+"Site Payments & Picking`, and :guilabel:`Save`."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/shipping.rst:105
+msgid ""
+"Then, click :guilabel:`Customize Pickup Sites`, select the shipping method "
+"or click :guilabel:`New` to create a new one and :ref:`configure "
+"<inventory/shipping_receiving/configure-delivery-method>` the fields. Make "
+"sure the :guilabel:`Provider` field is set to :guilabel:`Pickup in store`."
+msgstr ""
 
 #: ../../content/applications/websites/elearning.rst:3
 msgid "eLearning"
@@ -6576,10 +6595,6 @@ msgid ""
 "automatically created when you enable the cookies bar."
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/cookies_bar.rst:27
-msgid "Customization"
-msgstr ""
-
 #: ../../content/applications/websites/website/configuration/cookies_bar.rst:29
 msgid ""
 "To adapt the display of the cookies bar, click :guilabel:`Edit`, go to the "
@@ -6915,7 +6930,7 @@ msgid ""
 msgstr ""
 
 #: ../../content/applications/websites/website/configuration/domain_names.rst:157
-#: ../../content/applications/websites/website/configuration/domain_names.rst:212
+#: ../../content/applications/websites/website/configuration/domain_names.rst:273
 msgid "Odoo Online"
 msgstr "Odoo Online"
 
@@ -6926,7 +6941,7 @@ msgid ""
 msgstr ""
 
 #: ../../content/applications/websites/website/configuration/domain_names.rst:162
-#: ../../content/applications/websites/website/configuration/domain_names.rst:222
+#: ../../content/applications/websites/website/configuration/domain_names.rst:283
 msgid "Odoo.sh"
 msgstr "Odoo.sh"
 
@@ -6966,8 +6981,9 @@ msgstr ""
 
 #: ../../content/applications/websites/website/configuration/domain_names.rst:176
 msgid ""
-"`Cloudflare: Manage DNS records <https://support.cloudflare.com/hc/en-"
-"us/articles/360019093151>`_"
+"`Cloudflare: Manage DNS records "
+"<https://developers.cloudflare.com/dns/manage-dns-records/how-to/create-dns-"
+"records/>`_"
 msgstr ""
 
 #: ../../content/applications/websites/website/configuration/domain_names.rst:180
@@ -6993,17 +7009,173 @@ msgid ""
 "`wwww.yourdomain.com`."
 msgstr ""
 
+#: ../../content/applications/websites/website/configuration/domain_names.rst:194
+msgid "Using Cloudflare to secure and redirect a naked domain"
+msgstr ""
+
 #: ../../content/applications/websites/website/configuration/domain_names.rst:196
-msgid "Map a domain name to an Odoo database"
+msgid ""
+"To redirect a naked domain with a secure HTTPS connection, we recommend "
+"using Cloudflare, as most DNS hosting services do not offer an easy way to "
+"do so."
 msgstr ""
 
 #: ../../content/applications/websites/website/configuration/domain_names.rst:199
+msgid ""
+"`Sign up and log in to Cloudflare <https://dash.cloudflare.com/sign-up>`_."
+msgstr ""
+
+#: ../../content/applications/websites/website/configuration/domain_names.rst:200
+msgid ""
+"Enter your domain name on `Cloudflare's dashboard "
+"<https://dash.cloudflare.com/login>`_ and select :guilabel:`Quick scan for "
+"DNS records`."
+msgstr ""
+
+#: ../../content/applications/websites/website/configuration/domain_names.rst:202
+msgid "Choose a plan (the free plan is sufficient)."
+msgstr ""
+
+#: ../../content/applications/websites/website/configuration/domain_names.rst:203
+msgid ""
+"Follow Cloudflare's instructions and recommendations to complete the "
+"activation."
+msgstr ""
+
+#: ../../content/applications/websites/website/configuration/domain_names.rst:204
+msgid ""
+"Add a CNAME record to redirect your naked domain (`yourdomain.com`) to the "
+"`www` subdomain (e.g., `www.yourdomain.com`) by clicking :guilabel:`DNS` in "
+"the navigation menu, then clicking the :guilabel:`Add record` button, and "
+"using the following configuration:"
+msgstr ""
+
+#: ../../content/applications/websites/website/configuration/domain_names.rst:208
+#: ../../content/applications/websites/website/configuration/domain_names.rst:219
+msgid ":guilabel:`Type`: CNAME"
+msgstr ""
+
+#: ../../content/applications/websites/website/configuration/domain_names.rst:209
+msgid ":guilabel:`Name`: `@` (or `yourdomain.com`)"
+msgstr ""
+
+#: ../../content/applications/websites/website/configuration/domain_names.rst:210
+msgid ":guilabel:`Target`: e.g., `www.yourdomain.com`"
+msgstr ""
+
+#: ../../content/applications/websites/website/configuration/domain_names.rst:211
+msgid ":guilabel:`Proxy status`: Proxied"
+msgstr ""
+
+#: ../../content/applications/websites/website/configuration/domain_names.rst:0
+msgid ""
+"Adding a CNAME DNS record to Cloudflare to redirect a naked domain to a www "
+"subdomain"
+msgstr ""
+
+#: ../../content/applications/websites/website/configuration/domain_names.rst:216
+msgid ""
+"Add another second CNAME record to redirect the `www` subdomain (e.g., "
+"`www.yourdomain.com`) to your database address (e.g., `mycompany.odoo.com`) "
+"using the following configuration:"
+msgstr ""
+
+#: ../../content/applications/websites/website/configuration/domain_names.rst:220
+msgid ":guilabel:`Name`: e.g., `www.yourdomain.com`"
+msgstr ""
+
+#: ../../content/applications/websites/website/configuration/domain_names.rst:221
+msgid ":guilabel:`Target`: e.g., `mycompany.odoo.com`"
+msgstr ""
+
+#: ../../content/applications/websites/website/configuration/domain_names.rst:222
+msgid ":guilabel:`Proxy status`: DNS only"
+msgstr ""
+
+#: ../../content/applications/websites/website/configuration/domain_names.rst:0
+msgid ""
+"Adding a CNAME DNS record to Cloudflare to redirect a www subdomain to an "
+"Odoo database"
+msgstr ""
+
+#: ../../content/applications/websites/website/configuration/domain_names.rst:227
+msgid ""
+"Define a redirect rule to permanently redirect (301) your naked domain "
+"(e.g., `yourdomain.com`) to both `http://` and `https://` by going to "
+":menuselection:`Rules --> Create rule --> Products`, and clicking "
+":guilabel:`Create a Rule` under :guilabel:`Redirect Rules`:"
+msgstr ""
+
+#: ../../content/applications/websites/website/configuration/domain_names.rst:231
+msgid "Enter any :guilabel:`Rule name`."
+msgstr ""
+
+#: ../../content/applications/websites/website/configuration/domain_names.rst:232
+msgid ""
+"Under the :guilabel:`If incoming requests match...` section, select "
+":guilabel:`Custom filter expression` and use the following configuration:"
+msgstr ""
+
+#: ../../content/applications/websites/website/configuration/domain_names.rst:235
+msgid ":guilabel:`Field`: Hostname"
+msgstr ""
+
+#: ../../content/applications/websites/website/configuration/domain_names.rst:236
+msgid ":guilabel:`Operator`: equals"
+msgstr ""
+
+#: ../../content/applications/websites/website/configuration/domain_names.rst:237
+msgid ":guilabel:`Value`: e.g., `yourdomain.com`"
+msgstr ""
+
+#: ../../content/applications/websites/website/configuration/domain_names.rst:239
+msgid ""
+"Under the :guilabel:`Then...` section, use the following configuration:"
+msgstr ""
+
+#: ../../content/applications/websites/website/configuration/domain_names.rst:241
+msgid ":guilabel:`Type`: Dynamic"
+msgstr ""
+
+#: ../../content/applications/websites/website/configuration/domain_names.rst:242
+msgid ""
+":guilabel:`Expression`: e.g., `concat(\"https://www.yourdomain.com\", "
+"http.request.uri.path)`"
+msgstr ""
+
+#: ../../content/applications/websites/website/configuration/domain_names.rst:243
+msgid ":guilabel:`Status code`: 301"
+msgstr ""
+
+#: ../../content/applications/websites/website/configuration/domain_names.rst:244
+msgid ":guilabel:`Preserve query string`: enabled"
+msgstr ""
+
+#: ../../content/applications/websites/website/configuration/domain_names.rst:0
+msgid ""
+"Defining a Cloudflare redirect rule to create a permanent redirect (301)"
+msgstr ""
+
+#: ../../content/applications/websites/website/configuration/domain_names.rst:249
+msgid ""
+"Go to :guilabel:`SSL/TLS` and set the encryption mode to :guilabel:`Full`."
+msgstr ""
+
+#: ../../content/applications/websites/website/configuration/domain_names.rst:0
+msgid "Setting the encryption mode to full on Cloudflare"
+msgstr ""
+
+#: ../../content/applications/websites/website/configuration/domain_names.rst:257
+msgid "Map a domain name to an Odoo database"
+msgstr ""
+
+#: ../../content/applications/websites/website/configuration/domain_names.rst:260
 msgid ""
 "Ensure you have :ref:`added a CNAME record <domain-name/cname>` to your "
 "domain name's DNS **before** mapping your domain name to your Odoo database."
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/domain_names.rst:202
+#: ../../content/applications/websites/website/configuration/domain_names.rst:263
 msgid ""
 "Failing to do so may prevent the validation of the :ref:`SSL certificate "
 "<domain-name/ssl>` and could result in a *certificate name mismatch* error. "
@@ -7011,7 +7183,7 @@ msgid ""
 "not private\"*."
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/domain_names.rst:206
+#: ../../content/applications/websites/website/configuration/domain_names.rst:267
 msgid ""
 "If you encounter this error after mapping the domain name to your database, "
 "wait up to five days, as the validation may still happen. If not, you can "
@@ -7019,20 +7191,20 @@ msgid ""
 "screenshots of your CNAME records."
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/domain_names.rst:214
+#: ../../content/applications/websites/website/configuration/domain_names.rst:275
 msgid ""
 "Open the `database manager <https://www.odoo.com/my/databases>`_, click the "
 "gear icon (:guilabel:`⚙️`) next to the database name, and go to "
 ":menuselection:`Domain Names --> Use my own domain`. Then, enter the domain "
-"name (e.g., `yourdomain.com`), click :guilabel:`Verify` and :guilabel:`I "
-"confirm, it's done`."
+"name (e.g., `www.yourdomain.com`), click :guilabel:`Verify` and :guilabel:`I"
+" confirm, it's done`."
 msgstr ""
 
 #: ../../content/applications/websites/website/configuration/domain_names.rst:0
 msgid "Mapping a domain name to an Odoo Online database"
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/domain_names.rst:224
+#: ../../content/applications/websites/website/configuration/domain_names.rst:285
 msgid ""
 "On Odoo.sh, go to :menuselection:`Branches --> select your branch --> "
 "Settings --> Custom domains`, type the domain name to add, then click "
@@ -7043,69 +7215,69 @@ msgstr ""
 msgid "Mapping a domain name to an Odoo.sh branch"
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/domain_names.rst:231
+#: ../../content/applications/websites/website/configuration/domain_names.rst:292
 msgid ""
 ":ref:`Odoo.sh branches: settings tab <odoosh-gettingstarted-branches-tabs-"
 "settings>`"
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/domain_names.rst:236
+#: ../../content/applications/websites/website/configuration/domain_names.rst:297
 msgid "SSL encryption (HTTPS protocol)"
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/domain_names.rst:238
+#: ../../content/applications/websites/website/configuration/domain_names.rst:299
 msgid ""
 "**SSL encryption** allows visitors to navigate a website through a secure "
 "connection, which appears as the *https://* protocol at the beginning of a "
 "web address rather than the non-secure *http://* protocol."
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/domain_names.rst:242
+#: ../../content/applications/websites/website/configuration/domain_names.rst:303
 msgid ""
 "Odoo generates a separate SSL certificate for each domain :ref:`mapped to a "
 "database <domain-name/db-map>` using `Let's Encrypt's certificate authority "
 "and ACME protocol <https://letsencrypt.org/how-it-works/>`_."
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/domain_names.rst:247
+#: ../../content/applications/websites/website/configuration/domain_names.rst:308
 msgid "Certificate generation may take up to 24 hours."
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/domain_names.rst:248
+#: ../../content/applications/websites/website/configuration/domain_names.rst:309
 msgid ""
 "Several attempts to validate your certificate are made for five days after "
 "you map your domain name to your database."
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/domain_names.rst:250
+#: ../../content/applications/websites/website/configuration/domain_names.rst:311
 msgid "If you use another service, you can keep using it or change to Odoo's."
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/domain_names.rst:253
+#: ../../content/applications/websites/website/configuration/domain_names.rst:314
 msgid ""
 "No SSL certificate is generated for naked domains :dfn:`(domain names "
 "without any subdomains or prefixes)`."
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/domain_names.rst:259
+#: ../../content/applications/websites/website/configuration/domain_names.rst:320
 msgid "Web base URL of a database"
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/domain_names.rst:262
+#: ../../content/applications/websites/website/configuration/domain_names.rst:323
 msgid ""
 "If the Website app is installed on your database, skip this section and "
 "continue from the :ref:`Map a domain name to a website <domain-name/website-"
 "map>` section."
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/domain_names.rst:265
+#: ../../content/applications/websites/website/configuration/domain_names.rst:326
 msgid ""
 "The *web base URL* or root URL of a database affects your main website "
 "address and all the links sent to your customers (e.g., quotations, portal "
 "links, etc.)."
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/domain_names.rst:268
+#: ../../content/applications/websites/website/configuration/domain_names.rst:329
 msgid ""
 "To make your custom domain name the *web base URL* of your database, access "
 "your database using your custom domain name and log in as an administrator "
@@ -7113,7 +7285,7 @@ msgid ""
 "Administration)`."
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/domain_names.rst:273
+#: ../../content/applications/websites/website/configuration/domain_names.rst:334
 msgid ""
 "If you access your database with the original Odoo address (e.g., "
 "`mycompany.odoo.com`), the *web base URL* of your database will be updated "
@@ -7124,7 +7296,7 @@ msgid ""
 "and `True` as the :guilabel:`Value`."
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/domain_names.rst:280
+#: ../../content/applications/websites/website/configuration/domain_names.rst:341
 msgid ""
 "You can also set the web base URL manually. To do so, activate the "
 ":ref:`developer mode <developer-mode>`, go to :menuselection:`Settings --> "
@@ -7134,35 +7306,35 @@ msgid ""
 "protocol `https://` (or `http://`) and *not* end with a slash (`/`)."
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/domain_names.rst:289
+#: ../../content/applications/websites/website/configuration/domain_names.rst:350
 msgid "Map a domain name to an Odoo website"
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/domain_names.rst:291
+#: ../../content/applications/websites/website/configuration/domain_names.rst:352
 msgid ""
 "Mapping your domain name to your website is different than mapping it to "
 "your database:"
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/domain_names.rst:293
+#: ../../content/applications/websites/website/configuration/domain_names.rst:354
 msgid ""
 "It defines your domain name as the main one for your website, helping search"
 " engines to index your website correctly."
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/domain_names.rst:295
+#: ../../content/applications/websites/website/configuration/domain_names.rst:356
 msgid ""
 "It defines your domain name as the base URL for your database, including "
 "portal links sent by email to your customers."
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/domain_names.rst:297
+#: ../../content/applications/websites/website/configuration/domain_names.rst:358
 msgid ""
 "If you have multiple websites, it maps your domain name to the appropriate "
 "website."
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/domain_names.rst:299
+#: ../../content/applications/websites/website/configuration/domain_names.rst:360
 msgid ""
 "Go to :menuselection:`Website --> Configuration --> Settings`. If you have "
 "multiple websites, select the one you want to configure. In the "
@@ -7170,13 +7342,13 @@ msgid ""
 "`https://www.yourdomain.com`) and :guilabel:`Save`."
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/domain_names.rst:304
+#: ../../content/applications/websites/website/configuration/domain_names.rst:365
 msgid ""
 "Mapping your domain name to your Odoo website prevents Google Search from "
 "indexing your original database address (e.g., `mycompany.odoo.com`)."
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/domain_names.rst:307
+#: ../../content/applications/websites/website/configuration/domain_names.rst:368
 msgid ""
 "If both addresses are already indexed, it may take some time before the "
 "indexation of the second address is removed from Google Search. You can use "
@@ -7184,7 +7356,7 @@ msgid ""
 "console/welcome>`_ to fix the issue."
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/domain_names.rst:312
+#: ../../content/applications/websites/website/configuration/domain_names.rst:373
 msgid ""
 "If you have multiple websites and companies on your database, make sure to "
 "select the right :guilabel:`Company` under :menuselection:`Website --> "
@@ -7404,11 +7576,6 @@ msgstr ""
 msgid "To create a new website, proceed as follows:"
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/multi_website.rst:26
-#: ../../content/applications/websites/website/configuration/multi_website.rst:136
-msgid "Go to :menuselection:`Website --> Configuration --> Settings`."
-msgstr ""
-
 #: ../../content/applications/websites/website/configuration/multi_website.rst:27
 msgid "Click :guilabel:`+ New Website`."
 msgstr ""
@@ -7587,9 +7754,8 @@ msgstr ""
 #: ../../content/applications/websites/website/configuration/multi_website.rst:126
 msgid ""
 "You can :doc:`allow your customers to use the same account "
-"<../../ecommerce/ecommerce_management/customer_accounts>` on all of your "
-"websites by enabling the :guilabel:`Shared Customer Accounts` check box in "
-"the website settings."
+"<../../ecommerce/customer_accounts>` on all of your websites by enabling the"
+" :guilabel:`Shared Customer Accounts` check box in the website settings."
 msgstr ""
 
 #: ../../content/applications/websites/website/configuration/multi_website.rst:131
@@ -7788,8 +7954,8 @@ msgid ""
 msgstr ""
 
 #: ../../content/applications/websites/website/configuration/spam_protection.rst:72
-#: ../../content/applications/websites/website/configuration/spam_protection.rst:127
-#: ../../content/applications/websites/website/configuration/translate.rst:60
+#: ../../content/applications/websites/website/configuration/spam_protection.rst:128
+#: ../../content/applications/websites/website/configuration/translate.rst:61
 msgid "Click :guilabel:`Save`."
 msgstr "按一下 :guilabel:`儲存`。"
 
@@ -7890,12 +8056,21 @@ msgstr ""
 
 #: ../../content/applications/websites/website/configuration/spam_protection.rst:124
 msgid ""
-"Change the default :guilabel:`Minimum score` (`0.50`) if necessary, using a "
+"Change the default :guilabel:`Minimum score` (`0.70`) if necessary, using a "
 "value between `1.00` and `0.00`. The higher the threshold is, the more "
-"difficult it is to pass the reCAPTCHA, and vice versa."
+"difficult it is to pass the reCAPTCHA, and vice versa.  Out of the 11 "
+"levels, only the following four score levels are available by default: "
+"`0.1`, `0.3`, `0.7` and `0.9`."
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/spam_protection.rst:129
+#: ../../content/applications/websites/website/configuration/spam_protection.rst:131
+msgid ""
+"`Interpret reCAPTCHA scores - Google documentation "
+"<https://cloud.google.com/recaptcha/docs/interpret-assessment-"
+"website#interpret_scores>`_"
+msgstr ""
+
+#: ../../content/applications/websites/website/configuration/spam_protection.rst:133
 msgid ""
 "You can notify visitors that reCAPTCHA protects a form. To do so, open the "
 "website editor and navigate to the form. Then, click somewhere on the form, "
@@ -7907,7 +8082,7 @@ msgstr ""
 msgid "reCAPTCHA policy message displayed on a form"
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/spam_protection.rst:138
+#: ../../content/applications/websites/website/configuration/spam_protection.rst:142
 msgid ""
 "If the reCAPTCHA check fails, the following error message is displayed:"
 msgstr ""
@@ -7916,7 +8091,7 @@ msgstr ""
 msgid "Google reCAPTCHA verification error message"
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/spam_protection.rst:144
+#: ../../content/applications/websites/website/configuration/spam_protection.rst:148
 msgid ""
 "Analytics and additional settings are available on `Google's reCAPTCHA "
 "administration page <https://www.google.com/recaptcha/admin/>`_. For "
@@ -7955,31 +8130,31 @@ msgid ""
 "To allow translation of your website, you must first :doc:`install "
 "<../../../general/users/language>` the required languages and add them to "
 "your website. To do so, go to :menuselection:`Website --> Configuration --> "
-"Settings` and click :guilabel:`Install languages` in the :guilabel:`Website "
-"info` section. In the dialog box that opens, select the "
-":guilabel:`Languages` you want from the dropdown menu, tick the required "
-":guilabel:`Websites to translate`, and click :guilabel:`Add`."
+"Settings` and click :icon:`fa-arrow-right` :guilabel:`Install languages` in "
+"the :guilabel:`Website Info` section. In the dialog box that opens, select "
+"the :guilabel:`Languages` you want from the dropdown menu, tick the required"
+" :guilabel:`Websites to translate`, and click :guilabel:`Add`."
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/translate.rst:22
+#: ../../content/applications/websites/website/configuration/translate.rst:23
 msgid ""
-"To edit your website's languages, go to :menuselection:`Website –> "
-"Configuration –> Settings` and add/remove the required languages in/from the"
-" :guilabel:`Languages` field in the :guilabel:`Website info` section."
+"To edit your website's languages, go to :menuselection:`Website -–> "
+"Configuration -–> Settings` and add/remove the required languages in/from "
+"the :guilabel:`Languages` field in the :guilabel:`Website info` section."
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/translate.rst:27
+#: ../../content/applications/websites/website/configuration/translate.rst:28
 msgid ""
 "Alternatively, once the languages have been installed, you can add them from"
 " the :ref:`language selector <translate/language-selector>`. You might then "
 "need to refresh your page to see the new language."
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/translate.rst:34
+#: ../../content/applications/websites/website/configuration/translate.rst:35
 msgid "Default language"
 msgstr "預設語系"
 
-#: ../../content/applications/websites/website/configuration/translate.rst:36
+#: ../../content/applications/websites/website/configuration/translate.rst:37
 msgid ""
 "When multiple languages are available on your website, you can set a default"
 " language to be used if the visitor’s browser language is not available. To "
@@ -7987,36 +8162,36 @@ msgid ""
 "select a language in the :guilabel:`Default` field."
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/translate.rst:41
+#: ../../content/applications/websites/website/configuration/translate.rst:42
 msgid ""
 "This field is only visible if multiple languages have been installed and "
 "added to your website."
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/translate.rst:46
+#: ../../content/applications/websites/website/configuration/translate.rst:47
 msgid "Language selector"
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/translate.rst:48
+#: ../../content/applications/websites/website/configuration/translate.rst:49
 msgid ""
 "Your website’s visitors can switch languages using the language selector, "
 "available by default in the :guilabel:`Copyright` section at the bottom of "
 "the page. To edit the language selector menu:"
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/translate.rst:51
+#: ../../content/applications/websites/website/configuration/translate.rst:52
 msgid "Go to your website and click :guilabel:`Edit`;"
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/translate.rst:52
+#: ../../content/applications/websites/website/configuration/translate.rst:53
 msgid ""
 "Click the language selector available in the :guilabel:`Copyright` block and"
 " go to the :guilabel:`Copyright` section of the website builder;"
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/translate.rst:54
+#: ../../content/applications/websites/website/configuration/translate.rst:55
 msgid ""
-"Set the :guilabel:`Language selector` field to either :guilabel:`Dropdown` "
+"Set the :guilabel:`Language Selector` field to either :guilabel:`Dropdown` "
 "or :guilabel:`Inline`. Click :guilabel:`None` if you do not want to display "
 "the  :guilabel:`Language selector`;"
 msgstr ""
@@ -8025,18 +8200,18 @@ msgstr ""
 msgid "Add a language selector menu."
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/translate.rst:63
+#: ../../content/applications/websites/website/configuration/translate.rst:64
 msgid ""
 "You can also add the :guilabel:`Language Selector` to the :guilabel:`Header`"
 " of your page. To do so, click the :guilabel:`Header` block and go to the "
 ":guilabel:`Navbar` section to edit the :guilabel:`Language Selector`."
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/translate.rst:70
+#: ../../content/applications/websites/website/configuration/translate.rst:71
 msgid "Translate your website"
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/translate.rst:72
+#: ../../content/applications/websites/website/configuration/translate.rst:73
 msgid ""
 "Select your desired language from the language selector to see your content "
 "in another language. Then, click the :guilabel:`Translate` button in the "
@@ -8044,7 +8219,7 @@ msgid ""
 "translate what has not been translated automatically by Odoo."
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/translate.rst:76
+#: ../../content/applications/websites/website/configuration/translate.rst:77
 msgid ""
 "Translated text strings are highlighted in green; text strings that were not"
 " translated automatically are highlighted in yellow."
@@ -8054,7 +8229,7 @@ msgstr ""
 msgid "Entering the translation mode"
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/translate.rst:82
+#: ../../content/applications/websites/website/configuration/translate.rst:83
 msgid ""
 "In this mode, you can only translate text. To change the page's structure, "
 "you must edit the master page, i.e., the page in the original language of "
@@ -8062,23 +8237,25 @@ msgid ""
 "to all translated versions."
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/translate.rst:86
+#: ../../content/applications/websites/website/configuration/translate.rst:87
 msgid ""
 "To replace the original text with the translation, click the block, edit its"
-" contents, and save."
+" contents, and :guilabel:`Save`."
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/translate.rst:89
+#: ../../content/applications/websites/website/configuration/translate.rst:91
 msgid ""
-"When a website supports multiple languages, the content is accessible "
-"through different URLs, depending on the language selected. For example, "
-"`https://www.mywebsite.com/shop/product/my-product-1` is the URL to the "
-"master page, in English, while "
-"`https://www.mywebsite.com/fr_FR/shop/product/mon-produit-1` is the URL to "
-"the French version of the same page."
+"When a website supports multiple languages, the core URL structure remains "
+"consistent across languages, while specific elements like product names or "
+"categories are translated. For example, "
+"`https://www.mywebsite.com/shop/product/my-product-1` is the English version"
+" of a product page, while `https://www.mywebsite.com/fr/shop/product/mon-"
+"produit-1` is the French version of the same page. The structure "
+"(/shop/product/) stays unchanged, but the translated elements (e.g., product"
+" name) adapt to the selected language."
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/translate.rst:96
+#: ../../content/applications/websites/website/configuration/translate.rst:99
 msgid ""
 "Once the desired language is installed, you can translate some items from "
 "the backend (e.g., the product's name in the product form). To do so, click "
@@ -8086,30 +8263,30 @@ msgid ""
 "translate and add the translation."
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/translate.rst:101
+#: ../../content/applications/websites/website/configuration/translate.rst:104
 msgid "Content visibility by language"
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/translate.rst:103
+#: ../../content/applications/websites/website/configuration/translate.rst:106
 msgid ""
 "You can hide content (such as images or videos, for example) depending on "
 "the language. To do so:"
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/translate.rst:105
+#: ../../content/applications/websites/website/configuration/translate.rst:108
 msgid "Click :guilabel:`Edit` and select an element of your website;"
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/translate.rst:106
+#: ../../content/applications/websites/website/configuration/translate.rst:109
 msgid "Go to the :guilabel:`Text - Image` section and :guilabel:`Visibility`;"
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/translate.rst:107
+#: ../../content/applications/websites/website/configuration/translate.rst:110
 msgid ""
 "Click :guilabel:`No condition` and select :guilabel:`Conditionally` instead;"
 msgstr ""
 
-#: ../../content/applications/websites/website/configuration/translate.rst:108
+#: ../../content/applications/websites/website/configuration/translate.rst:111
 msgid ""
 "Go to :guilabel:`Languages` to configure the condition(s) to apply by "
 "selecting :guilabel:`Visible for` or :guilabel:`Hidden for`, and click "
@@ -9969,11 +10146,12 @@ msgstr ""
 
 #: ../../content/applications/websites/website/web_design/building_blocks/dynamic_content.rst:5
 msgid ""
-"The :guilabel:`Dynamic Content` building blocks, such as :ref:`Form "
-"<dynamic_content/form>`, :ref:`Products <dynamic_content/products>`, "
-":ref:`Embed Code <dynamic_content/embed_code>`, or :doc:`Blog Posts "
-"<../../../blog>`, help you create interactive and visually appealing layouts"
-" for your web pages."
+"The :guilabel:`Dynamic Content` :doc:`building blocks <../building_blocks>`,"
+" such as :ref:`Form <website/dynamic_content/form>`, :ref:`Products "
+"<website/dynamic_content/products>`, :ref:`Embed Code "
+"<website/dynamic_content/embed_code>`, or :doc:`Blog Posts <../../../blog>`,"
+" help you create interactive and visually appealing layouts for your web "
+":doc:`pages <../../pages>`."
 msgstr ""
 
 #: ../../content/applications/websites/website/web_design/building_blocks/dynamic_content.rst:11

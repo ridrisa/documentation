@@ -7,15 +7,16 @@
 # Anders Wallenquist <anders.wallenquist@vertel.se>, 2024
 # Martin Trigaux, 2024
 # Jakob Krabbe <jakob.krabbe@vertel.se>, 2024
+# Wil Odoo, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-21 11:43+0000\n"
+"POT-Creation-Date: 2025-04-30 11:37+0000\n"
 "PO-Revision-Date: 2024-03-30 23:40+0000\n"
-"Last-Translator: Jakob Krabbe <jakob.krabbe@vertel.se>, 2024\n"
+"Last-Translator: Wil Odoo, 2025\n"
 "Language-Team: Swedish (https://app.transifex.com/odoo/teams/41243/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,6 +33,9 @@ msgid ""
 "Studio is a toolbox that allows you to customize Odoo without coding "
 "knowledge. For example, you can, in any app, add or modify:"
 msgstr ""
+"Studio är en verktygslåda som gör att du kan anpassa Odoo utan "
+"kodningskunskaper. Du kan till exempel i vilken app som helst lägga till "
+"eller ändra:"
 
 #: ../../content/applications/studio.rst:21
 msgid ":doc:`Fields <studio/fields>`"
@@ -46,8 +50,8 @@ msgid ":doc:`Models <studio/models_modules_apps>`"
 msgstr ":doc:`Modeller <studio/models_modules_apps>`"
 
 #: ../../content/applications/studio.rst:24
-msgid ":doc:`Automated actions <studio/automated_actions>`"
-msgstr ":doc:`Automatiserade åtgärder <studio/automated_actions>`"
+msgid ":doc:`Automation rules <studio/automated_actions>`"
+msgstr ""
 
 #: ../../content/applications/studio.rst:25
 msgid ":doc:`PDF reports <studio/pdf_reports>`"
@@ -55,7 +59,7 @@ msgstr ":doc:`PDF-rapporter <studio/pdf_reports>`"
 
 #: ../../content/applications/studio.rst:26
 msgid ":doc:`Approval rules <studio/approval_rules>`"
-msgstr ""
+msgstr ":doc:`Approvalregler <studio/approval_rules>`"
 
 #: ../../content/applications/studio.rst:27
 msgid "Security rules"
@@ -65,16 +69,20 @@ msgstr "Säkerhetsregler"
 msgid ""
 "You can also :doc:`build an app from scratch <studio/models_modules_apps>`."
 msgstr ""
+"Du kan också :doc:`bygga en app från grunden <studio/models_modules_apps>`."
 
 #: ../../content/applications/studio.rst:33
 msgid ""
 "To access Studio, navigate to the app and model you want to modify, then "
 "click the **Toggle Studio** button, or vice versa."
 msgstr ""
+"För att komma åt Studio navigerar du till den app och modell du vill ändra "
+"och klickar sedan på knappen **Toggle Studio**, eller vice versa."
 
 #: ../../content/applications/studio.rst:36
 msgid "To close Studio, click :guilabel:`Close` in the upper right corner."
 msgstr ""
+"För att stänga Studio, klicka på :guilabel:`Close` i det övre högra hörnet."
 
 #: ../../content/applications/studio.rst:39
 msgid "`Odoo Tutorials: Studio <https://www.odoo.com/slides/studio-31>`_"
@@ -86,9 +94,9 @@ msgstr "Regler för godkännande"
 
 #: ../../content/applications/studio/approval_rules.rst:5
 msgid ""
-"Studio approval rules are used to automate approval processes for actions. "
-"They allow you to define the criteria for when an approval is required "
-"before an action can be performed using a button."
+"Approval rules are used to automate approval processes for actions. They "
+"allow you to define the criteria for when an approval is required before an "
+"action can be performed using a button."
 msgstr ""
 
 #: ../../content/applications/studio/approval_rules.rst:9
@@ -96,7 +104,7 @@ msgid "Configuration"
 msgstr "Konfiguration"
 
 #: ../../content/applications/studio/approval_rules.rst:11
-msgid "To add approval rules, proceed as follows:"
+msgid "To add approval rules with Studio, proceed as follows:"
 msgstr ""
 
 #: ../../content/applications/studio/approval_rules.rst:13
@@ -104,38 +112,48 @@ msgid ""
 ":ref:`Open Studio <studio/access>` and switch to the required :doc:`view "
 "<views>`."
 msgstr ""
+":ref:`Open Studio <studio/access>` och växla till önskad :doc:`view "
+"<views>`."
 
 #: ../../content/applications/studio/approval_rules.rst:14
 msgid "Select the button for which you want to add approval rules."
-msgstr ""
+msgstr "Välj den knapp som du vill lägga till godkännanderegler för."
 
 #: ../../content/applications/studio/approval_rules.rst:15
 msgid ""
 "In the :guilabel:`Properties` tab on the left, enable the :guilabel:`Set "
 "approval rules` feature."
 msgstr ""
+"På fliken :guilabel:`Properties` till vänster aktiverar du funktionen "
+":guilabel:`Set approval rules`."
 
 #: ../../content/applications/studio/approval_rules.rst:17
 msgid ""
 "Specify the :guilabel:`Allowed Group` to limit the approval permission to a "
 "specific user group."
 msgstr ""
+"Ange :guilabel:`Allowed Group` för att begränsa godkännanderätten till en "
+"viss användargrupp."
 
 #: ../../content/applications/studio/approval_rules.rst:19
 msgid ""
 "Select the :guilabel:`Responsible` user to create an activity for a specific"
 " user when approval is requested from them."
 msgstr ""
+"Välj :guilabel:`Responsible`-användaren för att skapa en aktivitet för en "
+"specifik användare när godkännande begärs från dem."
 
 #: ../../content/applications/studio/approval_rules.rst:21
 msgid "Select the :guilabel:`Users to notify` via internal note."
-msgstr ""
+msgstr "Välj :guilabel:`Users to notify` via intern notis."
 
 #: ../../content/applications/studio/approval_rules.rst:22
 msgid ""
 "Add a :guilabel:`Description` to be displayed in the :ref:`Approval dialog "
 "<approval-rules/use>`."
 msgstr ""
+"Lägg till en :guilabel:`Description` som ska visas i :ref:`Approval dialog "
+"<approval-rules/use>`."
 
 #: ../../content/applications/studio/approval_rules.rst:24
 msgid ""
@@ -143,18 +161,25 @@ msgid ""
 "by clicking the :icon:`fa-filter` (:guilabel:`filter`) icon next to the "
 ":guilabel:`Allowed Group` field."
 msgstr ""
+"Du kan också lägga till villkor för att godkännanderegeln ska tillämpas "
+"genom att klicka på ikonen :icon:`fa-filter` (:guilabel:`filter`) bredvid "
+"fältet :guilabel:`Allowed Group`."
 
 #: ../../content/applications/studio/approval_rules.rst:27
 msgid ""
 "To add another rule, click :guilabel:`Add an approval rule`. When there are "
 "multiple approval rules, you can:"
 msgstr ""
+"Om du vill lägga till en ny regel klickar du på :guilabel:`Lägg till en "
+"godkännanderegel`. När det finns flera godkännanderegler kan du göra det:"
 
 #: ../../content/applications/studio/approval_rules.rst:30
 msgid ""
 "enable :guilabel:`Exclusive Approval` to require approvers to be different "
 "users;"
 msgstr ""
+"aktivera :guilabel:`Exclusive Approval` för att kräva att godkännare är "
+"olika användare;"
 
 #: ../../content/applications/studio/approval_rules.rst:31
 msgid ""
@@ -164,18 +189,27 @@ msgid ""
 " the approval rules have the same :guilabel:`Notification Order`, all users "
 "are notified at the same time when the first approval is requested."
 msgstr ""
+"ändra :guilabel:`Notification Order` för godkännanderegeln så att "
+":guilabel:`Responsible` och :guilabel:`Users to notify` endast meddelas när "
+"den föregående regeln har godkänts och deras godkännande krävs. Om "
+"godkännandereglerna har samma :guilabel:`Notification Order`, meddelas alla "
+"användare samtidigt när det första godkännandet begärs."
 
 #: ../../content/applications/studio/approval_rules.rst:36
 msgid ""
 "Click the :icon:`fa-trash` (:guilabel:`trash`) icon next to the "
 ":guilabel:`Allowed Group` field to delete the approval rule."
 msgstr ""
+"Klicka på ikonen :icon:`fa-trash` (:guilabel:`trash`) bredvid fältet "
+":guilabel:`Allowed Group` för att ta bort godkännanderegeln."
 
 #: ../../content/applications/studio/approval_rules.rst:40
 msgid ""
 "You can create :ref:`user groups <access-rights/groups>` specifically for "
 "approvals."
 msgstr ""
+"Du kan skapa :ref:`användargrupper <access-rights/groups>` specifikt för "
+"godkännanden."
 
 #: ../../content/applications/studio/approval_rules.rst:45
 msgid "Use"
@@ -183,17 +217,19 @@ msgstr "Användning"
 
 #: ../../content/applications/studio/approval_rules.rst:47
 msgid "Once approval rules have been defined for a button:"
-msgstr ""
+msgstr "När godkännanderegler har definierats för en knapp:"
 
 #: ../../content/applications/studio/approval_rules.rst:49
 msgid ""
 "A **user avatar** icon is displayed next to the button's label for each "
 "approval rule that has been defined."
 msgstr ""
+"En **användaravatar**-ikon visas bredvid knappens etikett för varje "
+"godkännanderegel som har definierats."
 
 #: ../../content/applications/studio/approval_rules.rst:0
 msgid "Confirm button with approval for purchase orders"
-msgstr ""
+msgstr "Bekräfta knapp med godkännande för inköpsorder"
 
 #: ../../content/applications/studio/approval_rules.rst:55
 msgid ""
@@ -201,20 +237,25 @@ msgid ""
 "in the top-right corner and an activity is created for the user specified in"
 " the :guilabel:`Responsible` field."
 msgstr ""
+"När en obehörig användare klickar på knappen visas ett felmeddelande i det "
+"övre högra hörnet och en aktivitet skapas för den användare som anges i "
+"fältet :guilabel:`Responsible`."
 
 #: ../../content/applications/studio/approval_rules.rst:57
 msgid ""
 "Only users from the group defined in the :guilabel:`Allowed Group` field are"
 " authorized to approve or reject the action."
 msgstr ""
+"Endast användare från den grupp som definieras i fältet :guilabel:`Allowed "
+"Group` har rätt att godkänna eller avvisa åtgärden."
 
 #: ../../content/applications/studio/approval_rules.rst:60
 msgid "Authorized users can:"
-msgstr ""
+msgstr "Behöriga användare kan:"
 
 #: ../../content/applications/studio/approval_rules.rst:62
 msgid "approve and perform the action by clicking the button;"
-msgstr ""
+msgstr "godkänna och utföra åtgärden genom att klicka på knappen;"
 
 #: ../../content/applications/studio/approval_rules.rst:63
 msgid ""
@@ -222,6 +263,9 @@ msgid ""
 "**user avatar** icon next to the button's label, then clicking the "
 ":icon:`fa-check` (:guilabel:`Approve`) button in the dialog that opens;"
 msgstr ""
+"godkänna åtgärden och låta en annan användare utföra den genom att klicka på"
+" ikonen **användaravatar** bredvid knappens etikett och sedan klicka på "
+"knappen :icon:`fa-check` (:guilabel:`Approve`) i den dialogruta som öppnas;"
 
 #: ../../content/applications/studio/approval_rules.rst:66
 msgid ""
@@ -229,10 +273,13 @@ msgid ""
 "label, then clicking the :icon:`fa-times` (:guilabel:`Reject`) button in the"
 " dialog that opens."
 msgstr ""
+"avvisa åtgärden genom att klicka på ikonen **användaravatar** bredvid "
+"knappens etikett och sedan klicka på knappen :icon:`fa-times` "
+"(:guilabel:`Reject`) i den dialogruta som öppnas."
 
 #: ../../content/applications/studio/approval_rules.rst-1
 msgid "Approval dialog"
-msgstr ""
+msgstr "Godkännande dialog"
 
 #: ../../content/applications/studio/approval_rules.rst:73
 msgid ""
@@ -240,6 +287,9 @@ msgid ""
 "clicking the **user avatar** icon next to the button's label, then clicking "
 "the :icon:`fa-undo` (:guilabel:`Revoke`) button."
 msgstr ""
+"Användaren som godkände/avslog åtgärden kan återkalla sitt beslut genom att "
+"klicka på ikonen **användaravatar** bredvid knappens etikett och sedan "
+"klicka på knappen :icon:`fa-undo` (:guilabel:`Revoke`)."
 
 #: ../../content/applications/studio/approval_rules.rst:76
 msgid ""
@@ -249,6 +299,11 @@ msgid ""
 "</applications/general/developer_mode>` and go to :menuselection:`Settings "
 "--> Technical --> Studio Approval Entries`."
 msgstr ""
+"Godkännanden spåras i postens chatter. En godkännandepost skapas också varje"
+" gång en Studio-godkännande-relaterad åtgärd utförs. Du kommer åt "
+"godkännandeposterna genom att :doc:`aktivera utvecklarläget "
+"</applications/general/developer_mode>` och gå till "
+":menuselection:`Inställningar --> Tekniska --> Studio Approval Entries`."
 
 #: ../../content/applications/studio/automated_actions.rst:3
 msgid "Automation rules"
@@ -261,13 +316,20 @@ msgid ""
 " events, time conditions (e.g., archive a record 7 days after its last "
 "update), or external events."
 msgstr ""
+"Automatiseringsregler används för att utlösa automatiska ändringar baserat "
+"på användaråtgärder (t.ex. tillämpa en ändring när ett fält har ett visst "
+"värde), e-posthändelser, tidsvillkor (t.ex. arkivera en post 7 dagar efter "
+"den senaste uppdateringen) eller externa händelser."
 
 #: ../../content/applications/studio/automated_actions.rst:9
 msgid "To create an automation rule with Studio, proceed as follows:"
 msgstr ""
+"Gör på följande sätt för att skapa en automatiseringsregel med Studio:"
 
 #: ../../content/applications/studio/automated_actions.rst:11
-msgid "Open Studio and click :guilabel:`Automations`, then :guilabel:`New`."
+msgid ""
+":ref:`Open Studio <studio/access>` and click :guilabel:`Automations`, then "
+":guilabel:`New`."
 msgstr ""
 
 #: ../../content/applications/studio/automated_actions.rst:12
@@ -275,6 +337,8 @@ msgid ""
 "Select the :ref:`studio/automated-actions/trigger` and, if necessary, fill "
 "in the fields that appear on the screen based on the chosen trigger."
 msgstr ""
+"Välj :ref:`studio/automated-actions/trigger` och fyll vid behov i de fält "
+"som visas på skärmen baserat på den valda triggern."
 
 #: ../../content/applications/studio/automated_actions.rst:14
 msgid ""
@@ -282,10 +346,13 @@ msgid ""
 ":ref:`action <studio/automated-actions/action>` and fill in the fields that "
 "appear on the screen based on your selected action."
 msgstr ""
+"Klicka på :guilabel:`Lägg till en åtgärd`, välj sedan :guilabel:`Typ` av "
+":ref:`åtgärd <studio/automated-actions/action>` och fyll i fälten som visas "
+"på skärmen baserat på den åtgärd du har valt."
 
 #: ../../content/applications/studio/automated_actions.rst:17
 msgid "Click :guilabel:`Save & Close` or :guilabel:`Save & New`."
-msgstr ""
+msgstr "Klicka på :guilabel:`Save & Close` eller :guilabel:`Save & New`."
 
 #: ../../content/applications/studio/automated_actions.rst:0
 msgid "Example of an automated action on the Subscription model"
@@ -299,6 +366,11 @@ msgid ""
 "automation rule, and select the :guilabel:`Model` in the "
 ":guilabel:`Automation Rules` form."
 msgstr ""
+"Om du vill ändra :doc:`modell <models_modules_apps>` för "
+"automatiseringsregeln ska du byta modell innan du klickar på "
+":guilabel:`Automations` i Studio eller :ref:`aktivera utvecklarläget "
+"<developer-mode>`, skapa eller redigera en automatiseringsregel och välja "
+":guilabel:`Model` i formuläret :guilabel:`Automation Rules`."
 
 #: ../../content/applications/studio/automated_actions.rst:29
 msgid ""
@@ -307,10 +379,15 @@ msgid ""
 ":guilabel:`Automations`. In this case, the :guilabel:`Trigger` is set to "
 ":guilabel:`Stage is set to` by default, but you can change it if necessary."
 msgstr ""
+"Du kan också skapa automatiseringsregler från vilket kanban-steg som helst "
+"genom att klicka på kugghjulsikonen (:guilabel:`⚙` ) bredvid kanban-"
+"stegsnamnet och sedan välja :guilabel:`Automations`. I det här fallet är "
+":guilabel:`Trigger` inställd på :guilabel:`Stage är inställd på` som "
+"standard, men du kan ändra det om det behövs."
 
 #: ../../content/applications/studio/automated_actions.rst:0
 msgid "Create automations from a kanban stage"
-msgstr ""
+msgstr "Skapa automatiseringar från ett kanban-steg"
 
 #: ../../content/applications/studio/automated_actions.rst:40
 msgid "Trigger"
@@ -322,26 +399,29 @@ msgid ""
 " applied. The available triggers depend on the :doc:`model "
 "<models_modules_apps>`. Five trigger categories are available overall:"
 msgstr ""
+":guilabel:`Trigger` används för att definiera när automatiseringsregeln ska "
+"tillämpas. Vilka triggers som är tillgängliga beror på :doc:`model "
+"<models_modules_apps>`. Totalt finns fem triggerkategorier tillgängliga:"
 
 #: ../../content/applications/studio/automated_actions.rst:46
 msgid ":ref:`studio/automated-actions/trigger/values-updated`"
-msgstr ""
+msgstr ":ref:`studio/automated-actions/trigger/values-updated`"
 
 #: ../../content/applications/studio/automated_actions.rst:47
 msgid ":ref:`studio/automated-actions/trigger/email-events`"
-msgstr ""
+msgstr ":ref:`studio/automated-actions/trigger/email-events`"
 
 #: ../../content/applications/studio/automated_actions.rst:48
 msgid ":ref:`studio/automated-actions/trigger/values-timing-conditions`"
-msgstr ""
+msgstr ":ref:`studio/automated-actions/trigger/values-timing-conditions`"
 
 #: ../../content/applications/studio/automated_actions.rst:49
 msgid ":ref:`studio/automated-actions/trigger/custom`"
-msgstr ""
+msgstr ":ref:`studio/automated-actions/trigger/custom`"
 
 #: ../../content/applications/studio/automated_actions.rst:50
 msgid ":ref:`studio/automated-actions/trigger/external`"
-msgstr ""
+msgstr ":ref:`studio/automated-actions/trigger/external`"
 
 #: ../../content/applications/studio/automated_actions.rst:53
 msgid ""
@@ -352,6 +432,12 @@ msgid ""
 " on <studio/automated-actions/trigger/custom>` filters are checked *during* "
 "the execution of the automation rule."
 msgstr ""
+"Du kan också definiera en :guilabel:`Before Update Domain` för att ange de "
+"villkor som måste uppfyllas *innan* automatiseringsregeln utlöses. Däremot "
+"kontrolleras de villkor som definieras med hjälp av filtren :ref:`Extra "
+"Conditions <studio/automated-actions/trigger/values-timing-conditions>` och "
+":ref:`Apply on <studio/automated-actions/trigger/custom>` *under* utförandet"
+" av automatiseringsregeln."
 
 #: ../../content/applications/studio/automated_actions.rst:59
 msgid ""
@@ -359,6 +445,10 @@ msgid ""
 "mode <developer-mode>`, create or edit an automation rule, click "
 ":guilabel:`Edit Domain`, then click :guilabel:`New Rule`."
 msgstr ""
+"För att definiera en :guilabel:`Before Update Domain`, :ref:`aktivera "
+"utvecklarläget <developer-mode>`, skapa eller redigera en "
+"automatiseringsregel, klicka på :guilabel:`Edit Domain` och sedan på "
+":guilabel:`New Rule`."
 
 #: ../../content/applications/studio/automated_actions.rst:63
 msgid ""
@@ -368,10 +458,15 @@ msgid ""
 "Domain` to :guilabel:`Email is not set`, and the :guilabel:`Apply on` domain"
 " to :guilabel:`Email is set`."
 msgstr ""
+"Om du t.ex. vill att den automatiska åtgärden ska utföras när en "
+"e-postadress anges för en kontakt som inte hade någon adress tidigare (i "
+"motsats till när en befintlig adress ändras), definierar du "
+":guilabel:`Before Update Domain` till :guilabel:`Email is not set` och "
+":guilabel:`Apply on` till :guilabel:`Email is set`."
 
 #: ../../content/applications/studio/automated_actions.rst:0
 msgid "Example of a trigger with a Before Update Domain"
-msgstr ""
+msgstr "Exempel på en trigger med en Before Update-domän"
 
 #: ../../content/applications/studio/automated_actions.rst:74
 msgid "Values Updated"
@@ -384,10 +479,14 @@ msgid ""
 "setting the :guilabel:`User` field. Select the trigger, then select a value "
 "if required."
 msgstr ""
+"De utlösare som finns i den här kategorin beror på modellen och baseras på "
+"vanliga fältändringar, t.ex. att lägga till en specifik tagg (t.ex. till en "
+"uppgift) eller att ställa in fältet :guilabel:`User`. Välj utlösaren och "
+"välj sedan ett värde om det behövs."
 
 #: ../../content/applications/studio/automated_actions.rst-1
 msgid "Example of a Values Updated trigger"
-msgstr ""
+msgstr "Exempel på en trigger för uppdaterade värden"
 
 #: ../../content/applications/studio/automated_actions.rst:86
 msgid "Email Events"
@@ -395,7 +494,7 @@ msgstr "E-post evenemang"
 
 #: ../../content/applications/studio/automated_actions.rst:88
 msgid "Trigger automated actions upon receiving or sending emails."
-msgstr ""
+msgstr "Utlösa automatiska åtgärder när du tar emot eller skickar e-post."
 
 #: ../../content/applications/studio/automated_actions.rst:93
 msgid "Timing Conditions"
@@ -406,28 +505,35 @@ msgid ""
 "Trigger automated actions based on a date field. The following triggers are "
 "available:"
 msgstr ""
+"Utlösa automatiska åtgärder baserat på ett datumfält. Följande triggers är "
+"tillgängliga:"
 
 #: ../../content/applications/studio/automated_actions.rst:97
 msgid ""
 ":guilabel:`Based on date field`: Select the field to be used next to the "
 ":guilabel:`Delay` field."
 msgstr ""
+":guilabel:`Baserat på datumfält`: Välj det fält som ska användas bredvid "
+"fältet :guilabel:`Delay`."
 
 #: ../../content/applications/studio/automated_actions.rst:98
 msgid ""
 ":guilabel:`After creation`: The action is triggered when a record is created"
 " and saved."
 msgstr ""
+":guilabel:`Efter skapande`: Åtgärden utlöses när en post skapas och sparas."
 
 #: ../../content/applications/studio/automated_actions.rst:99
 msgid ""
 ":guilabel:`After last update`: The action is triggered when an existing "
 "record is edited and saved."
 msgstr ""
+":guilabel:`Efter senaste uppdatering`: Åtgärden utlöses när en befintlig "
+"post redigeras och sparas."
 
 #: ../../content/applications/studio/automated_actions.rst:102
 msgid "You can then define:"
-msgstr ""
+msgstr "Du kan sedan definiera:"
 
 #: ../../content/applications/studio/automated_actions.rst:104
 msgid ""
@@ -436,6 +542,10 @@ msgid ""
 " you selected the :guilabel:`Based on date field` trigger, you must also "
 "select the date field to be used to determine the delay."
 msgstr ""
+"a :guilabel:`Delay`: Ange antalet minuter, timmar, dagar eller månader. Om "
+"du vill utlösa åtgärden före utlösningsdatumet anger du ett negativt tal. Om"
+" du har valt utlösaren :guilabel:`Based on date field` måste du också välja "
+"det datumfält som ska användas för att bestämma fördröjningen."
 
 #: ../../content/applications/studio/automated_actions.rst:107
 msgid ""
@@ -443,12 +553,16 @@ msgid ""
 "the conditions to be met to trigger the automation rule. Click "
 ":guilabel:`New Rule` to add another condition."
 msgstr ""
+":guilabel:`Extra villkor`: Klicka på :guilabel:`Add condition` och ange "
+"sedan de villkor som ska uppfyllas för att utlösa automatiseringsregeln. "
+"Klicka på :guilabel:`New Rule` för att lägga till ytterligare ett villkor."
 
 #: ../../content/applications/studio/automated_actions.rst:110
 msgid ""
 "The action is triggered when the delay is reached and the conditions are "
 "met."
 msgstr ""
+"Åtgärden utlöses när fördröjningen har uppnåtts och villkoren är uppfyllda."
 
 #: ../../content/applications/studio/automated_actions.rst:113
 msgid ""
@@ -457,16 +571,23 @@ msgid ""
 ":guilabel:`Trigger Date` and set the :guilabel:`Delay` to **-30** "
 ":guilabel:`Minutes`."
 msgstr ""
+"Om du vill skicka ett påminnelsemeddelande 30 minuter före starten av en "
+"kalenderhändelse väljer du :guilabel:`Start (kalenderhändelse)` under "
+":guilabel:`Trigger Date` och ställer in :guilabel:`Delay` till **-30** "
+":guilabel:`Minutes`."
 
 #: ../../content/applications/studio/automated_actions.rst:0
 msgid "Example of a Based on date field trigger"
-msgstr ""
+msgstr "Exempel på en trigger för fältet Baserat på datum"
 
 #: ../../content/applications/studio/automated_actions.rst:121
 msgid ""
 "By default, the scheduler checks for trigger dates every 4 hours, meaning "
 "lower granularity in time-based automations may not always be honored."
 msgstr ""
+"Som standard kontrollerar schemaläggaren triggerdatum var 4:e timme, vilket "
+"innebär att lägre detaljeringsgrad i tidsbaserade automatiseringar kanske "
+"inte alltid uppfylls."
 
 #: ../../content/applications/studio/automated_actions.rst:127
 msgid "Custom"
@@ -474,21 +595,23 @@ msgstr "Anpassad"
 
 #: ../../content/applications/studio/automated_actions.rst:129
 msgid "Trigger automated actions:"
-msgstr ""
+msgstr "Utlösa automatiserade åtgärder:"
 
 #: ../../content/applications/studio/automated_actions.rst:131
 msgid ":guilabel:`On save`: When the record is saved;"
-msgstr ""
+msgstr ":guilabel:`Vid sparande`: När posten sparas;"
 
 #: ../../content/applications/studio/automated_actions.rst:132
 msgid ":guilabel:`On deletion`: When a record is deleted;"
-msgstr ""
+msgstr ":guilabel:`Vid radering`: När en post raderas;"
 
 #: ../../content/applications/studio/automated_actions.rst:133
 msgid ""
 ":guilabel:`On UI change`: When a field's value is changed on the :ref:`Form "
 "view <studio/views/general/form>`, even before saving the record."
 msgstr ""
+":guilabel:`Vid UI-förändring`: När ett fälts värde ändras på "
+":ref:`Formulärvy <studio/views/general/form>`, även innan posten sparas."
 
 #: ../../content/applications/studio/automated_actions.rst:136
 msgid ""
@@ -496,18 +619,25 @@ msgid ""
 "**must** then select the field(s) to be used to trigger the automation rule "
 "in the :guilabel:`When updating` field."
 msgstr ""
+"För utlösarna :guilabel:`On save` och :guilabel:`On UI change` måste du "
+"**must** sedan välja det eller de fält som ska användas för att utlösa "
+"automatiseringsregeln i fältet :guilabel:`When updating`."
 
 #: ../../content/applications/studio/automated_actions.rst:140
 msgid ""
 "If no field is selected in the :guilabel:`When updating` field, the "
 "automated action may be executed multiple times per record."
 msgstr ""
+"Om inget fält har valts i fältet :guilabel:`When updating` kan den "
+"automatiska åtgärden utföras flera gånger per post."
 
 #: ../../content/applications/studio/automated_actions.rst:143
 msgid ""
 "Optionally, you can also define additional conditions to be met to trigger "
 "the automation rule in the :guilabel:`Apply on` field."
 msgstr ""
+"Alternativt kan du också definiera ytterligare villkor som ska uppfyllas för"
+" att utlösa automatiseringsregeln i fältet :guilabel:`Apply on`."
 
 #: ../../content/applications/studio/automated_actions.rst:147
 msgid ""
@@ -516,6 +646,10 @@ msgid ""
 "when a modification is made manually. The action is not executed if the "
 "field is changed through another automation rule."
 msgstr ""
+"Utlösaren :guilabel:`On UI change` kan endast användas med åtgärden "
+":ref:`studio/automated-actions/action/python-code` och fungerar endast när "
+"en ändring görs manuellt. Åtgärden utförs inte om fältet ändras genom en "
+"annan automatiseringsregel."
 
 #: ../../content/applications/studio/automated_actions.rst:155
 msgid "External"
@@ -529,6 +663,11 @@ msgid ""
 "event. It usually includes a data payload containing information about the "
 "event that occurred."
 msgstr ""
+"Utlösa automatiserade åtgärder baserat på en extern händelse med hjälp av en"
+" webhook. En webhook är en metod för kommunikation mellan två system där "
+"källsystemet skickar en HTTP(S)-begäran till ett destinationssystem baserat "
+"på en specifik händelse. Den innehåller vanligtvis en datanyttolast som "
+"innehåller information om den händelse som inträffade."
 
 #: ../../content/applications/studio/automated_actions.rst:162
 msgid ""
@@ -537,6 +676,11 @@ msgid ""
 "the request). Then, in the :guilabel:`Target Record` field, enter the code "
 "to run to define the record(s) to be updated using the automation rule."
 msgstr ""
+"För att konfigurera :guilabel:`On webhook` trigger, kopiera :guilabel:`URL` "
+"som genereras av Odoo till destinationssystemet (dvs. det system som tar "
+"emot begäran). I fältet :guilabel:`Target Record` anger du sedan den kod som"
+" ska köras för att definiera den eller de poster som ska uppdateras med "
+"hjälp av automatiseringsregeln."
 
 #: ../../content/applications/studio/automated_actions.rst:167
 msgid ""
@@ -544,6 +688,10 @@ msgid ""
 "caution could potentially expose your system to malicious parties. Click the"
 " :guilabel:`Rotate Secret` button to change the URL's secret if necessary."
 msgstr ""
+"URL-adressen måste behandlas som **konfidentiell**; om du delar den online "
+"eller utan försiktighet kan ditt system utsättas för skadliga parter. Klicka"
+" på knappen :guilabel:`Rotate Secret` för att ändra URL:ens hemlighet om det"
+" behövs."
 
 #: ../../content/applications/studio/automated_actions.rst:172
 msgid ""
@@ -551,6 +699,10 @@ msgid ""
 " webhooks coming from another Odoo database. It is used to determine the "
 "record(s) to be updated using the information in the payload."
 msgstr ""
+"Den kod som definieras som standard i fältet :guilabel:`Target Record` "
+"fungerar för webhooks som kommer från en annan Odoo-databas. Den används för"
+" att bestämma vilken post som ska uppdateras med hjälp av informationen i "
+"nyttolasten."
 
 #: ../../content/applications/studio/automated_actions.rst:175
 msgid ""
@@ -560,6 +712,11 @@ msgid ""
 " :guilabel:`Target record` field must contain any valid code, but its result"
 " doesn't have any effect on the automated action itself."
 msgstr ""
+"Om du vill använda webhookens innehåll i ett annat syfte än att hitta "
+"posten/posterna (t.ex. *skapa* en post) är ditt enda alternativ att använda "
+"en :ref:`studio/automated-actions/action/python-code`-åtgärd. I det här "
+"fallet måste fältet :guilabel:`Target record` innehålla en giltig kod, men "
+"dess resultat har ingen effekt på själva den automatiserade åtgärden."
 
 #: ../../content/applications/studio/automated_actions.rst:179
 msgid ""
@@ -567,6 +724,9 @@ msgid ""
 " variable (i.e., a dictionary that contains the GET parameters or POST JSON "
 "body of the incoming request)."
 msgstr ""
+"Innehållet i webhooken finns tillgängligt i serverns åtgärdskontext som en "
+"variabel \"payload\" (dvs. en ordbok som innehåller GET-parametrarna eller "
+"POST JSON-kroppen i den inkommande begäran)."
 
 #: ../../content/applications/studio/automated_actions.rst:182
 msgid ""
@@ -576,10 +736,16 @@ msgid ""
 "issues that may arise. To access the logs, click the :guilabel:`Logs` smart "
 "button at the top of the :guilabel:`Automation rules` form."
 msgstr ""
+"Du kan också välja att :guilabel:`Logga anrop` för att registrera de "
+"mottagna nyttoladdningarna, t.ex. för att se till att de data som skickas av"
+" källsystemet matchar det förväntade formatet och innehållet. Detta hjälper "
+"också till att identifiera och diagnostisera eventuella problem som kan "
+"uppstå. För att komma åt loggarna klickar du på den smarta knappen "
+":guilabel:`Logs` högst upp i formuläret :guilabel:`Automation rules`."
 
 #: ../../content/applications/studio/automated_actions.rst:190
-msgid "Actions"
-msgstr "Åtgärder"
+msgid "Actions To Do"
+msgstr "Åtgärder att vidta"
 
 #: ../../content/applications/studio/automated_actions.rst:192
 msgid ""
@@ -587,6 +753,9 @@ msgid ""
 "actions/trigger>`, click :guilabel:`Add an action` to define the action to "
 "be executed."
 msgstr ""
+"När du har definierat automatiseringsregelns :ref:`trigger "
+"<studio/automated-actions/trigger>` klickar du på :guilabel:`Add an action` "
+"för att definiera den åtgärd som ska utföras."
 
 #: ../../content/applications/studio/automated_actions.rst:196
 msgid ""
@@ -598,6 +767,13 @@ msgid ""
 " record` action, the email uses the values set *before* the update action is"
 " run."
 msgstr ""
+"Du kan definiera flera åtgärder för samma utlösare/automatiseringsregel. "
+"Åtgärderna utförs i den ordning de har definierats. Det innebär t.ex. att om"
+" du definierar en åtgärd :guilabel:`Update record` och sedan en åtgärd "
+":guilabel:`Send email`, så används de uppdaterade värdena i "
+"e-postmeddelandet. Men om åtgärden :guilabel:`Send email` definieras före "
+"åtgärden :guilabel:`Update record`, använder e-postmeddelandet de värden som"
+" ställts in *innan* uppdateringsåtgärden körs."
 
 #: ../../content/applications/studio/automated_actions.rst:206
 msgid "Update Record"
@@ -610,13 +786,17 @@ msgid ""
 "the field to be updated; click the right arrow next to the field name to "
 "access the list of related fields if needed."
 msgstr ""
+"Denna åtgärd gör det möjligt att uppdatera ett av postens (relaterade) fält."
+" Klicka på fältet :guilabel:`Update` och välj eller sök efter det fält som "
+"ska uppdateras i den lista som öppnas; klicka på högerpilen bredvid "
+"fältnamnet för att komma till listan över relaterade fält om det behövs."
 
 #: ../../content/applications/studio/automated_actions.rst:212
 msgid ""
-"If you selected a :ref:`many2many field <studio/fields/relational-"
-"fields/many2many>`, choose whether the field must be updated by "
-":guilabel:`Adding`, :guilabel:`Removing`, or :guilabel:`Setting it to` the "
-"selected value or by :guilabel:`Clearing it`."
+"If you selected a :ref:`many2many field <studio/fields/relational-fields-"
+"many2many>`, choose whether the field must be updated by :guilabel:`Adding`,"
+" :guilabel:`Removing`, or :guilabel:`Setting it to` the selected value or by"
+" :guilabel:`Clearing it`."
 msgstr ""
 
 #: ../../content/applications/studio/automated_actions.rst:217
@@ -625,10 +805,13 @@ msgid ""
 "set the :guilabel:`Update` field to :guilabel:`Customer > Tags`, select "
 ":guilabel:`By Removing`, then select the tag."
 msgstr ""
+"Om du vill att den automatiska åtgärden ska ta bort en tagg från kundposten "
+"ställer du in fältet :guilabel:`Update` på :guilabel:`Customer > Tags`, "
+"väljer :guilabel:`By Removing` och markerar sedan taggen."
 
 #: ../../content/applications/studio/automated_actions.rst:0
 msgid "Example of an Update Record action"
-msgstr ""
+msgstr "Exempel på en Update Record-åtgärd"
 
 #: ../../content/applications/studio/automated_actions.rst:225
 msgid ""
@@ -636,7 +819,7 @@ msgid ""
 "code. To do so, select :guilabel:`Compute` instead of :guilabel:`Update`, "
 "then enter the code to be used for computing the field's value. For example,"
 " if you want the automation rule to compute a custom :ref:`datetime field "
-"<studio/fields/simple-fields/date-time>` when a task's priority is set to "
+"<studio/fields/simple-fields-date-time>` when a task's priority is set to "
 "`High` (by starring the task), you can define the trigger "
 ":guilabel:`Priority is set to` to `High` and define the :guilabel:`Update "
 "Record` action as follows:"
@@ -644,7 +827,7 @@ msgstr ""
 
 #: ../../content/applications/studio/automated_actions.rst:0
 msgid "Compute a custom datetime field using a Python expression"
-msgstr ""
+msgstr "Beräkna ett anpassat datetime-fält med hjälp av ett Python-uttryck"
 
 #: ../../content/applications/studio/automated_actions.rst:236
 msgid "Create Activity"
@@ -657,18 +840,28 @@ msgid ""
 "then specify when you want the activity to be scheduled in the "
 ":guilabel:`Due Date In` field, and select a :guilabel:`User type`:"
 msgstr ""
+"Den här åtgärden används för att schemalägga en ny aktivitet som är kopplad "
+"till posten. Välj en :guilabel:`Activity Type`, ange en :guilabel:`Title` "
+"och en beskrivning, ange sedan när du vill att aktiviteten ska schemaläggas "
+"i fältet :guilabel:`Due Date In` och välj en :guilabel:`User type`:"
 
 #: ../../content/applications/studio/automated_actions.rst:242
 msgid ""
 "To always assign the activity to the same user, select :guilabel:`Specific "
 "User` and add the user in the :guilabel:`Responsible` field;"
 msgstr ""
+"Om du alltid vill tilldela aktiviteten till samma användare väljer du "
+":guilabel:`Specific User` och lägger till användaren i fältet "
+":guilabel:`Responsible`;"
 
 #: ../../content/applications/studio/automated_actions.rst:244
 msgid ""
 "To target a user linked to the record dynamically, select :guilabel:`Dynamic"
 " User (based on record)` and change the :guilabel:`User Field` if necessary."
 msgstr ""
+"Om du vill rikta in dig på en användare som är dynamiskt kopplad till posten"
+" väljer du :guilabel:`Dynamic User (based on record)` och ändrar "
+":guilabel:`User Field` om det behövs."
 
 #: ../../content/applications/studio/automated_actions.rst:248
 msgid ""
@@ -677,14 +870,18 @@ msgid ""
 ":guilabel:`Activity Type` to :guilabel:`Call` and the :guilabel:`User Type` "
 "to :guilabel:`Dynamic User (based on record)`."
 msgstr ""
+"När ett lead har omvandlats till en möjlighet vill du att den automatiska "
+"åtgärden ska ringa upp den användare som är ansvarig för leadet. Det gör du "
+"genom att ange :guilabel:`Activity Type` till :guilabel:`Call` och "
+":guilabel:`User Type` till :guilabel:`Dynamic User (based on record)`."
 
 #: ../../content/applications/studio/automated_actions.rst:0
 msgid "Example of a Create Activity action"
-msgstr ""
+msgstr "Exempel på en åtgärd för att skapa en aktivitet"
 
 #: ../../content/applications/studio/automated_actions.rst:256
 msgid "Send Email and Send SMS"
-msgstr ""
+msgstr "Skicka e-post och skicka SMS"
 
 #: ../../content/applications/studio/automated_actions.rst:258
 msgid ""
@@ -694,30 +891,44 @@ msgid ""
 " As` or :guilabel:`Send SMS As` field, choose how you want to send the email"
 " or text message:"
 msgstr ""
+"Dessa åtgärder används för att skicka ett e-postmeddelande eller ett "
+"textmeddelande till en kontakt som är kopplad till en viss post. Det gör du "
+"genom att välja eller skapa en :guilabel:`Email Template` eller en "
+":guilabel:`SMS Template` och sedan välja hur du vill skicka "
+"e-postmeddelandet eller textmeddelandet i fältet :guilabel:`Send Email As` "
+"eller :guilabel:`Send SMS As`:"
 
 #: ../../content/applications/studio/automated_actions.rst:263
 msgid ""
 ":guilabel:`Email`: to send the message as an email to the recipients of the "
 ":guilabel:`Email Template`."
 msgstr ""
+":guilabel:`Email`: för att skicka meddelandet som ett e-postmeddelande till "
+"mottagarna i :guilabel:`Email Template`."
 
 #: ../../content/applications/studio/automated_actions.rst:265
 msgid ""
 ":guilabel:`Message`: to post the message on the record and notify the "
 "record's followers."
 msgstr ""
+":guilabel:`Message`: för att lägga upp meddelandet på posten och meddela "
+"postens följare."
 
 #: ../../content/applications/studio/automated_actions.rst:266
 msgid ""
 ":guilabel:`Note`: to send the message as an internal note visible to "
 "internal users in the chatter."
 msgstr ""
+":guilabel:`Note`: för att skicka meddelandet som en intern anteckning som är"
+" synlig för interna användare i chatten."
 
 #: ../../content/applications/studio/automated_actions.rst:268
 msgid ""
 ":guilabel:`SMS (without note)`: to send the message as a text message to the"
 " recipients of the :guilabel:`SMS template`."
 msgstr ""
+":guilabel:`SMS (utan anteckning)`: för att skicka meddelandet som ett "
+"textmeddelande till mottagarna av :guilabel:`SMS-mallen`."
 
 #: ../../content/applications/studio/automated_actions.rst:270
 msgid ""
@@ -725,21 +936,28 @@ msgid ""
 "recipients of the :guilabel:`SMS template` and post it as an internal note "
 "in the chatter."
 msgstr ""
+":guilabel:`SMS (med anteckning)`: för att skicka meddelandet som ett "
+"textmeddelande till mottagarna av :guilabel:`SMS-mallen` och lägga upp det "
+"som en intern anteckning i chatten."
 
 #: ../../content/applications/studio/automated_actions.rst:272
 msgid ""
 ":guilabel:`Note only`: to only post the message as an internal note in the "
 "chatter."
 msgstr ""
+":guilabel:`Note only`: för att endast lägga upp meddelandet som en intern "
+"anteckning i chatten."
 
 #: ../../content/applications/studio/automated_actions.rst:277
 msgid "Add Followers and Remove Followers"
-msgstr ""
+msgstr "Lägg till följare och ta bort följare"
 
 #: ../../content/applications/studio/automated_actions.rst:279
 msgid ""
 "Use these actions to (un)subscribe existing contacts to/from the record."
 msgstr ""
+"Använd dessa åtgärder för att (av)prenumerera på befintliga kontakter "
+"till/från posten."
 
 #: ../../content/applications/studio/automated_actions.rst:282
 msgid "Create Record"
@@ -747,7 +965,7 @@ msgstr "Skapa rekord"
 
 #: ../../content/applications/studio/automated_actions.rst:284
 msgid "This action is used to create a new record on any model."
-msgstr ""
+msgstr "Denna åtgärd används för att skapa en ny post i en valfri modell."
 
 #: ../../content/applications/studio/automated_actions.rst:286
 msgid ""
@@ -757,13 +975,18 @@ msgid ""
 "a field in the :guilabel:`Link Field` field to link the record that "
 "triggered the creation of the new record."
 msgstr ""
+"Välj önskad modell i fältet :guilabel:`Record to Create`; som standard "
+"innehåller det den aktuella modellen. Ange ett :guilabel:`Name` för posten, "
+"och om du vill skapa posten i en annan modell väljer du ett fält i fältet "
+":guilabel:`Link Field` för att länka den post som utlöste skapandet av den "
+"nya posten."
 
 #: ../../content/applications/studio/automated_actions.rst:292
 msgid ""
 "The dropdown list related to the :guilabel:`Link Field` field only contains "
-":ref:`one2many fields <studio/fields/relational-fields/one2many>` existing "
+":ref:`one2many fields <studio/fields/relational-fields-one2many>` existing "
 "on the current model that are linked to a :ref:`many2one field "
-"<studio/fields/relational-fields/many2one>` on the target model."
+"<studio/fields/relational-fields-many2one>` on the target model."
 msgstr ""
 
 #: ../../content/applications/studio/automated_actions.rst:297
@@ -774,6 +997,11 @@ msgid ""
 "to create a new project task and then assign it to a specific user using an "
 ":guilabel:`Update Record` action."
 msgstr ""
+"Du kan skapa en annan automatiseringsregel med :ref:`studio/automated-"
+"actions/action/update-record`-åtgärder för att uppdatera fälten i den nya "
+"posten om det behövs. Du kan t.ex. använda en åtgärd :guilabel:`Create "
+"Record` för att skapa en ny projektuppgift och sedan tilldela den till en "
+"viss användare med hjälp av en åtgärd :guilabel:`Update Record`."
 
 #: ../../content/applications/studio/automated_actions.rst:305
 msgid "Execute Code"
@@ -784,64 +1012,78 @@ msgid ""
 "This action is used to execute Python code. You can write your code into the"
 " :guilabel:`Code` tab using the following variables:"
 msgstr ""
+"Denna åtgärd används för att exekvera Python-kod. Du kan skriva din kod i "
+"fliken :guilabel:`Code` med hjälp av följande variabler:"
 
 #: ../../content/applications/studio/automated_actions.rst:310
 msgid "`env`: environment on which the action is triggered"
-msgstr ""
+msgstr "`env`: miljö där åtgärden utlöses"
 
 #: ../../content/applications/studio/automated_actions.rst:311
 msgid ""
 "`model`: model of the record on which the action is triggered; is a void "
 "recordset"
 msgstr ""
+"`model`: modell av den post där åtgärden utlöses; är en void recordset"
 
 #: ../../content/applications/studio/automated_actions.rst:312
 msgid "`record`: record on which the action is triggered; may be void"
-msgstr ""
+msgstr "post: post där åtgärden utlöses; kan vara ogiltig"
 
 #: ../../content/applications/studio/automated_actions.rst:313
 msgid ""
 "`records`: recordset of all records on which the action is triggered in "
 "multi-mode; this may be left empty"
 msgstr ""
+"`records`: postmängd av alla poster som åtgärden utlöses på i multiläge; "
+"detta kan lämnas tomt"
 
 #: ../../content/applications/studio/automated_actions.rst:315
 msgid "`time`, `datetime`, `dateutil`, `timezone`: useful Python libraries"
 msgstr ""
+"`time`, `datetime`, `dateutil`, `timezone`: användbara Python-bibliotek"
 
 #: ../../content/applications/studio/automated_actions.rst:316
 msgid ""
 "`float_compare`: utility function to compare floats based on specific "
 "precision"
 msgstr ""
+"`float_compare`: verktygsfunktion för att jämföra flyttal baserat på "
+"specifik precision"
 
 #: ../../content/applications/studio/automated_actions.rst:317
 msgid ""
 "`log(message, level='info')`: logging function to record debug information "
 "in ir.logging table"
 msgstr ""
+"`log(message, level='info')`: loggningsfunktion för att registrera "
+"felsökningsinformation i ir.logging-tabellen"
 
 #: ../../content/applications/studio/automated_actions.rst:319
 msgid "`_logger.info(message)`: logger to emit messages in server logs"
 msgstr ""
+"`_logger.info(message)`: logger för att skicka meddelanden i serverloggar"
 
 #: ../../content/applications/studio/automated_actions.rst:320
 msgid "`UserError`: exception class for raising user-facing warning messages"
 msgstr ""
+"`UserError`: undantagsklass för varningsmeddelanden riktade till användaren"
 
 #: ../../content/applications/studio/automated_actions.rst:321
 msgid "`Command`: x2many commands namespace"
-msgstr ""
+msgstr "`Command`: x2many kommandon namnområde"
 
 #: ../../content/applications/studio/automated_actions.rst:322
 msgid "`action = {...}`: to return an action"
-msgstr ""
+msgstr "`action = {...}`: för att returnera en åtgärd"
 
 #: ../../content/applications/studio/automated_actions.rst:325
 msgid ""
 "The available variables are described both in the :guilabel:`Code` and "
 ":guilabel:`Help` tabs."
 msgstr ""
+"De tillgängliga variablerna beskrivs både i flikarna :guilabel:`Code` och "
+":guilabel:`Help`."
 
 #: ../../content/applications/studio/automated_actions.rst:328
 msgid "Send Webhook Notification"
@@ -852,6 +1094,8 @@ msgid ""
 "This action allows to send a POST request with the values of the "
 ":guilabel:`Fields` to the URL specified in the :guilabel:`URL` field."
 msgstr ""
+"Denna åtgärd gör det möjligt att skicka en POST-begäran med värdena i "
+":guilabel:`Fields` till den URL som anges i fältet :guilabel:`URL`."
 
 #: ../../content/applications/studio/automated_actions.rst:333
 msgid ""
@@ -859,6 +1103,9 @@ msgid ""
 "the request using a random record's data or dummy data if no record is "
 "available."
 msgstr ""
+":guilabel:`Sample Payload` ger en förhandsvisning av de data som ingår i "
+"begäran med hjälp av data från en slumpmässig post eller dummydata om ingen "
+"post finns tillgänglig."
 
 #: ../../content/applications/studio/automated_actions.rst:339
 msgid "Execute Existing Actions"
@@ -871,6 +1118,10 @@ msgid ""
 ":guilabel:`Add: Child Actions` pop-up, select an existing action or click "
 ":guilabel:`New` to create a new one."
 msgstr ""
+"Åtgärden används för att utlösa flera åtgärder (kopplade till den aktuella "
+"modellen) samtidigt. För att göra detta klickar du på :guilabel:`Add a line`"
+" och sedan, i popup-fönstret :guilabel:`Add: Child Actions\", välj en "
+"befintlig åtgärd eller klicka på :guilabel:`New` för att skapa en ny."
 
 #: ../../content/applications/studio/fields.rst:3
 msgid "Fields and widgets"
@@ -922,12 +1173,10 @@ msgstr ""
 "Enkla fält innehåller grundläggande värden, t.ex. text, siffror, filer etc."
 
 #: ../../content/applications/studio/fields.rst:26
-#: ../../content/applications/studio/fields.rst:325
 msgid ""
-"Non-default widgets, when available, are presented as bullet points below."
+"Non-default widgets, when available, are presented as bullet points or sub-"
+"headings below."
 msgstr ""
-"Widgetar som inte är standard, när sådana finns, presenteras som punktlistor"
-" nedan."
 
 #: ../../content/applications/studio/fields.rst:31
 msgid "Text (`char`)"
@@ -942,7 +1191,7 @@ msgstr ""
 "tecken. En textrad visas när fältet fylls i."
 
 #: ../../content/applications/studio/fields.rst:36
-#: ../../content/applications/studio/fields.rst:220
+#: ../../content/applications/studio/fields.rst:258
 msgid ""
 ":guilabel:`Badge`: displays the value inside a rounded shape, similar to a "
 "tag. The value cannot be edited on the UI, but a default value can be set."
@@ -952,7 +1201,7 @@ msgstr ""
 "anges."
 
 #: ../../content/applications/studio/fields.rst:38
-#: ../../content/applications/studio/fields.rst:71
+#: ../../content/applications/studio/fields.rst:70
 msgid ""
 ":guilabel:`Copy to Clipboard`: users can copy the value by clicking a "
 "button."
@@ -975,14 +1224,10 @@ msgstr ""
 #: ../../content/applications/studio/fields.rst:44
 msgid ""
 "This works differently than selecting the :ref:`Image field "
-"<studio/fields/simple-fields/image>` directly, as the image is not stored in"
+"<studio/fields/simple-fields-image>` directly, as the image is not stored in"
 " Odoo when using a :guilabel:`Text` field with the :guilabel:`Image` widget."
 " For example, it can be useful if you want to save disk space."
 msgstr ""
-"Detta fungerar annorlunda än att välja :ref:`Bildfält <studio/fields/simple-"
-"fields/image>` direkt, eftersom bilden inte lagras i Odoo när du använder "
-"ett :guilabel:`Text`-fält med :guilabel:`Bild`-widgeten. Det kan till "
-"exempel vara användbart om du vill spara diskutrymme."
 
 #: ../../content/applications/studio/fields.rst:49
 msgid ":guilabel:`Phone`: the value becomes a clickable *tel* link."
@@ -1004,11 +1249,11 @@ msgstr ":guilabel:`URL`: värdet blir en klickbar URL."
 msgid "Examples of Text fields with different widgets"
 msgstr "Exempel på textfält med olika widgets"
 
-#: ../../content/applications/studio/fields.rst:66
+#: ../../content/applications/studio/fields.rst:65
 msgid "Multiline Text (`text`)"
 msgstr "Text med flera rader (`text`)"
 
-#: ../../content/applications/studio/fields.rst:68
+#: ../../content/applications/studio/fields.rst:67
 msgid ""
 "The :guilabel:`Multiline Text` field is used for longer text containing any "
 "type of character. Two text lines are displayed on the UI when filling out "
@@ -1022,11 +1267,11 @@ msgstr ""
 msgid "Examples of Multiline Text fields with different widgets"
 msgstr "Exempel på flerradiga textfält med olika widgetar"
 
-#: ../../content/applications/studio/fields.rst:82
+#: ../../content/applications/studio/fields.rst:80
 msgid "Integer (`integer`)"
 msgstr "Heltal (`integer`)"
 
-#: ../../content/applications/studio/fields.rst:84
+#: ../../content/applications/studio/fields.rst:82
 msgid ""
 "The :guilabel:`Integer` field is used for all integer numbers "
 "(:dfn:`positive, negative, or zero, without a decimal`)."
@@ -1034,7 +1279,7 @@ msgstr ""
 "Fältet :guilabel:`Integer` används för alla heltal (:dfn:`positivt, "
 "negativt, eller noll, utan decimal`)."
 
-#: ../../content/applications/studio/fields.rst:87
+#: ../../content/applications/studio/fields.rst:85
 msgid ""
 ":guilabel:`Percentage Pie`: displays the value inside a percentage circle, "
 "usually for a computed value. The value cannot be edited on the UI, but a "
@@ -1044,8 +1289,8 @@ msgstr ""
 "för ett beräknat värde. Värdet kan inte redigeras i användargränssnittet, "
 "men ett standardvärde kan anges."
 
-#: ../../content/applications/studio/fields.rst:89
-#: ../../content/applications/studio/fields.rst:118
+#: ../../content/applications/studio/fields.rst:87
+#: ../../content/applications/studio/fields.rst:115
 msgid ""
 ":guilabel:`Progress Bar`: displays the value next to a percentage bar, "
 "usually for a computed value. The field cannot be edited manually, but a "
@@ -1055,7 +1300,7 @@ msgstr ""
 "vanligtvis för ett beräknat värde. Fältet kan inte redigeras manuellt, men "
 "ett standardvärde kan anges."
 
-#: ../../content/applications/studio/fields.rst:91
+#: ../../content/applications/studio/fields.rst:89
 msgid ""
 ":guilabel:`Handle`: displays a drag handle icon to order records manually in"
 " :ref:`List view <studio/views/multiple-records/list>`."
@@ -1067,11 +1312,11 @@ msgstr ""
 msgid "Examples of Integer fields with different widgets"
 msgstr "Exempel på heltalsfält med olika widgets"
 
-#: ../../content/applications/studio/fields.rst:103
+#: ../../content/applications/studio/fields.rst:100
 msgid "Decimal (`float`)"
 msgstr "Decimal (`float`)"
 
-#: ../../content/applications/studio/fields.rst:105
+#: ../../content/applications/studio/fields.rst:102
 msgid ""
 "The :guilabel:`Decimal` field is used for all decimal numbers "
 "(:dfn:`positive, negative, or zero, with a decimal`)."
@@ -1079,7 +1324,7 @@ msgstr ""
 "Fältet :guilabel:`Decimal` används för alla decimaltal (:dfn:`positiv, "
 "negativ eller noll, med decimal`)."
 
-#: ../../content/applications/studio/fields.rst:109
+#: ../../content/applications/studio/fields.rst:106
 msgid ""
 "Decimal numbers are displayed with two decimals after the decimal point on "
 "the UI, but they are stored in the database with more precision."
@@ -1087,22 +1332,19 @@ msgstr ""
 "Decimaltal visas med två decimaler efter decimaltecknet på "
 "användargränssnittet, men de lagras i databasen med större precision."
 
-#: ../../content/applications/studio/fields.rst:112
+#: ../../content/applications/studio/fields.rst:109
 msgid ""
 ":guilabel:`Monetary`: it is similar to using the :ref:`Monetary field "
-"<studio/fields/simple-fields/monetary>`. It is recommended to use the later "
-"as it offers more functionalities."
+"<studio/fields/simple-fields-monetary>`. It is recommended to use the latter"
+" as it offers more functionalities."
 msgstr ""
-":guilabel:`Monetary`: det liknar att använda :ref:`Monetary-fältet "
-"<studio/fields/simple-fields/monetary>`. Vi rekommenderar att du använder "
-"den senare eftersom den erbjuder fler funktioner."
 
-#: ../../content/applications/studio/fields.rst:115
+#: ../../content/applications/studio/fields.rst:112
 msgid ""
 ":guilabel:`Percentage`: displays a percent character `%` after the value."
 msgstr ":guilabel:`Percentage`: visar ett procenttecken `%` efter värdet."
 
-#: ../../content/applications/studio/fields.rst:116
+#: ../../content/applications/studio/fields.rst:113
 msgid ""
 ":guilabel:`Percentage Pie`: displays the value inside a percentage circle, "
 "usually for a computed value. The field cannot be edited manually, but a "
@@ -1112,7 +1354,7 @@ msgstr ""
 "ett beräknat värde. Fältet kan inte redigeras manuellt, men ett "
 "standardvärde kan anges."
 
-#: ../../content/applications/studio/fields.rst:120
+#: ../../content/applications/studio/fields.rst:117
 msgid ""
 ":guilabel:`Time`: the value must follow the *hh:mm* format, with a maximum "
 "of 59 minutes."
@@ -1124,15 +1366,15 @@ msgstr ""
 msgid "Examples of Decimal fields with different widgets"
 msgstr "Exempel på decimalfält med olika widgets"
 
-#: ../../content/applications/studio/fields.rst:131
+#: ../../content/applications/studio/fields.rst:127
 msgid "Monetary (`monetary`)"
 msgstr "Monetära (`monetära`)"
 
-#: ../../content/applications/studio/fields.rst:133
+#: ../../content/applications/studio/fields.rst:129
 msgid "The :guilabel:`Monetary` field is used for all monetary values."
 msgstr "Fältet :guilabel:`Monetary` används för alla monetära värden."
 
-#: ../../content/applications/studio/fields.rst:136
+#: ../../content/applications/studio/fields.rst:132
 msgid ""
 "When you first add a :guilabel:`Monetary` field, you are prompted to add a "
 ":guilabel:`Currency` field if none exists already on the model. Odoo offers "
@@ -1148,11 +1390,11 @@ msgstr ""
 msgid "Example of a Monetary field along with its Currency field"
 msgstr "Exempel på ett monetärt fält tillsammans med dess valutafält"
 
-#: ../../content/applications/studio/fields.rst:149
+#: ../../content/applications/studio/fields.rst:144
 msgid "Html (`html`)"
 msgstr "Html (`html`)"
 
-#: ../../content/applications/studio/fields.rst:151
+#: ../../content/applications/studio/fields.rst:146
 msgid ""
 "The :guilabel:`Html` field is used to add text that can be edited using the "
 "Odoo HTML editor."
@@ -1160,7 +1402,7 @@ msgstr ""
 "Fältet :guilabel:`Html` används för att lägga till text som kan redigeras "
 "med Odoos HTML-redigerare."
 
-#: ../../content/applications/studio/fields.rst:153
+#: ../../content/applications/studio/fields.rst:148
 msgid ""
 ":guilabel:`Multiline Text`: disables the Odoo HTML editor to allow editing "
 "raw HTML."
@@ -1172,32 +1414,31 @@ msgstr ""
 msgid "Examples of Html fields with different widgets"
 msgstr "Exempel på Html-fält med olika widgets"
 
-#: ../../content/applications/studio/fields.rst:164
+#: ../../content/applications/studio/fields.rst:158
 msgid "Date (`date`)"
 msgstr "Datum (`datum`)"
 
-#: ../../content/applications/studio/fields.rst:166
+#: ../../content/applications/studio/fields.rst:160
 msgid "The :guilabel:`Date` field is used to select a date on a calendar."
 msgstr ""
 "Fältet :guilabel:`Date` används för att välja ett datum i en kalender."
 
-#: ../../content/applications/studio/fields.rst:168
+#: ../../content/applications/studio/fields.rst:162
 msgid ""
 ":guilabel:`Remaining Days`: the remaining number of days before the selected"
-" date is displayed (e.g., *In 5 days*), based on the current date."
+" date is displayed (e.g., *In 5 days*), based on the current date. This "
+"field should be set to :guilabel:`Read only`."
 msgstr ""
-":guilabel:`Remaining Days`: det återstående antalet dagar innan det valda "
-"datumet visas (t.ex. *In 5 days*), baserat på det aktuella datumet."
 
 #: ../../content/applications/studio/fields.rst:0
 msgid "Examples of Date fields with different widgets"
 msgstr "Exempel på datumfält med olika widgetar"
 
-#: ../../content/applications/studio/fields.rst:180
+#: ../../content/applications/studio/fields.rst:173
 msgid "Date & Time (`datetime`)"
 msgstr "Datum och tid (`datetime`)"
 
-#: ../../content/applications/studio/fields.rst:182
+#: ../../content/applications/studio/fields.rst:175
 msgid ""
 "The :guilabel:`Date & Time` field is used to select a date on a calendar and"
 " a time on a clock. The user's current time is automatically used if no time"
@@ -1207,31 +1448,116 @@ msgstr ""
 " och en tid i en klocka. Användarens aktuella tid används automatiskt om "
 "ingen tid anges."
 
-#: ../../content/applications/studio/fields.rst:185
+#: ../../content/applications/studio/fields.rst:180
 msgid ""
-":guilabel:`Date`: used to record the time without displaying it on the UI."
+"As well as :ref:`general properties <studio/fields/properties>`, some "
+":ref:`specific properties <studio/fields/properties-date-datetime>` are "
+"available for :guilabel:`Date & Time` fields that have the :guilabel:`Date &"
+" Time` or :guilabel:`Date Range` widget set."
 msgstr ""
-":guilabel:`Date`: används för att registrera tiden utan att visa den på "
-"användargränssnittet."
 
 #: ../../content/applications/studio/fields.rst:186
-msgid ""
-":guilabel:`Remaining days`: displays the remaining number of days before the"
-" selected date (e.g., *In 5 days*), based on the current date and time."
+msgid "Date Range (`daterange`)"
 msgstr ""
-":guilabel:`Resterande dagar`: visar det återstående antalet dagar före det "
-"valda datumet (t.ex. *Om 5 dagar*), baserat på aktuellt datum och aktuell "
-"tid."
+
+#: ../../content/applications/studio/fields.rst:188
+msgid ""
+"The :guilabel:`Date Range` widget is used to display a period of time "
+"defined by a start date and an end date in a single line. A date range can "
+"have a mandatory start and end date, e.g., for a multi-day event, or allow "
+"an optional start or end date, e.g., for a field service intervention or a "
+"project task."
+msgstr ""
+
+#: ../../content/applications/studio/fields.rst:193
+msgid ""
+"Adding a date range requires two fields: a :guilabel:`Date & Time` field "
+"with the :guilabel:`Date Range` widget set and another field that is "
+"selected as the start date *or* end date. This underlying field can be an "
+"existing :ref:`Date <studio/fields/simple-fields-date>` or :guilabel:`Date &"
+" Time` field, or one created specifically for this purpose."
+msgstr ""
+
+#: ../../content/applications/studio/fields.rst:198
+msgid "To add a date range:"
+msgstr ""
+
+#: ../../content/applications/studio/fields.rst:200
+msgid ""
+"Identify an existing :guilabel:`Date` or :guilabel:`Date & Time` field that "
+"can be used as the underlying start/end date field, or add a new one. If the"
+" date range:"
+msgstr ""
+
+#: ../../content/applications/studio/fields.rst:203
+msgid ""
+"has a mandatory start date and end date, this field can be either the start "
+"date or end date; the outcome is the same."
+msgstr ""
+
+#: ../../content/applications/studio/fields.rst:205
+msgid ""
+"allows an optional start or end date, this field is the start date or end "
+"date, respectively."
+msgstr ""
+
+#: ../../content/applications/studio/fields.rst:208
+msgid ""
+"To avoid displaying the same information twice, the underlying start/end "
+"date field can be made invisible by enabling :guilabel:`Invisible` or "
+"removed from the view by clicking :guilabel:`Remove from view`."
+msgstr ""
+
+#: ../../content/applications/studio/fields.rst:212
+msgid ""
+"Add a :guilabel:`Date & Time` field and set the :guilabel:`Widget` field to "
+":guilabel:`Date Range`."
+msgstr ""
+
+#: ../../content/applications/studio/fields.rst:214
+msgid "Enter an appropriate :guilabel:`Label`."
+msgstr ""
+
+#: ../../content/applications/studio/fields.rst:215
+msgid ""
+"Select the underlying start/end date field from the :guilabel:`Start date "
+"field` or :guilabel:`End date field` dropdown, as relevant."
+msgstr ""
+
+#: ../../content/applications/studio/fields.rst:217
+msgid ""
+"If the date range should have a mandatory start and end date, enable "
+":guilabel:`Always range`."
+msgstr ""
+
+#: ../../content/applications/studio/fields.rst:218
+msgid ""
+"Update any other :ref:`general properties <studio/fields/properties>` or "
+"specific :ref:`properties for Date & Time fields <studio/fields/properties-"
+"date-datetime>` as needed, then click :guilabel:`Close` in the upper right "
+"corner of the screen."
+msgstr ""
 
 #: ../../content/applications/studio/fields.rst:0
 msgid "Examples of Date & Time fields with different widgets"
 msgstr "Exempel på datum- och tidsfält med olika widgetar"
 
-#: ../../content/applications/studio/fields.rst:198
+#: ../../content/applications/studio/fields.rst:228
+msgid "Remaining Days (`remaining_days`)"
+msgstr ""
+
+#: ../../content/applications/studio/fields.rst:230
+msgid ""
+"The :guilabel:`Remaining Days` widget displays the remaining number of days "
+"before the selected date (e.g., *In 5 days*), based on the current date and "
+"time. This field should be set to :guilabel:`Read only`."
+msgstr ""
+
+#: ../../content/applications/studio/fields.rst:237
 msgid "Checkbox (`boolean`)"
 msgstr "Kryssruta (`boolean`)"
 
-#: ../../content/applications/studio/fields.rst:200
+#: ../../content/applications/studio/fields.rst:239
 msgid ""
 "The :guilabel:`Checkbox` field is used when a value should only be true or "
 "false, indicated by checking or unchecking a checkbox."
@@ -1239,7 +1565,7 @@ msgstr ""
 "Fältet :guilabel:`Checkbox` används när ett värde endast ska vara sant eller"
 " falskt, vilket anges genom att markera eller avmarkera en kryssruta."
 
-#: ../../content/applications/studio/fields.rst:203
+#: ../../content/applications/studio/fields.rst:242
 msgid ""
 ":guilabel:`Button`: displays a radio button. The widget works without "
 "switching to the edit mode."
@@ -1247,7 +1573,7 @@ msgstr ""
 ":guilabel:`Button`: visar en radioknapp. Widgeten fungerar utan att växla "
 "till redigeringsläget."
 
-#: ../../content/applications/studio/fields.rst:204
+#: ../../content/applications/studio/fields.rst:243
 msgid ""
 ":guilabel:`Toggle`: displays a toggle button. The widget works without "
 "switching to the edit mode."
@@ -1259,11 +1585,11 @@ msgstr ""
 msgid "Examples of Checkbox fields with different widgets"
 msgstr "Exempel på kryssrutor med olika widgetar"
 
-#: ../../content/applications/studio/fields.rst:215
+#: ../../content/applications/studio/fields.rst:253
 msgid "Selection (`selection`)"
 msgstr "Urval (`urval`)"
 
-#: ../../content/applications/studio/fields.rst:217
+#: ../../content/applications/studio/fields.rst:255
 msgid ""
 "The :guilabel:`Selection` field is used when users should select a single "
 "value from a group of predefined values."
@@ -1271,7 +1597,7 @@ msgstr ""
 "Fältet :guilabel:`Selection` används när användare ska välja ett enskilt "
 "värde från en grupp fördefinierade värden."
 
-#: ../../content/applications/studio/fields.rst:222
+#: ../../content/applications/studio/fields.rst:260
 msgid ""
 ":guilabel:`Badges`: displays all selectable values simultaneously inside "
 "rectangular shapes, organized horizontally."
@@ -1279,65 +1605,62 @@ msgstr ""
 ":guilabel:`Badges`: visar alla valbara värden samtidigt i rektangulära "
 "former, organiserade horisontellt."
 
-#: ../../content/applications/studio/fields.rst:224
+#: ../../content/applications/studio/fields.rst:262
 msgid ""
 ":guilabel:`Priority`: displays star symbols instead of values, which can be "
 "used to indicate an importance or satisfaction level, for example. This has "
 "the same effect as selecting the :ref:`Priority field <studio/fields/simple-"
-"fields/priority>`, although, for the latter, four priority values are "
+"fields-priority>`, although, for the latter, four priority values are "
 "already predefined."
 msgstr ""
-":guilabel:`Priority`: visar stjärnsymboler istället för värden, som kan "
-"användas för att indikera t.ex. en viktighets- eller nöjdhetsnivå. Detta har"
-" samma effekt som att välja :ref:`Prioritetsfält <studio/fields/simple-"
-"fields/priority>`, men för det senare är fyra prioritetsvärden redan "
-"fördefinierade."
 
-#: ../../content/applications/studio/fields.rst:228
-#: ../../content/applications/studio/fields.rst:352
+#: ../../content/applications/studio/fields.rst:266
+#: ../../content/applications/studio/fields.rst:392
 msgid ""
 ":guilabel:`Radio`: displays all selectable values at the same time as radio "
 "buttons."
 msgstr ""
 ":guilabel:`Radio`: visar alla valbara värden samtidigt som radioknappar."
 
-#: ../../content/applications/studio/fields.rst:231
+#: ../../content/applications/studio/fields.rst:269
 msgid ""
-"By default, radio buttons are organized vertically. Tick :guilabel:`display "
-"horizontally` to switch the way they are displayed."
+"By default, radio buttons are organized vertically. Enable "
+":guilabel:`Display horizontally` to switch the way they are displayed."
 msgstr ""
-"Som standard är radioknapparna organiserade vertikalt. Markera "
-":guilabel:`display horizontally` för att ändra hur de visas."
+
+#: ../../content/applications/studio/fields.rst:272
+msgid ""
+":guilabel:`Status Bar`: displays all selectable values at the same time as "
+"an arrow progress bar."
+msgstr ""
+
+#: ../../content/applications/studio/fields.rst:275
+msgid ""
+"By default, values on the status bar are selectable. Disable "
+":guilabel:`Clickable` to prevent the value being edited on the UI."
+msgstr ""
 
 #: ../../content/applications/studio/fields.rst:0
 msgid "Examples of Selection fields with different widgets"
 msgstr "Exempel på urvalsfält med olika widgetar"
 
-#: ../../content/applications/studio/fields.rst:243
+#: ../../content/applications/studio/fields.rst:286
 msgid "Priority (`selection`)"
 msgstr "Prioritet (`urval`)"
 
-#: ../../content/applications/studio/fields.rst:245
+#: ../../content/applications/studio/fields.rst:288
 msgid ""
 "The :guilabel:`Priority` field is used to display a three-star rating "
 "system, which can be used to indicate importance or satisfaction level. This"
-" field type is a :ref:`Selection field <studio/fields/simple-"
-"fields/selection>` with the :guilabel:`Priority` widget selected by default "
-"and four priority values predefined. Consequently, the :guilabel:`Badge`, "
+" field type is a :ref:`Selection field <studio/fields/simple-fields-"
+"selection>` with the :guilabel:`Priority` widget selected by default and "
+"four priority values predefined. Consequently, the :guilabel:`Badge`, "
 ":guilabel:`Badges`, :guilabel:`Radio`, and :guilabel:`Selection` widgets "
 "have the same effects as described under :ref:`Selection "
-"<studio/fields/simple-fields/selection>`."
+"<studio/fields/simple-fields-selection>`."
 msgstr ""
-"Fältet :guilabel:`Priority` används för att visa ett trestjärnigt "
-"klassificeringssystem, som kan användas för att ange betydelse eller "
-"nöjdhetsnivå. Denna fälttyp är ett :ref:`Urvalsfält <studio/fields/simple-"
-"fields/selection>` med widgeten :guilabel:`Priority` vald som standard och "
-"fyra fördefinierade prioritetsvärden. Följaktligen har widgetarna "
-":guilabel:`Badge`, :guilabel:`Badges`, :guilabel:`Radio` och "
-":guilabel:`Selection` samma effekter som beskrivs under :ref:`Selection "
-"<studio/fields/simple-fields/selection>`."
 
-#: ../../content/applications/studio/fields.rst:253
+#: ../../content/applications/studio/fields.rst:296
 msgid ""
 "To change the number of available stars by adding or removing values, click "
 ":guilabel:`Edit Values`. Note that the first value is equal to 0 stars "
@@ -1353,11 +1676,11 @@ msgstr ""
 msgid "Example of a Priority field"
 msgstr "Exempel på ett prioriterat fält"
 
-#: ../../content/applications/studio/fields.rst:266
+#: ../../content/applications/studio/fields.rst:308
 msgid "File (`binary`)"
 msgstr "Fil (`binär`)"
 
-#: ../../content/applications/studio/fields.rst:268
+#: ../../content/applications/studio/fields.rst:310
 msgid ""
 "The :guilabel:`File` field is used to upload any type of file, or sign a "
 "form (:guilabel:`Sign` widget)."
@@ -1365,17 +1688,14 @@ msgstr ""
 "Fältet :guilabel:`File` används för att ladda upp valfri typ av fil, eller "
 "signera ett formulär (:guilabel:`Sign` widget)."
 
-#: ../../content/applications/studio/fields.rst:271
+#: ../../content/applications/studio/fields.rst:313
 msgid ""
 ":guilabel:`Image`: users can upload an image file, which is then displayed "
 "in :ref:`Form view <studio/views/general/form>`. This has the same effect as"
-" using the :ref:`Image field <studio/fields/simple-fields/image>`."
+" using the :ref:`Image field <studio/fields/simple-fields-image>`."
 msgstr ""
-":guilabel:`Image`: användare kan ladda upp en bildfil, som sedan visas i "
-":ref:`Formulärvy <studio/views/general/form>`. Detta har samma effekt som "
-"att använda :ref:`Image-fältet <studio/fields/simple-fields/image>`."
 
-#: ../../content/applications/studio/fields.rst:274
+#: ../../content/applications/studio/fields.rst:316
 msgid ""
 ":guilabel:`PDF Viewer`: users can upload a PDF file, which can be then "
 "browsed from the :ref:`Form view <studio/views/general/form>`."
@@ -1383,42 +1703,33 @@ msgstr ""
 ":guilabel:`PDF Viewer`: användare kan ladda upp en PDF-fil, som sedan kan "
 "läsas från :ref:`Formulärvyn <studio/views/general/form>`."
 
-#: ../../content/applications/studio/fields.rst:276
+#: ../../content/applications/studio/fields.rst:318
 msgid ""
 ":guilabel:`Sign`: users can electronically sign the form. This has the same "
-"effect as selecting the :ref:`Sign field <studio/fields/simple-"
-"fields/sign>`."
+"effect as selecting the :ref:`Sign field <studio/fields/simple-fields-"
+"sign>`."
 msgstr ""
-":guilabel:`Sign`: användare kan signera formuläret elektroniskt. Detta har "
-"samma effekt som att välja :ref:`Sign field <studio/fields/simple-"
-"fields/sign>`."
 
 #: ../../content/applications/studio/fields.rst:0
 msgid "Examples of File fields with different widgets"
 msgstr "Exempel på filfält med olika widgets"
 
-#: ../../content/applications/studio/fields.rst:288
+#: ../../content/applications/studio/fields.rst:329
 msgid "Image (`binary`)"
 msgstr "Bild (`binär`)"
 
-#: ../../content/applications/studio/fields.rst:290
+#: ../../content/applications/studio/fields.rst:331
 msgid ""
 "The :guilabel:`Image` field is used to upload an image and display it in "
 ":ref:`Form view <studio/views/general/form>`. This field type is a "
-":ref:`File field <studio/fields/simple-fields/file>` with the "
+":ref:`File field <studio/fields/simple-fields-file>` with the "
 ":guilabel:`Image` widget selected by default. Consequently, the "
 ":guilabel:`File`, :guilabel:`PDF Viewer`, and :guilabel:`Sign` widgets have "
-"the same effects as described under :ref:`File <studio/fields/simple-"
-"fields/file>`."
+"the same effects as described under :ref:`File <studio/fields/simple-fields-"
+"file>`."
 msgstr ""
-"Fältet :guilabel:`Image` används för att ladda upp en bild och visa den i "
-":ref:`Form view <studio/views/general/form>`. Denna fälttyp är ett "
-":ref:`File-fält <studio/fields/simple-fields/file>` med widgeten "
-":guilabel:`Image` vald som standard. Följaktligen har widgetarna "
-":guilabel:`File`, :guilabel:`PDF Viewer` och :guilabel:`Sign` samma effekter"
-" som beskrivs under :ref:`File <studio/fields/simple-fields/file>`."
 
-#: ../../content/applications/studio/fields.rst:297
+#: ../../content/applications/studio/fields.rst:338
 msgid ""
 "To change the display size of uploaded images, select :guilabel:`Small`, "
 ":guilabel:`Medium`, or :guilabel:`Large` under the :guilabel:`Size` option."
@@ -1427,46 +1738,35 @@ msgstr ""
 ":guilabel:`Small`, :guilabel:`Medium`, eller :guilabel:`Large` under "
 "alternativet :guilabel:`Size`."
 
-#: ../../content/applications/studio/fields.rst:303
+#: ../../content/applications/studio/fields.rst:344
 msgid "Sign (`binary`)"
 msgstr "Tecken (`binär`)"
 
-#: ../../content/applications/studio/fields.rst:305
+#: ../../content/applications/studio/fields.rst:346
 msgid ""
 "The :guilabel:`Sign` field is used to sign the form electronically. This "
-"field type is a :ref:`File field <studio/fields/simple-fields/file>` with "
+"field type is a :ref:`File field <studio/fields/simple-fields-file>` with "
 "the :guilabel:`Sign` widget selected by default. Consequently, the "
 ":guilabel:`File`, :guilabel:`Image`, and :guilabel:`PDF Viewer` widgets have"
 " the same effects as described under :ref:`File <studio/fields/simple-"
-"fields/file>`."
+"fields-file>`."
 msgstr ""
-"Fältet :guilabel:`Sign` används för att signera formuläret elektroniskt. "
-"Denna fälttyp är ett :ref:`Fil-fält <studio/fields/simple-fields/file>` med "
-"widgeten :guilabel:`Sign` vald som standard. Följaktligen har widgetarna "
-":guilabel:`File`, :guilabel:`Image` och :guilabel:`PDF Viewer` samma "
-"effekter som beskrivs under :ref:`File <studio/fields/simple-fields/file>`."
 
-#: ../../content/applications/studio/fields.rst:311
+#: ../../content/applications/studio/fields.rst:352
 msgid ""
 "To give users the :guilabel:`Auto` option when having to draw their "
 "signature, select one of the available :guilabel:`Auto-complete with` fields"
-" (:ref:`Text <studio/fields/simple-fields/text>`, :ref:`Many2One "
-"<studio/fields/relational-fields/many2one>`, and :ref:`Related Field "
-"<studio/fields/relational-fields/related-field>` on the model only). The "
+" (:ref:`Text <studio/fields/simple-fields-text>`, :ref:`Many2One "
+"<studio/fields/relational-fields-many2one>`, and :ref:`Related Field "
+"<studio/fields/relational-fields-related-field>` on the model only). The "
 "signature is automatically generated using the data from the selected field."
 msgstr ""
-"För att ge användarna alternativet :guilabel:`Auto` när de ska rita sin "
-"signatur, välj ett av de tillgängliga :guilabel:`Auto-komplettera med` "
-"fälten (:ref:`Text <studio/fields/simple-fields/text>`, :ref:`Many2One "
-"<studio/fields/relational-fields/many2one>` och :ref:`Related Field "
-"<studio/fields/relational-fields/related-field>` endast på modellen). "
-"Signaturen genereras automatiskt med hjälp av data från det valda fältet."
 
-#: ../../content/applications/studio/fields.rst:320
+#: ../../content/applications/studio/fields.rst:361
 msgid "Relational fields"
 msgstr "Relationella fält"
 
-#: ../../content/applications/studio/fields.rst:322
+#: ../../content/applications/studio/fields.rst:363
 msgid ""
 "Relational fields are used to link and display the data from records on "
 "another model."
@@ -1474,11 +1774,18 @@ msgstr ""
 "Relationsfält används för att länka och visa data från poster i en annan "
 "modell."
 
-#: ../../content/applications/studio/fields.rst:330
+#: ../../content/applications/studio/fields.rst:366
+msgid ""
+"Non-default widgets, when available, are presented as bullet points below."
+msgstr ""
+"Widgetar som inte är standard, när sådana finns, presenteras som punktlistor"
+" nedan."
+
+#: ../../content/applications/studio/fields.rst:371
 msgid "Many2One (`many2one`)"
 msgstr "Many2One (`many2one`)"
 
-#: ../../content/applications/studio/fields.rst:332
+#: ../../content/applications/studio/fields.rst:373
 msgid ""
 "The :guilabel:`Many2One` field is used to link another record (from another "
 "model) to the record being edited. The record's name from the other model is"
@@ -1488,7 +1795,7 @@ msgstr ""
 "annan modell) till den post som redigeras. Postens namn från den andra "
 "modellen visas sedan på den post som redigeras."
 
-#: ../../content/applications/studio/fields.rst:336
+#: ../../content/applications/studio/fields.rst:377
 msgid ""
 "On the *Sales Order* model, the :guilabel:`Customer` field is a "
 ":guilabel:`Many2One` field pointing at the *Contact* model. This allows "
@@ -1502,7 +1809,7 @@ msgstr ""
 msgid "Diagram showing a many2one relationship"
 msgstr "Diagram som visar ett many2one-förhållande"
 
-#: ../../content/applications/studio/fields.rst:345
+#: ../../content/applications/studio/fields.rst:385
 msgid ""
 "To prevent users from creating a new record in the linked model, tick "
 ":guilabel:`Disable creation`."
@@ -1510,7 +1817,7 @@ msgstr ""
 "För att hindra användare från att skapa en ny post i den länkade modellen, "
 "kryssa i :guilabel:`Inaktivera skapande`."
 
-#: ../../content/applications/studio/fields.rst:347
+#: ../../content/applications/studio/fields.rst:387
 msgid ""
 "To prevent users from opening records in a pop-up window, tick "
 ":guilabel:`Disable opening`."
@@ -1518,7 +1825,7 @@ msgstr ""
 "För att förhindra användare från att öppna poster i ett popup-fönster, bocka"
 " i :guilabel:`Inaktivera öppning`."
 
-#: ../../content/applications/studio/fields.rst:348
+#: ../../content/applications/studio/fields.rst:388
 msgid ""
 "To help users only select the right record, click on :guilabel:`Domain` to "
 "create a filter."
@@ -1526,7 +1833,7 @@ msgstr ""
 "För att hjälpa användare att bara välja rätt post, klicka på "
 ":guilabel:`Domän` för att skapa ett filter."
 
-#: ../../content/applications/studio/fields.rst:350
+#: ../../content/applications/studio/fields.rst:390
 msgid ""
 ":guilabel:`Badge`: displays the value inside a rounded shape, similar to a "
 "tag. The value cannot be edited on the UI."
@@ -1534,11 +1841,11 @@ msgstr ""
 ":guilabel:`Badge`: visar värdet inuti en rundad form, liknande en tagg. "
 "Värdet kan inte redigeras i användargränssnittet."
 
-#: ../../content/applications/studio/fields.rst:357
+#: ../../content/applications/studio/fields.rst:397
 msgid "One2Many (`one2many`)"
 msgstr "One2Many (`one2many`)"
 
-#: ../../content/applications/studio/fields.rst:359
+#: ../../content/applications/studio/fields.rst:399
 msgid ""
 "The :guilabel:`One2Many` field is used to display the existing relations "
 "between a record on the current model and multiple records from another "
@@ -1548,7 +1855,7 @@ msgstr ""
 "mellan en post i den aktuella modellen och flera poster från en annan "
 "modell."
 
-#: ../../content/applications/studio/fields.rst:363
+#: ../../content/applications/studio/fields.rst:403
 msgid ""
 "You could add a :guilabel:`One2Many` field on the *Contact* model to look at"
 " **one** customer's **many** sales orders."
@@ -1560,23 +1867,19 @@ msgstr ""
 msgid "Diagram showing a one2many relationship"
 msgstr "Diagram som visar en one2many-relation"
 
-#: ../../content/applications/studio/fields.rst:371
+#: ../../content/applications/studio/fields.rst:410
 msgid ""
 "To use a :guilabel:`One2Many` field, the two models must have been linked "
-"already using a :ref:`Many2One field <studio/fields/relational-"
-"fields/many2one>`. One2Many relations do not exist independently: a reverse-"
-"search of existing Many2One relations is performed."
+"already using a :ref:`Many2One field <studio/fields/relational-fields-"
+"many2one>`. One2Many relations do not exist independently: a reverse-search "
+"of existing Many2One relations is performed."
 msgstr ""
-"För att använda ett :guilabel:`One2Many`-fält måste de två modellerna redan "
-"ha länkats med hjälp av ett :ref:`Many2One-fält <studio/fields/relational-"
-"fields/many2one>`. One2Many-relationer existerar inte självständigt: en "
-"omvänd sökning av befintliga Many2One-relationer utförs."
 
-#: ../../content/applications/studio/fields.rst:378
+#: ../../content/applications/studio/fields.rst:417
 msgid "Lines (`one2many`)"
 msgstr "Linjer (`one2many`)"
 
-#: ../../content/applications/studio/fields.rst:380
+#: ../../content/applications/studio/fields.rst:419
 msgid ""
 "The :guilabel:`Lines` field is used to create a table with rows and columns "
 "(e.g., the lines of products on a sales order)."
@@ -1584,7 +1887,7 @@ msgstr ""
 "Fältet :guilabel:`Lines` används för att skapa en tabell med rader och "
 "kolumner (t.ex. raderna med produkter på en försäljningsorder)."
 
-#: ../../content/applications/studio/fields.rst:384
+#: ../../content/applications/studio/fields.rst:423
 msgid ""
 "To modify the columns, click on the :guilabel:`Lines` field and then "
 ":guilabel:`Edit List View`. To edit the form that pops up when a user clicks"
@@ -1599,25 +1902,20 @@ msgstr ""
 msgid "Example of a Lines field"
 msgstr "Exempel på ett Lines-fält"
 
-#: ../../content/applications/studio/fields.rst:397
+#: ../../content/applications/studio/fields.rst:435
 msgid "Many2Many (`many2many`)"
 msgstr "Many2Many (`many2many`)"
 
-#: ../../content/applications/studio/fields.rst:399
+#: ../../content/applications/studio/fields.rst:437
 msgid ""
 "The :guilabel:`Many2Many` field is used to link multiple records from "
 "another model to multiple records on the current model. Many2Many fields can"
 " use :guilabel:`Disable creation`, :guilabel:`Disable opening`, "
 ":guilabel:`Domain`, just like :ref:`Many2One fields "
-"<studio/fields/relational-fields/many2one>`."
+"<studio/fields/relational-fields-many2one>`."
 msgstr ""
-"Fältet :guilabel:`Many2Many` används för att länka flera poster från en "
-"annan modell till flera poster i den aktuella modellen. Many2Many-fält kan "
-"använda :guilabel:`Disable creation`, :guilabel:`Disable opening`, "
-":guilabel:`Domain`, precis som :ref:`Many2One-fält "
-"<studio/fields/relational-fields/many2one>`."
 
-#: ../../content/applications/studio/fields.rst:405
+#: ../../content/applications/studio/fields.rst:443
 msgid ""
 "On the *Task* model, the :guilabel:`Assignees` field is a "
 ":guilabel:`Many2Many` field pointing at the *Contact* model. This allows a "
@@ -1633,45 +1931,36 @@ msgstr ""
 msgid "Diagram showing many2many relationships"
 msgstr "Diagram som visar många2many relationer"
 
-#: ../../content/applications/studio/fields.rst:413
+#: ../../content/applications/studio/fields.rst:450
 msgid ""
 ":guilabel:`Checkboxes`: users can select several values using checkboxes."
 msgstr ""
 ":guilabel:`Checkboxes`: användarna kan välja flera värden med hjälp av "
 "kryssrutor."
 
-#: ../../content/applications/studio/fields.rst:414
+#: ../../content/applications/studio/fields.rst:451
 msgid ""
 ":guilabel:`Tags`: users can select several values appearing in rounded "
 "shapes, also known as *tags*. This has the same effect as selecting the "
-":ref:`Tags field <studio/fields/relational-fields/tags>`."
+":ref:`Tags field <studio/fields/relational-fields-tags>`."
 msgstr ""
-":guilabel:`Tags`: användare kan välja flera värden som visas i rundade "
-"former, även kända som *taggar*. Detta har samma effekt som att välja "
-":ref:`Tags-fältet <studio/fields/relational-fields/tags>`."
 
-#: ../../content/applications/studio/fields.rst:421
+#: ../../content/applications/studio/fields.rst:458
 msgid "Tags (`many2many`)"
 msgstr "Etiketter (`many2many`)"
 
-#: ../../content/applications/studio/fields.rst:423
+#: ../../content/applications/studio/fields.rst:460
 msgid ""
 "The :guilabel:`Tags` field is used to display several values from another "
 "model appearing in rounded shapes, also known as *tags*. This field type is "
-"a :ref:`Many2Many field <studio/fields/relational-fields/many2many>` with "
+"a :ref:`Many2Many field <studio/fields/relational-fields-many2many>` with "
 "the :guilabel:`Tags` widget selected by default. Consequently, the "
 ":guilabel:`Checkboxes` and :guilabel:`Many2Many` widgets have the same "
-"effects as described under :ref:`Many2Many <studio/fields/relational-"
-"fields/many2many>`."
+"effects as described under :ref:`Many2Many <studio/fields/relational-fields-"
+"many2many>`."
 msgstr ""
-"Fältet :guilabel:`Tags` används för att visa flera värden från en annan "
-"modell som visas i rundade former, även kända som *taggar*. Denna fälttyp är"
-" ett :ref:`Many2Many-fält <studio/fields/relational-fields/many2many>` med "
-"widgeten :guilabel:`Tags` vald som standard. Följaktligen har widgetarna "
-":guilabel:`Checkboxes` och :guilabel:`Many2Many` samma effekter som beskrivs"
-" under :ref:`Many2Many <studio/fields/relational-fields/many2many>`."
 
-#: ../../content/applications/studio/fields.rst:430
+#: ../../content/applications/studio/fields.rst:467
 msgid ""
 "To display tags with different background colors, tick :guilabel:`Use "
 "colors`."
@@ -1683,11 +1972,11 @@ msgstr ""
 msgid "Example of a Tags field"
 msgstr "Exempel på ett taggfält"
 
-#: ../../content/applications/studio/fields.rst:441
+#: ../../content/applications/studio/fields.rst:477
 msgid "Related Field (`related`)"
 msgstr "Relaterat område (`relaterat`)"
 
-#: ../../content/applications/studio/fields.rst:443
+#: ../../content/applications/studio/fields.rst:479
 msgid ""
 "A :guilabel:`Related Field` is not a relational field per se; no "
 "relationship is created between models. It uses an existing relationship to "
@@ -1697,7 +1986,7 @@ msgstr ""
 "relation skapas mellan modeller. Det använder en befintlig relation för att "
 "hämta och visa information från en annan post."
 
-#: ../../content/applications/studio/fields.rst:447
+#: ../../content/applications/studio/fields.rst:483
 msgid ""
 "To display the email address of a customer on the *Sales Order* model, use "
 "the :guilabel:`Related Field` `partner_id.email` by selecting "
@@ -1707,22 +1996,48 @@ msgstr ""
 "använder du :guilabel:`Related Field` `partner_id.email` genom att välja "
 ":guilabel:`Customer` och sedan :guilabel:`Email`."
 
-#: ../../content/applications/studio/fields.rst:453
+#: ../../content/applications/studio/fields.rst:489
 msgid "Properties"
 msgstr "Fastigheter"
 
-#: ../../content/applications/studio/fields.rst:455
-msgid ""
-":guilabel:`Invisible`: When it is not necessary for users to view a field on"
-" the UI, tick :guilabel:`Invisible`. It helps clear the UI by only showing "
-"the essential fields depending on a specific situation."
+#: ../../content/applications/studio/fields.rst:492
+msgid "General properties"
 msgstr ""
-":guilabel:`Osynlig`: När det inte är nödvändigt för användarna att se ett "
-"fält i användargränssnittet, bocka i :guilabel:`Invisible`. Det hjälper till"
-" att rensa UI genom att bara visa de väsentliga fälten beroende på en "
-"specifik situation."
 
-#: ../../content/applications/studio/fields.rst:460
+#: ../../content/applications/studio/fields.rst:494
+msgid ""
+":guilabel:`Invisible`: Enable this property when it is not necessary for "
+"users to view a field on the UI. This helps declutter the UI by only showing"
+" the essential fields depending on a specific situation."
+msgstr ""
+
+#: ../../content/applications/studio/fields.rst:498
+msgid ""
+"The :guilabel:`Invisible` attribute also applies inside Studio. To view "
+"hidden fields in Studio, click on a view's :guilabel:`View` tab and enable "
+":guilabel:`Show Invisible Elements`."
+msgstr ""
+
+#: ../../content/applications/studio/fields.rst:501
+msgid ""
+":guilabel:`Required`: Enable this property if a field should always be "
+"completed by the user before being able to proceed."
+msgstr ""
+
+#: ../../content/applications/studio/fields.rst:504
+msgid ""
+":guilabel:`Readonly`: Enable this property if users should not be able to "
+"modify a field."
+msgstr ""
+
+#: ../../content/applications/studio/fields.rst:507
+msgid ""
+"You can choose to enable :guilabel:`Invisible`, :guilabel:`Required` and "
+":guilabel:`Readonly` for specific records only by clicking on "
+":guilabel:`Conditional` and creating a filter."
+msgstr ""
+
+#: ../../content/applications/studio/fields.rst:511
 msgid ""
 "On the *Form* view of the *Contact* model, the :guilabel:`Title` field only "
 "appears when :guilabel:`Individual` is selected, as that field would not be "
@@ -1732,78 +2047,22 @@ msgstr ""
 "när :guilabel:`Individuell` är markerad, eftersom det fältet inte skulle "
 "vara användbart för en :guilabel:`Företag`-kontakt."
 
-#: ../../content/applications/studio/fields.rst:465
+#: ../../content/applications/studio/fields.rst:515
 msgid ""
-"The :guilabel:`Invisible` attribute also applies to Studio. To view hidden "
-"fields inside Studio, click on a view's :guilabel:`View` tab and tick "
-":guilabel:`Show Invisible Elements`."
+":guilabel:`Label`: the field's name on the UI. This is not the name used in "
+"the PostgreSQL database. To view and change the latter, activate the "
+":ref:`developer mode <developer-mode>` and edit the :guilabel:`Technical "
+"Name`."
 msgstr ""
-"Attributet :guilabel:`Invisible` gäller även för Studio. För att visa dolda "
-"fält i Studio, klicka på en vys :guilabel:`View` flik och bocka i "
-":guilabel:`Show Invisible Elements`."
 
-#: ../../content/applications/studio/fields.rst:469
+#: ../../content/applications/studio/fields.rst:519
 msgid ""
-":guilabel:`Required`: If a field should always be completed by the user "
-"before being able to proceed, tick :guilabel:`Required`."
+":guilabel:`Help Tooltip`: To explain the purpose of a field, add a "
+"description. The text is displayed inside a tooltip box when hovering with "
+"your mouse over the question mark beside the field's label."
 msgstr ""
-":guilabel:`Krävs`: Om ett fält alltid måste fyllas i av användaren innan man"
-" kan gå vidare, kryssa i :guilabel:`Required`."
 
-#: ../../content/applications/studio/fields.rst:471
-msgid ""
-":guilabel:`Read only`: If users should not be able to modify a field, tick "
-":guilabel:`Read only`."
-msgstr ""
-":guilabel:`Bara läsa`: Om användare inte ska kunna ändra ett fält, kryssa i "
-":guilabel:`Read only`."
-
-#: ../../content/applications/studio/fields.rst:474
-msgid ""
-"You can choose to apply these three properties only for specific records by "
-"clicking on :guilabel:`Conditional` and creating a filter."
-msgstr ""
-"Du kan välja att tillämpa dessa tre egenskaper endast för specifika poster "
-"genom att klicka på :guilabel:`Conditional` och skapa ett filter."
-
-#: ../../content/applications/studio/fields.rst:477
-msgid ""
-":guilabel:`Label`: The :guilabel:`Label` is the field's name on the UI."
-msgstr ""
-":guilabel:`Label`: :guilabel:`Label` är fältets namn på "
-"användargränssnittet."
-
-#: ../../content/applications/studio/fields.rst:480
-msgid ""
-"This is not the same name as used in the PostgreSQL database. To view and "
-"change the latter, activate the :ref:`Developer mode <developer-mode>`, and "
-"edit the :guilabel:`Technical Name`."
-msgstr ""
-"Detta är inte samma namn som används i PostgreSQL-databasen. För att visa "
-"och ändra det senare, aktivera :ref:`Utvecklarläge <developer-mode>`, och "
-"redigera :guilabel:`Technical Name`."
-
-#: ../../content/applications/studio/fields.rst:483
-msgid ""
-":guilabel:`Help Tooltip`: To explain the purpose of a field, write a "
-"description under :guilabel:`Help Tooltip`. It is displayed inside a tooltip"
-" box when hovering with your mouse over the field's label."
-msgstr ""
-":guilabel:`Hjälp Verktygstips`: För att förklara syftet med ett fält, skriv "
-"en beskrivning under :guilabel:`Help Tooltip`. Den visas i en "
-"verktygstipsruta när du håller muspekaren över fältets etikett."
-
-#: ../../content/applications/studio/fields.rst:486
-msgid ""
-":guilabel:`Placeholder`: To provide an example of how a field should be "
-"completed, write it under :guilabel:`Placeholder`. It is displayed in light "
-"gray in lieu of the field's value."
-msgstr ""
-":guilabel:`Placeholder`: För att ge ett exempel på hur ett fält ska fyllas "
-"i, skriv det under :guilabel:`Placeholder`. Det visas i ljusgrått i stället "
-"för fältets värde."
-
-#: ../../content/applications/studio/fields.rst:488
+#: ../../content/applications/studio/fields.rst:523
 msgid ""
 ":guilabel:`Widget`: To change the default appearance or functionality of a "
 "field, select one of the available widgets."
@@ -1811,21 +2070,78 @@ msgstr ""
 ":guilabel:`Widget`: För att ändra standardutseende eller funktionalitet för "
 "ett fält, välj en av de tillgängliga widgetarna."
 
-#: ../../content/applications/studio/fields.rst:490
+#: ../../content/applications/studio/fields.rst:526
 msgid ""
-":guilabel:`Default value`: To add a default value to a field when a record "
-"is created, use :guilabel:`Default value`."
+":guilabel:`Placeholder`: To provide an example of how a field should be "
+"completed, add placeholder text. The text appears in light gray until a "
+"value is entered."
 msgstr ""
-":guilabel:`Förvalt värde`: För att lägga till ett standardvärde i ett fält "
-"när en post skapas, använd :guilabel:`Default value`."
 
-#: ../../content/applications/studio/fields.rst:492
+#: ../../content/applications/studio/fields.rst:529
 msgid ""
-":guilabel:`Limit visibility to groups`: To limit which users can see the "
-"field, select a user access group."
+":guilabel:`Default value`: To display a default value in a field when a "
+"record is created, add a value."
 msgstr ""
-":guilabel:`Begränsar synlighet för grupper`: För att begränsa vilka "
-"användare som kan se fältet, välj en användaråtkomstgrupp."
+
+#: ../../content/applications/studio/fields.rst:532
+msgid ""
+":guilabel:`Allow visibility to groups`: To limit which users can view the "
+"field, select one or more user access :ref:`groups <access-rights/groups>`."
+msgstr ""
+
+#: ../../content/applications/studio/fields.rst:534
+msgid ""
+":guilabel:`Forbid visibility to groups`: To prevent certain users from "
+"seeing the field, select one or more user access :ref:`groups <access-"
+"rights/groups>`."
+msgstr ""
+
+#: ../../content/applications/studio/fields.rst:540
+msgid "Properties for Date & Time fields"
+msgstr ""
+
+#: ../../content/applications/studio/fields.rst:542
+msgid ""
+"For :guilabel:`Date & Time` fields that have the :guilabel:`Date & Time` or "
+":guilabel:`Date Range` widget set, some specific properties are available:"
+msgstr ""
+
+#: ../../content/applications/studio/fields.rst:545
+msgid ""
+":guilabel:`Time interval`: Enter a value to determine the minute intervals "
+"shown in the time selector. For example, enter 15 to allow quarter-hour "
+"intervals. The default value is set to 5 minutes."
+msgstr ""
+
+#: ../../content/applications/studio/fields.rst:548
+msgid ""
+":guilabel:`Warning for future dates`: Enable this property to display a "
+"warning icon if a future date is selected."
+msgstr ""
+
+#: ../../content/applications/studio/fields.rst:550
+msgid ""
+":guilabel:`Show time`: This property is enabled by default for "
+":guilabel:`Date & Time` fields. On a read-only field, disable the property "
+"to show only the date. This can keep a list view less cluttered, for "
+"example."
+msgstr ""
+
+#: ../../content/applications/studio/fields.rst:553
+msgid ""
+":guilabel:`Earliest accepted date`: Enter the earliest date that can be "
+"selected in the date selector in ISO-format, i.e., `YYYY-MM-DD`. If the "
+"current date is always the earliest accepted date, enter `today`. On the "
+"date selector, dates prior to the earliest accepted date are grayed out."
+msgstr ""
+
+#: ../../content/applications/studio/fields.rst:557
+msgid ""
+":guilabel:`Latest accepted date`: Enter the latest date that can be selected"
+" in the date selector in ISO-format, i.e., `YYYY-MM-DD`. If the current date"
+" is always the latest accepted date, enter `today`. On the date selector, "
+"dates later than the latest accepted date are grayed out."
+msgstr ""
 
 #: ../../content/applications/studio/models_modules_apps.rst:3
 msgid "Models, modules, and apps"
@@ -1908,20 +2224,13 @@ msgstr "Kontaktuppgifter"
 msgid ""
 "Selecting :guilabel:`Contact details` adds to the :ref:`Form view "
 "<studio/views/general/form>` a :ref:`Many2One field "
-"<studio/fields/relational-fields/many2one>` linked to the *Contact* model "
-"and two of its :ref:`Related Fields <studio/fields/relational-"
-"fields/related-field>`: :guilabel:`Phone` and :guilabel:`Email`. The "
+"<studio/fields/relational-fields-many2one>` linked to the *Contact* model "
+"and two of its :ref:`Related Fields <studio/fields/relational-fields-"
+"related-field>`: :guilabel:`Phone` and :guilabel:`Email`. The "
 ":guilabel:`Contact` field is also added to the :ref:`List view "
 "<studio/views/multiple-records/list>`, and the :ref:`Map view "
 "<studio/views/multiple-records/map>` is activated."
 msgstr ""
-"Om du väljer :guilabel:`Kontaktuppgifter` läggs ett :ref:`Many2One-fält "
-"<studio/fields/relational-fields/many2one>` till i :ref:`Formulärvyn "
-"<studio/views/general/form>`, länkat till modellen *Contact* och två av dess"
-" :ref:`Related Fields <studio/fields/relational-fields/related-field>`: "
-":guilabel:`Phone` och :guilabel:`Email`. Fältet :guilabel:`Contact` läggs "
-"också till i vyn :ref:`List <studio/views/multiple-records/list>`, och vyn "
-":ref:`Map <studio/views/multiple-records/map>` aktiveras."
 
 #: ../../content/applications/studio/models_modules_apps.rst:0
 msgid "Contact details feature on the Form view"
@@ -1935,21 +2244,13 @@ msgstr "Tilldelning av användare"
 msgid ""
 "Selecting :guilabel:`User assignment` adds to the :ref:`Form view "
 "<studio/views/general/form>` a :ref:`Many2One field "
-"<studio/fields/relational-fields/many2one>` linked to the *Contact* model, "
+"<studio/fields/relational-fields-many2one>` linked to the *Contact* model, "
 "with the following :guilabel:`Domain`: `Share User is not set` to only allow"
 " the selection of *Internal Users*. In addition, the "
 ":guilabel:`many2one_avatar_user` widget is used to display the user's "
 "avatar. The :guilabel:`Responsible` field is also added to the :ref:`List "
 "view <studio/views/multiple-records/list>`."
 msgstr ""
-"Om du väljer :guilabel:`User assignment` läggs till :ref:`Form view "
-"<studio/views/general/form>` ett :ref:`Many2One field "
-"<studio/fields/relational-fields/many2one>` länkat till modellen *Contact*, "
-"med följande :guilabel:`Domain`: `Share User is not set` för att endast "
-"tillåta val av *Internal Users*. Dessutom används widgeten "
-":guilabel:`many2one_avatar_user` för att visa användarens avatar. Fältet "
-":guilabel:`Responsible` har också lagts till i :ref:`List view "
-"<studio/views/multiple-records/list>`."
 
 #: ../../content/applications/studio/models_modules_apps.rst:0
 msgid "User assignment feature on the Form view"
@@ -1963,13 +2264,9 @@ msgstr "Datum och kalender"
 msgid ""
 "Selecting :guilabel:`Date & Calendar` adds to the :ref:`Form view "
 "<studio/views/general/form>` a :ref:`Date field <studio/fields/simple-"
-"fields/date>` and activates the :ref:`Calendar view "
+"fields-date>` and activates the :ref:`Calendar view "
 "<studio/views/timeline/calendar>`."
 msgstr ""
-"Om du väljer :guilabel:`Date & Calendar` läggs ett :ref:`Date-fält "
-"<studio/fields/simple-fields/date>` till i :ref:`Formulärvyn "
-"<studio/views/general/form>` och :ref:`Calendar-vyn "
-"<studio/views/timeline/calendar>` aktiveras."
 
 #: ../../content/applications/studio/models_modules_apps.rst:84
 msgid "Date range & Gantt"
@@ -1979,15 +2276,10 @@ msgstr "Datumintervall & Gantt"
 msgid ""
 "Selecting :guilabel:`Date range & Gantt` adds to the :ref:`Form view "
 "<studio/views/general/form>` two :ref:`Date fields <studio/fields/simple-"
-"fields/date>` next to each other: one to set a start date, the other to set "
+"fields-date>` next to each other: one to set a start date, the other to set "
 "an end date, using the :guilabel:`daterange` widget, and activates the "
 ":ref:`Gantt view <studio/views/timeline/gantt>`."
 msgstr ""
-"Om du väljer :guilabel:`Datumintervall & Gantt` läggs två :ref:`Datumfält "
-"<studio/fields/simple-fields/date>` till bredvid varandra i vyn :ref:`Form "
-"<studio/views/general/form>`: ett för att ange ett startdatum, det andra för"
-" att ange ett slutdatum, med widgeten :guilabel:`daterange`, och aktiverar "
-"vyn :ref:`Gantt <studio/views/timeline/gantt>`."
 
 #: ../../content/applications/studio/models_modules_apps.rst:94
 msgid "Pipeline stages"
@@ -1997,21 +2289,13 @@ msgstr "Pipeline-stadier"
 msgid ""
 "Selecting :guilabel:`Pipeline stages` activates the :ref:`Kanban view "
 "<studio/views/multiple-records/kanban>`, adds several fields such as "
-":ref:`Priority <studio/fields/simple-fields/priority>` and :guilabel:`Kanban"
+":ref:`Priority <studio/fields/simple-fields-priority>` and :guilabel:`Kanban"
 " State`, and three stages: :guilabel:`New`, :guilabel:`In Progress`, and "
 ":guilabel:`Done`. The :guilabel:`Pipeline status bar` and the "
 ":guilabel:`Kanban State` field are added to the :ref:`Form view "
 "<studio/views/general/form>`. The :guilabel:`Color` field is added to the "
 ":ref:`List view <studio/views/multiple-records/list>`."
 msgstr ""
-"Om du väljer :guilabel:`Pipeline stages` aktiveras :ref:`Kanban-vyn "
-"<studio/views/multiple-records/kanban>`, flera fält läggs till som "
-":ref:`Priority <studio/fields/simple-fields/priority>` och :guilabel:`Kanban"
-" State`, och tre steg: :guilabel:`New`, :guilabel:`In Progress`, och "
-":guilabel:`Done`. Fälten :guilabel:`Pipeline status bar` och "
-":guilabel:`Kanban State` läggs till i :ref:`Form view "
-"<studio/views/general/form>`. Fältet :guilabel:`Color` har lagts till i "
-":ref:`List view <studio/views/multiple-records/list>`."
 
 #: ../../content/applications/studio/models_modules_apps.rst:105
 msgid "The :guilabel:`Pipeline stages` feature can be added at a later stage."
@@ -2026,14 +2310,9 @@ msgstr "Etiketter"
 msgid ""
 "Selecting :guilabel:`Tags` adds to the :ref:`studio/views/general/form` and "
 ":ref:`studio/views/multiple-records/list` views a :ref:`Tags field "
-"<studio/fields/relational-fields/tags>`, creating a *Tag* model with "
+"<studio/fields/relational-fields-tags>`, creating a *Tag* model with "
 "preconfigured access rights in the process."
 msgstr ""
-"Om du väljer :guilabel:`Tags` läggs ett :ref:`Tags-fält "
-"<studio/fields/relational-fields/tags>` till i vyerna "
-":ref:`studio/views/general/form` och :ref:`studio/views/multiple-"
-"records/list`, vilket skapar en *Tag*-modell med förkonfigurerade "
-"åtkomsträttigheter i processen."
 
 #: ../../content/applications/studio/models_modules_apps.rst:120
 msgid "Picture"
@@ -2043,11 +2322,8 @@ msgstr "Bild"
 msgid ""
 "Selecting :guilabel:`Picture` adds to the top-right of the :ref:`Form view "
 "<studio/views/general/form>` an :ref:`Image field <studio/fields/simple-"
-"fields/image>`."
+"fields-image>`."
 msgstr ""
-"Om du väljer :guilabel:`Bild` läggs ett :ref:`Bildfält "
-"<studio/fields/simple-fields/image>` till längst upp till höger i "
-":ref:`Formulärvy <studio/views/general/form>`."
 
 #: ../../content/applications/studio/models_modules_apps.rst:126
 msgid "The :guilabel:`Picture` feature can be added at a later stage."
@@ -2061,11 +2337,8 @@ msgstr "Linjer"
 msgid ""
 "Selecting :guilabel:`Lines`: adds to the :ref:`Form view "
 "<studio/views/general/form>` a :ref:`Lines field <studio/fields/relational-"
-"fields/lines>` inside a :guilabel:`Tab` component."
+"fields-lines>` inside a :guilabel:`Tab` component."
 msgstr ""
-"Om du väljer :guilabel:`Lines`: läggs ett :ref:`Lines-fält "
-"<studio/fields/relational-fields/lines>` till i :ref:`Form-vyn "
-"<studio/views/general/form>` i en :guilabel:`Tab`-komponent."
 
 #: ../../content/applications/studio/models_modules_apps.rst:139
 msgid "Notes"
@@ -2075,11 +2348,8 @@ msgstr "Noter"
 msgid ""
 "Selecting :guilabel:`Notes` adds to the :ref:`Form view "
 "<studio/views/general/form>` an :ref:`Html field <studio/fields/simple-"
-"fields/html>` using the full width of the form."
+"fields-html>` using the full width of the form."
 msgstr ""
-"Om du väljer :guilabel:`Notes` läggs ett :ref:`Html-fält "
-"<studio/fields/simple-fields/html>` till i :ref:`Formulärvyn "
-"<studio/views/general/form>` som använder hela formulärets bredd."
 
 #: ../../content/applications/studio/models_modules_apps.rst:147
 msgid "Monetary value"
@@ -2089,15 +2359,10 @@ msgstr "Monetärt värde"
 msgid ""
 "Selecting :guilabel:`Monetary value` adds to the "
 ":ref:`studio/views/general/form` and :ref:`studio/views/multiple-"
-"records/list` views a :ref:`Monetary field <studio/fields/simple-"
-"fields/monetary>`. The :ref:`studio/views/reporting/graph` and "
+"records/list` views a :ref:`Monetary field <studio/fields/simple-fields-"
+"monetary>`. The :ref:`studio/views/reporting/graph` and "
 ":ref:`studio/views/reporting/pivot` views are also activated."
 msgstr ""
-"Om du väljer :guilabel:`Monetärt värde` läggs ett :ref:`Monetärt fält "
-"<studio/fields/simple-fields/monetary>` till i vyerna "
-":ref:`studio/views/general/form` och :ref:`studio/views/multiple-"
-"records/list`. Vyerna :ref:`studio/views/reporting/graph` och "
-":ref:`studio/views/reporting/pivot` är också aktiverade."
 
 #: ../../content/applications/studio/models_modules_apps.rst:155
 msgid "A *Currency* field is added and hidden from the view."
@@ -2111,12 +2376,8 @@ msgstr "Företag"
 msgid ""
 "Selecting :guilabel:`Company` adds to the :ref:`studio/views/general/form` "
 "and :ref:`studio/views/multiple-records/list` views a :ref:`Many2One field "
-"<studio/fields/relational-fields/many2one>` linked to the *Company* model."
+"<studio/fields/relational-fields-many2one>` linked to the *Company* model."
 msgstr ""
-"Om du väljer :guilabel:`Company` läggs ett :ref:`Many2One-fält "
-"<studio/fields/relational-fields/many2one>` till i vyerna "
-":ref:`studio/views/general/form` och :ref:`studio/views/multiple-"
-"records/list` som är länkat till modellen *Company*."
 
 #: ../../content/applications/studio/models_modules_apps.rst:167
 msgid "This is only useful if you work in a multi-company environment."
@@ -3122,6 +3383,12 @@ msgid ""
 ":ref:`multiple records <studio/views/multiple-records>`, :ref:`timeline "
 "<studio/views/timeline>`, and :ref:`reporting <studio/views/reporting>`."
 msgstr ""
+"Vyer är det gränssnitt som gör det möjligt att visa data som finns i en "
+":doc:`modell <models_modules_apps>`. En modell kan ha flera vyer, som helt "
+"enkelt är olika sätt att visa samma data. I Studio är vyerna organiserade i "
+"fyra kategorier: :ref:`general <studio/views/general>`, :ref:`multiple "
+"records <studio/views/multiple-records>`, :ref:`timeline "
+"<studio/views/timeline>` och :ref:`reporting <studio/views/reporting>`."
 
 #: ../../content/applications/studio/views.rst:12
 msgid ""
@@ -3130,6 +3397,10 @@ msgid ""
 "(:guilabel:`ellipsis`) icon next to the desired view, and click "
 ":guilabel:`Set as Default`."
 msgstr ""
+"Om du vill ändra standardvyn för en modell, :ref:`access Studio "
+"<studio/access>`, gå till :guilabel:`Views`, klicka på ikonen :icon:`fa-"
+"ellipsis-v` (:guilabel:`ellipsis`) bredvid önskad vy och klicka på "
+":guilabel:`Set as Default`."
 
 #: ../../content/applications/studio/views.rst:15
 msgid ""
@@ -3137,6 +3408,9 @@ msgid ""
 ":ref:`Developer mode <developer-mode>`, go to the view you want to edit, "
 "select the :guilabel:`View` tab, and click :guilabel:`</> XML`."
 msgstr ""
+"Du kan ändra vyer med hjälp av den inbyggda XML-redigeraren: Aktivera "
+":ref:`Developer mode <developer-mode>`, gå till den vy du vill redigera, "
+"välj fliken :guilabel:`View` och klicka på :guilabel:`</> XML`."
 
 #: ../../content/applications/studio/views.rst:20
 msgid ""
@@ -3148,6 +3422,13 @@ msgid ""
 "corresponding XPath, which defines the modified part of the view, are "
 "automatically generated."
 msgstr ""
+"Om du redigerar en vy med XML-redigeraren bör du undvika att göra ändringar "
+"direkt i standardvyer och ärvda vyer, eftersom dessa skulle återställas och "
+"gå förlorade vid uppdateringar eller moduluppgraderingar. Se alltid till att"
+" du väljer rätt nedärvda Studio-vyer: När du ändrar en vy i Studio, t.ex. "
+"genom att dra och släppa ett nytt fält, genereras automatiskt en specifik "
+"ärvd Studio-vy och dess motsvarande XPath, som definierar den ändrade delen "
+"av vyn."
 
 #: ../../content/applications/studio/views.rst:30
 msgid "General views"
@@ -3173,12 +3454,16 @@ msgid ""
 "The :guilabel:`Form` :icon:`fa-address-card` view is used when creating and "
 "editing records, such as contacts, sales orders, products, etc."
 msgstr ""
+"Vyn :guilabel:`Form` :icon:`fa-address-card` används när du skapar och "
+"redigerar poster, t.ex. kontakter, försäljningsorder, produkter osv."
 
 #: ../../content/applications/studio/views.rst:44
 msgid ""
 "To structure a form, drag and drop the :guilabel:`Tabs and Columns` element "
 "found under the :guilabel:`+ Add` tab."
 msgstr ""
+"Du strukturerar ett formulär genom att dra och släppa elementet "
+":guilabel:`Tabs and Columns` som finns under fliken :guilabel:`+ Add`."
 
 #: ../../content/applications/studio/views.rst:46
 #: ../../content/applications/studio/views.rst:137
@@ -3195,6 +3480,9 @@ msgid ""
 "To add a button, click :guilabel:`Add a button` at the top of the form, "
 "enter a :guilabel:`Label`, and select the button's action:"
 msgstr ""
+"För att lägga till en knapp klickar du på :guilabel:`Lägg till en knapp` "
+"högst upp i formuläret, anger en :guilabel:`Label` och väljer knappens "
+"åtgärd:"
 
 #: ../../content/applications/studio/views.rst:51
 #: ../../content/applications/studio/views.rst:153
@@ -3202,6 +3490,8 @@ msgid ""
 ":guilabel:`Run a Server Action`: select the :ref:`server action "
 "<reference/actions/server>` to be executed from the dropdown list;"
 msgstr ""
+":guilabel:`Kör en serveråtgärd`: välj :ref:`serveråtgärd "
+"<referens/åtgärder/server>` som ska köras från rullgardinsmenyn;"
 
 #: ../../content/applications/studio/views.rst:53
 #: ../../content/applications/studio/views.rst:155
@@ -3209,13 +3499,15 @@ msgid ""
 ":guilabel:`Call a method`: specify an existing Python method already defined"
 " in Odoo."
 msgstr ""
+":guilabel:`Call a method`: ange en befintlig Python-metod som redan är "
+"definierad i Odoo."
 
 #: ../../content/applications/studio/views.rst:55
 msgid ""
 "To add a smart button, click the :icon:`fa-plus-square` (:guilabel:`plus`) "
 "icon in the top-right corner of the form. Enter a :guilabel:`Label`, choose "
 "an :guilabel:`Icon`, and select a :ref:`related field "
-"<studio/fields/relational-fields/related-field>`."
+"<studio/fields/relational-fields-related-field>`."
 msgstr ""
 
 #: ../../content/applications/studio/views.rst:0
@@ -3231,6 +3523,9 @@ msgid ""
 "The :guilabel:`Activity` :icon:`fa-clock-o` view is used to schedule and "
 "have an overview of activities (emails, calls, etc.) linked to records."
 msgstr ""
+"Vyn :guilabel:`Activity` :icon:`fa-clock-o` används för att schemalägga och "
+"få en översikt över aktiviteter (e-post, samtal etc.) som är kopplade till "
+"poster."
 
 #: ../../content/applications/studio/views.rst:73
 msgid "This view can only be modified within Studio by editing the XML code."
@@ -3249,6 +3544,8 @@ msgid ""
 "The :guilabel:`Search` :icon:`oi-search` view is added on top of other views"
 " to filter, group, and search records."
 msgstr ""
+"Vyn :guilabel:`Search` :icon:`oi-search` läggs till ovanpå andra vyer för "
+"att filtrera, gruppera och söka poster."
 
 #: ../../content/applications/studio/views.rst:88
 msgid ""
@@ -3266,6 +3563,9 @@ msgid ""
 ":guilabel:`+ Add` tab and drag and drop it under :guilabel:`Autocompletion "
 "Fields`."
 msgstr ""
+"Om du vill lägga till ett befintligt fält under rullgardinsmenyn för sökning"
+" går du till fliken :guilabel:`+ Add` och drar och släpper det under "
+":guilabel:`Autocompletion Fields`."
 
 #: ../../content/applications/studio/views.rst:0
 msgid "Project model's Search view on the Kanban view"
@@ -3285,6 +3585,9 @@ msgid ""
 "business flows by moving records across stages or as an alternative way to "
 "display records inside *cards*."
 msgstr ""
+"Vyn :guilabel:`Kanban` :icon:`oi-view-kanban` används ofta för att stödja "
+"affärsflöden genom att flytta poster mellan olika steg eller som ett "
+"alternativt sätt att visa poster på *kort*."
 
 #: ../../content/applications/studio/views.rst:116
 msgid ""
@@ -3317,6 +3620,8 @@ msgid ""
 "To set a default grouping for records, select a field under "
 ":guilabel:`Default Group By`."
 msgstr ""
+"Om du vill ange en standardgruppering för poster väljer du ett fält under "
+":guilabel:`Default Group By`."
 
 #: ../../content/applications/studio/views.rst:0
 msgid "Project model's Kanban view"
@@ -3331,6 +3636,8 @@ msgid ""
 "The :guilabel:`List` :icon:`oi-view-list` view is used to overview many "
 "records at once, look for records, and edit simple records."
 msgstr ""
+"Vyn :guilabel:`List` :icon:`oi-view-list` används för att överblicka många "
+"poster samtidigt, söka efter poster och redigera enkla poster."
 
 #: ../../content/applications/studio/views.rst:139
 msgid ""
@@ -3338,6 +3645,9 @@ msgid ""
 ":guilabel:`Add record at the bottom`, :guilabel:`Add record on top` or "
 ":guilabel:`Open form view` under :guilabel:`When Creating Record`."
 msgstr ""
+"Om du vill skapa och redigera poster direkt i vyn väljer du antingen "
+":guilabel:`Add record at the bottom`, :guilabel:`Add record on top` eller "
+":guilabel:`Open form view` under :guilabel:`When Creating Record`."
 
 #: ../../content/applications/studio/views.rst:144
 msgid ""
@@ -3366,12 +3676,14 @@ msgid ""
 "To add a button, click :guilabel:`Add a button` at the top of the list, "
 "enter a :guilabel:`Label`, and select the button's action:"
 msgstr ""
+"För att lägga till en knapp klickar du på :guilabel:`Lägg till en knapp` "
+"högst upp i listan, anger en :guilabel:`Label` och väljer knappens åtgärd:"
 
 #: ../../content/applications/studio/views.rst:158
 msgid ""
 "To add a :icon:`oi-draggable` (:guilabel:`drag handle`) icon to reorder "
-"records manually, add an :ref:`Integer field <studio/fields/simple-"
-"fields/integer>` with the :guilabel:`Handle` widget."
+"records manually, add an :ref:`Integer field <studio/fields/simple-fields-"
+"integer>` with the :guilabel:`Handle` widget."
 msgstr ""
 
 #: ../../content/applications/studio/views.rst:0
@@ -3394,16 +3706,16 @@ msgid ""
 " a map. For example, it is used in the Field Service app to plan an "
 "itinerary between different tasks."
 msgstr ""
+"Vyn :guilabel:`Map` :icon:`fa-map-marker` används för att visa poster på en "
+"karta. Den används t.ex. i Field Service-appen för att planera en resväg "
+"mellan olika uppgifter."
 
 #: ../../content/applications/studio/views.rst:178
 msgid ""
-"A :ref:`Many2One field <studio/fields/relational-fields/many2one>` linked to"
+"A :ref:`Many2One field <studio/fields/relational-fields-many2one>` linked to"
 " the *Contact* model is required to activate the view, as the contact "
 "address is used to position records on the map."
 msgstr ""
-"Ett :ref:`Many2One-fält <studio/fields/relational-fields/many2one>` länkat "
-"till *Contact*-modellen krävs för att aktivera vyn, eftersom kontaktadressen"
-" används för att placera poster på kartan."
 
 #: ../../content/applications/studio/views.rst:181
 msgid ""
@@ -3418,6 +3730,8 @@ msgid ""
 "To hide the name or the address of the record, tick :guilabel:`Hide Name` or"
 " :guilabel:`Hide Address`."
 msgstr ""
+"Om du vill dölja namnet eller adressen till posten markerar du "
+":guilabel:`Hide Name` eller :guilabel:`Hide Address`."
 
 #: ../../content/applications/studio/views.rst:185
 msgid ""
@@ -3448,18 +3762,12 @@ msgstr "Tidslinjevyer"
 #: ../../content/applications/studio/views.rst:200
 msgid ""
 "When you first activate one of the timeline views, you need to select which "
-":ref:`Date <studio/fields/simple-fields/date>` or :ref:`Date & Time "
-"<studio/fields/simple-fields/date-time>` fields on your model should be used"
+":ref:`Date <studio/fields/simple-fields-date>` or :ref:`Date & Time "
+"<studio/fields/simple-fields-date-time>` fields on your model should be used"
 " to define when the records start and stop in order to display them on the "
 "view. You can modify the :guilabel:`Start Date Field` and :guilabel:`Stop "
 "Date Field` after activating the view."
 msgstr ""
-"När du först aktiverar en av tidslinjevyerna måste du välja vilka :ref:`Date"
-" <studio/fields/simple-fields/date>` eller :ref:`Date & Time "
-"<studio/fields/simple-fields/date-time>` fält på din modell som ska användas"
-" för att definiera när posterna börjar och slutar för att visa dem i vyn. Du"
-" kan ändra :guilabel:`Startdatumfält` och :guilabel:`Stoppdatumfält` efter "
-"att du har aktiverat vyn."
 
 #: ../../content/applications/studio/views.rst:211
 msgid "Calendar"
@@ -3470,6 +3778,8 @@ msgid ""
 "The :guilabel:`Calendar` :icon:`fa-calendar` view is used to overview and "
 "manage records inside a calendar."
 msgstr ""
+"Vyn :guilabel:`Calendar` :icon:`fa-calendar` används för att överblicka och "
+"hantera poster i en kalender."
 
 #: ../../content/applications/studio/views.rst:216
 msgid ""
@@ -3509,12 +3819,9 @@ msgstr ""
 #: ../../content/applications/studio/views.rst:231
 msgid ""
 "To display events lasting the whole day at the top of the calendar, select a"
-" :ref:`Checkbox field <studio/fields/simple-fields/checkbox>` that specifies"
+" :ref:`Checkbox field <studio/fields/simple-fields-checkbox>` that specifies"
 " if the event lasts the whole day."
 msgstr ""
-"För att visa händelser som varar hela dagen högst upp i kalendern, välj ett "
-":ref:`Kryssrutfält <studio/fields/simple-fields/checkbox>` som anger om "
-"händelsen varar hela dagen."
 
 #: ../../content/applications/studio/views.rst:234
 msgid ""
@@ -3529,11 +3836,11 @@ msgstr ""
 #: ../../content/applications/studio/views.rst:238
 msgid ""
 "You can also use a :guilabel:`Delay Field` to display the duration of the "
-"event in hours by selecting a :ref:`Decimal <studio/fields/simple-"
-"fields/decimal>` or :ref:`Integer <studio/fields/simple-fields/integer>` "
-"field on the model which specifies the duration of the event. However, if "
-"you set an :guilabel:`End Date Field`, the :guilabel:`Delay Field` will not "
-"be taken into account."
+"event in hours by selecting a :ref:`Decimal <studio/fields/simple-fields-"
+"decimal>` or :ref:`Integer <studio/fields/simple-fields-integer>` field on "
+"the model which specifies the duration of the event. However, if you set an "
+":guilabel:`End Date Field`, the :guilabel:`Delay Field` will not be taken "
+"into account."
 msgstr ""
 
 #: ../../content/applications/studio/views.rst:0
@@ -3550,6 +3857,9 @@ msgid ""
 "life cycle of records over a time period. For example, it is used in the "
 "Subscriptions app to view the subscriptions' retention rate."
 msgstr ""
+"Vyn :guilabel:`Cohort` :icon:`oi-view-cohort` används för att undersöka "
+"livscykeln för poster under en viss tidsperiod. Den används t.ex. i appen "
+"Subscriptions för att visa prenumerationernas kvarhållningsgrad."
 
 #: ../../content/applications/studio/views.rst:258
 msgid ""
@@ -3609,6 +3919,9 @@ msgid ""
 "the overall progress of records. Records are represented by a bar under a "
 "time scale."
 msgstr ""
+"Vyn :guilabel:`Gantt` :icon:`fa-tasks` används för att prognostisera och "
+"undersöka den övergripande utvecklingen för poster. Posterna representeras "
+"av en stapel under en tidsskala."
 
 #: ../../content/applications/studio/views.rst:283
 msgid ""
@@ -3716,6 +4029,10 @@ msgid ""
 "especially useful to aggregate numeric data, create categories, and drill "
 "down the data by expanding and collapsing different levels of data."
 msgstr ""
+"Vyn :guilabel:`Pivot` :icon:`oi-view-pivot` används för att utforska och "
+"analysera data i poster på ett interaktivt sätt. Den är särskilt användbar "
+"för att aggregera numeriska data, skapa kategorier och gå ner i data genom "
+"att expandera och kollapsa olika datanivåer."
 
 #: ../../content/applications/studio/views.rst:332
 msgid ""
@@ -3764,6 +4081,8 @@ msgid ""
 "The :guilabel:`Graph` :icon:`fa-area-chart` view is used to showcase data "
 "from records in a bar, line, or pie chart."
 msgstr ""
+"Vyn :guilabel:`Graph` :icon:`fa-area-chart` används för att visa data från "
+"poster i ett stapel-, linje- eller cirkeldiagram."
 
 #: ../../content/applications/studio/views.rst:354
 msgid ""

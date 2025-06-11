@@ -7,16 +7,16 @@
 # Marcos Rodrigues, 2023
 # a75f12d3d37ea5bf159c4b3e85eb30e7_0fa6927, 2023
 # Wil Odoo, 2024
-# Maitê Dietze, 2024
+# Maitê Dietze, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-21 11:43+0000\n"
+"POT-Creation-Date: 2025-02-20 12:15+0000\n"
 "PO-Revision-Date: 2023-11-08 08:57+0000\n"
-"Last-Translator: Maitê Dietze, 2024\n"
+"Last-Translator: Maitê Dietze, 2025\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/odoo/teams/41243/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -118,7 +118,7 @@ msgstr ":ref:`Gráfico <email_marketing/graph-view>`"
 #: ../../content/applications/marketing/email_marketing.rst:64
 #: ../../content/applications/marketing/email_marketing.rst:736
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:52
-#: ../../content/applications/marketing/surveys.rst:145
+#: ../../content/applications/marketing/surveys.rst:172
 msgid "List view"
 msgstr "Visualização de lista"
 
@@ -2060,22 +2060,23 @@ msgid ""
 "In order to properly understand the success or failure of an email marketing"
 " campaign, it is necessary to monitor several key metrics. The insights "
 "gained from these metrics can then be used to optimize future campaigns. "
-"Odoo's *Email Marketing* application tracks several :ref:`key metrics "
-"<email-marketing/key-metrics>`, that can be interpreted to improve future "
-"campaigns."
+"Odoo's **Email Marketing** application tracks several :ref:`key metrics "
+"<email-marketing/view-metrics>`, that can be interpreted through "
+":ref:`reports <email_marketing/create_reports>` to improve future campaigns."
 msgstr ""
 "Para entender corretamente o sucesso ou o fracasso de uma campanha de "
 "marketing por e-mail, é necessário monitorar várias métricas importantes. Os"
 " insights obtidos com essas métricas podem ser usados para otimizar "
-"campanhas futuras. O aplicativo *Marketing por e-mail* do Odoo monitora "
+"campanhas futuras. O aplicativo **Marketing por e-mail** do Odoo monitora "
 "várias :ref:`métricas-chave <email-marketing/key-metrics>`, que podem ser "
-"interpretadas para melhorar campanhas futuras."
+"interpretadas pelos :ref:`relatórios <email_marketing/create_reports>` para "
+"melhorar campanhas futuras."
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:13
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:16
 msgid "View metrics"
 msgstr "Ver métricas"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:15
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:18
 msgid ""
 "After a mass mail has been sent, the results for that particular mailing are"
 " displayed in multiple locations."
@@ -2083,21 +2084,26 @@ msgstr ""
 "Após o envio de uma distribuição em massa, os resultados desse envio "
 "específico são exibidos em vários locais."
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:18
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:21
 msgid ""
 "To access the metrics for an individual mailing, navigate to "
 ":menuselection:`Email Marketing app --> Mailings`. Locate the specific "
 "mailing in the list view, and use the column headings to view the results "
 "for that mailing. Click on one of the mailings in the list to open the "
-"record. At the top of the record, detailed metrics are displayed as smart "
-"buttons."
+"record."
 msgstr ""
 "Para acessar as métricas de um mailing individual, navegue até "
 ":menuselection:`app Marketing por e-mail --> Distribuições`. Localize a "
 "correspondência específica na exibição de lista e use os títulos das colunas"
 " para visualizar os resultados dessa correspondência. Clique em um dos "
-"mailings da lista para abrir o registro. Na parte superior do registro, as "
-"métricas detalhadas são exibidas como botões inteligentes."
+"mailings da lista para abrir o registro."
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:25
+msgid ""
+"At the top of the record, detailed metrics are displayed as smart buttons."
+msgstr ""
+"Na parte superior do registro, as métricas detalhadas são exibidas como "
+"botões inteligentes."
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst-1
 msgid ""
@@ -2106,60 +2112,76 @@ msgstr ""
 "Botões inteligentes em uma distribuição em massa, exibindo os resultados da "
 "mensagem."
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:28
-msgid ""
-"Click on the smart buttons to see the recipient records for each metric."
-msgstr ""
-"Clique nos botões inteligentes para ver os registros de destinatários para "
-"cada métrica."
-
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:33
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:32
 msgid "Opened rate"
 msgstr "Taxa de abertura"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:35
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:34
 msgid ""
-"The *Opened* rate measures the percentage of emails opened by recipients "
-"against the total number of sent emails."
+"The percentage of emails opened by recipients, against the total number of "
+"sent emails."
 msgstr ""
-"A taxa em *Aberto* mede a porcentagem de e-mails abertos pelos destinatários"
-" em relação ao número total de e-mails enviados."
+"A porcentagem de e-mails abertos pelos destinatários em relação ao número "
+"total de e-mails enviados."
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:38
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:36
 msgid ""
-"A high open rate may indicate that the subject line was timely, compelling, "
-"and successfully prompted the recipients to view the message."
+"In cases where a reply is expected, such as cold outreach emails, high open "
+"rate may indicate the subject line was timely, compelling, and successfully "
+"prompted the recipients to view the message."
 msgstr ""
-"Uma alta taxa de abertura pode indicar que a linha de assunto foi "
-"conveniente, convincente e levou os destinatários a visualizar a mensagem."
+"Nos casos em que uma resposta é esperada, como e-mails de divulgação fria, a"
+" alta taxa de abertura pode indicar que a linha de assunto foi oportuna, "
+"convincente e levou os destinatários a visualizar a mensagem."
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:41
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:39
 msgid ""
-"A low open rate may indicate the subject line failed to capture the "
-"recipients' interest. It could also indicate the email ended up in a spam or"
-" junk folder due to having a poor sender reputation or failing to "
-":doc:`configure the proper DNS records "
+"In cases where a reply is not expected, such as promotional emails, it may "
+"indicate an issue with the email, such as incorrect product links or coupon "
+"codes."
+msgstr ""
+"Nos casos em que uma resposta não é esperada, como e-mails promocionais, "
+"isso pode indicar um problema com o e-mail, como links de produtos ou "
+"códigos de cupom incorretos."
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:42
+msgid ""
+"In cases where a reply is expected, a low open rate may indicate the subject"
+" line failed to capture the recipients' interest or the message ended up in "
+"a spam or junk folder. It could also indicate the email ended up in a spam "
+"or junk folder."
+msgstr ""
+"Nos casos em que se espera uma resposta, uma baixa taxa de abertura pode "
+"indicar que a linha de assunto não conseguiu capturar o interesse dos "
+"destinatários, ou que a mensagem foi parar em uma pasta de spam ou lixo "
+"eletrônico."
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:47
+msgid ""
+"Emails that consistently land in recipient spam folders could be due to "
+"having a poor sender reputation (i.e. high unsubscribe rate, high percentage"
+" of past emails marked as spam, etc.), or failing to :doc:`configure the "
+"proper DNS records <../../general/email_communication/email_domain>`."
+msgstr ""
+"Os e-mails que chegam constantemente às pastas de spam dos destinatários "
+"podem ser causados por má reputação do remetente (ou seja, alta taxa de "
+"cancelamento de assinatura, alta porcentagem de e-mails anteriores marcados "
+"como spam, etc.) ou por não :doc:`configurar os registros DNS adequados "
 "<../../general/email_communication/email_domain>`."
-msgstr ""
-"Uma baixa taxa de abertura pode indicar que a linha de assunto não conseguiu"
-" capturar o interesse dos destinatários. Isso também pode indicar que o "
-"e-mail foi parar em uma pasta de spam ou lixo eletrônico por ter uma "
-"reputação ruim de remetente ou por não ter :doc:`configurado os registros "
-"DNS adequados <../../general/email_communication/email_domain>`."
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:46
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:53
 msgid "Replied rate"
 msgstr "Taxa de resposta"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:48
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:55
 msgid ""
-"The *Replied* rate measures the percentage of recipients who responded to "
-"the email directly against the total number of sent emails."
+"The percentage of recipients who responded to the email, against the total "
+"number of sent emails."
 msgstr ""
-"A taxa *Respondido* mede a porcentagem de destinatários que responderam ao "
-"e-mail diretamente em relação ao número total de e-mails enviados."
+"A porcentagem de destinatários que responderam ao e-mail, em relação ao "
+"número total de e-mails enviados."
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:51
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:57
 msgid ""
 "A high replied rate may indicate the email resonated with recipients, "
 "prompting them to take action or provide feedback."
@@ -2167,27 +2189,29 @@ msgstr ""
 "Uma alta taxa de resposta pode indicar que o e-mail repercutiu entre os "
 "destinatários, levando-os a fazer uma ação ou dar feedback."
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:54
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:60
 msgid ""
-"A low replied rate may suggest that the message lacked relevance or did not "
-"contain a clear call to action."
+"A low replied rate may suggest the message lacked relevance or did not "
+"contain a clear call-to-action."
 msgstr ""
 "Uma taxa de resposta baixa pode sugerir que a mensagem não era relevante ou "
 "não continha uma chamada para ação clara."
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:58
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:64
 msgid "Clicked rate"
 msgstr "Taxa de cliques"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:60
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:66
 msgid ""
-"The *Clicked* through rate (CTR), measures the percentage of recipients who "
-"clicked on a link within the email against the total number of sent emails."
+"This represents the *Clicked through rate (CTR)*, which measures the "
+"percentage of recipients who clicked on a link within the email, against the"
+" total number of sent emails."
 msgstr ""
-"A taxa de cliques (CTR) mede a porcentagem de destinatários que clicaram em "
-"um link dentro do e-mail em relação ao número total de e-mails enviados."
+"Isso representa a *Taxa de cliques (CTR)*, que mede a porcentagem de "
+"destinatários que clicaram em um link dentro do e-mail, em relação ao número"
+" total de e-mails enviados."
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:63
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:70
 msgid ""
 "A high |CTR| may indicate the email content was relevant and appropriately "
 "targeted. Recipients were motivated to click the links provided, and likely "
@@ -2197,10 +2221,10 @@ msgstr ""
 "adequadamente direcionado. Os destinatários foram motivados a clicar nos "
 "links fornecidos e provavelmente foram engajados pelo conteúdo."
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:66
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:73
 msgid ""
 "A low |CTR| may indicate issues with either the targeting, or the content "
-"itself. Recipients may have been unmotivated by the calls to action, if "
+"itself. Recipients may have been unmotivated by the calls-to-action, if "
 "there were any, or the message itself may have been directed toward the "
 "wrong audience."
 msgstr ""
@@ -2209,31 +2233,31 @@ msgstr ""
 " ação, se houver, ou a própria mensagem pode ter sido direcionada para o "
 "público errado."
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:71
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:78
 msgid "Received rate"
 msgstr "Taxa de recebidos"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:73
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:80
 msgid ""
-"The *Received* rate measures the percentage of emails that were successfully"
-" delivered against the total number of sent emails."
+"This rate measures the percentage of emails that were **successfully** "
+"delivered, against the total number of sent emails."
 msgstr ""
-"A taxa *Recebido* mede a porcentagem de e-mails que foram entregues com "
-"sucesso em relação ao número total de e-mails enviados."
+"Essa taxa mede a porcentagem de e-mails que foram entregues com **sucesso** "
+"em relação ao número total de e-mails enviados."
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:76
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:83
 msgid ""
-"A high received rate can indicate that the mailing list used is up to date "
-"and the sender authentication is trusted by email providers."
+"A high received rate can indicate the mailing list used is up-to-date, and "
+"the sender authentication is trusted by email providers."
 msgstr ""
-"Uma alta taxa de recebimento pode indicar que a lista de e-mails usada está "
-"atualizada e que a autenticação do remetente é confiável para os provedores "
-"de e-mail."
+"Uma alta taxa de recebimento pode indicar que a lista de distribuição usada "
+"está atualizada e que a autenticação do remetente é confiável para os "
+"provedores de e-mail."
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:79
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:86
 msgid ""
-"A low received rate may indicate issues either with the mailing list used "
-"for the mailing or with the sender authentication. View the :ref:`email-"
+"A low received rate may indicate issues, either with the mailing list used "
+"for the mailing, or with the sender authentication. View the :ref:`email-"
 "marketing/deliverability-issues` section for more information."
 msgstr ""
 "Uma baixa taxa de recebimento pode indicar problemas com a lista de "
@@ -2241,30 +2265,32 @@ msgstr ""
 "Consulte a seção :ref:`email-marketing/deliverability-issues` para obter "
 "mais informações."
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:84
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:91
 msgid "Bounced rate"
 msgstr "Taxa de devolução"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:86
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:93
 msgid ""
-"The *Bounced* rate measures the percentage of emails that were "
-"unsuccessfully delivered, against the total number of sent emails."
+"This rate measures the percentage of emails that were **unsuccessfully** "
+"delivered, and did not enter a recipient's inbox, against the total number "
+"of sent emails."
 msgstr ""
-"A taxa *Devolvido* mede a porcentagem de e-mails sem sucesso na entrega em "
-"relação ao número total de e-mails enviados."
+"Essa taxa mede a porcentagem de e-mails que **não** foram entregues e não "
+"entraram na caixa de entrada do destinatário, em relação ao número total de "
+"e-mails enviados."
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:89
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:96
 msgid ""
-"A high bounce rate could indicate issues either with the mailing list used "
-"for the mailing or with the sender authentication."
+"A high bounce rate could indicate issues, either with the mailing list used "
+"for the mailing, or with the sender authentication."
 msgstr ""
 "Uma alta taxa de devolução pode indicar problemas com a lista de "
 "distribuição usada para o envio ou com a autenticação do remetente."
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:92
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:99
 msgid ""
-"A low bounce rate may indicate that the mailing list used is up to date and "
-"the sender authentication is trusted by email providers. View the "
+"A low bounce rate may indicate that the mailing list used is up-to-date, and"
+" the sender authentication is trusted by email providers. View the "
 ":ref:`email-marketing/deliverability-issues` section for more information."
 msgstr ""
 "Uma baixa taxa de devolução pode indicar que a lista de distruibuição usada "
@@ -2272,11 +2298,227 @@ msgstr ""
 "provedores de e-mail. Consulte a seção :ref:`email-marketing/deliverability-"
 "issues` para obter mais informações."
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:99
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:104
+msgid ""
+"Click on the respective smart buttons to see all the corresponding recipient"
+" records that are attributed to each metric. When these filtered records are"
+" in view, multiple types of reports can be run for further analysis."
+msgstr ""
+"Clique nos respectivos botões inteligentes para ver todos os registros de "
+"destinatários correspondentes, atribuídos a cada métrica. Quando esses "
+"registros filtrados estiverem em exibição,é possível executar vários tipos "
+"de relatórios para análise posterior."
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:111
+msgid "Create metrics reports"
+msgstr "Criar relatórios de métricas"
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:113
+msgid ""
+"Individual metrics can be analyzed by creating a report. To begin, click on "
+"the smart button of the desired metric."
+msgstr ""
+"As métricas podem ser analisadas individualmente por meio da criação de um "
+"relatório. Para começar, clique no botão inteligente da métrica em questão."
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:116
+msgid ""
+"Next, click the :icon:`fa-caret-down` :guilabel:`(down arrow)` to the right "
+"of the search bar to see a drop-down menu of filtering and grouping "
+"parameters."
+msgstr ""
+"Em seguida, clique no :icon:`fa-caret-down` :guilabel:`(seta para baixo)` à "
+"direita da barra de pesquisa para ver um menu suspenso de parâmetros de "
+"filtragem e agrupamento."
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:119
+msgid ""
+":guilabel:`Filters`, located in the left column of the search options, can "
+"be used to keep only the results that fit the filter. For example, selecting"
+" the *Bounced* filter only shows emails that could not be delivered."
+msgstr ""
+"Os :guilabel:`Filtros`, localizados na coluna esquerda das opções de "
+"pesquisa, podem ser usadoa para manter apenas os resultados que se encaixam "
+"no filtro. Por exemplo, a seleção do filtro *Devolvidos* mostra apenas os "
+"e-mails que não puderam ser entregues."
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:123
+msgid ""
+":guilabel:`Group By`, found in the middle column, is used to organize the "
+"results into groups, and can be used with or without filters."
+msgstr ""
+":guilabel:`Agrupar por`, que se encontra na coluna do meio, serve para "
+"organizar os resultados em grupos e pode ser utilizado com ou sem filtros."
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:127
+msgid ""
+"Setting multiple :guilabel:`Group By` options creates nested groups, "
+"according to which option is selected first. For example, selecting "
+":guilabel:`Sent Period`, followed by :guilabel:`Add Custom Group --> "
+"Responsible`, in the :guilabel:`Group By` column, sorts all results *first* "
+"by the sent period, *then* by the team member responsible. This is a useful "
+"metric for analyzing who on the team is sending in volume or quantity over a"
+" set time period."
+msgstr ""
+"A configuração de várias opções :guilabel:`Agrupar por` cria grupos "
+"aninhados, de acordo com a opção selecionada primeiro. Por exemplo, "
+"selecionar :guilabel:`Período de envio`, seguido de :guilabel:`Adicionar "
+"grupo personalizado --> Responsável`, na coluna :guilabel:`Agrupar por`, "
+"classifica todos os resultados *primeiro* pelo período de envio, *depois* "
+"pelo membro da equipe responsável. Essa é uma métrica útil para analisar "
+"quem na equipe está enviando determinado volume ou quantidade em um período "
+"de tempo definido."
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:133
+msgid ""
+"This can be verified by looking at the direction, and order, of the "
+"selections in the group tile that appears in the search bar after the "
+"selections are made."
+msgstr ""
+"Isso pode ser verificado observando a direção e a ordem das seleções no "
+"bloco de grupo, que aparece na barra de pesquisa depois que as seleções são "
+"feitas."
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:137
+msgid ""
+"A monthly newsletter has been sent out, and 6.9% of the sent emails were "
+"bounced."
+msgstr ""
+"Uma newsletter mensal foi enviado, e 6,9% dos e-mails enviados foram "
+"devolvidos."
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:0
+msgid "The metrics smart buttons of the newsletter."
+msgstr "Os botões inteligentes de métricas da newsletter."
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:143
+msgid ""
+"To see what these bounced recipients have in common, the records are grouped"
+" using a custom group targeting :guilabel:`Mailing Lists`, which groups all "
+"records by the mailing lists they are on. The records are then filtered "
+"using a custom filter with the rule `Created on >= 07/01/2024 00:00:00`, to "
+"filter by when the mailing list was last checked. This filter only includes "
+"recipients that have been created on, or after, July 1st, 2024, in the "
+"report."
+msgstr ""
+"Para ver o que esses destinatários devolvidos têm em comum, os registros "
+"podem ser agrupados usando um grupo personalizado com o objetivo "
+":guilabel:`Listas de distribuição`, que agrupa todos os registros pelas "
+"listas de distribuição em que estão. Em seguida, os registros podem ser "
+"filtrados usando um filtro personalizado com a regra `Criado em >= "
+"07/01/2024 00:00:00`, para filtrar quando a lista de e-mails foi verificada "
+"pela última vez. Esse filtro inclui no relatório apenas os destinatários que"
+" foram criados em 1º de julho de 2024 ou depois dessa data."
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:0
+msgid "The custom filter creation form."
+msgstr "Formulário de criação de filtro personalizado."
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:153
+msgid ""
+"Using these configurations, it is evident that all the recipients with "
+"bounced emails were added after the list was last checked. Looking closer at"
+" the domains, it is evident that each recipient has a malformed email domain"
+" (i.e: @yaoo.com instead of @yahoo.com), likely due to a manual entry error "
+"while updating the database."
+msgstr ""
+"Com essas configurações, fica evidente que todos os destinatários com "
+"e-mails devolvidos foram adicionados depois que a lista foi verificada pela "
+"última vez. Observando mais de perto os domínios, fica evidente que cada "
+"destinatário tem um domínio de e-mail mal escrito (ou seja, @yaoo.com em vez"
+" de @yahoo.com), provavelmente devido a um erro de entrada manual durante a "
+"atualização da base de dados."
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:0
+msgid "A list of bounced email addresses with malformed email domains."
+msgstr ""
+"Uma lista de endereços de e-mail devolvidos com domínios de e-mail mal "
+"escritos."
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:163
+msgid ""
+"View :doc:`../../essentials/search` for more information about making custom"
+" groups and filters."
+msgstr ""
+"Consulte :doc:`../../essentials/search` para obter mais informações sobre "
+"como criar grupos e filtros personalizados."
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:169
+msgid "Mass mailing analysis"
+msgstr "Análise de envio em massa"
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:171
+msgid ""
+"It is also possible to analyze the success between mailing campaigns by "
+"creating a *Mass Mailing Analysis* report. To begin, navigate to "
+":menuselection:`Email Marketing app --> Reporting --> Mass Mailing "
+"Analysis`."
+msgstr ""
+"Também é possível analisar o sucesso entre as campanhas de mala direta "
+"criando um relatório *Análise de envio em massa*. Para começar, navegue até "
+":menuselection:`app Marketing por e-mail --> Relatórios --> Análise de envio"
+" em massa`."
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:175
+msgid ""
+"A dashboard appears displaying a bar chart containing each mailing campaign."
+" By default, :guilabel:`Sent` is selected, displaying the number of sent "
+"records on the y-axis. To change the measure, click the :guilabel:`Measures`"
+" button, and select the desired measure from the drop-down menu."
+msgstr ""
+"É exibido um painel com um gráfico de barras contendo cada campanha de "
+"e-mail. Por padrão, :guilabel:`Enviado` está selecionado, exibindo o número "
+"de registros enviados no eixo y. Para alterar a medida, clique no botão "
+":guilabel:`Medidas` e selecione a medida desejada no menu suspenso."
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:181
+msgid ""
+"The following chart displays the number of opened emails from two different "
+"mass mailings."
+msgstr ""
+"O gráfico a seguir exibe o número de e-mails abertos de duas comunicações em"
+" massa diferentes."
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:183
+msgid ""
+"In this view, it can be seen that the first mass mailing led to a higher "
+"opened rate than the second. Because a lower opened rate can sometimes be "
+"attributed to a subject line that failed to capture readers' attention, the "
+"subject line of each mass mailing can be a good place to begin looking."
+msgstr ""
+"Nessa visualização, é possível ver que a primeira distribuição levou a uma "
+"taxa de abertura mais alta do que a segunda. Como uma taxa de abertura mais "
+"baixa pode, às vezes, ser atribuída a uma linha de assunto que não conseguiu"
+" captar a atenção dos leitores, a linha de assunto de cada comunicação pode "
+"ser um bom ponto de partida."
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:0
+msgid ""
+"A bar chart displaying the different opened rate between two mass mailing "
+"campaigns."
+msgstr ""
+"Um gráfico de barras que exibe a taxa de abertura diferente entre duas "
+"campanhas de e-mail."
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:192
+msgid ""
+"Comparing the two subject lines, it is clear the newsletter's subject line "
+"was less engaging, which may have led to the lower opened rate, when "
+"compared to the other mass mailing."
+msgstr ""
+"Comparando as duas linhas de assunto, fica claro que a linha de assunto da "
+"newsletter era menos engajante, o que pode ter levado a uma taxa de abertura"
+" menor, quando comparada à outra comunicação."
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:0
+msgid "alt text"
+msgstr "texto alternativo"
+
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:200
 msgid "Deliverability issues"
 msgstr "Problemas com entrega de e-mails"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:101
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:202
 msgid ""
 "The following define possible reasons for a high bounce rate or low received"
 " rate:"
@@ -2284,7 +2526,7 @@ msgstr ""
 "A seguir, definimos os possíveis motivos para uma alta taxa de devolução ou "
 "uma baixa taxa de recebimento:"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:103
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:204
 msgid ""
 "Using a mailing list that contains outdated contact information, or "
 "malformed email addresses are likely to result in a high bounce rate and/or "
@@ -2294,7 +2536,7 @@ msgstr ""
 "desatualizadas ou endereços de e-mail malformados provavelmente resultará em"
 " uma alta taxa de devolução e/ou uma baixa taxa de recebimento."
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:105
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:206
 msgid ""
 "Mailings sent using a *From* email address that differs from the sender's "
 "domain are likely to bounce with certain email providers due to failing "
@@ -2305,7 +2547,7 @@ msgstr ""
 "serão devolvidas devido à falha na :ref:`autenticação DMARC <email-domain-"
 "dmarc>`."
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:108
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:209
 msgid ""
 "Failing to :doc:`configure the proper DNS records "
 "<../../general/email_communication/email_domain>` can also result in a high "
@@ -2315,11 +2557,11 @@ msgstr ""
 "<../../general/email_communication/email_domain>` também pode resultar em "
 "uma alta taxa de devolução."
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:112
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:213
 msgid ":ref:`Mailing campaigns <email_marketing/mailing-campaigns>`"
 msgstr ":ref:`Campanhas de e-mail <email_marketing/mailing-campaigns>`"
 
-#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:113
+#: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:214
 msgid ":doc:`Manage unsubscriptions <unsubscriptions>`"
 msgstr ":doc:`Gerenciar cancelamentos de inscrição <unsubscriptions>`"
 
@@ -4838,20 +5080,23 @@ msgstr ""
 
 #: ../../content/applications/marketing/events/create_events.rst:65
 msgid ""
-":guilabel:`Date`: when the event is scheduled to take place. This field is "
-"auto-populated, but modifiable, and is **required**."
+":guilabel:`Date`: when the event is scheduled to take place (expressed in "
+"your local timezone). This field is auto-populated, but modifiable, and is "
+"**required**."
 msgstr ""
-":guilabel:`Data`: para quando o evento está programado. Esse campo é "
-"preenchido automaticamente, mas pode ser modificado e é **obrigatório**."
+":guilabel:`Data`: para quando o evento está programado (expresso em seu "
+"fuso-horário local). Esse campo é preenchido automaticamente, mas pode ser "
+"modificado e é **obrigatório**."
 
 #: ../../content/applications/marketing/events/create_events.rst:67
 msgid ""
-":guilabel:`Timezone`: the corresponding timezone related to the event. This "
-"field is auto-populated, but modifiable, and is **required**."
+":guilabel:`Display Timezone`: the timezone in which the event dates/times "
+"will be displayed on the website. This field is auto-populated, but "
+"modifiable, and is **required**."
 msgstr ""
-":guilabel:`Fuso horário`: o fuso horário correspondente do evento. Esse "
-"campo é preenchido automaticamente, mas pode ser modificado e é "
-"**obrigatório**."
+":guilabel:`Exibir fuso-horário`: o fuso horário no qual as datas/horários do"
+" evento serão exibidos no site. Esse campo é preenchido automaticamente, mas"
+" pode ser modificado e é **obrigatório**."
 
 #: ../../content/applications/marketing/events/create_events.rst:69
 msgid ""
@@ -9403,27 +9648,26 @@ msgstr "Automação de Marketing"
 
 #: ../../content/applications/marketing/marketing_automation.rst:7
 msgid ""
-"The Odoo *Marketing Automation* application enables users to create dynamic "
+"Use the Odoo **Marketing Automation** application to create dynamic "
 "campaigns with actions that automatically occur within a defined duration, "
 "such as sending a series of timed mass emails or engaging with leads based "
 "on their interactions with marketing campaigns."
 msgstr ""
-"O aplicativo Odoo *Automação de marketing* permite que os usuários criem "
-"campanhas dinâmicas com ações que ocorrem automaticamente dentro de uma "
-"duração definida, como o envio de uma série de e-mails em massa programados "
-"ou engajamento com leads com base nas interações deles com as campanhas de "
+"Use o aplicativo **Automação de marketing** do Odoo para criar campanhas "
+"dinâmicas com ações que ocorrem automaticamente dentro de uma duração "
+"definida, como o envio de uma série de e-mails em massa cronometrados, ou o "
+"engajamento com leads com base em suas interações com campanhas de "
 "marketing."
 
 #: ../../content/applications/marketing/marketing_automation.rst:11
 msgid ""
-"While the application is designed to be user-friendly for quickly creating, "
+"While the application is designed to be user-friendly for creating, "
 "launching, and reviewing marketing campaigns, it also provides advanced "
 "features to automate repetitive tasks throughout the database."
 msgstr ""
-"Embora o aplicativo tenha sido projetado para ser fácil de usar para criar, "
-"lançar e revisar rapidamente campanhas de marketing, ele também oferece "
-"recursos avançados para automatizar tarefas repetitivas em toda a base de "
-"dados."
+"Mesmo tendo sido projetado para ser fácil de usar na criação, lançamento e "
+"revisão de campanhas de marketing, o aplicativo também oferece recursos "
+"avançados para automatizar tarefas repetitivas em toda a  base de dados."
 
 #: ../../content/applications/marketing/marketing_automation.rst:15
 msgid ""
@@ -9445,42 +9689,33 @@ msgstr ""
 
 #: ../../content/applications/marketing/marketing_automation.rst:46
 msgid ""
-"To install the *Marketing Automation* application, navigate to the "
-":menuselection:`Apps application` and search for `Marketing Automation`."
+"To begin, make sure the **Marketing Automation** application is "
+":ref:`installed <general/install>`."
 msgstr ""
-"Para instalar o aplicativo *Automação de marketing*, navegue até o "
-"aplicativo :menuselection:`Aplicativos` e procure por `Automação de "
-"marketing`."
+"Para começar, certifique-se de que o aplicativo **Automação de marketing** "
+"esteja :ref:`instalado <general/install>`."
 
 #: ../../content/applications/marketing/marketing_automation.rst:49
 msgid ""
-"In the list of results, click the :guilabel:`Activate` button on the "
-":guilabel:`Marketing Automation` application to install it."
-msgstr ""
-"Na lista de resultados, clique no botão :guilabel:`Ativar` no aplicativo "
-":guilabel:`Automação de marketing` para instalá-lo."
-
-#: ../../content/applications/marketing/marketing_automation.rst:53
-msgid ""
-"Installing the *Marketing Automation* application also installs the "
+"Installing the **Marketing Automation** application also installs the "
 ":doc:`Email Marketing <email_marketing>` app, as most features of Odoo "
-"*Marketing Automation* are dependent on that specific application."
+"**Marketing Automation** are dependent on that specific application."
 msgstr ""
-"A instalação do aplicativo *Automação de marketin* também instala o app "
+"A instalação do aplicativo *Automação de marketing* também instala o app "
 ":doc:`Marketing por e-mail <email_marketing>`, já que a maioria dos recursos"
 " do Odoo *Automação de marketing* depende desse aplicativo em específico."
 
-#: ../../content/applications/marketing/marketing_automation.rst:57
+#: ../../content/applications/marketing/marketing_automation.rst:53
 msgid ""
 "Additionally, install the :doc:`CRM <../sales/crm>` and :doc:`SMS Marketing "
 "<sms_marketing>` applications to access *all* of the features available in "
-"*Marketing Automation*."
+"**Marketing Automation**."
 msgstr ""
 "Além disso, instale o :doc:`CRM <.../sales/crm>` e o :doc:`Marketing por SMS"
 " <sms_marketing>` para acessar *todos* os recursos disponíveis na *Automação"
 " de marketing*."
 
-#: ../../content/applications/marketing/marketing_automation.rst:60
+#: ../../content/applications/marketing/marketing_automation.rst:56
 msgid ""
 "The following documentation assumes that all three of these dependent "
 "applications are installed on the database."
@@ -9488,11 +9723,11 @@ msgstr ""
 "A documentação a seguir pressupõe que todos esses três aplicativos "
 "dependentes estejam instalados na base de dados."
 
-#: ../../content/applications/marketing/marketing_automation.rst:66
+#: ../../content/applications/marketing/marketing_automation.rst:62
 msgid "Campaigns"
 msgstr "Campanhas"
 
-#: ../../content/applications/marketing/marketing_automation.rst:68
+#: ../../content/applications/marketing/marketing_automation.rst:64
 msgid ""
 "A *campaign* refers to a workflow of activities that are automatically "
 "executed to a target audience, based on predefined filters, triggers, and "
@@ -9502,7 +9737,7 @@ msgstr ""
 "executadas automaticamente para um público-alvo, com base em filtros, "
 "acionadores e durações de atividades predefinidos."
 
-#: ../../content/applications/marketing/marketing_automation.rst:71
+#: ../../content/applications/marketing/marketing_automation.rst:67
 msgid ""
 "A new campaign can be created from scratch or from a :ref:`template "
 "<marketing_automation/campaign-templates>`."
@@ -9510,25 +9745,23 @@ msgstr ""
 "Uma nova campanha pode ser criada do zero ou a partir de um :ref:`modelo "
 "<marketing_automation/campaign-templates>`."
 
-#: ../../content/applications/marketing/marketing_automation.rst:74
+#: ../../content/applications/marketing/marketing_automation.rst:70
 msgid ""
 "To create a campaign, navigate to the :menuselection:`Marketing Automation` "
-"application, from the main Odoo dashboard, to open the :guilabel:`Campaigns`"
-" dashboard. From here, click the :guilabel:`New` button to reveal a new "
-"campaign form."
+"application and click the :guilabel:`New` button to reveal a new campaign "
+"form."
 msgstr ""
 "Para criar uma campanha, navegue até o aplicativo :menuselection:`Automação "
-"de marketing`, no painel principal do Odoo, para abrir o painel "
-":guilabel:`Campanhas`. A partir daqui, clique no botão :guilabel:`Novo` para"
-" revelar um novo formulário de campanha."
+"de marketing` e clique no botão :guilabel:`Novo` para exibir um novo "
+"formulário de campanha."
 
-#: ../../content/applications/marketing/marketing_automation.rst:81
+#: ../../content/applications/marketing/marketing_automation.rst:76
 #: ../../content/applications/marketing/marketing_automation/campaign_templates.rst:5
 #: ../../content/applications/marketing/sms_marketing/marketing_campaigns.rst:82
 msgid "Campaign templates"
 msgstr "Modelos de campanha"
 
-#: ../../content/applications/marketing/marketing_automation.rst:83
+#: ../../content/applications/marketing/marketing_automation.rst:78
 msgid ""
 "Odoo provides six campaign templates to help users get started. The campaign"
 " template cards **only** display when there are no existing campaigns in the"
@@ -9542,7 +9775,7 @@ msgstr ""
 "de modelo no painel *Campanhas* são substituídos por uma visualização Kanban"
 " das campanhas existentes."
 
-#: ../../content/applications/marketing/marketing_automation.rst:88
+#: ../../content/applications/marketing/marketing_automation.rst:83
 msgid ""
 "To get started with a template, navigate to the :menuselection:`Marketing "
 "Automation` application, from the main Odoo dashboard, to open the "
@@ -9555,8 +9788,8 @@ msgstr ""
 "<marketing_automation/campaign_templates>` cartões:"
 
 #: ../../content/applications/marketing/marketing_automation.rst:0
-msgid ":guilabel:`🏷️ Tag Hot Contacts`"
-msgstr ":guilabel:`🏷️ Marcar contatos em destaque`"
+msgid ":icon:`fa-tag` :guilabel:`Tag Hot Contacts`"
+msgstr ":icon:`fa-tag` :guilabel:`Marcar contatos em destaque`"
 
 #: ../../content/applications/marketing/marketing_automation.rst:0
 msgid ""
@@ -9566,8 +9799,8 @@ msgstr ""
 "clicarem nele.`"
 
 #: ../../content/applications/marketing/marketing_automation.rst:0
-msgid ":guilabel:`✌️ Welcome Flow`"
-msgstr ":guilabel:`✌️ Fluxo de boas-vindas`"
+msgid ":icon:`fa-hand-peace-o` :guilabel:`Welcome Flow`"
+msgstr ":icon:`fa-hand-peace-o` :guilabel:`Fluxo de boas-vindas`"
 
 #: ../../content/applications/marketing/marketing_automation.rst:0
 msgid ""
@@ -9592,8 +9825,8 @@ msgstr ""
 "consentimento deles.`"
 
 #: ../../content/applications/marketing/marketing_automation.rst:0
-msgid ":guilabel:`🔍 Commercial prospection`"
-msgstr ":guilabel:`🔍 Prospecção comercial`"
+msgid ":icon:`fa-search` :guilabel:`Commercial prospection`"
+msgstr ":icon:`fa-search` :guilabel:`Prospecção comercia`"
 
 #: ../../content/applications/marketing/marketing_automation.rst:0
 msgid ":guilabel:`Send a free catalog and follow-up according to reactions.`"
@@ -9602,8 +9835,8 @@ msgstr ""
 "as reações.`"
 
 #: ../../content/applications/marketing/marketing_automation.rst:0
-msgid ":guilabel:`📞 Schedule Calls`"
-msgstr ":guilabel:`📞 Agendar ligações`"
+msgid ":icon:`fa-phone` :guilabel:`Schedule Calls`"
+msgstr ":icon:`fa-phone` :guilabel:`Agendar ligações`"
 
 #: ../../content/applications/marketing/marketing_automation.rst:0
 msgid ""
@@ -9614,8 +9847,8 @@ msgstr ""
 "ligação para o vendedor.`"
 
 #: ../../content/applications/marketing/marketing_automation.rst:0
-msgid ":guilabel:`⭐️ Prioritize Hot leads`"
-msgstr ":guilabel:`⭐️ Priorizar leads quentes`"
+msgid ":icon:`fa-star` :guilabel:`Prioritize Hot leads`"
+msgstr ":icon:`fa-star` :guilabel:`Priorizar leads quentes`"
 
 #: ../../content/applications/marketing/marketing_automation.rst:0
 msgid ""
@@ -9633,7 +9866,7 @@ msgstr ""
 "Seis cartões de modelo de campanha no painel Campanhas do aplicativo "
 "Automação de marketing."
 
-#: ../../content/applications/marketing/marketing_automation.rst:110
+#: ../../content/applications/marketing/marketing_automation.rst:104
 msgid ""
 "These templates are designed to be used as starting points for creating new "
 "campaigns. Click one of the template cards to open the campaign form."
@@ -9642,17 +9875,17 @@ msgstr ""
 " a criação de novas campanhas. Clique em um dos cartões de modelo para abrir"
 " o formulário da campanha."
 
-#: ../../content/applications/marketing/marketing_automation.rst:114
+#: ../../content/applications/marketing/marketing_automation.rst:108
 msgid ""
 "To display the campaign template cards again after a campaign has been "
 "created, type the name of a campaign that does **not** exist in the database"
-" into the :guilabel:`Search...` bar, then press :kbd:`Enter`."
+" into the search bar, then press :kbd:`Enter`."
 msgstr ""
 "Para exibir os cartões de modelo de campanha novamente após a criação de uma"
 " campanha, digite o nome de uma campanha que **não** exista na base de dados"
-" na barra :guilabel:`Pesquisar…` e pressione :kbd:`Enter`."
+" na barra de pesquisa e pressione :kbd:`Enter`."
 
-#: ../../content/applications/marketing/marketing_automation.rst:118
+#: ../../content/applications/marketing/marketing_automation.rst:111
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst:33
 msgid ""
 "For example, searching for `empty` displays the campaign template cards "
@@ -9663,11 +9896,11 @@ msgstr ""
 "campanha, desde que não haja uma campanha com o nome \"empty\" na base de "
 "dados."
 
-#: ../../content/applications/marketing/marketing_automation.rst:122
+#: ../../content/applications/marketing/marketing_automation.rst:115
 msgid "Targets and filters"
 msgstr "Alvos e filtros"
 
-#: ../../content/applications/marketing/marketing_automation.rst:124
+#: ../../content/applications/marketing/marketing_automation.rst:117
 msgid ""
 "On the campaign form, the :guilabel:`Target` and :guilabel:`Filter` section,"
 " also referred to as the domain, contains the fields used to define the "
@@ -9679,7 +9912,7 @@ msgstr ""
 "alvo do alcance da campanha (ou seja, os registros de contato exclusivos na "
 "base de dados)."
 
-#: ../../content/applications/marketing/marketing_automation.rst:128
+#: ../../content/applications/marketing/marketing_automation.rst:121
 msgid ""
 "The target audience specifies the type of records available for use in the "
 "campaign, such as *Lead/Opportunity*, *Event Registration*, *Contact*, and "
@@ -9689,11 +9922,11 @@ msgstr ""
 "campanha, como *Lead/Oportunidade*, *Inscrição em evento*, *Contato*, entre "
 "outros."
 
-#: ../../content/applications/marketing/marketing_automation.rst:132
+#: ../../content/applications/marketing/marketing_automation.rst:125
 msgid "Records"
 msgstr "Registros"
 
-#: ../../content/applications/marketing/marketing_automation.rst:134
+#: ../../content/applications/marketing/marketing_automation.rst:127
 msgid ""
 "The contacts in the system that fit the specified criteria for a campaign "
 "are referred to as *records*."
@@ -9701,7 +9934,7 @@ msgstr ""
 "Os contatos no sistema que atendem aos critérios especificados em uma "
 "campanha são chamados de *registros*."
 
-#: ../../content/applications/marketing/marketing_automation.rst:137
+#: ../../content/applications/marketing/marketing_automation.rst:130
 msgid ""
 "The number of records that are displayed next to the campaign "
 ":guilabel:`Filter` represent the total number of records the campaign is "
@@ -9711,18 +9944,18 @@ msgstr ""
 "campanha representa o número total de registros que a campanha está "
 "segmentando."
 
-#: ../../content/applications/marketing/marketing_automation.rst:141
+#: ../../content/applications/marketing/marketing_automation.rst:134
 #: ../../content/applications/marketing/marketing_automation/understanding_metrics.rst:157
 msgid "Participants"
 msgstr "Participantes"
 
-#: ../../content/applications/marketing/marketing_automation.rst:143
+#: ../../content/applications/marketing/marketing_automation.rst:136
 msgid ""
 "The records that are engaged by the campaign are referred to as "
 "*participants*."
 msgstr "Os registros engajados pela campanha são chamados de *participantes*."
 
-#: ../../content/applications/marketing/marketing_automation.rst:145
+#: ../../content/applications/marketing/marketing_automation.rst:138
 msgid ""
 "The number of participants engaged in a test run are shown in the *Tests* "
 "smart button, which displays on the top of the campaign form after a test "
@@ -9732,7 +9965,7 @@ msgstr ""
 "botão inteligente *Testes*, que é exibido na parte superior do formulário da"
 " campanha após a execução de um teste."
 
-#: ../../content/applications/marketing/marketing_automation.rst:148
+#: ../../content/applications/marketing/marketing_automation.rst:141
 msgid ""
 "The number of participants engaged in a running, or stopped, campaign are "
 "shown in the *Participants* smart button at the top of the campaign form."
@@ -9741,16 +9974,16 @@ msgstr ""
 "interrompida é mostrado no botão inteligente *Participantes* na parte "
 "superior do formulário da campanha."
 
-#: ../../content/applications/marketing/marketing_automation.rst:152
+#: ../../content/applications/marketing/marketing_automation.rst:145
 msgid ":doc:`Audience targeting <marketing_automation/target_audience>`"
 msgstr ""
 ":doc:`Segmentação de público-alvo <marketing_automation/target_audience>`"
 
-#: ../../content/applications/marketing/marketing_automation.rst:155
+#: ../../content/applications/marketing/marketing_automation.rst:148
 msgid "Workflow"
 msgstr "Fluxo de trabalho"
 
-#: ../../content/applications/marketing/marketing_automation.rst:157
+#: ../../content/applications/marketing/marketing_automation.rst:150
 msgid ""
 "A *workflow* consists of an activity, many activities, or a sequence of "
 "activities organized in a campaign. A campaign's workflow is defined in the "
@@ -9761,12 +9994,12 @@ msgstr ""
 "uma campanha é definido na seção :guilabel:`Fluxo de trabalho` do formulário"
 " da campanha."
 
-#: ../../content/applications/marketing/marketing_automation.rst:161
+#: ../../content/applications/marketing/marketing_automation.rst:154
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:19
 msgid "Activities"
 msgstr "Atividades"
 
-#: ../../content/applications/marketing/marketing_automation.rst:163
+#: ../../content/applications/marketing/marketing_automation.rst:156
 msgid ""
 "*Activities* are the methods of communication or server actions, organized "
 "in a workflow, that are executed within a campaign. Once running, each "
@@ -9778,7 +10011,7 @@ msgstr ""
 " vez em execução, cada atividade exibe o número de participantes envolvidos "
 "pela atividade como números de *Sucesso* e *Rejeitado*."
 
-#: ../../content/applications/marketing/marketing_automation.rst:167
+#: ../../content/applications/marketing/marketing_automation.rst:160
 msgid ""
 "To create one of the following activities, click :guilabel:`Add new "
 "activity` in the :guilabel:`Workflow` section of the campaign form:"
@@ -9787,7 +10020,7 @@ msgstr ""
 " atividade` na seção :guilabel:`Fluxo de trabalho` do formulário de "
 "campanha:"
 
-#: ../../content/applications/marketing/marketing_automation.rst:170
+#: ../../content/applications/marketing/marketing_automation.rst:163
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:53
 msgid ""
 ":ref:`Email <marketing_automation/email-activity-type>`: an email that is "
@@ -9796,7 +10029,7 @@ msgstr ""
 ":ref:`E-mail <marketing_automation/email-activity-type>`: um e-mail que é "
 "enviado ao público-alvo."
 
-#: ../../content/applications/marketing/marketing_automation.rst:172
+#: ../../content/applications/marketing/marketing_automation.rst:165
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:55
 msgid ""
 ":ref:`Server action <marketing_automation/sa-activity-type>`: an internal "
@@ -9805,7 +10038,7 @@ msgstr ""
 ":ref:`Ação do servidor <marketing_automation/sa-activity-type>`: uma ação "
 "interna no base de dados que é executada."
 
-#: ../../content/applications/marketing/marketing_automation.rst:174
+#: ../../content/applications/marketing/marketing_automation.rst:167
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:57
 msgid ""
 ":ref:`SMS <marketing_automation/sms-activity-type>`: a text message that is "
@@ -9814,15 +10047,15 @@ msgstr ""
 ":ref:`SMS <marketing_automation/sms-activity-type>`: uma mensagem de texto "
 "que é enviada ao público-alvo."
 
-#: ../../content/applications/marketing/marketing_automation.rst:178
+#: ../../content/applications/marketing/marketing_automation.rst:171
 msgid ":doc:`marketing_automation/workflow_activities`"
 msgstr ":doc:`marketing_automation/workflow_activities`"
 
-#: ../../content/applications/marketing/marketing_automation.rst:181
+#: ../../content/applications/marketing/marketing_automation.rst:174
 msgid "Testing and running"
 msgstr "Testes e execução"
 
-#: ../../content/applications/marketing/marketing_automation.rst:183
+#: ../../content/applications/marketing/marketing_automation.rst:176
 msgid ""
 "Once a campaign has been created, it can be tested to ensure the workflow is"
 " functioning as expected, to check for errors, and correct any mistakes "
@@ -9832,7 +10065,7 @@ msgstr ""
 "fluxo de trabalho esteja funcionando conforme o esperado e poder corrigir "
 "erros antes que atinja seu público-alvo."
 
-#: ../../content/applications/marketing/marketing_automation.rst:186
+#: ../../content/applications/marketing/marketing_automation.rst:179
 msgid ""
 "After testing, the campaign can be launched to start engaging the target "
 "audience. The campaign can also be launched *without* testing, if the user "
@@ -9842,15 +10075,15 @@ msgstr ""
 "alvo. A campanha também pode ser lançada *sem* testes, se o usuário estiver "
 "confiante no fluxo de trabalho."
 
-#: ../../content/applications/marketing/marketing_automation.rst:190
+#: ../../content/applications/marketing/marketing_automation.rst:183
 msgid ":doc:`marketing_automation/testing_running`"
 msgstr ":doc:`marketing_automation/testing_running`"
 
-#: ../../content/applications/marketing/marketing_automation.rst:193
+#: ../../content/applications/marketing/marketing_automation.rst:186
 msgid "Reporting"
 msgstr "Relatórios"
 
-#: ../../content/applications/marketing/marketing_automation.rst:195
+#: ../../content/applications/marketing/marketing_automation.rst:188
 msgid ""
 "A range of reporting metrics are available to measure the success of each "
 "campaign. Navigate to :menuselection:`Marketing Automation app --> "
@@ -9860,7 +10093,7 @@ msgstr ""
 "cada campanha. Navegue até :menuselection:`app Automação de marketing --> "
 "Relatórios` para acessar as seguintes opções de menu:"
 
-#: ../../content/applications/marketing/marketing_automation.rst:198
+#: ../../content/applications/marketing/marketing_automation.rst:191
 msgid ""
 ":guilabel:`Link Tracker`: displays the metrics of links to track the number "
 "of clicks."
@@ -9868,7 +10101,7 @@ msgstr ""
 ":guilabel:`Rastreio de links`: exibe as métricas dos links para rastrear o "
 "número de cliques."
 
-#: ../../content/applications/marketing/marketing_automation.rst:199
+#: ../../content/applications/marketing/marketing_automation.rst:192
 msgid ""
 ":guilabel:`Traces`: displays the results of all activities from all "
 "campaigns."
@@ -9876,7 +10109,7 @@ msgstr ""
 ":guilabel:`Rastreamentos`: exibe os resultados de todas as atividades de "
 "todas as campanhas."
 
-#: ../../content/applications/marketing/marketing_automation.rst:200
+#: ../../content/applications/marketing/marketing_automation.rst:193
 msgid ""
 ":guilabel:`Participants`: displays an overview of the participants of all "
 "campaigns."
@@ -9884,7 +10117,7 @@ msgstr ""
 ":guilabel:`Participantrs`: exibe uma visão geral dos participantes de todas "
 "as campanhas."
 
-#: ../../content/applications/marketing/marketing_automation.rst:202
+#: ../../content/applications/marketing/marketing_automation.rst:195
 msgid ""
 "Additionally, each activity within the workflow of a campaign displays its "
 "engagement metrics."
@@ -9892,7 +10125,7 @@ msgstr ""
 "Além disso, cada atividade no fluxo de trabalho de uma campanha exibe suas "
 "métricas de engajamento."
 
-#: ../../content/applications/marketing/marketing_automation.rst:205
+#: ../../content/applications/marketing/marketing_automation.rst:198
 msgid ":doc:`marketing_automation/understanding_metrics`"
 msgstr ":doc:`marketing_automation/understanding_metrics`"
 
@@ -15434,11 +15667,11 @@ msgid "`Odoo Tutorials: Surveys <https://www.odoo.com/slides/surveys-62>`_"
 msgstr ""
 "Tutoriais do Odoo: Pesquisas <https://www.odoo.com/slides/surveys-62>`_"
 
-#: ../../content/applications/marketing/surveys.rst:19
+#: ../../content/applications/marketing/surveys.rst:46
 msgid "Dashboard"
 msgstr "Painel"
 
-#: ../../content/applications/marketing/surveys.rst:21
+#: ../../content/applications/marketing/surveys.rst:48
 msgid ""
 "Upon opening the *Surveys* application, Odoo presents the main dashboard of "
 "the *Surveys* application, otherwise known as the :guilabel:`Surveys` page."
@@ -15452,7 +15685,7 @@ msgid "The Odoo Surveys application dashboard in the default Kanban view."
 msgstr ""
 "O painel do aplicativo Odoo Pesquisas no modo de visualização Kanban padrão."
 
-#: ../../content/applications/marketing/surveys.rst:29
+#: ../../content/applications/marketing/surveys.rst:56
 msgid ""
 "The *Surveys* dashboard can be accessed at any time throughout the "
 "application by clicking :menuselection:`Surveys` from the header menu."
@@ -15460,7 +15693,7 @@ msgstr ""
 "O painel *Pesquisas* pode ser acessado a qualquer momento no aplicativo, "
 "clicando em :menuselection:`Pesquisas` no menu do cabeçalho."
 
-#: ../../content/applications/marketing/surveys.rst:32
+#: ../../content/applications/marketing/surveys.rst:59
 msgid ""
 "In the upper-left corner, there is a :guilabel:`New` button. When clicked, "
 "Odoo presents a blank survey form that can be used to create a survey."
@@ -15469,7 +15702,7 @@ msgstr ""
 " apresenta um formulário de pesquisa em branco que pode ser usado para criar"
 " uma pesquisa."
 
-#: ../../content/applications/marketing/surveys.rst:35
+#: ../../content/applications/marketing/surveys.rst:62
 msgid ""
 "On the dashboard, all the surveys that have been created in the database are"
 " displayed in a default Kanban view."
@@ -15477,7 +15710,7 @@ msgstr ""
 "No painel, todas as pesquisas que foram criadas na base de dados são "
 "exibidas em um modo de visualização Kanban padrão."
 
-#: ../../content/applications/marketing/surveys.rst:38
+#: ../../content/applications/marketing/surveys.rst:65
 msgid ""
 "From left-to-right, after the survey name, the user who is responsible for "
 "it, and the month it was created, each line on the *Surveys* dashboard shows"
@@ -15487,11 +15720,11 @@ msgstr ""
 "por ela e o mês em que foi criada, cada linha no painel *Pesquisas* mostra o"
 " seguinte:"
 
-#: ../../content/applications/marketing/surveys.rst:41
+#: ../../content/applications/marketing/surveys.rst:68
 msgid "Number of :guilabel:`Questions` in that particular survey"
 msgstr "Número de :guilabel:`Perguntas` nessa pesquisa específica"
 
-#: ../../content/applications/marketing/surveys.rst:42
+#: ../../content/applications/marketing/surveys.rst:69
 msgid ""
 ":guilabel:`Average Duration` of the survey (how long it typically takes a "
 "participant to complete)"
@@ -15499,16 +15732,16 @@ msgstr ""
 ":guilabel:`Duração média` da pesquisa (quanto tempo um participante "
 "normalmente leva para concluir)"
 
-#: ../../content/applications/marketing/surveys.rst:43
+#: ../../content/applications/marketing/surveys.rst:70
 msgid "Number of :guilabel:`Registered` participants for the survey"
 msgstr "Número de :guilabel:`Participantes registrados` na pesquisa"
 
-#: ../../content/applications/marketing/surveys.rst:44
+#: ../../content/applications/marketing/surveys.rst:71
 msgid "Number of times that particular survey has been :guilabel:`Completed`"
 msgstr ""
 "Número de vezes que essa pesquisa específica foi :guilabel:`Concluída`"
 
-#: ../../content/applications/marketing/surveys.rst:45
+#: ../../content/applications/marketing/surveys.rst:72
 msgid ""
 "Percentage and data bar showcasing how many people have :guilabel:`Passed` "
 "or become :guilabel:`Certified`"
@@ -15516,7 +15749,7 @@ msgstr ""
 "Porcentagem e barra de dados mostrando quantas pessoas foram "
 ":guilabel:`Aprovadas` ou se tornaram :guilabel:`Certificadas`"
 
-#: ../../content/applications/marketing/surveys.rst:49
+#: ../../content/applications/marketing/surveys.rst:76
 msgid ""
 "The :guilabel:`Passed` percentage and bar **only** appears when a *Required "
 "Score* has been configured for that particular survey."
@@ -15525,7 +15758,7 @@ msgstr ""
 "uma *Pontuação necessária* tiver sido configurada para esse questionário "
 "específico."
 
-#: ../../content/applications/marketing/surveys.rst:52
+#: ../../content/applications/marketing/surveys.rst:79
 msgid ""
 "The :guilabel:`Certified` percentage and bar **only** appears if that "
 "particular survey has the *Is a Certification* option enabled on the survey "
@@ -15535,7 +15768,7 @@ msgstr ""
 " pesquisa específica tiver a opção *É uma certificação* ativada no "
 "formulário de pesquisa."
 
-#: ../../content/applications/marketing/surveys.rst:55
+#: ../../content/applications/marketing/surveys.rst:82
 msgid ""
 "If neither :guilabel:`Passed` nor :guilabel:`Certified` appear on the line, "
 "that indicates the survey is without a *Required Score* and was not enabled "
@@ -15545,7 +15778,7 @@ msgstr ""
 " isso indica que o questionário não tem uma *Pontuação necessária* e não foi"
 " ativado com a opção *É uma certificação*."
 
-#: ../../content/applications/marketing/surveys.rst:58
+#: ../../content/applications/marketing/surveys.rst:85
 msgid ""
 "Number of :guilabel:`Courses` related to that survey, which **only** appears"
 " if more than one course has been created and attached to a single survey"
@@ -15553,7 +15786,7 @@ msgstr ""
 "Número de :guilabel:`Cursos` relacionados a essa pesquisa, que **somente** "
 "aparece se mais de um curso tiver sido criado e anexado a uma única pesquisa"
 
-#: ../../content/applications/marketing/surveys.rst:62
+#: ../../content/applications/marketing/surveys.rst:89
 msgid ""
 "A half-trophy background image behind the survey name indicates that the "
 "survey is a *Certification*."
@@ -15561,7 +15794,7 @@ msgstr ""
 "Uma imagem de troféu pela metade atrás do nome da pesquisa indica que a "
 "pesquisa é uma *Certificação*."
 
-#: ../../content/applications/marketing/surveys.rst:65
+#: ../../content/applications/marketing/surveys.rst:92
 msgid ""
 "To the far-right of those data points on the survey lines, located on the "
 "*Surveys* application dashboard, are a collection of buttons."
@@ -15569,11 +15802,11 @@ msgstr ""
 "Na extremidade direita desses pontos de dados nas linhas de pesquisa, "
 "localizados no painel do aplicativo *Pesquisas*, há um conjunto de botões."
 
-#: ../../content/applications/marketing/surveys.rst:68
+#: ../../content/applications/marketing/surveys.rst:95
 msgid "Those buttons are as follows:"
 msgstr "Os botões são os seguintes:"
 
-#: ../../content/applications/marketing/surveys.rst:70
+#: ../../content/applications/marketing/surveys.rst:97
 msgid ""
 ":guilabel:`Share`: click to reveal a :guilabel:`Share a Survey` pop-up form "
 "that can be used to invite potential participants to the survey - complete "
@@ -15586,7 +15819,7 @@ msgstr ""
 "pesquisa` que pode ser copiado e enviado aos possíveis participantes e um "
 "botão de alternância :guilabel:`Enviar por e-mail`."
 
-#: ../../content/applications/marketing/surveys.rst:74
+#: ../../content/applications/marketing/surveys.rst:101
 msgid ""
 "When the :guilabel:`Send by Email` toggle is active (green switch), "
 "additional fields appear, in which :guilabel:`Recipients`, "
@@ -15598,7 +15831,7 @@ msgstr ""
 ":guilabel:`Destinatários`, :guilabel:`E-mails adicionais` e "
 ":guilabel:`Assunto` poderão ser adicionados ao e-mail."
 
-#: ../../content/applications/marketing/surveys.rst:78
+#: ../../content/applications/marketing/surveys.rst:105
 msgid ""
 "Below that, a dynamic email template, complete with a :guilabel:`Start "
 "Certification` button appears, which can be modified, as well, if needed."
@@ -15607,7 +15840,7 @@ msgstr ""
 ":guilabel:`Iniciar certificação que também pode ser modificado, se "
 "necessário."
 
-#: ../../content/applications/marketing/surveys.rst:81
+#: ../../content/applications/marketing/surveys.rst:108
 msgid ""
 ":guilabel:`Attachments` can be added to the email, as well as an "
 ":guilabel:`Answer deadline` can be set, if needed."
@@ -15615,7 +15848,7 @@ msgstr ""
 "É possível adicionar :guilabel:`Anexos` ao e-mail, assim como um "
 ":guilabel:`Prazo de resposta` pode ser definido, se necessário."
 
-#: ../../content/applications/marketing/surveys.rst:84
+#: ../../content/applications/marketing/surveys.rst:111
 #: ../../content/applications/marketing/surveys/create.rst:299
 msgid ""
 "Once modifications are complete, click :guilabel:`Send` to send that email "
@@ -15635,7 +15868,7 @@ msgstr ""
 "A janela pop-up \"Compartilhar uma pesquisa\" no Odoo Pesquisas com a opção "
 "Enviar por e-mail ativada."
 
-#: ../../content/applications/marketing/surveys.rst:92
+#: ../../content/applications/marketing/surveys.rst:119
 msgid ""
 "The default :guilabel:`Mail Template` for survey invites can be edited by "
 "navigating to :menuselection:`Settings --> Technical --> Email Templates` "
@@ -15645,7 +15878,7 @@ msgstr ""
 "editado navegando até :menuselection:`Definições --> Técnico --> Modelos de "
 "e-mail` e procurando por `Pesquisa: Convite`."
 
-#: ../../content/applications/marketing/surveys.rst:96
+#: ../../content/applications/marketing/surveys.rst:123
 msgid ""
 "The :guilabel:`Send by Email` toggle switch is **not** present when the "
 "survey line has zero questions."
@@ -15653,7 +15886,7 @@ msgstr ""
 "O botão de alternância :guilabel:`Enviar por e-mail` **não** fica presente "
 "quando a linha da pesquisa tem zero perguntas."
 
-#: ../../content/applications/marketing/surveys.rst:99
+#: ../../content/applications/marketing/surveys.rst:126
 msgid ""
 "The :guilabel:`Survey Link` only appears when the survey's *Access Mode* is "
 "set to *Anyone with the link*."
@@ -15661,7 +15894,7 @@ msgstr ""
 "O :guilabel:`Link da pesquisa` só aparece quando o *Modo de acesso* da "
 "pesquisa está definido como *Qualquer pessoa com o link*."
 
-#: ../../content/applications/marketing/surveys.rst:102
+#: ../../content/applications/marketing/surveys.rst:129
 msgid ""
 "The :guilabel:`Additional Emails` field only appears when the survey's "
 "*Require Login* field is **not** active."
@@ -15669,7 +15902,7 @@ msgstr ""
 "O campo :guilabel:`E-mails adicionais` só aparece quando o campo *Requer "
 "login* **não** está ativo."
 
-#: ../../content/applications/marketing/surveys.rst:105
+#: ../../content/applications/marketing/surveys.rst:132
 msgid ""
 ":guilabel:`Test`: click to take a test version of the survey in a new tab, "
 "from the point-of-view of a survey participant, in order to check for any "
@@ -15679,7 +15912,7 @@ msgstr ""
 " nova aba, do ponto de vista de um participante da pesquisa, a fim de "
 "verificar se há erros ou inconsistências."
 
-#: ../../content/applications/marketing/surveys.rst:107
+#: ../../content/applications/marketing/surveys.rst:134
 msgid ""
 ":guilabel:`See results`: click to reveal a new tab showcasing detailed "
 "metrics and graphical representations of all survey participants, questions,"
@@ -15689,7 +15922,7 @@ msgstr ""
 "métricas detalhadas e representações gráficas de todos os participantes, "
 "perguntas e respostas da pesquisa para uma análise mais profunda."
 
-#: ../../content/applications/marketing/surveys.rst:109
+#: ../../content/applications/marketing/surveys.rst:136
 msgid ""
 ":guilabel:`Start Live Session`: click to initiate a *Live session* survey, "
 "and reveal a session manager window in a new tab. This button is **not** "
@@ -15701,7 +15934,7 @@ msgstr ""
 "aba. Esse botão **não** está presente em pesquisas que ativaram a opção *É "
 "uma certificação* no formulário de pesquisa."
 
-#: ../../content/applications/marketing/surveys.rst:112
+#: ../../content/applications/marketing/surveys.rst:139
 msgid ""
 ":guilabel:`End Live Session`: click to end a *Live session* survey that has "
 "been officially started. This button option **only** appears on survey lines"
@@ -15712,7 +15945,7 @@ msgstr ""
 "**somente** aparece em linhas de pesquisa que tenham iniciado anteriormente "
 "uma sessão ao vivo."
 
-#: ../../content/applications/marketing/surveys.rst:116
+#: ../../content/applications/marketing/surveys.rst:143
 msgid ""
 "Above the buttons that are located to the far-right of the survey lines, a "
 ":guilabel:`⋮ (three dots)` icon appears when the cursor hovers over that "
@@ -15724,11 +15957,11 @@ msgstr ""
 "essa linha específica. Ao clicar no ícone :guilabel:`⋮ (três pontos)`, um "
 "menu suspenso com algumas opções relacionadas à configuração é exibido:"
 
-#: ../../content/applications/marketing/surveys.rst:120
+#: ../../content/applications/marketing/surveys.rst:147
 msgid "The options are:"
 msgstr "As opções são:"
 
-#: ../../content/applications/marketing/surveys.rst:122
+#: ../../content/applications/marketing/surveys.rst:149
 msgid ""
 ":guilabel:`Edit Survey`: when clicked, Odoo reveals the survey form for that"
 " particular survey, which can then be modified in a number of different "
@@ -15738,7 +15971,7 @@ msgstr ""
 " dessa pesquisa específica, que pode ser modificada de várias maneiras "
 "diferentes."
 
-#: ../../content/applications/marketing/surveys.rst:124
+#: ../../content/applications/marketing/surveys.rst:151
 msgid ""
 ":guilabel:`Share`: when clicked, Odoo reveals the :guilabel:`Share a Survey`"
 " pop-up form that can be used to invite potential participants to the "
@@ -15748,7 +15981,7 @@ msgstr ""
 ":guilabel:`Compartilhar uma pesquisa`, que pode ser usado para convidar "
 "possíveis participantes para a pesquisa."
 
-#: ../../content/applications/marketing/surveys.rst:126
+#: ../../content/applications/marketing/surveys.rst:153
 msgid ""
 ":guilabel:`Delete`: when clicked, Odoo presents a pop-up window, wherein the"
 " user **must** confirm they want to delete the survey entirely, which they "
@@ -15760,7 +15993,7 @@ msgstr ""
 "o que pode ser feito clicando no botão :guilabel:`Excluir` na parte inferior"
 " da janela pop-up."
 
-#: ../../content/applications/marketing/surveys.rst:129
+#: ../../content/applications/marketing/surveys.rst:156
 msgid ""
 ":guilabel:`Color`: users can opt to choose a color to add to the survey line"
 " on the dashboard for added organizational purposes, if needed."
@@ -15777,7 +16010,7 @@ msgstr ""
 "O menu suspenso de opções (três pontos) que aparece no painel do Odoo "
 "Pesquisas."
 
-#: ../../content/applications/marketing/surveys.rst:136
+#: ../../content/applications/marketing/surveys.rst:163
 msgid ""
 "Beneath the buttons that are located to the far-right of the survey lines, "
 "there is an *Activities* button, represented by a :guilabel:`🕘 (clock)` "
@@ -15797,7 +16030,7 @@ msgid ""
 msgstr ""
 "O menu suspenso Agendar atividades que aparece no painel do Odoo Pesquisas."
 
-#: ../../content/applications/marketing/surveys.rst:147
+#: ../../content/applications/marketing/surveys.rst:174
 msgid ""
 "The *Surveys* dashboard is shown in the Kanban view, by default, but there "
 "is also a list view option available in the upper-right corner, represented "
@@ -15807,7 +16040,7 @@ msgstr ""
 "mas também há a opção de visualização de lista disponível no canto superior "
 "direito, representada pelo ícone :guilabel:`≣ (barras)`."
 
-#: ../../content/applications/marketing/surveys.rst:150
+#: ../../content/applications/marketing/surveys.rst:177
 msgid ""
 "When the :guilabel:`≣ (bars)` icon is clicked, the survey related data is "
 "displayed in a list view."
@@ -15822,7 +16055,7 @@ msgstr ""
 "A opção de exibição de lista localizada no painel do aplicativo Odoo "
 "Pesquisas."
 
-#: ../../content/applications/marketing/surveys.rst:156
+#: ../../content/applications/marketing/surveys.rst:183
 msgid ""
 "The columns shown on the *Surveys* app dashboard, while in list view, are as"
 " follows:"
@@ -15830,31 +16063,31 @@ msgstr ""
 "As colunas exibidas no painel do aplicativo *Pesquisas*, no modo de "
 "visualização de lista, são as seguintes:"
 
-#: ../../content/applications/marketing/surveys.rst:158
+#: ../../content/applications/marketing/surveys.rst:185
 msgid ":guilabel:`Survey Title`"
 msgstr ":guilabel:`Título da pesquisa`"
 
-#: ../../content/applications/marketing/surveys.rst:159
+#: ../../content/applications/marketing/surveys.rst:186
 msgid ":guilabel:`Responsible`"
 msgstr ":guilabel:`Responsável`"
 
-#: ../../content/applications/marketing/surveys.rst:160
+#: ../../content/applications/marketing/surveys.rst:187
 msgid ":guilabel:`Average Duration`"
 msgstr ":guilabel:`Duração média`"
 
-#: ../../content/applications/marketing/surveys.rst:161
+#: ../../content/applications/marketing/surveys.rst:188
 msgid ":guilabel:`Registered`"
 msgstr ":guilabel:`Registrado`"
 
-#: ../../content/applications/marketing/surveys.rst:162
+#: ../../content/applications/marketing/surveys.rst:189
 msgid ":guilabel:`Success Ratio (%)`"
 msgstr ":guilabel:`Taxa de aprovação (%)`"
 
-#: ../../content/applications/marketing/surveys.rst:163
+#: ../../content/applications/marketing/surveys.rst:190
 msgid ":guilabel:`Avg Score (%)`"
 msgstr ":guilabel:`Pontuação média (%)`"
 
-#: ../../content/applications/marketing/surveys.rst:166
+#: ../../content/applications/marketing/surveys.rst:193
 msgid ""
 "Additional columns can be added to the *Surveys* application dashboard, "
 "while in list view, by clicking the *additional options* drop-down menu, "
@@ -15866,11 +16099,11 @@ msgstr ""
 "localizado na extremidade direita dos títulos das colunas, representado por "
 "um ícone :guilabel:`(controle deslizante com dois pontos)`."
 
-#: ../../content/applications/marketing/surveys.rst:171
+#: ../../content/applications/marketing/surveys.rst:198
 msgid "Activities view"
 msgstr "Visualização de atividades"
 
-#: ../../content/applications/marketing/surveys.rst:173
+#: ../../content/applications/marketing/surveys.rst:200
 msgid ""
 "To have the *Surveys* application dashboard display nothing but the "
 "activities associated to the surveys in the database, click the :guilabel:`🕘"
@@ -15888,7 +16121,7 @@ msgstr ""
 "A opção de visualização de atividades localizada no painel do Odoo "
 "Pesquisas."
 
-#: ../../content/applications/marketing/surveys.rst:181
+#: ../../content/applications/marketing/surveys.rst:208
 msgid ""
 "Doing so reveals a table with rows and columns. The rows show the different "
 "surveys in the database, and the columns depict the various activity types."
@@ -15897,7 +16130,7 @@ msgstr ""
 "pesquisas na base de dados e as colunas descrevem os diversos tipos de "
 "atividade."
 
-#: ../../content/applications/marketing/surveys.rst:185
+#: ../../content/applications/marketing/surveys.rst:212
 msgid ""
 "A new survey cannot be created in this view, as it is solely for the purpose"
 " of creating and viewing scheduled activities."
@@ -15905,9 +16138,101 @@ msgstr ""
 "Não é possível criar uma nova pesquisa nessa visualização, pois ela serve "
 "apenas para criar e visualizar atividades agendadas."
 
+#: ../../content/applications/marketing/surveys.rst:216
+#: ../../content/applications/marketing/surveys/create.rst:3
+msgid "Create surveys"
+msgstr "Criar pesquisas"
+
+#: ../../content/applications/marketing/surveys.rst:218
+msgid ""
+"Learn about all the different options and configurations that can be "
+"utilized when creating a survey in Odoo."
+msgstr ""
+"Saiba mais sobre todas as diferentes opções e configurações que podem ser "
+"utilizadas ao criar uma pesquisa no Odoo."
+
+#: ../../content/applications/marketing/surveys.rst:222
+msgid ":doc:`surveys/create`"
+msgstr ":doc:`surveys/create`"
+
+#: ../../content/applications/marketing/surveys.rst:225
+#: ../../content/applications/marketing/surveys/scoring.rst:3
+msgid "Scoring surveys"
+msgstr "Pontuação de pesquisas"
+
+#: ../../content/applications/marketing/surveys.rst:227
+msgid ""
+"Discover how to measure a survey participant's performance, or overall "
+"satisfaction, with Odoo's detailed (and fully customizable) survey scoring "
+"options."
+msgstr ""
+"Descubra como medir o desempenho ou a satisfação geral de um participante de"
+" pesquisa com as opções detalhadas (e totalmente personalizáveis) de "
+"pontuação de pesquisa do Odoo."
+
+#: ../../content/applications/marketing/surveys.rst:231
+msgid ":doc:`surveys/scoring`"
+msgstr ":doc:`surveys/scoring`"
+
+#: ../../content/applications/marketing/surveys.rst:234
+#: ../../content/applications/marketing/surveys/questions.rst:3
+#: ../../content/applications/marketing/surveys/questions.rst:64
+msgid "Create questions"
+msgstr "Criar perguntas"
+
+#: ../../content/applications/marketing/surveys.rst:236
+msgid ""
+"With Odoo *Surveys*, there are many question types and options to choose "
+"from, providing the ability to create any kind of unique survey, "
+"questionnarire, and/or certification."
+msgstr ""
+"Com o Odoo *Pesquisas*, há muitos tipos de perguntas e opções para escolher,"
+" o que permite criar qualquer tipo de pesquisa, questionário e/ou "
+"certificação exclusivos."
+
+#: ../../content/applications/marketing/surveys.rst:240
+msgid ":doc:`surveys/questions`"
+msgstr ":doc:`surveys/questions`"
+
+#: ../../content/applications/marketing/surveys.rst:243
+#: ../../content/applications/marketing/surveys/live_session.rst:3
+msgid "Live Session surveys"
+msgstr "Pesquisas em sessões ao vivo"
+
+#: ../../content/applications/marketing/surveys.rst:245
+msgid ""
+"The *Live Session* survey option available in Odoo can enhance in-person "
+"demonstrations and presentations, where participants' real-time responses "
+"can be used to dictate where the conversation goes next."
+msgstr ""
+"A opção de pesquisa *Sessão ao vivo* disponível no Odoo pode aprimorar as "
+"demonstrações e apresentações presenciais, em que as respostas em tempo real"
+" dos participantes podem ser usadas para determinar o rumo da conversa."
+
+#: ../../content/applications/marketing/surveys.rst:250
+msgid ":doc:`surveys/live_session`"
+msgstr ":doc:`surveys/live_session`"
+
+#: ../../content/applications/marketing/surveys.rst:253
 #: ../../content/applications/marketing/surveys/analysis.rst:3
 msgid "Survey analysis"
 msgstr "Análise de pesquisas"
+
+#: ../../content/applications/marketing/surveys.rst:255
+msgid ""
+"Once the surveys start to come in, it is time to analyze the responses from "
+"your participants. Fortuantely, the in-depth reporting pages and options "
+"available in Odoo *Surveys* provide countless ways to examine everything "
+"related to surveys, and their submitted responses."
+msgstr ""
+"Quando as pesquisas são concluídas, chega o momento de analisar as respostas"
+" dos participantes. Felizmente, as páginas de relatórios detalhados e as "
+"opções disponíveis no Odoo *Pesquisas* oferecem inúmeras maneiras de "
+"examinar tudo relacionado a pesquisas e suas respostas enviadas."
+
+#: ../../content/applications/marketing/surveys.rst:260
+msgid ":doc:`surveys/analysis`"
+msgstr ":doc:`surveys/analysis`"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:5
 msgid ""
@@ -16562,10 +16887,6 @@ msgstr ":doc:`create`"
 #: ../../content/applications/marketing/surveys/live_session.rst:221
 msgid ":doc:`scoring`"
 msgstr ":doc:`scoring`"
-
-#: ../../content/applications/marketing/surveys/create.rst:3
-msgid "Create surveys"
-msgstr "Criar pesquisas"
 
 #: ../../content/applications/marketing/surveys/create.rst:5
 msgid ""
@@ -17427,10 +17748,6 @@ msgstr ""
 msgid ":doc:`questions`"
 msgstr ":doc:`questions`"
 
-#: ../../content/applications/marketing/surveys/live_session.rst:3
-msgid "Live Session surveys"
-msgstr "Pesquisas em sessões ao vivo"
-
 #: ../../content/applications/marketing/surveys/live_session.rst:5
 msgid ""
 "With the Odoo *Surveys* application, users can enhance in-person "
@@ -17974,11 +18291,6 @@ msgstr ""
 #: ../../content/applications/marketing/surveys/live_session.rst:216
 msgid "Repeat this process until the survey is complete."
 msgstr "Repita esse processo até que a pesquisa esteja concluída."
-
-#: ../../content/applications/marketing/surveys/questions.rst:3
-#: ../../content/applications/marketing/surveys/questions.rst:64
-msgid "Create questions"
-msgstr "Criar perguntas"
 
 #: ../../content/applications/marketing/surveys/questions.rst:5
 msgid ""
@@ -18734,10 +19046,6 @@ msgid ""
 msgstr ""
 "As cores do texto da pesquisa estão diretamente vinculadas às cores usadas "
 "para o :doc:`tema do site <../../websites/website/web_design/themes>`."
-
-#: ../../content/applications/marketing/surveys/scoring.rst:3
-msgid "Scoring surveys"
-msgstr "Pontuação de pesquisas"
 
 #: ../../content/applications/marketing/surveys/scoring.rst:5
 msgid ""

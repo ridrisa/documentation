@@ -5,17 +5,17 @@
 # 
 # Translators:
 # Lasse L, 2024
-# Jakob Krabbe <jakob.krabbe@vertel.se>, 2024
 # Anders Wallenquist <anders.wallenquist@vertel.se>, 2024
+# Jakob Krabbe <jakob.krabbe@vertel.se>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-24 10:43+0000\n"
+"POT-Creation-Date: 2025-04-30 11:37+0000\n"
 "PO-Revision-Date: 2023-11-08 08:55+0000\n"
-"Last-Translator: Anders Wallenquist <anders.wallenquist@vertel.se>, 2024\n"
+"Last-Translator: Jakob Krabbe <jakob.krabbe@vertel.se>, 2024\n"
 "Language-Team: Swedish (https://app.transifex.com/odoo/teams/41243/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -154,12 +154,12 @@ msgid "Transferring an on-premise database"
 msgstr "Överföring av en lokal databas"
 
 #: ../../content/administration/hosting.rst:17
-#: ../../content/administration/hosting.rst:90
+#: ../../content/administration/hosting.rst:92
 msgid "To Odoo Online"
 msgstr "Till Odoo Online"
 
 #: ../../content/administration/hosting.rst:20
-#: ../../content/administration/hosting.rst:93
+#: ../../content/administration/hosting.rst:95
 msgid "Odoo Online is *not* compatible with **non-standard apps**."
 msgstr "Odoo Online är *inte* kompatibelt med **icke-standardiserade appar**."
 
@@ -184,15 +184,14 @@ msgid "Use the database manager to grab a *dump with filestore*."
 msgstr "Använd databashanteraren för att ta en *dump med filestore*."
 
 #: ../../content/administration/hosting.rst:26
+#: ../../content/administration/hosting.rst:98
 msgid ""
-"`Submit a support ticket <https://www.odoo.com/help>`_ including the "
+"`Create a support ticket <https://www.odoo.com/help-form>`_ including the "
 "following:"
 msgstr ""
-"`Sänd in ett supportärende <https://www.odoo.com/help>`_ som innehåller "
-"följande:"
 
 #: ../../content/administration/hosting.rst:28
-#: ../../content/administration/hosting.rst:98
+#: ../../content/administration/hosting.rst:100
 msgid "your **subscription number**,"
 msgstr "ditt **abonnemangsnummer**,"
 
@@ -211,7 +210,7 @@ msgstr ""
 " MB eller mer)."
 
 #: ../../content/administration/hosting.rst:32
-#: ../../content/administration/hosting.rst:105
+#: ../../content/administration/hosting.rst:107
 msgid ""
 "Odoo then makes sure the database is compatible before putting it online. In"
 " case of technical issues during the process, Odoo might contact you."
@@ -221,22 +220,20 @@ msgstr ""
 "dig."
 
 #: ../../content/administration/hosting.rst:36
-#: ../../content/administration/hosting.rst:109
+#: ../../content/administration/hosting.rst:111
 msgid ""
-"If you have time constraints, `submit a support ticket "
-"<https://www.odoo.com/help>`_ as soon as possible to schedule the transfer."
+"If you have time constraints, `create a support ticket "
+"<https://www.odoo.com/help-form>`_ as soon as possible to schedule the "
+"transfer."
 msgstr ""
-"Om du har tidsbegränsningar, `sänd ett supportärende "
-"<https://www.odoo.com/help>`_ så snart som möjligt för att schemalägga "
-"överföringen."
 
 #: ../../content/administration/hosting.rst:40
-#: ../../content/administration/hosting.rst:77
+#: ../../content/administration/hosting.rst:78
 msgid "To Odoo.sh"
 msgstr "Det är Odoo.sh"
 
 #: ../../content/administration/hosting.rst:42
-#: ../../content/administration/hosting.rst:83
+#: ../../content/administration/hosting.rst:85
 msgid ""
 "Follow the instructions found in :ref:`the Import your database section "
 "<odoo_sh_import_your_database>` of the Odoo.sh *Create your project* "
@@ -258,6 +255,11 @@ msgid ""
 ":ref:`major version <supported_versions>`, waiting for its release if "
 "necessary."
 msgstr ""
+"Odoo Onlines :ref:`intermediära versioner <supported_versions>` kan inte "
+"hostas on-premise eftersom den typen av hosting inte stöder dessa versioner."
+" Om databasen som ska överföras kör en mellanliggande version måste den "
+"därför först uppgraderas till nästa :ref:`major version "
+"<supported_versions>`, och vid behov vänta på att den släpps."
 
 #: ../../content/administration/hosting.rst:55
 msgid ""
@@ -269,46 +271,36 @@ msgstr ""
 
 #: ../../content/administration/hosting.rst:59
 msgid ""
-"Click the gear icon (:guilabel:`⚙`) next to the database name on the `Odoo "
-"Online database manager <https://www.odoo.com/my/databases/>`_ to display "
-"its version number."
+"Click the :icon:`fa-gear` (:guilabel:`gear`) button next to the database "
+"name on the `Odoo Online database manager "
+"<https://www.odoo.com/my/databases/>`_ to display its version number."
 msgstr ""
-"Klicka på kugghjulsikonen (:guilabel:`⚙`) bredvid databasens namn i `Odoo "
-"Online database manager <https://www.odoo.com/my/databases/>`_ för att visa "
-"dess versionsnummer."
 
 #: ../../content/administration/hosting.rst:63
 msgid ""
 "If there is an active Odoo subscription linked to the database being "
-"migrated, reach out to the Customer Service Manager or `submit a support "
-"ticket <https://www.odoo.com/help>`_  to complete the subscription transfer."
+"migrated, reach out to the Customer Service Manager or `contact Odoo support"
+" <https://www.odoo.com/help>`_ to complete the subscription transfer."
 msgstr ""
-"Om det finns en aktiv Odoo-prenumeration kopplad till den databas som "
-"migreras, kontakta kundtjänstchefen eller `submit a support ticket "
-"<https://www.odoo.com/help>`_ för att slutföra prenumerationsöverföringen."
 
 #: ../../content/administration/hosting.rst:68
-#: ../../content/administration/hosting.rst:118
+#: ../../content/administration/hosting.rst:120
 msgid "To on-premise"
 msgstr "Till lokalt installerad"
 
 #: ../../content/administration/hosting.rst:70
-#: ../../content/administration/hosting.rst:79
+#: ../../content/administration/hosting.rst:80
 msgid ""
-"Sign in to `the Odoo Online database manager "
-"<https://www.odoo.com/my/databases/>`_ and click the gear icon "
-"(:guilabel:`⚙`) next to the database name to :guilabel:`Download` a backup. "
-"If the download fails due to the file being too large, `contact Odoo support"
-" <https://www.odoo.com/help>`_."
+"Download a database backup by signing in to `the Odoo Online database "
+"manager <https://www.odoo.com/my/databases/>`_, clicking the :icon:`fa-gear`"
+" (:guilabel:`gear`) button next to the database name, then selecting "
+":icon:`fa-cloud-download` :guilabel:`Download`. If the download fails due to"
+" the file being too large, `contact Odoo support "
+"<https://www.odoo.com/help>`_."
 msgstr ""
-"Logga in på `databashanteraren Odoo Online "
-"<https://www.odoo.com/my/databases/>`_ och klicka på kugghjulsikonen "
-"(:guilabel:`⚙`) bredvid databasens namn för att :guilabel:`Ladda ner` en "
-"säkerhetskopia. Om nedladdningen misslyckas på grund av att filen är för "
-"stor, `kontakta Odoo support <https://www.odoo.com/help>`_."
 
-#: ../../content/administration/hosting.rst:74
-#: ../../content/administration/hosting.rst:121
+#: ../../content/administration/hosting.rst:75
+#: ../../content/administration/hosting.rst:123
 msgid ""
 "Restore the database from the database manager on your local server using "
 "the backup."
@@ -316,11 +308,11 @@ msgstr ""
 "Återställ databasen från databashanteraren på din lokala server med hjälp av"
 " säkerhetskopian."
 
-#: ../../content/administration/hosting.rst:87
+#: ../../content/administration/hosting.rst:89
 msgid "Transferring an Odoo.sh database"
 msgstr "Överföring av en Odoo.sh-databas"
 
-#: ../../content/administration/hosting.rst:95
+#: ../../content/administration/hosting.rst:97
 msgid ""
 "Uninstall all **non-standard apps** in a staging build before doing it in "
 "the production build."
@@ -328,24 +320,16 @@ msgstr ""
 "Avinstallera alla **icke-standardiserade appar** i en staging-build innan du"
 " gör det i produktionsbuilden."
 
-#: ../../content/administration/hosting.rst:96
-msgid ""
-"`Create a support ticket <https://www.odoo.com/help>`_ including the "
-"following:"
-msgstr ""
-"`Skapa ett supportärende <https://www.odoo.com/help>`_ med följande "
-"innehåll:"
-
-#: ../../content/administration/hosting.rst:99
+#: ../../content/administration/hosting.rst:101
 msgid ""
 "the **URL** you want to use for the database (e.g., `company.odoo.com`),"
 msgstr "**URL** som du vill använda för databasen (t.ex. `företag.odoo.com`),"
 
-#: ../../content/administration/hosting.rst:100
+#: ../../content/administration/hosting.rst:102
 msgid "which **branch** should be migrated,"
 msgstr "vilken **filial** som ska migreras,"
 
-#: ../../content/administration/hosting.rst:101
+#: ../../content/administration/hosting.rst:103
 msgid ""
 "in which **region** you want the database to be hosted (Americas, Europe, or"
 " Asia),"
@@ -353,26 +337,26 @@ msgstr ""
 "i vilken **region** du vill att databasen ska hostas (Amerika, Europa eller "
 "Asien),"
 
-#: ../../content/administration/hosting.rst:102
+#: ../../content/administration/hosting.rst:104
 msgid "which user(s) will be the **administrator(s)**, and"
 msgstr "vilken eller vilka användare som ska vara **administratör(er)**, och"
 
-#: ../../content/administration/hosting.rst:103
+#: ../../content/administration/hosting.rst:105
 msgid ""
 "**when** (and in which timezone) you want the database to be up and running."
 msgstr "**när** (och i vilken tidszon) du vill att databasen ska vara igång."
 
-#: ../../content/administration/hosting.rst:111
+#: ../../content/administration/hosting.rst:113
 msgid "Select the **region** closest to most of your users to reduce latency."
 msgstr ""
 "Välj den **region** som ligger närmast de flesta av dina användare för att "
 "minska fördröjningen."
 
-#: ../../content/administration/hosting.rst:112
+#: ../../content/administration/hosting.rst:114
 msgid "Future **administrator(s)** must have an Odoo.com account."
 msgstr "Framtida **administratör(er)** måste ha ett Odoo.com-konto."
 
-#: ../../content/administration/hosting.rst:113
+#: ../../content/administration/hosting.rst:115
 msgid ""
 "The **date and time** you want the database to be up and running are helpful"
 " to organize the switch from the Odoo.sh server to the Odoo Online servers."
@@ -380,11 +364,11 @@ msgstr ""
 "**Datum och tid** som du vill att databasen ska vara igång är till hjälp för"
 " att organisera övergången från Odoo.sh-servern till Odoo Online-servrarna."
 
-#: ../../content/administration/hosting.rst:115
+#: ../../content/administration/hosting.rst:117
 msgid "Databases are **not reachable** during their migration."
 msgstr "Databaserna är **inte nåbara** under migreringen."
 
-#: ../../content/administration/hosting.rst:120
+#: ../../content/administration/hosting.rst:122
 msgid ""
 "Download a :ref:`backup of your Odoo.sh production database "
 "<odoo_sh_branches_backups>`."
@@ -394,17 +378,19 @@ msgstr ""
 
 #: ../../content/administration/mobile.rst:3
 msgid "Odoo mobile apps"
-msgstr ""
+msgstr "Odoo Mobile App"
 
 #: ../../content/administration/mobile.rst:5
 msgid ""
 "Two kind of Odoo mobile app exist: the progressive web app (PWA) and store "
 "apps. Using the PWA is recommended."
 msgstr ""
+"Det finns två typer av Odoo-mobilappar: den progressiva webbappen (PWA) och "
+"butiksappar. Vi rekommenderar att du använder PWA."
 
 #: ../../content/administration/mobile.rst:9
 msgid "Progressive web app (PWA)"
-msgstr ""
+msgstr "Progressiv webbapp (PWA)"
 
 #: ../../content/administration/mobile.rst:11
 msgid ""
@@ -412,26 +398,29 @@ msgid ""
 "devices and platforms, leveraging web browsers to deliver user experiences "
 "similar to native apps."
 msgstr ""
+"PWA:er är webbaserade applikationer som är utformade för att fungera på "
+"olika enheter och plattformar och som utnyttjar webbläsare för att leverera "
+"användarupplevelser som liknar inbyggda appar."
 
 #: ../../content/administration/mobile.rst:14
 msgid "The Odoo PWA features include:"
-msgstr ""
+msgstr "Odoo PWA-funktionerna inkluderar:"
 
 #: ../../content/administration/mobile.rst:16
 msgid "Quick access by adding the PWA to a device's home screen"
-msgstr ""
+msgstr "Snabb åtkomst genom att lägga till PWA:n på enhetens startskärm"
 
 #: ../../content/administration/mobile.rst:17
 msgid "Seamless and borderless navigation experience"
-msgstr ""
+msgstr "Sömlös och gränslös navigationsupplevelse"
 
 #: ../../content/administration/mobile.rst:18
 msgid "Push notifications"
-msgstr ""
+msgstr "Push-meddelanden"
 
 #: ../../content/administration/mobile.rst:19
 msgid "SSO authentication"
-msgstr ""
+msgstr "SSO-autentisering"
 
 #: ../../content/administration/mobile.rst:21
 msgid ""
@@ -439,16 +428,21 @@ msgid ""
 " Odoo database. The instructions to install a PWA depend on the platform and"
 " browser used."
 msgstr ""
+"För att installera Odoo PWA, starta en webbläsare som stöder PWA:er och "
+"logga in på en Odoo-databas. Instruktionerna för att installera en PWA beror"
+" på vilken plattform och webbläsare som används."
 
 #: ../../content/administration/mobile.rst:26
 msgid "Android"
-msgstr ""
+msgstr "Android"
 
 #: ../../content/administration/mobile.rst:28
 msgid ""
 "**Chrome**: open Chrome's menu (:guilabel:`⋮`), select :guilabel:`Install "
 "app`, and tap :guilabel:`Install`."
 msgstr ""
+"**Chrome**: öppna Chromes meny (:guilabel:`⋮`), välj :guilabel:`Install app`"
+" och tryck på :guilabel:`Install`."
 
 #: ../../content/administration/mobile.rst:31
 msgid ""
@@ -456,12 +450,16 @@ msgid ""
 ":guilabel:`Install`, and either touch and hold the Odoo icon or tap "
 ":guilabel:`Add automatically`."
 msgstr ""
+"**Firefox**: öppna Firefox meny (:guilabel:`⋮`), välj :guilabel:`Install`, "
+"och tryck och håll antingen på Odoo-ikonen eller tryck på :guilabel:`Add "
+"automatically`."
 
 #: ../../content/administration/mobile.rst:34
 msgid ""
 "The PWA can also be installed with **Samsung Internet**, **Edge**, and "
 "**Opera**."
 msgstr ""
+"PWA kan också installeras med **Samsung Internet**, **Edge** och **Opera**."
 
 #: ../../content/administration/mobile.rst:36
 msgid "iOS"
@@ -473,12 +471,17 @@ msgid ""
 "pointing upwards icon, select :guilabel:`Add to Home Screen`, edit the PWA "
 "details if desired, and tap :guilabel:`Add`."
 msgstr ""
+"**Safari**: öppna menyn **Share** genom att trycka på ikonen med en fyrkant "
+"med en pil som pekar uppåt, välj :guilabel:`Add to Home Screen`, redigera "
+"PWA-detaljerna om så önskas och tryck på :guilabel:`Add`."
 
 #: ../../content/administration/mobile.rst:42
 msgid ""
 "On iOS 16.4 and above, the PWA can also be installed with **Chrome**, "
 "**Firefox**, and **Edge**."
 msgstr ""
+"På iOS 16.4 och senare kan PWA också installeras med **Chrome**, **Firefox**"
+" och **Edge**."
 
 #: ../../content/administration/mobile.rst:45
 msgid "Desktop"
@@ -489,12 +492,16 @@ msgid ""
 "**Chrome** and **Edge**: click the installation icon at the right of the "
 "address bar and click :guilabel:`Install`."
 msgstr ""
+"**Chrome** och **Edge**: klicka på installationsikonen till höger i "
+"adressfältet och klicka på :guilabel:`Install`."
 
 #: ../../content/administration/mobile.rst:51
 msgid ""
 "`Google Chrome Help: Use progressive web apps "
 "<https://support.google.com/chrome/answer/9658361>`_"
 msgstr ""
+"`Google Chrome Hjälp: Använd progressiva webbappar "
+"<https://support.google.com/chrome/answer/9658361>`_"
 
 #: ../../content/administration/mobile.rst:53
 msgid ""
@@ -502,6 +509,9 @@ msgid ""
 "<https://developer.mozilla.org/en-"
 "US/docs/Web/Progressive_web_apps/Guides/Installing>`_"
 msgstr ""
+"`MDN webbdokument: Installera och avinstallera webbappar "
+"<https://developer.mozilla.org/en-"
+"US/docs/Web/Progressive_web_apps/Guides/Installing>`_"
 
 #: ../../content/administration/mobile.rst:55
 msgid ""
@@ -509,10 +519,13 @@ msgid ""
 "<https://support.microsoft.com/en-us/topic/install-manage-or-uninstall-apps-"
 "in-microsoft-edge-0c156575-a94a-45e4-a54f-3a84846f6113>`_"
 msgstr ""
+"`Microsoft Support: Installera, hantera eller avinstallera appar i Microsoft"
+" Edge <https://support.microsoft.com/en-us/topic/install-manage-or-"
+"uninstall-apps-in-microsoft-edge-0c156575-a94a-45e4-a54f-3a84846f6113>`_"
 
 #: ../../content/administration/mobile.rst:58
 msgid "Store apps"
-msgstr ""
+msgstr "Butiksappar"
 
 #: ../../content/administration/mobile.rst:60
 msgid ""
@@ -520,18 +533,25 @@ msgid ""
 "<https://play.google.com/store/apps/details?id=com.odoo.mobile>`_ and `Apple"
 " App Store <https://apps.apple.com/app/odoo/id1272543640>`_."
 msgstr ""
+"Odoos mobilappar finns tillgängliga för nedladdning på Google Play Store "
+"<https://play.google.com/store/apps/details?id=com.odoo.mobile>`_ och Apple "
+"App Store <https://apps.apple.com/app/odoo/id1272543640>`_."
 
 #: ../../content/administration/mobile.rst:65
 msgid ""
 "The iOS app cannot be updated and will be deprecated at some point in the "
 "future."
 msgstr ""
+"iOS-appen kan inte uppdateras och kommer att tas ur bruk någon gång i "
+"framtiden."
 
 #: ../../content/administration/mobile.rst:67
 msgid ""
 "While the store apps support multi-accounts, they are not compatible with "
 "SS0 authentication."
 msgstr ""
+"Butiksapparna stöder visserligen flera konton, men de är inte kompatibla med"
+" SS0-autentisering."
 
 #: ../../content/administration/neutralized_database.rst:3
 msgid "Neutralized database"
@@ -581,7 +601,7 @@ msgstr "Avaktiverade funktioner"
 
 #: ../../content/administration/neutralized_database.rst:24
 msgid "Here is a non-exhaustive list of the deactivated features:"
-msgstr ""
+msgstr "Här är en icke uttömmande lista över de avaktiverade funktionerna:"
 
 #: ../../content/administration/neutralized_database.rst:26
 msgid ""
@@ -614,6 +634,7 @@ msgstr ":abbr:`IAP (In-App Purchase)`-symboler"
 #: ../../content/administration/neutralized_database.rst:32
 msgid "website visibility (prevent search engines from indexing your site)"
 msgstr ""
+"webbplatsens synlighet (hindra sökmotorer från att indexera din webbplats)"
 
 #: ../../content/administration/neutralized_database.rst:35
 msgid ""
@@ -926,7 +947,11 @@ msgstr ":ref:`odoo_online/kontakt-support`"
 msgid ":ref:`odoo_online/users`"
 msgstr ":ref:`odoo_online/användare`"
 
-#: ../../content/administration/odoo_online.rst:43
+#: ../../content/administration/odoo_online.rst:39
+msgid ":ref:`odoo_online/web-services`"
+msgstr ""
+
+#: ../../content/administration/odoo_online.rst:44
 #: ../../content/administration/odoo_sh/getting_started/branches.rst:293
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:123
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:168
@@ -934,21 +959,23 @@ msgstr ":ref:`odoo_online/användare`"
 msgid "Upgrade"
 msgstr "Uppgradering"
 
-#: ../../content/administration/odoo_online.rst:45
+#: ../../content/administration/odoo_online.rst:46
 msgid "Trigger a database upgrade."
 msgstr "Utlösa en databasuppgradering."
 
-#: ../../content/administration/odoo_online.rst:48
+#: ../../content/administration/odoo_online.rst:49
 msgid ""
 "For more information about the upgrade process, check out the :ref:`Odoo "
 "Online upgrade documentation <upgrade-request-test>`."
 msgstr ""
+"Mer information om uppgraderingsprocessen finns i :ref:`Odoo Online upgrade "
+"documentation <upgrade-request-test>`."
 
-#: ../../content/administration/odoo_online.rst:54
+#: ../../content/administration/odoo_online.rst:55
 msgid "Duplicate"
 msgstr "Dubblett"
 
-#: ../../content/administration/odoo_online.rst:56
+#: ../../content/administration/odoo_online.rst:57
 msgid ""
 "Create an exact copy of the database, which can be used to perform testing "
 "without compromising daily operations."
@@ -956,7 +983,7 @@ msgstr ""
 "Skapa en exakt kopia av databasen, som kan användas för att utföra tester "
 "utan att äventyra den dagliga driften."
 
-#: ../../content/administration/odoo_online.rst:60
+#: ../../content/administration/odoo_online.rst:61
 msgid ""
 "By checking :guilabel:`For testing purposes`, all external actions (emails, "
 "payments, delivery orders, etc.) are disabled by default on the duplicated "
@@ -966,34 +993,37 @@ msgstr ""
 " åtgärder (e-post, betalningar, leveransorder, etc.) som standard på den "
 "duplicerade databasen."
 
-#: ../../content/administration/odoo_online.rst:62
+#: ../../content/administration/odoo_online.rst:63
 msgid "Duplicated databases expire automatically after 15 days."
 msgstr "Duplicerade databaser upphör automatiskt att gälla efter 15 dagar."
 
-#: ../../content/administration/odoo_online.rst:63
+#: ../../content/administration/odoo_online.rst:64
 msgid ""
 "A maximum of five duplicates can be made per database. Under extraordinary "
 "circumstances, contact `support <https://www.odoo.com/help>`_ to raise the "
 "limit."
 msgstr ""
+"Högst fem duplikat kan göras per databas. Under extraordinära omständigheter"
+" kan du kontakta `support <https://www.odoo.com/help>`_ för att höja "
+"gränsen."
 
-#: ../../content/administration/odoo_online.rst:69
+#: ../../content/administration/odoo_online.rst:70
 msgid "Rename"
 msgstr "Byt namn"
 
-#: ../../content/administration/odoo_online.rst:71
+#: ../../content/administration/odoo_online.rst:72
 msgid "Rename the database and its URL."
 msgstr "Byt namn på databasen och dess URL."
 
-#: ../../content/administration/odoo_online.rst:76
+#: ../../content/administration/odoo_online.rst:77
 msgid "Download"
 msgstr "Nedladdning"
 
-#: ../../content/administration/odoo_online.rst:78
+#: ../../content/administration/odoo_online.rst:79
 msgid "Download a ZIP file containing a backup of the database."
 msgstr "Ladda ner en ZIP-fil som innehåller en säkerhetskopia av databasen."
 
-#: ../../content/administration/odoo_online.rst:81
+#: ../../content/administration/odoo_online.rst:82
 msgid ""
 "Databases are backed up daily as per the `Odoo Cloud Hosting SLA "
 "<https://www.odoo.com/cloud-sla>`_."
@@ -1001,11 +1031,11 @@ msgstr ""
 "Databaser säkerhetskopieras dagligen enligt `Odoo Cloud Hosting SLA "
 "<https://www.odoo.com/cloud-sla>`_."
 
-#: ../../content/administration/odoo_online.rst:87
+#: ../../content/administration/odoo_online.rst:88
 msgid "Domain names"
 msgstr "Domännamn"
 
-#: ../../content/administration/odoo_online.rst:89
+#: ../../content/administration/odoo_online.rst:90
 msgid ""
 "Use a custom :doc:`domain name "
 "</applications/websites/website/configuration/domain_names>` to access the "
@@ -1015,33 +1045,33 @@ msgstr ""
 "</applications/websites/website/configuration/domain_names>` för att komma "
 "åt databasen via en annan URL."
 
-#: ../../content/administration/odoo_online.rst:93
+#: ../../content/administration/odoo_online.rst:94
 msgid "You can :ref:`register a domain name for free <domain-name/register>`."
 msgstr "Du kan :ref:`registrera ett domännamn gratis <domännamn/registrera>`."
 
-#: ../../content/administration/odoo_online.rst:98
+#: ../../content/administration/odoo_online.rst:99
 msgid "Tags"
 msgstr "Etiketter"
 
-#: ../../content/administration/odoo_online.rst:100
+#: ../../content/administration/odoo_online.rst:101
 msgid "Add tags to easily identify and sort your databases."
 msgstr ""
 "Lägg till taggar för att enkelt identifiera och sortera dina databaser."
 
-#: ../../content/administration/odoo_online.rst:103
+#: ../../content/administration/odoo_online.rst:104
 msgid "You can search for tags in the search bar."
 msgstr "Du kan söka efter taggar i sökfältet."
 
-#: ../../content/administration/odoo_online.rst:108
+#: ../../content/administration/odoo_online.rst:109
 #: ../../content/administration/odoo_sh/getting_started/branches.rst:550
 msgid "Delete"
 msgstr "Radera"
 
-#: ../../content/administration/odoo_online.rst:110
+#: ../../content/administration/odoo_online.rst:111
 msgid "Delete a database instantly."
 msgstr "Radera en databas direkt."
 
-#: ../../content/administration/odoo_online.rst:113
+#: ../../content/administration/odoo_online.rst:114
 msgid ""
 "Deleting a database means that all data is permanently lost. The deletion is"
 " instant and applies to all users. It is recommended to create a backup of "
@@ -1051,7 +1081,7 @@ msgstr ""
 "Raderingen sker omedelbart och gäller alla användare. Vi rekommenderar att "
 "du skapar en säkerhetskopia av databasen innan du raderar den."
 
-#: ../../content/administration/odoo_online.rst:116
+#: ../../content/administration/odoo_online.rst:117
 msgid ""
 "Carefully read the warning message and only proceed if the implications of "
 "deleting a database are fully understood."
@@ -1063,15 +1093,15 @@ msgstr ""
 msgid "The warning message displayed before deleting a database"
 msgstr "Varningsmeddelandet som visas innan en databas raderas"
 
-#: ../../content/administration/odoo_online.rst:123
+#: ../../content/administration/odoo_online.rst:124
 msgid "Only an administrator can delete a database."
 msgstr "Endast en administratör kan radera en databas."
 
-#: ../../content/administration/odoo_online.rst:124
+#: ../../content/administration/odoo_online.rst:125
 msgid "The database name is immediately made available to anyone."
 msgstr "Databasnamnet görs omedelbart tillgängligt för alla."
 
-#: ../../content/administration/odoo_online.rst:125
+#: ../../content/administration/odoo_online.rst:126
 msgid ""
 "Deleting a database if it has expired or is linked to a subscription is "
 "impossible. In that case, contact `Odoo Support "
@@ -1081,11 +1111,11 @@ msgstr ""
 "en prenumeration. Kontakta i så fall `Odoo Support "
 "<https://www.odoo.com/help>`_."
 
-#: ../../content/administration/odoo_online.rst:131
+#: ../../content/administration/odoo_online.rst:132
 msgid "Contact us"
 msgstr "Kontakta oss"
 
-#: ../../content/administration/odoo_online.rst:133
+#: ../../content/administration/odoo_online.rst:134
 msgid ""
 "Access the `Odoo.com support page <https://www.odoo.com/help>`_ with the "
 "database's details already pre-filled."
@@ -1093,11 +1123,11 @@ msgstr ""
 "Gå till `Odoo.com support page <https://www.odoo.com/help>`_ med databasens "
 "uppgifter redan förifyllda."
 
-#: ../../content/administration/odoo_online.rst:139
+#: ../../content/administration/odoo_online.rst:140
 msgid "Invite / remove users"
 msgstr "Bjud in/ta bort användare"
 
-#: ../../content/administration/odoo_online.rst:141
+#: ../../content/administration/odoo_online.rst:142
 msgid ""
 "To invite users, fill out the new user's email address and click "
 ":guilabel:`Invite`. To add multiple users, click :guilabel:`Add more users`."
@@ -1110,18 +1140,41 @@ msgstr ""
 msgid "Inviting a user on a database"
 msgstr "Bjuda in en användare till en databas"
 
-#: ../../content/administration/odoo_online.rst:147
+#: ../../content/administration/odoo_online.rst:148
 msgid "To remove users, select them and click :guilabel:`Remove`."
 msgstr ""
 "För att ta bort användare, markera dem och klicka på :guilabel:`Remove`."
 
-#: ../../content/administration/odoo_online.rst:150
+#: ../../content/administration/odoo_online.rst:151
 msgid ":doc:`/applications/general/users`"
 msgstr ":doc:`/applikationer/generellt/användare`"
 
-#: ../../content/administration/odoo_online.rst:151
+#: ../../content/administration/odoo_online.rst:152
 msgid ":doc:`odoo_accounts`"
 msgstr ":doc:`odoo_accounts`"
+
+#: ../../content/administration/odoo_online.rst:157
+msgid "Web Services"
+msgstr ""
+
+#: ../../content/administration/odoo_online.rst:159
+msgid ""
+"In order to programmatically retrieve the list of the databases displayed in"
+" the `database manager <https://www.odoo.com/my/databases>`_, call the "
+"method `list` of the model `odoo.database` via a :doc:`Web Service "
+"</developer/howtos/web_services>` call."
+msgstr ""
+
+#: ../../content/administration/odoo_online.rst:163
+msgid ""
+"Inspired from the examples provided in the :doc:`Web Services "
+"</developer/howtos/web_services>` section, this is how to retrieve this list"
+" with the library ``xmlrpc.client``::"
+msgstr ""
+
+#: ../../content/administration/odoo_online.rst:176
+msgid "And here is the equivalent example with JSON-RPC::"
+msgstr ""
 
 #: ../../content/administration/odoo_sh.rst:5
 #: ../../content/administration/supported_versions.rst:30
@@ -1561,7 +1614,7 @@ msgstr ""
 
 #: ../../content/administration/odoo_sh/advanced/frequent_technical_questions.rst:36
 msgid "How can I automate tasks when an IP address change occurs?"
-msgstr ""
+msgstr "Hur kan jag automatisera uppgifter när en IP-adress ändras?"
 
 #: ../../content/administration/odoo_sh/advanced/frequent_technical_questions.rst:38
 msgid ""
@@ -1571,6 +1624,10 @@ msgid ""
 "address included as a query string parameter (`new`), along with the "
 "previous IP address as an additional parameter (`old`)."
 msgstr ""
+"**När IP-adressen för en produktionsinstans ändras görs dessutom en HTTP "
+"`GET`-begäran till sökvägen `/_odoo.sh/ip-change` med den nya IP-adressen "
+"inkluderad som en parameter för frågesträngen (`new`), tillsammans med den "
+"tidigare IP-adressen som en ytterligare parameter (`old`)."
 
 #: ../../content/administration/odoo_sh/advanced/frequent_technical_questions.rst:43
 msgid ""
@@ -1578,6 +1635,9 @@ msgid ""
 "address change (e.g., sending an email, contacting a firewall API, "
 "configuring database objects, etc.)"
 msgstr ""
+"Denna mekanism gör det möjligt att vidta anpassade åtgärder som svar på en "
+"ändring av IP-adressen (t.ex. skicka ett e-postmeddelande, kontakta ett API "
+"för brandväggar, konfigurera databasobjekt etc.)"
 
 #: ../../content/administration/odoo_sh/advanced/frequent_technical_questions.rst:46
 msgid ""
@@ -1585,13 +1645,16 @@ msgid ""
 "internally by the platform itself and returns a `403` response if accessed "
 "through any other means."
 msgstr ""
+"Av säkerhetsskäl är rutten `/_odoo.sh/ip-change` endast tillgänglig internt "
+"av plattformen själv och returnerar ett `403`-svar om den nås på något annat"
+" sätt."
 
 #: ../../content/administration/odoo_sh/advanced/frequent_technical_questions.rst:49
 msgid "Here is a pseudo-implementation example:"
-msgstr ""
+msgstr "Här är ett exempel på en pseudo-implementering:"
 
 #: ../../content/administration/odoo_sh/advanced/submodules.rst:6
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:229
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:249
 msgid "Submodules"
 msgstr "Undermoduler"
 
@@ -2812,6 +2875,12 @@ msgid ""
 "explained in the documentation about :ref:`SPF <email-domain-spf>` and "
 ":ref:`DKIM <email-domain-dkim>`."
 msgstr ""
+"Om domänen för dina användares e-postadresser använder SPF (Sender Policy "
+"Framework) eller DKIM (DomainKeys Identified Mail), glöm inte att godkänna "
+"Odoo som en sändande värd i dina domännamnsinställningar för att öka "
+"leveransbarheten för dina utgående e-postmeddelanden. Konfigurationsstegen "
+"förklaras i dokumentationen om :ref:`SPF <email-domain-spf>` och :ref:`DKIM "
+"<email-domain-dkim>`."
 
 #: ../../content/administration/odoo_sh/getting_started/branches.rst:410
 msgid ""
@@ -3957,6 +4026,9 @@ msgid ""
 ":doc:`/developer/tutorials/server_framework_101` tutorial to understand the "
 "structure of a module and the content of each file."
 msgstr ""
+"Om du vill skapa din modulstruktur manuellt kan du följa "
+":doc:`/developer/tutorials/server_framework_101` för att förstå strukturen i"
+" en modul och innehållet i varje fil."
 
 #: ../../content/administration/odoo_sh/getting_started/first_module.rst:153
 msgid "Push the development branch"
@@ -4836,11 +4908,12 @@ msgstr "Hantera de Github-användare som har åtkomst till ditt projekt."
 
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:36
 msgid "There are three levels of users:"
-msgstr ""
+msgstr "Det finns tre olika nivåer av användare:"
 
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:38
 msgid ":guilabel:`Admin`: has access to all features of an Odoo.sh project."
 msgstr ""
+":guilabel:`Admin`: har tillgång till alla funktioner i ett Odoo.sh-projekt."
 
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:40
 msgid ""
@@ -4849,6 +4922,11 @@ msgid ""
 "Testers can work with copies of production data but cannot access the "
 "production database through the Odoo.sh tooling."
 msgstr ""
+":guilabel:`Tester`: har tillgång till databaserna *Staging* och "
+"*Development* och deras verktyg. Den här rollen är avsedd för användare som "
+"genomför User Acceptance Tests. Testare kan arbeta med kopior av "
+"produktionsdata men kan inte komma åt produktionsdatabasen via Odoo.sh-"
+"verktyget."
 
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:44
 msgid ""
@@ -4857,6 +4935,10 @@ msgid ""
 "but are not allowed to access production and staging databases through the "
 "Odoo.sh tooling."
 msgstr ""
+":guilabel:`Developer`: har endast tillgång till *Development*-databaserna "
+"och deras verktyg. Den här rollen är för utvecklare som föreslår "
+"kodändringar men som inte får åtkomst till produktions- och stagingdatabaser"
+" via Odoo.sh-verktyget."
 
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:54
 msgid "Developer"
@@ -4864,7 +4946,7 @@ msgstr "Utvecklare"
 
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:55
 msgid "Tester"
-msgstr ""
+msgstr "Testare"
 
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:56
 msgid "Admin"
@@ -4924,15 +5006,14 @@ msgstr "Admin"
 #: ../../content/administration/supported_versions.rst:35
 #: ../../content/administration/supported_versions.rst:41
 #: ../../content/administration/supported_versions.rst:47
-#: ../../content/administration/supported_versions.rst:53
-#: ../../content/administration/supported_versions.rst:54
-#: ../../content/administration/supported_versions.rst:55
-#: ../../content/administration/supported_versions.rst:59
-#: ../../content/administration/supported_versions.rst:60
-#: ../../content/administration/supported_versions.rst:61
+#: ../../content/administration/supported_versions.rst:48
+#: ../../content/administration/supported_versions.rst:49
 #: ../../content/administration/supported_versions.rst:65
 #: ../../content/administration/supported_versions.rst:66
 #: ../../content/administration/supported_versions.rst:67
+#: ../../content/administration/supported_versions.rst:71
+#: ../../content/administration/supported_versions.rst:72
+#: ../../content/administration/supported_versions.rst:73
 msgid "|green|"
 msgstr "|grönt"
 
@@ -4962,6 +5043,12 @@ msgid ""
 "your-repository/managing-protected-branches/managing-a-branch-protection-"
 "rule>`_ for detailed guidance."
 msgstr ""
+"Dessa roller gäller endast för användning av Odoo.sh. Det är viktigt att "
+"återspegla användarrollernas tilldelning i förvaret på GitHub.  Se GitHub-"
+"dokumentationens avsnitt om `Hantering av en grenskyddsregel "
+"<https://docs.github.com/en/repositories/configuring-branches-and-merges-in-"
+"your-repository/managing-protected-branches/managing-a-branch-protection-"
+"rule>`_ för detaljerad vägledning."
 
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:207
 msgid "Public Access"
@@ -4976,6 +5063,8 @@ msgid ""
 "If activated, this option exposes the Builds page publicly, allowing "
 "visitors to view logs of development builds."
 msgstr ""
+"Om det här alternativet är aktiverat blir sidan Builds offentlig, vilket gör"
+" att besökare kan se loggar över utvecklingsbyggen."
 
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:216
 msgid ""
@@ -4986,10 +5075,54 @@ msgstr ""
 "status."
 
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:221
+msgid "GitHub commit statuses"
+msgstr ""
+
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:223
+msgid ""
+"This option enables Odoo.sh to push commit statuses to your GitHub "
+"repository when a build is created or updated. It requires a GitHub token "
+"with permissions to push commit statuses to the repository. Refer to "
+"`GitHub's documentation on personal access tokens "
+"<https://docs.github.com/en/authentication/keeping-your-account-and-data-"
+"secure/managing-your-personal-access-tokens>`_ for instructions to create "
+"yours."
+msgstr ""
+
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:229
+msgid ""
+"GitHub's **fine-grained personal tokens** have an expiration date and will "
+"be disabled if they fail to update the commit status. You can replace the "
+"token at any time on Odoo.sh."
+msgstr ""
+
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:232
+msgid "The commit statuses pushed to GitHub can have the following contexts:"
+msgstr ""
+
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:234
+msgid ":guilabel:`ci/odoo.sh (dev)`: status of a development build"
+msgstr ""
+
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:235
+msgid ":guilabel:`ci/odoo.sh (staging)`: status of a staging build"
+msgstr ""
+
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:236
+msgid ":guilabel:`ci/odoo.sh (production)`: status of a production build"
+msgstr ""
+
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:237
+msgid ""
+":guilabel:`ci/odoo.sh (test_ci)`: testing the token from the Settings page "
+"will push a test status on the last commit of your repository"
+msgstr ""
+
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:241
 msgid "Custom domains"
 msgstr "Anpassade domäner"
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:223
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:243
 msgid ""
 "To configure additional domains please refer to the corresponding branch's "
 ":ref:`settings tab <odoosh-gettingstarted-branches-tabs-settings>`."
@@ -4997,7 +5130,7 @@ msgstr ""
 "För att konfigurera ytterligare domäner, se motsvarande grens :ref:`settings"
 " tab <odoosh-gettingstarted-branches-tabs-settings>`."
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:231
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:251
 msgid ""
 "Configure the deploy keys for the private repositories you use as submodules"
 " in your branches to allow Odoo.sh to download them."
@@ -5005,7 +5138,7 @@ msgstr ""
 "Konfigurera distributionsnycklarna för de privata arkiv som du använder som "
 "undermoduler i dina grenar så att Odoo.sh kan hämta dem."
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:235
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:255
 msgid ""
 "These settings are required for **private repositories** only. If you are "
 "looking on how to set up your submodules, instructions are available in the "
@@ -5016,7 +5149,7 @@ msgstr ""
 "du ställer in dina undermoduler finns instruktioner i kapitlet "
 ":ref:`Submodules <odoosh-advanced-submodules>` i den här dokumentationen."
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:242
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:262
 msgid ""
 "When a repository is private, it is not possible to publicly download its "
 "branches and revisions. For that reason, you need to configure a deploy key "
@@ -5028,13 +5161,13 @@ msgstr ""
 " för Odoo.sh, så att Git-servern på distans tillåter vår plattform att ladda"
 " ner revisionerna från det privata arkivet."
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:247
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:267
 msgid ""
 "To configure the deploy key for a private repository, proceed as follows:"
 msgstr ""
 "Gör så här för att konfigurera deployeringsnyckeln för ett privat arkiv:"
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:249
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:269
 msgid ""
 "in the input, paste the SSH URL of your private sub-repository and click on "
 "*Add*,"
@@ -5042,11 +5175,11 @@ msgstr ""
 "i inmatningen klistrar du in SSH-URL:en till ditt privata underarkiv och "
 "klickar på *Add*,"
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:251
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:271
 msgid "e.g. *git@github.com:USERNAME/REPOSITORY.git*"
 msgstr "t.ex. *git@github.com:USERNAME/REPOSITORY.git*"
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:252
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:272
 msgid ""
 "it can be another Git server than Github, such as Bitbucket, Gitlab or even "
 "your own self-hosted server"
@@ -5054,15 +5187,15 @@ msgstr ""
 "det kan vara en annan Git-server än Github, t.ex. Bitbucket, Gitlab eller "
 "till och med din egen server som är värd"
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:255
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:275
 msgid "copy the public key,"
 msgstr "kopiera den offentliga nyckeln,"
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:257
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:277
 msgid "it should look like *ssh-rsa some...random...characters...here...==*"
 msgstr "det ska se ut som *ssh-rsa några...slumpmässiga...tecken...här...==*"
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:259
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:279
 msgid ""
 "in the settings of the private sub-repository, add the public key amongst "
 "the deploy keys."
@@ -5070,26 +5203,26 @@ msgstr ""
 "i inställningarna för det privata underarkivet lägger du till den offentliga"
 " nyckeln bland deployeringsnycklarna."
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:261
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:281
 msgid ""
 "Github.com: :menuselection:`Settings --> Deploy keys --> Add deploy key`"
 msgstr ""
 "Github.com: :menuselection:`Inställningar --> Distributionsnycklar --> Lägg "
 "till distributionsnyckel`"
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:262
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:282
 msgid "Bitbucket.com: :menuselection:`Settings --> Access keys --> Add key`"
 msgstr ""
 "Bitbucket.com: :menuselection:`Inställningar --> Åtkomstnycklar --> Lägg "
 "till nyckel`"
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:263
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:283
 msgid "Gitlab.com: :menuselection:`Settings --> Repository --> Deploy Keys`"
 msgstr ""
 "Gitlab.com: :menuselection:`Inställningar --> Repository --> Distribuera "
 "nycklar`"
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:264
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:284
 msgid ""
 "Self-hosted: append the key to the git user’s authorized_keys file in its "
 ".ssh directory"
@@ -5097,23 +5230,23 @@ msgstr ""
 "Egen värd: bifoga nyckeln till git-användarens authorized_keys-fil i dess "
 ".ssh-katalog"
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:267
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:287
 msgid "Storage Size"
 msgstr "Storlek på lager"
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:269
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:289
 msgid "This section shows the storage size used by your project."
 msgstr "Detta avsnitt visar den lagringsstorlek som används av ditt projekt."
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:274
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:294
 msgid "Storage size is computed as follows:"
 msgstr "Lagringsstorleken beräknas enligt följande:"
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:276
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:296
 msgid "the size of the PostgreSQL database"
 msgstr "storleken på PostgreSQL-databasen"
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:278
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:298
 msgid ""
 "the size of the disk files available in your container: database filestore, "
 "sessions storage directory..."
@@ -5121,7 +5254,7 @@ msgstr ""
 "storleken på de diskfiler som finns tillgängliga i behållaren: databasens "
 "filarkiv, sessionernas lagringskatalog..."
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:281
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:301
 msgid ""
 "In case you want to analyze disk usage, you can run the tool `ncdu "
 "<https://dev.yorhel.nl/ncdu/man>`_ in your Web Shell."
@@ -5129,7 +5262,7 @@ msgstr ""
 "Om du vill analysera diskanvändningen kan du köra verktyget `ncdu "
 "<https://dev.yorhel.nl/ncdu/man>`_ i ditt webbshell."
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:284
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:304
 msgid ""
 "Should your production database size grow to exceed what's provisioned in "
 "your subscription, it will automatically be synchronized with it."
@@ -5137,11 +5270,11 @@ msgstr ""
 "Om din produktionsdatabas blir större än vad som anges i din prenumeration "
 "kommer den automatiskt att synkroniseras med den."
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:288
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:308
 msgid "Database Workers"
 msgstr "Databasarbetare"
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:290
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:310
 msgid ""
 "Additional database workers can be configured here. More workers help "
 "increase the load your production database is able to handle. If you add "
@@ -5152,7 +5285,7 @@ msgstr ""
 "Om du lägger till fler kommer de automatiskt att synkroniseras med din "
 "prenumeration."
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:298
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:318
 msgid ""
 "Adding more workers will not magically solve all performance issues. It only"
 " allows the server to handle more connections at the same time. If some "
@@ -5166,11 +5299,11 @@ msgstr ""
 "problem med koden, om det inte beror på dina egna anpassningar kan du öppna "
 "ett ärende `här <https://www.odoo.com/help>`_."
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:304
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:324
 msgid "Staging Branches"
 msgstr "Brancher för iscensättning"
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:306
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:326
 msgid ""
 "Additional staging branches allow you to develop and test more features at "
 "the same time. If you add more, it will automatically be synchronized with "
@@ -5180,11 +5313,11 @@ msgstr ""
 "samtidigt. Om du lägger till fler kommer de automatiskt att synkroniseras "
 "med din prenumeration."
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:313
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:333
 msgid "Activation"
 msgstr "Aktivering"
 
-#: ../../content/administration/odoo_sh/getting_started/settings.rst:315
+#: ../../content/administration/odoo_sh/getting_started/settings.rst:335
 msgid ""
 "Shows the status of the project's activation. You can change the project's "
 "activation code if needed."
@@ -5341,13 +5474,12 @@ msgstr ""
 "anslutningar mot:"
 
 #: ../../content/administration/on_premise.rst:64
-msgid "`services.odoo.com` on port `443` (or `80`)"
-msgstr "`services.odoo.com` på port `443` (eller `80`)"
+msgid "Odoo 18.0 and above: `services.odoo.com` on port `80`"
+msgstr ""
 
 #: ../../content/administration/on_premise.rst:65
-msgid "for older deployments, `services.openerp.com` on port `443` (or `80`)"
+msgid "Odoo 17.0 and below: `services.openerp.com` on port `80`"
 msgstr ""
-"för äldre driftsättningar, `services.openerp.com` på port `443` (eller `80`)"
 
 #: ../../content/administration/on_premise.rst:67
 msgid ""
@@ -5382,7 +5514,7 @@ msgstr ""
 "upphör att gälla. Nedräkningen uppdateras varje dag."
 
 #: ../../content/administration/on_premise.rst:82
-#: ../../content/administration/on_premise.rst:108
+#: ../../content/administration/on_premise.rst:102
 msgid "To resolve the issue, either:"
 msgstr "För att lösa problemet, antingen:"
 
@@ -5405,21 +5537,7 @@ msgstr ""
 ":ref:`Deaktivera användare <users/deactivate>` och **avvisa** offerten för "
 "merförsäljning."
 
-#: ../../content/administration/on_premise.rst:89
-msgid ""
-"If you are on a monthly subscription plan, the database will automatically "
-"update to reflect the added user(s). If you are on a yearly or multi-year "
-"plan, an expiration banner will appear in the database. You can create the "
-"upsell quotation by clicking the banner to update the subscription or `send "
-"a support ticket <https://www.odoo.com/help>`_ to resolve the issue."
-msgstr ""
-"Om du har en månadsabonnemangsplan uppdateras databasen automatiskt för att "
-"återspegla de tillagda användarna. Om du har en års- eller flerårsplan visas"
-" en förfallobanner i databasen. Du kan skapa en offert för merförsäljning "
-"genom att klicka på bannern för att uppdatera prenumerationen eller \"skicka"
-" ett supportärende <https://www.odoo.com/help>`_ för att lösa problemet."
-
-#: ../../content/administration/on_premise.rst:94
+#: ../../content/administration/on_premise.rst:88
 msgid ""
 "Once your database has the correct number of users, the expiration message "
 "disappears automatically after a few days, when the next verification "
@@ -5428,11 +5546,11 @@ msgstr ""
 "När din databas har rätt antal användare försvinner utgångsmeddelandet "
 "automatiskt efter några dagar, när nästa verifiering sker."
 
-#: ../../content/administration/on_premise.rst:98
+#: ../../content/administration/on_premise.rst:92
 msgid "Database expired error"
 msgstr "Felmeddelande om att databasen har löpt ut"
 
-#: ../../content/administration/on_premise.rst:100
+#: ../../content/administration/on_premise.rst:94
 msgid ""
 "If your database expires before you renew your subscription, the following "
 "message should be displayed."
@@ -5444,7 +5562,7 @@ msgstr ""
 msgid "Database expired error message"
 msgstr "Felmeddelande om att databasen har löpt ut"
 
-#: ../../content/administration/on_premise.rst:106
+#: ../../content/administration/on_premise.rst:100
 msgid ""
 "This message appears if you fail to act before the end of the 30-day "
 "countdown."
@@ -5452,7 +5570,7 @@ msgstr ""
 "Detta meddelande visas om du inte agerar innan den 30 dagar långa "
 "nedräkningen har löpt ut."
 
-#: ../../content/administration/on_premise.rst:110
+#: ../../content/administration/on_premise.rst:104
 msgid ""
 "Click the :guilabel:`Renew your subscription` link displayed in the message "
 "and complete the process. If you pay by wire transfer, your subscription "
@@ -5464,7 +5582,7 @@ msgstr ""
 "prenumeration att förnyas när betalningen kommer in, vilket kan ta några "
 "dagar. Kreditkortsbetalningar behandlas omedelbart."
 
-#: ../../content/administration/on_premise.rst:113
+#: ../../content/administration/on_premise.rst:107
 msgid "`Send a support ticket <https://www.odoo.com/help>`_."
 msgstr "Skicka ett supportärende <https://www.odoo.com/help>`_."
 
@@ -6119,8 +6237,8 @@ msgstr ""
 "ligger mellan 7 och 7,5 ."
 
 #: ../../content/administration/on_premise/deploy.rst:243
-msgid "RAM = 9 * ((0.8*150) + (0.2*1024)) ~= 3Go RAM for Odoo"
-msgstr "RAM = 9 * ((0,8*150) + (0,2*1024)) ~= 3Go RAM för Odoo"
+msgid "RAM = 9 * ((0.8*150) + (0.2*1024)) ~= 3GB RAM for Odoo"
+msgstr ""
 
 #: ../../content/administration/on_premise/deploy.rst:245
 msgid "in :ref:`the configuration file <reference/cmdline/config_file>`:"
@@ -6561,6 +6679,12 @@ msgid ""
 "from, instead of letting the system fetch them all from the database "
 "backend."
 msgstr ""
+"Använd lämpliga databasfilter ( :option:`--db-filter <odoo-bin --db-"
+"filter>`) för att begränsa synligheten för dina databaser enligt värdnamnet."
+" Se :ref:`dbfilter`. Du kan också använda :option:`-d <odoo-bin -d>` för att"
+" tillhandahålla din egen (kommaseparerade) lista över tillgängliga databaser"
+" att filtrera från, istället för att låta systemet hämta dem alla från "
+"databasens backend."
 
 #: ../../content/administration/on_premise/deploy.rst:581
 msgid ""
@@ -6571,6 +6695,12 @@ msgid ""
 ":option:`--no-database-list <odoo-bin --no-database-list>` command-line "
 "option)"
 msgstr ""
+"När ``db_name`` och ``dbfilter`` är konfigurerade och bara matchar en enda "
+"databas per värdnamn, bör du ställa in ``list_db`` konfigurationsalternativ "
+"till ``False``, för att förhindra listning av databaser helt och blockera "
+"åtkomst till databashanteringsskärmarna (detta är också exponerat som "
+":option:`--no-database-list <odoo-bin --no-database-list>` "
+"kommandoradsalternativ)"
 
 #: ../../content/administration/on_premise/deploy.rst:587
 msgid ""
@@ -6868,6 +6998,10 @@ msgid ""
 "each request, otherwise users will be blocked as they won't be allowed to "
 "choose the database themselves."
 msgstr ""
+"Var noga med att ställa in en lämplig ``db_name``-parameter (och eventuellt "
+"även ``dbfilter``) så att systemet kan bestämma måldatabasen för varje "
+"begäran, annars blockeras användarna eftersom de inte får välja databas "
+"själva."
 
 #: ../../content/administration/on_premise/deploy.rst:729
 msgid ""
@@ -6897,11 +7031,11 @@ msgstr "Den ska förvaras på ett säkert sätt och genereras slumpmässigt, t.e
 
 #: ../../content/administration/on_premise/deploy.rst:743
 msgid "which generates a 32-character pseudorandom printable string."
-msgstr ""
+msgstr "som genererar en 32 tecken lång pseudorandomisk utskrivbar sträng."
 
 #: ../../content/administration/on_premise/deploy.rst:746
 msgid "Reset the master password"
-msgstr ""
+msgstr "Återställ huvudlösenordet"
 
 #: ../../content/administration/on_premise/deploy.rst:748
 msgid ""
@@ -6910,12 +7044,18 @@ msgid ""
 "administrators of an Odoo on-premise database detailing how to manually "
 "reset and re-encrypt the master password."
 msgstr ""
+"Det kan finnas fall där huvudlösenordet har tappats bort eller äventyrats "
+"och måste återställas. Följande process är avsedd för systemadministratörer "
+"av en lokal Odoo-databas och beskriver hur man manuellt återställer och "
+"återkrypterar huvudlösenordet."
 
 #: ../../content/administration/on_premise/deploy.rst:753
 msgid ""
 "For more information about changing an Odoo.com account password, see this "
 "documentation: :ref:`odoocom/change_password`."
 msgstr ""
+"Mer information om hur du ändrar lösenordet för ett Odoo.com-konto finns i "
+"den här dokumentationen: :ref:`odoocom/change_password`."
 
 #: ../../content/administration/on_premise/deploy.rst:756
 msgid ""
@@ -6924,12 +7064,19 @@ msgid ""
 "password is implemented by default, so there is a secure master password for"
 " any Odoo on-premise deployment."
 msgstr ""
+"När du skapar en ny lokal databas genereras ett slumpmässigt huvudlösenord. "
+"Odoo rekommenderar att du använder detta lösenord för att säkra databasen. "
+"Detta lösenord är implementerat som standard, så det finns ett säkert "
+"huvudlösenord för alla Odoo on-premise-distributioner."
 
 #: ../../content/administration/on_premise/deploy.rst:761
 msgid ""
 "When creating an Odoo on-premise database the installation is accessible to "
 "anyone on the internet, until this password is set to secure the database."
 msgstr ""
+"När du skapar en Odoo on-premise-databas är installationen tillgänglig för "
+"alla på internet, tills detta lösenord har ställts in för att säkra "
+"databasen."
 
 #: ../../content/administration/on_premise/deploy.rst:764
 msgid ""
@@ -6937,16 +7084,21 @@ msgid ""
 " or `odoorc` (hidden file)). The Odoo master password is needed to modify, "
 "create, or delete a database through the graphical user interface (GUI)."
 msgstr ""
+"Huvudlösenordet anges i konfigurationsfilen för Odoo (`odoo.conf` eller "
+"`odoorc` (dold fil)). Odoo-masterlösenordet behövs för att ändra, skapa "
+"eller ta bort en databas via det grafiska användargränssnittet (GUI)."
 
 #: ../../content/administration/on_premise/deploy.rst:769
 msgid "Locate configuration file"
-msgstr ""
+msgstr "Leta reda på konfigurationsfilen"
 
 #: ../../content/administration/on_premise/deploy.rst:771
 msgid ""
 "First, open the Odoo configuration file (`odoo.conf` or `odoorc` (hidden "
 "file))."
 msgstr ""
+"Först öppnar du konfigurationsfilen för Odoo (`odoo.conf` eller `odoorc` "
+"(dold fil))."
 
 #: ../../content/administration/on_premise/deploy.rst:775
 #: ../../content/administration/on_premise/packages.rst:148
@@ -6967,6 +7119,8 @@ msgid ""
 "The configuration file is located at: "
 "`c:\\\\ProgramFiles\\\\Odoo{VERSION}\\\\server\\\\odoo.conf`"
 msgstr ""
+"Konfigurationsfilen finns på följande adress: "
+"c:\\\\ProgramFiles\\\\Odoo{VERSION}\\\\server\\\\odoo.conf"
 
 #: ../../content/administration/on_premise/deploy.rst:779
 #: ../../content/administration/on_premise/packages.rst:25
@@ -6987,29 +7141,33 @@ msgid ""
 "Depending on how Odoo is installed on the Linux machine, the configuration "
 "file is located in one of two different places:"
 msgstr ""
+"Beroende på hur Odoo är installerat på Linux-maskinen finns "
+"konfigurationsfilen på en av två olika platser:"
 
 #: ../../content/administration/on_premise/deploy.rst:784
 msgid "Package installation: `/etc/odoo.conf`"
-msgstr ""
+msgstr "Paketinstallation: `/etc/odoo.conf`"
 
 #: ../../content/administration/on_premise/deploy.rst:785
 msgid "Source installation: `~/.odoorc`"
-msgstr ""
+msgstr "Installationskälla: `~/.odoorc`"
 
 #: ../../content/administration/on_premise/deploy.rst:788
 msgid "Change old password"
-msgstr ""
+msgstr "Ändra gammalt lösenord"
 
 #: ../../content/administration/on_premise/deploy.rst:790
 msgid ""
 "Once the appropriate file has been opened, proceed to modify the old "
 "password in the configuration file to a temporary password."
 msgstr ""
+"När den aktuella filen har öppnats ändrar du det gamla lösenordet i "
+"konfigurationsfilen till ett tillfälligt lösenord."
 
 #: ../../content/administration/on_premise/deploy.rst:795
 #: ../../content/administration/on_premise/deploy.rst:843
 msgid "Graphical user interface"
-msgstr ""
+msgstr "Grafiskt användargränssnitt"
 
 #: ../../content/administration/on_premise/deploy.rst:797
 msgid ""
@@ -7018,6 +7176,10 @@ msgid ""
 " on the file. Then, the device should have a default :abbr:`GUI (graphical "
 "user interface)` to open the file with."
 msgstr ""
+"När du har hittat konfigurationsfilen öppnar du den med hjälp av ett "
+"(:abbr:`GUI (graphical user interface)`). Detta kan göras genom att helt "
+"enkelt dubbelklicka på filen. Då bör enheten ha ett standard :abbr:`GUI "
+"(grafiskt användargränssnitt)` för att öppna filen med."
 
 #: ../../content/administration/on_premise/deploy.rst:801
 msgid ""
@@ -7026,6 +7188,10 @@ msgid ""
 "anything, as long as it is saved temporarily. Make sure to modify all "
 "characters after the `=`."
 msgstr ""
+"Därefter ändrar du raden för huvudlösenordet `admin_passwd = $pbkdf2-sha...`"
+" till exempelvis `admin_passwd = newpassword1234`. Lösenordet kan vara vad "
+"som helst så länge det sparas temporärt. Se till att ändra alla tecken efter"
+" `=`."
 
 #: ../../content/administration/on_premise/deploy.rst:806
 #: ../../content/administration/on_premise/deploy.rst:825
@@ -7033,22 +7199,27 @@ msgid ""
 "The line appears like this: `admin_passwd = "
 "$pbkdf2-sh39dji295.59mptrfW.9z6HkA$w9j9AMVmKAP17OosCqDxDv2hjsvzlLpF8Rra8I7p/b573hji540mk/.3ek0lg%kvkol6k983mkf/40fjki79m`"
 msgstr ""
+"Raden ser ut så här: `admin_passwd = "
+"$pbkdf2-sh39dji295.59mptrfW.9z6HkA$w9j9AMVmKAP17OosCqDxDv2hjsvzlLpF8Rra8I7p/b573hji540mk/.3ek0lg%kvkol6k983mkf/40fjki79m`"
 
 #: ../../content/administration/on_premise/deploy.rst:810
 #: ../../content/administration/on_premise/deploy.rst:829
 msgid "The modified line appears like this: `admin_passwd = newpassword1234`"
 msgstr ""
+"Den modifierade raden ser ut så här: `admin_passwd = nytt lösenord1234`"
 
 #: ../../content/administration/on_premise/deploy.rst:812
 #: ../../content/administration/on_premise/deploy.rst:852
 msgid "Command-line interface"
-msgstr ""
+msgstr "Kommandoradsgränssnitt"
 
 #: ../../content/administration/on_premise/deploy.rst:814
 msgid ""
 "Modify the master password line using the following Unix command detailed "
 "below."
 msgstr ""
+"Ändra raden med huvudlösenordet med hjälp av följande Unix-kommando som "
+"beskrivs nedan."
 
 #: ../../content/administration/on_premise/deploy.rst:816
 msgid ""
@@ -7056,6 +7227,9 @@ msgid ""
 "edit the configuration file. To modify the configuration file, enter the "
 "following command: :command:`sudo nano /etc/odoo.conf`"
 msgstr ""
+"Anslut till Odoo-serverns terminal via Secure Shell (SSH)-protokollet och "
+"redigera konfigurationsfilen. För att ändra konfigurationsfilen, ange "
+"följande kommando: :command:`sudo nano /etc/odoo.conf`"
 
 #: ../../content/administration/on_premise/deploy.rst:820
 msgid ""
@@ -7064,6 +7238,10 @@ msgid ""
 "password can be anything, as long as it is saved temporarily. Make sure to "
 "modify all characters after the `=`."
 msgstr ""
+"När du har öppnat konfigurationsfilen ändrar du raden för huvudlösenordet "
+"`admin_passwd = $pbkdf2-sha...` till `admin_passwd = newpassword1234`. Detta"
+" lösenord kan vara vad som helst, så länge det sparas tillfälligt. Se till "
+"att ändra alla tecken efter `=`."
 
 #: ../../content/administration/on_premise/deploy.rst:832
 msgid ""
@@ -7072,16 +7250,22 @@ msgid ""
 "of the line. This ensures the database is secure throughout the entire "
 "password reset process."
 msgstr ""
+"Det är viktigt att lösenordet ändras till något annat, i stället för att "
+"utlösa en ny lösenordsåterställning genom att lägga till ett semikolon `;` i"
+" början av raden. På så sätt säkerställs att databasen är säker under hela "
+"processen för återställning av lösenordet."
 
 #: ../../content/administration/on_premise/deploy.rst:837
 msgid "Restart Odoo server"
-msgstr ""
+msgstr "Restart Odoo server"
 
 #: ../../content/administration/on_premise/deploy.rst:839
 msgid ""
 "After setting the temporary password, a restart of the Odoo server is "
 "**required**."
 msgstr ""
+"Efter att du har ställt in det tillfälliga lösenordet krävs en omstart av "
+"Odoo-servern **krav**."
 
 #: ../../content/administration/on_premise/deploy.rst:845
 msgid ""
@@ -7089,40 +7273,53 @@ msgid ""
 ":guilabel:`Search` bar. Then, select the :guilabel:`Services` application, "
 "and scroll down to the :guilabel:`Odoo` service."
 msgstr ""
+"För att starta om Odoo-servern skriver du först in `services` i Windows "
+":guilabel:`Search`-fält. Välj sedan programmet :guilabel:`Services` och "
+"bläddra ner till tjänsten :guilabel:`Odoo`."
 
 #: ../../content/administration/on_premise/deploy.rst:849
 msgid ""
 "Next, right click on :guilabel:`Odoo`, and select :guilabel:`Start` or "
 ":guilabel:`Restart`. This action manually restarts the Odoo server."
 msgstr ""
+"Högerklicka sedan på :guilabel:`Odoo` och välj :guilabel:`Start` eller "
+":guilabel:`Restart`. Denna åtgärd startar om Odoo-servern manuellt."
 
 #: ../../content/administration/on_premise/deploy.rst:854
 msgid ""
 "Restart the Odoo server by typing the command: :command:`sudo service odoo15"
 " restart`"
 msgstr ""
+"Starta om Odoo-servern genom att skriva kommandot: :command:`sudo service "
+"odoo15 restart`"
 
 #: ../../content/administration/on_premise/deploy.rst:857
 msgid ""
 "Change the number after `odoo` to fit the specific version the server is "
 "running on."
 msgstr ""
+"Ändra numret efter `odoo` så att det passar den specifika version som "
+"servern körs på."
 
 #: ../../content/administration/on_premise/deploy.rst:860
 msgid "Use web interface to re-encrypt password"
-msgstr ""
+msgstr "Använd webbgränssnittet för att kryptera lösenordet igen"
 
 #: ../../content/administration/on_premise/deploy.rst:862
 msgid ""
 "First, navigate to `/web/database/manager` or "
 "`http://server_ip:port/web/database/manager` in a browser."
 msgstr ""
+"Navigera först till `/web/database/manager` eller "
+"`http://server_ip:port/web/database/manager` i en webbläsare."
 
 #: ../../content/administration/on_premise/deploy.rst:866
 msgid ""
 "Replace `server_ip` with the IP address of the database. Replace `port` with"
 " the numbered port the database is accessible from."
 msgstr ""
+"Ersätt `server_ip` med databasens IP-adress. Ersätt `port` med den numrerade"
+" port som databasen är tillgänglig från."
 
 #: ../../content/administration/on_premise/deploy.rst:869
 msgid ""
@@ -7132,64 +7329,53 @@ msgid ""
 ":guilabel:`New Master Password` is hashed (or encrypted), once the "
 ":guilabel:`Continue` button is clicked."
 msgstr ""
+"Klicka sedan på :guilabel:`Set Master Password` och skriv in det tidigare "
+"valda tillfälliga lösenordet i fältet :guilabel:`Master Password`. Efter "
+"detta steg skriver du in ett :guilabel:`New Master Password`. Det "
+":guilabel:`New Master Password` hashas (eller krypteras), när du klickar på "
+":guilabel:`Continue`-knappen."
 
 #: ../../content/administration/on_premise/deploy.rst:874
 msgid ""
 "At this point, the password has been successfully reset, and a hashed "
 "version of the new password now appears in the configuration file."
 msgstr ""
+"Lösenordet har nu återställts och en hashad version av det nya lösenordet "
+"visas nu i konfigurationsfilen."
 
 #: ../../content/administration/on_premise/deploy.rst:878
 msgid ""
 "For more information on Odoo database security, see this documentation: "
 ":ref:`db_manager_security`."
 msgstr ""
+"Mer information om databasens säkerhet i Odoo finns i den här "
+"dokumentationen: :ref:`db_manager_security`."
 
 #: ../../content/administration/on_premise/deploy.rst:882
 msgid "Supported Browsers"
 msgstr "Webbläsare som stöds"
 
 #: ../../content/administration/on_premise/deploy.rst:884
-msgid ""
-"Odoo supports all the major desktop and mobile browsers available on the "
-"market, as long as they are supported by their publishers."
+msgid "Odoo supports the latest version of the following browsers."
 msgstr ""
-"Odoo stöder alla större stationära och mobila webbläsare som finns på "
-"marknaden, så länge de stöds av sina utgivare."
 
-#: ../../content/administration/on_premise/deploy.rst:887
-msgid "Here are the supported browsers:"
-msgstr "Här är de webbläsare som stöds:"
-
-#: ../../content/administration/on_premise/deploy.rst:889
+#: ../../content/administration/on_premise/deploy.rst:886
 msgid "Google Chrome"
 msgstr "Google Chrome"
 
-#: ../../content/administration/on_premise/deploy.rst:890
+#: ../../content/administration/on_premise/deploy.rst:887
 msgid "Mozilla Firefox"
 msgstr "Mozilla Firefox"
 
-#: ../../content/administration/on_premise/deploy.rst:891
+#: ../../content/administration/on_premise/deploy.rst:888
 msgid "Microsoft Edge"
 msgstr "Microsoft Edge"
 
-#: ../../content/administration/on_premise/deploy.rst:892
+#: ../../content/administration/on_premise/deploy.rst:889
 msgid "Apple Safari"
 msgstr "Apple Safari"
 
-#: ../../content/administration/on_premise/deploy.rst:894
-msgid ""
-"Please make sure your browser is up-to-date and still supported by its "
-"publisher before filing a bug report."
-msgstr ""
-"Kontrollera att din webbläsare är uppdaterad och fortfarande stöds av "
-"utgivaren innan du skickar in en felrapport."
-
-#: ../../content/administration/on_premise/deploy.rst:899
-msgid "Since Odoo 13.0, ES6 is supported.  Therefore, IE support is dropped."
-msgstr "Sedan Odoo 13.0 stöds ES6.  Därför har stödet för IE tagits bort."
-
-#: ../../content/administration/on_premise/deploy.rst:902
+#: ../../content/administration/on_premise/deploy.rst:892
 msgid ""
 "to have multiple Odoo installations use the same PostgreSQL database, or to "
 "provide more computing resources to both software."
@@ -7197,7 +7383,7 @@ msgstr ""
 "att låta flera Odoo-installationer använda samma PostgreSQL-databas, eller "
 "att ge mer datorresurser till båda programvarorna."
 
-#: ../../content/administration/on_premise/deploy.rst:905
+#: ../../content/administration/on_premise/deploy.rst:895
 msgid ""
 "technically a tool like socat_ can be used to proxy UNIX sockets across "
 "networks, but that is mostly for software which can only be used over UNIX "
@@ -7207,7 +7393,7 @@ msgstr ""
 " över nätverk, men det är främst för programvara som endast kan användas "
 "över UNIX sockets"
 
-#: ../../content/administration/on_premise/deploy.rst:909
+#: ../../content/administration/on_premise/deploy.rst:899
 msgid ""
 "or be accessible only over an internal packet-switched network, but that "
 "requires secured switches, protections against `ARP spoofing`_ and precludes"
@@ -7305,6 +7491,9 @@ msgid ""
 "If you do not have access/manage your email server, use :ref:`incoming mail "
 "servers <email-inbound-custom-domain-incoming-server>`."
 msgstr ""
+"Om du inte har tillgång till eller hanterar din e-postserver kan du använda "
+":ref:`servrar för inkommande e-post <email-inbound-custom-domain-incoming-"
+"server>`."
 
 #: ../../content/administration/on_premise/geo_ip.rst:3
 msgid "Geo IP"
@@ -7609,8 +7798,8 @@ msgstr ""
 "följande:"
 
 #: ../../content/administration/on_premise/packages.rst:135
-msgid "Odoo 17 'rpm' package supports Fedora 36."
-msgstr "Odoo 17 'rpm'-paketet stöder Fedora 36."
+msgid "Odoo 17 'rpm' package supports Fedora 38."
+msgstr ""
 
 #: ../../content/administration/on_premise/packages.rst:137
 msgid ""
@@ -7773,6 +7962,10 @@ msgid ""
 "source code or when following the :doc:`Getting Started developer tutorial "
 "</developer/tutorials/server_framework_101>`."
 msgstr ""
+"För att klona ett Git-repository väljer du mellan att klona med HTTPS eller "
+"SSH. I de flesta fall är HTTPS det bästa alternativet. Välj dock SSH för att"
+" bidra till Odoos källkod eller när du följer :doc:`Getting Started "
+"developer tutorial </developer/tutorials/server_framework_101>`."
 
 #: ../../content/administration/on_premise/source.rst:56
 #: ../../content/administration/on_premise/source.rst:74
@@ -7864,6 +8057,8 @@ msgid ""
 "If Python 3 is already installed, make sure that the version is 3.10 or "
 "above, as previous versions are not compatible with Odoo."
 msgstr ""
+"Om Python 3 redan är installerat, se till att versionen är 3.10 eller högre,"
+" eftersom tidigare versioner inte är kompatibla med Odoo."
 
 #: ../../content/administration/on_premise/source.rst:170
 msgid ""
@@ -8008,6 +8203,8 @@ msgid ""
 "Using pip may lead to security issues and broken dependencies; only do this "
 "if you know what you are doing."
 msgstr ""
+"Att använda pip kan leda till säkerhetsproblem och trasiga beroenden; gör "
+"det bara om du vet vad du gör."
 
 #: ../../content/administration/on_premise/source.rst:296
 msgid ""
@@ -8672,83 +8869,53 @@ msgid "End of support"
 msgstr "Slut på stöd"
 
 #: ../../content/administration/supported_versions.rst:34
-msgid "Odoo saas~17.4"
+msgid "Odoo SaaS 18.2"
 msgstr ""
 
 #: ../../content/administration/supported_versions.rst:36
 #: ../../content/administration/supported_versions.rst:37
 #: ../../content/administration/supported_versions.rst:42
 #: ../../content/administration/supported_versions.rst:43
-#: ../../content/administration/supported_versions.rst:48
-#: ../../content/administration/supported_versions.rst:49
+#: ../../content/administration/supported_versions.rst:54
+#: ../../content/administration/supported_versions.rst:55
+#: ../../content/administration/supported_versions.rst:60
+#: ../../content/administration/supported_versions.rst:61
 msgid "N/A"
 msgstr "N/A"
 
 #: ../../content/administration/supported_versions.rst:38
-msgid "July 2024"
+msgid "March 2025"
 msgstr ""
 
 #: ../../content/administration/supported_versions.rst:40
-msgid "Odoo saas~17.2"
+msgid "Odoo SaaS 18.1"
 msgstr ""
 
 #: ../../content/administration/supported_versions.rst:44
-msgid "April 2024"
+msgid "January 2025"
 msgstr ""
 
 #: ../../content/administration/supported_versions.rst:46
-msgid "Odoo saas~17.1"
-msgstr "Odoo saas~17.1"
+msgid "**Odoo 18.0**"
+msgstr "**Odoo 18.0**"
 
 #: ../../content/administration/supported_versions.rst:50
-msgid "January 2024"
-msgstr "januari 2024"
+#: ../../content/administration/supported_versions.rst:57
+#: ../../content/administration/supported_versions.rst:63
+#: ../../content/administration/supported_versions.rst:81
+msgid "October 2024"
+msgstr "oktober 2024"
+
+#: ../../content/administration/supported_versions.rst:51
+msgid "October 2027 (planned)"
+msgstr "Oktober 2027 (planerat)"
 
 #: ../../content/administration/supported_versions.rst:52
-msgid "**Odoo 17.0**"
-msgstr "**Odoo 17.0**"
+msgid "Odoo SaaS 17.4"
+msgstr "Odoo SaaS 17,4"
 
-#: ../../content/administration/supported_versions.rst:56
-#: ../../content/administration/supported_versions.rst:75
-msgid "November 2023"
-msgstr "November 2023"
-
-#: ../../content/administration/supported_versions.rst:57
-msgid "October 2026 (planned)"
-msgstr "Oktober 2026 (planerat)"
-
-#: ../../content/administration/supported_versions.rst:58
-msgid "**Odoo 16.0**"
-msgstr "**Odoo 16.0"
-
-#: ../../content/administration/supported_versions.rst:62
-#: ../../content/administration/supported_versions.rst:81
-msgid "October 2022"
-msgstr "Oktober 2022"
-
-#: ../../content/administration/supported_versions.rst:63
-msgid "November 2025 (planned)"
-msgstr "November 2025 (planerat)"
-
-#: ../../content/administration/supported_versions.rst:64
-msgid "**Odoo 15.0**"
-msgstr "**Odoo 15.0**"
-
-#: ../../content/administration/supported_versions.rst:68
-msgid "October 2021"
-msgstr "Oktober 2021"
-
-#: ../../content/administration/supported_versions.rst:69
-msgid "November 2024 (planned)"
-msgstr "November 2024 (planerat)"
-
-#: ../../content/administration/supported_versions.rst:70
-msgid "**Odoo 14.0**"
-msgstr "**Odoo 14.0"
-
-#: ../../content/administration/supported_versions.rst:71
-#: ../../content/administration/supported_versions.rst:72
-#: ../../content/administration/supported_versions.rst:73
+#: ../../content/administration/supported_versions.rst:53
+#: ../../content/administration/supported_versions.rst:59
 #: ../../content/administration/supported_versions.rst:77
 #: ../../content/administration/supported_versions.rst:78
 #: ../../content/administration/supported_versions.rst:79
@@ -8758,29 +8925,61 @@ msgstr "**Odoo 14.0"
 msgid "|red|"
 msgstr "|röd"
 
+#: ../../content/administration/supported_versions.rst:56
+msgid "July 2024"
+msgstr "juli 2024"
+
+#: ../../content/administration/supported_versions.rst:58
+msgid "Odoo SaaS 17.2"
+msgstr "Odoo SaaS 17.2"
+
+#: ../../content/administration/supported_versions.rst:62
+msgid "April 2024"
+msgstr "april 2024"
+
+#: ../../content/administration/supported_versions.rst:64
+msgid "**Odoo 17.0**"
+msgstr "**Odoo 17.0**"
+
+#: ../../content/administration/supported_versions.rst:68
+msgid "November 2023"
+msgstr "November 2023"
+
+#: ../../content/administration/supported_versions.rst:69
+msgid "October 2026 (planned)"
+msgstr "Oktober 2026 (planerat)"
+
+#: ../../content/administration/supported_versions.rst:70
+msgid "**Odoo 16.0**"
+msgstr "**Odoo 16.0"
+
 #: ../../content/administration/supported_versions.rst:74
-msgid "October 2020"
-msgstr "Oktober 2020"
+msgid "October 2022"
+msgstr "Oktober 2022"
+
+#: ../../content/administration/supported_versions.rst:75
+msgid "October 2025 (planned)"
+msgstr "Oktober 2025 (planerat)"
 
 #: ../../content/administration/supported_versions.rst:76
-msgid "**Odoo 13.0**"
-msgstr "**Odoo 13.0"
+msgid "**Odoo 15.0**"
+msgstr "**Odoo 15.0**"
 
 #: ../../content/administration/supported_versions.rst:80
-msgid "October 2019"
-msgstr "Oktober 2019"
+msgid "October 2021"
+msgstr "Oktober 2021"
 
 #: ../../content/administration/supported_versions.rst:82
 msgid "Older versions"
 msgstr "Äldre versioner"
 
 #: ../../content/administration/supported_versions.rst:86
-msgid "Before 2019"
-msgstr "Före 2019"
+msgid "Before 2021"
+msgstr ""
 
 #: ../../content/administration/supported_versions.rst:87
-msgid "Before 2022"
-msgstr "Före 2022"
+msgid "Before 2024"
+msgstr ""
 
 #: ../../content/administration/supported_versions.rst:89
 msgid "Legend"
@@ -8809,7 +9008,7 @@ msgstr ""
 #: ../../content/administration/upgrade.rst:5
 msgid ""
 "An upgrade involves moving a database from an older version to a newer "
-"supported version (e.g., from Odoo 15.0 to Odoo 17.0). Regular upgrades are "
+"supported version (e.g., from Odoo 16.0 to Odoo 18.0). Regular upgrades are "
 "crucial as each version offers new features, bug fixes, and security "
 "patches. Using a :doc:`supported version <supported_versions>` is strongly "
 "recommended. Each major version is supported for three years."
@@ -8820,10 +9019,12 @@ msgid ""
 "Depending on the hosting type and Odoo version used, a database upgrade can "
 "be **mandatory**."
 msgstr ""
+"Beroende på vilken typ av hosting och Odoo-version som används kan en "
+"databasuppgradering vara **obligatorisk**."
 
 #: ../../content/administration/upgrade.rst:16
 msgid ""
-"If a database is on a **major version** (e.g., 15.0, 16.0, 17.0), an upgrade"
+"If a database is on a **major version** (e.g., 16.0, 17.0, 18.0), an upgrade"
 " is mandatory every two years."
 msgstr ""
 
@@ -8831,7 +9032,7 @@ msgstr ""
 msgid ""
 "If a database is on a **minor version** (e.g., 17.1, 17.2, 17.4), an upgrade"
 " is mandatory a few weeks after the next version is released. Minor versions"
-" are usually released every three months."
+" are usually released every two months."
 msgstr ""
 
 #: ../../content/administration/upgrade.rst:24
@@ -8839,10 +9040,12 @@ msgid ""
 "After the initial three years of support, you will have another two years to"
 " complete the upgrade. You will be notified when an upgrade is required."
 msgstr ""
+"Efter de första tre årens support har du ytterligare två år på dig att "
+"genomföra uppgraderingen. Du kommer att meddelas när en uppgradering krävs."
 
 #: ../../content/administration/upgrade.rst:0
 msgid "The \"unsupported version\" popup on Odoo.sh."
-msgstr ""
+msgstr "Popup-fönstret \"version som inte stöds\" på Odoo.sh."
 
 #: ../../content/administration/upgrade.rst:32
 msgid ""
@@ -8850,6 +9053,9 @@ msgid ""
 "recommended. Note that the smaller the version gap, the easier the upgrade "
 "should be."
 msgstr ""
+"Du kan fortsätta med samma version på obestämd tid, även om det inte är "
+"rekommenderat. Observera att ju mindre versionsgapet är, desto enklare bör "
+"uppgraderingen vara."
 
 #: ../../content/administration/upgrade.rst:37
 msgid ""
@@ -8857,6 +9063,9 @@ msgid ""
 "mandatory upgrade will be automatically carried out. You are in control of "
 "the process as long as the deadline is not reached."
 msgstr ""
+"Du kommer att få ett meddelande i din databas några veckor innan en "
+"obligatorisk uppgradering kommer att genomföras automatiskt. Du har kontroll"
+" över processen så länge tidsfristen inte har löpt ut."
 
 #: ../../content/administration/upgrade.rst:0
 msgid "The upgrade message prompt on the top right of the database"
@@ -8870,6 +9079,11 @@ msgid ""
 "the test fails, you can test an upgrade using the `database manager "
 "<https://www.odoo.com/my/databases>`_."
 msgstr ""
+"Konkret utför Odoos Upgrade Team en tyst testuppgradering av varje databas "
+"som ska uppgraderas. Om testet är framgångsrikt och varar mindre än 20 "
+"minuter kan du direkt utlösa uppgraderingen från databasen. Om testet "
+"misslyckas kan du testa en uppgradering med hjälp av `databashanteraren "
+"<https://www.odoo.com/my/databases>`_."
 
 #: ../../content/administration/upgrade.rst:49
 msgid ""
@@ -8877,12 +9091,17 @@ msgid ""
 " an upgraded test database <upgrade-request-test>` first and spend time "
 ":ref:`testing <upgrade-testing>` it."
 msgstr ""
+"När du uppmanas att uppgradera rekommenderas det starkt att du först "
+":ref:`begär en uppgraderad testdatabas <upgrade-request-test>` och lägger "
+"tid på att :ref:`testa <upgrade-testing>` den."
 
 #: ../../content/administration/upgrade.rst:52
 msgid ""
 "An automatic upgrade to the next version will be triggered if no action is "
 "taken before the specified due date."
 msgstr ""
+"En automatisk uppgradering till nästa version kommer att utlösas om ingen "
+"åtgärd vidtas före det angivna förfallodatumet."
 
 #: ../../content/administration/upgrade.rst:55
 msgid "An upgrade does not cover:"
@@ -8921,6 +9140,12 @@ msgid ""
 "request-test>` while also :doc:`upgrading the source code of your custom "
 "modules </developer/howtos/upgrade_custom_db>`."
 msgstr ""
+"Om din databas innehåller anpassade moduler kan den inte uppgraderas förrän "
+"en version av dina anpassade moduler är tillgänglig för målversionen av "
+"Odoo. För kunder som underhåller sina egna anpassade moduler rekommenderar "
+"vi att parallellisera processen genom att :ref:`begära en uppgraderad "
+"databas <upgrade-request-test>` samtidigt som du :doc:`uppgraderar källkoden"
+" för dina anpassade moduler </developer/howtos/upgrade_custom_db>`."
 
 #: ../../content/administration/upgrade.rst:73
 msgid "Upgrading in a nutshell"
@@ -8931,6 +9156,8 @@ msgid ""
 "Request an upgraded test database (see :ref:`obtaining an upgraded test "
 "database <upgrade-request-test>`)."
 msgstr ""
+"Begär en uppgraderad testdatabas (se :ref:`Obtaining an upgraded test "
+"database <upgrade-request-test>`)."
 
 #: ../../content/administration/upgrade.rst:77
 msgid ""
@@ -8947,6 +9174,8 @@ msgid ""
 "Thoroughly test the upgraded database (see :ref:`testing the new version of "
 "the database <upgrade-testing>`)."
 msgstr ""
+"Testa den uppgraderade databasen grundligt (se :ref:`testa den nya versionen"
+" av databasen <upgrade-testing>`)."
 
 #: ../../content/administration/upgrade.rst:81
 msgid ""
@@ -8954,6 +9183,10 @@ msgid ""
 "`Support page and selecting \"An issue related to my future upgrade (I am "
 "testing an upgrade)\" <https://www.odoo.com/help?stage=migration>`_."
 msgstr ""
+"Rapportera alla problem som uppstår under testningen till Odoo genom att gå "
+"till `Support-sidan och välja \"Ett problem relaterat till min framtida "
+"uppgradering (jag testar en uppgradering)\" "
+"<https://www.odoo.com/help?stage=migration>`_."
 
 #: ../../content/administration/upgrade.rst:84
 msgid ""
@@ -8971,6 +9204,9 @@ msgid ""
 "for the time it takes to complete the process (see :ref:`upgrading the "
 "production database <upgrade-production>`)."
 msgstr ""
+"Begär uppgradering av produktionsdatabasen, vilket gör den otillgänglig "
+"under den tid det tar att slutföra processen (se :ref:`uppgradering av "
+"produktionsdatabasen <upgrade-production>`)."
 
 #: ../../content/administration/upgrade.rst:88
 msgid ""
@@ -8978,6 +9214,10 @@ msgid ""
 "`Support page and selecting \"An issue related to my upgrade (production)\" "
 "<https://www.odoo.com/help?stage=post_upgrade>`_."
 msgstr ""
+"Rapportera eventuella problem som uppstått under uppgraderingen till Odoo "
+"genom att gå till `Support-sidan och välja \"Ett problem relaterat till min "
+"uppgradering (produktion)\" "
+"<https://www.odoo.com/help?stage=post_upgrade>`_."
 
 #: ../../content/administration/upgrade.rst:95
 msgid "Obtaining an upgraded test database"
@@ -8991,6 +9231,11 @@ msgid ""
 "manager <https://www.odoo.com/my/databases>`_, or your `Odoo.sh project "
 "<https://www.odoo.sh/project>`_."
 msgstr ""
+"Sidan `Upgrade <https://upgrade.odoo.com>`_ är den huvudsakliga plattformen "
+"för att begära en uppgraderad databas. Beroende på värdtyp kan du dock "
+"uppgradera från kommandoraden (lokalt), Odoo Onlines `databashanterare "
+"<https://www.odoo.com/my/databases>`_ eller ditt `Odoo.sh-projekt "
+"<https://www.odoo.sh/project>`_."
 
 #: ../../content/administration/upgrade.rst:103
 msgid ""
@@ -9009,6 +9254,8 @@ msgid ""
 "Odoo Online databases can be manually upgraded via the `database manager "
 "<https://www.odoo.com/my/databases>`_."
 msgstr ""
+"Odoo Online-databaser kan uppgraderas manuellt via `database manager "
+"<https://www.odoo.com/my/databases>`_."
 
 #: ../../content/administration/upgrade.rst:114
 msgid ""
@@ -9094,6 +9341,8 @@ msgid ""
 "The **latest production daily automatic backup** is then sent to the Upgrade"
 " platform."
 msgstr ""
+"Den **nyaste dagliga automatiska säkerhetskopian** skickas sedan till "
+"Upgrade-plattformen."
 
 #: ../../content/administration/upgrade.rst:148
 msgid ""
@@ -9144,7 +9393,7 @@ msgstr ""
 
 #: ../../content/administration/upgrade.rst:173
 msgid "This command has some requirements on the environment it runs in:"
-msgstr ""
+msgstr "Detta kommando har vissa krav på den miljö det körs i:"
 
 #: ../../content/administration/upgrade.rst:175
 msgid ""
@@ -9152,6 +9401,9 @@ msgid ""
 "normally found in any Linux distribution (including WSL). An error will be "
 "displayed if one or several of them are missing."
 msgstr ""
+"Vissa externa kommandon som måste tillhandahållas av operativsystemet och "
+"som normalt finns i alla Linux-distributioner (inklusive WSL). Ett "
+"felmeddelande visas om ett eller flera av dem saknas."
 
 #: ../../content/administration/upgrade.rst:178
 msgid ""
@@ -9162,6 +9414,11 @@ msgid ""
 "<https://www.postgresql.org/docs/current/libpq-pgpass.html>`_ for this "
 "requirement."
 msgstr ""
+"Systemanvändaren som utför kommandot måste konfigureras med åtkomst till "
+"databasen. Se PostgreSQL-dokumentationen för `klientmiljön "
+"<https://www.postgresql.org/docs/current/libpq-envars.html>`_ eller "
+"`klientlösenordsfilen <https://www.postgresql.org/docs/current/libpq-"
+"pgpass.html>`_ för detta krav."
 
 #: ../../content/administration/upgrade.rst:182
 msgid ""
@@ -9170,6 +9427,10 @@ msgid ""
 "between 32768 and 60999. This can be in conflict with your restrictive "
 "firewall and may need an exception added to the firewall configuration."
 msgstr ""
+"Skriptet måste kunna nå en eller flera servrar i uppgraderingsplattformen "
+"både på TCP-port 443 och på valfri slumpmässig TCP-port i intervallet mellan"
+" 32768 och 60999. Detta kan vara i konflikt med din restriktiva brandvägg "
+"och kan behöva ett undantag som läggs till i brandväggskonfigurationen."
 
 #: ../../content/administration/upgrade.rst:187
 msgid ""
@@ -9184,6 +9445,8 @@ msgid ""
 "An upgraded test database can also be requested via the `Upgrade page "
 "<https://upgrade.odoo.com>`_."
 msgstr ""
+"En uppgraderad testdatabas kan också beställas via `Upgrade page "
+"<https://upgrade.odoo.com>`_."
 
 #: ../../content/administration/upgrade.rst:197
 msgid ""
@@ -9279,6 +9542,9 @@ msgid ""
 "not stuck in your day-to-day activities by a change in views, behavior, or "
 "an error message once the upgrade goes live."
 msgstr ""
+"Det är viktigt att testa den uppgraderade testdatabasen för att säkerställa "
+"att du inte fastnar i dina dagliga aktiviteter på grund av en ändring i "
+"vyer, beteende eller ett felmeddelande när uppgraderingen tas i drift."
 
 #: ../../content/administration/upgrade.rst:236
 msgid ""
@@ -9477,6 +9743,12 @@ msgid ""
 "to report any problem encountered during the testing to fix it before "
 "upgrading your production database."
 msgstr ""
+"Om du stöter på ett problem när du testar din uppgraderade testdatabas kan "
+"du begära hjälp från Odoo genom att gå till `Support-sidan och välja \"Ett "
+"problem relaterat till min framtida uppgradering (jag testar en "
+"uppgradering)\" <https://www.odoo.com/help?stage=migration>`_. I vilket fall"
+" som helst är det viktigt att rapportera alla problem som uppstår under "
+"testningen för att åtgärda det innan du uppgraderar din produktionsdatabas."
 
 #: ../../content/administration/upgrade.rst:293
 msgid ""
@@ -9534,6 +9806,9 @@ msgid ""
 "that the upgraded database can be used as your main database without any "
 "issues, it is time to plan the go-live day."
 msgstr ""
+"När :ref:`testerna <upgrade-testing>` har slutförts och du är säker på att "
+"den uppgraderade databasen kan användas som huvuddatabas utan problem, är "
+"det dags att planera dagen för go-live."
 
 #: ../../content/administration/upgrade.rst:317
 msgid ""
@@ -9589,6 +9864,8 @@ msgid ""
 "The process of upgrading a production database is similar to upgrading a "
 "test database, but with a few exceptions."
 msgstr ""
+"Processen för att uppgradera en produktionsdatabas liknar uppgraderingen av "
+"en testdatabas, men med några undantag."
 
 #: ../../content/administration/upgrade.rst:339
 msgid ""
@@ -9596,6 +9873,9 @@ msgid ""
 "<upgrade-request-test>`, except for the purpose option, which must be set to"
 " :guilabel:`Production` instead of :guilabel:`Test`."
 msgstr ""
+"Processen liknar :ref:`Att få en uppgraderad testdatabas <upgrade-request-"
+"test>`, med undantag för alternativet purpose, som måste anges till "
+":guilabel:`Production` i stället för :guilabel:`Test`."
 
 #: ../../content/administration/upgrade.rst:344
 msgid ""
@@ -9612,6 +9892,8 @@ msgid ""
 "The process is similar to :ref:`obtaining an upgraded test database "
 "<upgrade-request-test>` on the :guilabel:`Production` branch."
 msgstr ""
+"Processen liknar :ref:`att erhålla en uppgraderad testdatabas <upgrade-"
+"request-test>` på grenen :guilabel:`Production`."
 
 #: ../../content/administration/upgrade.rst:0
 msgid "View from the upgrade tab"
@@ -9670,6 +9952,8 @@ msgid ""
 "An upgraded production database can also be requested via the `Upgrade page "
 "<https://upgrade.odoo.com>`_."
 msgstr ""
+"En uppgraderad produktionsdatabas kan också begäras via `Upgrade-sidan "
+"<https://upgrade.odoo.com>`_."
 
 #: ../../content/administration/upgrade.rst:383
 msgid ""
@@ -9677,6 +9961,9 @@ msgid ""
 "will **not** be present on your upgraded database. This is why we recommend "
 "not using it during the upgrade process."
 msgstr ""
+"När databasen har laddats upp kommer alla ändringar i din produktionsdatabas"
+" **inte** att finnas i din uppgraderade databas. Det är därför vi "
+"rekommenderar att du inte använder den under uppgraderingsprocessen."
 
 #: ../../content/administration/upgrade.rst:388
 msgid ""
@@ -9693,8 +9980,8 @@ msgstr ""
 msgid ""
 "In case of an issue with your production database, you can request the "
 "assistance of Odoo by going to the `Support page and selecting \"An issue "
-"related to my future upgrade (I am testing an upgrade)\" "
-"<https://www.odoo.com/help?stage=migration>`_."
+"related to my upgrade (production)\" "
+"<https://www.odoo.com/help?stage=post_upgrade>`_."
 msgstr ""
 
 #: ../../content/administration/upgrade.rst:399
@@ -9781,33 +10068,20 @@ msgstr "**rensning** av befintliga data och konfigurationer vid uppgradering;"
 
 #: ../../content/administration/upgrade.rst:433
 msgid ""
-"the upgrade of **custom modules created in-house or by third parties**, "
-"including Odoo partners;"
+"the upgrade of **additional modules not covered by a maintenance contract** "
+"that are created in-house or by third parties, including Odoo partners; and"
 msgstr ""
-"uppgradering av **anpassade moduler som skapats internt eller av tredje "
-"part**, inklusive Odoo-partner;"
 
-#: ../../content/administration/upgrade.rst:434
-msgid ""
-"lines of **code added to standard modules**, i.e., customizations created "
-"outside the Studio app, code entered manually, and :ref:`automated actions "
-"using Python code <studio/automated-actions/action>`; and"
-msgstr ""
-"rader med **kod som lagts till i standardmoduler**, dvs. anpassningar som "
-"skapats utanför Studio-appen, kod som matats in manuellt och "
-":ref:`automatiserade åtgärder med Python-koden <studio/automated-"
-"actions/action>`; och"
-
-#: ../../content/administration/upgrade.rst:437
+#: ../../content/administration/upgrade.rst:435
 msgid "**training** on using the upgraded version's features and workflows."
 msgstr ""
 "**utbildning** i att använda den uppgraderade versionens funktioner och "
 "arbetsflöden."
 
-#: ../../content/administration/upgrade.rst:440
+#: ../../content/administration/upgrade.rst:438
 msgid ":doc:`Odoo.sh documentation <odoo_sh>`"
 msgstr ":doc:`Odoo.sh dokumentation <odoo_sh>`"
 
-#: ../../content/administration/upgrade.rst:441
+#: ../../content/administration/upgrade.rst:439
 msgid ":doc:`Supported Odoo versions <supported_versions>`"
 msgstr ":doc:`Odoo-versioner som stöds <supported_versions>`"
